@@ -1,0 +1,14 @@
+@prefix :     <http://thesoftworld.com/2007/dice.n3#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+:Die a rdfs:Class.
+
+:d4 a :Die.
+:d6 a :Die.
+:d8 a :Die.
+:d10 a :Die.
+:d12 a :Die.
+:d20 a :Die.
+:d100 a :Die.

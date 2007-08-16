@@ -1,0 +1,157 @@
+@prefix : <http://thesoftworld.com/2007/properties.n3#>.
+@prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<> rdfs:title "Properties of Characters" .
+<> rdfs:comment "The verbs used to describe a Character" .
+
+# features
+:hitDiceType a rdfs:Property;
+    rdfs:comment "What size die is used to calculate this creature's hit points for each level.";
+.
+# members of this class are Features
+
+:goodSaves a rdfs:Property;
+    rdfs:comment "Of fort, ref, and will, which saves are computed using the \"good\" saves table.";
+    owl:allValuesFrom c:Save;
+.
+# objects of this verb are Features
+
+:babTable a rdfs:Property;
+    rdfs:comment "The base attack bonus table.";
+.
+
+:skillPoints a rdfs:Property;
+    rdfs:comment "Expression to determine how many skill points will be gained for each level or hit die.";
+.
+# objects of this class are Features
+
+
+:miscTrait a rdfs:Property;
+    rdfs:comment "Possesses a generic special ability, quality or other attribute possessed by the creature arising from its families.";
+    owl:allValuesFrom c:MiscTrait;
+.
+
+:specialAction a rdfs:Property;
+    rdfs:comment "Something the creature can do on its turn other than cast, attack, or invoke a spell-like ability.";
+    owl:allValuesFrom c:SpecialAction;
+.
+
+:sense a rdfs:Property;
+    rdfs:comment "A sense possessed by the creature.";
+    owl:allValuesFrom c:Sense;
+.
+
+:proficiency a rdfs:Property;
+    rdfs:comment "Any proficiencies possessed by the creature.";
+    owl:allValuesFrom c:Proficiency;
+.
+
+:alignment a rdfs:Property;
+    owl:allValuesFrom c:Alignment;
+.
+
+:additional a rdfs:Property;
+    rdfs:comment "Prose description of any items not fully defined in the creature's graph.";
+.
+
+:treasure a rdfs:Property;
+    rdfs:comment "Type of treasure typically possessed by creatures of this type.";
+.
+
+:vitality a rdfs:Property;
+    rdfs:comment "Behaviors of the creature that differ from the basic needs of life, e.g. needs to eat, sleep, drink.";
+    owl:allValuesFrom c:Vitality;
+.
+
+:language a rdfs:Property;
+    rdfs:comment "What languages the creature can understand.";
+    owl:allValuesFrom c:Language;
+.
+
+:movement a rdfs:Property;
+    rdfs:comment "What type of movement this creature is capable of.";
+    owl:allValuesFrom c:MoveMechanic;
+.
+
+:size a rdfs:Property;
+    owl:allValuesFrom c:Size;
+.
+
+:family a rdfs:Property;
+    owl:allValuesFrom c:Family;
+.
+
+:alignmentEffect a rdfs:Property;
+    rdfs:comment "For some given alignment aspect (example: evil, lawful), any effect that depends on alignment affects a creature with this subtype as if the creature has that alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the aligned quality overcomes damage reduction as if its natural weapons and any weapons it wields were aligned to that alignment.";
+    owl:allValuesFrom c:Alignment;
+.
+
+:flight a rdfs:Property;
+    rdfs:comment "How much skill a creature has at flying.";
+    owl:allValuesFrom c:Fly;
+.
+
+:existentialStatus a rdfs:Property;
+    rdfs:comment "Whether a creature is currently existing on its native plane or somwehere else.";
+.
+
+:shapeChangeStatus a rdfs:Property;
+    rdfs:comment "For a creature able to shape change, the shape it has currently assumed.";
+.
+:range a rdfs:Property;
+.
+:abilityScore a rdfs:Property;
+    rdfs:label "Ability Score";
+    rdfs:comment "Used to specify one of the 6 ability scores as a predicate.";
+    owl:allValuesFrom c:AbilityScore;
+.
+:maximum a rdfs:Property;
+    rdfs:comment "Numeric Constraint: May be no more than";
+.
+:minimum a rdfs:Property;
+    rdfs:comment "Numeric Constraint: May be no less than";
+.
+:immunity a rdfs:Property;
+.
+:resistance a rdfs:Property;
+.
+
+:cr a rdfs:Property;
+    rdfs:label "CR";
+    rdfs:comment "Challenge Rating";
+.
+
+:initiative a rdfs:Property;
+.
+
+:armorClass a rdfs:Property;
+    rdfs:label "AC";
+    rdfs:comment "Armor Class";
+.
+:spellResistance a rdfs:Property;
+    rdfs:label "Spell Resistance";
+.
+:speed a rdfs:Property;
+.
+:damageReduction a rdfs:Property;
+    rdfs:label "Damage Reduction";
+.
+:bab a rdfs:Property;
+    rdfs:label "BAB";
+    rdfs:comment "Base Attack Bonus";
+.
+:grapple a rdfs:Property .
+
+:space a rdfs:Property;
+    rdfs:comment "Amount of space a creature takes up";
+.
+
+:reach a rdfs:Property .
+
+:casterLevel a rdfs:Property;
+    rdfs:label "CL";
+    rdfs:comment "Effective caster level of this creature.  When present, this supersedes any other casting class levels a creature may have.";
+.
+:save a rdfs:Property .

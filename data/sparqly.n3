@@ -1,0 +1,18 @@
+# Ahh, Mister Sparkle
+
+@prefix : <http://thesoftworld.com/2007/sparqly.n3#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+:SparqItem a rdfs:Class.
+:SparqAttribute a rdfs:Class.
+
+:att a rdfs:Property;
+    owl:allValuesFrom :SparqAttribute;
+.
+:formula a rdfs:Property.
+
+:binding a rdfs:Property.
+
+:This a rdfs:Class.
+:this a :This. # woot, singleton.

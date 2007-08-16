@@ -1,0 +1,77 @@
+
+@prefix :  <http://thesoftworld.com/2007/pcclass.n3#>.
+@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> rdfs:title "PC Classes" .
+<> rdfs:comment "Reference for PC classes" .
+
+:PCClass rdfs:subClassOf c:Characteristic .
+
+
+
+:barbarian a :PCClass;
+    :goodSaves c:fort;
+    p:babTable :fighter!p:babTable;
+.
+
+:bard a :PCClass;
+    :goodSaves c:ref, c:will;
+    p:babTable :cleric!p:babTable;
+.
+
+:cleric a :PCClass;
+    :goodSaves c:fort, c:will;
+    p:babTable ("+0" "+1" "+2" "+3" "+3" "+4" "+5" "+6/+1" "+6/+1" "+7/+2" "+8/+3" 
+               "+9/+4" "+9/+4" "+10/+5" "+11/+6/+1" "+12/+7/+2" "+12/+7/+2" 
+               "+13/+8/+3" "+14/+9/+4" "+15/+10/+5");
+.
+
+
+:druid a :PCClass;
+    :goodSaves c:fort, c:will;
+    p:babTable :cleric!p:babTable;
+.
+
+:fighter a :PCClass;
+    :goodSaves c:fort;
+    p:babTable ("+1" "+2" "+3" "+4" "+5" "+6/+1" "+7/+2" "+8/+3" "+9/+4" "+10/+5"
+              "+11/+6/+1" "+12/+7/+2" "+13/+8/+3" "+14/+9/+4" "+15/+10/+5"
+              "+16/+11/+6/+1" "+17/+12/+7/+2" "+18/+13/+8/+3" "+19/+14/+9/+4"
+              "+20/+15/+10/+5");
+    ## :specialAbilityTable (c:bonusFeat c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat rdf:nil c:bonusFeat)
+.
+
+:monk a :PCClass;
+    :goodSaves c:fort, c:ref, c:will;
+    p:babTable :cleric!p:babTable;
+.
+
+:paladin a :PCClass;
+    :goodSaves c:fort;
+    p:babTable :fighter!p:babTable;
+.
+
+:ranger a :PCClass;
+    :goodSaves c:fort, c:ref;
+    p:babTable :fighter!p:babTable;
+.
+
+:rogue a :PCClass;
+    :goodSaves c:ref;
+    p:babTable :cleric!p:babTable;
+.
+
+:sorcerer a :PCClass;
+    :goodSaves c:will;
+    p:babTable :wizard!p:babTable;
+.
+
+:wizard a :PCClass;
+    :goodSaves c:will;
+    p:babTable ("+0" "+1" "+1" "+2" "+2" "+3" "+3" "+4" "+4" "+5" "+5" "+6/+1"
+               "+6/+1" "+7/+2" "+7/+2" "+8/+3" "+8/+3" "+9/+4" "+9/+4" 
+               "+10/+5");
+.
+
+# vi:si

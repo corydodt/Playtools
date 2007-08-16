@@ -1,0 +1,394 @@
+
+@prefix : <http://thesoftworld.com/2007/family.n3#>.
+@prefix p: <http://thesoftworld.com/2007/properties.n3#> .
+@prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
+
+@prefix die: <http://thesoftworld.com/2007/dice.n3#>.
+@prefix pcclass: <http://thesoftworld.com/2007/pcclass.n3#>.
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+
+<> rdfs:title "Families of Monster" .
+
+:standardDarkvision a c:Darkvision;
+    rdfs:label "Darkvision";
+    p:range "60 ft.";
+.
+
+:aberration
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves c:will;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense :standardDarkvision;
+    p:proficiency c:naturalWeapons, c:armorAsDescribed;
+.
+
+:animal
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves c:fort, c:ref;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:abilityConstraint [ p:ability c:int; p:maximum 2 ];
+    p:sense c:lowLightVision;
+    p:alignment c:neutral;
+    p:treasure rdf:nil;
+    p:proficiency c:naturalWeapons, c:armorNone;
+    p:additional "noncombative animals -5 to attack, 1/2 str bonus to dam";
+.
+
+:construct
+    a c:Family;
+    p:hitDiceType die:d10;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves rdf:nil;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:abilityConstraint [ p:ability c:con; p:maximum 0 ];
+    p:sense c:lowLightVision, :standardDarkvision;
+    p:immunity c:mindAffecting, c:poison, c:sleep, c:paralysis, c:stunning, 
+                c:disease, c:deathEffects, c:necromancy;
+    p:miscTrait c:noAbilityDamage, c:noAbilityDrain, c:noEnergyDrain, 
+            c:noNonLethalDamage, c:noCriticalHits, c:noTiring, 
+            c:noDeathFromMassiveDamage, c:destroyedAtZero, c:soulless;
+    p:proficiency c:naturalWeapons, c:armorNone, c:weaponsAsDescribed;
+    p:vitality c:noEat, c:noSleep, c:noBreathe;
+    p:miscTrait c:fortitudeImmunity;
+    p:additional 
+        "Cannot heal damage on their own, but often can be repaired by exposing them to a certain kind of effect (see the creature’s description for details) or through the use of the Craft Construct feat. A construct with the fast healing special quality still benefits from that quality.", 
+        "Because its body is a mass of unliving matter, a construct is hard to destroy. It gains bonus hit points based on size, as shown on the table. [table]"
+    ;
+.
+
+:dragon
+    a c:Family;
+    p:hitDiceType die:d10;
+    p:babTable pcclass:fighter!p:babTable;
+    p:goodSaves c:fort, c:ref, c:will;
+    p:skillPoints "(int+6)*hitDiceType";
+    p:sense :standardDarkvision, c:lowLightVision;
+    p:immunity c:sleep, c:paralysis;
+    p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:armorNone;
+.
+# "In human form, proficient with simple weapons."
+# TODO - requires reasoning
+{ ?m p:family :dragon . ?m p:shapeChangeStatus c:asHumanoid } => 
+    { ?m p:proficiency c:simpleWeapons } .
+
+:elemental
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense :standardDarkvision;
+    p:immunity c:poison, c:sleep, c:paralysis, c:stunning;
+    p:miscTrait c:noCriticalHits, c:noFlanking, c:quasiSoulless;
+    p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
+    p:vitality c:noEat, c:noSleep, c:noBreathe;
+.
+# the goodSaves of an elemental depend on the subType, as given below.
+# "For something with both families elemental and air, that thing has
+# goodSaves c:ref"
+# TODO - requires reasoning
+{ ?m p:family :elemental, :air } => { ?m p:goodSaves c:ref }.
+{ ?m p:family :elemental, :fire } => { ?m p:goodSaves c:ref }.
+{ ?m p:family :elemental, :earth } => { ?m p:goodSaves c:fort }.
+{ ?m p:family :elemental, :water } => { ?m p:goodSaves c:fort }.
+
+:fey
+    a c:Family;
+    p:hitDiceType die:d6;
+    p:babTable pcclass:wizard!p:babTable;
+    p:goodSaves c:ref, c:will;
+    p:skillPoints "(int+6)*hitDiceType";
+    p:sense c:lowLightVision;
+    p:proficiency c:simpleWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
+.
+
+:giant
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves c:fort;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense c:lowLightVision;
+    p:proficiency c:simpleWeapons, c:martialWeapons, c:naturalWeapons, 
+            c:armorAsDescribed;
+.
+
+:humanoid
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves c:ref;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:proficiency c:simpleWeapons, c:armorAsDescribed;
+    p:additional "Proficiencies may be determined by character class.";
+.
+
+:magicalBeast
+    a c:Family;
+    rdfs:label "Magical Beast";
+    p:hitDiceType die:d10;
+    p:babTable pcclass:fighter!p:babTable;
+    p:goodSaves c:fort, c:ref;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense c:lowLightVision, :standardDarkvision;
+    p:proficiency c:naturalWeapons, c:armorNone;
+.
+
+:monstrousHumanoid
+    a c:Family;
+    rdfs:label "Monstrous Humanoid";
+    p:hitDiceType die:d8;
+    p:babTable pcclass:fighter!p:babTable;
+    p:goodSaves c:ref, c:will;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense :standardDarkvision;
+    p:proficiency c:simpleWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
+.
+
+:ooze
+    a c:Family;
+    p:hitDiceType die:d10;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves rdf:nil; 
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense c:blind, c:blindsight;
+    p:abilityConstraint [ p:ability c:int; p:maximum 0 ];
+    p:immunity c:poison, c:sleep, c:paralysis, c:polymorph, c:stunning, 
+            c:mindAffecting;
+    p:miscTrait c:noCriticalHits, c:noFlanking;
+    p:proficiency c:naturalWeapons, c:armorNone;
+    p:vitality c:noSleep;
+    p:additional 
+        "Some oozes have the ability to deal acid damage to objects. In such a case, the amount of damage is equal to 10 + ½ ooze’s HD + ooze’s Con modifier per full round of contact."
+    ;
+.
+
+:outsider
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:fighter!p:babTable;
+    p:goodSaves c:fort, c:ref, c:will;
+    p:skillPoints "(int+8)*hitDiceType";
+    p:sense :standardDarkvision;
+    p:miscTrait c:quasiSoulless;
+    p:proficiency c:simpleWeapons, c:martialWeapons, c:weaponsAsDescribed, 
+            c:armorAsDescribed;
+    p:vitality c:noEat, c:noSleep;
+.
+# outsiders on their native planes are different.
+# TODO - requires reasoning.
+{ ?m p:family :outsider; p:existentialStatus c:native. } =>
+    { 
+      { ?m p:vitality c:noEat } a log:Falsehood .
+      { ?m p:vitality c:noSleep } a log:Falsehood .
+      { ?m p:miscTrait c:quasiSoulless } a log:Falsehood .
+    }
+.
+
+
+:plant
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves c:fort;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:sense c:lowLightVision;
+    p:immunity c:mindAffecting, c:poison, c:sleep, c:paralysis, c:polymorph, 
+            c:stunning;
+    p:miscTrait c:noCriticalHits;
+    p:proficiency c:naturalWeapons, c:armorNone;
+    p:vitality c:noSleep;
+.
+
+:undead
+    a c:Family;
+    p:hitDiceType die:d12;
+    p:babTable pcclass:wizard!p:babTable;
+    p:goodSaves c:will;
+    p:skillPoints "(int+4)*hitDiceType";
+    p:abilityConstraint [ p:ability c:con; p:maximum 0 ];
+    p:sense :standardDarkvision;
+    p:immunity c:mindAffecting, c:poison, c:sleep, c:paralysis, c:stunning, 
+            c:disease, c:deathEffects;
+    p:miscTrait c:noCriticalHits, c:noNonLethalDamage, c:noAbilityDrain, 
+            c:noAbilityDamage, c:noEnergyDrain, c:noTiring, 
+            c:noDeathFromMassiveDamage, c:destroyedAtZero, c:soulless, 
+            c:fortitudeImmunity, c:negativeEnergyHealing;
+    p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:simpleWeapons, 
+            c:armorAsDescribed;
+    p:vitality c:noBreathe, c:noEat, c:noSleep;
+.
+# "Undead with no intelligence score cannot heal on their own."
+# TODO - requires reasoning
+{ ?m p:family :undead . ?m c:int 0 } => { ?m p:miscTrait c:cannotHealNaturally } .
+  
+
+
+:vermin
+    a c:Family;
+    p:hitDiceType die:d8;
+    p:babTable pcclass:cleric!p:babTable;
+    p:goodSaves c:fort;
+    p:skillPoints "(int+2)*hitDiceType";
+    p:abilityConstraint [ p:ability c:int; p:maximum 0 ];
+    p:sense :standardDarkvision;
+    p:proficiency c:naturalWeapons, c:armorNone;
+    p:immunity c:mindAffecting;
+.
+
+:air
+    a c:Family;
+    p:movement [ a c:Fly; p:flight c:perfectFlight ];
+.
+
+:angel
+    a c:Family;
+    p:sense :standardDarkvision;
+    p:immunity c:acid, c:cold, c:petrification;
+    p:resistance [ c:electricity 10 ], [ c:fire 10 ];
+    p:saveBonuses [ c:poison +4 ];
+    p:miscTrait c:protectiveAura;
+    p:miscTrait c:tongues;
+.
+
+:aquatic
+    a c:Family;
+    p:miscTrait c:swim;
+    p:miscTrait c:breatheUnderwater;
+    p:vitality c:mustBreatheWater;
+.
+
+:amphibious a c:Family . # NOT a SRD-standard type!  but required to define aquatic.
+# "aquatic creatures which are amphibious may breathe air."
+# TODO - requires reasoning
+{ ?m p:family :aquatic, :amphibious } => 
+    { { ?m p:vitality c:mustBreatheWater } a log:Falsehood. }
+.
+
+
+:archon
+    a c:Family;
+    p:sense :standardDarkvision;
+    p:miscTrait c:auraOfMenace;
+    p:immunity c:electricity, c:petrification;
+    p:saveBonuses [ c:poison +4 ];
+    p:miscTrait c:magicCircleAgainstEvil, c:teleport, c:tongues;
+.
+
+:augmented a c:Family;
+    # combined with some other type or subtype, has the traits of current type and features of original type
+.
+
+:chaotic
+    a c:Family;
+    p:alignmentEffect c:chaotic;
+.
+
+:cold
+    a c:Family;
+    p:immunity c:cold;
+    p:vulnerability c:fire;
+.
+
+:demon
+    a c:Family;
+    p:immunity c:electricity, c:poison;
+    p:resistance [ c:acid 10 ], [ c:cold 10 ], [ c:fire 10 ];
+    p:miscTrait c:summon, c:telepathy;
+    p:language c:abyssal, c:celestial, c:draconic;
+.
+
+:devil
+    a c:Family;
+    p:immunity c:fire, c:poison;
+    p:resistance [ c:acid 10 ], [ c:cold 10 ];
+    p:sense c:seeInDarkness;
+    p:miscTrait c:summon, c:telepathy;
+    p:language c:infernal, c:celestial, c:draconic;
+.
+
+:earth
+    a c:Family;
+    p:movement c:burrow;
+.
+
+:evil
+    a c:Family;
+    p:alignmentEffect c:evil;
+.
+
+:extraplanar
+    a c:Family;
+.
+
+:fire
+    a c:Family;
+    p:immunity c:fire;
+    p:vulnerability c:cold;
+.
+
+:goblinoid
+    a c:Family;
+.
+
+:good
+    a c:Family;
+    p:alignmentEffect c:good;
+.
+
+:incorporeal
+    a c:Family;
+    p:immunity c:nonMagical;
+    p:abilityConstraint [ p:ability c:str; p:maximum 0 ];
+    p:sense c:incorporealSenses;
+    p:miscTrait c:weaponFinesseAlways, c:incorporealDefense, c:charismaDeflection, 
+            c:incorporealMovement;
+    p:additional 
+        "Although it is not a magical attack, holy water can affect incorporeal undead, but a hit with holy water has a 50% chance of not affecting an incorporeal creature.",
+        "It cannot take any physical action that would move or manipulate an opponent or its equipment, nor is it subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight."
+    ;
+.
+
+:lawful
+    a c:Family;
+    p:alignmentEffect c:lawful;
+.
+
+:native a c:Family.
+
+:reptilian a c:Family.
+
+:shapechanger
+    a c:Family;
+    p:proficiency c:naturalWeapons, c:simpleWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
+.
+
+:swarm
+    a c:Family;
+    p:miscTrait c:noCriticalHits, c:noFlanking, c:destroyedAtZero, c:noTrip, 
+            c:noGrapple, c:noBullRush, c:diffuseTarget, c:cannotGrapple,
+            c:cannotMakeAttackOfOpportunity, c:areaEffect, c:distraction;
+    p:additional "Swarms made up of Diminutive or Fine creatures are susceptible to high winds such as that created by a gust of wind spell. For purposes of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.";
+.
+# a swarm of tiny creatures takes half damage from piercing and slashing.
+# TODO - requires reasoning.
+{ ?m p:family :swarm; p:size c:tiny } => 
+    { ?m p:resistance [ c:piercing "50%" ], [ c:slashing "50%" ] }.
+# A swarm composed of Fine or Diminutive creatures is immune to all weapon damage.
+{ ?m p:family :swarm; p:size c:diminutive } => { ?m p:miscTrait c:noWeaponDamage }.
+{ ?m p:family :swarm; p:size c:fine } =>  { ?m p:miscTrait c:noWeaponDamage }.
+
+:water
+    a c:Family;
+    p:movement c:swim;
+    p:miscTrait c:breatheUnderwater;
+.
+
+
+# vim:si
