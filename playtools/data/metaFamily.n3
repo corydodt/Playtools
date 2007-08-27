@@ -1,6 +1,7 @@
-@prefix : <http://thesoftworld.com/2007/metaFamily.n3#>.
+@prefix sp: <http://thesoftworld.com/2007/metaFamily.n3#>.
 @prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix p:     <http://thesoftworld.com/2007/properties.n3#> .
 
 <> rdfs:title "Parts of a Family" .
 <> rdfs:comment "Defines the family ontology." .
@@ -9,26 +10,26 @@
     sp:att [ a sp:SparqAttribute;
              rdfs:label "Sense";
              sp:binding "?r";
-             sp:formula { sp:this m:sense ?r };
+             sp:formula { sp:this p:sense ?r };
     ];
     sp:att [ a sp:SparqAttribute;
              rdfs:label "SpecialAbility";
              sp:binding "?r";
-             sp:formula { sp:this m:miscTrait ?r.  ?r a c:SpecialAbility };
+             sp:formula { sp:this p:miscTrait ?r.  ?r a c:SpecialAbility };
     ];
     sp:att [ a sp:SparqAttribute;
              rdfs:label "SpecialQuality";
              sp:binding "?r";
-             sp:formula { sp:this m:miscTrait ?r.  ?r a c:SpecialQuality };
+             sp:formula { sp:this p:miscTrait ?r.  ?r a c:SpecialQuality };
     ];
     sp:att [ a sp:SparqAttribute;
              rdfs:label "CombatMechanic";
              sp:binding "?r";
-             sp:formula { sp:this m:miscTrait ?r.  ?r a c:CombatMechanic };
+             sp:formula { sp:this p:miscTrait ?r.  ?r a c:CombatMechanic };
     ];
     sp:att [ a sp:SparqAttribute;
              rdfs:label "Language";
              sp:binding "?r";
-             sp:formula { sp:this m:language ?r };
+             sp:formula { sp:this p:language ?r };
     ];
 .
