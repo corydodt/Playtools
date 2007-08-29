@@ -20,26 +20,19 @@ function testPython()
 #  "command" should not write to stderr if possible, so use 2>&1 to redirect to
 #  stdout.
 {
-    message="$1"
-    # the last line read is the one we want
-    while read l; do line="$l"; done
+    software="$1"
+    line=$(python -c "$2" 2>&1 | tail -1)
 
     if [ -n "$line" ]; then
-        echo "** $message ($line)"
+        echo "** Install $software ($line)"
         errorStatus="error"
     else
-        echo "OK"
+        echo "OK $software"
     fi
 }
 
-function p()
-# Run any python code and print its output or error to stdout.
-{
-    python -c "$@" 2>&1
-}
-
-testPython "Install RDFlib" <<<$(p 'import rdflib')
-testPython "Python 2.5 is required for xml.etree" <<<$(p 'import xml.etree')
+testPython "RDFlib" 'import rdflib'
+testPython "Python 2.5" 'import xml.etree'
 
 if [ "$errorStatus" == "error" ]; then
     echo "** Errors occurred.  Please fix the above errors, then re-run this script."
