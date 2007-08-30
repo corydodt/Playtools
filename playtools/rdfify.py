@@ -69,7 +69,8 @@ class Skills(object):
             yield '    rdfs:label """%s""";' % name.encode('utf-8')
             yield '    :keyAbility c%s;' % rdfName(key_ability)
             if subtype:
-                yield '    :subType %s;' % ', '.join(rdfName(st) for st in subtype.split())
+                subtypes = " ".join('"%s"' % (st,) for st in subtype.split(","))
+                yield '    :subType (%s);' % (subtypes,)
             yield '.'
 
         c.close()
@@ -174,7 +175,7 @@ class Monsters(Skills):
             # organization
             # challenge_rating
             # treasure
-            yield treasure
+            yield '    p:treasure """%s""";' % (treasure,)
             # alignment
 
             # advancement
