@@ -1,10 +1,36 @@
 
 import sqlite3
 from rdflib import ConjunctiveGraph
+from rdflib import Graph
+from rdflib.Namespace import Namespace as NS
+from rdflib.Identifier import Identifier
+from rdflib.Literal import Literal
+from rdflib.BNode import BNode
 import itertools
+import sys
+
+from simpleparse import parser, dispatchprocessor as disp
+from simpleparse.common import numbers
+
+ns_fam = NS('http://thesoftworld.com/2007/family.n3#')
+ns_char = NS('http://thesoftworld.com/2007/characteristic.n3#')
+ns_dice = NS('http://thesoftworld.com/2007/dice.n3#')
+ns_pcclass = NS('http://thesoftworld.com/2007/pcclass.n3#')
+ns_prop = NS('http://thesoftworld.com/2007/properties.n3#')
+ns_skill = NS("http://thesoftworld/2007/skills.n3#")
+ns_spell = NS("http://thesoftworld/2007/spells.n3#")
+ns_rdf = NS("http://www.w3.org/2000/01/rdf-schema#")
+ns_monster = NS("http://thesoftworld/2007/monsters.n3#")
+
+a = ns_rdf['typeof']
 
 def rdfName(s):
-    s = s.replace('-', ' ').replace("'", '')
+    s = s.replace('-', ' ')
+    s = s.replace("'", '')
+    s = s.replace('/', ' ')
+    s = s.replace(':', ' ')
+    s = s.replace('(', ' ').replace(")", ' ')
+    s = s.replace('[', ' ').replace("]", ' ')
     if s.count(',') == 1:
         first, last = s.split(',', 1)
         s = '%s %s' % (last, first)
@@ -16,7 +42,7 @@ def rdfName(s):
 def rdfClass(s):
     return ':' + ''.join(p.capitalize() for p in s.split())
 
-class Skills(object):
+class Converter(object):
     def load(self, conn):
         self.alldata = list(self.data(conn))
 
@@ -25,6 +51,14 @@ class Skills(object):
         for line in itertools.chain(self.preamble(), self.classes(), self.alldata):
             print >>f, line
             print line
+
+    def preamble(self): 
+        raise NotImplemented
+
+    def classes(self):
+        raise NotImplemented
+
+class Skills(Converter):
 
     def preamble(self):
         return [
@@ -74,7 +108,7 @@ class Skills(object):
 
         c.close()
 
-class Monsters(Skills):
+class Monsters(Converter):
 
     def preamble(self):
         return [
@@ -198,6 +232,105 @@ class Monsters(Skills):
         flat = int(flat.split()[1])
         return '    p:armorClass [ a :ACGroup; :ac %d; :touch %d; flat %d ];' % (ac, touch, flat)
 
+spellLevelGrammar = ( #{{{
+'''
+<ws> := [ \t]*
+<nameChar> := [a-zA-Z/]+
+<digits> := [0-9]*
+name := nameChar+
+level := digits+
+
+caster := name, ws, level
+
+>spellLevel< := caster, (',', ws, !, caster)*
+
+spellLevelRoot := spellLevel
+''') #}}}
+
+class SpellLevelDispatcher(disp.DispatchProcessor):
+    def spellLevel(self, t, buffer):
+        return t[3]
+    def caster(self, (t, s1, s2, sub), buffer):
+        namePart, levelPart = sub
+        name = disp.getString(namePart, buffer)
+        level = int(disp.getString(levelPart, buffer))
+        return name, level
+    
+spellLevelParser = parser.Parser(spellLevelGrammar, root='spellLevelRoot')
+
+class Spell(Converter):
+
+    def preamble(self):
+        return [
+            # don't know how to express this
+            # ('', ns_rdf['title'], "DND3.5E monsters"),
+            # ('', ns_rdf['comment'], "Exported from srd35.db"),
+        ]
+
+    def classes(self):
+        return [
+            (Literal('Spell'), ns_rdf['typeof'], ns_rdf["Class"]),
+            (Literal("SpellDomain"), a, ns_rdf["Class"]),
+            (Literal("MonsterousHumanoid"), a, Literal('SpellDomain'))
+        ]
+
+    def dump(self, f):
+        assert self.alldata, ".load() not called"
+        graph = ConjunctiveGraph()
+        for triple in self.preamble():
+            graph.add(triple)
+        for triple in self.classes():
+            graph.add(triple)
+        for spell in self.alldata:
+            for triple in spell:
+                graph.add(triple)
+        graph.serialize(destination=f, format='n3')
+        graph.serialize(destination=sys.stdout, format='n3')
+
+    def data(self, conn):
+        c = conn.cursor()
+        c.execute('''select 
+
+name, altname, school, subschool, descriptor, spellcraft_dc, level, components,
+casting_time, range, target, area, effect, duration, saving_throw,
+spell_resistance, short_description, to_develop, material_components,
+arcane_material_components, focus, description, xp_cost, arcane_focus,
+wizard_focus, verbal_components, sorcerer_focus, bard_focus, cleric_focus,
+druid_focus, full_text, reference
+
+                from spell''')
+
+        for (
+                name, altname, school, subschool, descriptor, spellcraft_dc,
+                level, components, casting_time, range, target, area, effect,
+                duration, saving_throw, spell_resistance, short_description,
+                to_develop, material_components, arcane_material_components,
+                focus, description, xp_cost, arcane_focus, wizard_focus,
+                verbal_components, sorcerer_focus, bard_focus, cleric_focus,
+                druid_focus, full_text, reference
+            ) in c:
+            l = []
+            n = lambda *t:l.append(t)
+            spell = Literal(name)
+            n(spell, a, ns_spell["Spell"])
+            n(spell, ns_rdf['label'], Literal(name))
+            n(spell, ns_spell['school'], Literal(school))
+            if subschool:
+                n(spell, ns_spell['subSchool'], Literal(subschool))
+            for castertype, casterlevel in self.parseLevels(level):
+                anon = BNode()
+                n(spell, ns_spell['castBy'], anon)
+                n(anon, ns_spell['casterType'], Literal(castertype))
+                n(anon, ns_spell['casterLevel'], Literal(casterlevel))
+            yield l
+
+    def parseLevels(self, level):
+        if not level:
+            return []
+        succ, children, end = spellLevelParser.parse(level, processor=SpellLevelDispatcher())        
+        return children
+
+
 if __name__ == '__main__':
     conn = sqlite3.connect('srd35.db')
     s = Skills()
@@ -208,6 +341,11 @@ if __name__ == '__main__':
     s.load(conn)
     s.dump(open('monsters.n3', 'w'))
 
+    s = Spell()
+    s.load(conn)
+    s.dump(open('spells.n3', 'w'))
+
     g = ConjunctiveGraph()
     g.load(file('skills.n3'), format='n3')
     g.load(file('monsters.n3'), format='n3')
+    g.load(file('spells.n3'), format='n3')
