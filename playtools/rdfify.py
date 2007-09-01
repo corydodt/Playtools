@@ -69,7 +69,7 @@ class Skills(object):
             yield '    rdfs:label """%s""";' % name.encode('utf-8')
             yield '    :keyAbility c%s;' % rdfName(key_ability)
             if subtype:
-                yield '    :subType %s;' % ', '.join(rdfName(st) for st in subtype.split())
+                yield '    :subType %s;' % ', '.join(rdfName(st) for st in subtype.split(','))
             yield '.'
 
         c.close()
@@ -152,6 +152,8 @@ class Monsters(Skills):
             
             # speed, oh god.
 
+            yield self.calcAC(armor_class)
+
             # armor_class
             # base_attack
             # grapple
@@ -174,7 +176,6 @@ class Monsters(Skills):
             # organization
             # challenge_rating
             # treasure
-            yield treasure
             # alignment
 
             # advancement
@@ -189,6 +190,13 @@ class Monsters(Skills):
 
 
         c.close()
+
+    def calcAC(self, armor_class):
+        ac, touch, flat = armor_class.rsplit(',', 2)
+        ac = int(ac.split()[0])
+        touch = int(touch.split()[1])
+        flat = int(flat.split()[1])
+        return '    p:armorClass [ a :ACGroup; :ac %d; :touch %d; flat %d ];' % (ac, touch, flat)
 
 if __name__ == '__main__':
     conn = sqlite3.connect('srd35.db')
