@@ -1,3 +1,5 @@
+import sys
+
 from simpleparse import parser, dispatchprocessor as disp
 from simpleparse.common import numbers
 
@@ -9,14 +11,7 @@ grammar = r'''# The N3 Full Grammar
 # $Id: notation3.bnf,v 1.14 2006/06/22 22:03:21 connolly Exp $
 # transcribe from n3.n3 revision 1.28 date: 2006/02/15 15:49:00
 
-# Edited by CDD to make parseable by simpleparse, as follows:
-#  1. Replaced all ::= with :=
-#  2. Replaced all "x" "y"  with "x", "y"
-#  3. Replaced all "x" | "y" with "x" / "y"
-#  4. Rewrote all comments using # instead of /**/
-#  5. A handful of specific edits, labeled with "CDD" below
-#  6. Addition of ws token as needed
-#  7. Addition of ! syntax error token as needed
+# Edited by CDD to make parseable by simpleparse
 
 # yeah, we need whitespace - CDD
 <wsc> := [ \t\n\r]
@@ -27,13 +22,17 @@ comma := ","
 period := "."
 semi := ";"
 
->document< := (ws?, statement, ws?, !, ".", ws?)*
+>document< := (ws / comment / closedStatement)*
+>closedStatement< := statement, ws?, !, statementTerminator
+>statementTerminator< := (semi, ws?)?, period
 
-# Formula does NOT need period on last statement
+comment := "#", ( '"' / NameChar3x / [ \t] / ECHAR / UCHAR)*
 
->formulacontent< := (statement, (".", statement)*)?
+>statement< := !, declaration/universal/existential/simpleStatement/formula
 
->statement< := !, declaration/universal/existential/simpleStatement
+# formulas don't need a closing . on a statement
+>formulacontent< := statement, ws?, (statementTerminator, ws?, statement)*
+>formula< := formulaStart, ws?, formulacontent?, statementTerminator?, ws?, !, formulaEnd
 
 >universal< := forAllKeyword, ws, !, varlist
 >forAllKeyword< := "@forAll"
@@ -51,14 +50,15 @@ prefixKeyword := "@prefix"
 >barename< := qname
 # barename constraint: no colon
 
->simpleStatement< := term, !, propertylist
+>simpleStatement< := term, ws, !, propertylist
 
->propertylist< := (ws?, property, (ws?, semi, ws?, property)*)?
->property< := !, (verb / inverb), ws, !, term, (ws?, comma, ws?, !, term)*
+>propertylist< := (property, (ws?, semi, ws?, property)*)?
+>property< := ?-(period), !, (verb / inverb), ws, !, term, (ws?, comma, ws?, !, term)*
+
 
 >verb< := (hasKeyword, ws)?, !, term/verbOperator
 hasKeyword := "@has"
-verbOperator := "a"/"="/"=>"/"<="
+verbOperator := "a"/"=>"/"<="/"="
 
 
 >inverb< := isKeyword, !, ws, !, term, !, ws, !, ofKeyword
@@ -67,14 +67,13 @@ ofKeyword := "@of"
 
 >term< := pathitem, (ws?, pathtail)?
 
->pathtail< := pathtailBang, !, term/pathtailCaret, !, term
+>pathtail< := (pathtailBang, !, term)/(pathtailCaret, !, term)
 pathtailBang := "!"
 pathtailCaret := "^"
 
->pathitem< := symbol / evar / uvar / numeral / literal / 
-        (formulaStart, formulacontent, formulaEnd) / 
-        (propertylistStart, !, propertylist, propertylistEnd) / 
-        (listStart, !, term*, listEnd) / boolean
+>pathitem< := symbol / evar / uvar / numeral / literal / formula /
+        (propertylistStart, ws?, !, propertylist, ws?, propertylistEnd) / 
+        (listStart, ws?, !, term*, ws?, listEnd) / boolean
 formulaStart := "{"
 formulaEnd := "}"
 propertylistStart := "["
@@ -82,9 +81,7 @@ propertylistEnd := "]"
 listStart := "("
 listEnd := ")"
 
-#        / "@this"  #  Deprecated.  Was allowed for this log:forAll x
-
-literal := (STRING_LITERAL2 / STRING_LITERAL_LONG2), (literalDoubleCaret, !, symbol) / langstring
+literal := (STRING_LITERAL2 / STRING_LITERAL_LONG2) / (literalDoubleCaret, !, symbol) / langstring
 literalDoubleCaret := "^^"
 
 boolean := "@true" / "@false"
@@ -131,12 +128,7 @@ prefix := (("_", NameChar3+) / (NameStartChar3, NameChar3*))?, ":"
 
 >langstring< := (STRING_LITERAL2 / STRING_LITERAL_LONG2), "@", [a-z]+, ("-", [a-z0-9]+)*
 
-# http://www.w3.org/TR/rdf-testcases/#language
-
-
-# borrow from SPARQL... and double some \\ for yacker (or not?)
-
->STRING_LITERAL2< := '"', ( NameChar3x / [ \t] / ECHAR / UCHAR)*, '"'
+>STRING_LITERAL2< := '"', ( '\\"' / NameChar3x / [ \t] / ECHAR / UCHAR)*, '"'
 
 >STRING_LITERAL_LONG2< := '"""', ( ( '"' / '""' )?,
                                  ( NameChar3x / wsc / ECHAR / UCHAR ) )*, '"""'
@@ -144,7 +136,6 @@ prefix := (("_", NameChar3+) / (NameStartChar3, NameChar3*))?, ":"
 # added [] around #x5C - CDD
 >ECHAR< := [#x5C], [tbnrf#x5C#x22']
 
-# UCHAR from Andy's turtle.html
 >UCHAR<    :=   "\\", ( ("u", HEX, HEX, HEX, HEX) / ("U", HEX, HEX, HEX, HEX, HEX, HEX, HEX, HEX) )
 >HEX<      :=   [0-9] / [A-F] / [a-f]
 '''
@@ -154,10 +145,22 @@ n3Parser = parser.Parser(grammar, root='document')
 class Processor(disp.DispatchProcessor):
     def operator(self, (t,s1,s2,sub), buffer):
         print 'operator', disp.getString((t,s1,s2,sub), buffer)
-    pathtailBang = pathtailCaret = hasKeyword = verbKeyword = isKeyword = prefixKeyword = ofKeyword = uriref = period = comma = boolean = literalDoubleCaret = operator
 
+    semi = pathtailBang = pathtailCaret = hasKeyword = verbKeyword = isKeyword = prefixKeyword = ofKeyword = period = comma = boolean = literalDoubleCaret = operator
+
+    def literal(self, (t,s1,s2,sub), buffer):
+        print 'literal', disp.getString((t,s1,s2,sub), buffer)
+
+    def comment(self, (t,s1,s2,sub), buffer):
+        print 'comment', disp.getString((t,s1,s2,sub), buffer)
+
+    def uriref(self, (t,s1,s2,sub), buffer):
+        print 'uriref', disp.getString((t,s1,s2,sub), buffer)
+
+    def prefix(self, (t,s1,s2,sub), buffer):
+        print 'prefix', disp.getString((t,s1,s2,sub), buffer)
 
 if __name__ == '__main__':
-    s = open('Playtools/playtools/data/family.n3')
+    s = open(sys.argv[1])
     p = n3Parser.parse(s.read(), processor=Processor())
     import pdb; pdb.set_trace()
