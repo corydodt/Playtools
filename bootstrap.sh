@@ -11,14 +11,14 @@ EOF
 export errorStatus=""
 
 function testPython()
-# Use: testPython "Fix this thingie" <<<$(command)
-#  If "command" has no output, we pass.
+# Use: testPython "Software name" "python code"
+#  If "python code" has no output, we pass.
 # 
-#  If there is any output, the last line is considered an error message, and we
-#  print it.  Then we set the global errorStatus.
+#  If there is any output, the last line is considered an error message, and
+#  we print it.  Then we set the global errorStatus.
 # 
-#  "command" should not write to stderr if possible, so use 2>&1 to redirect to
-#  stdout.
+#  "python code" should not write to stderr if possible, so use 2>&1 to
+#  redirect to stdout.
 {
     software="$1"
     line=$(python -c "$2" 2>&1 | tail -1)
@@ -32,7 +32,7 @@ function testPython()
 }
 
 testPython "RDFlib" 'import rdflib'
-testPython "Python 2.5" 'import xml.etree'
+testPython "Python 2.5", 'import xml.etree'
 
 if [ "$errorStatus" == "error" ]; then
     echo "** Errors occurred.  Please fix the above errors, then re-run this script."
