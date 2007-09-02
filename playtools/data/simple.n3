@@ -11,3 +11,15 @@ string""".
 :x :y """triple \"quoted string\"""".
 :x :y """triple \"quoted 
 string\"""".
+
+{  } .
+
+{ :x :y :z } .
+
+{ :x :y :z } => { :a :b :c } .
+
+{ 
+    { 
+        { 1 2 3 } 
+    } 
+}.
