@@ -81,7 +81,7 @@ propertylistEnd := "]"
 listStart := "("
 listEnd := ")"
 
-literal := (STRING_LITERAL2 / STRING_LITERAL_LONG2) / (literalDoubleCaret, !, symbol) / langstring
+literal := STRING_LITERAL_LONG2 / STRING_LITERAL2 / (literalDoubleCaret, !, symbol) / langstring
 literalDoubleCaret := "^^"
 
 boolean := "@true" / "@false"
@@ -126,12 +126,12 @@ prefix := (("_", NameChar3+) / (NameStartChar3, NameChar3*))?, ":"
 >evar< := "_:", localname
 >uvar< := "?", localname
 
->langstring< := (STRING_LITERAL2 / STRING_LITERAL_LONG2), "@", [a-z]+, ("-", [a-z0-9]+)*
+>langstring< := (STRING_LITERAL_LONG2 / STRING_LITERAL2), "@", [a-z]+, ("-", [a-z0-9]+)*
 
->STRING_LITERAL2< := '"', ( '\\"' / NameChar3x / [ \t] / ECHAR / UCHAR)*, '"'
-
->STRING_LITERAL_LONG2< := '"""', ( ( '"' / '""' )?,
-                                 ( NameChar3x / wsc / ECHAR / UCHAR ) )*, '"""'
+trips := '"""'
+>STRING_LITERAL_LONG2< := trips, (?-trips, ('\\"' / ANY_CHAR) )*, !, trips
+>STRING_LITERAL2< := '"', ('\\"' / -["\n\r])*, !, '"'
+>ANY_CHAR< := -[]]
 
 # added [] around #x5C - CDD
 >ECHAR< := [#x5C], [tbnrf#x5C#x22']
@@ -149,7 +149,7 @@ class Processor(disp.DispatchProcessor):
     semi = pathtailBang = pathtailCaret = hasKeyword = verbKeyword = isKeyword = prefixKeyword = ofKeyword = period = comma = boolean = literalDoubleCaret = operator
 
     def literal(self, (t,s1,s2,sub), buffer):
-        print 'literal', disp.getString((t,s1,s2,sub), buffer)
+        print 'literal', repr(disp.getString((t,s1,s2,sub), buffer))
 
     def comment(self, (t,s1,s2,sub), buffer):
         print 'comment', disp.getString((t,s1,s2,sub), buffer)
