@@ -322,6 +322,8 @@ druid_focus, full_text, reference
                 n(spell, ns_spell['castBy'], anon)
                 n(anon, ns_spell['casterType'], Literal(castertype))
                 n(anon, ns_spell['casterLevel'], Literal(casterlevel))
+            if saving_throw and saving_throw not in ('No', 'None'):
+                print repr(saving_throw)
             yield l
 
     def parseLevels(self, level):
@@ -335,17 +337,17 @@ if __name__ == '__main__':
     conn = sqlite3.connect('srd35.db')
     s = Skills()
     s.load(conn)
-    s.dump(open('skills.n3', 'w'))
+    s.dump(open('skill.n3', 'w'))
 
     s = Monsters()
     s.load(conn)
-    s.dump(open('monsters.n3', 'w'))
+    s.dump(open('monster.n3', 'w'))
 
     s = Spell()
     s.load(conn)
-    s.dump(open('spells.n3', 'w'))
+    s.dump(open('spell.n3', 'w'))
 
     g = ConjunctiveGraph()
-    g.load(file('skills.n3'), format='n3')
-    g.load(file('monsters.n3'), format='n3')
-    g.load(file('spells.n3'), format='n3')
+    g.load(file('skill.n3'), format='n3')
+    g.load(file('monster.n3'), format='n3')
+    g.load(file('spell.n3'), format='n3')
