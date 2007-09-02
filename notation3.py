@@ -23,16 +23,16 @@ period := "."
 semi := ";"
 
 >document< := (ws / comment / closedStatement)*
->closedStatement< := statement, ws?, !, statementTerminator
->statementTerminator< := (semi, ws?)?, period
+>closedStatement< := statement, ws?, !, sClose
+>sClose< := (semi, ws?)?, period
 
 comment := "#", ( '"' / NameChar3x / [ \t] / ECHAR / UCHAR)*
 
 >statement< := !, declaration/universal/existential/simpleStatement/formula
 
 # formulas don't need a closing . on a statement
->formulacontent< := statement, ws?, (statementTerminator, ws?, statement)*
->formula< := formulaStart, ws?, formulacontent?, statementTerminator?, ws?, !, formulaEnd
+>formulacontent< := statement, ws?, (sClose, ws?, statement)*
+>formula< := formulaStart, ws?, formulacontent?, sClose?, ws?, !, formulaEnd
 
 >universal< := forAllKeyword, ws, !, varlist
 >forAllKeyword< := "@forAll"
@@ -146,7 +146,7 @@ class Processor(disp.DispatchProcessor):
     def operator(self, (t,s1,s2,sub), buffer):
         print 'operator', disp.getString((t,s1,s2,sub), buffer)
 
-    semi = pathtailBang = pathtailCaret = hasKeyword = verbKeyword = isKeyword = prefixKeyword = ofKeyword = period = comma = boolean = literalDoubleCaret = operator
+    formulaStart = formulaEnd = verbOperator = semi = pathtailBang = pathtailCaret = hasKeyword = verbKeyword = isKeyword = prefixKeyword = ofKeyword = period = comma = boolean = literalDoubleCaret = operator
 
     def literal(self, (t,s1,s2,sub), buffer):
         print 'literal', repr(disp.getString((t,s1,s2,sub), buffer))
