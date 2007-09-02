@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> rdfs:label "Test N3 syntax" .
+<> rdfs:comment "Leave this lying around for testing n3 parsers" .
+
+:x :y "single quoted string" .
+:x :y "single \"quoted string\"" .
+:x :y """triple quoted string""".
+:x :y """triple quoted 
+string""".
+:x :y """triple \"quoted string\"""".
+:x :y """triple \"quoted 
+string\"""".
