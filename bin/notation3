@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+"""
+Experimental n3 parser
+
+Doesn't really work yet; for example, the nested formulas in family.n3 don't
+parse correctly.
+
+playtools/data/simple.n3 is a low-bar test suite for this.
+"""
 import sys
 
 from simpleparse import parser, dispatchprocessor as disp
