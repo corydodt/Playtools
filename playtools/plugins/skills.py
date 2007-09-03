@@ -47,7 +47,7 @@ SKILL_TEMPLATE = string.Template(''':$rdfName
     rdfs:label "${label}";
     p:keyAbility ${keyAbility};
 ${retryable}${psionic}${trained}
-    p:reference <http://www.d20srd.org/srd/skills/${rdfName}.htm>;
+    p:reference <http://www.d20srd.org/srd/${reference}>;
 .
 ''')
 
@@ -72,6 +72,15 @@ def cleanSrdXml(s):
     u = u.replace(r'\\', '\\')
     return u
 
+def srdBoolean(col):
+    """
+    True if the column is "yes"
+    Otherwise False
+    """
+    if col is None:
+        return False
+    return col.lower().strip() == "yes"
+
 
 class SkillConverter(object):
     """Convert the Sqlite skill table
@@ -94,23 +103,23 @@ class SkillConverter(object):
 
     def writePlaytoolsItem(self, playtoolsIO, c):
         r = rdfName(c.name)
-        try:
-            assert r not in self._seenNames
-        except AssertionError:
-            import sys, pdb; pdb.post_mortem(sys.exc_info()[2])
-        self._seenNames[r] = 1
-        if c.try_again is None:
-            retryable = ''
+        origR = r
+        
+        # for skills with same name, increment a counter on the rdfName
+        if r in self._seenNames:
+            self._seenNames[r] = self._seenNames[r] + 1
+            r = "%s%s" % (r, self._seenNames[r])
         else:
-            retryable = (RETRYABLE if c.try_again.lower() == "yes" else '')
-        if c.psionic is None:
-            psionic = ''
+            self._seenNames[r] = 1
+
+        retryable = (RETRYABLE if srdBoolean(c.try_again) else '')
+        psionic = (PSIONIC if srdBoolean(c.psionic) else '')
+        trained = (TRAINED if srdBoolean(c.trained) else '')
+
+        if psionic:
+            reference = "psionic/skills/%s.htm" % (origR,)
         else:
-            psionic = (PSIONIC if c.psionic.lower() == "yes" else '')
-        if c.trained is None:
-            trained = ''
-        else:
-            trained = (TRAINED if c.trained.lower() == "yes" else '')
+            reference = "skills/%s.htm" % (origR,)
 
         s = SKILL_TEMPLATE.substitute(
             dict(rdfName=r,
@@ -119,6 +128,7 @@ class SkillConverter(object):
                 retryable=retryable,
                 psionic=psionic,
                 trained=trained,
+                reference=reference,
             )
         )
 
