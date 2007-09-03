@@ -142,6 +142,23 @@ class ConvertTestCase(unittest.TestCase):
 
     def test_converterDoc(self):
         actual = C.converterDoc(MockConverter())
-        self.assertEqual(actual, 
-                "This docstring exists only for testing.")
+        self.assertEqual(actual, "This docstring exists only for testing.")
+
+    def test_playtoolsIO(self):
+        n3filename = "n3.n3"
+        xmlfilename = "rdf.rdf"
+        n3f = open(n3filename, "w")
+        xmlf = open(xmlfilename, "w")
+        pt = C.PlaytoolsIO(n3f, xmlf)
+
+        n3s = ":haha :lala :baba ."
+        pt.writeN3(n3s)
+        rdfs = '<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />'
+        pt.writeXml(rdfs)
+
+        n3f.close()
+        xmlf.close()
+
+        self.assertEqual(open(n3filename).read(), n3s)
+        self.assertEqual(open(xmlfilename).read(), rdfs)
 
