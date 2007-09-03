@@ -1,7 +1,7 @@
 @prefix :     <http://thesoftworld.com/2007/monster.n3#> .
 @prefix fam:     <http://thesoftworld.com/2007/family.n3#> .
 @prefix c:     <http://thesoftworld.com/2007/characteristic.n3#> .
-@prefix p:     <http://thesoftworld.com/2007/properties.n3#> .
+@prefix p:     <http://thesoftworld.com/2007/property.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <> rdfs:label "Monsters" .

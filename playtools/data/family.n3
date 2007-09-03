@@ -1,6 +1,6 @@
 
 @prefix : <http://thesoftworld.com/2007/family.n3#>.
-@prefix p: <http://thesoftworld.com/2007/properties.n3#> .
+@prefix p: <http://thesoftworld.com/2007/property.n3#> .
 @prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
 
 @prefix die: <http://thesoftworld.com/2007/dice.n3#>.
