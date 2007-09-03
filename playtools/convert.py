@@ -125,3 +125,7 @@ def rdfName(s):
 
 def converterDoc(converter):
     return converter.__doc__.splitlines()[0].rstrip()
+
+__all__ = ['IPlaytoolsIO', 'IConverter', 'PlaytoolsIO', 'getConverters',
+        'getConverter', 'rdfXmlWrap', 'rdfName']
+
