@@ -7,7 +7,7 @@ from zope.interface import Interface, Attribute
 from twisted.plugin import getPlugins
 
 
-XHTML_NS = 'http://www.w3.org/1999/xhtml'
+XHTML_NS = 'http://www.w3.org/1999/xhtml#'
 
 class IPlaytoolsIO(Interface):
     """
