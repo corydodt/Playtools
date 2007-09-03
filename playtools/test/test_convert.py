@@ -85,6 +85,7 @@ class ConvertTestCase(unittest.TestCase):
         sys.path = [FilePath(__file__).parent()]
         self.assert_(skillConverter in C.getConverters())
         self.assert_(skillConverter is C.getConverter('SkillConverter'))
+        self.assertRaises(KeyError, lambda: C.getConverter("  ** does not exist  ** "))
 
     def test_skillConverter(self):
         """

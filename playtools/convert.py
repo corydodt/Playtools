@@ -80,7 +80,7 @@ def getConverter(converterName):
     for c in getConverters():
         if c.label() == converterName:
             return c
-    raise KeyError("Converter %s not found" % (c,))
+    raise KeyError("Converter %s not found" % (converterName,))
 
 def rdfXmlWrap(s, about, predicate, contentsNamespace=XHTML_NS):
     """Return an rdf:Description of s.
