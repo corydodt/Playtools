@@ -1,5 +1,27 @@
-from zope.interface import Interface
+try:
+    from xml.etree import cElementTree as ElementTree
+except ImportError:
+    from xml.etree import ElementTree
+
+from zope.interface import Interface, Attribute
 from twisted.plugin import getPlugins
+
+
+XHTML_NS = 'http://www.w3.org/1999/xhtml'
+
+class IPlaytoolsIO(Interface):
+    """
+    IO-handling interface.  It may be used to write either XML or N3.
+    """
+    def writeXml(s):
+        """
+        Call to write XML data
+        """
+
+    def writeN3(s):
+        """
+        Call to write n3 data
+        """
 
 
 class IConverter(Interface):
@@ -7,19 +29,78 @@ class IConverter(Interface):
     A converter takes data from an abritrary source (plugin-implemented) and
     writes an entry in Playtools format.
     """
-    def getNextItem():
+    commandLine = Attribute("commandLine")
+
+    def next():
         """
         Retrieve one unit from the data source and return it
         """
 
-    def writePlaytoolsItem(playtoolsIO):
+    def writePlaytoolsItem(playtoolsIO, item):
         """
         Format the current item as N3/RDF and write it to the playtoolsIO
         object
         """
 
+    def label():
+        """
+        Identify this converter with a string
+        """
+
+    def __iter__():
+        """
+        IConverters are iterators
+        """
+
+    def preamble(playtoolsIO):
+        """
+        Write any header info to playtoolsIO
+        """
+
+
 def getConverters():
     import playtools.plugins
-    return list(getPlugins(IConverter, playtools.plugins))
+    l = list(getPlugins(IConverter, playtools.plugins))
+    return l
 
-print getConverters()
+def getConverter(converterName):
+    for c in getConverters():
+        if c.label() == converterName:
+            return c
+    raise KeyError("Converter %s not found" % (c,))
+
+def rdfXmlWrap(s, contentsNamespace=XHTML_NS):
+    """Return an rdf:Description of s.
+    contentsNamespace is xmlns for all the nodes parsed from s
+    """
+    desc = ElementTree.Element("Description", 
+            xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    parsed = ElementTree.fromstring(u"<____>%s</____>" % (s,))
+
+    desc.text = parsed.text
+
+    for e in parsed.getchildren():
+        e.set('xmlns', contentsNamespace)
+        desc.append(e)
+
+    return ElementTree.tostring(desc)
+
+def rdfName(s):
+    """Return a string suitable for an IRI from s"""
+    s = s.replace('.', ' ')
+    s = s.replace('-', ' ')
+    s = s.replace("'", '')
+    s = s.replace('/', ' ')
+    s = s.replace(':', ' ')
+    s = s.replace('(', ' ').replace(")", ' ')
+    s = s.replace('[', ' ').replace("]", ' ')
+    if s.count(',') == 1:
+        first, last = s.split(',', 1)
+        s = '%s %s' % (last, first)
+    parts = s.split()
+    parts[0] = parts[0].lower()
+    parts[1:] = [p.capitalize() for p in parts[1:]]
+    return ''.join(parts)
+
+def converterDoc(converter):
+    return converter.__doc__.splitlines()[0].rstrip()
