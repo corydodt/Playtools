@@ -101,8 +101,10 @@ class ConvertTestCase(unittest.TestCase):
 
         expectedXml = ('<Description xmlns='
             '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
-            '"http://thesoftworld.com/2007/skill.n3#">'
+            '"http://thesoftworld.com/2007/skill.n3#sneakiness">'
+            '<description xmlns="http://thesoftworld.com/2007/property.n3#">'
             '<em xmlns="http://www.w3.org/1999/xhtml">Stuff</em>'
+            '</description>'
             '</Description>'
         )
 
@@ -116,19 +118,19 @@ class ConvertTestCase(unittest.TestCase):
         s1 = "hellO"
         ex1 = ('<Description xmlns='
                '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
-               '"foo">hellO</Description>'
+               '"foo"><hi xmlns="bar#">hellO</hi></Description>'
         )
-        a1 = C.rdfXmlWrap(s1, about="foo")
+        a1 = C.rdfXmlWrap(s1, about="foo", predicate=("hi", "bar#"))
         _msg = "%s != %s" % (a1, ex1)
         self.failUnless(pttestutil.compareXml(a1, ex1), msg=_msg)
 
         s2 = "abc<p style='stuff'>thingz</p>xyz"
         ex2 = ('<Description xmlns='
                '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
-               '"foo">abc<p style='
-               '"stuff">thingz</p>xyz</Description>'
+               '"foo"><bar:hi xmlns:bar="bar">abc<p style='
+               '"stuff">thingz</p>xyz</bar:hi></Description>'
         )
-        a2 = C.rdfXmlWrap(s2, about="foo")
+        a2 = C.rdfXmlWrap(s2, about="foo", predicate=("hi", "bar#"))
         _msg = "%s != %s" % (a2, ex2)
         self.failUnless(pttestutil.compareXml(a2, ex2), msg=_msg)
 

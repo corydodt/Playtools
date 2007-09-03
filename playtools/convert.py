@@ -3,7 +3,7 @@ try:
 except ImportError:
     from xml.etree import ElementTree
 
-from zope.interface import Interface, Attribute
+from zope.interface import Interface, Attribute, implements
 from twisted.plugin import getPlugins
 
 
@@ -58,6 +58,19 @@ class IConverter(Interface):
         """
 
 
+class PlaytoolsIO(object):
+    implements(IPlaytoolsIO)
+    def __init__(self, n3file, xmlfile):
+        self.n3file = n3file
+        self.xmlfile = xmlfile
+
+    def writeN3(self, s):
+        self.n3file.write(s)
+
+    def writeXml(self, s):
+        self.xmlfile.write(s)
+
+
 def getConverters():
     import playtools.plugins
     l = list(getPlugins(IConverter, playtools.plugins))
@@ -69,20 +82,27 @@ def getConverter(converterName):
             return c
     raise KeyError("Converter %s not found" % (c,))
 
-def rdfXmlWrap(s, about, contentsNamespace=XHTML_NS):
+def rdfXmlWrap(s, about, predicate, contentsNamespace=XHTML_NS):
     """Return an rdf:Description of s.
     contentsNamespace is xmlns for all the nodes parsed from s
+    about is the about URI for the rdf:Description
+    predicate is a 2-tuple of tagName and namespace for the inner tag
     """
     desc = ElementTree.Element("Description", 
             xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             about=about)
-    parsed = ElementTree.fromstring(u"<____>%s</____>" % (s,))
-
-    desc.text = parsed.text
+    tag, namespace = predicate
+    inner = u"<%s xmlns='%s'>%s</%s>" % (tag, namespace, s, tag)
+    try:
+        parsed = ElementTree.fromstring(inner)
+    except:
+        import sys, pdb; pdb.post_mortem(sys.exc_info()[2])
 
     for e in parsed.getchildren():
         e.set('xmlns', contentsNamespace)
-        desc.append(e)
+
+    desc.append(parsed)
+    
 
     return ElementTree.tostring(desc)
 
