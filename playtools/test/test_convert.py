@@ -13,10 +13,10 @@ class MockPlaytoolsIO(object):
         self.xmlbuf = []
 
     def writeXml(self, x):
-        [self.xmlbuf.append(line) for line in x.split('\n')]
+        self.xmlbuf.extend(x.split('\n'))
 
     def writeN3(self, x):
-        [self.n3buf.append(line) for line in x.split('\n')]
+        self.n3buf.extend(x.split('\n'))
 
 
 def skillSource(count):
