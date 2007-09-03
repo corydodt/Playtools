@@ -12,7 +12,7 @@ from storm import locals as SL
 
 from playtools.convert import IConverter, rdfName, rdfXmlWrap
 
-from goonmill.util import RESOURCE as GR
+from twisted.python.util import sibpath
 
 class Skill(object):
     __storm_table__ = 'skill'
@@ -149,5 +149,5 @@ class SkillConverter(object):
         playtoolsIO.writeN3(pre)
 
 
-ss = skillSource(GR('srd35.db'))
+ss = skillSource(sibpath(__file__, 'srd35.db'))
 skillConverter = SkillConverter(ss)
