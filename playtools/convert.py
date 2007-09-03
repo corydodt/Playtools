@@ -124,6 +124,8 @@ def rdfName(s):
     return ''.join(parts)
 
 def converterDoc(converter):
+    if converter.__doc__ is None:
+        return ''
     return converter.__doc__.splitlines()[0].rstrip()
 
 __all__ = ['IPlaytoolsIO', 'IConverter', 'PlaytoolsIO', 'getConverters',
