@@ -8,6 +8,9 @@ from playtools.plugins.skills import skillConverter, SkillConverter
 from playtools.test import pttestutil
 
 class MockPlaytoolsIO(object):
+    """
+    Simulate a PlaytoolsIO by writing to lists
+    """
     def __init__(self):
         self.n3buf = []
         self.xmlbuf = []
@@ -20,11 +23,17 @@ class MockPlaytoolsIO(object):
 
 
 def skillSource(count):
+    """
+    Simulate the real skillSource argument to SkillConverter
+    """
     for n in range(count):
         yield MockSkill()
 
 
 class MockSkill(object):
+    """
+    Simulate a real skill with class attributes
+    """
     id = 1
     name = u'Sneakiness'
     subtype = None
@@ -54,6 +63,7 @@ class Mock2(object):
     # do NOT add a docstring here. This is for testing.
     pass
 
+assert Mock2.__doc__ is None # yeah, I mean it. :-)
 
 class ConvertTestCase(unittest.TestCase):
     def setUp(self):
