@@ -16,19 +16,23 @@ def getConverterSubcommands():
     for c in convert.getConverters():
         ret.append((c.label(), None, c.commandLine, convert.converterDoc(c)))
     return ret
+
         
 class Options(usage.Options):
     synopsis = """ptconvert <converter> [<converter args>]""" 
     subCommands = getConverterSubcommands()
-
-    def parseArgs(self, converter=None):
-        self['converter'] = convert.getConverter(converter)
+    optParameters = [['n3file', None, None, "Filename to write n3 data"],
+                     ['xmlfile', None, None, "Filename to write xml data"],
+        ]
 
     def postOptions(self):
-        c = self['converter']
-        c.n3Preamble(sys.stdout)
+        c = convert.getConverter(self.subCommand)
+        n3f = open(self['n3file'], 'w')
+        xmlf = open(self['xmlfile'], 'w')
+        io = convert.PlaytoolsIO(n3f, xmlf)
+        c.n3Preamble(io)
         for item in c:
-            c.writePlaytoolsItem(sys.stdout, item)
+            c.writePlaytoolsItem(io, item)
         
 
 def run(argv=None):
