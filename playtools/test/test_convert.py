@@ -50,6 +50,10 @@ class MockConverter(object):
     This line should be ignored.
     """
 
+class Mock2(object):
+    # do NOT add a docstring here. This is for testing.
+    pass
+
 
 class ConvertTestCase(unittest.TestCase):
     def setUp(self):
@@ -73,6 +77,9 @@ class ConvertTestCase(unittest.TestCase):
         self.assert_(skillConverter is C.getConverter('SkillConverter'))
 
     def test_skillConverter(self):
+        """
+        Test that the skill converter converts skills
+        """
         sv = SkillConverter(skillSource(1))
         io = MockPlaytoolsIO()
         sv.n3Preamble(io)
@@ -115,6 +122,9 @@ class ConvertTestCase(unittest.TestCase):
                 msg=_msg)
 
     def test_rdfXmlWrap(self):
+        """
+        Test standard way to produce an RDF/XML statement from some XML markup
+        """
         s1 = "hellO"
         ex1 = ('<Description xmlns='
                '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
@@ -135,16 +145,29 @@ class ConvertTestCase(unittest.TestCase):
         self.failUnless(pttestutil.compareXml(a2, ex2), msg=_msg)
 
     def test_rdfName(self):
+        """
+        Test ability to convert weird names into rdf strings in a standard way
+        """
         s1 = "thing"
         s2 = "The Thing. that (we want)"
         self.assertEqual(C.rdfName(s1), "thing")
         self.assertEqual(C.rdfName(s2), "theThingThatWeWant")
 
     def test_converterDoc(self):
+        """
+        Assert that there is a standard way to get the doc from a Converter
+        """
         actual = C.converterDoc(MockConverter())
         self.assertEqual(actual, "This docstring exists only for testing.")
 
+        actual = C.converterDoc(Mock2())
+        self.assertEqual(actual, "")
+
     def test_playtoolsIO(self):
+        """
+        Assert that things can be written into both n3 and xml parts of
+        PlaytoolsIO
+        """
         n3filename = "n3.n3"
         xmlfilename = "rdf.rdf"
         n3f = open(n3filename, "w")

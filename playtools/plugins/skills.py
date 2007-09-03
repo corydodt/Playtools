@@ -75,6 +75,9 @@ def cleanSrdXml(s):
 
 class SkillConverter(object):
     """Convert the Sqlite skill table
+
+    To make it easier to test, the converter takes a skillSource which is an
+    generator of Skill items. 
     """
     implements(IConverter, IPlugin)
     commandLine = Options
