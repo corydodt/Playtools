@@ -69,12 +69,13 @@ def getConverter(converterName):
             return c
     raise KeyError("Converter %s not found" % (c,))
 
-def rdfXmlWrap(s, contentsNamespace=XHTML_NS):
+def rdfXmlWrap(s, about, contentsNamespace=XHTML_NS):
     """Return an rdf:Description of s.
     contentsNamespace is xmlns for all the nodes parsed from s
     """
     desc = ElementTree.Element("Description", 
-            xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+            xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            about=about)
     parsed = ElementTree.fromstring(u"<____>%s</____>" % (s,))
 
     desc.text = parsed.text

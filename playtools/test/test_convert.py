@@ -99,10 +99,12 @@ class ConvertTestCase(unittest.TestCase):
         for eLine, aLine in comparisonGrid:
             self.assertEqual(aLine, eLine, msg=_msg % (eLine, aLine))
 
-        expectedXml = '''<Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" about="http://thesoftworld.com/2007/skill.n3#">
-<em xmlns="http://www.w3.org/1999/xhtml">Stuff</em>
-</Description>
-'''
+        expectedXml = ('<Description xmlns='
+            '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
+            '"http://thesoftworld.com/2007/skill.n3#">'
+            '<em xmlns="http://www.w3.org/1999/xhtml">Stuff</em>'
+            '</Description>'
+        )
 
         actualXml = '\n'.join(io.xmlbuf)
         _msg = "%s != %s" % (expectedXml, actualXml)
@@ -113,18 +115,20 @@ class ConvertTestCase(unittest.TestCase):
     def test_rdfXmlWrap(self):
         s1 = "hellO"
         ex1 = ('<Description xmlns='
-               '"http://www.w3.org/1999/02/22-rdf-syntax-ns#">hellO</Description>'
+               '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
+               '"foo">hellO</Description>'
         )
-        a1 = C.rdfXmlWrap(s1)
+        a1 = C.rdfXmlWrap(s1, about="foo")
         _msg = "%s != %s" % (a1, ex1)
         self.failUnless(pttestutil.compareXml(a1, ex1), msg=_msg)
 
         s2 = "abc<p style='stuff'>thingz</p>xyz"
         ex2 = ('<Description xmlns='
-               '"http://www.w3.org/1999/02/22-rdf-syntax-ns#">abc<p style='
+               '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
+               '"foo">abc<p style='
                '"stuff">thingz</p>xyz</Description>'
         )
-        a2 = C.rdfXmlWrap(s2)
+        a2 = C.rdfXmlWrap(s2, about="foo")
         _msg = "%s != %s" % (a2, ex2)
         self.failUnless(pttestutil.compareXml(a2, ex2), msg=_msg)
 
