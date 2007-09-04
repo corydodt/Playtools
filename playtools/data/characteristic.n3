@@ -352,3 +352,23 @@
 :tail a :MeleeAttack .
 
 :RangedAttack rdfs:subClassOf :PhysicalAttack .
+
+:RetryableSkill 
+    rdfs:subClassOf :Characteristic ;
+    rdfs:comment "If skill attempt fails, another attempt may be made.";
+.
+
+:PsionicSkill
+    rdfs:subClassOf :Characteristic ;
+    rdfs:comment "Skill is psionic in nature." ;
+.
+
+:RequiresRanks
+    rdfs:subClassOf :Characteristic ;
+    rdfs:comment "Skill may not be used untrained, i.e., without ranks.";
+.
+
+:ArmorCheckPenalty
+    rdfs:subClassOf :Characteristic ;
+    rdfs:comment "Some penalty will apply to this skill check depending on the armor the character is wearing.";
+.
