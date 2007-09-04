@@ -2,6 +2,7 @@ import sys
 
 from twisted.trial import unittest
 from twisted.python.filepath import FilePath
+from twisted.python.util import sibpath
 
 from playtools import convert as C
 from playtools.plugins.skills import skillConverter, SkillConverter
@@ -107,8 +108,12 @@ class ConvertTestCase(unittest.TestCase):
 :sneakiness
     rdfs:label "Sneakiness";
     p:keyAbility c:str;
+    p:skillAction "Thingie";
     a c:RetryableSkill;
     p:reference <http://www.d20srd.org/srd/skills/sneakiness.htm>;
+    p:additional "Hi";
+    p:restriction "Stuff is restricted";
+    p:untrained "";
 .
 '''.split('\n')
 
@@ -117,16 +122,9 @@ class ConvertTestCase(unittest.TestCase):
         for eLine, aLine in comparisonGrid:
             self.assertEqual(aLine, eLine, msg=_msg % (eLine, aLine))
 
-        expectedXml = ('<Description xmlns='
-            '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
-            '"http://thesoftworld.com/2007/skill.n3#sneakiness">'
-            '<description xmlns="http://thesoftworld.com/2007/property.n3#">'
-            '<em xmlns="http://www.w3.org/1999/xhtml">Stuff</em>'
-            '</description>'
-            '</Description>'
-        )
-
-        actualXml = '\n'.join(io.xmlbuf)
+        expectedXml = open(sibpath(__file__, 'test_convert_skillConverter.xml')).read().replace('\n', '')
+        _actual = ''.join(io.xmlbuf).replace('\n', '')
+        actualXml = "<____>%s</____>" % (_actual,)
         _msg = "%s != %s" % (expectedXml, actualXml)
         self.failUnless(
                 pttestutil.compareXml(expectedXml, actualXml),
@@ -139,7 +137,7 @@ class ConvertTestCase(unittest.TestCase):
         s1 = "hellO"
         ex1 = ('<Description xmlns='
                '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
-               '"foo"><hi xmlns="bar#">hellO</hi></Description>'
+               '"foo" parseType="Literal"><hi xmlns="bar#">hellO</hi></Description>'
         )
         a1 = C.rdfXmlWrap(s1, about="foo", predicate=("hi", "bar#"))
         _msg = "%s != %s" % (a1, ex1)
@@ -148,7 +146,7 @@ class ConvertTestCase(unittest.TestCase):
         s2 = "abc<p style='stuff'>thingz</p>xyz"
         ex2 = ('<Description xmlns='
                '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
-               '"foo"><bar:hi xmlns:bar="bar">abc<p style='
+               '"foo" parseType="Literal"><bar:hi xmlns:bar="bar">abc<p style='
                '"stuff">thingz</p>xyz</bar:hi></Description>'
         )
         a2 = C.rdfXmlWrap(s2, about="foo", predicate=("hi", "bar#"))

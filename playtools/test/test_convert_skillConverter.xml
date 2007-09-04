@@ -1,0 +1,27 @@
+<____><Description about="http://thesoftworld.com/2007/skill.n3#sneakiness"
+  parseType="Literal"
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><description
+    xmlns="http://thesoftworld.com/2007/property.n3#"><em
+      xmlns="http://www.w3.org/1999/xhtml#">Stuff</em></description>
+</Description>
+<Description
+  about="http://thesoftworld.com/2007/skill.n3#sneakiness" parseType="Literal"
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><skillCheck
+    xmlns="http://thesoftworld.com/2007/property.n3#"><em xmlns=
+      "http://www.w3.org/1999/xhtml#">More stuff</em></skillCheck>
+</Description>
+<Description
+  about="http://thesoftworld.com/2007/skill.n3#sneakiness" parseType="Literal"
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><epicUse
+    xmlns="http://thesoftworld.com/2007/property.n3#"><p
+      xmlns="http://www.w3.org/1999/xhtml#">If you are epic, you rock</p></epicUse>
+</Description>
+<Description
+  about="http://thesoftworld.com/2007/skill.n3#sneakiness" parseType="Literal"
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><fullText
+    xmlns=
+    "http://thesoftworld.com/2007/property.n3#">.........................................<em
+      xmlns="http://www.w3.org/1999/xhtml#">stuff</em></fullText>
+</Description>
+</____>
+

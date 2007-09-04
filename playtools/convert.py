@@ -90,20 +90,23 @@ def rdfXmlWrap(s, about, predicate, contentsNamespace=XHTML_NS):
     """
     desc = ElementTree.Element("Description", 
             xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-            about=about)
-    tag, namespace = predicate
-    inner = u"<%s xmlns='%s'>%s</%s>" % (tag, namespace, s, tag)
+            about=about,
+            parseType="Literal"
+    )
+    tag, predicateNamespace = predicate
+    inner = u"<%s>%s</%s>" % (tag, s, tag)
     try:
         parsed = ElementTree.fromstring(inner)
     except:
         import sys, pdb; pdb.post_mortem(sys.exc_info()[2])
 
+    parsed.set('xmlns', predicateNamespace)
     for e in parsed.getchildren():
         e.set('xmlns', contentsNamespace)
 
     desc.append(parsed)
-    
 
+    # TODO - make prefixes nicer
     return ElementTree.tostring(desc)
 
 def rdfName(s):
