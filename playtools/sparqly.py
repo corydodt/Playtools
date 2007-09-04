@@ -236,7 +236,7 @@ class SparqItem(object):
         slangName = Literal("SELECT ?slang $datasets { $key :slangName ?slang }")
 
     >>> myThinger = Thinger(db=someTriplesDatabase, key=':marijuana')
-    >>> myThinger.myAttr
+    >>> myThinger.slangName
     "Wacky Tabacky"
      
     """

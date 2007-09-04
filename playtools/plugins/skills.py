@@ -22,7 +22,7 @@ class Skill(object):
     key_ability = SL.Unicode()               #
     psionic = SL.Unicode()                   #
     trained = SL.Unicode()                   #
-    armor_check = SL.Unicode()
+    armor_check = SL.Unicode()               #
     description = SL.Unicode()               #
     skill_check = SL.Unicode()               #
     action = SL.Unicode()                    #
@@ -47,7 +47,7 @@ SKILL_TEMPLATE = string.Template(''':$rdfName
     rdfs:label "${label}";
     p:keyAbility ${keyAbility};
     p:skillAction "${action}";
-${retryable}${psionic}${trained}
+${retryable}${psionic}${trained}${armorCheck}
     p:reference <http://www.d20srd.org/srd/${reference}>;
     p:additional "${special}";
     p:restriction "${restriction}";
@@ -58,6 +58,7 @@ ${retryable}${psionic}${trained}
 RETRYABLE = "    a c:RetryableSkill;"
 PSIONIC = "    a c:PsionicSkill;"
 TRAINED = "    a c:RequiresRanks;"
+ARMORCHECK = "    a c:ArmorCheckPenalty;"
 
 
 class Options(usage.Options):
@@ -120,6 +121,7 @@ class SkillConverter(object):
         retryable = (RETRYABLE if srdBoolean(c.try_again) else '')
         psionic = (PSIONIC if srdBoolean(c.psionic) else '')
         trained = (TRAINED if srdBoolean(c.trained) else '')
+        armorCheck = (ARMORCHECK if srdBoolean(c.armor_check) else '')
 
         if psionic:
             reference = "psionic/skills/%s.htm" % (origR,)
@@ -138,6 +140,7 @@ class SkillConverter(object):
                 trained=trained,
                 untrained=c.untrained or '',
                 reference=reference,
+                armorCheck=armorCheck,
             )
         )
 
