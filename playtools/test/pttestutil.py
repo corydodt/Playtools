@@ -35,6 +35,9 @@ def formatFailMsg(seq, left="|| "):
 
 def compareElement(e1, e2):
     """Return None if they are identical, otherwise return the elements that differed"""
+    if e1 is None or e2 is None:
+        return e1, e2
+
     # compare attributes
     it1 = sorted(e1.items())
     it2 = sorted(e2.items())

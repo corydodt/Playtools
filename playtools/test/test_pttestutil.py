@@ -45,4 +45,11 @@ class ConvertTestCase(unittest.TestCase):
         self.failIf(compareXml(s4, s6))
         self.failIf(compareXml(s6, s5))
         
+        # elements present in LHS and missing from RHS are compared as None,
+        # make sure this case is handled (comparisons with None are always
+        # False)
+        s7 = """<a><b /></a>"""
+        s8 = """<a><b /><b /></a>"""
+        self.failIf(compareXml(s7, s8))
+        self.failIf(compareXml(s8, s7))
 
