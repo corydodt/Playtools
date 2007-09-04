@@ -24,20 +24,7 @@ ns_monster = NS("http://thesoftworld/2007/monsters.n3#")
 
 a = ns_rdf['typeof']
 
-def rdfName(s):
-    s = s.replace('-', ' ')
-    s = s.replace("'", '')
-    s = s.replace('/', ' ')
-    s = s.replace(':', ' ')
-    s = s.replace('(', ' ').replace(")", ' ')
-    s = s.replace('[', ' ').replace("]", ' ')
-    if s.count(',') == 1:
-        first, last = s.split(',', 1)
-        s = '%s %s' % (last, first)
-    parts = s.split()
-    parts[0] = parts[0].lower()
-    parts[1:] = [p.capitalize() for p in parts[1:]]
-    return ':' + ''.join(parts)
+from playtools.convert import rdfName
 
 def rdfClass(s):
     return ':' + ''.join(p.capitalize() for p in s.split())
@@ -322,8 +309,6 @@ druid_focus, full_text, reference
                 n(spell, ns_spell['castBy'], anon)
                 n(anon, ns_spell['casterType'], Literal(castertype))
                 n(anon, ns_spell['casterLevel'], Literal(casterlevel))
-            if saving_throw and saving_throw not in ('No', 'None'):
-                print repr(saving_throw)
             yield l
 
     def parseLevels(self, level):
