@@ -150,12 +150,20 @@ class SkillConverter(object):
                 about="http://thesoftworld.com/2007/skill.n3#%s" % (r,),
                 predicate=(p, "http://thesoftworld.com/2007/property.n3#")
             )
+
         desc = wrap(c.description, "description")
         skillCheck = wrap(c.skill_check, "skillCheck")
         epicUse = wrap(c.epic_use, "epicUse")
         fullText = wrap(c.full_text, "fullText")
 
+        playtoolsIO.writeXml('\n')
         playtoolsIO.writeXml(desc)
+        playtoolsIO.writeXml('\n')
+        playtoolsIO.writeXml(skillCheck)
+        playtoolsIO.writeXml('\n')
+        playtoolsIO.writeXml(epicUse)
+        playtoolsIO.writeXml('\n')
+        playtoolsIO.writeXml(fullText)
 
     def label(self):
         return u"SkillConverter"
