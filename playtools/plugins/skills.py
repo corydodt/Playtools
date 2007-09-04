@@ -16,24 +16,24 @@ from twisted.python.util import sibpath
 
 class Skill(object):
     __storm_table__ = 'skill'
-    id = SL.Int(primary=True)
-    name = SL.Unicode()
+    id = SL.Int(primary=True)                #
+    name = SL.Unicode()                      #
     subtype = SL.Unicode()
-    key_ability = SL.Unicode()
-    psionic = SL.Unicode()
-    trained = SL.Unicode()
+    key_ability = SL.Unicode()               #
+    psionic = SL.Unicode()                   #
+    trained = SL.Unicode()                   #
     armor_check = SL.Unicode()
-    description = SL.Unicode()
-    skill_check = SL.Unicode()
-    action = SL.Unicode()
-    try_again = SL.Unicode()
-    special = SL.Unicode()
-    restriction = SL.Unicode()
+    description = SL.Unicode()               #
+    skill_check = SL.Unicode()               #
+    action = SL.Unicode()                    #
+    try_again = SL.Unicode()                 #
+    special = SL.Unicode()                   #
+    restriction = SL.Unicode()               #
     synergy = SL.Unicode()
-    epic_use = SL.Unicode()
-    untrained = SL.Unicode()
-    full_text = SL.Unicode()
-    reference = SL.Unicode()
+    epic_use = SL.Unicode()                  #
+    untrained = SL.Unicode()                 #
+    full_text = SL.Unicode()                 #
+    reference = SL.Unicode()                 #
 
 
 def skillSource(dbPath):
@@ -46,8 +46,12 @@ def skillSource(dbPath):
 SKILL_TEMPLATE = string.Template(''':$rdfName
     rdfs:label "${label}";
     p:keyAbility ${keyAbility};
+    p:skillAction "${action}";
 ${retryable}${psionic}${trained}
     p:reference <http://www.d20srd.org/srd/${reference}>;
+    p:additional "${special}";
+    p:restriction "${restriction}";
+    p:untrained "${untrained}";
 .
 ''')
 
@@ -71,6 +75,7 @@ def cleanSrdXml(s):
     u = u.replace(r'\n', '\n')
     u = u.replace(r'\\', '\\')
     return u
+
 
 def srdBoolean(col):
     """
@@ -124,10 +129,14 @@ class SkillConverter(object):
         s = SKILL_TEMPLATE.substitute(
             dict(rdfName=r,
                 label=c.name,
+                action=c.action or '',
+                special=c.special or '',
+                restriction=c.restriction or '',
                 keyAbility="c:%s" % (c.key_ability.lower(),),
                 retryable=retryable,
                 psionic=psionic,
                 trained=trained,
+                untrained=c.untrained or '',
                 reference=reference,
             )
         )
