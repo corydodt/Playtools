@@ -18,7 +18,7 @@ class Skill(object):
     __storm_table__ = 'skill'
     id = SL.Int(primary=True)                #
     name = SL.Unicode()                      #
-    subtype = SL.Unicode()
+    subtype = SL.Unicode()                   #
     key_ability = SL.Unicode()               #
     psionic = SL.Unicode()                   #
     trained = SL.Unicode()                   #
@@ -52,8 +52,17 @@ ${retryable}${psionic}${trained}${armorCheck}
     p:additional "${special}";
     p:restriction "${restriction}";
     p:untrained "${untrained}";
+    ${subSkillsObjects}
 .
+${subSkills}
 ''')
+
+SUBSKILL_TEMPLATE = string.Template(
+''':$rdfName 
+    a c:SubSkill ;
+    rdfs:label "${subLabel}" ;
+.'''
+)
 
 RETRYABLE = "    a c:RetryableSkill;"
 PSIONIC = "    a c:PsionicSkill;"
@@ -128,6 +137,28 @@ class SkillConverter(object):
         else:
             reference = "skills/%s.htm" % (origR,)
 
+        subSkills = []
+        subSkillsObjects = []
+        if c.subtype:
+            _subskillNames = c.subtype.split(',')
+            for name in _subskillNames:
+                s = SUBSKILL_TEMPLATE.substitute({
+                    'rdfName': rdfName(name),
+                    'subLabel': name,
+                })
+                subSkills.append(s)
+                subSkillsObjects.append(":%s" % (rdfName(name),))
+
+            subSkillsObjects = (
+                    'p:subSkills ' + ', '.join(subSkillsObjects) + ';'
+            )
+            subSkills = '\n'.join(subSkills)
+
+        else:
+            subSkillsObjects = ''
+            subSkills = ''
+
+
         s = SKILL_TEMPLATE.substitute(
             dict(rdfName=r,
                 label=c.name,
@@ -141,6 +172,8 @@ class SkillConverter(object):
                 untrained=c.untrained or '',
                 reference=reference,
                 armorCheck=armorCheck,
+                subSkills=subSkills,
+                subSkillsObjects=subSkillsObjects
             )
         )
 
@@ -173,11 +206,41 @@ class SkillConverter(object):
 
     def n3Preamble(self, playtoolsIO):
         pre = """@prefix p: <http://thesoftworld.com/2007/property.n3#> .
-@prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
+@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
+@prefix : <http://thesoftworld.com/2007/skill.n3#> .
+
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <> rdfs:title "All d20 SRD Skills" .
+
+:abyssal a c:Language .
+:aquan a c:Language .
+:auran a c:Language .
+:celestial a c:Language .
+:common a c:Language .
+:draconic a c:Language .
+:drowSignLanguage a c:Language .
+:druidic a c:Language .
+:dwarven a c:Language .
+:elven a c:Language .
+:formian a c:Language .
+:giant a c:Language .
+:gnoll a c:Language .
+:gnome a c:Language .
+:goblin a c:Language .
+:grimlock a c:Language .
+:halfling a c:Language .
+:ignan a c:Language .
+:infernal a c:Language .
+:maenad a c:Language .
+:orc a c:Language .
+:sphinx a c:Language .
+:sylvan a c:Language .
+:terran a c:Language .
+:undercommon a c:Language .
+:worg a c:Language .
+:xeph a c:Language .
 """
         playtoolsIO.writeN3(pre)
 

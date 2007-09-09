@@ -142,10 +142,6 @@
 
 
 :Language rdfs:subClassOf :Characteristic .
-:celestial a :Language .
-:draconic a :Language .
-:abyssal a :Language .
-:infernal a :Language .
 
 
 :SpecialQuality rdfs:subClassOf :MiscTrait .

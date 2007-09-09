@@ -2,6 +2,7 @@
 @prefix : <http://thesoftworld.com/2007/family.n3#>.
 @prefix p: <http://thesoftworld.com/2007/property.n3#> .
 @prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
+@prefix s: <http://thesoftworld.com/2007/skill.n3#>.
 
 @prefix die: <http://thesoftworld.com/2007/dice.n3#>.
 @prefix pcclass: <http://thesoftworld.com/2007/pcclass.n3#>.
@@ -301,7 +302,7 @@
     p:immunity c:electricity, c:poison;
     p:resistance [ c:acid 10 ], [ c:cold 10 ], [ c:fire 10 ];
     p:miscTrait c:summon, c:telepathy;
-    p:language c:abyssal, c:celestial, c:draconic;
+    p:language s:abyssal, s:celestial, s:draconic;
 .
 
 :devil
@@ -310,7 +311,7 @@
     p:resistance [ c:acid 10 ], [ c:cold 10 ];
     p:sense c:seeInDarkness;
     p:miscTrait c:summon, c:telepathy;
-    p:language c:infernal, c:celestial, c:draconic;
+    p:language s:infernal, s:celestial, s:draconic;
 .
 
 :earth
