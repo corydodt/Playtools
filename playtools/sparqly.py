@@ -262,6 +262,20 @@ class SparqItem(object):
         return '<%s %s>' % (self.__class__.__name__, l)
 
 
+BAD_NAMESPACES = [
+        'http://www.w3.org/XML/1998/namespace',
+        'http://www.w3.org/2000/01/rdf-schema#',
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+]
+
+
+def filterNamespaces(namespaces):
+    """
+    Remove namespaces that shouldn't really be loaded, such as XML
+    """
+    return [ns for ns in namespaces if str(ns) not in BAD_NAMESPACES]
+
+
 class TriplesDatabase(object):
     """A database from the defined triples"""
     def __init__(self, base, prefixes, datasets):
@@ -269,8 +283,9 @@ class TriplesDatabase(object):
         self.base = base
         self.prefixes = {'rdfs': RDFS.RDFSNS}
         self.prefixes.update(prefixes)
-        [self.graph.load(d, format='n3') for d in datasets]
-
+        for d in filterNamespaces(datasets):
+            self.graph.load(d, format='n3')
+                
     def query(self, rest):
         sel = select(self.base, rest)
         ## print sel
