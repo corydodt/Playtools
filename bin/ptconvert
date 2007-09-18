@@ -3,7 +3,7 @@
 Convert the d20 SRD SQLite database
 """
 
-import sys, os
+import sys
 
 from twisted.python import usage
 
@@ -21,20 +21,16 @@ def getConverterSubcommands():
 class Options(usage.Options):
     synopsis = """ptconvert [options] <converter> [<converter args>]""" 
     subCommands = getConverterSubcommands()
-    optParameters = [['n3file', None, None, "Filename to write n3 data"],
-                     ['xmlfile', None, None, "Filename to write xml data"],
-        ]
 
     def postOptions(self):
         if self.subCommand is None:
             raise usage.UsageError("** You must specify the name of a converter!")
         c = convert.getConverter(self.subCommand)
-        n3f = open(self['n3file'], 'w')
-        xmlf = open(self['xmlfile'], 'w')
-        io = convert.PlaytoolsIO(n3f, xmlf)
-        c.n3Preamble(io)
+        io = open('skill.n3', 'w')
+        c.preamble()
         for item in c:
-            c.writePlaytoolsItem(io, item)
+            c.makePlaytoolsItem(item)
+        c.writeAll(io)
         
 
 def run(argv=None):

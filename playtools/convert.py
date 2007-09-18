@@ -36,11 +36,16 @@ class IConverter(Interface):
         Retrieve one unit from the data source and return it
         """
 
-    def writePlaytoolsItem(playtoolsIO, item):
+    def makePlaytoolsItem(playtoolsIO, item):
         """
-        Format the current item as N3/RDF and write it to the playtoolsIO
-        object
+        Add triples for this item to the db
         """
+
+    def writeAll():
+        """
+        Format the document as N3/RDF and write it to the playtoolsIO object
+        """
+
 
     def label():
         """
@@ -116,11 +121,9 @@ def rdfName(s):
     s = s.replace("'", '')
     s = s.replace('/', ' ')
     s = s.replace(':', ' ')
+    s = s.replace(',', ' ')
     s = s.replace('(', ' ').replace(")", ' ')
     s = s.replace('[', ' ').replace("]", ' ')
-    if s.count(',') == 1:
-        first, last = s.split(',', 1)
-        s = '%s %s' % (last, first)
     parts = s.split()
     parts[0] = parts[0].lower()
     parts[1:] = [p.capitalize() for p in parts[1:]]

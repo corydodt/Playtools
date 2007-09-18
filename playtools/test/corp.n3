@@ -1,0 +1,16 @@
+@prefix : <http://corp.com/staff#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> rdfs:label "Test document - Corporate Staff" .
+<> rdfs:comment "So much Enterprise you'll crap yourself!" .
+
+:e1230 :firstname "Peter";
+    :lastname "Gibbons";
+    :supervisor :e1001;
+.
+
+:e1001 :firstname "Bill";
+    :lastname "Lumbergh";
+    :supervisor :e900;
+.
+

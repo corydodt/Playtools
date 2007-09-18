@@ -65,7 +65,7 @@ class Employee(SparqItem):
 Employee.supervisor = Ref(Employee, "SELECT ?s { $key :supervisor $s }")
 
 >>> staff = Namespace('http://corp.com/staff#')
->>> cg = rdflib.ConjunctiveGraph()
+>>> cg = rdflib.Graph()
 >>> cg.load(...)
 >>> 
 >>> emp = Employee(db=cg, key=staff.e1230)
@@ -96,9 +96,17 @@ Limitations:
 
 from string import Template
 
-from rdflib import ConjunctiveGraph
-import rdflib
-from rdflib import RDFS
+try:
+    from cStringIO import StringIO
+except ImportError:
+    from StringIO import StringIO
+
+
+from rdflib import URIRef, BNode
+from rdflib.Graph import Graph
+from rdflib.Literal import Literal as RDFLiteral
+
+from playtools.common import RDFSNS
 
 
 def select(base, rest):
@@ -108,8 +116,10 @@ def select(base, rest):
 
 def iriToTitle(iri):
     """Return the fragment id of the iri, in title-case"""
+    if '#' not in iri:
+        return ''
     uri = iri.lstrip('<').rstrip('>')
-    return uri.split('#')[1].title()
+    return uri.split('#', 1)[1].title()
 
 
 NODEFAULT = ()
@@ -170,7 +180,7 @@ class Ref(SparqAttribute):
         cls = self.itemClass
 
         for i in data:
-            assert isinstance(i, rdflib.URIRef) or isinstance(i, rdflib.BNode), (
+            assert isinstance(i, URIRef) or isinstance(i, BNode), (
                     "This query returned literals, not URIs!\n-- %s" % (i,))
             # pull the uri string from each data item
             att = cls(db=db, key=i.n3())
@@ -276,27 +286,71 @@ def filterNamespaces(namespaces):
     return [ns for ns in namespaces if str(ns) not in BAD_NAMESPACES]
 
 
+def canBeLiteral(x):
+    """
+    True if x is a string, int or float
+    """
+    return (
+            isinstance(x, basestring) or 
+            isinstance(x, int) or
+            isinstance(x, float)
+            ) and not (
+            hasattr(x, 'n3')
+            )
+
+
 class TriplesDatabase(object):
     """A database from the defined triples"""
     def __init__(self, base, prefixes, datasets):
-        self.graph = ConjunctiveGraph()
         self.base = base
-        self.prefixes = {'rdfs': RDFS.RDFSNS}
+        self.prefixes = {'rdfs': RDFSNS}
         self.prefixes.update(prefixes)
+
+        self.graph = Graph()
+
         for d in filterNamespaces(datasets):
             self.graph.load(d, format='n3')
+
+        for pfx, uri in self.prefixes.items():
+            self.graph.bind(pfx, uri)
                 
     def query(self, rest):
+        """
+        Execute a SPARQL query and get the results as a SPARQLResult
+
+        {rest} is a string that should begin with "SELECT ", usually
+        """
         sel = select(self.base, rest)
-        ## print sel
         ret = self.graph.query(sel, initNs=self.prefixes)
         return ret
 
-    def formatDatasetsClause(self):
-        ret = []
-        for ds in self.datasets:
-            ret.append("FROM <%s>" % (ds,))
+    def addTriple(self, s, v, *objects):
+        """
+        Make a statement/arc/triple in the database.
 
-        return '\n'.join(ret)
+        Strings, ints and floats as s or o will automatically be coerced to
+        RDFLiteral().  It is an error to give a RDFLiteral as v, so no
+        coercion will be done in that position
+        
+        If more than one object is given, i.e.
+            addTriple(a, b, c1, c2, c3) 
+        this is equivalent to:
+            addTriple(a,b,c1); addTriple(a,b,c2); addTriple(a,b,c3)
+        """
+        assert len(objects) >= 1, "You must provide at least one object"
+        if canBeLiteral(s):
+            s = RDFLiteral(s)
 
+        for o in objects:
+            if canBeLiteral(o):
+                o = RDFLiteral(o)
+            assert None not in [s,v,o]
+            self.graph.add((s, v, o))
 
+    def dump(self):
+        io = StringIO()
+        try:
+            self.graph.serialize(destination=io, format='n3')
+        except Exception, e:
+            import sys, pdb; pdb.post_mortem(sys.exc_info()[2])
+        return io.getvalue()
