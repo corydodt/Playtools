@@ -13,26 +13,26 @@ from playtools.interfaces import ICharSheetSection
 
 rdfs = NS('http://www.w3.org/2000/01/rdf-schema#')
 rdf = NS("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+charsheet = NS('http://thesoftworld.com/2007/charsheet.n3#')
 
 def getCharSheetSections():
     import playtools.plugins
-    l = list(getPlugins(ICharSheetSection, playtools.plugins))
-    return l
+    l = getPlugins(ICharSheetSection, playtools.plugins)
+    return dict((s.__class__.__name__, s) for s in l)
 
-def showCharSheet(sections, graph, ns):
-    for section in sections:
-        try:
-            section.asText(graph, ns)
-        except KeyError, e:
-            import traceback
-            traceback.print_exc()
-            print 'Not printing', section, 'because', e
+def showCharSheet(section, graph, ns):
+    try:
+        section.asText(graph, ns)
+    except KeyError, e:
+        import traceback
+        traceback.print_exc()
+        print 'Not printing', section, 'because', e
 
 def main(filename, name):
-    sections = getCharSheetSections()
+    all_sections = getCharSheetSections()
 
     charactersheet = NS('http://trinket.thorne.id.au/2007/%s.n3#' % name)
-    player = URIRef(charactersheet + name)
+    character = URIRef(charactersheet + name)
 
     graph = ConjunctiveGraph()
     for f in glob.glob(os.path.join(sibpath(__file__, 'data'), '*.n3')):
@@ -46,7 +46,13 @@ def main(filename, name):
     graph.load(rdf)
 
     graph.load(filename, format='n3')
+
     
-    showCharSheet(sections, graph, player)
+    for (sections,) in graph.query(
+            "SELECT ?sections { ?character charsheet:sections ?sections }", 
+                {'?character':character}, 
+                initNs={'charsheet':charsheet}):
+        for item in graph.items(sections):
+            showCharSheet(all_sections[item], graph, character)
 
 

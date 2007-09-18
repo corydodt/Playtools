@@ -6,6 +6,7 @@
 @prefix s: <http://thesoftworld.com/2007/skill.n3#> .
 @prefix weapon: <http://thesoftworld.com/2007/weapon.n3#> .
 @prefix a: <http://thesoftworld.com/2007/armor.n3#> .
+@prefix charsheet: <http://thesoftworld.com/2007/charsheet.n3#> .
 @prefix : <http://trinket.thorne.id.au/2007/lynwood.n3#> .
 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -14,6 +15,7 @@
 :lynwood 
     rdf:type character:Player;
     character:name "Lynwood";
+    character:age 4;
     c:str 22;    
     c:dex 21;    
     c:con 17;    
@@ -24,13 +26,17 @@
         rdfs:label "Hooves";
         a weapon:Weapon;
         weapon:damage "1d6+1";
-        weapon:attacks ( "+4" "+4" )
+        weapon:attacks ( "+4" "+4" );
+        weapon:critRange 2;
+        weapon:critMultiplier 3;
     ];
     character:wields weapon:longsword;
     character:hasSkill [
-        player:skill s:hide;
-        player:skillRanks 4;
+        character:skill s:hide;
+        character:skillRanks 4;
     ];
     character:armor a:studdedLeather;
+
+    charsheet:sections ( "PersonalInfo" "StatBlock" "Skills" "Weapons" );
 .
  
