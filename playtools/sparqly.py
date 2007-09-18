@@ -301,12 +301,15 @@ def canBeLiteral(x):
 
 class TriplesDatabase(object):
     """A database from the defined triples"""
-    def __init__(self, base, prefixes, datasets):
+    def __init__(self, base, prefixes, datasets, graph=None):
         self.base = base
         self.prefixes = {'rdfs': RDFSNS}
         self.prefixes.update(prefixes)
 
-        self.graph = Graph()
+        if graph is None:
+            self.graph = Graph()
+        else:
+            self.graph = graph
 
         for d in filterNamespaces(datasets):
             self.graph.load(d, format='n3')
