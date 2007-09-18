@@ -6,7 +6,7 @@ from twisted.trial import unittest
 from pttestutil import padZip, compareXml
 
 
-class ConvertTestCase(unittest.TestCase):
+class TestUtilTestCase(unittest.TestCase):
     """
     Test the utilities used in testing themselves.
     """
