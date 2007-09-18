@@ -2,7 +2,6 @@
 import sqlite3
 from rdflib import ConjunctiveGraph, URIRef
 from rdflib.Namespace import Namespace as NS
-from rdflib.Identifier import Identifier
 from rdflib.Literal import Literal
 from rdflib.BNode import BNode
 import itertools
