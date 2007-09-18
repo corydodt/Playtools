@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+from playtools import charsheet
+
+import sys
+
+if __name__ == '__main__':
+    charsheet.main(sys.argv[1], sys.argv[2])

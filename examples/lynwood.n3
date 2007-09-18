@@ -1,0 +1,35 @@
+
+@prefix p: <http://thesoftworld.com/2007/property.n3#> .
+@prefix player: <http://thesoftworld.com/2007/player.n3#> .
+@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
+@prefix s: <http://thesoftworld.com/2007/skill.n3#> .
+@prefix : <http://trinket.thorne.id.au/2007/lynwood.n3#> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:lynwood 
+    rdf:type player:Player;
+    player:name "Lynwood";
+    c:str 22;    
+    c:dex 21;    
+    c:con 17;    
+    c:wis 10;    
+    c:int 9;    
+    c:cha 10;    
+    player:wields [
+        rdfs:label "Hooves";
+        player:damage "1d6+1";
+        player:attacks ( "+4" "+4" )
+    ];
+    player:wields [
+        rdfs:label "Lance, Heavy";
+        player:damage "1d10";
+        player:attacks ( "+9" );
+    ];
+    player:hasSkill [
+        player:skill s:hide;
+        player:skillRanks 4;
+    ];
+.
+    
