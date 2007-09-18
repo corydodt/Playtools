@@ -3,7 +3,10 @@ Unit tests for the test utility suite
 """
 from twisted.trial import unittest
 
-from pttestutil import padZip, compareXml
+from rdflib.Graph import Graph
+
+from playtools.test.pttestutil import padZip, compareXml, compareGraphs
+from playtools.common import P, C
 
 
 class TestUtilTestCase(unittest.TestCase):
@@ -50,4 +53,31 @@ class TestUtilTestCase(unittest.TestCase):
         s8 = """<a><b /><b /></a>"""
         self.failIf(compareXml(s7, s8))
         self.failIf(compareXml(s8, s7))
+
+    def test_compareGraphs(self):
+        """
+        compareGraphs should make sure the two graphs are isomorphic and use
+        the same prefixes.
+        """
+        g1 = Graph()
+        g2 = Graph()
+
+        self.failUnless(compareGraphs(g1, g2))
+
+        g1.bind('c', C)
+        g1.add((C.x, C.y, C.z))
+        # don't add a binding to g2
+        g2.add((C.x, C.y, C.z))
+        self.failIf(compareGraphs(g1, g2))
+
+        # now add the binding and make sure they are again the same
+        g2.bind('c', C)
+        self.failUnless(compareGraphs(g1, g2))
+
+        # both graphs should compare the same if they contain nodes with
+        # (the same) unbound namespaces
+        g1.add((P.x, P.y, P.z))
+        g2.add((P.x, P.y, P.z))
+
+        self.failUnless(compareGraphs(g1, g2))
 

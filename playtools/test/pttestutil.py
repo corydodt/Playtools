@@ -75,3 +75,20 @@ def compareXml(s1, s2):
 
     # TODO - return some information about the parts of the xml that differed
     return False
+
+def compareGraphs(g1, g2):
+    """
+    True if graphs g1 and g2 are the same graph
+    """
+    ns1 = sorted(g1.namespaces())
+    ns2 = sorted(g2.namespaces())
+    if ns1 != ns2:
+        return False
+
+    all1 = sorted(g1)
+    all2 = sorted(g2)
+    if all1 != all2:
+        return False
+
+    return True
+
