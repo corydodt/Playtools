@@ -32,9 +32,9 @@ function testPython()
 }
 
 testPython "RDFlib" 'import rdflib'
-testPython "Storm", 'import storm.locals'
-testPython "pysqlite2", 'import pysqlite2'
-testPython "Python 2.5", 'import xml.etree'
+testPython "Storm" 'import storm.locals'
+testPython "pysqlite2" 'import pysqlite2'
+testPython "Python 2.5" 'import xml.etree'
 
 if [ "$errorStatus" == "error" ]; then
     echo "** Errors occurred.  Please fix the above errors, then re-run this script."
