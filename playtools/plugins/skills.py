@@ -1,9 +1,9 @@
-from zope.interface import implements
-import string
 try:
     from xml.etree import cElementTree as ET
 except ImportError:
     from xml.etree import ElementTree as ET
+
+from zope.interface import implements
 
 from twisted.plugin import IPlugin
 from twisted.python import usage
@@ -11,6 +11,8 @@ from twisted.python import usage
 from storm import locals as SL
 
 from playtools.convert import IConverter, rdfName, rdfXmlWrap
+from playtools.sparqly import TriplesDatabase, URIRef
+from playtools.common import skillNs, P, C, a, RDFSNS, NS, this
 
 from twisted.python.util import sibpath
 
@@ -43,35 +45,8 @@ def skillSource(dbPath):
         yield p
 
 
-SKILL_TEMPLATE = string.Template(''':$rdfName
-    rdfs:label "${label}";
-    p:keyAbility ${keyAbility};
-    p:skillAction "${action}";
-${retryable}${psionic}${trained}${armorCheck}
-    p:reference <http://www.d20srd.org/srd/${reference}>;
-    p:additional "${special}";
-    p:restriction "${restriction}";
-    p:untrained "${untrained}";
-    ${subSkillsObjects}
-.
-${subSkills}
-''')
-
-SUBSKILL_TEMPLATE = string.Template(
-''':$rdfName 
-    a c:SubSkill ;
-    rdfs:label "${subLabel}" ;
-.'''
-)
-
-RETRYABLE = "    a c:RetryableSkill;"
-PSIONIC = "    a c:PsionicSkill;"
-TRAINED = "    a c:RequiresRanks;"
-ARMORCHECK = "    a c:ArmorCheckPenalty;"
-
-
 class Options(usage.Options):
-    synopsis = "SkillConverter"
+    synopsis = "skills"
 
 
 def cleanSrdXml(s):
@@ -97,6 +72,7 @@ def srdBoolean(col):
     return col.lower().strip() == "yes"
 
 
+
 class SkillConverter(object):
     """Convert the Sqlite skill table
 
@@ -109,6 +85,9 @@ class SkillConverter(object):
     def __init__(self, skillSource):
         self.skillSource = skillSource
         self._seenNames = {}
+        pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': skillNs }
+        self.db = TriplesDatabase(base='http://thesoftworld.com/2007/skill.n3#', 
+                prefixes=pfx, datasets=[])
 
     def __iter__(self):
         return self
@@ -116,10 +95,15 @@ class SkillConverter(object):
     def next(self):
         return self.skillSource.next()
 
-    def writePlaytoolsItem(self, playtoolsIO, c):
-        r = rdfName(c.name)
+    def addTriple(self, s, v, *o):
+        if s == None or v == None or None in o:
+            return
+        self.db.addTriple(skillNs[s], v, *o)
+
+    def makePlaytoolsItem(self, item):
+        r = rdfName(item.name)
         origR = r
-        
+
         # for skills with same name, increment a counter on the rdfName
         if r in self._seenNames:
             self._seenNames[r] = self._seenNames[r] + 1
@@ -127,122 +111,93 @@ class SkillConverter(object):
         else:
             self._seenNames[r] = 1
 
-        retryable = (RETRYABLE if srdBoolean(c.try_again) else '')
-        psionic = (PSIONIC if srdBoolean(c.psionic) else '')
-        trained = (TRAINED if srdBoolean(c.trained) else '')
-        armorCheck = (ARMORCHECK if srdBoolean(c.armor_check) else '')
+        def add(v, *o):
+            self.addTriple(r, v, *o)
 
-        if psionic:
+        add(RDFSNS.label, item.name)
+        add(P.keyAbility, item.key_ability.lower())
+        if item.action:
+            add(P.skillAction, item.action)
+        if item.special:
+            add(P.additional, cleanSrdXml(item.special))
+        if item.restriction:
+            add(P.restriction, item.restriction)
+        if item.untrained:
+            add(P.untrained, item.untrained)
+        if srdBoolean(item.untrained):
+            add(a, C.RetryableSkill)
+        if srdBoolean(item.psionic):
+            add(a, C.PsionicSkill)
             reference = "psionic/skills/%s.htm" % (origR,)
         else:
             reference = "skills/%s.htm" % (origR,)
 
+        if srdBoolean(item.trained):
+            add(a, C.RequiresRanks)
+        if srdBoolean(item.armor_check):
+            add(a, C.ArmorCheckPenalty)
+        add(P.tryAgainComment, item.try_again)
+        if item.description:
+            add(RDFSNS.comment, cleanSrdXml(item.description))
+        if item.skill_check:
+            add(P.skillCheck, cleanSrdXml(item.skill_check))
+        if item.epic_use:
+            add(P.epicUse, cleanSrdXml(item.epic_use))
+        # FIXME - do we really care about fullText?
+        if item.full_text:
+            add(P.fullText, cleanSrdXml(item.full_text))
+
+        add(P.reference, 
+                URIRef("http://www.d20srd.org/srd/%s" % (reference,)))
+
         subSkills = []
-        subSkillsObjects = []
-        if c.subtype:
-            _subskillNames = c.subtype.split(',')
+        if item.subtype:
+            _subskillNames = item.subtype.split(',')
             for name in _subskillNames:
-                s = SUBSKILL_TEMPLATE.substitute({
-                    'rdfName': rdfName(name),
-                    'subLabel': name,
-                })
-                subSkills.append(s)
-                subSkillsObjects.append(":%s" % (rdfName(name),))
-
-            subSkillsObjects = (
-                    'p:subSkills ' + ', '.join(subSkillsObjects) + ';'
-            )
-            subSkills = '\n'.join(subSkills)
-
-        else:
-            subSkillsObjects = ''
-            subSkills = ''
-
-
-        s = SKILL_TEMPLATE.substitute(
-            dict(rdfName=r,
-                label=c.name,
-                action=c.action or '',
-                special=c.special or '',
-                restriction=c.restriction or '',
-                keyAbility="c:%s" % (c.key_ability.lower(),),
-                retryable=retryable,
-                psionic=psionic,
-                trained=trained,
-                untrained=c.untrained or '',
-                reference=reference,
-                armorCheck=armorCheck,
-                subSkills=subSkills,
-                subSkillsObjects=subSkillsObjects
-            )
-        )
-
-        playtoolsIO.writeN3(s)
-
-        def wrap(s, p):
-            if s is None:
-                return u''
-            return rdfXmlWrap(cleanSrdXml(s),
-                about="http://thesoftworld.com/2007/skill.n3#%s" % (r,),
-                predicate=(p, "http://thesoftworld.com/2007/property.n3#")
-            )
-
-        desc = wrap(c.description, "description")
-        skillCheck = wrap(c.skill_check, "skillCheck")
-        epicUse = wrap(c.epic_use, "epicUse")
-        fullText = wrap(c.full_text, "fullText")
-
-        playtoolsIO.writeXml('\n')
-        playtoolsIO.writeXml(desc)
-        playtoolsIO.writeXml('\n')
-        playtoolsIO.writeXml(skillCheck)
-        playtoolsIO.writeXml('\n')
-        playtoolsIO.writeXml(epicUse)
-        playtoolsIO.writeXml('\n')
-        playtoolsIO.writeXml(fullText)
+                rSubSkill = skillNs[rdfName(name)]
+                subSkills.append(rSubSkill)
+                self.db.addTriple(rSubSkill, a, C.SubSkill)
+                self.db.addTriple(rSubSkill, RDFSNS.label, name)
+            add(P['subSkills'], *subSkills)
 
     def label(self):
-        return u"SkillConverter"
+        return u"skills"
 
-    def n3Preamble(self, playtoolsIO):
-        pre = """@prefix p: <http://thesoftworld.com/2007/property.n3#> .
-@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
-@prefix : <http://thesoftworld.com/2007/skill.n3#> .
+    def preamble(self):
+        self.db.addTriple(this, RDFSNS['title'], "All d20 SRD Skills")
 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        # NOTE not!! self.addTriple
+        add = lambda s,o,v: self.db.addTriple(skillNs[s], o, v)
+        add('abyssal', a, C.Language)
+        add('aquan', a, C.Language)
+        add('auran', a, C.Language)
+        add('celestial', a, C.Language)
+        add('common', a, C.Language)
+        add('draconic', a, C.Language)
+        add('drowSignLanguage', a, C.Language)
+        add('druidic', a, C.Language)
+        add('dwarven', a, C.Language)
+        add('elven', a, C.Language)
+        add('formian', a, C.Language)
+        add('giant', a, C.Language)
+        add('gnoll', a, C.Language)
+        add('gnome', a, C.Language)
+        add('goblin', a, C.Language)
+        add('grimlock', a, C.Language)
+        add('halfling', a, C.Language)
+        add('ignan', a, C.Language)
+        add('infernal', a, C.Language)
+        add('maenad', a, C.Language)
+        add('orc', a, C.Language)
+        add('sphinx', a, C.Language)
+        add('sylvan', a, C.Language)
+        add('terran', a, C.Language)
+        add('undercommon', a, C.Language)
+        add('worg', a, C.Language)
+        add('xeph', a, C.Language)
 
-<> rdfs:title "All d20 SRD Skills" .
-
-:abyssal a c:Language .
-:aquan a c:Language .
-:auran a c:Language .
-:celestial a c:Language .
-:common a c:Language .
-:draconic a c:Language .
-:drowSignLanguage a c:Language .
-:druidic a c:Language .
-:dwarven a c:Language .
-:elven a c:Language .
-:formian a c:Language .
-:giant a c:Language .
-:gnoll a c:Language .
-:gnome a c:Language .
-:goblin a c:Language .
-:grimlock a c:Language .
-:halfling a c:Language .
-:ignan a c:Language .
-:infernal a c:Language .
-:maenad a c:Language .
-:orc a c:Language .
-:sphinx a c:Language .
-:sylvan a c:Language .
-:terran a c:Language .
-:undercommon a c:Language .
-:worg a c:Language .
-:xeph a c:Language .
-"""
-        playtoolsIO.writeN3(pre)
+    def writeAll(self, playtoolsIO):
+        playtoolsIO.write(self.db.dump())
 
 
 ss = skillSource(sibpath(__file__, 'srd35.db'))

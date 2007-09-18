@@ -1,14 +1,12 @@
 
 from rdflib import ConjunctiveGraph
 from rdflib.Namespace import Namespace as NS
-from playtools import sparqly
 import glob
 from twisted.python.util import sibpath
 import os
 from rdflib import URIRef
 
-from twisted.plugin import getPlugins, IPlugin
-from zope.interface import Interface, Attribute, implements
+from twisted.plugin import getPlugins
 from playtools.interfaces import ICharSheetSection
 
 rdfs = NS('http://www.w3.org/2000/01/rdf-schema#')
@@ -40,7 +38,6 @@ def main(filename, name):
             continue
         try: graph.load(f, format='n3')
         except Exception, e:
-            import traceback
             print 'Could not load', f, 'because', e
     graph.load(rdfs)
     graph.load(rdf)

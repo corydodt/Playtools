@@ -1,8 +1,6 @@
 """
 Unit tests for the test utility suite
 """
-import sys
-
 from twisted.trial import unittest
 
 from pttestutil import padZip, compareXml

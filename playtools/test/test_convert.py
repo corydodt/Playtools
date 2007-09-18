@@ -13,14 +13,10 @@ class MockPlaytoolsIO(object):
     Simulate a PlaytoolsIO by writing to lists
     """
     def __init__(self):
-        self.n3buf = []
-        self.xmlbuf = []
+        self.buf = []
 
-    def writeXml(self, x):
-        self.xmlbuf.extend(x.split('\n'))
-
-    def writeN3(self, x):
-        self.n3buf.extend(x.split('\n'))
+    def write(self, x):
+        self.buf.extend(x.split('\n'))
 
 
 def skillSource(count):
@@ -85,7 +81,7 @@ class ConvertTestCase(unittest.TestCase):
         """
         sys.path = [FilePath(__file__).parent()]
         self.assert_(skillConverter in C.getConverters())
-        self.assert_(skillConverter is C.getConverter('SkillConverter'))
+        self.assert_(skillConverter is C.getConverter('skills'))
         self.assertRaises(KeyError, lambda: C.getConverter("  ** does not exist  ** "))
 
     def test_skillConverter(self):
@@ -93,42 +89,20 @@ class ConvertTestCase(unittest.TestCase):
         Test that the skill converter converts skills
         """
         sv = SkillConverter(skillSource(1))
-        io = MockPlaytoolsIO()
-        sv.n3Preamble(io)
+        sv.preamble()
         for skill in sv:
-            sv.writePlaytoolsItem(io, skill)
+            sv.makePlaytoolsItem(skill)
+
+        io = MockPlaytoolsIO()
+        sv.writeAll(io)
     
-        expected = '''@prefix p: <http://thesoftworld.com/2007/property.n3#> .
-@prefix c: <http://thesoftworld.com/2007/characteristic.n3#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        exampleN3 = sibpath(__file__, 'test_convert_skillConverter.n3')
+        expected = open(exampleN3).read().split('\n')[:-1]
 
-<> rdfs:title "All d20 SRD Skills" .
-
-:sneakiness
-    rdfs:label "Sneakiness";
-    p:keyAbility c:str;
-    p:skillAction "Thingie";
-    a c:RetryableSkill;
-    p:reference <http://www.d20srd.org/srd/skills/sneakiness.htm>;
-    p:additional "Hi";
-    p:restriction "Stuff is restricted";
-    p:untrained "";
-.
-'''.split('\n')
-
-        comparisonGrid = pttestutil.padZip(expected, io.n3buf)
-        _msg = pttestutil.formatFailMsg(io.n3buf)
+        comparisonGrid = pttestutil.padZip(expected, io.buf)
+        _msg = pttestutil.formatFailMsg(io.buf)
         for eLine, aLine in comparisonGrid:
             self.assertEqual(aLine, eLine, msg=_msg % (eLine, aLine))
-
-        expectedXml = open(sibpath(__file__, 'test_convert_skillConverter.xml')).read().replace('\n', '')
-        _actual = ''.join(io.xmlbuf).replace('\n', '')
-        actualXml = "<____>%s</____>" % (_actual,)
-        _msg = "%s != %s" % (expectedXml, actualXml)
-        self.failUnless(
-                pttestutil.compareXml(expectedXml, actualXml),
-                msg=_msg)
 
     def test_rdfXmlWrap(self):
         """
@@ -159,8 +133,10 @@ class ConvertTestCase(unittest.TestCase):
         """
         s1 = "thing"
         s2 = "The Thing. that (we want)"
+        s3 = "The Thing, that (we want)"
         self.assertEqual(C.rdfName(s1), "thing")
         self.assertEqual(C.rdfName(s2), "theThingThatWeWant")
+        self.assertEqual(C.rdfName(s3), "theThingThatWeWant")
 
     def test_converterDoc(self):
         """

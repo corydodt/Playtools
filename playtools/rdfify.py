@@ -1,9 +1,7 @@
 
 import sqlite3
-from rdflib import ConjunctiveGraph
-from rdflib import Graph
+from rdflib import ConjunctiveGraph, URIRef
 from rdflib.Namespace import Namespace as NS
-from rdflib.Identifier import Identifier
 from rdflib.Literal import Literal
 from rdflib.BNode import BNode
 import itertools
@@ -249,9 +247,8 @@ class Spell(Converter):
 
     def preamble(self):
         return [
-            # don't know how to express this
-            # ('', ns_rdf['title'], "DND3.5E monsters"),
-            # ('', ns_rdf['comment'], "Exported from srd35.db"),
+            (URIRef(''), ns_rdf['title'], Literal("DND3.5E monsters")),
+            (URIRef(''), ns_rdf['comment'], Literal("Exported from srd35.db")),
         ]
 
     def classes(self):
