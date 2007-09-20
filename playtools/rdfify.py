@@ -14,7 +14,7 @@ ns_fam = NS('http://thesoftworld.com/2007/family.n3#')
 ns_char = NS('http://thesoftworld.com/2007/characteristic.n3#')
 ns_dice = NS('http://thesoftworld.com/2007/dice.n3#')
 ns_pcclass = NS('http://thesoftworld.com/2007/pcclass.n3#')
-ns_prop = NS('http://thesoftworld.com/2007/properties.n3#')
+ns_prop = NS('http://thesoftworld.com/2007/property.n3#')
 ns_skill = NS("http://thesoftworld/2007/skills.n3#")
 ns_spell = NS("http://thesoftworld/2007/spells.n3#")
 ns_rdf = NS("http://www.w3.org/2000/01/rdf-schema#")
@@ -100,7 +100,7 @@ class Monsters(Converter):
             "@prefix : <http://thesoftworld/2007/monsters.n3#>.",
             "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .",
             '@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .',
-            '@prefix p:     <http://thesoftworld.com/2007/properties.n3#> .',
+            '@prefix p:     <http://thesoftworld.com/2007/property.n3#> .',
             '<> rdfs:title "DND3.5E monsters" .',
             '<> rdfs:comment "Exported from srd35.db" .',
         ]
