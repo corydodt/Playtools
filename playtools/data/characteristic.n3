@@ -386,3 +386,5 @@
     rdfs:subClassOf :Characteristic ;
     rdfs:comment "Some penalty will apply to this skill check depending on the armor the character is wearing.";
 .
+:SubSkill rdfs:subClassOf :Characteristic .
+:Skill rdfs:subClassOf :Characteristic .
