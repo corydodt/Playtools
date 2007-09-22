@@ -9,6 +9,7 @@ import sys
 
 from simpleparse import parser, dispatchprocessor as disp
 from simpleparse.common import numbers
+numbers # for pyflakes
 
 ns_fam = NS('http://thesoftworld.com/2007/family.n3#')
 ns_char = NS('http://thesoftworld.com/2007/characteristic.n3#')
