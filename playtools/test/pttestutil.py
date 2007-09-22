@@ -4,6 +4,7 @@ Utilities for unit tests
 from itertools import chain, repeat
 try:
     from xml.etree import cElementTree as ET
+    ET # for pyflakes
 except ImportError:
     from xml.etree import ElementTree as ET
 
