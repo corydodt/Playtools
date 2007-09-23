@@ -8,6 +8,7 @@ from rdflib.RDF import RDFNS
 from rdflib import URIRef
 
 skillNs = NS("http://thesoftworld.com/2007/skill.n3#")
+featNs = NS("http://thesoftworld.com/2007/feat.n3#")
 P = NS('http://thesoftworld.com/2007/property.n3#')
 C = NS('http://thesoftworld.com/2007/characteristic.n3#')
 
