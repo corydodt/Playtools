@@ -388,3 +388,69 @@
 .
 :SubSkill rdfs:subClassOf :Characteristic .
 :Skill rdfs:subClassOf :Characteristic .
+
+:Feat rdfs:subClassOf :Characteristic .
+:FeatType rdfs:subClassOf :Characteristic .
+:psionicFeat a :FeatType;
+    rdfs:label "Psionic"
+.
+:divineFeat a :FeatType;
+    rdfs:label "Divine"
+.
+
+:epicFeat a :FeatType;
+    rdfs:label "Epic"
+.
+
+:generalFeat a :FeatType;
+    rdfs:label "General"
+.
+
+:wildFeat a :FeatType;
+    rdfs:label "Wild"
+.
+
+:metamagicFeat a :FeatType;
+    rdfs:label "Metamagic"
+.
+
+:fighterFeat a :FeatType;
+    rdfs:label "Fighter"
+.
+
+:itemCreation a :FeatType;
+    rdfs:label "Item Creation"
+.
+
+:metapsionicFeat a :FeatType;
+    rdfs:label "Metapsionic"
+.
+
+:CanTakeMultipleFeat 
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "This feat may be taken more than once";
+.
+:StackableFeat
+    rdfs:subclassOf :Characteristic;
+    rdfs:comment "When this feat is taken more than once, its effects stack";
+.
+:ArmorClassFeat
+    rdfs:subclassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near armor class";
+.
+:SpeedFeat
+    rdfs:subclassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near movement";
+.
+:AttackOptionFeat
+    rdfs:subclassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near attacks";
+.
+:SpecialActionFeat
+    rdfs:subclassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near special actions";
+.
+:RangedAttackFeat
+    rdfs:subclassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near ranged attacks";
+.
