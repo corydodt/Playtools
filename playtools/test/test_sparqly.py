@@ -3,13 +3,14 @@ Test the database and object mapping abilities of playtools.sparqly
 """
 
 from twisted.trial import unittest
+from twisted.python.util import sibpath
 
 from rdflib.Namespace import Namespace
 from rdflib import Literal, URIRef, BNode
-from rdflib.Graph import Graph
 
 from playtools import sparqly
 from playtools.test.pttestutil import IsomorphicTestableGraph
+from playtools.common import this
 
 class Employee(sparqly.SparqItem):
     firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
@@ -18,11 +19,10 @@ class Employee(sparqly.SparqItem):
 Employee.supervisor = sparqly.Ref(Employee, "SELECT ?s { $key :supervisor $s }")
 
 STAFF = Namespace('http://corp.com/staff#')
+ANS = Namespace('http://a#')
+BNS = Namespace('http://b#')
 
-TESTING_NAMESPACES = {'': STAFF,
-    'a': Namespace('http://a#'),
-    'b': Namespace('http://b#'),
-}
+TESTING_NAMESPACES = {'': STAFF, 'a': ANS, 'b': BNS }
 
 
 class SparqlyTestCase(unittest.TestCase):
@@ -79,6 +79,7 @@ class TriplesDbTestCase(unittest.TestCase):
             Literal(2)))
         graph.add((URIRef('http://a#x'), URIRef('http://b#y'),
             Literal(3)))
+        graph.add((this, this, Literal(4)))
 
     def setUp(self):
         """
@@ -154,3 +155,18 @@ class TriplesDbTestCase(unittest.TestCase):
         assert 0
     test_dump.todo = "Add some triples to a graph, dump, examine the string"
 
+    def test_extendGraph(self):
+        """
+        extendGraph should add triples to the db's graph, within the context
+        of the db's graph's publicID.  Show that:
+        - old triples are still around
+        - new triples exist
+        - <> is not rewritten as <newpublicid.n3>
+        """
+        self.fill(self.db.graph)
+        self.db.extendGraph(sibpath(__file__, 'extend.n3'))
+        trips = list(self.db.graph)
+        # old triples still around
+        self.failUnless((ANS.x, ANS.y, Literal(1)) in trips)
+        # new triple is around as well, and this is still this
+        self.failUnless((this, ANS.f, ANS.g) in trips)

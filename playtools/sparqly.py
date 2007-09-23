@@ -95,9 +95,12 @@ Limitations:
 """
 
 from string import Template
+import hashlib
+import random
 
 try:
     from cStringIO import StringIO
+    StringIO # for pyflakes
 except ImportError:
     from StringIO import StringIO
 
@@ -357,3 +360,30 @@ class TriplesDatabase(object):
         except Exception, e:
             import sys, pdb; pdb.post_mortem(sys.exc_info()[2])
         return io.getvalue()
+
+    def extendGraph(self, graphFile):
+        """
+        Add all the triples in graphFile to graph
+
+        This is done as if the loaded graph is the same context as this
+        database's graph, which means <> from the loaded graph will be
+        modified to mean <> in the new context
+        """
+        g2 = Graph()
+        # goddammit.  generate a random publicID, so i can later throw it
+        # away.  load graphs in this manner corrupts the expected of <>
+        publicID = randomPublicID()
+        g2.load(graphFile, format='n3', publicID=publicID)
+        for s,v,o in g2:
+            if s == URIRef(publicID):
+                self.graph.add((URIRef(''), v, o))
+            else:
+                self.graph.add((s,v,o))
+
+
+def randomPublicID():
+    """
+    Return a new, random publicID
+    """
+    return 'file:///%s' % (hashlib.md5(str(random.random())).hexdigest(),)
+

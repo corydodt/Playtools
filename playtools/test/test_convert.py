@@ -1,23 +1,18 @@
 import sys
 
+from zope.interface import implements
+
+from rdflib.Namespace import Namespace as NS
+
 from twisted.trial import unittest
-from twisted.python.filepath import FilePath
-from twisted.python.util import sibpath
+from twisted.plugin import IPlugin
 
-from playtools import convert as C
-from playtools.plugins.skills import skillConverter, SkillConverter
+from playtools import convert, sparqly
+from playtools.plugins.skills import skillConverter
 from playtools.test import pttestutil
+from playtools.common import this, RDFSNS
 
-class MockPlaytoolsIO(object):
-    """
-    Simulate a PlaytoolsIO by writing to lists
-    """
-    def __init__(self):
-        self.buf = []
-
-    def write(self, x):
-        self.buf.extend(x.split('\n'))
-
+from StringIO import StringIO
 
 def skillSource(count):
     """
@@ -51,16 +46,46 @@ class MockSkill(object):
     reference = 'SRD 3.5 CombinedSkills'
 
 
+SAMPLE = NS('http://sample.com/2007/mock.n3#')
+
+
 class MockConverter(object):
     """This docstring exists only for testing.
     This line should be ignored.
     """
+    implements(convert.IConverter, IPlugin)
+    commandLine = None
+
+    def __init__(self, mockSource):
+        self.mockSource = mockSource
+        self.db = sparqly.TriplesDatabase(base=SAMPLE, 
+                prefixes={'s':SAMPLE}, datasets=[])
+
+    def label(self):
+        return u"mock"
+
+    def next(self):
+        return self.mockSource.next()
+
+    def makePlaytoolsItem(self, item):
+        self.db.addTriple(SAMPLE.x, SAMPLE.y, SAMPLE.z)
+
+    def writeAll(self, playtoolsIO):
+        playtoolsIO.write(self.db.dump())
+
+    def __iter__(self):
+        return self
+
+    def preamble(self):
+        self.db.addTriple(this, RDFSNS.label, "Mockery")
+
 
 class Mock2(object):
     # do NOT add a docstring here. This is for testing.
     pass
 
 assert Mock2.__doc__ is None # yeah, I mean it. :-)
+
 
 class ConvertTestCase(unittest.TestCase):
     def setUp(self):
@@ -79,30 +104,42 @@ class ConvertTestCase(unittest.TestCase):
         """
         Check that our plugins can be found.
         """
-        sys.path = [FilePath(__file__).parent()]
-        self.assert_(skillConverter in C.getConverters())
-        self.assert_(skillConverter is C.getConverter('skills'))
-        self.assertRaises(KeyError, lambda: C.getConverter("  ** does not exist  ** "))
+        self.assert_(skillConverter in convert.getConverters())
+        self.assert_(skillConverter is convert.getConverter('skills'))
+        self.assertRaises(KeyError, lambda: convert.getConverter("  ** does not exist  ** "))
 
-    def test_skillConverter(self):
+    def test_conversion(self):
         """
-        Test that the skill converter converts skills
+        Test running a mock converter, ensuring that IConverter is stable
         """
-        sv = SkillConverter(skillSource(1))
-        sv.preamble()
-        for skill in sv:
-            sv.makePlaytoolsItem(skill)
+        source = skillSource(1)
+        c = MockConverter(source)
 
-        io = MockPlaytoolsIO()
-        sv.writeAll(io)
-    
-        exampleN3 = sibpath(__file__, 'test_convert_skillConverter.n3')
-        expected = open(exampleN3).read().split('\n')[:-1]
+        # test preamble
+        c.preamble()
+        triples = list(c.db.graph)
+        self.failUnless((this, RDFSNS.label, 'Mockery') in triples)
 
-        comparisonGrid = pttestutil.padZip(expected, io.buf)
-        _msg = pttestutil.formatFailMsg(io.buf)
-        for eLine, aLine in comparisonGrid:
-            self.assertEqual(aLine, eLine, msg=_msg % (eLine, aLine))
+        # test label
+        self.assertEqual(c.label(), 'mock')
+
+        # test next, __iter__
+        for item in c:
+            pass
+        self.failUnless(isinstance(item, MockSkill))
+
+        # test makePlaytoolsItem
+        c.makePlaytoolsItem(item)
+        triples = list(c.db.graph)
+        self.failUnless((SAMPLE.x, SAMPLE.y, SAMPLE.z) in triples)
+
+        # test writeAll
+        io = StringIO()
+        c.db.graph.bind('rdfs', RDFSNS)
+        c.writeAll(io)
+
+        st = io.getvalue()
+        self.failUnless('<> rdfs:label "Mockery".' in st)
 
     def test_rdfXmlWrap(self):
         """
@@ -113,7 +150,7 @@ class ConvertTestCase(unittest.TestCase):
                '"http://www.w3.org/1999/02/22-rdf-syntax-ns#" about='
                '"foo" parseType="Literal"><hi xmlns="bar#">hellO</hi></Description>'
         )
-        a1 = C.rdfXmlWrap(s1, about="foo", predicate=("hi", "bar#"))
+        a1 = convert.rdfXmlWrap(s1, about="foo", predicate=("hi", "bar#"))
         _msg = "%s != %s" % (a1, ex1)
         self.failUnless(pttestutil.compareXml(a1, ex1), msg=_msg)
 
@@ -123,7 +160,7 @@ class ConvertTestCase(unittest.TestCase):
                '"foo" parseType="Literal"><bar:hi xmlns:bar="bar">abc<p style='
                '"stuff">thingz</p>xyz</bar:hi></Description>'
         )
-        a2 = C.rdfXmlWrap(s2, about="foo", predicate=("hi", "bar#"))
+        a2 = convert.rdfXmlWrap(s2, about="foo", predicate=("hi", "bar#"))
         _msg = "%s != %s" % (a2, ex2)
         self.failUnless(pttestutil.compareXml(a2, ex2), msg=_msg)
 
@@ -134,39 +171,17 @@ class ConvertTestCase(unittest.TestCase):
         s1 = "thing"
         s2 = "The Thing. that (we want)"
         s3 = "The Thing, that (we want)"
-        self.assertEqual(C.rdfName(s1), "thing")
-        self.assertEqual(C.rdfName(s2), "theThingThatWeWant")
-        self.assertEqual(C.rdfName(s3), "theThingThatWeWant")
+        self.assertEqual(convert.rdfName(s1), "thing")
+        self.assertEqual(convert.rdfName(s2), "theThingThatWeWant")
+        self.assertEqual(convert.rdfName(s3), "theThingThatWeWant")
 
     def test_converterDoc(self):
         """
         Assert that there is a standard way to get the doc from a Converter
         """
-        actual = C.converterDoc(MockConverter())
+        source = skillSource(1)
+        actual = convert.converterDoc(MockConverter(source))
         self.assertEqual(actual, "This docstring exists only for testing.")
 
-        actual = C.converterDoc(Mock2())
+        actual = convert.converterDoc(Mock2())
         self.assertEqual(actual, "")
-
-    def test_playtoolsIO(self):
-        """
-        Assert that things can be written into both n3 and xml parts of
-        PlaytoolsIO
-        """
-        n3filename = "n3.n3"
-        xmlfilename = "rdf.rdf"
-        n3f = open(n3filename, "w")
-        xmlf = open(xmlfilename, "w")
-        pt = C.PlaytoolsIO(n3f, xmlf)
-
-        n3s = ":haha :lala :baba ."
-        pt.writeN3(n3s)
-        rdfs = '<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />'
-        pt.writeXml(rdfs)
-
-        n3f.close()
-        xmlf.close()
-
-        self.assertEqual(open(n3filename).read(), n3s)
-        self.assertEqual(open(xmlfilename).read(), rdfs)
-
