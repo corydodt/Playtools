@@ -14,3 +14,7 @@ C = NS('http://thesoftworld.com/2007/characteristic.n3#')
 a = RDFNS.type
 
 this = URIRef('')
+
+# for pyflakes
+RDFSNS
+RDFNS
