@@ -1,3 +1,6 @@
+"""
+Converter from srd35.db to skill.n3 
+"""
 from zope.interface import implements
 
 from twisted.plugin import IPlugin
@@ -9,6 +12,7 @@ from playtools.convert import IConverter, rdfName
 from playtools.sparqly import TriplesDatabase, URIRef
 from playtools.common import skillNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE
+from playtools.plugins.util import initDatabase, srdBoolean
 
 from twisted.python.util import sibpath
 
@@ -71,16 +75,6 @@ def quoteSrdXml(s):
     s = s.replace('\n', r'\n')
     s = s.replace('"', r'\"')
     return s
-
-
-def srdBoolean(col):
-    """
-    True if the column is "yes"
-    Otherwise False
-    """
-    if col is None:
-        return False
-    return col.lower().strip() == "yes"
 
 
 class SkillConverter(object):
