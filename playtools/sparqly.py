@@ -371,7 +371,8 @@ class TriplesDatabase(object):
         """
         g2 = Graph()
         # goddammit.  generate a random publicID, so i can later throw it
-        # away.  load graphs in this manner corrupts the expected of <>
+        # away.  Loading graphs in this manner without this hack corrupts the
+        # expected meaning of <>
         publicID = randomPublicID()
         g2.load(graphFile, format='n3', publicID=publicID)
         for s,v,o in g2:
