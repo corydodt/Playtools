@@ -132,13 +132,13 @@ class FeatConverter(object):
         if item.normal:
             add(P.noFeatComment, item.normal)
 
-        if 'epic' in types:
+        if 'EpicFeat' in types:
             reference = "epic/feats.htm#%s" % (origR,)
-        elif r in ['Improved Flyby Attack', 'Improved Multiattack', 
-                'Improved Multiweapon Fighting', 
-                'Greater Multiweapon Fighting']:
+        elif r in ['improvedFlybyAttack', 'improvedMultiattack', 
+                'improvedMultiweaponFighting', 
+                'greaterMultiweaponFighting']:
             reference = "epic/feats.htm#%s" % (origR,)
-        elif 'psionic' in types:
+        elif 'PsionicFeat' in types:
             reference = "psionic/psionicFeats.htm#%s" % (origR,)
         else:
             reference = "feats/feats.htm#%s" % (origR,)
