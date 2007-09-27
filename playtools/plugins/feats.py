@@ -113,15 +113,18 @@ class FeatConverter(object):
 
         add(RDFSNS.label, item.name)
         add(a, C.Feat)
-        types = [rdfName(t.strip()) + "Feat" for t in item.type.split(',')]
+        types = []
+        for t in item.type.split(','):
+            t = rdfName(t.strip()).capitalize() + "Feat"
+            types.append(t)
         for type in types:
-            add(P.featType, getattr(C, type))
+            add(a, getattr(C, type))
         if srdBoolean(item.multiple):
             add(a, C.CanTakeMultipleFeat)
         if srdBoolean(item.stack):
             add(a, C.StackableFeat)
-        ## if item.choice:
-        ##     TODO - add some choices to characteristic
+        if item.choice:
+            add(P.choiceText, item.choice)
         if item.prerequisite:
             add(P.prerequisiteText, item.prerequisite)
         if item.benefit:
