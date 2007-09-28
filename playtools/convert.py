@@ -87,25 +87,10 @@ def rdfXmlWrap(s, about, predicate, contentsNamespace=XHTML_NS):
     # TODO - make prefixes nicer
     return ElementTree.tostring(desc)
 
-def rdfName(s):
-    """Return a string suitable for an IRI from s"""
-    s = s.replace('.', ' ')
-    s = s.replace('-', ' ')
-    s = s.replace("'", '')
-    s = s.replace('/', ' ')
-    s = s.replace(':', ' ')
-    s = s.replace(',', ' ')
-    s = s.replace('(', ' ').replace(")", ' ')
-    s = s.replace('[', ' ').replace("]", ' ')
-    parts = s.split()
-    parts[0] = parts[0].lower()
-    parts[1:] = [p.capitalize() for p in parts[1:]]
-    return ''.join(parts)
-
 def converterDoc(converter):
     if converter.__doc__ is None:
         return ''
     return converter.__doc__.splitlines()[0].rstrip()
 
-__all__ = ['IConverter', 'getConverters', 'getConverter', 'rdfXmlWrap', 'rdfName']
+__all__ = ['IConverter', 'getConverters', 'getConverter', 'rdfXmlWrap']
 

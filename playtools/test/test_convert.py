@@ -164,17 +164,6 @@ class ConvertTestCase(unittest.TestCase):
         _msg = "%s != %s" % (a2, ex2)
         self.failUnless(pttestutil.compareXml(a2, ex2), msg=_msg)
 
-    def test_rdfName(self):
-        """
-        Test ability to convert weird names into rdf strings in a standard way
-        """
-        s1 = "thing"
-        s2 = "The Thing. that (we want)"
-        s3 = "The Thing, that (we want)"
-        self.assertEqual(convert.rdfName(s1), "thing")
-        self.assertEqual(convert.rdfName(s2), "theThingThatWeWant")
-        self.assertEqual(convert.rdfName(s3), "theThingThatWeWant")
-
     def test_converterDoc(self):
         """
         Assert that there is a standard way to get the doc from a Converter
