@@ -8,10 +8,10 @@ from twisted.python import usage
 
 from storm import locals as SL
 
-from playtools.convert import IConverter, rdfName
+from playtools.convert import IConverter
 from playtools.sparqly import TriplesDatabase, URIRef
 from playtools.common import skillNs, P, C, a, RDFSNS
-from playtools.util import RESOURCE
+from playtools.util import RESOURCE, rdfName
 from playtools.plugins.util import initDatabase, srdBoolean
 
 from twisted.python.util import sibpath
@@ -37,11 +37,6 @@ class Skill(object):
     untrained = SL.Unicode()                 #
     full_text = SL.Unicode()                 #
     reference = SL.Unicode()                 #
-
-
-def initDatabase(dbPath):
-    db = SL.create_database('sqlite:%s' % (dbPath,))
-    return SL.Store(db)
 
 
 def skillSource(store):
