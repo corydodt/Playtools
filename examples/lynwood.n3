@@ -35,6 +35,10 @@
         character:skill s:hide;
         character:skillRanks 4;
     ];
+    character:hasSkill [
+        character:skill s:climb;
+        character:skillRanks 4;
+    ];
     character:armor a:studdedLeather;
 
     charsheet:sections ( "PersonalInfo" "StatBlock" "Skills" "Weapons" );
