@@ -8,10 +8,10 @@ from twisted.python import usage
 
 from storm import locals as SL
 
-from playtools.convert import IConverter, rdfName
-from playtools.sparqly import TriplesDatabase, URIRef
+from playtools.convert import IConverter
+from playtools import sparqly
 from playtools.common import featNs, P, C, a, RDFSNS
-from playtools.util import RESOURCE
+from playtools.util import RESOURCE, rdfName
 from playtools.plugins.util import srdBoolean, initDatabase
 
 from twisted.python.util import sibpath
@@ -60,16 +60,6 @@ def cleanSrdXml(s):
     return u
 
 
-def srdBoolean(col):
-    """
-    True if the column is "yes"
-    Otherwise False
-    """
-    if col is None:
-        return False
-    return col.lower().strip() == "yes"
-
-
 class FeatConverter(object):
     """Convert the Sqlite feat table
 
@@ -83,7 +73,7 @@ class FeatConverter(object):
         self.featSource = featSource
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': featNs }
-        self.db = TriplesDatabase(base=featNs, prefixes=pfx, datasets=[])
+        self.db = sparqly.TriplesDatabase(base=featNs, prefixes=pfx, datasets=[])
 
     def __iter__(self):
         return self
@@ -143,7 +133,7 @@ class FeatConverter(object):
         else:
             reference = "feats/feats.htm#%s" % (origR,)
         add(P.reference, 
-                URIRef("http://www.d20srd.org/srd/%s" % (reference,)))
+                sparqly.URIRef("http://www.d20srd.org/srd/%s" % (reference,)))
 
         if item.special:
             add(P.additional, item.special)
