@@ -54,6 +54,7 @@
 
 
 :Alignment rdfs:subClassOf :Characteristic .
+:AlignmentAtom rdfs:subClassOf :Characteristic .
 
 :lawfulGood a :Alignment .
 :neutralGood a :Alignment .
@@ -64,20 +65,23 @@
 :lawfulEvil a :Alignment .
 :neutralEvil a :Alignment .
 :chaoticEvil a :Alignment .
-:lawful a :Alignment .
-:chaotic a :Alignment .
-:evil a :Alignment .
-:good a :Alignment .
+:lawful a :Alignment, :AlignmentAtom .
+:chaotic a :Alignment, :AlignmentAtom .
+:evil a :Alignment, :AlignmentAtom .
+:good a :Alignment, :AlignmentAtom .
 
 
 :AttackEffect rdfs:subClassOf :Characteristic .
+:Energy rdfs:subClassOf :Characteristic .
 
 :mindAffecting a :AttackEffect;
     rdfs:label "Mind-Affecting Attacks"
 .
-:acid a :AttackEffect .
-:cold a :AttackEffect .
-:fire a :AttackEffect .
+:acid a :AttackEffect, :Energy .
+:cold a :AttackEffect, :Energy .
+:fire a :AttackEffect, :Energy .
+:electricity a :AttackEffect, :Energy .
+:sonic a :AttackEffect, :Energy .
 :poison a :AttackEffect .
 :sleep a :AttackEffect .
 :paralysis a :AttackEffect .
@@ -88,7 +92,6 @@
     rdfs:label "Death Effects";
 .
 :necromancy a :AttackEffect .
-:electricity a :AttackEffect .
 :petrification a :AttackEffect .
 :nonMagical a :AttackEffect;
     rdfs:label "Non-Magical Attacks";
@@ -208,7 +211,7 @@
 .
 :noDeathFromMassiveDamage a :CombatMechanic;
     rdfs:label "No Death from Massive Damage";
-    :decription "Not subject to death from massive damage";
+    rdfs:comment "Not subject to death from massive damage";
 .
 :destroyedAtZero a :CombatMechanic;
     rdfs:label "Destroyed at 0 hit points";
@@ -367,22 +370,188 @@
 
 :RangedAttack rdfs:subClassOf :PhysicalAttack .
 
+:AttackOption rdfs:subClassOf :Characteristic;
+    rdfs:comment "A special attack possessed by a creature, or a modifier to a regular attack";
+.
+
 :RetryableSkill 
     rdfs:subClassOf :Characteristic ;
     rdfs:comment "If skill attempt fails, another attempt may be made.";
 .
-
 :PsionicSkill
     rdfs:subClassOf :Characteristic ;
     rdfs:comment "Skill is psionic in nature." ;
 .
-
 :RequiresRanks
     rdfs:subClassOf :Characteristic ;
     rdfs:comment "Skill may not be used untrained, i.e., without ranks.";
 .
-
 :ArmorCheckPenalty
     rdfs:subClassOf :Characteristic ;
     rdfs:comment "Some penalty will apply to this skill check depending on the armor the character is wearing.";
 .
+:SubSkill rdfs:subClassOf :Characteristic .
+:Skill rdfs:subClassOf :Characteristic .
+:Feat rdfs:subClassOf :Characteristic .
+:FeatType rdfs:subClassOf :Characteristic .
+:PsionicFeat a :FeatType;
+    rdfs:label "Psionic"
+.
+:DivineFeat a :FeatType;
+    rdfs:label "Divine"
+.
+:EpicFeat a :FeatType;
+    rdfs:label "Epic"
+.
+:GeneralFeat a :FeatType;
+    rdfs:label "General"
+.
+:WildFeat a :FeatType;
+    rdfs:label "Wild"
+.
+:MetamagicFeat a :FeatType;
+    rdfs:label "Metamagic"
+.
+:FighterFeat a :FeatType;
+    rdfs:label "Fighter"
+.
+:ItemCreationFeat a :FeatType;
+    rdfs:label "Item Creation"
+.
+:MetapsionicFeat a :FeatType;
+    rdfs:label "Metapsionic"
+.
+:CanTakeMultipleFeat 
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "This feat may be taken more than once";
+.
+:StackableFeat
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "When this feat is taken more than once, its effects stack";
+.
+:ArmorClassFeat
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near armor class";
+.
+:SpeedFeat
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near movement";
+.
+:AttackOptionFeat
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near attacks";
+.
+:SpecialActionFeat
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near special actions";
+.
+:RangedAttackFeat
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "In a monster statblock, this feat will be noted near ranged attacks";
+.
+
+:Weapon
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "Item is a weapon";
+.
+:ExoticWeapon rds:subClassOf :Characteristic .
+:MartialWeapon rds:subClassOf :Characteristic .
+:NaturalWeapon rdfs:subClassOf :Characteristic .
+:Crossbow rdfs:subClassOf :Characteristic .
+
+:SpellSchool rdfs:subClassOf :Characteristic .
+:SpellDomain rdfs:subClassOf :Characteristic .
+:PsionicPower rdfs:subClassOf :Characteristic .
+
+:WornItemLocation rdfs:subClassOf :Characteristic .
+:headLocation a :WornItemLocation;
+    rdfs:label "On the head";
+    rdfs:comment "A headband, hat, or helmet may be worn here.";
+.
+:eyesLocation a :WornItemLocation;
+    rdfs:label "On the eyes";
+    rdfs:comment "One pair of eye lenses or goggles may be worn here.";
+.
+:shouldersLocation a :WornItemLocation;
+    rdfs:label "Around the shoulders";
+    rdfs:comment "One cloak, cape, or mantle may be worn here.";
+.
+:wrapAroundLocation a :WornItemLocation;
+    rdfs:label "Wrapped around the entire body";
+    rdfs:comment "One robe may be worn here.";
+.
+:neckOrPinLocation a :WornItemLocation;
+    rdfs:label "On the neck or pinned to the chest";
+    rdfs:comment 
+        "One amulet, brooch, medallion, necklace, periapt, or scarab may be worn here.";
+.
+:wholeBodyLocation a :WornItemLocation;
+    rdfs:label "Covering most of the body";
+    rdfs:comment "One suit of armor may be worn here.";
+.
+:torsoLocation a :WornItemLocation;
+    rdfs:label "Covering the upper torso";
+    rdfs:comment "One vest, vestment, or shirt may be worn here.";
+.
+:wristLocation a :WornItemLocation;
+    rdfs:label "On the wrists";
+    rdfs:comment "One pair of bracers or bracelets may be worn here.";
+.
+:handLocation a :WornItemLocation;
+    rdfs:label "On the hands";
+    rdfs:comment "One pair of gloves or gauntlets may be worn here.";
+.
+:fingerLocation a :WornItemLocation;
+    rdfs:label "On the finger";
+    rdfs:comment "One ring may be worn here (to a maximum of--usually--two)";
+.
+:waistLocation a :WornItemLocation;
+    rdfs:label "Around the waist";
+    rdfs:comment "One belt may be worn here";
+.
+:feetLocation a :WornItemLocation;
+    rdfs:label "On the feet";
+    rdfs:comment "One pair of boots may be worn here";
+.
+
+:Spell rdfs:subClassOf :Characteristic .
+:ArcaneSpell rdfs:subClassOf :Characteristic .
+:DivineSpell rdfs:subClassOf :Characteristic .
+:SpellTargetYou rdfs:subClassOf :Characteristic .
+    rdfs:label "You";
+    rdfs:comment "The caster himself is the target";
+.
+:AreaEffectSpell rdfs:subClassOf :Characteristic .
+
+:MagicItemMaterial rdfs:subClassOf :Characteristic .
+:adamantine a :MagicItemMaterial .
+:darkwood a :MagicItemMaterial .
+:dragonhide a :MagicItemMaterial .
+:mithral a :MagicItemMaterial .
+:alchemicalSilver a :MagicItemMaterial .
+:coldIron a :MagicItemMaterial .
+
+:SpellLikeAbility a :Characteristic .
+
+:Familiar a :Characteristic;
+    rdfs:comment "A creature which is an arcane familiar."
+.
+
+:ReferentCharacter a rdfs:Class;
+    rdfs:comment "The individual being referred to by the statement";
+.
+
+:SpellOrSpellLikeAbility a rdfs:Class;
+    rdfs:comment "Either a spell or a spell-like ability; something castable";
+.
+
+:SpellLevel a rdfs:Class .
+:spellLevel1 a :SpellLevel .
+:spellLevel2 a :SpellLevel .
+:spellLevel3 a :SpellLevel .
+:spellLevel4 a :SpellLevel .
+:spellLevel5 a :SpellLevel .
+:spellLevel6 a :SpellLevel .
+:spellLevel7 a :SpellLevel .
+:spellLevel8 a :SpellLevel .
+:spellLevel9 a :SpellLevel .

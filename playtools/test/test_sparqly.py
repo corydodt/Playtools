@@ -3,21 +3,32 @@ Test the database and object mapping abilities of playtools.sparqly
 """
 
 from twisted.trial import unittest
+from twisted.python.util import sibpath
 
 from rdflib.Namespace import Namespace
 from rdflib import Literal, URIRef, BNode
 
 from playtools import sparqly
+from playtools.test.pttestutil import IsomorphicTestableGraph
+from playtools.common import this
 
 class Employee(sparqly.SparqItem):
     firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
     lastname = sparqly.Literal("SELECT ?l { $key :lastname ?l }")
+
 Employee.supervisor = sparqly.Ref(Employee, "SELECT ?s { $key :supervisor $s }")
+
+STAFF = Namespace('http://corp.com/staff#')
+ANS = Namespace('http://a#')
+BNS = Namespace('http://b#')
+
+TESTING_NAMESPACES = {'': STAFF, 'a': ANS, 'b': BNS }
+
 
 class SparqlyTestCase(unittest.TestCase):
     def test_select(self):
         """
-        Select generates select strings and not something else, like
+        Select generates select strings and not something else, such as
         cheeseburgers.
         """
         sel = sparqly.select(base="http://corp.com/staff", rest="SELECT ?x { ?x a :ninja }")
@@ -41,7 +52,6 @@ class SparqlyTestCase(unittest.TestCase):
 
     def test_sparqItem(self):
         """
-        >>> staff = Namespace('http://corp.com/staff#')
         >>> cg = rdflib.Graph()
         >>> cg.load(...)
         >>> 
@@ -59,32 +69,32 @@ class SparqlyTestCase(unittest.TestCase):
 
 class TriplesDbTestCase(unittest.TestCase):
 
-    def fill(self):
+    def fill(self, graph):
         """
-        Add some triples to self.db (without using addTriple)
+        Add some triples to a graph (without using addTriple)
         """
-        self.db.graph.add((URIRef('http://a#x'), URIRef('http://a#y'),
+        graph.add((URIRef('http://a#x'), URIRef('http://a#y'),
             Literal(1)))
-        self.db.graph.add((URIRef('http://b#xb'), URIRef('http://b#yb'),
+        graph.add((URIRef('http://b#xb'), URIRef('http://b#yb'),
             Literal(2)))
-        self.db.graph.add((URIRef('http://a#x'), URIRef('http://b#y'),
+        graph.add((URIRef('http://a#x'), URIRef('http://b#y'),
             Literal(3)))
+        graph.add((this, this, Literal(4)))
 
     def setUp(self):
         """
         Create an empty triples database
         """
         self.db = sparqly.TriplesDatabase('http://foo#', 
-                {'a': Namespace('http://a#'),
-                 'b': Namespace('http://b#'),
-                 },
-                [])
+                TESTING_NAMESPACES,
+                [],
+                graph=IsomorphicTestableGraph())
 
     def test_query(self):
         """
         Try some queries against a fake graph
         """
-        self.fill()
+        self.fill(self.db.graph)
 
         ret = list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
         self.assertEqual(len(ret), 1)
@@ -115,10 +125,48 @@ class TriplesDbTestCase(unittest.TestCase):
         self.failUnless(can(u''))
 
     def test_addTriple(self):
-        assert 0
-    test_addTriple.todo = "Add some triples to a graph, inspect the graph"
+        comp1 = IsomorphicTestableGraph()
+        for p, ns in TESTING_NAMESPACES.items():
+            comp1.bind(p, ns)
+
+        self.fill(comp1)
+        self.fill(self.db.graph)
+
+        self.assertEqual(comp1, self.db.graph)
+
+        self.db.addTriple(STAFF.e1231, STAFF.firstname, 'Michael')
+        self.db.addTriple(STAFF.e1231, STAFF.lastname, 'Bolton')
+        self.db.addTriple(STAFF.e1231, STAFF.supervisor, STAFF.e1001)
+
+        comp1.add((STAFF.e1231, STAFF.firstname, Literal('Michael')))
+        comp1.add((STAFF.e1231, STAFF.lastname, Literal('Bolton')))
+        comp1.add((STAFF.e1231, STAFF.supervisor, STAFF.e1001))
+
+        self.assertEqual(comp1, self.db.graph)
+
+        comp1.add((STAFF.e1232, STAFF.firstname, Literal('Samir')))
+        comp1.add((STAFF.e1232, STAFF.firstname, Literal('Nina')))
+
+        self.db.addTriple(STAFF.e1232, STAFF.firstname, 'Samir', 'Nina')
+
+        self.assertEqual(comp1, self.db.graph)
 
     def test_dump(self):
         assert 0
     test_dump.todo = "Add some triples to a graph, dump, examine the string"
 
+    def test_extendGraph(self):
+        """
+        extendGraph should add triples to the db's graph, within the context
+        of the db's graph's publicID.  Show that:
+        - old triples are still around
+        - new triples exist
+        - <> is not rewritten as <newpublicid.n3>
+        """
+        self.fill(self.db.graph)
+        self.db.extendGraph(sibpath(__file__, 'extend.n3'))
+        trips = list(self.db.graph)
+        # old triples still around
+        self.failUnless((ANS.x, ANS.y, Literal(1)) in trips)
+        # new triple is around as well, and this is still this
+        self.failUnless((this, ANS.f, ANS.g) in trips)

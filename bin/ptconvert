@@ -26,10 +26,11 @@ class Options(usage.Options):
         if self.subCommand is None:
             raise usage.UsageError("** You must specify the name of a converter!")
         c = convert.getConverter(self.subCommand)
-        io = open('skill.n3', 'w')
         c.preamble()
         for item in c:
             c.makePlaytoolsItem(item)
+
+        io = sys.stdout
         c.writeAll(io)
         
 

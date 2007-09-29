@@ -1,8 +1,6 @@
-try:
-    from xml.etree import cElementTree as ET
-except ImportError:
-    from xml.etree import ElementTree as ET
-
+"""
+Converter from srd35.db to skill.n3 
+"""
 from zope.interface import implements
 
 from twisted.plugin import IPlugin
@@ -10,11 +8,14 @@ from twisted.python import usage
 
 from storm import locals as SL
 
-from playtools.convert import IConverter, rdfName, rdfXmlWrap
+from playtools.convert import IConverter, rdfName
 from playtools.sparqly import TriplesDatabase, URIRef
-from playtools.common import skillNs, P, C, a, RDFSNS, NS, this
+from playtools.common import skillNs, P, C, a, RDFSNS
+from playtools.util import RESOURCE
+from playtools.plugins.util import initDatabase, srdBoolean
 
 from twisted.python.util import sibpath
+
 
 class Skill(object):
     __storm_table__ = 'skill'
@@ -31,16 +32,19 @@ class Skill(object):
     try_again = SL.Unicode()                 #
     special = SL.Unicode()                   #
     restriction = SL.Unicode()               #
-    synergy = SL.Unicode()
+    synergy = SL.Unicode()                   #
     epic_use = SL.Unicode()                  #
     untrained = SL.Unicode()                 #
     full_text = SL.Unicode()                 #
     reference = SL.Unicode()                 #
 
 
-def skillSource(dbPath):
+def initDatabase(dbPath):
     db = SL.create_database('sqlite:%s' % (dbPath,))
-    store = SL.Store(db)
+    return SL.Store(db)
+
+
+def skillSource(store):
     for p in store.find(Skill).order_by(Skill.name):
         yield p
 
@@ -62,15 +66,15 @@ def cleanSrdXml(s):
     return u
 
 
-def srdBoolean(col):
+def quoteSrdXml(s):
     """
-    True if the column is "yes"
-    Otherwise False
+    (almost) the opposite of cleanSrdXml, this escapes, with a \\, quotes newlines and quotes.
+    This DOES NOT encode the string back to utf8.
     """
-    if col is None:
-        return False
-    return col.lower().strip() == "yes"
-
+    s = s.replace('\\', r'\\')
+    s = s.replace('\n', r'\n')
+    s = s.replace('"', r'\"')
+    return s
 
 
 class SkillConverter(object):
@@ -86,8 +90,7 @@ class SkillConverter(object):
         self.skillSource = skillSource
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': skillNs }
-        self.db = TriplesDatabase(base='http://thesoftworld.com/2007/skill.n3#', 
-                prefixes=pfx, datasets=[])
+        self.db = TriplesDatabase(base=skillNs, prefixes=pfx, datasets=[])
 
     def __iter__(self):
         return self
@@ -115,7 +118,8 @@ class SkillConverter(object):
             self.addTriple(r, v, *o)
 
         add(RDFSNS.label, item.name)
-        add(P.keyAbility, item.key_ability.lower())
+        add(a, C.Skill)
+        add(P.keyAbility, getattr(C, rdfName(item.key_ability.lower())))
         if item.action:
             add(P.skillAction, item.action)
         if item.special:
@@ -143,9 +147,9 @@ class SkillConverter(object):
             add(P.skillCheck, cleanSrdXml(item.skill_check))
         if item.epic_use:
             add(P.epicUse, cleanSrdXml(item.epic_use))
-        # FIXME - do we really care about fullText?
-        if item.full_text:
-            add(P.fullText, cleanSrdXml(item.full_text))
+        ## - do we really care about fullText?
+        ## if item.full_text:
+        ##    add(P.fullText, cleanSrdXml(item.full_text))
 
         add(P.reference, 
                 URIRef("http://www.d20srd.org/srd/%s" % (reference,)))
@@ -164,41 +168,12 @@ class SkillConverter(object):
         return u"skills"
 
     def preamble(self):
-        self.db.addTriple(this, RDFSNS['title'], "All d20 SRD Skills")
-
-        # NOTE not!! self.addTriple
-        add = lambda s,o,v: self.db.addTriple(skillNs[s], o, v)
-        add('abyssal', a, C.Language)
-        add('aquan', a, C.Language)
-        add('auran', a, C.Language)
-        add('celestial', a, C.Language)
-        add('common', a, C.Language)
-        add('draconic', a, C.Language)
-        add('drowSignLanguage', a, C.Language)
-        add('druidic', a, C.Language)
-        add('dwarven', a, C.Language)
-        add('elven', a, C.Language)
-        add('formian', a, C.Language)
-        add('giant', a, C.Language)
-        add('gnoll', a, C.Language)
-        add('gnome', a, C.Language)
-        add('goblin', a, C.Language)
-        add('grimlock', a, C.Language)
-        add('halfling', a, C.Language)
-        add('ignan', a, C.Language)
-        add('infernal', a, C.Language)
-        add('maenad', a, C.Language)
-        add('orc', a, C.Language)
-        add('sphinx', a, C.Language)
-        add('sylvan', a, C.Language)
-        add('terran', a, C.Language)
-        add('undercommon', a, C.Language)
-        add('worg', a, C.Language)
-        add('xeph', a, C.Language)
+        self.db.extendGraph(RESOURCE('plugins/skills_preamble.n3'))
 
     def writeAll(self, playtoolsIO):
         playtoolsIO.write(self.db.dump())
 
 
-ss = skillSource(sibpath(__file__, 'srd35.db'))
+store = initDatabase(sibpath(__file__, 'srd35.db'))
+ss = skillSource(store)
 skillConverter = SkillConverter(ss)

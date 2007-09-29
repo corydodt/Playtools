@@ -1,6 +1,6 @@
 
 from playtools.interfaces import ICharSheetSection
-from zope.interface import Interface, implements
+from zope.interface import implements
 from twisted.plugin import IPlugin
 from rdflib.Namespace import Namespace as NS
 from rdflib import URIRef

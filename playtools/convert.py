@@ -1,27 +1,14 @@
 try:
     from xml.etree import cElementTree as ElementTree
+    ElementTree # for pyflakes
 except ImportError:
     from xml.etree import ElementTree
 
-from zope.interface import Interface, Attribute, implements
+from zope.interface import Interface, Attribute
 from twisted.plugin import getPlugins
 
 
 XHTML_NS = 'http://www.w3.org/1999/xhtml#'
-
-class IPlaytoolsIO(Interface):
-    """
-    IO-handling interface.  It may be used to write either XML or N3.
-    """
-    def writeXml(s):
-        """
-        Call to write XML data
-        """
-
-    def writeN3(s):
-        """
-        Call to write n3 data
-        """
 
 
 class IConverter(Interface):
@@ -36,16 +23,15 @@ class IConverter(Interface):
         Retrieve one unit from the data source and return it
         """
 
-    def makePlaytoolsItem(playtoolsIO, item):
+    def makePlaytoolsItem(item):
         """
         Add triples for this item to the db
         """
 
-    def writeAll():
+    def writeAll(playtoolsIO):
         """
         Format the document as N3/RDF and write it to the playtoolsIO object
         """
-
 
     def label():
         """
@@ -57,23 +43,10 @@ class IConverter(Interface):
         IConverters are iterators
         """
 
-    def preamble(playtoolsIO):
+    def preamble():
         """
-        Write any header info to playtoolsIO
+        Add any header triples
         """
-
-
-class PlaytoolsIO(object):
-    implements(IPlaytoolsIO)
-    def __init__(self, n3file, xmlfile):
-        self.n3file = n3file
-        self.xmlfile = xmlfile
-
-    def writeN3(self, s):
-        self.n3file.write(s)
-
-    def writeXml(self, s):
-        self.xmlfile.write(s)
 
 
 def getConverters():
@@ -134,6 +107,5 @@ def converterDoc(converter):
         return ''
     return converter.__doc__.splitlines()[0].rstrip()
 
-__all__ = ['IPlaytoolsIO', 'IConverter', 'PlaytoolsIO', 'getConverters',
-        'getConverter', 'rdfXmlWrap', 'rdfName']
+__all__ = ['IConverter', 'getConverters', 'getConverter', 'rdfXmlWrap', 'rdfName']
 

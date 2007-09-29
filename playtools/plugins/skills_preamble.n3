@@ -1,0 +1,187 @@
+@prefix : <http://thesoftworld.com/2007/skill.n3#> .
+@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
+@prefix p: <http://thesoftworld.com/2007/property.n3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> rdfs:title "All d20 SRD Skills" .
+:abyssal a c:Language .
+:aquan a c:Language .
+:auran a c:Language .
+:celestial a c:Language .
+:common a c:Language .
+:draconic a c:Language .
+:drowSignLanguage a c:Language .
+:druidic a c:Language .
+:dwarven a c:Language .
+:elven a c:Language .
+:formian a c:Language .
+:giant a c:Language .
+:gnoll a c:Language .
+:gnome a c:Language .
+:goblin a c:Language .
+:grimlock a c:Language .
+:halfling a c:Language .
+:ignan a c:Language .
+:infernal a c:Language .
+:maenad a c:Language .
+:orc a c:Language .
+:sphinx a c:Language .
+:sylvan a c:Language .
+:terran a c:Language .
+:undercommon a c:Language .
+:worg a c:Language .
+:xeph a c:Language .
+
+# synergy bonuses.  subject is the skill *receiving the bonus*
+:appraise p:synergy 
+              [ p:bonus +2; 
+                p:fromSkill :craft; 
+                p:synergyComment "related to items made with that craft skill";
+] .
+:autohypnosis p:synergy 
+              [ p:bonus +2;
+                p:fromSkill :concentration2;
+] .
+:balance p:synergy 
+              [ p:bonus +2; 
+                p:fromSkill :tumble; 
+] .
+:climb p:synergy 
+              [ p:bonus +2;
+                p:fromSkill :useRope;
+                p:synergyComment 
+"climbing a rope, a knotted rope, or a rope-and-wall combination.";
+] .
+:diplomacy p:synergy
+           [ p:bonus +2;
+             p:fromSkill :bluff ],
+           [ p:bonus +2;
+             p:fromSkill :senseMotive ],
+# review this - subskill being used in place of skill.  is this right?
+           [ p:bonus +2;
+             p:fromSkill :nobilityAndRoyalty ]
+.
+:disguise p:synergy
+           [ p:bonus +2;
+             p:fromSkill :bluff; 
+             p:synergyComment 
+"when you know that you're being observed and you try to act in character";
+] .
+
+:escapeArtist p:synergy
+            [ p:bonus +2;
+              p:fromSkill :useRope;
+              p:synergyComment "when escaping from rope bonds";
+] .
+         
+:gatherInformation p:synergy
+            [ p:bonus +2;
+# review this - subskill being used in place of skill.
+              p:fromSkill :local;
+] .
+
+:intimidate p:synergy
+            [ p:bonus +2;
+              p:fromSkill :bluff;
+] .
+
+:jump p:synergy
+            [ p:bonus +2;
+              p:fromSkill :tumble;
+] .
+
+:psicraft p:synergy
+            [ p:bonus +2;
+              p:fromSkill :usePsionicDevice;
+              p:synergyComment "used to address power stones" ],
+            [ p:bonus +2;
+              p:fromSkill :psionics ]
+.
+
+:ride p:synergy 
+            [ p:bonus +2;
+              p:fromSkill :handleAnimal;
+] .
+
+:search p:synergy
+            [ p:bonus +2;
+              p:fromSkill :architectureAndEngineering;
+              p:synergyComment 
+"used to find secret doors or hidden compartments";
+] .
+
+:sleightOfHand p:synergy
+            [ p:bonus +2;
+              p:fromSkill :bluff
+] .
+
+:spellcraft p:synergy
+            [ p:bonus +2;
+# review this - subskill being used in place of skill.
+              p:fromSkill :arcana ],
+            [ p:bonus +2;
+              p:fromSkill :useMagicDevice;
+              p:synergyComment "used to decipher spells on scrolls" ]
+.
+ 
+:survival p:synergy
+            [ p:bonus +2;
+# review this - subskill being used in place of skill.
+              p:fromSkill :geography;
+              p:synergyComment 
+"used to keep from getting lost or to avoid natural hazards" ],
+            [ p:bonus +2;
+# review this - subskill being used in place of skill.
+              p:fromSkill :thePlanes;
+              p:synergyComment "used on other planes" ],
+            [ p:bonus +2;
+# review this - subskill being used in place of skill.
+              p:fromSkill :dungeoneering;
+              p:synergyComment "used while underground" ],
+            [ p:bonus +2;
+# review this - subskill being used in place of skill.
+              p:fromSkill :nature;
+              p:synergyComment 
+"used in aboveground natural environments (aquatic, desert, forest, hill, marsh, mountains, and plains)" ],
+            [ p:bonus +2;
+              p:fromSkill :search;
+              p:synergyComment "used to find or follow tracks" ]
+.
+
+:tumble p:synergy
+        [ p:bonus +2;
+          p:fromSkill :jump
+] .
+        
+:useMagicDevice p:synergy
+        [ p:bonus +2;
+          p:fromSkill :spellcraft;
+          p:synergyComment "related to scrolls" ],
+        [ p:bonus +2;
+          p:fromSkill :decipherScript;
+          p:synergyComment "related to scrolls" ]
+.
+
+:usePsionicDevice p:synergy
+        [ p:bonus +2;
+          p:fromSkill :psicraft;
+          p:synergyComment "used to address power stones" 
+] .
+
+:useRope p:synergy
+        [ p:bonus +2;
+          p:fromSkill :escapeArtist;
+          p:synergyComment "used to bind someone"
+] .
+
+# review this - this is a subskill which receives a synergy bonus.
+:psionics p:synergy
+        [ p:bonus +2;
+          p:fromSkill :autohypnosis;
+] .
+
+
+
+## ** :bardic knowledge +2 from :history
+## ** :wild empathy +2 from :animalHandling
+## ** :turning checks vs. undead +2 from :religion

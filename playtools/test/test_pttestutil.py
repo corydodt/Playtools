@@ -3,10 +3,13 @@ Unit tests for the test utility suite
 """
 from twisted.trial import unittest
 
-from pttestutil import padZip, compareXml
+from rdflib import BNode
+
+from playtools.test.pttestutil import padZip, compareXml, IsomorphicTestableGraph
+from playtools.common import P, C
 
 
-class ConvertTestCase(unittest.TestCase):
+class TestUtilTestCase(unittest.TestCase):
     """
     Test the utilities used in testing themselves.
     """
@@ -50,4 +53,38 @@ class ConvertTestCase(unittest.TestCase):
         s8 = """<a><b /><b /></a>"""
         self.failIf(compareXml(s7, s8))
         self.failIf(compareXml(s8, s7))
+
+    def test_isomorphicGraphs(self):
+        """
+        IsomorphicTestableGraph has comparison operations - make sure they fit our use case
+        """
+        g1 = IsomorphicTestableGraph()
+        g2 = IsomorphicTestableGraph()
+
+        self.assertEqual(g1, g2)
+
+        g1.bind('c', C)
+        g1.add((C.x, C.y, C.z))
+        # don't add a binding to g2
+        g2.add((C.x, C.y, C.z))
+        self.failIfEqual(g1, g2)
+
+        # now add the binding and make sure they are again the same
+        g2.bind('c', C)
+        self.assertEqual(g1, g2)
+
+        # both graphs should compare the same if they contain nodes with
+        # (the same) unbound namespaces
+        g1.add((P.x, P.y, P.z))
+        g2.add((P.x, P.y, P.z))
+
+        self.assertEqual(g1, g2)
+
+        # check BNodes
+        g1.add((BNode(), P.y, P.z))
+        g2.add((BNode(), P.y, P.z))
+
+        self.assertEqual(g1, g2)
+
+        # check formulae
 
