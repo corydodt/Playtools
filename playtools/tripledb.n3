@@ -1,0 +1,13 @@
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+#@prefix fam: <http://thesoftworld.com/2007/family.n3#> .
+#@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
+#@prefix p: <http://thesoftworld.com/2007/property.n3#> .
+#@prefix skill: <http://thesoftworld.com/2007/skill.n3#> .
+#@prefix feat: <file:///home/cdodt/wc/Playtools/feat.n3#> .
+#@prefix config: <> .
+#
+<> rdfs:comment 
+    """This file configures the local Goonmill triples database.  Any prefixes
+    you add will be loaded.  The : prefix will be made the "base" for SPARQL
+    queries.""".

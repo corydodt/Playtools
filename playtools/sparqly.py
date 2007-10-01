@@ -109,7 +109,8 @@ from rdflib import URIRef, BNode
 from rdflib.Graph import Graph
 from rdflib.Literal import Literal as RDFLiteral
 
-from playtools.common import RDFSNS
+from playtools.common import RDFSNS, NS
+from playtools.util import filenameAsUri, RESOURCE
 
 
 def select(base, rest):
@@ -304,7 +305,7 @@ def canBeLiteral(x):
 
 class TriplesDatabase(object):
     """A database from the defined triples"""
-    def __init__(self, base, prefixes, datasets, graph=None):
+    def __init__(self, base, prefixes, datasets=None, graph=None):
         self.base = base
         self.prefixes = {'rdfs': RDFSNS}
         self.prefixes.update(prefixes)
@@ -314,8 +315,9 @@ class TriplesDatabase(object):
         else:
             self.graph = graph
 
-        for d in filterNamespaces(datasets):
-            self.graph.load(d, format='n3')
+        if datasets is not None:
+            for d in filterNamespaces(datasets):
+                self.graph.load(d, format='n3')
 
         for pfx, uri in self.prefixes.items():
             self.graph.bind(pfx, uri)
@@ -336,7 +338,9 @@ class TriplesDatabase(object):
 
         Strings, ints and floats as s or o will automatically be coerced to
         RDFLiteral().  It is an error to give a RDFLiteral as v, so no
-        coercion will be done in that position
+        coercion will be done in that position.
+
+        2-tuples will be coerced to bnodes.
         
         If more than one object is given, i.e.
             addTriple(a, b, c1, c2, c3) 
@@ -347,9 +351,16 @@ class TriplesDatabase(object):
         if canBeLiteral(s):
             s = RDFLiteral(s)
 
+        bnode = None
         for o in objects:
             if canBeLiteral(o):
                 o = RDFLiteral(o)
+            elif isinstance(o, tuple) and len(o) == 2:
+                if bnode is None:
+                    bnode = BNode()
+                self.addTriple(bnode, *o)
+                o = bnode
+
             assert None not in [s,v,o]
             self.graph.add((s, v, o))
 
@@ -387,4 +398,40 @@ def randomPublicID():
     Return a new, random publicID
     """
     return 'file:///%s' % (hashlib.md5(str(random.random())).hexdigest(),)
+
+
+def bootstrapDatabaseConfig(configPath):
+    """
+    This bootstraps a TriplesDatabase by making a new Triples Database 
+    from parsing configPath, and using its prefixes to load
+    """
+    config = NS(filenameAsUri(configPath))
+    bootstrap = TriplesDatabase(
+            base=config,
+            prefixes={'config':config},
+            datasets=[config],
+            )
+    
+    namespaces = list(bootstrap.graph.namespaces())
+    prefixes = {}
+    for prefix, uri in namespaces:
+        prefixes[prefix] = NS(uri)
+
+    # the config namespace itself will not be reloaded
+    del prefixes['config']
+
+    return {'base': prefixes[''], 'prefixes': prefixes, 'datasets': prefixes.values()}
+
+
+def bootstrapDatabase(configPath, load=False):
+    """
+    A new TriplesDatabase, bootstrapped by looking at the prefixes defined in configPath
+
+    If load is True, load the datasets for every prefix
+    """
+    conf = bootstrapDatabaseConfig(configPath)
+    if not load:
+        conf['datasets'] = None
+        ## del conf['datasets']
+    return TriplesDatabase(**conf)
 

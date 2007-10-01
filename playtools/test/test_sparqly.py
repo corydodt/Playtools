@@ -8,9 +8,9 @@ from twisted.python.util import sibpath
 from rdflib.Namespace import Namespace
 from rdflib import Literal, URIRef, BNode
 
-from playtools import sparqly
+from playtools import sparqly, util
 from playtools.test.pttestutil import IsomorphicTestableGraph
-from playtools.common import this
+from playtools.common import this, RDFSNS, a
 
 class Employee(sparqly.SparqItem):
     firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
@@ -125,6 +125,9 @@ class TriplesDbTestCase(unittest.TestCase):
         self.failUnless(can(u''))
 
     def test_addTriple(self):
+        """addTriple should handle URIRefs, automatically coerce literals, and
+        automatically coerce tuples to bnodes
+        """
         comp1 = IsomorphicTestableGraph()
         for p, ns in TESTING_NAMESPACES.items():
             comp1.bind(p, ns)
@@ -151,6 +154,16 @@ class TriplesDbTestCase(unittest.TestCase):
 
         self.assertEqual(comp1, self.db.graph)
 
+        bn = BNode()
+        comp1.add((STAFF.e1230, STAFF.salary, bn))
+        comp1.add((bn, a, STAFF.ExemptEmployee))
+        comp1.add((bn, STAFF.annualSalary, Literal(45000)))
+
+        self.db.addTriple(STAFF.e1230, STAFF.salary, 
+                (a, STAFF.ExemptEmployee), (STAFF.annualSalary, 45000))
+
+        self.assertEqual(comp1, self.db.graph)
+
     def test_dump(self):
         assert 0
     test_dump.todo = "Add some triples to a graph, dump, examine the string"
@@ -170,3 +183,41 @@ class TriplesDbTestCase(unittest.TestCase):
         self.failUnless((ANS.x, ANS.y, Literal(1)) in trips)
         # new triple is around as well, and this is still this
         self.failUnless((this, ANS.f, ANS.g) in trips)
+
+    def test_bootstrapDatabase(self):
+        """
+        bootstrapDatabaseConfig will load a n3-format config file and
+        prepare arguments suitable for initializing TripleDatabase
+
+        bootstrapDatabase should be able to load a TriplesDatabase
+        """
+        cp = sibpath(__file__, 'bs.n3')
+        config = sparqly.bootstrapDatabaseConfig(cp)
+        self.assertEqual(config['base'], URIRef('lalala'))
+        # xml and rdf are always added namespaces, so include them in the
+        # count of prefixes
+        self.assertEqual(len(config['prefixes']), 5)
+        self.failUnless(config['prefixes']['x'] == URIRef('lalala2'))
+
+        cp = sparqly.filenameAsUri(cp)
+
+        testN3 = 'test_bootstrapDatabase.n3'
+        f = open(testN3, 'w')
+        f.write('@prefix : <%s> .' % (cp,))
+        f.close()
+
+
+        # call bootstrapDatabase 2 different ways. first way: load the prefixes
+        db = sparqly.bootstrapDatabase(testN3, load=True)
+        trips = list(db.graph)
+        expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
+        self.failUnless(expected in trips)
+        self.failUnless(URIRef(cp) in db.prefixes.values())
+
+        # second way: don't load
+        db = sparqly.bootstrapDatabase(testN3, load=False)
+        trips = list(db.graph)
+        expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
+        self.failIf(expected in trips)
+        self.failUnless(URIRef(cp) in db.prefixes.values())
+
