@@ -454,8 +454,8 @@
     rdfs:subClassOf :Characteristic;
     rdfs:comment "Item is a weapon";
 .
-:ExoticWeapon rds:subClassOf :Characteristic .
-:MartialWeapon rds:subClassOf :Characteristic .
+:ExoticWeapon rdfs:subClassOf :Characteristic .
+:MartialWeapon rdfs:subClassOf :Characteristic .
 :NaturalWeapon rdfs:subClassOf :Characteristic .
 :Crossbow rdfs:subClassOf :Characteristic .
 
@@ -482,8 +482,7 @@
 .
 :neckOrPinLocation a :WornItemLocation;
     rdfs:label "On the neck or pinned to the chest";
-    rdfs:comment 
-        "One amulet, brooch, medallion, necklace, periapt, or scarab may be worn here.";
+    rdfs:comment "One amulet, brooch, medallion, necklace, periapt, or scarab may be worn here.";
 .
 :wholeBodyLocation a :WornItemLocation;
     rdfs:label "Covering most of the body";
@@ -517,7 +516,7 @@
 :Spell rdfs:subClassOf :Characteristic .
 :ArcaneSpell rdfs:subClassOf :Characteristic .
 :DivineSpell rdfs:subClassOf :Characteristic .
-:SpellTargetYou rdfs:subClassOf :Characteristic .
+:SpellTargetYou rdfs:subClassOf :Characteristic ;
     rdfs:label "You";
     rdfs:comment "The caster himself is the target";
 .
@@ -534,7 +533,7 @@
 :SpellLikeAbility a :Characteristic .
 
 :Familiar a :Characteristic;
-    rdfs:comment "A creature which is an arcane familiar."
+    rdfs:comment "A creature which is an arcane familiar.";
 .
 
 :ReferentCharacter a rdfs:Class;

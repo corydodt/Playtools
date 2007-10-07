@@ -156,6 +156,6 @@
 .
 :save a rdfs:Property .
 
-:noFeatComment a rdfs:Property .
+:noFeatComment a rdfs:Property ;
     rdfs:comment "The action or property indicated when the character does NOT possess this feat.";
 .
