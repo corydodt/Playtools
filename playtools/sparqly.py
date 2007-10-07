@@ -381,11 +381,14 @@ class TriplesDatabase(object):
         modified to mean <> in the new context
         """
         g2 = Graph()
-        # goddammit.  generate a random publicID, so i can later throw it
-        # away.  Loading graphs in this manner without this hack corrupts the
-        # expected meaning of <>
+
+        # Generate a random publicID, then later throw it away, by
+        # replacing references to it with URIRef('').  extendGraph thus
+        # treats the inserted file as if it were part of the original file
         publicID = randomPublicID()
         g2.load(graphFile, format='n3', publicID=publicID)
+
+        # add each triple
         for s,v,o in g2:
             if s == URIRef(publicID):
                 self.graph.add((URIRef(''), v, o))
