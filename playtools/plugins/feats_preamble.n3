@@ -1,101 +1,102 @@
-@prefix : <http://thesoftworld.com/2007/feat.n3#> .
-@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
-@prefix p: <http://thesoftworld.com/2007/property.n3#> .
+## @prefix : <http://thesoftworld.com/2007/feat.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-
-<> rdfs:title "All d20 SRD Feats" .
-
-
-:alignedAttack p:choice c:AlignmentAtom .
-:devastatingCritical p:choice c:Weapon .
-:energyResistance p:choice c:Energy .
-:energySubstitution p:choice c:Energy .
-:improvedAlignmentBasedCasting p:choice c:AlignmentAtom .
-:epicSkillFocus p:choice c:Skill .
-:epicWeaponFocus p:choice c:Weapon .
-:epicWeaponSpecialization p:choice c:Weapon .
-:efficientItemCreation p:choice c:ItemCreationFeat .
-:improvedCritical p:choice c:Weapon .
-:powerCritical p:choice c:Weapon .
-:overwhelmingCritical p:choice c:Weapon .
-:exoticWeaponProficiency p:choice c:ExoticWeapon .
-:martialWeaponProficiency p:choice c:MartialWeapon .
-:weaponFocus p:choice c:Weapon .
-:skillFocus p:choice c:Skill .
-:epicExpandedKnowledge p:choice c:PsionicPower .
-:expandedKnowledge p:choice c:PsionicPower .
-:spellFocus p:choice c:SpellSchool .
-:epicSpellFocus p:choice c:SpellSchool .
-:rapidReload p:choice c:Crossbow .
-:instantReload p:choice c:Crossbow .
-:weaponSpecialization p:choice c:Weapon .
-:additionalMagicItemSpace p:choice c:WornItemLocation .
-:permanentEmanation p:choice ( c:AreaEffectSpell c:SpellTargetYou ) .
-:penetrateDamageReduction p:choice c:MagicItemMaterial .
-:bonusDomain 
-    p:choice c:SpellDomain;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:deity!p:domain } ;
-.
-:spontaneousDomainAccess 
-    p:choice c:SpellDomain;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:domain };
-.
-:spontaneousSpell 
-    p:choice c:Spell;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:knownSpells };
-.
-:greaterSpellFocus p:choice c:SpellSchool .
-:greaterWeaponFocus p:choice c:Weapon .
-:greaterWeaponSpecialization p:choice c:Weapon .
-:familiarSpell 
-    p:choice c:ArcaneSpell;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:knownSpells };
-    p:choiceComment "Implementation: maximum spell level should be limited to 8";
-.
-:spellKnowledge p:choice c:Spell, c:Spell.
-:powerKnowledge 
-    p:choice c:PsionicPower, c:PsionicPower;
-    p:choiceComment """Implementation: Maximum level is the highest level 
-of power the ReferentCharacter can manifest""";
-.
-:psicrystalPower 
-    p:choice c:PsionicPower;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:knownPowers };
-    p:choiceComment "Implementation: Filter by maximum power level 8";
-.
-:improvedNaturalAttack 
-    p:choice c:NaturalWeapon;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:attack };
-.
-:improvedFamiliar p:choice c:Familiar .
-:abilityFocus 
-    p:choice c:AttackOption;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:attack };
-.
-:empowerSpellLikeAbility 
-    p:choice c:SpellLikeAbility;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:specialAbility };
-.
-:quickenSpellLikeAbility 
-    p:choice c:SpellLikeAbility;
-    p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:specialAbility };
-.
-:tenaciousMagic
-    p:choice c:SpellOrSpellLikeAbility;
-    p:choiceComment 
-        "Implementation: only spells or abilities the character possesses.";
-.
-:spellStowaway 
-    p:choice c:SpellOrSpellLikeAbility;
-    p:choiceComment 
-        "Implementation: only spells or abilities the character possesses.";
-.
-:improvedSpellCapacity p:choice c:SpellLevel;
-    p:choiceComment 
-      "Implementation: maximum level is character's maximum castable level + 1";
-.
-:spellMastery 
-    p:choice c:Spell;
-    p:choiceRepeat { ?feat owl:allValuesFrom c:ReferentCharacter!p:abilityScore!p:int };
-.
+## @prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
+## @prefix p: <http://thesoftworld.com/2007/property.n3#> .
+## @prefix owl: <http://www.w3.org/2002/07/owl#> .
+## 
+## <> rdfs:title "All d20 SRD Feats" .
+<> rdfs:comment "Feat choices and prerequisites are very hard to define in n3.  Deferred until later." .
+## 
+## 
+## :alignedAttack p:choice c:AlignmentAtom .
+## :devastatingCritical p:choice c:Weapon .
+## :energyResistance p:choice c:Energy .
+## :energySubstitution p:choice c:Energy .
+## :improvedAlignmentBasedCasting p:choice c:AlignmentAtom .
+## :epicSkillFocus p:choice c:Skill .
+## :epicWeaponFocus p:choice c:Weapon .
+## :epicWeaponSpecialization p:choice c:Weapon .
+## :efficientItemCreation p:choice c:ItemCreationFeat .
+## :improvedCritical p:choice c:Weapon .
+## :powerCritical p:choice c:Weapon .
+## :overwhelmingCritical p:choice c:Weapon .
+## :exoticWeaponProficiency p:choice c:ExoticWeapon .
+## :martialWeaponProficiency p:choice c:MartialWeapon .
+## :weaponFocus p:choice c:Weapon .
+## :skillFocus p:choice c:Skill .
+## :epicExpandedKnowledge p:choice c:PsionicPower .
+## :expandedKnowledge p:choice c:PsionicPower .
+## :spellFocus p:choice c:SpellSchool .
+## :epicSpellFocus p:choice c:SpellSchool .
+## :rapidReload p:choice c:Crossbow .
+## :instantReload p:choice c:Crossbow .
+## :weaponSpecialization p:choice c:Weapon .
+## :additionalMagicItemSpace p:choice c:WornItemLocation .
+## :permanentEmanation p:choice ( c:AreaEffectSpell c:SpellTargetYou ) .
+## :penetrateDamageReduction p:choice c:MagicItemMaterial .
+## :bonusDomain 
+##     p:choice c:SpellDomain;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:deity!p:domain } ;
+## .
+## :spontaneousDomainAccess 
+##     p:choice c:SpellDomain;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:domain };
+## .
+## :spontaneousSpell 
+##     p:choice c:Spell;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:knownSpells };
+## .
+## :greaterSpellFocus p:choice c:SpellSchool .
+## :greaterWeaponFocus p:choice c:Weapon .
+## :greaterWeaponSpecialization p:choice c:Weapon .
+## :familiarSpell 
+##     p:choice c:ArcaneSpell;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:knownSpells };
+##     p:choiceComment "Implementation: maximum spell level should be limited to 8";
+## .
+## :spellKnowledge p:choice c:Spell, c:Spell.
+## :powerKnowledge 
+##     p:choice c:PsionicPower, c:PsionicPower;
+##     p:choiceComment """Implementation: Maximum level is the highest level 
+## of power the ReferentCharacter can manifest""";
+## .
+## :psicrystalPower 
+##     p:choice c:PsionicPower;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:knownPowers };
+##     p:choiceComment "Implementation: Filter by maximum power level 8";
+## .
+## :improvedNaturalAttack 
+##     p:choice c:NaturalWeapon;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:attack };
+## .
+## :improvedFamiliar p:choice c:Familiar .
+## :abilityFocus 
+##     p:choice c:AttackOption;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:attack };
+## .
+## :empowerSpellLikeAbility 
+##     p:choice c:SpellLikeAbility;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:specialAbility };
+## .
+## :quickenSpellLikeAbility 
+##     p:choice c:SpellLikeAbility;
+##     p:choiceFilter { ?feat owl:allValuesFrom c:ReferentCharacter!p:specialAbility };
+## .
+## :tenaciousMagic
+##     p:choice c:SpellOrSpellLikeAbility;
+##     p:choiceComment 
+##         "Implementation: only spells or abilities the character possesses.";
+## .
+## :spellStowaway 
+##     p:choice c:SpellOrSpellLikeAbility;
+##     p:choiceComment 
+##         "Implementation: only spells or abilities the character possesses.";
+## .
+## :improvedSpellCapacity p:choice c:SpellLevel;
+##     p:choiceComment 
+##       "Implementation: maximum level is character's maximum castable level + 1";
+## .
+## :spellMastery 
+##     p:choice c:Spell;
+##     p:choiceRepeat { ?feat owl:allValuesFrom c:ReferentCharacter!p:abilityScore!p:int };
+## .
