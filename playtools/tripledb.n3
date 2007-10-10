@@ -4,7 +4,7 @@
 #@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
 #@prefix p: <http://thesoftworld.com/2007/property.n3#> .
 #@prefix skill: <http://thesoftworld.com/2007/skill.n3#> .
-#@prefix feat: <file:///home/cdodt/wc/Playtools/feat.n3#> .
+#@prefix feat: <http://thesoftworld.com/2007/feat.n3#> .
 #@prefix config: <> .
 #
 <> rdfs:comment 
