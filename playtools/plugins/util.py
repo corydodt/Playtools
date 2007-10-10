@@ -20,3 +20,16 @@ def initDatabase(dbPath):
     return Store(db)
 
 
+def cleanSrdXml(s):
+    """XML retrieved from the Sqlite SRD databases is
+    - encoded in utf8, and
+    - escaped on " and \
+    this function decodes to unicode and un-escapes
+    """
+    u = s.decode('utf8')
+    u = u.replace(r'\"', '"')
+    u = u.replace(r'\n', '\n')
+    u = u.replace(r'\\', '\\')
+    return u
+
+

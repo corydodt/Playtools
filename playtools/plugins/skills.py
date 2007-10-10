@@ -12,7 +12,7 @@ from playtools.convert import IConverter
 from playtools.sparqly import TriplesDatabase, URIRef
 from playtools.common import skillNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
-from playtools.plugins.util import initDatabase, srdBoolean
+from playtools.plugins.util import initDatabase, srdBoolean, cleanSrdXml
 
 from twisted.python.util import sibpath
 
@@ -46,30 +46,6 @@ def skillSource(store):
 
 class Options(usage.Options):
     synopsis = "skills"
-
-
-def cleanSrdXml(s):
-    """XML retrieved from the Sqlite SRD databases is
-    - encoded in utf8, and
-    - escaped on " and \
-    this function decodes to unicode and un-escapes
-    """
-    u = s.decode('utf8')
-    u = u.replace(r'\"', '"')
-    u = u.replace(r'\n', '\n')
-    u = u.replace(r'\\', '\\')
-    return u
-
-
-def quoteSrdXml(s):
-    """
-    (almost) the opposite of cleanSrdXml, this escapes, with a \\, quotes newlines and quotes.
-    This DOES NOT encode the string back to utf8.
-    """
-    s = s.replace('\\', r'\\')
-    s = s.replace('\n', r'\n')
-    s = s.replace('"', r'\"')
-    return s
 
 
 class SkillConverter(object):

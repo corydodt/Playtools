@@ -12,7 +12,7 @@ from playtools.convert import IConverter
 from playtools import sparqly
 from playtools.common import featNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
-from playtools.plugins.util import srdBoolean, initDatabase
+from playtools.plugins.util import srdBoolean, initDatabase, cleanSrdXml
 
 from twisted.python.util import sibpath
 
@@ -45,19 +45,6 @@ def featSource(store):
 
 class Options(usage.Options):
     synopsis = "feats"
-
-
-def cleanSrdXml(s):
-    """XML retrieved from the Sqlite SRD databases is
-    - encoded in utf8, and
-    - escaped on " and \
-    this function decodes to unicode and un-escapes
-    """
-    u = s.decode('utf8')
-    u = u.replace(r'\"', '"')
-    u = u.replace(r'\n', '\n')
-    u = u.replace(r'\\', '\\')
-    return u
 
 
 class FeatConverter(object):
