@@ -12,6 +12,7 @@ def rdfName(s):
     s = s.replace('/', ' ')
     s = s.replace(':', ' ')
     s = s.replace(',', ' ')
+    s = s.replace('+', ' ')
     s = s.replace('(', ' ').replace(")", ' ')
     s = s.replace('[', ' ').replace("]", ' ')
     parts = s.split()
