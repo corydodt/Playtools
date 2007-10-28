@@ -55,12 +55,13 @@
 
 :Alignment rdfs:subClassOf :Characteristic .
 :AlignmentAtom rdfs:subClassOf :Characteristic .
+:AlignmentWhen rdfs:subClassOf :Characteristic .
 
 :lawfulGood a :Alignment .
 :neutralGood a :Alignment .
 :chaoticGood a :Alignment .
 :lawfulNeutral a :Alignment .
-:neutral a :Alignment .
+:neutral a :Alignment, :AlignmentAtom .
 :chaoticNeutral a :Alignment .
 :lawfulEvil a :Alignment .
 :neutralEvil a :Alignment .
@@ -69,6 +70,11 @@
 :chaotic a :Alignment, :AlignmentAtom .
 :evil a :Alignment, :AlignmentAtom .
 :good a :Alignment, :AlignmentAtom .
+:noAlignment a :Alignment, :AlignmentAtom .
+
+:alignedUsually a :AlignmentWhen .
+:alignedAlways a :AlignmentWhen .
+:alignedOften a :AlignmentWhen .
 
 
 :AttackEffect rdfs:subClassOf :Characteristic .
@@ -558,3 +564,9 @@
 
 
 :Monster rdfs:subClassOf :Characteristic .
+
+:TreasureType rdfs:subClassOf :Characteristic .
+:standardTreasure a :TreasureType .
+:doubleStandardTreasure a :TreasureType .
+:tripleStandardTreasure a :TreasureType .
+:noTreasure a :TreasureType .
