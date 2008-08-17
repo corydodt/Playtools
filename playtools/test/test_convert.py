@@ -60,6 +60,7 @@ class MockConverter(object):
         self.mockSource = mockSource
         self.db = sparqly.TriplesDatabase(base=SAMPLE, 
                 prefixes={'s':SAMPLE}, datasets=[])
+        self.db.open(None)
 
     def label(self):
         return u"mock"

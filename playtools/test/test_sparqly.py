@@ -88,12 +88,13 @@ class TriplesDbTestCase(unittest.TestCase):
         self.db = sparqly.TriplesDatabase('http://foo#', 
                 TESTING_NAMESPACES,
                 [],
-                graph=IsomorphicTestableGraph())
+                initialGraph=IsomorphicTestableGraph())
 
     def test_query(self):
         """
         Try some queries against a fake graph
         """
+        self.db.open(None)
         self.fill(self.db.graph)
 
         ret = list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
@@ -133,6 +134,7 @@ class TriplesDbTestCase(unittest.TestCase):
             comp1.bind(p, ns)
 
         self.fill(comp1)
+        self.db.open(None)
         self.fill(self.db.graph)
 
         self.assertEqual(comp1, self.db.graph)
@@ -166,18 +168,20 @@ class TriplesDbTestCase(unittest.TestCase):
 
     def test_dump(self):
         assert 0
+
     test_dump.todo = "Add some triples to a graph, dump, examine the string"
 
-    def test_extendGraph(self):
+    def test_extendGraphFromFile(self):
         """
-        extendGraph should add triples to the db's graph, within the context
+        extendGraphFromFile should add triples to the db's graph, within the context
         of the db's graph's publicID.  Show that:
         - old triples are still around
         - new triples exist
         - <> is not rewritten as <newpublicid.n3>
         """
+        self.db.open(None)
         self.fill(self.db.graph)
-        self.db.extendGraph(sibpath(__file__, 'extend.n3'))
+        self.db.extendGraphFromFile(sibpath(__file__, 'extend.n3'))
         trips = list(self.db.graph)
         # old triples still around
         self.failUnless((ANS.x, ANS.y, Literal(1)) in trips)
@@ -187,7 +191,7 @@ class TriplesDbTestCase(unittest.TestCase):
     def test_bootstrapDatabase(self):
         """
         bootstrapDatabaseConfig will load a n3-format config file and
-        prepare arguments suitable for initializing TripleDatabase
+        prepare arguments suitable for initializing TriplesDatabase
 
         bootstrapDatabase should be able to load a TriplesDatabase
         """
@@ -209,6 +213,7 @@ class TriplesDbTestCase(unittest.TestCase):
 
         # call bootstrapDatabase 2 different ways. first way: load the prefixes
         db = sparqly.bootstrapDatabase(testN3, load=True)
+        db.open(None)
         trips = list(db.graph)
         expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
         self.failUnless(expected in trips)
@@ -216,8 +221,17 @@ class TriplesDbTestCase(unittest.TestCase):
 
         # second way: don't load
         db = sparqly.bootstrapDatabase(testN3, load=False)
+        db.open(None)
         trips = list(db.graph)
         expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
         self.failIf(expected in trips)
         self.failUnless(URIRef(cp) in db.prefixes.values())
 
+    def test_open(self):
+        self.fill(self.db.initialGraph)
+
+        q = lambda: list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
+        self.assertRaises(AssertionError, q)
+        self.db.open(None)
+        ret = list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
+        self.assertEqual(len(ret), 1)

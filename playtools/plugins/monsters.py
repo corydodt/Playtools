@@ -167,6 +167,7 @@ class MonsterConverter(object):
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': monsterNs }
         self.db = sparqly.TriplesDatabase(base=monsterNs, prefixes=pfx, datasets=[])
+        self.db.open(None)
 
     def __iter__(self):
         return self
