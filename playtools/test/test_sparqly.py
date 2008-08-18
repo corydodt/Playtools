@@ -1,6 +1,9 @@
 """
 Test the database and object mapping abilities of playtools.sparqly
 """
+import os
+
+import rdflib
 
 from twisted.trial import unittest
 from twisted.python.util import sibpath
@@ -235,3 +238,15 @@ class TriplesDbTestCase(unittest.TestCase):
         self.db.open(None)
         ret = list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
         self.assertEqual(len(ret), 1)
+
+    def test_sqlite(self):
+        self.db.open('test.db')
+        self.fill(self.db.graph)
+        self.db.addTriple(STAFF.e1231, STAFF.firstname, 'Michael')
+        self.db.commit()
+        del self.db
+        self.setUp()
+        self.db.open('test.db')
+        ret = sorted(self.db.query("SELECT ?c { <http://corp.com/staff#e1231> ?b ?c }"))
+        self.assertEqual(len(ret), 1)
+        self.assertEqual(ret[0][0], Literal('Michael', datatype=rdflib.URIRef('NULL')))

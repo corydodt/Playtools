@@ -321,22 +321,37 @@ class TriplesDatabase(object):
         """
         Create or load existing database at 'filename'.  If 'filename' is
         None, use an in-memory graph.
+
+        If this is a sqlite-backed database, and the filename is present,
+        do no initialization things.  Otherwise, do them.
         """
+        _creating = False
+
         if filename is None:
+            _creating = True
             if self.initialGraph is None:
                 self.graph = Graph()
             else:
                 self.graph = self.initialGraph
         else:
             path, filename = os.path.split(filename)
+            # check for presence of the file as proof that this database is
+            # not new
+            if not os.path.exists(filename):
+                _creating = True
+
             self.graph = sqliteBackedGraph(path, filename)
 
-        self.populate()
-
-        if self.initialGraph is not None:
-            TriplesDatabase.extendRawGraph(self.graph, self.initialGraph)
-
         self._open = True
+
+        # do initialization things
+        if _creating:
+            self.populate()
+
+            if self.initialGraph is not None:
+                TriplesDatabase.extendRawGraph(self.graph, self.initialGraph)
+
+            self.commit()
 
     def populate(self):
         TriplesDatabase.populateGraphWithNamespaces(
@@ -446,6 +461,10 @@ class TriplesDatabase(object):
         # add each triple
         for s,v,o in additional:
             orig.add((s,v,o))
+
+    def commit(self):
+        assert self._open
+        self.graph.commit()
 
 
 def bootstrapDatabase(configPath, load=False):
