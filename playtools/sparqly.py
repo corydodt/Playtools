@@ -306,7 +306,37 @@ def canBeLiteral(x):
 
 class TriplesDatabase(object):
     """A database from the defined triples"""
-    def __init__(self, base, prefixes, datasets, initialGraph=None):
+    def __init__(self):
+        self._open = False
+
+    @classmethod
+    def bootstrapConfig(cls, configPath):
+        config = NS(filenameAsUri(configPath))
+        graph = cls.populateGraphWithNamespaces(
+                    Graph(), {'config':config}, [config])
+        
+        namespaces = list(graph.namespaces())
+        prefixes = {}
+        for prefix, uri in namespaces:
+            prefixes[prefix] = NS(uri)
+
+        # the config namespace itself will not be reloaded
+        del prefixes['config']
+
+        return {'base': prefixes[''], 'prefixes': prefixes, 'datasets': prefixes.values()}
+
+    @classmethod
+    def bootstrap(cls, configPath):
+        """
+        This bootstraps a TriplesDatabase by making a fresh Graph from parsing
+        configPath, and using its prefixes to load
+        """
+        conf = cls.bootstrapConfig(configPath)
+        return cls.bootstrapDatabase(**conf)
+
+    @classmethod
+    def bootstrapDatabase(cls, base, prefixes, datasets, initialGraph=None):
+        self = cls()
         self.base = base
 
         # lots of things assume this NS is present
@@ -315,7 +345,7 @@ class TriplesDatabase(object):
         self.prefixes.update(prefixes)
         self.datasets = datasets
         self.initialGraph = initialGraph
-        self._open = False
+        return self
 
     def open(self, filename):
         """
@@ -467,44 +497,12 @@ class TriplesDatabase(object):
         self.graph.commit()
 
 
-def bootstrapDatabase(configPath, load=False):
-    """
-    A new TriplesDatabase, bootstrapped by looking at the prefixes defined in configPath
-
-    If load is True, load the datasets for every prefix
-    """
-    conf = bootstrapDatabaseConfig(configPath)
-    if not load:
-        conf['datasets'] = None
-        ## del conf['datasets']
-    return TriplesDatabase(**conf)
-
 
 def randomPublicID():
     """
     Return a new, random publicID
     """
     return 'file:///%s' % (hashlib.md5(str(random.random())).hexdigest(),)
-
-
-def bootstrapDatabaseConfig(configPath):
-    """
-    This bootstraps a TriplesDatabase by making a fresh Graph from parsing
-    configPath, and using its prefixes to load
-    """
-    config = NS(filenameAsUri(configPath))
-    graph = TriplesDatabase.populateGraphWithNamespaces(
-                Graph(), {'config':config}, [config])
-    
-    namespaces = list(graph.namespaces())
-    prefixes = {}
-    for prefix, uri in namespaces:
-        prefixes[prefix] = NS(uri)
-
-    # the config namespace itself will not be reloaded
-    del prefixes['config']
-
-    return {'base': prefixes[''], 'prefixes': prefixes, 'datasets': prefixes.values()}
 
 
 def sqliteBackedGraph(path, filename):

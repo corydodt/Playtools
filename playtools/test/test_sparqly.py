@@ -88,7 +88,7 @@ class TriplesDbTestCase(unittest.TestCase):
         """
         Create an empty triples database
         """
-        self.db = sparqly.TriplesDatabase('http://foo#', 
+        self.db = sparqly.TriplesDatabase.bootstrapDatabase('http://foo#', 
                 TESTING_NAMESPACES,
                 [],
                 initialGraph=IsomorphicTestableGraph())
@@ -199,7 +199,7 @@ class TriplesDbTestCase(unittest.TestCase):
         bootstrapDatabase should be able to load a TriplesDatabase
         """
         cp = sibpath(__file__, 'bs.n3')
-        config = sparqly.bootstrapDatabaseConfig(cp)
+        config = sparqly.TriplesDatabase.bootstrapConfig(cp)
         self.assertEqual(config['base'], URIRef('lalala'))
         # xml and rdf are always added namespaces, so include them in the
         # count of prefixes
@@ -213,21 +213,11 @@ class TriplesDbTestCase(unittest.TestCase):
         f.write('@prefix : <%s> .' % (cp,))
         f.close()
 
-
-        # call bootstrapDatabase 2 different ways. first way: load the prefixes
-        db = sparqly.bootstrapDatabase(testN3, load=True)
+        db = sparqly.TriplesDatabase.bootstrap(testN3)
         db.open(None)
         trips = list(db.graph)
         expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
         self.failUnless(expected in trips)
-        self.failUnless(URIRef(cp) in db.prefixes.values())
-
-        # second way: don't load
-        db = sparqly.bootstrapDatabase(testN3, load=False)
-        db.open(None)
-        trips = list(db.graph)
-        expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
-        self.failIf(expected in trips)
         self.failUnless(URIRef(cp) in db.prefixes.values())
 
     def test_open(self):
