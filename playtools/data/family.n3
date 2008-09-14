@@ -76,8 +76,8 @@
 .
 # TODO - requires reasoning
 { ?m p:family :dragon . ?m p:shapeChangeStatus c:asHumanoid } 
-    [ => { ?m p:proficiency c:simpleWeapons } ];
-    [ rdfs:label "In human form, proficient with simple weapons." ];
+    => { ?m p:proficiency c:simpleWeapons };
+    rdfs:label "In human form, proficient with simple weapons.";
 .
 
 :elemental
@@ -93,17 +93,17 @@
 .
 # the goodSaves of an elemental depend on the subType, as given below.
 # TODO - requires reasoning
-{ ?m p:family :elemental, :air } [ => { ?m p:goodSaves c:ref } ];
-    [ rdfs:label "Air elementals have good reflex saves" ];
+{ ?m p:family :elemental, :air } => { ?m p:goodSaves c:ref };
+    rdfs:label "Air elementals have good reflex saves";
 .
-{ ?m p:family :elemental, :fire } [ => { ?m p:goodSaves c:ref } ];
-    [ rdfs:label "Fire elementals have good reflex saves" ];
+{ ?m p:family :elemental, :fire } => { ?m p:goodSaves c:ref };
+    rdfs:label "Fire elementals have good reflex saves";
 .
-{ ?m p:family :elemental, :earth } [ => { ?m p:goodSaves c:fort } ];
-    [ rdfs:label "Earth elementals have good fortitude saves" ];
+{ ?m p:family :elemental, :earth } [ => { ?m p:goodSaves c:fort };
+    rdfs:label "Earth elementals have good fortitude saves";
 .
-{ ?m p:family :elemental, :water } [ => { ?m p:goodSaves c:fort } ];
-    [ rdfs:label "Water elementals have good fortitude saves" ];
+{ ?m p:family :elemental, :water } [ => { ?m p:goodSaves c:fort };
+    rdfs:label "Water elementals have good fortitude saves";
 .
 
 :fey
@@ -190,13 +190,13 @@
     p:vitality c:noEat, c:noSleep;
 .
 # TODO - requires reasoning.
-{ ?m p:family :outsider; p:existentialStatus c:native. } [ =>
+{ ?m p:family :outsider; p:existentialStatus c:native. } =>
     { 
       { ?m p:vitality c:noEat } a log:Falsehood .
       { ?m p:vitality c:noSleep } a log:Falsehood .
       { ?m p:miscTrait c:quasiSoulless } a log:Falsehood .
-    } ]; 
-    [ rdfs:label "outsiders on their native planes are different." ];
+    }; 
+    rdfs:label "outsiders on their native planes are different.";
 .
 
 
@@ -234,8 +234,8 @@
 .
 # TODO - requires reasoning
 { ?m p:family :undead . ?m c:int 0 } 
-    [ => { ?m p:miscTrait c:cannotHealNaturally } ];
-    [ rdfs:label "Undead with no intelligence score cannot heal on their own." ];
+    => { ?m p:miscTrait c:cannotHealNaturally };
+    rdfs:label "Undead with no intelligence score cannot heal on their own.";
 .
   
 
@@ -277,8 +277,8 @@
 :amphibious a c:Family . # NOT a SRD-standard type!  but required to define aquatic.
 # TODO - requires reasoning
 { ?m p:family :aquatic, :amphibious } 
-    [ => { { ?m p:vitality c:mustBreatheWater } a log:Falsehood. } ];
-    [ rdfs:label "Aquatic creates which are amphibious may breathe air." ];
+    => { { ?m p:vitality c:mustBreatheWater } a log:Falsehood. };
+    rdfs:label "Aquatic creates which are amphibious may breathe air.";
 .
 
 
@@ -388,16 +388,14 @@
 .
 # TODO - requires reasoning.
 { ?m p:family :swarm; p:size c:tiny } 
-    [ => { ?m p:resistance [ c:piercing "50%" ], [ c:slashing "50%" ] } ];
-    [ rdfs:label "A swarm of tiny creatures takes half damage from piercing and slashing." ];
+    => { ?m p:resistance [ c:piercing "50%" ], [ c:slashing "50%" ] };
+    rdfs:label "A swarm of tiny creatures takes half damage from piercing and slashing.";
 .
-{ ?m p:family :swarm; p:size c:diminutive } 
-[ => { ?m p:miscTrait c:noWeaponDamage } ];
-[ rdfs:label "A swarm composed of Diminutive creatures is immune to all weapon damage." ];
+{ ?m p:family :swarm; p:size c:diminutive } => { ?m p:miscTrait c:noWeaponDamage };
+    rdfs:label "A swarm composed of Diminutive creatures is immune to all weapon damage.";
 .
-{ ?m p:family :swarm; p:size c:fine } 
-[ =>  { ?m p:miscTrait c:noWeaponDamage } ];
-[ rdfs:label "A swarm composed of Fine creatures is immune to all weapon damage." ];
+{ ?m p:family :swarm; p:size c:fine } =>  { ?m p:miscTrait c:noWeaponDamage };
+    rdfs:label "A swarm composed of Fine creatures is immune to all weapon damage.";
 .
 
 :water
