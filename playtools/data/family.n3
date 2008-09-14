@@ -76,7 +76,7 @@
 .
 # TODO - requires reasoning
 { ?m p:family :dragon . ?m p:shapeChangeStatus c:asHumanoid } 
-    => { ?m p:proficiency c:simpleWeapons };
+    => { ?m p:proficiency c:simpleWeapons } ;
     rdfs:label "In human form, proficient with simple weapons.";
 .
 
@@ -93,16 +93,16 @@
 .
 # the goodSaves of an elemental depend on the subType, as given below.
 # TODO - requires reasoning
-{ ?m p:family :elemental, :air } => { ?m p:goodSaves c:ref };
+{ ?m p:family :elemental, :air } => { ?m p:goodSaves c:ref } ;
     rdfs:label "Air elementals have good reflex saves";
 .
-{ ?m p:family :elemental, :fire } => { ?m p:goodSaves c:ref };
+{ ?m p:family :elemental, :fire } => { ?m p:goodSaves c:ref } ;
     rdfs:label "Fire elementals have good reflex saves";
 .
-{ ?m p:family :elemental, :earth } [ => { ?m p:goodSaves c:fort };
+{ ?m p:family :elemental, :earth } => { ?m p:goodSaves c:fort } ;
     rdfs:label "Earth elementals have good fortitude saves";
 .
-{ ?m p:family :elemental, :water } [ => { ?m p:goodSaves c:fort };
+{ ?m p:family :elemental, :water } => { ?m p:goodSaves c:fort } ;
     rdfs:label "Water elementals have good fortitude saves";
 .
 
