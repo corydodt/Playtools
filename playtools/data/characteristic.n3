@@ -45,7 +45,10 @@
     rdfs:label "Keen Senses";
     rdfs:comment "Sees four times as well as a human in shadowy illumination and twice as well in normal light. It also has darkvision out to 120 feet.";
 .
-{ ?m :sense :keenSenses } => { ?m :sense [ a :Darkvision; p:range "120 ft."; ] } .
+{ ?m :sense :keenSenses } 
+    => { ?m :sense [ a :Darkvision; p:range "120 ft."; ] };
+    rdfs:label "Creatures with keen senses have Darkvision to 120 ft.";
+.
 
 :Darkvision rdfs:subClassOf :Sense .
 
