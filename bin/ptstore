@@ -23,7 +23,7 @@ class Explorer(cmd.Cmd):
 
     def do_id(self, arg):
         """Identify this store"""
-        print self.store.identifier
+        print self.store.graph.store.identifier, self.store.graph.default_context
 
     def do_quit(self, arg):
         """Quit"""
@@ -44,16 +44,18 @@ class Explorer(cmd.Cmd):
     def postcmd(self, stop, line):
         return not not self._quitting
 
-    def do_predicates(self, arg):
-        """Show every predicate tuple in the whole store"""
-        pprint.pprint(list(self.store.predicate_objects()))
-
     def do_SELECT(self, arg):
         """Begin a SPARQL query"""
         base = self.store.base
-        res = self.store.query('SELECT ' + arg)
+        try:
+            res = self.store.query('SELECT ' + arg)
+        except SyntaxError, e:
+            print e
+            print '** %s' % ('SELECT ' + arg, )
+            return
+
         l = list(res)
-        for colName in res.allVariables:
+        for colName in res.selectionF:
             print colName[:26].ljust(28),
         print
         px = lambda s: prefixen(dict(self.store.graph.namespaces()), s)
