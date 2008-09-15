@@ -23,3 +23,36 @@ def rdfName(s):
 def filenameAsUri(fn):
     return 'file://' + os.path.abspath(fn)
 
+def prefixen(prefixes, ref):
+    """
+    Return a shorter version of ref (as unicode) that replaces the long URI
+    with a prefix in prefixes.  Or otherwise format it as a short unicode
+    string.
+    """
+    # this path for formulae
+    if hasattr(ref, 'namespaces'):
+        return ref.n3()
+
+    parts = ref.partition('#')
+    doc = parts[0] + '#'
+    for k,v in prefixes.items():
+        if unicode(v) == doc:
+            return '%s:%s' % (k, parts[2])
+    return ref.n3()
+
+def columnizeResult(res, prefixes=None):
+    """
+    Print a query result in nice columns
+    """
+    if prefixes is None:
+        prefixes = {}
+    ret = []
+    for colName in res.selectionF:
+        ret.append(colName[:26].ljust(28))
+    ret.append('\n')
+    px = lambda s: prefixen(prefixes, s)
+    for item in res:
+        for col in item:
+            ret.append(px(col)[:26].ljust(28))
+        ret.append('\n')
+    return ''.join(ret)

@@ -153,6 +153,7 @@ class SparqAttribute(object):
         if hasattr(key, 'n3'):
             key = key.n3()
 
+        # FIXME - use initBindings here instead of this key stuff
         rest = self.selector.safe_substitute(key=key)
         data = [r[0] for r in db.query(rest)]  ## TODO - support multiple variable queries? probably not
         if len(data) == 0:
@@ -306,112 +307,49 @@ def canBeLiteral(x):
 
 class TriplesDatabase(object):
     """A database from the defined triples"""
-    def __init__(self):
+    def __init__(self, base):
         self._open = False
-
-    @classmethod
-    def bootstrapConfig(cls, configPath):
-        config = NS(filenameAsUri(configPath))
-        graph = cls.populateGraphWithNamespaces(
-                    Graph(), {'config':config}, [config])
-        
-        namespaces = list(graph.namespaces())
-        prefixes = {}
-        for prefix, uri in namespaces:
-            prefixes[prefix] = NS(uri)
-
-        # the config namespace itself will not be reloaded
-        del prefixes['config']
-
-        return {'base': prefixes[''], 'prefixes': prefixes, 'datasets': prefixes.values()}
-
-    @classmethod
-    def bootstrap(cls, configPath):
-        """
-        This bootstraps a TriplesDatabase by making a fresh Graph from parsing
-        configPath, and using its prefixes to load
-        """
-        conf = cls.bootstrapConfig(configPath)
-        return cls.bootstrapDatabase(**conf)
-
-    @classmethod
-    def bootstrapDatabase(cls, base, prefixes, datasets, initialGraph=None):
-        self = cls()
         self.base = base
 
-        # lots of things assume this NS is present
-        self.prefixes = {'rdfs': RDFSNS} 
-
-        self.prefixes.update(prefixes)
-        self.datasets = datasets
-        self.initialGraph = initialGraph
-        return self
-
-    def open(self, filename):
+    def open(self, filename, graphClass=None):
         """
-        Create or load existing database at 'filename'.  If 'filename' is
-        None, use an in-memory graph.
-
-        If this is a sqlite-backed database, and the filename is present,
-        do no initialization things.  Otherwise, do them.
+        Load existing database at 'filename'.
         """
-        _creating = False
-
         if filename is None:
-            _creating = True
-            if self.initialGraph is None:
+            if graphClass is None:
+                from rdflib.Graph import Graph
                 self.graph = Graph()
             else:
-                self.graph = self.initialGraph
+                self.graph = graphClass()
         else:
-            path, filename = os.path.split(filename)
-            # check for presence of the file as proof that this database is
-            # not new
-            if not os.path.exists(filename):
-                _creating = True
+            assert os.path.exists(filename), (
+                    "%s must be an existing database" % (filename,))
 
+            path, filename = os.path.split(filename)
             self.graph = sqliteBackedGraph(path, filename)
 
         self._open = True
 
-        # do initialization things
-        if _creating:
-            self.populate()
-
-            if self.initialGraph is not None:
-                TriplesDatabase.extendRawGraph(self.graph, self.initialGraph)
-
-            self.commit()
-
-    def populate(self):
-        TriplesDatabase.populateGraphWithNamespaces(
-                self.graph, self.prefixes, self.datasets)
-
-    @classmethod
-    def populateGraphWithNamespaces(cls, graph, prefixes, datasets):
-        """
-        Insert data and prefixes into the graph.  Modifies the graph in-place
-        and returns it.
-        """
-        if datasets is not None:
-            for d in filterNamespaces(datasets):
-                graph.load(d, format='n3')
-
-        for pfx, uri in prefixes.items():
-            graph.bind(pfx, uri)
-
-        return graph
-                
-    def query(self, rest):
+    def query(self, rest, initNs=None, initBindings=None):
         """
         Execute a SPARQL query and get the results as a SPARQLResult
 
         {rest} is a string that should begin with "SELECT ", usually
         """
         assert self._open
-        sel = select(self.base, rest)
-        ret = self.graph.query(sel, initNs=self.prefixes)
+
+        if initNs is None:
+            initNs = dict(self.graph.namespaces()) 
+        if initBindings is None: initBindings = {}
+
+        sel = select(self.getBase(), rest)
+        ret = self.graph.query(sel, initNs=initNs, initBindings=initBindings,
+                DEBUG=False)
         return ret
+
+    def getBase(self):
+        d = dict(self.graph.namespaces())
+        return d.get('', RDFSNS)
 
     def addTriple(self, s, v, *objects):
         """
@@ -473,6 +411,7 @@ class TriplesDatabase(object):
         g2.load(graphFile, format='n3', publicID=publicID)
 
         # add each triple
+        # FIXME - this should use addN
         for s,v,o in g2:
             if s == URIRef(publicID):
                 self.graph.add((URIRef(''), v, o))
@@ -489,6 +428,7 @@ class TriplesDatabase(object):
     @classmethod
     def extendRawGraph(cls, orig, additional):
         # add each triple
+        # FIXME - this should use addN
         for s,v,o in additional:
             orig.add((s,v,o))
 
@@ -528,4 +468,5 @@ def sqliteBackedGraph(path, filename):
      
     # There is a store, use it
     return Graph(store)
+
 

@@ -14,3 +14,4 @@
     :supervisor :e900;
 .
 
+{ ?x :supervisor ?y } => { ?x :supervisor ?y } .

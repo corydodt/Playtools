@@ -9,7 +9,8 @@ import pprint
 from twisted.python import usage
 
 from playtools.sparqly import (sqliteBackedGraph, filterNamespaces,
-                TriplesDatabase, prefixen)
+                TriplesDatabase)
+from playtools.util import columnizeResult, prefixen
 
 
 class Explorer(cmd.Cmd):
@@ -53,16 +54,8 @@ class Explorer(cmd.Cmd):
             print e
             print '** %s' % ('SELECT ' + arg, )
             return
-
-        l = list(res)
-        for colName in res.selectionF:
-            print colName[:26].ljust(28),
-        print
-        px = lambda s: prefixen(dict(self.store.graph.namespaces()), s)
-        for item in l:
-            for col in item:
-                print px(col)[:26].ljust(28),
-            print
+        d = dict(self.store.graph.namespaces())
+        print columnizeResult(res, d)
 
     do_select = do_SELECT
             

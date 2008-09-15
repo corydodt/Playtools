@@ -60,7 +60,7 @@ class FeatConverter(object):
         self.featSource = featSource
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': featNs }
-        self.db = sparqly.TriplesDatabase.bootstrapDatabase(base=featNs, prefixes=pfx, datasets=[])
+        self.db = sparqly.TriplesDatabase(base=featNs)
         self.db.open(None)
 
     def __iter__(self):

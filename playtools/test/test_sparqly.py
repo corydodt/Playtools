@@ -25,7 +25,7 @@ STAFF = Namespace('http://corp.com/staff#')
 ANS = Namespace('http://a#')
 BNS = Namespace('http://b#')
 
-TESTING_NAMESPACES = {'': STAFF, 'a': ANS, 'b': BNS }
+TESTING_NAMESPACES = {'a': ANS, 'b': BNS }
 
 
 class SparqlyTestCase(unittest.TestCase):
@@ -67,6 +67,7 @@ class SparqlyTestCase(unittest.TestCase):
         Bill LUMBERGH
         """
         assert 0
+
     test_sparqItem.todo = "Look at the docstring"
 
 
@@ -76,6 +77,8 @@ class TriplesDbTestCase(unittest.TestCase):
         """
         Add some triples to a graph (without using addTriple)
         """
+        graph.bind('a', Namespace('http://a#'))
+        graph.bind('b', Namespace('http://b#'))
         graph.add((URIRef('http://a#x'), URIRef('http://a#y'),
             Literal(1)))
         graph.add((URIRef('http://b#xb'), URIRef('http://b#yb'),
@@ -88,10 +91,8 @@ class TriplesDbTestCase(unittest.TestCase):
         """
         Create an empty triples database
         """
-        self.db = sparqly.TriplesDatabase.bootstrapDatabase('http://foo#', 
-                TESTING_NAMESPACES,
-                [],
-                initialGraph=IsomorphicTestableGraph())
+        self.db = sparqly.TriplesDatabase('http://foo#')
+        self.db.open(None, graphClass=IsomorphicTestableGraph)
 
     def test_query(self):
         """
@@ -137,7 +138,6 @@ class TriplesDbTestCase(unittest.TestCase):
             comp1.bind(p, ns)
 
         self.fill(comp1)
-        self.db.open(None)
         self.fill(self.db.graph)
 
         self.assertEqual(comp1, self.db.graph)
@@ -191,46 +191,20 @@ class TriplesDbTestCase(unittest.TestCase):
         # new triple is around as well, and this is still this
         self.failUnless((this, ANS.f, ANS.g) in trips)
 
-    def test_bootstrapDatabase(self):
-        """
-        bootstrapDatabaseConfig will load a n3-format config file and
-        prepare arguments suitable for initializing TriplesDatabase
-
-        bootstrapDatabase should be able to load a TriplesDatabase
-        """
-        cp = sibpath(__file__, 'bs.n3')
-        config = sparqly.TriplesDatabase.bootstrapConfig(cp)
-        self.assertEqual(config['base'], URIRef('lalala'))
-        # xml and rdf are always added namespaces, so include them in the
-        # count of prefixes
-        self.assertEqual(len(config['prefixes']), 5)
-        self.failUnless(config['prefixes']['x'] == URIRef('lalala2'))
-
-        cp = sparqly.filenameAsUri(cp)
-
-        testN3 = 'test_bootstrapDatabase.n3'
-        f = open(testN3, 'w')
-        f.write('@prefix : <%s> .' % (cp,))
-        f.close()
-
-        db = sparqly.TriplesDatabase.bootstrap(testN3)
-        db.open(None)
-        trips = list(db.graph)
-        expected = (URIRef(cp), RDFSNS.comment, Literal("whatevers"))
-        self.failUnless(expected in trips)
-        self.failUnless(URIRef(cp) in db.prefixes.values())
-
     def test_open(self):
-        self.fill(self.db.initialGraph)
-
-        q = lambda: list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
+        newdb = sparqly.TriplesDatabase('http://foo#')
+        q = lambda: list(newdb.query("SELECT ?a { ?a b:yb 2 }"))
         self.assertRaises(AssertionError, q)
-        self.db.open(None)
-        ret = list(self.db.query("SELECT ?a { ?a b:yb 2 }"))
+        newdb.open(None)
+        self.fill(newdb.graph)
+        ret = list(newdb.query("SELECT ?a { ?a b:yb 2 }"))
         self.assertEqual(len(ret), 1)
 
     def test_sqlite(self):
-        self.db.open('test.db')
+        path = os.getcwd()
+        filename = 'test.db'
+        _ignored = sparqly.sqliteBackedGraph(path, filename)
+        self.db.open(path + '/' + filename)
         self.fill(self.db.graph)
         self.db.addTriple(STAFF.e1231, STAFF.firstname, 'Michael')
         self.db.commit()
@@ -240,3 +214,4 @@ class TriplesDbTestCase(unittest.TestCase):
         ret = sorted(self.db.query("SELECT ?c { <http://corp.com/staff#e1231> ?b ?c }"))
         self.assertEqual(len(ret), 1)
         self.assertEqual(ret[0][0], Literal('Michael', datatype=rdflib.URIRef('NULL')))
+
