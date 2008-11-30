@@ -4,3 +4,6 @@
 (/|\\|^).*\.pid$
 ^hook.d/.*$
 ^_trial_temp/.*$
+^build/.*$
+^Playtools.egg-info.*$
+^dist/.*$
