@@ -8,9 +8,9 @@ games. It encompasses a data format based on N3, tools for editing that
 format, an object mapper, and documentation for integrating data into your
 game software.
 
-See http://thesoftworld.com/playtools/
+See http://goonmill.org/playtools/
 
-Bug tracker at http://thesoftworld.com/launchpad/
+Bug tracker at http://launchpad.net/playtools/
 
 ============
 Architecture
