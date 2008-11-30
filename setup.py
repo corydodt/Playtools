@@ -4,6 +4,7 @@ setup(name='Playtools',
       author='Cory Dodt',
       description='Playtools for RPG Software',
       url='http://goonmill.org/playtools/',
+      download_url='http://playtools-source.goonmill.org/archive/tip.tar.gz',
 
       packages=find_packages(),
 
@@ -22,5 +23,17 @@ setup(name='Playtools',
               'plugins/*.n3',
               'test/*.n3',
               ],
-        }
+        },
+      classifiers=[
+          'Development Status :: 2 - Pre-Alpha',
+          'Environment :: Console',
+          'Environment :: Web Environment',
+          'Intended Audience :: Developers',
+          'License :: OSI Approved :: MIT License',
+          'Operating System :: POSIX',
+          'Programming Language :: Python',
+          'Topic :: Games/Entertainment :: Role-Playing',
+          'Topic :: Software Development :: Libraries',
+          ],
+
       )
