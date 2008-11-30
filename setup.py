@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 setup(name='Playtools',
       version='0.1',
+      author='Cory Dodt',
+      description='Playtools for RPG Software',
+      url='http://goonmill.org/playtools/',
 
       packages=find_packages(),
 
