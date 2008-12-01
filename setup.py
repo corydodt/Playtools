@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 setup(name='Playtools',
-      version='0.1',
+      version='0.1.1',
       author='Cory Dodt',
       description='Playtools for RPG Software',
       url='http://goonmill.org/playtools/',
@@ -13,7 +13,7 @@ setup(name='Playtools',
       install_requires=[
           'pysqlite>=2',
           'storm>=0.13',
-          'rdflib>=2.4',
+          'rdflib<3a',
           ],
 
       package_data={
