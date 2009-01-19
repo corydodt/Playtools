@@ -1,4 +1,7 @@
 @prefix :     <http://goonmill.org/2007/monster.n3#> .
+@prefix feat: <http://goonmill.org/2007/feat.n3#>.
+@prefix spell: <http://goonmill.org/2009/spell.n3#>.
+@prefix skill: <http://goonmill.org/2007/skill.n3#>.
 @prefix fam:     <http://goonmill.org/2007/family.n3#> .
 @prefix c:     <http://goonmill.org/2007/characteristic.n3#> .
 @prefix p:     <http://goonmill.org/2007/property.n3#> .
@@ -29,7 +32,8 @@
 
     p:hitPoints "20d12+100";
     p:damageReduction [ c:magic 5 ];
-    p:armorClass 27; # computed! -2 size +19 natural, touch 8, flat-footed 27
+    # gives ac 27, flat-footed 27, touch 8
+    p:armorClass ( (10 c:baseArmor), (-2 c:size), (+19 natural) );
     p:immunity c:fire, c:paralysis, c:sleep;
     p:spellResistance 21;
     p:vulnerability c:cold;
@@ -62,22 +66,39 @@
     p:spellBook ...; # TODO
     p:possessions ...; # TODO
     p:casterLevel 5;
+
+    p:feat [ feat:alertness () ],
+        # Note: anySpell means any ONE spell to be determined later.
+        # It doesn't mean ALL spells.
+        [ feat:empowerSpell spell:anySpell ], 
+        [ feat:hover () ],
+        [ feat:improvedInitiative () ], 
+        [ feat:powerAttack () ], 
+        [ feat:weaponFocus c:bite, c:claw ];
+
+    p:skill [ skill:listen +29 ],
+        [ skill:spot +29 ],
+        [ skill:search +27 ],
+        [ skill:senseMotive +18 ],
+        [ skill:swim +24 ],
+        [ skill:concentration +19 ],
+        [ skill:diplomacy +18 ],
+        [ skill:disguise +18 ],
+        [ skill:escapeArtist +14 ],
+        [ skill:heal +18 ],
+        [ skill:intimidate +18 ],
+        [ skill:useMagicDevice +18 ],
+        [ "Knowledge (any 2)" +27 ];
+
 .
+
 
 """
 FIXME - npcTraits
 
-Listen +29, Spot +29
-
-Fort +17, Ref +12, Will +16
-
 Atk Options Breath weapon (50 ft. cone of weakening gas or 50 ft. cone of fire 10d10, DC 25), crush 2d8+15 (DC 25), frightful presence (DC 24); Power Attack
 
 SQ alternate form, bless, blindsense 60 ft., damage reduction 5/magic, darkvision 120 ft., immunity to fire, immunity to sleep and paralysis, keen senses, spell resistance 21, spells (caster level 5th), vulnerability to cold, water breathing
-
-Feats Alertness, Empower Spell, Hover, Improved Initiative, Power Attack, Weapon Focus (bite), Weapon Focus (claw)
-
-Skills Concentration +19, Diplomacy +18, Disguise +18, Escape Artist +14, Heal +18, Intimidate +18, Knowledge (any 2) +27, Listen +29, Search +27, Sense Motive +18, Spot +29, Swim +24, Use Magic Device +18
 
 
 Breath Weapon (Su): A gold dragon has two types of breath weapon, a cone of fire and a cone of weakening gas. Creatures within a cone of weakening gas must succeed on a Fortitude save or take 1 point of Strength damage per age category of the dragon.
