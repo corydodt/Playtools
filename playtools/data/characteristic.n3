@@ -459,6 +459,10 @@
     rdfs:comment "In a monster statblock, this feat will be noted near ranged attacks";
 .
 
+:Armor
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "Item is a type of armor";
+.
 :Weapon
     rdfs:subClassOf :Characteristic;
     rdfs:comment "Item is a weapon";
