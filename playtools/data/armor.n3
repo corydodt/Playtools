@@ -1,0 +1,11 @@
+@prefix :     <http://goonmill.org/2009/armor.n3#> .
+@prefix c:    <http://goonmill.org/2007/characteristic.n3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> rdfs:title "Armor" .
+<> rdfs:comment "Descriptions of armor types" .
+
+:baseArmor a c:Armor;
+    rdfs:comment "The basic, naked armor class; starts at 10"
+.
+
