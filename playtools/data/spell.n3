@@ -1,0 +1,11 @@
+@prefix : <http://goonmill.org/2009/spell.n3#> .
+
+<> rdfs:title "Spells" .
+<> rdfs:comment "Descriptions and definitions of spells" .
+
+
+:anySpell a c:Spell;
+    rdfs:label "Any single spell";
+    rdfs:comment "One spell from any spell list";
+. 
+
