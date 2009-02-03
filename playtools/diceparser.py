@@ -126,6 +126,28 @@ def parseDice(s):
     return children
 
 
+def reverseFormatDice(parsed_dice):
+    """Take a parsed dice expression and return the string form"""
+    p = parsed_dice[0]
+    _dice_expr = []
+    if p.staticNumber:
+        return str(p.staticNumber)
+    if p.count and p.count != 1:
+        _dice_expr.append(str(p.count))
+    if p.dieSize:
+        _dice_expr.append('d' + str(p.dieSize))
+    if p.filterCount:
+        _dice_expr.append(str(p.filterDirection))
+        _dice_expr.append(str(p.filterCount))
+    if p.dieModifier:
+        _dice_expr.append('%+d' % (p.dieModifier,))
+    if p.repeat and p.repeat != 1:
+        _dice_expr.append('x' + str(p.repeat))
+    if p.sort:
+        _dice_expr.append('sort')
+    return ''.join(_dice_expr)
+
+
 diceExpression = objectgenerator.LibraryElement(
 		generator = diceParser._generator,
 		production = 'diceExpression',

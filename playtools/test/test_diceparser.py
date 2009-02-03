@@ -3,6 +3,23 @@ import unittest
 from playtools import diceparser
 
 class DiceParserTestCase(unittest.TestCase):
+    def test_reverseFormatDice(self):
+        def t(s, ):
+            parsed = diceparser.parseDice(s)
+            expected = ''.join(s.split()).lower()
+            self.assertEqual(expected, diceparser.reverseFormatDice(parsed))
+
+        t(' d10')
+        t(' 2d20')
+        t('2d20+1')
+        t('2d 20+1')
+        t('2 d 20- 1')
+        t("2d6-2x2sort")
+        t("9d6l3-10x2")
+        t("9d6H3+10x2")
+        t('2')
+        
+
     def test_parse(self):
 
         tests = [ # {{{
