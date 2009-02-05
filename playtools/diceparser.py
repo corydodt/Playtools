@@ -1,4 +1,5 @@
 from simpleparse import parser, dispatchprocessor as disp, objectgenerator
+from simpleparse import common, objectgenerator
 from simpleparse.common import numbers
 ## appease pyflakes
 numbers
@@ -148,8 +149,12 @@ def reverseFormatDice(parsed_dice):
     return ''.join(_dice_expr)
 
 
-diceExpression = objectgenerator.LibraryElement(
+# make productions exportable
+c = {}
+for name in ['diceExpression', 'dieModifier']:
+	c[ name ] = objectgenerator.LibraryElement(
 		generator = diceParser._generator,
-		production = 'diceExpression',
-        )
+		production = name,
+	)
 
+common.share( c )

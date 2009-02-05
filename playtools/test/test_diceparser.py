@@ -1,6 +1,7 @@
 import unittest
 
 from playtools import diceparser
+from simpleparse import parser
 
 class DiceParserTestCase(unittest.TestCase):
     def test_reverseFormatDice(self):
@@ -44,3 +45,18 @@ class DiceParserTestCase(unittest.TestCase):
             if expect:
                 self.assertEqual(next, len(test), '%s!=%s "%s"' % (next,
                     len(test), test))
+
+    def test_exportProductions(self):
+        """
+        Importing the diceparser module enables some parsing productions.
+        Verify that these are exported correctly.
+        """
+        grammar = """<ws> := [ \t]*
+            xyz := diceExpression, ws, diceExpression
+            abc := dieModifier, ws, dieModifier
+            xyzRoot := xyz/abc
+            """
+        p = parser.Parser(grammar, root='xyzRoot')
+        p.parse('1d20 1d20')
+        p.parse('+1 -1')
+
