@@ -64,7 +64,7 @@ class DiceExpression(object):
 
             # no modifier if +0
             modifier = ''
-            if self.dieModifier > 0:
+            if self.dieModifier != 0:
                 modifier = '%+d' % (self.dieModifier,)
 
             # no repeat if x1
@@ -72,8 +72,11 @@ class DiceExpression(object):
             if self.repeat > 1:
                 repeat = 'x%d' % (self.repeat,)
 
-            return '%dd%d%s%s%s%s' % (self.count, self.dieSize,
-                    filter, modifier, repeat, self.sort)
+            # no count if == 1
+            count = ''
+            if self.count != 1:
+                count = self.count
+            return '%sd%d%s%s%s%s' % (count, self.dieSize, filter, modifier, repeat, self.sort)
         else:
             return str(self.staticNumber)
 
@@ -125,28 +128,6 @@ def parseDice(s):
     if not succ or not end == len(s):
         raise RuntimeError('%s is not a valid dice expression' % (s,))
     return children
-
-
-def reverseFormatDice(parsed_dice):
-    """Take a parsed dice expression and return the string form"""
-    p = parsed_dice[0]
-    _dice_expr = []
-    if p.staticNumber:
-        return str(p.staticNumber)
-    if p.count and p.count != 1:
-        _dice_expr.append(str(p.count))
-    if p.dieSize:
-        _dice_expr.append('d' + str(p.dieSize))
-    if p.filterCount:
-        _dice_expr.append(str(p.filterDirection))
-        _dice_expr.append(str(p.filterCount))
-    if p.dieModifier:
-        _dice_expr.append('%+d' % (p.dieModifier,))
-    if p.repeat and p.repeat != 1:
-        _dice_expr.append('x' + str(p.repeat))
-    if p.sort:
-        _dice_expr.append('sort')
-    return ''.join(_dice_expr)
 
 
 # make productions exportable
