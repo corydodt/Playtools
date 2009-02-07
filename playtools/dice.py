@@ -41,33 +41,32 @@ def parse(st):
 def roll(parsed, temp_modifier=0):
     # set these to defaults in the finish step, not in the init, 
     # so the parser instance can be reused
-    expr = parsed[0]
-    count = expr.count
-    if expr.filterCount is not None:
-        dice_filter_count = expr.filterCount
+    count = parsed.count
+    if parsed.filterCount is not None:
+        dice_filter_count = parsed.filterCount
         if dice_filter_count > count:
             _m = "Hi/Lo filter uses more dice than are being rolled"
             raise RuntimeError(_m)
 
-        hilo = str(expr.filterDirection)
+        hilo = str(parsed.filterDirection)
     else:
         dice_filter_count = 0
         hilo = None
 
-    dice_repeat = expr.repeat
+    dice_repeat = parsed.repeat
 
-    dice_bonus = expr.dieModifier
+    dice_bonus = parsed.dieModifier
 
-    if expr.staticNumber is not None:
+    if parsed.staticNumber is not None:
         # an int by itself is just an int.
         for n in xrange(dice_repeat):
-            yield DiceResult([expr.staticNumber], dice_bonus, temp_modifier)
+            yield DiceResult([parsed.staticNumber], dice_bonus, temp_modifier)
         return
 
     for n in xrange(dice_repeat):
         dierolls = []
         for n in xrange(count):
-            dierolls.append(rollDie(expr.dieSize, 0))
+            dierolls.append(rollDie(parsed.dieSize, 0))
         result = DiceResult(dierolls, 
                             dice_bonus, 
                             temp_modifier,
@@ -146,7 +145,7 @@ def run(argv=None):
                 rolled.reverse()
                 print "Sorted----", rolled
             else:
-                print rolled[0]
+                print rolled
         except RuntimeError, e:
             print e
 

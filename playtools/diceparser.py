@@ -127,7 +127,7 @@ def parseDice(s):
     succ, children, end = diceParser.parse(s, processor=Processor())
     if not succ or not end == len(s):
         raise RuntimeError('%s is not a valid dice expression' % (s,))
-    return children
+    return children[0]
 
 
 # make productions exportable

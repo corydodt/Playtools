@@ -8,7 +8,7 @@ class DiceParserTestCase(unittest.TestCase):
         def t(s, ):
             parsed = diceparser.parseDice(s)
             expected = ''.join(s.split()).lower()
-            self.assertEqual(expected, diceparser.reverseFormatDice(parsed))
+            self.assertEqual(expected, str(parsed))
 
         t(' d10')
         t(' 2d20')
