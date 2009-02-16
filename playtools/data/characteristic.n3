@@ -438,26 +438,6 @@
     rdfs:subClassOf :Characteristic;
     rdfs:comment "When this feat is taken more than once, its effects stack";
 .
-:ArmorClassFeat
-    rdfs:subClassOf :Characteristic;
-    rdfs:comment "In a monster statblock, this feat will be noted near armor class";
-.
-:SpeedFeat
-    rdfs:subClassOf :Characteristic;
-    rdfs:comment "In a monster statblock, this feat will be noted near movement";
-.
-:AttackOptionFeat
-    rdfs:subClassOf :Characteristic;
-    rdfs:comment "In a monster statblock, this feat will be noted near attacks";
-.
-:SpecialActionFeat
-    rdfs:subClassOf :Characteristic;
-    rdfs:comment "In a monster statblock, this feat will be noted near special actions";
-.
-:RangedAttackFeat
-    rdfs:subClassOf :Characteristic;
-    rdfs:comment "In a monster statblock, this feat will be noted near ranged attacks";
-.
 
 :Armor
     rdfs:subClassOf :Characteristic;
