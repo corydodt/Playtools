@@ -4,14 +4,19 @@
 <> rdfs:label "Test document - Corporate Staff" .
 <> rdfs:comment "So much Enterprise you'll crap yourself!" .
 
+:PeoplePerson a rdfs:Class .
+:StraightShooterWithUpperManagementWrittenAllOverHim a rdfs:Class .
+
 :e1230 :firstname "Peter";
     :lastname "Gibbons";
     :supervisor :e1001;
+    a :StraightShooterWithUpperManagementWrittenAllOverHim ;
 .
 
 :e1001 :firstname "Bill";
     :lastname "Lumbergh";
     :supervisor :e900;
+    a :PeoplePerson;
 .
 
 { ?x :supervisor ?y } => { ?x :supervisor ?y } .

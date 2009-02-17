@@ -34,11 +34,11 @@ class UtilTestCase(unittest.TestCase):
         corp = sibpath(__file__, 'corp.n3')
         g.load(corp, format='n3')
         prefixes = dict(g.namespaces())
-        res = g.query("BASE <http://corp.com/staff#> SELECT ?x ?y ?z { ?x ?y ?z } ORDER BY ?x")
+        res = g.query("BASE <http://corp.com/staff#> SELECT ?x ?y ?z { ?x ?y ?z } ORDER BY ?x ?y")
         l = list(res)
-        rx1 = re.compile(r':e1230')
-        rx2 = re.compile(r'{_:[a-zA-Z0-9]+}')
-        x1 = util.prefixen(prefixes, l[5][0], )
-        x2 = util.prefixen(prefixes, l[8][0], )
-        assert rx1.match(x1), x1
-        assert rx2.match(x2), x2
+        rx1 = r':PeoplePerson'
+        rx2 = r'{_:[a-zA-Z0-9]+}'
+        x1 = util.prefixen(prefixes, l[2][0], )
+        x2 = util.prefixen(prefixes, l[-1][0], )
+        self.assertTrue(re.match(rx1, x1) is not None, '%s != %s' % (rx1, x1))
+        self.assertTrue(re.match(rx2, x2) is not None, '%s != %s' % (rx2, x2))
