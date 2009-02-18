@@ -139,18 +139,20 @@ class SparqAttribute(object):
 
     def solve(self, db, key):
         """Return the value or values of this attribute."""
-        data = self.retrieveData(db, key)
+        default = lambda: self.default.solve(db, key)
+        data = self.retrieveData(db, key, default)
         if data is None or len(data) == 0:
             return None
-        assert len(data) == 1
+        assert len(data) == 1, "result had %s elements instead of 1" % (
+                len(data),)
         return data[0]
 
-    def retrieveData(self, db, key):
+    def retrieveData(self, db, key, default):
         """Do my query against a db and return its result list.
         If no result list and default is set, return default.
         """
         qres = self.submitQuery(db, key)
-        return self.processQueryResult(qres)
+        return self.processQueryResult(qres, default)
 
     def submitQuery(self, db, key):
         """
@@ -165,7 +167,7 @@ class SparqAttribute(object):
         q = db.query(rest)
         return q
 
-    def processQueryResult(self, qresult):
+    def processQueryResult(self, qresult, default):
         """
         Extract the raw result into a list
         """
@@ -183,7 +185,7 @@ class SparqAttribute(object):
                 return None
 
             if isinstance(self.default, SparqAttribute):
-                return self.default.solve(db, key)
+                return [default()]
 
             return [self.default]
         return data
@@ -199,7 +201,8 @@ class Ref(SparqAttribute):
         super(Ref, self).__init__(selector)
 
     def solve(self, db, key):
-        data = self.retrieveData(db, key)
+        default = lambda: self.default.solve(db, key)
+        data = self.retrieveData(db, key, default)
 
         if data is None:
             return []

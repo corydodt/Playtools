@@ -17,11 +17,15 @@ from playtools.common import this, RDFSNS, a
 
 class Employee(sparqly.SparqItem):
     firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
+    nickname = sparqly.Literal("SELECT ?n { $key :nickname ?n }")
     lastname = sparqly.Literal("SELECT ?l { $key :lastname ?l }"
             ).setTransform(lambda l: str(l).upper())
     straightShooter = sparqly.Boolean(
             """ASK { $key a
             :StraightShooterWithUpperManagementWrittenAllOverHim . }""")
+
+Employee.middlename = sparqly.Literal("SELECT ?m { $key :middlename ?m}",
+        default=Employee.nickname)
 
 Employee.supervisor = sparqly.Ref(Employee, "SELECT ?s { $key :supervisor $s }")
 
@@ -63,12 +67,12 @@ class SparqlyTestCase(unittest.TestCase):
         """
         db = sparqly.TriplesDatabase()
         db.graph = rdflib.ConjunctiveGraph()
+        # hack so there's a blank (base) namespace
         db.graph.bind('', STAFF)
 
         # hack to pretend the database is on disk somewhere
         db._open = True
         g = rdflib.ConjunctiveGraph()
-        # hack so there's a blank (base) namespace
 
         corp = sibpath(__file__, 'corp.n3')
         g.load(corp, format='n3')
@@ -77,6 +81,7 @@ class SparqlyTestCase(unittest.TestCase):
         peter = Employee(db=db, key=STAFF.e1230)
         self.assertEqual(peter.firstname, 'Peter')
         self.assertEqual(peter.lastname, 'GIBBONS')
+        self.assertEqual(peter.middlename, '"The Gib"')
 
         bill = peter.supervisor[0]
         self.assertEqual(bill.lastname, 'LUMBERGH')

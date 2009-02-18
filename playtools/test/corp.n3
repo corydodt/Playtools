@@ -11,6 +11,8 @@
     :lastname "Gibbons";
     :supervisor :e1001;
     a :StraightShooterWithUpperManagementWrittenAllOverHim ;
+    :nickname "\"The Gib\"";
+    # do _not_ give him a :middlename.  testing defaults.
 .
 
 :e1001 :firstname "Bill";
