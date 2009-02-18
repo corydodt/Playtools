@@ -19,7 +19,7 @@ setup(name='Playtools',
       install_requires=[
           'pysqlite>=2',
           'storm>=0.13',
-          'rdflib<3a',
+          'rdflib>=2.4.1',
           ],
 
       package_data={
