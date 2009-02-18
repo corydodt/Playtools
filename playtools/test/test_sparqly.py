@@ -91,7 +91,7 @@ class TriplesDbTestCase(unittest.TestCase):
         """
         Create an empty triples database
         """
-        self.db = sparqly.TriplesDatabase('http://foo#')
+        self.db = sparqly.TriplesDatabase()
         self.db.open(None, graphClass=IsomorphicTestableGraph)
 
     def test_query(self):
@@ -192,7 +192,7 @@ class TriplesDbTestCase(unittest.TestCase):
         self.failUnless((this, ANS.f, ANS.g) in trips)
 
     def test_open(self):
-        newdb = sparqly.TriplesDatabase('http://foo#')
+        newdb = sparqly.TriplesDatabase()
         q = lambda: list(newdb.query("SELECT ?a { ?a b:yb 2 }"))
         self.assertRaises(AssertionError, q)
         newdb.open(None)

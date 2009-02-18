@@ -58,7 +58,7 @@ class MockConverter(object):
 
     def __init__(self, mockSource):
         self.mockSource = mockSource
-        self.db = sparqly.TriplesDatabase(SAMPLE)
+        self.db = sparqly.TriplesDatabase()
         self.db.open(None)
 
     def label(self):

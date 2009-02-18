@@ -61,7 +61,7 @@ class SkillConverter(object):
         self.skillSource = skillSource
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': skillNs }
-        self.db = TriplesDatabase(base=skillNs)
+        self.db = TriplesDatabase()
         self.db.open(None)
 
     def __iter__(self):

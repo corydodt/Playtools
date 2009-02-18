@@ -307,9 +307,8 @@ def canBeLiteral(x):
 
 class TriplesDatabase(object):
     """A database from the defined triples"""
-    def __init__(self, base):
+    def __init__(self):
         self._open = False
-        self.base = base
 
     def open(self, filename, graphClass=None):
         """
