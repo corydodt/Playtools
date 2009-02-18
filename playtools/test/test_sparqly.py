@@ -82,6 +82,7 @@ class SparqlyTestCase(unittest.TestCase):
         self.assertEqual(peter.firstname, 'Peter')
         self.assertEqual(peter.lastname, 'GIBBONS')
         self.assertEqual(peter.middlename, '"The Gib"')
+        self.assertEqual(peter.label, u'E1230')
 
         bill = peter.supervisor[0]
         self.assertEqual(bill.lastname, 'LUMBERGH')

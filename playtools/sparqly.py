@@ -185,7 +185,8 @@ class SparqAttribute(object):
                 return None
 
             if isinstance(self.default, SparqAttribute):
-                return [default()]
+                df = default()
+                return [df]
 
             return [self.default]
         return data
@@ -279,7 +280,7 @@ class Key(LeafAttribute):
     def solve(self, db, key):
         if self.transform:
             key = self.transform(key)
-        return [key]
+        return key
 
 
 class SparqItem(object):
