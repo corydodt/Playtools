@@ -23,6 +23,9 @@ class Employee(sparqly.SparqItem):
     straightShooter = sparqly.Boolean(
             """ASK { $key a
             :StraightShooterWithUpperManagementWrittenAllOverHim . }""")
+    brokenStraightShooter = sparqly.Boolean(
+            """SELECT ?x { $key a 
+            :StraightShooterWithUpperManagementWrittenAllOverHim }""")
 
 Employee.middlename = sparqly.Literal("SELECT ?m { $key :middlename ?m}",
         default=Employee.nickname)
@@ -83,6 +86,8 @@ class SparqlyTestCase(unittest.TestCase):
         self.assertEqual(peter.lastname, 'GIBBONS')
         self.assertEqual(peter.middlename, '"The Gib"')
         self.assertEqual(peter.label, u'E1230')
+
+        self.assertRaises(sparqly.BooleanNeedsASKQueryError, getattr, peter, 'brokenStraightShooter')
 
         bill = peter.supervisor[0]
         self.assertEqual(bill.lastname, 'LUMBERGH')

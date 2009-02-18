@@ -130,6 +130,11 @@ def iriToTitle(iri):
 NODEFAULT = ()
 
 
+class BooleanNeedsASKQueryError(Exception):
+    def __str__(self):
+        return "If you use the Boolean type, you must use an ASK query"
+
+
 class SparqAttribute(object):
     """One attribute on a SparqItem, denoting type
     """
@@ -261,7 +266,14 @@ class Boolean(LeafAttribute):
         self.setTransform(self.booleanize)
 
     def booleanize(self, data):
-        return data[0]
+        try:
+            ret = data[0]
+            if bool(ret) != ret:
+                raise TypeError
+            return ret
+        except TypeError:
+            raise BooleanNeedsASKQueryError()
+
 
 
 class Literal(LeafAttribute):
