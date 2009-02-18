@@ -17,7 +17,11 @@ from playtools.common import this, RDFSNS, a
 
 class Employee(sparqly.SparqItem):
     firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
-    lastname = sparqly.Literal("SELECT ?l { $key :lastname ?l }")
+    lastname = sparqly.Literal("SELECT ?l { $key :lastname ?l }"
+            ).setTransform(lambda l: str(l).upper())
+    straightShooter = sparqly.Boolean(
+            """ASK { $key a
+            :StraightShooterWithUpperManagementWrittenAllOverHim . }""")
 
 Employee.supervisor = sparqly.Ref(Employee, "SELECT ?s { $key :supervisor $s }")
 
@@ -55,20 +59,31 @@ class SparqlyTestCase(unittest.TestCase):
 
     def test_sparqItem(self):
         """
-        >>> cg = rdflib.Graph()
-        >>> cg.load(...)
-        >>> 
-        >>> emp = Employee(db=cg, key=staff.e1230)
-        >>> print emp.firstname, emp.lastname
-        Peter GIBBONS
-        >>> # look, lastname is uppercased thanks to our setTransform. :)
-        >>> super = emp.supervisor
-        >>> print super.firstname, super.lastname
-        Bill LUMBERGH
+        verify the orm works
         """
-        assert 0
+        db = sparqly.TriplesDatabase()
+        db.graph = rdflib.ConjunctiveGraph()
+        db.graph.bind('', STAFF)
 
-    test_sparqItem.todo = "Look at the docstring"
+        # hack to pretend the database is on disk somewhere
+        db._open = True
+        g = rdflib.ConjunctiveGraph()
+        # hack so there's a blank (base) namespace
+
+        corp = sibpath(__file__, 'corp.n3')
+        g.load(corp, format='n3')
+        db.extendGraph(g)
+
+        peter = Employee(db=db, key=STAFF.e1230)
+        self.assertEqual(peter.firstname, 'Peter')
+        self.assertEqual(peter.lastname, 'GIBBONS')
+
+        bill = peter.supervisor[0]
+        self.assertEqual(bill.lastname, 'LUMBERGH')
+
+        self.assertEqual(peter.straightShooter, True)
+        self.assertEqual(bill.straightShooter, False)
+
 
 
 class TriplesDbTestCase(unittest.TestCase):

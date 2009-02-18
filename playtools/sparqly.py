@@ -149,13 +149,35 @@ class SparqAttribute(object):
         """Do my query against a db and return its result list.
         If no result list and default is set, return default.
         """
+        qres = self.submitQuery(db, key)
+        return self.processQueryResult(qres)
+
+    def submitQuery(self, db, key):
+        """
+        Do the query, return the raw result
+        """
         # rdflib.URIRef could be passed as key; handle that case
         if hasattr(key, 'n3'):
             key = key.n3()
 
         # FIXME - use initBindings here instead of this key stuff
         rest = self.selector.safe_substitute(key=key)
-        data = [r[0] for r in db.query(rest)]  ## TODO - support multiple variable queries? probably not
+        q = db.query(rest)
+        return q
+
+    def processQueryResult(self, qresult):
+        """
+        Extract the raw result into a list
+        """
+        if qresult.askAnswer:
+            return [qresult.askAnswer]
+
+        data = []
+        for r in qresult:
+            if r is None:
+                data.append(r)
+            else:
+                data.append(r[0]) ## TODO - support multiple variable queries? probably not
         if len(data) == 0:
             if self.default is NODEFAULT:
                 return None
@@ -223,6 +245,19 @@ class LeafAttribute(SparqAttribute):
         if self.transform is not None:
             return self.transform(data)
         return data
+
+
+class Boolean(LeafAttribute):
+    """
+    An attribute that returns as a Boolean.  If the query has any result, this
+    is true.  You must use it with an ASK query.
+    """
+    def __init__(self, *a, **kw):
+        LeafAttribute.__init__(self, *a, **kw)
+        self.setTransform(self.booleanize)
+
+    def booleanize(self, data):
+        return data[0]
 
 
 class Literal(LeafAttribute):
