@@ -31,7 +31,7 @@ function testPython()
     fi
 }
 
-testPython "RDFlib >= 2.4.1" 'from rdflib import __version__ as v; assert v>="2.4.1"'
+testPython "RDFlib == 2.4.1 (svn trunk -r1487 exactly)" 'from rdflib import __version__ as v; assert v>="2.4.1"'
 testPython "Storm" 'import storm.locals'
 testPython "pysqlite2" 'import pysqlite2'
 testPython "Python 2.5" 'import xml.etree'
