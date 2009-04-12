@@ -275,7 +275,6 @@ class Boolean(LeafAttribute):
             raise BooleanNeedsASKQueryError()
 
 
-
 class Literal(LeafAttribute):
     """An attribute that returns as a rdflib.Literal"""
 
