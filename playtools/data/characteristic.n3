@@ -13,6 +13,8 @@
     rdfs:comment "Aspect of a creature that does not fall into any other category.";
 .
 
+:Race rdfs:subClassOf :Characteristic .
+
 :Save rdfs:subClassOf :Characteristic .
 
 :fort a :Save; rdfs:label "Fortitude" .
@@ -59,16 +61,19 @@
 :Alignment rdfs:subClassOf :Characteristic .
 :AlignmentAtom rdfs:subClassOf :Characteristic .
 :AlignmentWhen rdfs:subClassOf :Characteristic .
+:AlignmentTrue rdfs:subClassOf :Characteristic;
+    rdfs:comment "A complete moral-ethic alignment, those available to PCs";
+.
 
-:lawfulGood a :Alignment .
-:neutralGood a :Alignment .
-:chaoticGood a :Alignment .
-:lawfulNeutral a :Alignment .
-:neutral a :Alignment, :AlignmentAtom .
-:chaoticNeutral a :Alignment .
-:lawfulEvil a :Alignment .
-:neutralEvil a :Alignment .
-:chaoticEvil a :Alignment .
+:lawfulGood a :Alignment, :AlignmentTrue .
+:neutralGood a :Alignment, :AlignmentTrue .
+:chaoticGood a :Alignment, :AlignmentTrue .
+:lawfulNeutral a :Alignment, :AlignmentTrue .
+:neutral a :Alignment, :AlignmentAtom, :AlignmentTrue .
+:chaoticNeutral a :Alignment, :AlignmentTrue .
+:lawfulEvil a :Alignment, :AlignmentTrue .
+:neutralEvil a :Alignment, :AlignmentTrue .
+:chaoticEvil a :Alignment, :AlignmentTrue .
 :lawful a :Alignment, :AlignmentAtom .
 :chaotic a :Alignment, :AlignmentAtom .
 :evil a :Alignment, :AlignmentAtom .

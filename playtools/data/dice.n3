@@ -3,6 +3,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 
+<> rdfs:comment "Definitions of dice and stat rolling methods".
+
 :Die a rdfs:Class.
 
 :d4 a :Die.
@@ -12,3 +14,102 @@
 :d12 a :Die.
 :d20 a :Die.
 :d100 a :Die.
+
+:RollMethod a rdfs:Class.
+:RandomRollMethod rdfs:subClassOf :RollMethod.
+:PointBuyRollMethod rdfs:subClassOf :RollMethod.
+
+:VersusRolls a rdfs:Class;
+    rdfs:comment """Applied to any other roll method, this gives you the choice
+of your own roll or the hidden "GM's roll" on each stat.""";
+    rdfs:label "versus";
+.
+:InOrderRolls a rdfs:Class;
+    rdfs:comment """Applied to any other roll method, this forces you to
+apply rolls to the stats in a fixed order, instead of assigning them in any
+order.""";
+    rdfs:comment "roll stats in order";
+.
+
+:rollExpression a rdfs:Property.
+
+:strict3d6 a :RandomRollMethod;
+    a :InOrderRolls;
+    rdfs:label "3d6 in order!  Strictest roll method.";
+    rdfs:comment """Each stat is the sum of 3d6.  They are determined in fixed
+order.""";
+    :rollExpression "3d6";
+.
+
+:roll4d6h3 a :RandomRollMethod.
+    :rollExpression "4d6h3";
+    rdfs:label "4d6, drop lowest, any order";
+    rdfs:comment "Sum of 4d6, dropping the lowest die.  Assign stats in any order.";
+.
+
+:roll5d6h3 a :RandomRollMethod.
+    :rollExpression "5d6h3";
+    rdfs:label "5d6, drop two lowest, any order";
+    rdfs:comment "Sum of 5d6, dropping the two lowest dice.  Assign stats in any order.";
+.
+
+:roll4d6h3vs a :RandomRollMethod;
+    :rollExpression "4d6h3";
+    a :InOrderRolls;
+    a :VersusRolls;
+    rdfs:label "4d6, drop lowest, in order, choice of versus roll";
+    rdfs:comment """Roll 4d6 and take the sum of the highest 3 dice.  Another
+secret roll will be made at the same time.  You get a choice of your roll
+or the unknown roll.  Stats will be assigned in order.""";
+.
+
+:roll5d6h3vs a :RandomRollMethod;
+    :rollExpression "5d6h3";
+    a :InOrderRolls;
+    a :VersusRolls;
+    rdfs:label "5d6, drop two lowest, in order, choice of versus roll";
+    rdfs:comment """Roll 5d6 and take the sum of the highest 3 dice.  Another
+secret roll will be made at the same time.  You get a choice of your roll
+or the unknown roll.  Stats will be assigned in order.""";
+.
+
+:roll4d6h3order a :RandomRollMethod.
+    a :InOrderRolls;
+    :rollExpression "4d6h3";
+    rdfs:label "4d6, drop lowest, in order";
+    rdfs:comment """Sum of 4d6, dropping the lowest die.  Stats will be
+assigned in order.""";
+.
+
+:roll5d6h3order a :RandomRollMethod.
+    a :InOrderRolls;
+    :rollExpression "5d6h3";
+    rdfs:label "5d6, drop two lowest, in order";
+    rdfs:comment """Sum of 5d6, dropping the two lowest dice.  Stats will be
+assigned in order.""";
+.
+
+:pointBuy25 a :PointBuyRollMethod.
+    :rollExpression "25";
+    rdfs:label "Buy stats according to a formula (25 pts)";
+    rdfs:comment """Stats start at 8.  You have 25 points to spend to raise
+them up.  Values of 9-14 cost 1 point each, 15-16 costs 2 points each, 17-18
+costs 3 points each."""; 
+.
+
+:pointBuy28 a :PointBuyRollMethod.
+    :rollExpression "28";
+    rdfs:label "Buy stats according to a formula (28 pts)";
+    rdfs:comment """Stats start at 8.  You have 28 points to spend to raise
+them up.  Values of 9-14 cost 1 point each, 15-16 costs 2 points each, 17-18
+costs 3 points each."""; 
+.
+
+:pointBuy32 a :PointBuyRollMethod.
+    :rollExpression "32";
+    rdfs:label "Buy stats according to a formula (32 pts)";
+    rdfs:comment """Stats start at 8.  You have 32 points to spend to raise
+them up.  Values of 9-14 cost 1 point each, 15-16 costs 2 points each, 17-18
+costs 3 points each."""; 
+.
+
