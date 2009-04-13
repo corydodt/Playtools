@@ -110,7 +110,9 @@ from rdflib import URIRef, BNode
 from rdflib.Graph import ConjunctiveGraph as Graph
 from rdflib.Literal import Literal as RDFLiteral
 
-from playtools.common import RDFSNS, NS
+from rdfalchemy.descriptors import rdfAbstract, value2object
+
+from playtools.common import RDFSNS, NS, a as RDF_a
 from playtools.util import filenameAsUri, RESOURCE
 
 
@@ -486,7 +488,6 @@ class TriplesDatabase(object):
         self.graph.commit()
 
 
-
 def randomPublicID():
     """
     Return a new, random publicID
@@ -505,7 +506,16 @@ def sqliteBackedGraph(path, filename):
     # Get the sqlite plugin. You may have to install the python sqlite libraries
     store = plugin.get('SQLite', Store)(filename)
 
-    rt = store.open(path, create=False)
+    # fuck.  redirect stderr to eliminate that stupid table missing error
+    # print
+    try:
+        import sys
+        orig_stderr = sys.stderr
+        sys.stderr = StringIO()
+        rt = store.open(path, create=False)
+    finally:
+        sys.stderr  = orig_stderr
+
     if rt != VALID_STORE:
         try:
             # There is no underlying sqlite infrastructure, create it
@@ -519,3 +529,40 @@ def sqliteBackedGraph(path, filename):
     return Graph(store)
 
 
+class rdfIsInstance(rdfAbstract):
+    """
+    An rdfalchemy descriptor that makes a boolean out of Bar in this
+    construction:
+
+        :Bar a rdfs:Class .
+        :foo a :Bar.
+
+    Does *not* check for is-a semantics at this point - just exact boolean
+    match on that class.
+    """
+    def __init__(self, classToCheck):
+        self.klass = classToCheck 
+ 
+    def __get__(self, obj, cls):
+        if obj is None:
+            return self
+        if self.klass in obj.__dict__:
+            return obj.__dict__[self.klass]
+        qText = "ASK { %s a %s . }" % (obj.n3(), self.klass.n3())
+        q = obj.db.query(qText)
+        ret = list(q.askAnswer)[0]
+        obj.__dict__[self.klass] = ret
+        return ret
+ 
+    def __set__(self, obj, true_false):
+        """
+        Create the triple for obj
+        """
+        obj.__dict__[self.klass] = true_false
+        obj.db.set((obj.resUri, self.klass, true_false))
+
+    def __delete__(self, obj):
+        if obj.__dict__.has_key(self.klass):
+            del obj.__dict__[self.klass]
+        for s,p,o in obj.db.triples((obj.resUri, RDF_a, self.klass)):
+            obj.db.remove((s,p,o))

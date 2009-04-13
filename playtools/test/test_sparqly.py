@@ -15,7 +15,18 @@ from playtools import sparqly, util
 from playtools.test.pttestutil import IsomorphicTestableGraph
 from playtools.common import this, RDFSNS, a
 
+from rdfalchemy import rdfSubject, rdfSingle
+
+STAFF = Namespace('http://corp.com/staff#')
+ANS = Namespace('http://a#')
+BNS = Namespace('http://b#')
+
+TESTING_NAMESPACES = {'a': ANS, 'b': BNS }
+
 class Employee(sparqly.SparqItem):
+    """
+    Employee, using the sparqly ORM
+    """
     firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
     nickname = sparqly.Literal("SELECT ?n { $key :nickname ?n }")
     lastname = sparqly.Literal("SELECT ?l { $key :lastname ?l }"
@@ -32,11 +43,41 @@ Employee.middlename = sparqly.Literal("SELECT ?m { $key :middlename ?m}",
 
 Employee.supervisor = sparqly.Ref(Employee, "SELECT ?s { $key :supervisor $s }")
 
-STAFF = Namespace('http://corp.com/staff#')
-ANS = Namespace('http://a#')
-BNS = Namespace('http://b#')
 
-TESTING_NAMESPACES = {'a': ANS, 'b': BNS }
+class Employee2(rdfSubject):
+    """
+    Employee, using the rdfalchemy ORM
+    """
+    rdf_type = STAFF.Employee
+    firstname = rdfSingle(STAFF.firstname)
+    lastname = rdfSingle(STAFF.lastname)
+    straightShooter = sparqly.rdfIsInstance(
+            STAFF.StraightShooterWithUpperManagementWrittenAllOverHim)
+    peoplePerson = sparqly.rdfIsInstance( STAFF.PeoplePerson)
+    nickname = rdfSingle(STAFF.nickname)
+
+
+class TestableDatabase(sparqly.TriplesDatabase):
+    """
+    Imitate a sparqly TriplesDatabase by pretending we 
+    have a disk file etc.
+    """
+    def __init__(self):
+        sparqly.TriplesDatabase.__init__(self)
+        self.graph = rdflib.ConjunctiveGraph()
+        # hack so there's a blank (base) namespace
+        self.graph.bind('', STAFF)
+
+        # hack to pretend the database is on disk somewhere
+        self._open = True
+
+    def extendFromFilename(self, filename):
+        """
+        Read a file with N3 triples and extend me with it
+        """
+        g = rdflib.ConjunctiveGraph()
+        g.load(filename, format='n3')
+        self.extendGraph(g)
 
 
 class SparqlyTestCase(unittest.TestCase):
@@ -68,18 +109,8 @@ class SparqlyTestCase(unittest.TestCase):
         """
         verify the orm works
         """
-        db = sparqly.TriplesDatabase()
-        db.graph = rdflib.ConjunctiveGraph()
-        # hack so there's a blank (base) namespace
-        db.graph.bind('', STAFF)
-
-        # hack to pretend the database is on disk somewhere
-        db._open = True
-        g = rdflib.ConjunctiveGraph()
-
-        corp = sibpath(__file__, 'corp.n3')
-        g.load(corp, format='n3')
-        db.extendGraph(g)
+        db = TestableDatabase()
+        db.extendFromFilename(sibpath(__file__, 'corp.n3'))
 
         peter = Employee(db=db, key=STAFF.e1230)
         self.assertEqual(peter.firstname, 'Peter')
@@ -95,6 +126,60 @@ class SparqlyTestCase(unittest.TestCase):
         self.assertEqual(peter.straightShooter, True)
         self.assertEqual(bill.straightShooter, False)
 
+
+class RDFAlchemyDescriptorTestCase(unittest.TestCase):
+    """
+    Tests of the rdfIsInstance descriptor
+    """
+    def test_basicSchemaCreate(self):
+        """
+        We can use an in-memory store
+        """
+        michael = Employee2()
+        michael.firstname = "Michael"
+        michael.lastname = "Bolton"
+        self.assertEqual(michael.lastname, "Bolton")
+
+    def test_basicSchemaAccess(self):
+        """
+        We can access the data through the sqlalchemy ORM
+        """
+        db = TestableDatabase()
+        db.extendFromFilename(sibpath(__file__, 'corp.n3'))
+        rdfSubject.db = db.graph
+
+        peter = Employee2.get_by(lastname='Gibbons')
+        self.assertEqual(peter.firstname, 'Peter')
+        self.assertEqual(peter.nickname, '"The Gib"')
+        peter.nickname = "Gibster"
+        self.assertEqual(peter.nickname, 'Gibster')
+
+    def test_readUpdateDescriptor(self):
+        """
+        Access a rdfIsInstance descriptor that was already specified in n3
+        """
+        peter = Employee2.get_by(lastname='Gibbons')
+        self.assertTrue(peter.straightShooter, "Peter should be a straight shooter")
+        peter.straightShooter = False
+        self.failIf(peter.straightShooter, "Peter should no longer be a straight shooter")
+
+    def test_createDescriptor(self):
+        """
+        Create a rdfIsInstance descriptor
+        """
+        peter = Employee2.get_by(lastname='Gibbons')
+        self.assertEqual(peter.peoplePerson, False, "peter.peoplePerson should be False")
+        peter.peoplePerson = True
+        self.assertTrue(peter.peoplePerson, "Peter should now be a people person")
+
+    def test_deleteDescriptor(self):
+        """
+        Delete a rdfIsInstance descriptor
+        """
+        bill = Employee2.get_by(lastname='Lumbergh')
+        self.assertTrue(bill.peoplePerson, "bill should be a people person")
+        del bill.peoplePerson
+        self.failIf(bill.peoplePerson, "bill.peoplePerson should have been deleted")
 
 
 class TriplesDbTestCase(unittest.TestCase):
