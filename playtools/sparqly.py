@@ -504,15 +504,8 @@ def sqliteBackedGraph(path, filename):
     # Get the sqlite plugin. You may have to install the python sqlite libraries
     store = plugin.get('SQLite', Store)(filename)
 
-    # fuck.  redirect stderr to eliminate that stupid table missing error
-    # print
-    try:
-        import sys
-        orig_stderr = sys.stderr
-        sys.stderr = StringIO()
-        rt = store.open(path, create=False)
-    finally:
-        sys.stderr  = orig_stderr
+    import sys
+    rt = store.open(path, create=False)
 
     if rt != VALID_STORE:
         try:
