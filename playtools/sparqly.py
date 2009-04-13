@@ -540,6 +540,8 @@ class rdfIsInstance(rdfAbstract):
     Does *not* check for is-a semantics at this point - just exact boolean
     match on that class.
     """
+    range_type = None
+
     def __init__(self, classToCheck):
         self.klass = classToCheck 
  

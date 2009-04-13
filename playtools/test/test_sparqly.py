@@ -15,7 +15,8 @@ from playtools import sparqly, util
 from playtools.test.pttestutil import IsomorphicTestableGraph
 from playtools.common import this, RDFSNS, a
 
-from rdfalchemy import rdfSubject, rdfSingle
+from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
+from rdfalchemy.orm import mapper
 
 STAFF = Namespace('http://corp.com/staff#')
 ANS = Namespace('http://a#')
@@ -23,39 +24,20 @@ BNS = Namespace('http://b#')
 
 TESTING_NAMESPACES = {'a': ANS, 'b': BNS }
 
-class Employee(sparqly.SparqItem):
-    """
-    Employee, using the sparqly ORM
-    """
-    firstname = sparqly.Literal("SELECT ?f { $key :firstname ?f }")
-    nickname = sparqly.Literal("SELECT ?n { $key :nickname ?n }")
-    lastname = sparqly.Literal("SELECT ?l { $key :lastname ?l }"
-            ).setTransform(lambda l: str(l).upper())
-    straightShooter = sparqly.Boolean(
-            """ASK { $key a
-            :StraightShooterWithUpperManagementWrittenAllOverHim . }""")
-    brokenStraightShooter = sparqly.Boolean(
-            """SELECT ?x { $key a 
-            :StraightShooterWithUpperManagementWrittenAllOverHim }""")
-
-Employee.middlename = sparqly.Literal("SELECT ?m { $key :middlename ?m}",
-        default=Employee.nickname)
-
-Employee.supervisor = sparqly.Ref(Employee, "SELECT ?s { $key :supervisor $s }")
-
-
-class Employee2(rdfSubject):
+class Employee(rdfSubject):
     """
     Employee, using the rdfalchemy ORM
     """
     rdf_type = STAFF.Employee
     firstname = rdfSingle(STAFF.firstname)
     lastname = rdfSingle(STAFF.lastname)
+    middlename = rdfSingle(STAFF.nickname)
     straightShooter = sparqly.rdfIsInstance(
             STAFF.StraightShooterWithUpperManagementWrittenAllOverHim)
     peoplePerson = sparqly.rdfIsInstance( STAFF.PeoplePerson)
-    nickname = rdfSingle(STAFF.nickname)
+    supervisor = rdfMultiple(STAFF.supervisor, range_type=STAFF.Employee)
 
+mapper()
 
 class TestableDatabase(sparqly.TriplesDatabase):
     """
@@ -105,26 +87,7 @@ class SparqlyTestCase(unittest.TestCase):
         self.assertEqual(title4, 'Foozam')
         self.assertEqual(title5, 'Foozam Zam')
 
-    def test_sparqItem(self):
-        """
-        verify the orm works
-        """
-        db = TestableDatabase()
-        db.extendFromFilename(sibpath(__file__, 'corp.n3'))
 
-        peter = Employee(db=db, key=STAFF.e1230)
-        self.assertEqual(peter.firstname, 'Peter')
-        self.assertEqual(peter.lastname, 'GIBBONS')
-        self.assertEqual(peter.middlename, '"The Gib"')
-        self.assertEqual(peter.label, u'E1230')
-
-        self.assertRaises(sparqly.BooleanNeedsASKQueryError, getattr, peter, 'brokenStraightShooter')
-
-        bill = peter.supervisor[0]
-        self.assertEqual(bill.lastname, 'LUMBERGH')
-
-        self.assertEqual(peter.straightShooter, True)
-        self.assertEqual(bill.straightShooter, False)
 
 
 class RDFAlchemyDescriptorTestCase(unittest.TestCase):
@@ -135,7 +98,7 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         """
         We can use an in-memory store
         """
-        michael = Employee2()
+        michael = Employee()
         michael.firstname = "Michael"
         michael.lastname = "Bolton"
         self.assertEqual(michael.lastname, "Bolton")
@@ -148,17 +111,22 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         db.extendFromFilename(sibpath(__file__, 'corp.n3'))
         rdfSubject.db = db.graph
 
-        peter = Employee2.get_by(lastname='Gibbons')
+        peter = Employee.get_by(lastname='Gibbons')
         self.assertEqual(peter.firstname, 'Peter')
-        self.assertEqual(peter.nickname, '"The Gib"')
-        peter.nickname = "Gibster"
-        self.assertEqual(peter.nickname, 'Gibster')
+        self.assertEqual(peter.lastname, 'Gibbons')
+        self.assertEqual(peter.middlename, '"The Gib"')
+        self.assertEqual(sparqly.iriToTitle(peter.resUri), u'E1230')
+        peter.middlename = "Gibster"
+        self.assertEqual(peter.middlename, 'Gibster')
+
+        bill = peter.supervisor[0]
+        self.assertEqual(bill.lastname, 'Lumbergh')
 
     def test_readUpdateDescriptor(self):
         """
         Access a rdfIsInstance descriptor that was already specified in n3
         """
-        peter = Employee2.get_by(lastname='Gibbons')
+        peter = Employee.get_by(lastname='Gibbons')
         self.assertTrue(peter.straightShooter, "Peter should be a straight shooter")
         peter.straightShooter = False
         self.failIf(peter.straightShooter, "Peter should no longer be a straight shooter")
@@ -167,7 +135,7 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         """
         Create a rdfIsInstance descriptor
         """
-        peter = Employee2.get_by(lastname='Gibbons')
+        peter = Employee.get_by(lastname='Gibbons')
         self.assertEqual(peter.peoplePerson, False, "peter.peoplePerson should be False")
         peter.peoplePerson = True
         self.assertTrue(peter.peoplePerson, "Peter should now be a people person")
@@ -176,14 +144,13 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         """
         Delete a rdfIsInstance descriptor
         """
-        bill = Employee2.get_by(lastname='Lumbergh')
+        bill = Employee.get_by(lastname='Lumbergh')
         self.assertTrue(bill.peoplePerson, "bill should be a people person")
         del bill.peoplePerson
         self.failIf(bill.peoplePerson, "bill.peoplePerson should have been deleted")
 
 
 class TriplesDbTestCase(unittest.TestCase):
-
     def fill(self, graph):
         """
         Add some triples to a graph (without using addTriple)
