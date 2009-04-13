@@ -156,7 +156,11 @@
     rdfs:comment "Immunity to any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless).";
 .
 
+:Immunity rdfs:subClassOf :Characteristic .
 
+:Vulnerability rdfs:subClassOf :Characteristic .
+
+:Resistance rdfs:subClassOf :Characteristic .
 
 :Language rdfs:subClassOf :Characteristic .
 
@@ -406,6 +410,9 @@
 .
 :SubSkill rdfs:subClassOf :Characteristic .
 :Skill rdfs:subClassOf :Characteristic .
+
+:SkillSynergy rdfs:subClassOf :Characteristic .
+
 :Feat rdfs:subClassOf :Characteristic .
 :FeatType rdfs:subClassOf :Characteristic .
 :PsionicFeat a :FeatType;
