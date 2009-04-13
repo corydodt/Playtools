@@ -110,10 +110,9 @@ from rdflib import URIRef, BNode
 from rdflib.Graph import ConjunctiveGraph as Graph
 from rdflib.Literal import Literal as RDFLiteral
 
-from rdfalchemy.descriptors import rdfAbstract, value2object
+from rdfalchemy.descriptors import rdfAbstract
 
-from playtools.common import RDFSNS, NS, a as RDF_a
-from playtools.util import filenameAsUri, RESOURCE
+from playtools.common import RDFSNS, a as RDF_a
 
 
 def select(base, rest):
@@ -368,7 +367,6 @@ class TriplesDatabase(object):
         """
         if filename is None:
             if graphClass is None:
-                from rdflib.Graph import Graph
                 self.graph = Graph()
             else:
                 self.graph = graphClass()
@@ -501,7 +499,7 @@ def sqliteBackedGraph(path, filename):
     """
     from pysqlite2.dbapi2 import OperationalError
     from rdflib import plugin
-    from rdflib.store import Store, NO_STORE, VALID_STORE
+    from rdflib.store import Store, VALID_STORE
 
     # Get the sqlite plugin. You may have to install the python sqlite libraries
     store = plugin.get('SQLite', Store)(filename)
