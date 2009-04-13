@@ -36,7 +36,7 @@ class UtilTestCase(unittest.TestCase):
         prefixes = dict(g.namespaces())
         res = g.query("BASE <http://corp.com/staff#> SELECT ?x ?y ?z { ?x ?y ?z } ORDER BY ?x ?y")
         l = list(res)
-        rx1 = r':PeoplePerson'
+        rx1 = r':Employee'
         rx2 = r'{_:[a-zA-Z0-9]+}'
         x1 = util.prefixen(prefixes, l[2][0], )
         x2 = util.prefixen(prefixes, l[-1][0], )
