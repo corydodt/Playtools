@@ -541,9 +541,7 @@ class rdfIsInstance(rdfAbstract):
             return self
         if self.klass in obj.__dict__:
             return obj.__dict__[self.klass]
-        qText = "ASK { %s a %s . }" % (obj.n3(), self.klass.n3())
-        q = obj.db.query(qText)
-        ret = list(q.askAnswer)[0]
+        ret = list(obj.db.triples((obj.resUri, RDF_a, self.klass))) and True or False 
         obj.__dict__[self.klass] = ret
         return ret
  

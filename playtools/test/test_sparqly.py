@@ -88,8 +88,6 @@ class SparqlyTestCase(unittest.TestCase):
         self.assertEqual(title5, 'Foozam Zam')
 
 
-
-
 class RDFAlchemyDescriptorTestCase(unittest.TestCase):
     """
     Tests of the rdfIsInstance descriptor
