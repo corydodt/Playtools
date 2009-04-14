@@ -52,12 +52,13 @@
     p:sense c:lowLightVision, :standardDarkvision;
     p:immunity c:mindAffecting, c:poison, c:sleep, c:paralysis, c:stunning, 
                 c:disease, c:deathEffects, c:necromancy;
-    p:miscTrait c:noAbilityDamage, c:noAbilityDrain, c:noEnergyDrain, 
+    p:combatMechanic c:noAbilityDamage, c:noAbilityDrain, c:noEnergyDrain, 
             c:noNonLethalDamage, c:noCriticalHits, c:noTiring, 
-            c:noDeathFromMassiveDamage, c:destroyedAtZero, c:soulless;
+            c:noDeathFromMassiveDamage, c:destroyedAtZero;
+    p:specialQuality c:soulless;
     p:proficiency c:naturalWeapons, c:armorNone, c:weaponsAsDescribed;
     p:vitality c:noEat, c:noSleep, c:noBreathe;
-    p:miscTrait c:fortitudeImmunity;
+    p:specialAbility c:fortitudeImmunity;
     p:additional 
         "Cannot heal damage on their own, but often can be repaired by exposing them to a certain kind of effect (see the creature’s description for details) or through the use of the Craft Construct feat. A construct with the fast healing special quality still benefits from that quality.", 
         "Because its body is a mass of unliving matter, a construct is hard to destroy. It gains bonus hit points based on size, as shown on the table. [table]"
@@ -87,7 +88,8 @@
     p:skillPoints "(int+2)*hitDiceType";
     p:sense :standardDarkvision;
     p:immunity c:poison, c:sleep, c:paralysis, c:stunning;
-    p:miscTrait c:noCriticalHits, c:noFlanking, c:quasiSoulless;
+    p:combatMechanic c:noCriticalHits, c:noFlanking;
+    p:specialQuality c:quasiSoulless;
     p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
     p:vitality c:noEat, c:noSleep, c:noBreathe;
 .
@@ -169,7 +171,7 @@
     p:abilityConstraint [ p:ability c:int; p:maximum 0 ];
     p:immunity c:poison, c:sleep, c:paralysis, c:polymorph, c:stunning, 
             c:mindAffecting;
-    p:miscTrait c:noCriticalHits, c:noFlanking;
+    p:combatMechanic c:noCriticalHits, c:noFlanking;
     p:proficiency c:naturalWeapons, c:armorNone;
     p:vitality c:noSleep;
     p:additional 
@@ -184,7 +186,7 @@
     p:goodSaves c:fort, c:ref, c:will;
     p:skillPoints "(int+8)*hitDiceType";
     p:sense :standardDarkvision;
-    p:miscTrait c:quasiSoulless;
+    p:specialQuality c:quasiSoulless;
     p:proficiency c:simpleWeapons, c:martialWeapons, c:weaponsAsDescribed, 
             c:armorAsDescribed;
     p:vitality c:noEat, c:noSleep;
@@ -194,7 +196,7 @@
     { 
       { ?m p:vitality c:noEat } a log:Falsehood .
       { ?m p:vitality c:noSleep } a log:Falsehood .
-      { ?m p:miscTrait c:quasiSoulless } a log:Falsehood .
+      { ?m p:specialQuality c:quasiSoulless } a log:Falsehood .
     }; 
     rdfs:label "outsiders on their native planes are different.";
 .
@@ -209,7 +211,7 @@
     p:sense c:lowLightVision;
     p:immunity c:mindAffecting, c:poison, c:sleep, c:paralysis, c:polymorph, 
             c:stunning;
-    p:miscTrait c:noCriticalHits;
+    p:combatMechanic c:noCriticalHits;
     p:proficiency c:naturalWeapons, c:armorNone;
     p:vitality c:noSleep;
 .
@@ -224,17 +226,19 @@
     p:sense :standardDarkvision;
     p:immunity c:mindAffecting, c:poison, c:sleep, c:paralysis, c:stunning, 
             c:disease, c:deathEffects;
-    p:miscTrait c:noCriticalHits, c:noNonLethalDamage, c:noAbilityDrain, 
+    p:combatMechanic c:noCriticalHits, c:noNonLethalDamage, c:noAbilityDrain, 
             c:noAbilityDamage, c:noEnergyDrain, c:noTiring, 
-            c:noDeathFromMassiveDamage, c:destroyedAtZero, c:soulless, 
-            c:fortitudeImmunity, c:negativeEnergyHealing;
+            c:noDeathFromMassiveDamage, c:destroyedAtZero,
+            c:negativeEnergyHealing;
+    p:specialAbility c:fortitudeImmunity;
+    p:specialQuality c:soulless;
     p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:simpleWeapons, 
             c:armorAsDescribed;
     p:vitality c:noBreathe, c:noEat, c:noSleep;
 .
 # TODO - requires reasoning
 { ?m p:family :undead . ?m c:int 0 } 
-    => { ?m p:miscTrait c:cannotHealNaturally };
+    => { ?m p:combatMechanic c:cannotHealNaturally };
     rdfs:label "Undead with no intelligence score cannot heal on their own.";
 .
   
@@ -261,17 +265,16 @@
     a c:Family;
     p:sense :standardDarkvision;
     p:immunity c:acid, c:cold, c:petrification;
-    p:resistance [ p:attackEffect c:electricity; rdf:value 10 ],
+    p:resistance [ p:attackEffect c:electricity; rdf:value 10 ], 
                  [ p:attackEffect c:fire; rdf:value 10 ];
     p:saveBonuses [ c:poison +4 ];
-    p:miscTrait c:protectiveAura;
-    p:miscTrait c:tongues;
+    p:specialAbility c:protectiveAura, c:tongues;
 .
 
 :aquatic
     a c:Family;
-    p:miscTrait c:swim;
-    p:miscTrait c:breatheUnderwater;
+    p:movement c:swim;
+    p:specialAbility c:breatheUnderwater;
     p:vitality c:mustBreatheWater;
 .
 
@@ -286,10 +289,9 @@
 :archon
     a c:Family;
     p:sense :standardDarkvision;
-    p:miscTrait c:auraOfMenace;
     p:immunity c:electricity, c:petrification;
     p:saveBonuses [ c:poison +4 ];
-    p:miscTrait c:magicCircleAgainstEvil, c:teleport, c:tongues;
+    p:specialAbility c:auraOfMenace, c:magicCircleAgainstEvil, c:teleport, c:tongues;
 .
 
 :augmented a c:Family;
@@ -313,7 +315,7 @@
     p:resistance [ p:attackEffect c:acid; rdf:value 10 ],
                  [ p:attackEffect c:cold; rdf:value 10 ], 
                  [ p:attackEffect c:fire; rdf:value 10 ];
-    p:miscTrait c:summon, c:telepathy;
+    p:specialAbility c:summon, c:telepathy;
     p:language s:abyssal, s:celestial, s:draconic;
 .
 
@@ -323,7 +325,7 @@
     p:resistance [ p:attackEffect c:acid; rdf:value 10 ], 
                  [ p:attackEffect c:cold; rdf:value 10 ];
     p:sense c:seeInDarkness;
-    p:miscTrait c:summon, c:telepathy;
+    p:specialAbility c:summon, c:telepathy;
     p:language s:infernal, s:celestial, s:draconic;
 .
 
@@ -361,8 +363,8 @@
     p:immunity c:nonMagical;
     p:abilityConstraint [ p:ability c:str; p:maximum 0 ];
     p:sense c:incorporealSenses;
-    p:miscTrait c:weaponFinesseAlways, c:incorporealDefense, c:charismaDeflection, 
-            c:incorporealMovement;
+    p:movement c:incorporealMovement;
+    p:combatMechanic c:weaponFinesseAlways, c:incorporealDefense, c:charismaDeflection;
     p:additional 
         "Although it is not a magical attack, holy water can affect incorporeal undead, but a hit with holy water has a 50% chance of not affecting an incorporeal creature.",
         "It cannot take any physical action that would move or manipulate an opponent or its equipment, nor is it subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight."
@@ -385,9 +387,10 @@
 
 :swarm
     a c:Family;
-    p:miscTrait c:noCriticalHits, c:noFlanking, c:destroyedAtZero, c:noTrip, 
+    p:vulnerability c:areaEffect;
+    p:combatMechanic c:noCriticalHits, c:noFlanking, c:destroyedAtZero, c:noTrip, 
             c:noGrapple, c:noBullRush, c:diffuseTarget, c:cannotGrapple,
-            c:cannotMakeAttackOfOpportunity, c:areaEffect, c:distraction;
+            c:cannotMakeAttackOfOpportunity, c:distraction;
     p:additional "Swarms made up of Diminutive or Fine creatures are susceptible to high winds such as that created by a gust of wind spell. For purposes of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.";
 .
 # TODO - requires reasoning.
@@ -396,17 +399,17 @@
                          [ p:attackEffect c:slashing; rdf:value "50%" ] };
     rdfs:label "A swarm of tiny creatures takes half damage from piercing and slashing.";
 .
-{ ?m p:family :swarm; p:size c:diminutive } => { ?m p:miscTrait c:noWeaponDamage };
+{ ?m p:family :swarm; p:size c:diminutive } => { ?m p:combatMechanic c:noWeaponDamage };
     rdfs:label "A swarm composed of Diminutive creatures is immune to all weapon damage.";
 .
-{ ?m p:family :swarm; p:size c:fine } =>  { ?m p:miscTrait c:noWeaponDamage };
+{ ?m p:family :swarm; p:size c:fine } =>  { ?m p:combatMechanic c:noWeaponDamage };
     rdfs:label "A swarm composed of Fine creatures is immune to all weapon damage.";
 .
 
 :water
     a c:Family;
     p:movement c:swim;
-    p:miscTrait c:breatheUnderwater;
+    p:specialAbility c:breatheUnderwater;
 .
 
 
