@@ -168,11 +168,11 @@
     rdfs:comment "An ability this creature can choose to use that has in-game effects";
 .
 
-:specialQuality a rdfs:Property .
+:specialQuality a rdfs:Property ;
     rdfs:comment "An always-on attribute possessed by this creature that has in-game effects";
 .
 
-:combatMechanic a rdfs:Property .
+:combatMechanic a rdfs:Property ;
     rdfs:comment "A rule that affects attack and defense of this creature in combat";
 .
 
