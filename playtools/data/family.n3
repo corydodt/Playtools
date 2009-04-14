@@ -261,7 +261,8 @@
     a c:Family;
     p:sense :standardDarkvision;
     p:immunity c:acid, c:cold, c:petrification;
-    p:resistance [ c:electricity 10 ], [ c:fire 10 ];
+    p:resistance [ p:attackEffect c:electricity; rdf:value 10 ],
+                 [ p:attackEffect c:fire; rdf:value 10 ];
     p:saveBonuses [ c:poison +4 ];
     p:miscTrait c:protectiveAura;
     p:miscTrait c:tongues;
@@ -309,7 +310,9 @@
 :demon
     a c:Family;
     p:immunity c:electricity, c:poison;
-    p:resistance [ c:acid 10 ], [ c:cold 10 ], [ c:fire 10 ];
+    p:resistance [ p:attackEffect c:acid; rdf:value 10 ],
+                 [ p:attackEffect c:cold; rdf:value 10 ], 
+                 [ p:attackEffect c:fire; rdf:value 10 ];
     p:miscTrait c:summon, c:telepathy;
     p:language s:abyssal, s:celestial, s:draconic;
 .
@@ -317,7 +320,8 @@
 :devil
     a c:Family;
     p:immunity c:fire, c:poison;
-    p:resistance [ c:acid 10 ], [ c:cold 10 ];
+    p:resistance [ p:attackEffect c:acid; rdf:value 10 ], 
+                 [ p:attackEffect c:cold; rdf:value 10 ];
     p:sense c:seeInDarkness;
     p:miscTrait c:summon, c:telepathy;
     p:language s:infernal, s:celestial, s:draconic;
@@ -388,7 +392,8 @@
 .
 # TODO - requires reasoning.
 { ?m p:family :swarm; p:size c:tiny } 
-    => { ?m p:resistance [ c:piercing "50%" ], [ c:slashing "50%" ] };
+    => { ?m p:resistance [ p:attackEffect c:piercing; rdf:value "50%" ], 
+                         [ p:attackEffect c:slashing; rdf:value "50%" ] };
     rdfs:label "A swarm of tiny creatures takes half damage from piercing and slashing.";
 .
 { ?m p:family :swarm; p:size c:diminutive } => { ?m p:miscTrait c:noWeaponDamage };
