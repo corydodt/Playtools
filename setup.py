@@ -20,7 +20,7 @@ setup(name='Playtools',
           'pysqlite>=2',
           'storm>=0.13',
           'rdflib==2.4.1',
-          'rdfalchemy>0.2b2', # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'rdfalchemy>=0.2b2', # FIXME - svn post 0.2b2 added rdfsSubject which is needed
           ],
 
       package_data={
