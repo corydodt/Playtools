@@ -9,6 +9,8 @@
 :StraightShooterWithUpperManagementWrittenAllOverHim a rdfs:Class .
 
 :e1230 :firstname "Peter";
+    rdfs:label "Protagonist of Office Space, Peter Gibbons";
+    rdfs:comment "I stole something else.";
     :lastname "Gibbons";
     :supervisor :e1001;
     a :Employee;

@@ -15,7 +15,7 @@ from playtools import sparqly, util
 from playtools.test.pttestutil import IsomorphicTestableGraph
 from playtools.common import this, RDFSNS, a
 
-from rdfalchemy import rdfSubject, rdfSingle, rdfMultiple
+from rdfalchemy import rdfSingle, rdfMultiple
 from rdfalchemy.orm import mapper
 
 STAFF = Namespace('http://corp.com/staff#')
@@ -24,7 +24,7 @@ BNS = Namespace('http://b#')
 
 TESTING_NAMESPACES = {'a': ANS, 'b': BNS }
 
-class Employee(rdfSubject):
+class Employee(sparqly.rdfsPTClass):
     """
     Employee, using the rdfalchemy ORM
     """
@@ -92,6 +92,11 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
     """
     Tests of the rdfIsInstance descriptor
     """
+    def setUp(self):
+        db = TestableDatabase()
+        db.extendFromFilename(sibpath(__file__, 'corp.n3'))
+        sparqly.rdfsPTClass.db = db.graph
+
     def test_basicSchemaCreate(self):
         """
         We can use an in-memory store
@@ -105,10 +110,6 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         """
         We can access the data through the sqlalchemy ORM
         """
-        db = TestableDatabase()
-        db.extendFromFilename(sibpath(__file__, 'corp.n3'))
-        rdfSubject.db = db.graph
-
         peter = Employee.get_by(lastname='Gibbons')
         self.assertEqual(peter.firstname, 'Peter')
         self.assertEqual(peter.lastname, 'Gibbons')
@@ -146,6 +147,22 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         self.assertTrue(bill.peoplePerson, "bill should be a people person")
         del bill.peoplePerson
         self.failIf(bill.peoplePerson, "bill.peoplePerson should have been deleted")
+
+
+class RDFAlchemyClassTestCase(unittest.TestCase):
+    def test_autoLabel(self):
+        """
+        Objects with or without a rdfs:label have labels anyway
+        """
+        db = TestableDatabase()
+        db.extendFromFilename(sibpath(__file__, 'corp.n3'))
+        sparqly.rdfsPTClass.db = db.graph
+        # peter has a label
+        peter = Employee(STAFF.e1230)
+        self.assertEqual(peter.label, u"Protagonist of Office Space, Peter Gibbons")
+        # bill has no label
+        bill = Employee(STAFF.e1001)
+        self.assertEqual(bill.label, u"E1001")
 
 
 class TriplesDbTestCase(unittest.TestCase):

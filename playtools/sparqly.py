@@ -110,7 +110,8 @@ from rdflib import URIRef, BNode
 from rdflib.Graph import ConjunctiveGraph as Graph
 from rdflib.Literal import Literal as RDFLiteral
 
-from rdfalchemy.descriptors import rdfAbstract
+from rdfalchemy.descriptors import rdfAbstract, rdfSingle
+from rdfalchemy.rdfsSubject import rdfsClass
 
 from playtools.common import RDFSNS, a as RDF_a
 
@@ -557,3 +558,29 @@ class rdfIsInstance(rdfAbstract):
             del obj.__dict__[self.klass]
         for s,p,o in obj.db.triples((obj.resUri, RDF_a, self.klass)):
             obj.db.remove((s,p,o))
+
+
+class rdfSingleDefault(rdfSingle):
+    """
+    rdfSingle that can return a default value by calling the "default"
+    argument with an instance of the subject.
+    """
+    def __init__(self, pred, default=None, cacheName=None, range_type=None):
+        super(rdfSingleDefault, self).__init__(pred, cacheName, range_type)
+        assert callable(default), "default must be a callable object"
+        self._defaultCallable = default
+
+    def __get__(self, obj, cls):
+        r = super(rdfSingleDefault, self).__get__(obj, cls)
+        if r is None:
+            return self._defaultCallable(obj)
+        return r
+
+
+class rdfsPTClass(rdfsClass):
+    """
+    Similar to rdfalchemy.rdfsSubject.rdfsClass but when .label is missing
+    default to iriToTitle(resUri)
+    """
+    label = rdfSingleDefault(RDFSNS.label, lambda o: iriToTitle(o.resUri))
+
