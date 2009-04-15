@@ -32,6 +32,7 @@ function testPython()
 }
 
 testPython "RDFlib == 2.4.1" 'from rdflib import __version__ as v; assert v>="2.4.1"'
+testPython "RDFalchemy > 0.2b2" 'from rdfalchemy import rdfsSubject'
 testPython "Storm" 'import storm.locals'
 testPython "pysqlite2" 'import pysqlite2'
 testPython "Python 2.5" 'import xml.etree'
