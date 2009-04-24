@@ -54,31 +54,34 @@ class DiceExpression(object):
         return '<DiceExpression %s>' % (str(self),)
 
     def __str__(self):
+        return self.format()
+
+    def format(self):
         if self.staticNumber is None:
             # minimize by dropping clauses that are defaults
 
             # no filter if self.filterCount is None
-            filter = ''
+            filter = u''
             if self.filterCount is not None:
-                filter = '%s%d' % (self.filterDirection, self.filterCount)
+                filter = u'%s%d' % (self.filterDirection, self.filterCount)
 
             # no modifier if +0
-            modifier = ''
+            modifier = u''
             if self.dieModifier != 0:
-                modifier = '%+d' % (self.dieModifier,)
+                modifier = u'%+d' % (self.dieModifier,)
 
             # no repeat if x1
-            repeat = ''
+            repeat = u''
             if self.repeat > 1:
-                repeat = 'x%d' % (self.repeat,)
+                repeat = u'x%d' % (self.repeat,)
 
             # no count if == 1
-            count = ''
+            count = u''
             if self.count != 1:
                 count = self.count
-            return '%sd%d%s%s%s%s' % (count, self.dieSize, filter, modifier, repeat, self.sort)
+            return u'%sd%d%s%s%s%s' % (count, self.dieSize, filter, modifier, repeat, self.sort)
         else:
-            return str(self.staticNumber)
+            return u'%s' % (self.staticNumber,)
 
 
 class Processor(disp.DispatchProcessor):
