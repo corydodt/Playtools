@@ -8,7 +8,9 @@ class DiceParserTestCase(unittest.TestCase):
         def t(s, ):
             parsed = diceparser.parseDice(s)
             expected = ''.join(s.split()).lower()
-            self.assertEqual(expected, str(parsed))
+            f = parsed.format()
+            self.assertEqual(expected, f)
+            self.assertTrue(type(f) is unicode)
 
         t(' d10')
         t(' 2d20')
@@ -19,7 +21,8 @@ class DiceParserTestCase(unittest.TestCase):
         t("9d6l3-10x2")
         t("9d6H3+10x2")
         t('2')
-        
+        t(u'2')
+        t(u"2d6-2x2sort")
 
     def test_parse(self):
 
