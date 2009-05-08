@@ -1,0 +1,213 @@
+=====================
+Notes on Architecture
+=====================
+
+Things We Must Persist
+======================
+
+This is a rough schema.
+
+-----------------------------------------
+
+Goonmill
+--------
+
+The goonmill monster creator.
+
+User
+~~~~
+    1> foaf identifier
+
+    1..n> Workspace
+
+Workspace
+~~~~~~~~~
+    0..n> MonsterGroup
+
+    0..n> Encounter
+
+MonsterGroup
+~~~~~~~~~~~~
+    1> name
+
+    1> template
+
+    1> image
+
+    1..n> encounter tag
+    
+    1..n> Monster
+
+Monster
+~~~~~~~
+    1> name
+
+    1> hp
+
+    1> alignment
+
+    1> NPC Block
+        1..n> class levels
+
+        1..n> feat selections
+
+        1> skillpoint distribution
+
+        1..n> misc class choices
+
+    1> backstory/personality/description
+
+    0..n> spells readied
+
+    0..n> treasure/equipment
+
+Encounter
+~~~~~~~~~
+    1> notes
+
+-----------------------------------------
+
+Vellumbot
+---------
+
+The vellumbot irc bot and session logger.
+
+User
+~~~~
+    1> foaf identifier
+
+    1> preferred encoding
+
+    0..n> Alias
+
+Alias
+~~~~~
+    1> words
+
+    1> expression
+
+Session
+~~~~~~~
+    1> foaf identifier?
+
+    1> preferred encoding
+
+    1..n> GM
+
+    1..n> Log Event
+
+    1> Session State
+
+GM
+~~
+    1> foaf identifier
+
+Game State
+~~~~~~~~~~
+    1> encounter tag
+
+    1> init list
+
+    1> game time
+
+    0..n> recent Treasure
+
+    0..n> Character
+
+Treasure
+~~~~~~~~
+    1> count
+
+    1> weight
+
+    1> description
+    
+    1> value
+    
+    1> who carries (foaf identifier)
+    
+    1> identified-flag
+
+Character
+~~~~~~~~~
+    1> current hp
+    
+    0..n> spells exhausted
+
+    0..n> spells readied
+    
+    0..n> Time-Based Effect
+
+Time-Based Effect
+~~~~~~~~~~~~~~~~~
+    1> start gametime
+
+    1> end gametime
+
+    1> description
+
+Log Event
+~~~~~~~~~
+    1> foaf identifier (from speaker)
+
+    1> foaf identifier (to recipient channel)
+
+    1> private-flag
+
+    1> timestamp
+
+    1> formatted message
+
+-----------------------------------------
+
+Mutamill
+--------
+
+The mutamill character generator.
+
+User
+~~~~
+    1> foaf identifier
+
+    0..n> Character
+
+Character
+~~~~~~~~~
+    1> name
+
+    1> game system
+
+    1> game-system specific stuff
+
+-----------------------------------------
+
+Halfrest
+--------
+
+The halfrest pastebin.
+
+User
+~~~~
+    1> foaf identifier
+
+    0..n> Page
+
+Page
+~~~~
+    1> text
+
+-----------------------------------------
+
+Playtools
+---------
+
+The Playtools data access layer.
+
+SRD/SQL
+
+SRD/RDF
+
+SRD/FTS
+
+
+.. vim:set ft=rst:
