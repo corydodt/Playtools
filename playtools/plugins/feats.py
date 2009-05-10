@@ -8,7 +8,7 @@ from twisted.python import usage
 
 from storm import locals as SL
 
-from playtools.convert import IConverter
+from playtools.interfaces import IConverter
 from playtools import sparqly
 from playtools.common import featNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName

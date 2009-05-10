@@ -8,7 +8,7 @@ from twisted.python import usage
 
 from storm import locals as SL
 
-from playtools.convert import IConverter
+from playtools.interfaces import IConverter
 from playtools.sparqly import TriplesDatabase, URIRef
 from playtools.common import skillNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName

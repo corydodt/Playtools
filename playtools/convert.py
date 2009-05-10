@@ -4,49 +4,11 @@ try:
 except ImportError:
     from xml.etree import ElementTree
 
-from zope.interface import Interface, Attribute
 from twisted.plugin import getPlugins
+from .interfaces import IConverter
 
 
 XHTML_NS = 'http://www.w3.org/1999/xhtml#'
-
-
-class IConverter(Interface):
-    """
-    A converter takes data from an abritrary source (plugin-implemented) and
-    writes an entry in Playtools format.
-    """
-    commandLine = Attribute("commandLine")
-
-    def next():
-        """
-        Retrieve one unit from the data source and return it
-        """
-
-    def makePlaytoolsItem(item):
-        """
-        Add triples for this item to the db
-        """
-
-    def writeAll(playtoolsIO):
-        """
-        Format the document as N3/RDF and write it to the playtoolsIO object
-        """
-
-    def label():
-        """
-        Identify this converter with a string
-        """
-
-    def __iter__():
-        """
-        IConverters are iterators
-        """
-
-    def preamble():
-        """
-        Add any header triples
-        """
 
 
 def getConverters():
@@ -92,5 +54,5 @@ def converterDoc(converter):
         return ''
     return converter.__doc__.splitlines()[0].rstrip()
 
-__all__ = ['IConverter', 'getConverters', 'getConverter', 'rdfXmlWrap']
+__all__ = ['getConverters', 'getConverter', 'rdfXmlWrap']
 
