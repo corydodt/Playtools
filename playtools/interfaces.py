@@ -5,6 +5,7 @@ class ICharSheetSection(Interface):
     def asText(graph):
         pass
 
+
 class IRuleFact(Interface):
     """
     A RuleFact is a certain kind of searchable, formattable object such as a
@@ -18,6 +19,7 @@ class IRuleFact(Interface):
         fulltext indexer.
         """
 
+
 class IFormatter(Interface):
     """
     Make an IRuleFact into a human-readable text
@@ -28,6 +30,7 @@ class IFormatter(Interface):
         """
         Convert the fact into a piece of text
         """
+
 
 class IConverter(Interface):
     """
