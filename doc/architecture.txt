@@ -1,6 +1,13 @@
-=====================
-Notes on Architecture
-=====================
+======================
+Playtools Architecture
+======================
+
+Vision
+======
+
+Playtools and related applications will be an easy way for GMs to create, edit
+and run their games, share their games with other GMs, publish their games in
+a sellable format, and collect/visit/read/use the games of other GMs.
 
 Things We Must Persist
 ======================
@@ -96,7 +103,7 @@ Session
 
     1..n> Log Event
 
-    1> Session State
+    1> Game State
 
 GM
 ~~
@@ -150,7 +157,7 @@ Log Event
 ~~~~~~~~~
     1> foaf identifier (from speaker)
 
-    1> foaf identifier (to recipient channel)
+    1..n> foaf identifier (to recipient channel)
 
     1> private-flag
 
@@ -209,5 +216,41 @@ SRD/RDF
 
 SRD/FTS
 
+
+Communication Channels
+======================
+
+* Halfrest pages should be readable to other applications
+  
+* Vellumbot sessions should accept messages from other applications, and be
+  readable to other applications in a filtered fashion
+
+
+Application Core Concepts
+=========================
+
+Playtools is a data access layer (API).  This encompasses more than simple
+table reads, however.  Playtools does not open any network sockets; it relies
+on an application to publish a SPARQL endpoint or web application so others
+can reach the data through the Playtools API.  It is designed for an
+application to be built on top of it that opens the network socket for the
+rest of the world.
+
+Vellumbot is a game session nanny.  It takes care of one core function of
+gaming, random rolls, and provides access to gamerules data and shared
+encounters from around the world.  It keeps a Session object alive where
+applications from around the world can access it.  They can communicate with
+it by posting messages to it, allowing a continuance of a game session
+independent of the application using it.
+
+Halfrest stores RST character sheets in a parseable, human-editable form.  
+
+Goonmill is a monster and NPC builder.  It is a web application for
+constructing the monsters that go into encounters.  It also allows the user to
+write up the script for an encounter and publish it at a URL so it can be
+accessed by other applications.
+
+Mutamill is a configurable chargen.  It allows you to plugin a ruleset and
+generate a user interface from that.
 
 .. vim:set ft=rst:
