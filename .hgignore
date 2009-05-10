@@ -7,3 +7,4 @@
 ^build/.*$
 ^Playtools.egg-info.*$
 ^dist/.*$
+^playtools/search-index
