@@ -19,6 +19,7 @@ class D20SRD35System(object):
     implements (IRuleSystem, IPlugin)
     name = "D20 SRD"
     version = "3.5"
+    searchIndexPath = RESOURCE("plugins/srd35-index")
     #
 
 d20srd35 = D20SRD35System()
