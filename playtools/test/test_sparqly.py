@@ -11,12 +11,14 @@ from twisted.python.util import sibpath
 from rdflib.Namespace import Namespace
 from rdflib import Literal, URIRef, BNode
 
+from rdfalchemy import rdfSingle, rdfMultiple
+from rdfalchemy.orm import mapper
+
 from playtools import sparqly, util
 from playtools.test.pttestutil import IsomorphicTestableGraph
 from playtools.common import this, RDFSNS, a
 
-from rdfalchemy import rdfSingle, rdfMultiple
-from rdfalchemy.orm import mapper
+from . import util
 
 STAFF = Namespace('http://corp.com/staff#')
 ANS = Namespace('http://a#')
@@ -165,7 +167,7 @@ class RDFAlchemyClassTestCase(unittest.TestCase):
         self.assertEqual(bill.label, u"E1001")
 
 
-class TriplesDbTestCase(unittest.TestCase):
+class TriplesDbTestCase(unittest.TestCase, util.DiffTestCaseMixin):
     def fill(self, graph):
         """
         Add some triples to a graph (without using addTriple)
@@ -263,9 +265,38 @@ class TriplesDbTestCase(unittest.TestCase):
         self.assertEqual(comp1, self.db.graph)
 
     def test_dump(self):
-        assert 0
+        """
+        We can dump the triples in a graph
+        """
+        comp1 = IsomorphicTestableGraph()
+        for p, ns in TESTING_NAMESPACES.items():
+            comp1.bind(p, ns)
 
-    test_dump.todo = "Add some triples to a graph, dump, examine the string"
+        self.fill(comp1)
+        self.fill(self.db.graph)
+
+        self.db.addTriple(STAFF.e1231, STAFF.firstname, 'Michael')
+        self.db.addTriple(STAFF.e1231, STAFF.lastname, 'Bolton')
+        self.db.addTriple(STAFF.e1231, STAFF.supervisor, STAFF.e1001)
+
+        actual = self.db.dump().split('\n')
+        expected = r"""
+@prefix _\d: <http://corp\.com/staff#>\.
+@prefix a: <http://a#>\.
+@prefix b: <http://b#>\.
+
+ <> <> "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>\. 
+
+ a:x a:y "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>;
+     b:y "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>\. 
+
+ b:xb b:yb "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>\. 
+
+ _.:e1231 _\d:firstname "Michael";
+     _\d:lastname "Bolton";
+     _\d:supervisor _5:e1001\. 
+""".split('\n')
+        self.failIfRxDiff(expected, actual, "expected", "actual")
 
     def test_extendGraphFromFile(self):
         """
