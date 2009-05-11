@@ -6,6 +6,53 @@ class ICharSheetSection(Interface):
         pass
 
 
+class IRuleSystem(Interface):
+    """
+    A rule system, such as D&D or Pathfinder.
+
+    This may provide some insight: http://wiki.goonmill.org/PlaytoolsCompatibleGameSystems
+    """
+    facts = Attribute("facts")
+    version = Attribute("version")
+    __doc__ = Attribute("__doc__") # part of the interface because we use it
+    name = Attribute("name")
+
+
+class IRuleCollection(Interface):
+    """
+    A RuleCollection provides an interface to the collection of RuleFacts that
+    have the same type.
+    """
+    systems = Attribute("systems")
+    factName = Attribute("factName")
+
+    def __getitem__(self, key):
+        """
+        Synonym for lookup
+        """
+
+    def getFormatters():
+        """
+        A dict of all formatters we know about.
+        """
+
+    def getBestFormatter(desiredFormat):
+        """
+        A single IFormatter provider that is either the same format as the one
+        requested, or the next best formatter available.
+        """
+
+    def lookup(idOrName):
+        """
+        Get a single IRuleFact that is uniquely identified by idOrName
+        """
+
+    def dump():
+        """
+        All the RuleFacts this collection can find
+        """
+
+
 class IRuleFact(Interface):
     """
     A RuleFact is a certain kind of searchable, formattable object such as a

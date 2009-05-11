@@ -2,8 +2,8 @@
 Plugins for Playtools
 """
 
-import os, sys
-__path__ = [os.path.abspath(os.path.join(x, 'playtools', 'plugins')) 
-            for x in sys.path]
-
+# add playtools.plugins directories to the plugin-searchable paths
+from twisted.plugin import pluginPackagePaths
+__path__.extend(pluginPackagePaths(__name__))
 __all__ = []
+
