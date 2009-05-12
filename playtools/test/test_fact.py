@@ -7,6 +7,8 @@ from twisted.plugin import pluginPackagePaths
 
 from playtools import fact, test
 
+from . import gameplugin
+
 __all__ = []
 
 class TestFactPluginLoading(unittest.TestCase):
@@ -43,19 +45,67 @@ class TestFactPluginLoading(unittest.TestCase):
         self.assertTrue('Buildings & Badgers' in systems)
         self.assertTrue(('Buildings & Badgers', '2.06') in systems)
 
-    def test_importRuleCollections(self):
-        from . import gameplugin
-        badgers = gameplugin.BuildingsAndBadgersSystem()
+        badgers = systems[('Buildings & Badgers', '2.06')]
+        # verify that we can access by either name or name-version tuple
+        self.assertIdentical(badgers, systems['Buildings & Badgers'])
+        self.assertEqual(badgers.__doc__.strip(),
+            'The Buildings & Badgers role-playing game')
+        self.assertEqual(badgers.version, '2.06')
+        self.assertEqual(badgers.searchIndexPath, 'test/badgers-index')
 
-        systems = {'Buildings & Badgers': badgers,
-                ('Buildings & Badgers', '2.06'): badgers,
+    def _importRuleCollections(self, game):
+        """
+        Set up and run the importRuleCollections, which is boilerplate for
+        several tests.
+        """
+        systems = {'Buildings & Badgers': game,
+                ('Buildings & Badgers', '2.06'): game,
                 }
         fact.importRuleCollections(systems)
-        self.assertTrue('buildings' in badgers.facts)
-        self.assertTrue('badgers' in badgers.facts)
+
+    def test_importRuleCollections(self):
+        """
+        Make sure importRuleCollections puts actual RuleCollections into the
+        game systems
+        """
+        game = gameplugin.BuildingsAndBadgersSystem()
+        self._importRuleCollections(game)
+        self.assertTrue('building' in game.facts)
+        self.assertTrue('badger' in game.facts)
+
+    def test_lookup(self):
+        """
+        For some domain, we can lookup an item in that domain
+        """
+        game = gameplugin.BuildingsAndBadgersSystem()
+        self._importRuleCollections(game)
+        badgers = game.facts['badger']
+        self.assertEqual(badgers.lookup(u'73').name, u'Giant Man-Eating Badger')
+
+    def test_getitem(self):
+        """
+        We can pull an item out of the collection by key
+        """
+        game = gameplugin.BuildingsAndBadgersSystem()
+        self._importRuleCollections(game)
+        badgers = game.facts['badger']
+        self.assertEqual(badgers[u'73'].name, u'Giant Man-Eating Badger')
+        self.assertEqual(badgers[u'Giant Man-Eating Badger'].name, 
+            u'Giant Man-Eating Badger')
+
+    def test_dumpObject(self):
+        """
+        We can get a dump of all objects from a domain
+        """
+        game = gameplugin.BuildingsAndBadgersSystem()
+        self._importRuleCollections(game)
+        badgers = game.facts['badger']
+        dumped = badgers.dump()
+        self.assertEqual(len(dumped), 2)
+        self.assertEqual(dumped[0].name, u'Small Badger')
 
 
-class TestFact(unittest.TestCase):
+class TestGameSystems(unittest.TestCase):
     """
     Tests for the plugins that get loaded by default
     """
@@ -66,49 +116,3 @@ class TestFact(unittest.TestCase):
         ss = fact.systems
         self.assertTrue(('Pathfinder', '1.0') in ss)
         self.assertTrue(('D20 SRD', '3.5') in ss)
-        srd = ss[('D20 SRD', '3.5')]
-        # verify that we can access by either name or name-version tuple
-        self.assertIdentical(srd, ss['D20 SRD'])
-        self.assertEqual(srd.__doc__.strip()[:50],
-            'Game system based on the System Reference Document')
-        self.assertEqual(srd.version, '3.5')
-
-    def test_facts(self):
-        """
-        We can get a dict of fact domains that exist in a particular system
-        """
-        srd = fact.systems[('D20 SRD', '3.5')]
-        pathfinder = fact.systems['Pathfinder']
-        self.assertTrue('spell' in srd.facts)
-        self.assertTrue('monster' in srd.facts)
-        # test that fact collections are not inserted willy-nilly into random
-        # systems
-        self.assertFalse('spell' in pathfinder.facts)
-
-    def test_dumpObject(self):
-        """
-        We can get a dump of all objects from a domain
-        """
-        srd = fact.systems[('D20 SRD', '3.5')]
-        monsters = srd.facts['monster']
-        dumped = monsters.dump()
-        self.assertEqual(len(dumped), 681)
-        self.assertEqual(dumped[0].name, u'Anaxim')
-
-    def test_lookup(self):
-        """
-        For some domain, we can lookup an item in that domain
-        """
-        srd = fact.systems[('D20 SRD', '3.5')]
-        monster = srd.facts['monster']
-        self.assertEqual(monster.lookup(73).name, u'Three-Headed Sirrush')
-
-    def test_getItem(self):
-        """
-        We can pull an item out of the collection by key
-        """
-        srd = fact.systems[('D20 SRD', '3.5')]
-        monsters = srd.facts['monster']
-        self.assertEqual(monsters[u'1'].name, u'Anaxim')
-        self.assertEqual(monsters[u'Anaxim'].name, u'Anaxim')
-

@@ -22,6 +22,33 @@ class BuildingsAndBadgersSystem(object):
 buildingsAndBadgers = BuildingsAndBadgersSystem()
 
 
+class Building(object):
+    def __init__(self, id, name, text):
+        self.id = id
+        self.name = name
+        self.full_text = text
+
+
+class Badger(object):
+    def __init__(self, id, name, text):
+        self.id = id
+        self.name = name
+        self.full_text = text
+
+
+database = {
+'badger': [
+    Badger(u'1', u'Small Badger', 'Small, pretty badger.'),
+    Badger(u'73', u'Giant Man-Eating Badger', 'Giant, hideous, bad-tempered space badger.')
+    ],
+
+'building': [
+    Building(u'2', u'Castle', 'A castle (where badgers live)'),
+    Building(u'4', u'Dungeon', 'A dungeon (built by badgers)'),
+    ],
+}
+
+
 class FakeFactCollection(object):
     """
     A pretend collection of RuleFacts
@@ -33,16 +60,22 @@ class FakeFactCollection(object):
         self.factName = factName
 
     def __getitem__(self, key):
-        raise NotImplemented()
+        ret = self.lookup(key)
+        if ret is None:
+            raise KeyError(key)
+        return ret
 
     def dump(self):
         """
         All instances of the factClass
         """
-        raise NotImplemented()
+        return database[self.factName][:]
 
-    def lookup(self, idOrName):
-        raise NotImplemented()
+    def lookup(self, k):
+        items = database[self.factName]
+        for item in items:
+            if item.id == k or item.name == k:
+                return item
 
-buildings = FakeFactCollection('buildings')
-badgers = FakeFactCollection('badgers')
+buildings = FakeFactCollection('building')
+badgers = FakeFactCollection('badger')
