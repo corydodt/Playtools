@@ -116,3 +116,16 @@ class TestGameSystems(unittest.TestCase):
         ss = fact.systems
         self.assertTrue(('Pathfinder', '1.0') in ss)
         self.assertTrue(('D20 SRD', '3.5') in ss)
+
+    def test_facts(self):
+        """
+        We can get a dict of fact domains that exist in a particular system
+        """
+        srd = fact.systems['D20 SRD']
+        pathfinder = fact.systems['Pathfinder']
+        self.assertTrue('spell' in srd.facts)
+        self.assertTrue('monster' in srd.facts)
+        # test that fact collections are not inserted willy-nilly into random
+        # systems
+        self.assertFalse('spell' in pathfinder.facts)
+
