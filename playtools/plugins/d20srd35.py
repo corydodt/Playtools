@@ -3,12 +3,16 @@ The game system based on the D20 SRD (version 3.5)
 """
 import re
 
-from zope.interface import implements
+from zope.interface import implements, Interface, Attribute
+
 from twisted.plugin import IPlugin
 from storm import locals as SL
 
-from playtools.interfaces import IRuleSystem, IRuleFact, IRuleCollection
+from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
+    IIndexable)
 from playtools.util import RESOURCE
+from playtools import globalRegistry
+from playtools.search import textFromHtml
 
 
 class D20SRD35System(object):
@@ -31,6 +35,49 @@ d20srd35 = D20SRD35System()
 STORE = SL.Store(SL.create_database('sqlite:' + RESOURCE('plugins/srd35.db')))
 
 
+class IStormFact(Interface):
+    """
+    The SRD/SQL facts typically all have these special attributes, useful for
+    various reasons.
+    """
+    full_text = Attribute("full_text")
+    name = Attribute("name")
+    id = Attribute("id")
+
+
+class IndexableStormFact(object):
+    """
+    Trivial layer over facts that are objects in the SRD/SQL, all of which
+    have full_text, id and name.
+    """
+    implements(IIndexable)
+    __used_for__ = IRuleFact
+
+    SLASHRX = re.compile(r'\\([n"])')
+
+    def __init__(self, fact):
+        self.fact = fact
+        _ft = re.sub(self.SLASHRX, self.repSlash, fact.full_text)
+        self.text = textFromHtml(_ft)
+        self.uri = fact.id
+        self.title = fact.name
+
+    @staticmethod
+    def repSlash(m):
+        """
+        Clean up bonus slashes inside the escaped raw html in storm fact texts
+        """
+        if m.group(1) == 'n':
+            return '\n'
+        return m.group(1)
+
+
+
+# Use IndexableStormFact as an adapter for stormfacts to convert them to
+# IIndexable
+globalRegistry.register([IStormFact], IIndexable, '', IndexableStormFact)
+
+
 class StormFactCollection(object):
     """
     A collection of RuleFacts that are Storm objects, so we can look them up
@@ -45,7 +92,7 @@ class StormFactCollection(object):
     def __getitem__(self, key):
         ret = self.lookup(key)
         if not ret:
-            raise AttributeError(key)
+            raise KeyError(key)
         return ret
 
     def dump(self):
@@ -75,7 +122,7 @@ class StormFactCollection(object):
 
 class Monster(object):
     """A Monster mapped from the db"""
-    implements(IRuleFact, IPlugin)
+    implements(IRuleFact, IPlugin, IStormFact)
 
     __storm_table__ = 'monster'
     factName = __storm_table__
@@ -125,7 +172,7 @@ monsterCollection = StormFactCollection(Monster, 'monster')
 
 class Spell(object):
     """A spell"""
-    implements(IRuleFact, IPlugin)
+    implements(IRuleFact, IPlugin, IStormFact)
 
     __storm_table__ = 'spell'
     factName = __storm_table__

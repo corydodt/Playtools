@@ -59,3 +59,9 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual('http://www.d20srd.org/srd/epic/spells/animusBlast.htm',
                 d20srd35.srdReferenceURL(animusBlast))
 
+    def test_facts(self):
+        """
+        We can get a dict of fact domains that exist in a particular system
+        """
+        self.assertTrue('spell' in self.srd.facts)
+        self.assertTrue('monster' in self.srd.facts)

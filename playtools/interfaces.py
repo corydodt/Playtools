@@ -80,6 +80,12 @@ class IFormatter(Interface):
         """
 
 
+class IIndexable(Interface):
+    uri = Attribute("uri")
+    title = Attribute("title")
+    text = Attribute("text")
+
+
 class IConverter(Interface):
     """
     A converter takes data from an abritrary source (plugin-implemented) and
