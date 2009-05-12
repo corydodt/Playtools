@@ -5,8 +5,11 @@ import re
 import operator
 import difflib
 from pprint import pformat
+from contextlib import contextmanager
 
 from itertools import repeat, chain, izip
+
+from twisted.plugin import pluginPackagePaths
 
 # FIXME - not needed in python 2.6
 def izip_longest(*args, **kwds):
@@ -112,4 +115,28 @@ class DiffTestCaseMixin(object):
 
     assertNoRxDiff = failIfRxDiff
 
+
+@contextmanager
+def pluginsLoadedFromTest():
+    """
+    Run code in an environment that uses the playtools.test directory as the
+    playtools plugin directory
+    """
+    ## Provide our own PLUGINMODULE to playtools.fact and use that to test
+    ## the functions that load our plugins.
+    from playtools import test, fact
+    pkg = test
+    orig__path__ = pkg.__path__
+    orig_PLUGINMODULE = fact.PLUGINMODULE
+    try:
+        pkg.__path__.extend(pluginPackagePaths(pkg.__name__))
+        # monkeypatch fact so it loads plugins from our test directory
+        fact.PLUGINMODULE = pkg
+
+        yield
+
+    finally:
+        fact.PLUGINMODULE = orig_PLUGINMODULE
+        pkg = test
+        pkg.__path__ = orig__path__
 

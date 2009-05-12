@@ -1,11 +1,12 @@
 """
 Test the generalized fact layer
 """
+from __future__ import with_statement
 
 from twisted.trial import unittest
-from twisted.plugin import pluginPackagePaths
 
 from playtools import fact, test
+from playtools.test.util import pluginsLoadedFromTest
 
 from . import gameplugin
 
@@ -15,33 +16,13 @@ class TestFactPluginLoading(unittest.TestCase):
     """
     Tests for the plugin-loading apparatus itself.
     """
-    def setUp(self):
-        """
-        Provide our own PLUGINMODULE to playtools.fact and use that to test
-        the functions that load our plugins.
-        """
-        pkg = test
-        self.orig__path__ = pkg.__path__
-        global __all__
-        self.orig__all__ = __all__
-        self.orig_PLUGINMODULE = fact.PLUGINMODULE
-        pkg.__path__.extend(pluginPackagePaths(pkg.__name__))
-        __all__ = []
-        # monkeypatch fact so it loads plugins from our test directory
-        fact.PLUGINMODULE = pkg
-
-    def tearDown(self):
-        fact.PLUGINMODULE = self.orig_PLUGINMODULE
-        pkg = test
-        pkg.__path__ = self.orig__path__
-        global __all__
-        __all__ = self.orig__all__
-
     def test_getSystems(self):
         """
         The getSystems function finds systems we have set up
         """
-        systems = fact.getSystems()
+        with pluginsLoadedFromTest():
+            systems = fact.getSystems()
+
         self.assertTrue('Buildings & Badgers' in systems)
         self.assertTrue(('Buildings & Badgers', '2.06') in systems)
 
@@ -61,7 +42,8 @@ class TestFactPluginLoading(unittest.TestCase):
         systems = {'Buildings & Badgers': game,
                 ('Buildings & Badgers', '2.06'): game,
                 }
-        fact.importRuleCollections(systems)
+        with pluginsLoadedFromTest():
+            fact.importRuleCollections(systems)
 
     def test_importRuleCollections(self):
         """
