@@ -126,7 +126,7 @@ class Options(usage.Options):
     def decode(self, s):
         """
         Trying these encodings in order: [sys.stdin.encoding,
-        sys.getdefautencoding()], decode s and return a unicode.
+        sys.getdefaultencoding()], decode s and return a unicode.
 
         If s is already unicode, return s.
         """
