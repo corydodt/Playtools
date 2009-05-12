@@ -1,5 +1,6 @@
-"""HyperEstraier-based indexing and searching """
-# vi:ft=python
+"""
+HyperEstraier-based indexing and searching
+"""
 import sys, os
 import shutil
 import re
@@ -22,8 +23,6 @@ def repSlash(m):
     return m.group(1)
 
 ALTRX = re.compile(r'[^a-zA-Z0-9\s]')
-
-
 def makeAltName(s):
     """
     Normalize s to remove punctuation and case
