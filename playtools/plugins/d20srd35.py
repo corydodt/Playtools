@@ -21,9 +21,10 @@ class D20SRD35System(object):
     version = "3.5"
     searchIndexPath = RESOURCE("plugins/srd35-index")
     #
+    def __init__(self):
+        self.facts = {}
 
 d20srd35 = D20SRD35System()
-d20srd35.facts = {}
 
 
 # the d20srd database is essentially static and permanent, so just open it here.

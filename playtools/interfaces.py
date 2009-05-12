@@ -16,6 +16,7 @@ class IRuleSystem(Interface):
     version = Attribute("version")
     __doc__ = Attribute("__doc__") # part of the interface because we use it
     name = Attribute("name")
+    searchIndexPath = Attribute("searchIndexPath")
 
 
 class IRuleCollection(Interface):

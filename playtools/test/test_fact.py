@@ -3,10 +3,62 @@ Test the generalized fact layer
 """
 
 from twisted.trial import unittest
+from twisted.plugin import pluginPackagePaths
 
-from playtools import fact
+from playtools import fact, test
+
+__all__ = []
+
+class TestFactPluginLoading(unittest.TestCase):
+    """
+    Tests for the plugin-loading apparatus itself.
+    """
+    def setUp(self):
+        """
+        Provide our own PLUGINMODULE to playtools.fact and use that to test
+        the functions that load our plugins.
+        """
+        pkg = test
+        self.orig__path__ = pkg.__path__
+        global __all__
+        self.orig__all__ = __all__
+        self.orig_PLUGINMODULE = fact.PLUGINMODULE
+        pkg.__path__.extend(pluginPackagePaths(pkg.__name__))
+        __all__ = []
+        # monkeypatch fact so it loads plugins from our test directory
+        fact.PLUGINMODULE = pkg
+
+    def tearDown(self):
+        fact.PLUGINMODULE = self.orig_PLUGINMODULE
+        pkg = test
+        pkg.__path__ = self.orig__path__
+        global __all__
+        __all__ = self.orig__all__
+
+    def test_getSystems(self):
+        """
+        The getSystems function finds systems we have set up
+        """
+        systems = fact.getSystems()
+        self.assertTrue('Buildings & Badgers' in systems)
+        self.assertTrue(('Buildings & Badgers', '2.06') in systems)
+
+    def test_importRuleCollections(self):
+        from . import gameplugin
+        badgers = gameplugin.BuildingsAndBadgersSystem()
+
+        systems = {'Buildings & Badgers': badgers,
+                ('Buildings & Badgers', '2.06'): badgers,
+                }
+        fact.importRuleCollections(systems)
+        self.assertTrue('buildings' in badgers.facts)
+        self.assertTrue('badgers' in badgers.facts)
+
 
 class TestFact(unittest.TestCase):
+    """
+    Tests for the plugins that get loaded by default
+    """
     def test_systems(self):
         """
         We can get a dict of plugin systems with metadata
@@ -26,8 +78,12 @@ class TestFact(unittest.TestCase):
         We can get a dict of fact domains that exist in a particular system
         """
         srd = fact.systems[('D20 SRD', '3.5')]
+        pathfinder = fact.systems['Pathfinder']
         self.assertTrue('spell' in srd.facts)
         self.assertTrue('monster' in srd.facts)
+        # test that fact collections are not inserted willy-nilly into random
+        # systems
+        self.assertFalse('spell' in pathfinder.facts)
 
     def test_dumpObject(self):
         """
