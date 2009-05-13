@@ -54,23 +54,9 @@ class IRuleCollection(Interface):
         """
 
 
-class IRuleFact(Interface):
-    """
-    A RuleFact is a certain kind of searchable, formattable object such as a
-    Monster, Spell, Skill, Feat, Equipment, etc.  The domain of these things
-    is an interface that allows use to index, look up, search for, and
-    pretty-format them.
-    """
-    def indexableText():
-        """
-        The full text of the fact, in a format that can be indexed by a
-        fulltext indexer.
-        """
-
-
 class IFormatter(Interface):
     """
-    Make an IRuleFact into a human-readable text
+    Make a rule collection object into a human-readable text
     """
     formatName = Attribute('formatName')
 

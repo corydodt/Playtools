@@ -10,7 +10,7 @@ from twisted.python import log
 
 from storm import locals as SL
 
-from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
+from playtools.interfaces import (IRuleSystem, IRuleCollection,
     IIndexable)
 from playtools.util import RESOURCE
 from playtools import globalRegistry, sparqly as S
@@ -142,10 +142,9 @@ class StormFactCollection(object):
 
 class Monster(object):
     """A Monster mapped from the db"""
-    implements(IRuleFact, IPlugin, IStormFact)
+    implements(IStormFact)
 
     __storm_table__ = 'monster'
-    factName = __storm_table__
 
     id = SL.Int(primary=True)                #
     name = SL.Unicode()                      
@@ -192,10 +191,9 @@ monsterCollection = StormFactCollection(Monster, 'monster')
 
 class Spell(object):
     """A spell"""
-    implements(IRuleFact, IPlugin, IStormFact)
+    implements(IStormFact)
 
     __storm_table__ = 'spell'
-    factName = __storm_table__
 
     id = SL.Int(primary=True)                #
     name = SL.Unicode()
