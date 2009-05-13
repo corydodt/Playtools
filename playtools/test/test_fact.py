@@ -32,7 +32,7 @@ class TestFactPluginLoading(unittest.TestCase):
         self.assertEqual(badgers.__doc__.strip(),
             'The Buildings & Badgers role-playing game')
         self.assertEqual(badgers.version, '2.06')
-        self.assertEqual(badgers.searchIndexPath, 'test/badgers-index')
+        self.assertEqual(badgers.searchIndexPath, 'test-badgers-index')
 
     def _importRuleCollections(self, game):
         """

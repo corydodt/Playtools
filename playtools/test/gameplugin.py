@@ -1,11 +1,15 @@
 """
 A fake game system for testing game system plugins.
 """
-from zope.interface import implements
+import re
+
+from zope.interface import implements, Interface
 
 from twisted.plugin import IPlugin
 
-from playtools.interfaces import IRuleSystem, IRuleFact, IRuleCollection
+from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
+    IIndexable)
+from playtools import globalRegistry
 
 class BuildingsAndBadgersSystem(object):
     """
@@ -14,7 +18,7 @@ class BuildingsAndBadgersSystem(object):
     implements (IRuleSystem, IPlugin)
     name = "Buildings & Badgers"
     version = "2.06"
-    searchIndexPath = "test/badgers-index"
+    searchIndexPath = "test-badgers-index"
     def __init__(self):
         self.facts = {}
 
@@ -22,7 +26,30 @@ class BuildingsAndBadgersSystem(object):
 buildingsAndBadgers = BuildingsAndBadgersSystem()
 
 
+class IBadgerFact(Interface):
+    """
+    A test interface for badgery.
+    """
+
+
+class IndexableBadgerFact(object):
+    """
+    Trivial layer over facts that are objects in the badger database
+    """
+    implements(IIndexable)
+    __used_for__ = IBadgerFact
+
+    def __init__(self, fact):
+        self.fact = fact
+        self.text = fact.full_text
+        self.uri = fact.id
+        self.title = fact.name
+
+globalRegistry.register([IBadgerFact], IIndexable, '', IndexableBadgerFact)
+
+
 class Building(object):
+    implements(IBadgerFact)
     def __init__(self, id, name, text):
         self.id = id
         self.name = name
@@ -30,6 +57,7 @@ class Building(object):
 
 
 class Badger(object):
+    implements(IBadgerFact)
     def __init__(self, id, name, text):
         self.id = id
         self.name = name
@@ -38,8 +66,8 @@ class Badger(object):
 
 database = {
 'badger': [
-    Badger(u'1', u'Small Badger', 'Small, pretty badger.'),
-    Badger(u'73', u'Giant Man-Eating Badger', 'Giant, hideous, bad-tempered space badger.')
+    Badger(u'1', u'Small Badger', u'Small, pretty badger.'),
+    Badger(u'73', u'Giant Man-Eating Badger', u'Giant, hideous, bad-tempered space badger.')
     ],
 
 'building': [
