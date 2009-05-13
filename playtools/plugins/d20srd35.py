@@ -51,7 +51,7 @@ class IndexableStormFact(object):
     have full_text, id and name.
     """
     implements(IIndexable)
-    __used_for__ = IRuleFact
+    __used_for__ = IStormFact
 
     SLASHRX = re.compile(r'\\([n"])')
 
@@ -70,8 +70,6 @@ class IndexableStormFact(object):
         if m.group(1) == 'n':
             return '\n'
         return m.group(1)
-
-
 
 # Use IndexableStormFact as an adapter for stormfacts to convert them to
 # IIndexable
