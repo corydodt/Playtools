@@ -8,19 +8,10 @@ import re
 from twisted.web import microdom, domhelpers
 from twisted.python import usage
 
+from playtools.interfaces import IIndexable, IRuleCollection
+
 import hypy
 
-from playtools.util import RESOURCE
-
-
-INDEX_DIRECTORY = RESOURCE('search-index')
-
-slashRx = re.compile(r'\\([n"])')
-
-def repSlash(m):
-    if m.group(1) == 'n':
-        return '\n'
-    return m.group(1)
 
 ALTRX = re.compile(r'[^a-zA-Z0-9\s]')
 def makeAltName(s):
@@ -30,36 +21,6 @@ def makeAltName(s):
     s = ' '.join(s.strip().split())
     s = ALTRX.sub('', s).lower()
     return s
-
-
-def indexItem(database, domain, item, quiet=False):
-    """
-    Take a row from an srd35 table and index it.  Assumes the table conforms
-    to the norm of:
-    .id - int id
-    .name - string name
-    .full_text - html text
-
-    Add the domain to the attributes of the thing to help filter searches
-    """
-    _ft = re.sub(slashRx, repSlash, item.full_text)
-    full = textFromHtml(_ft)
-    doc = hypy.HDocument(uri=u'%s/%s' % (domain, unicode(item.id)))
-    doc.addText(full)
-    doc[u'@name'] = item.name
-    doc[u'altname'] = makeAltName(item.name)
-    doc[u'domain'] = domain
-    # add item.name to the text so that it has extra weight in the
-    # search results
-    doc.addHiddenText(item.name)
-    # pad with the altname so exact matches come up near the top
-    doc.addHiddenText((doc[u'altname'] + " ") * 6)
-
-    database.putDoc(doc, 0)
-
-    if not quiet:
-        sys.stdout.write(".")
-        sys.stdout.flush()
 
 
 def textFromHtml(htmlText):
@@ -95,27 +56,74 @@ def find(estdb, domain, terms, max=10):
     return r
 
 
-def buildIndex(estdb, domain, items, quiet=False):
+class HypyIndexer(object):
     """
-    Build an on-disk estraier index of all the items passed in; see
-    textFromHtml for assumptions about the items.  Use the passed-in domain as
-    the domain attribute.
+    Manager for Hypy HDatabases
+    """
+    def __init__(self, path):
+        self.path = path
 
-    TODO: add a zope Interface to the classes of things that can be indexed,
-    and adapt to that.
-    """
-    for n, item in enumerate(items):
-        if n%100 == 0:
-            if not quiet:
-                sys.stdout.write("%s" % (n,))
-            estdb.flush()
-        indexItem(estdb, domain, item, quiet=quiet)
+    def buildIndex(self, collection, beQuiet=False):
+        """
+        Extract the indexable text documents from the collection and index
+        them under the named domain.
+
+        TODO: add a zope Interface to the classes of things that can be indexed,
+        and adapt to that.
+        """
+        assert IRuleCollection.providedBy(collection)
+
+        estdb = hypy.HDatabase(autoflush=False)
+        estdb.open(self.path, 'a')
+
+        items = collection.dump()
+
+        lastPct = 0
+        for n, item in enumerate(items):
+            pct = int(100.0*(float(n)/len(items)))
+            if pct%10 == 0 and lastPct != pct:
+                lastPct = pct
+                if not beQuiet:
+                    sys.stdout.write("%s%%" % (pct,))
+                estdb.flush()
+            self.indexItem(item, estdb, collection.factName, )
+            if not beQuiet:
+                sys.stdout.write(".")
+                sys.stdout.flush()
+
+        if not beQuiet:
+            sys.stdout.write("100%")
+
+    def indexItem(self, item, estdb, domain):
+        """
+        Add a single item to the Hypy index
+        """
+        item = IIndexable(item)
+
+        full = item.text
+        # TODO - this domain/uri is a little awkward if we ever use anything
+        # other than a numeric id for URI. for example, this would not look
+        # good: "spell/http://goonmill.org/2009/spells.n3#magicMissile"
+        # Would rather have domain be <http://...spells.n3#> and uri be
+        # <magicMissile>
+        doc = hypy.HDocument(uri=u'%s/%s' % (domain, unicode(item.uri)))
+        doc.addText(full)
+        doc[u'@name'] = item.title
+        doc[u'altname'] = makeAltName(item.title)
+        doc[u'domain'] = domain.decode('ascii')
+        # add item.title to the text so that it has extra weight in the
+        # search results
+        doc.addHiddenText(item.title)
+        # pad with the altname so exact matches come up near the top
+        doc.addHiddenText((doc[u'altname'] + " ") * 6)
+
+        estdb.putDoc(doc, 0)
 
 
 class Options(usage.Options):
     optParameters = [
-            ['index-dir', None, INDEX_DIRECTORY, 'Where the index will be'],
-            ['domain', None, u'monster', 'Domain (monster, spell, item...) to search inside of'],
+            ['system', None, u'D20 SRD', 'Game system to search inside of, or index'],
+            ['fact', None, u'monster', 'Fact Domain (monster, spell, item...) to search inside of'],
             ]
     optFlags = [
             ['build-index', 'b', 'Build a fresh index'],
@@ -141,22 +149,25 @@ class Options(usage.Options):
         self['terms'] = map(self.decode, terms)
 
     def postOptions(self):
-        idir = self['index-dir']
+        from playtools import fact  # import here to avoid circular import
+                                    # while fact is loading its plugins (which
+                                    # import from search, this module)
 
-        domain = self.decode(self['domain'])
+        SRD = fact.systems[self['system']]
+        idir = SRD.searchIndexPath
 
-        from playtools.query import db
+        domain = self.decode(self['fact'])
+
         if self['build-index']:
             try:
                 shutil.rmtree(idir)
             except EnvironmentError, e:
                 pass
 
-            estdb = hypy.HDatabase(autoflush=False)
-            estdb.open(idir, 'a')
-            buildIndex(estdb, u'spell', db.allSpells())
-            buildIndex(estdb, u'monster', db.allMonsters())
-            estdb.close()
+            system = fact.systems[self['system']]
+            indexer = HypyIndexer(system.searchIndexPath)
+            for collection in system.facts.values():
+                indexer.buildIndex(collection)
 
         else:
             estdb = hypy.HDatabase(autoflush=False)

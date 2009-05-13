@@ -1,19 +1,29 @@
 """
 Test search functionality
 """
+from __future__ import with_statement
+
+import operator
 import unittest
 import re
 
 from hypy import HDatabase, OpenFailed, CloseFailed
 
-from .. import search, query
+from .. import search, fact
 
-TEST_INDEX_DIRECTORY = "testindex"
+from . import gameplugin, util
 
 
-class SearchTestCase(unittest.TestCase):
+
+class SearchTest(unittest.TestCase):
     def setUp(self):
         self.index = HDatabase()
+
+        with util.pluginsLoadedFromTest():
+            systems = fact.getSystems()
+            fact.importRuleCollections(systems)
+
+        self.BADGERS = systems['Buildings & Badgers']
 
     def tearDown(self):
         try:
@@ -63,28 +73,30 @@ class SearchTestCase(unittest.TestCase):
         indexItem indexes a single item which can be found, and make sure it's
         possible to search by altname
         """
-        self.index.open(TEST_INDEX_DIRECTORY, 'w')
-        dbNinja = query.Spell()
-        dbNinja.id = 23; dbNinja.full_text = u"Hello<div>\\nmy pretty"
-        dbNinja.name = u"Ninja's Attack"
+        self.index.open(self.BADGERS.searchIndexPath, 'w')
+        indexer = search.HypyIndexer(self.BADGERS.searchIndexPath)
 
-        search.indexItem(self.index, u'ninja', dbNinja, quiet=True)
+        dbNinja = gameplugin.Badger(23, u'Ninja Badger', u"Hello<div>\\nmy pretty")
+
+        indexer.indexItem(dbNinja, self.index, u'ninja')
+        self.index.flush()
 
         self.assertEqual(len(self.index), 1)
         idxNinja = self.index[u'ninja/23']
-        self.assertEqual(idxNinja.encode('ascii'), "Hello my pretty")
+        self.assertEqual(idxNinja.encode('ascii'), "Hello<div>\\nmy pretty")
 
         # altname will be "ninjas attack" - verify this is in the draft
         draft = str(idxNinja)
-        self.assertTrue(re.search(r'\n\t.*ninjas attack\n', draft), 
-                "did not find 'ninjas attack' in the draft document")
+        self.assertTrue(re.search(r'\n\t.*ninja badger\n', draft), 
+                "did not find 'ninja badger' in the draft document")
 
     def test_find(self):
         """
-        After indexing a bunch of items, we can find the again in various
+        After indexing a bunch of items, we can find them again in various
         ways, and max is respected
         """
-        self.index.open(TEST_INDEX_DIRECTORY, 'w')
+        self.index.open(self.BADGERS.searchIndexPath, 'w')
+        indexer = search.HypyIndexer(self.BADGERS.searchIndexPath)
 
         tests = [ # {{{
                 (u"Hello<div>\\nmy pretty",                                        u"Ninja's Attack"),
@@ -96,11 +108,8 @@ class SearchTestCase(unittest.TestCase):
                 ] # }}}
 
         for n, (full_text, name) in enumerate(tests):
-            thing = query.Spell()
-            thing.id = n
-            thing.full_text = full_text
-            thing.name = name
-            search.indexItem(self.index, u'ninja', thing, quiet=True)
+            thing = gameplugin.Badger(n, name, full_text)
+            indexer.indexItem(thing, self.index, u'ninja')
 
         self.index.flush()
 
@@ -116,12 +125,11 @@ class SearchTestCase(unittest.TestCase):
         """
         An index can be built and it has spells and stuff in it.
         """
-        from .. import query
-        self.index.open(TEST_INDEX_DIRECTORY, 'w')
-        search.buildIndex(self.index, u'spell', query.db.allSpells(), quiet=True)
-        self.index.close()
-        self.index.open(TEST_INDEX_DIRECTORY, 'r')
+        _badgers = self.BADGERS.facts['badger']
+        indexer = search.HypyIndexer(self.BADGERS.searchIndexPath)
+        indexer.buildIndex(_badgers, beQuiet=True)
 
-        self.assertEqual(len(self.index), 699)
-        catsGrace = self.index[u'spell/150']
-        self.assertEqual(catsGrace[u'altname'], "cats grace")
+        self.index.open(self.BADGERS.searchIndexPath, 'r')
+        self.assertEqual(len(self.index), 2)
+        giantBadger = self.index[u'badger/73']
+        self.assertEqual(giantBadger[u'altname'], "giant maneating badger")
