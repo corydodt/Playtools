@@ -39,12 +39,15 @@ function testPython()
     fi
 }
 
-testPython "RDFlib == 2.4.1" 'from rdflib import __version__ as v; assert v>="2.4.1"'
+t='from rdflib import __version__ as v; assert v>="2.4.1", "have %s" % (v,)'
+testPython "RDFlib == 2.4.1"  "$t"
 testPython "RDFalchemy > 0.2b2" 'from rdfalchemy import rdfsSubject'
 testPython "Storm" 'import storm.locals'
 testPython "pysqlite2" 'import pysqlite2'
 testPython "simpleparse" 'import simpleparse'
 testPython "Hypy" 'from hypy import *'
+t="from twisted import __version__ as v; assert v>='2.5.0', 'Have %s' % (v,)"
+testPython "Twisted 2.5" "$t"
 testPython "Python 2.5" 'import xml.etree'
 
 if [ "$errorStatus" == "error" ]; then
@@ -61,7 +64,7 @@ if [ -n "$force" ]; then
     set +x
 fi
 
-tripledb=playtools/rdflib.db
+tripledb=playtools/plugins/srd35rdf.db
 if [ ! -r "$tripledb" ]; then
     echo ::
     echo :: $tripledb
@@ -82,7 +85,7 @@ else
     echo ::
 fi
 
-estraierindex=playtools/search-index/_idx
+estraierindex=playtools/plugins/srd35-index
 if [ ! -d "$estraierindex" ]; then
     echo ::
     echo :: $estraierindex

@@ -51,7 +51,7 @@ d20srd35 = D20SRD35System()
 # the d20srd databases are essentially static and permanent, so just open them here.
 STORE = SL.Store(SL.create_database('sqlite:' + RESOURCE('plugins/srd35.db')))
 RDFDB = S.TriplesDatabase()
-RDFDB.open(RESOURCE('rdflib.db'))
+RDFDB.open(RESOURCE('plugins/srd35rdf.db'))
 # initialize rdfalchemy mapper
 S.rdfsPTClass.db = RDFDB.graph
 
