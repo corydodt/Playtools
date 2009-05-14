@@ -59,7 +59,7 @@ if [ -n "$force" ]; then
     echo ::
     echo ':: force is in effect: removing database files!'
     set -x
-    rm -f playtools/rdflib.db*
+    rm -f playtools/plugins/srd35rdf.db*
     rm -rf playtools/plugins/srd35-index/
     set +x
 fi
