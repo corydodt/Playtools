@@ -7,26 +7,26 @@ import string
 import re
 
 from .. import fact
+from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
+
+from .util import pluck
 
 import warnings
 warnings.filterwarnings('ignore', category=SyntaxWarning)
 
+SRD = fact.systems['D20 SRD']
 
 class SRD35TestCase(unittest.TestCase):
     """
     Pull out the facts
     """
-    def setUp(self):
-        self.srd = fact.systems['D20 SRD']
-
     def test_lookup(self):
         """
         Spells and Monsters are available for lookup
         """
-        srd = self.srd
-        monsters = srd.facts['monster']
-        spells = srd.facts['spell']
+        monsters = SRD.facts['monster']
+        spells = SRD.facts['spell']
 
         def test(n,k,s):
             self.assertEqual(k.lookup(n).name, s)
@@ -42,9 +42,8 @@ class SRD35TestCase(unittest.TestCase):
         Somewhat repeats the tests in test_fact in the absence of any other
         test fixture to test that.
         """
-        srd = self.srd
-        monsters = srd.facts['monster']
-        spells = srd.facts['spell']
+        monsters = SRD.facts['monster']
+        spells = SRD.facts['spell']
         mdump = monsters.dump()
         sdump = spells.dump()
         self.assertEqual(len(mdump), 681)
@@ -57,21 +56,20 @@ class SRD35TestCase(unittest.TestCase):
         The srdReferenceURL utility method returns a good URL into
         www.d20srd.org for a given item
         """
-        srd = self.srd
-        spells = srd.facts['spell']
+        spells = SRD.facts['spell']
         cswm = spells.lookup(205)
-        self.assertEqual('http://www.d20srd.org/srd/spells/cureSeriousWoundsMass.htm',
+        self.assertEqual(u'http://www.d20srd.org/srd/spells/cureSeriousWoundsMass.htm',
                 d20srd35.srdReferenceURL(cswm))
         animusBlast = spells.lookup(15)
-        self.assertEqual('http://www.d20srd.org/srd/epic/spells/animusBlast.htm',
+        self.assertEqual(u'http://www.d20srd.org/srd/epic/spells/animusBlast.htm',
                 d20srd35.srdReferenceURL(animusBlast))
 
     def test_facts(self):
         """
         We can get a dict of fact domains that exist in a particular system
         """
-        self.assertTrue('spell' in self.srd.facts)
-        self.assertTrue('monster' in self.srd.facts)
+        self.assertTrue('spell' in SRD.facts)
+        self.assertTrue('monster' in SRD.facts)
 
     def test_schemaAccess(self):
         """
@@ -99,7 +97,7 @@ class SRD35TestCase(unittest.TestCase):
 
         # test using fact module
         def factModule(k):
-            return self.srd.facts['feat'][getattr(d20srd35.FEAT, k)]
+            return SRD.facts['feat'][getattr(d20srd35.FEAT, k)]
 
         tests(direct)
         tests(factModule)
@@ -126,7 +124,7 @@ class SRD35TestCase(unittest.TestCase):
 
         # test using fact module
         def factModule(k):
-            return self.srd.facts['skill'][getattr(d20srd35.SKILL, k)]
+            return SRD.facts['skill'][getattr(d20srd35.SKILL, k)]
 
         tests(direct)
         tests(factModule)
@@ -155,7 +153,7 @@ class SRD35TestCase(unittest.TestCase):
 
         # test using fact module
         def factModule(k):
-            return self.srd.facts['family'][getattr(d20srd35.FAM, k)]
+            return SRD.facts['family'][getattr(d20srd35.FAM, k)]
 
         tests(direct)
         tests(factModule)
@@ -165,7 +163,7 @@ class SRD35TestCase(unittest.TestCase):
         I can read off resistances and immunities from a family
         """
         # test accessing via fact module
-        angel = self.srd.facts['family'][d20srd35.FAM.angel]
+        angel = SRD.facts['family'][d20srd35.FAM.angel]
 
         resl = sorted(pluck(angel.resistances, 'attackEffect', 'label'))
         resv = sorted(pluck(angel.resistances, 'value'))
@@ -175,16 +173,11 @@ class SRD35TestCase(unittest.TestCase):
         imml = sorted(pluck(angel.immunities, 'label'))
         self.assertEqual(imml, ['Acid', 'Cold', 'Petrification'])
 
+    def test_indexable(self):
+        """
+        All collections should be indexable
+        """
+        for coll in SRD.facts.values():
+            self.assertTrue(IIndexable.providedBy(coll), "Collection %s (%s)"
+                    % (coll, coll.factName))
 
-def pluck(items, *attrs):
-    """
-    For each item return getattr(item, attrs[0]) recursively down to the
-    furthest-right attribute in attrs.
-    """
-    a = attrs[0]
-    rest = attrs[1:]
-    these = (getattr(o,a) for o in items)
-    if len(rest) == 0:
-        return these
-    else:
-        return pluck(these, *rest)
