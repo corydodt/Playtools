@@ -57,6 +57,10 @@ S.rdfsPTClass.db = RDFDB.graph
 
 
 
+## SQL/Storm-based facts
+## SQL/Storm-based facts
+## SQL/Storm-based facts
+
 class IStormFact(Interface):
     """
     The SRD/SQL facts typically all have these special attributes, useful for
@@ -263,6 +267,44 @@ def srdReferenceURL(item):
     return base % (rule(item.name),)
 
 
+
+## RDF-based facts
+## RDF-based facts
+## RDF-based facts
+
+class RDFFactCollection(object):
+    """
+    A collection of RuleFacts that are RDFalchemy-mapped objects, so we can
+    look them up or dump them.
+    """
+    implements(IRuleCollection, IPlugin)
+    systems = (D20SRD35System,)
+    def __init__(self, factClass, factName):
+        self.klass = factClass 
+        self.factName = factName
+
+    def __getitem__(self, key):
+        ret = self.lookup(key)
+        if not ret:
+            raise KeyError(key)
+        return ret
+
+    def dump(self):
+        """
+        All instances of the factClass
+        """
+        return list(self.klass.ClassInstances())
+
+    def lookup(self, uri):
+        """
+        Lookup an item by its uri.
+
+        @return an instance of the table-mapped class, e.g. Monster, Spell,
+        Feat or Skill
+        """
+        return self.klass(uri)
+
+
 class SpecialArmorClass(S.rdfsPTClass):
     """Permanent, racial modifier to armor class"""
     rdf_type = CHAR.SpecialArmorClass
@@ -354,6 +396,8 @@ class Family(S.rdfsPTClass):
     combatMechanics = rdfMultiple(PROP.combatMechanic,
             range_type=CHAR.CombatMechanic)
 
+family = RDFFactCollection(Family, 'family')
+
 
 class Ability(S.rdfsPTClass):
     """An ability score"""
@@ -382,6 +426,8 @@ class Skill(S.rdfsPTClass):
     tryAgainComment = rdfSingle(PROP.tryAgainComment)
     untrained = rdfSingle(PROP.untrained)
 
+skill = RDFFactCollection(Skill, 'skill')
+
 
 class Feat(S.rdfsPTClass):
     """A feat usable by monsters, such as Weapon Focus"""
@@ -401,6 +447,9 @@ class Feat(S.rdfsPTClass):
     choiceText = rdfSingle(PROP.choiceText)
     prerequisiteText = rdfSingle(PROP.prerequisiteText)
     noFeatComment = rdfSingle(PROP.noFeatComment)
+
+feat = RDFFactCollection(Feat, 'feat')
+
 
 
 mapper()

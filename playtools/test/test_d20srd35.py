@@ -2,7 +2,7 @@
 We shall be able to pull facts about the srd35 system out using the API
 """
 
-import unittest
+from twisted.trial import unittest
 import string
 import re
 
@@ -83,51 +83,89 @@ class SRD35TestCase(unittest.TestCase):
         """
         Verify that attributes of the feat triples are accessible
         """
-        heavy = feat('armorProficiencyHeavy')
+        def tests(F):
+            # test using direct sparqly access
+            heavy = F('armorProficiencyHeavy')
 
-        exp = '.*Armor Proficiency \(medium\).*'
-        act = heavy.prerequisiteText
+            exp = '.*Armor Proficiency \(medium\).*'
+            act = heavy.prerequisiteText
 
-        self.failIfEqual(re.match(exp, str(act)), None, "%s != %s" % (exp, act))
-        self.assertEqual(heavy.stackable, False)
+            self.failIfEqual(re.match(exp, str(act)), None, "%s !~ %s" % (exp, act))
+            self.assertEqual(heavy.stackable, False)
+
+        # test using direct sparqly access
+        def direct(k):
+            return d20srd35.Feat(getattr(d20srd35.FEAT, k))
+
+        # test using fact module
+        def factModule(k):
+            return self.srd.facts['feat'][getattr(d20srd35.FEAT, k)]
+
+        tests(direct)
+        tests(factModule)
 
     def test_skill(self):
         """
         Verify that attributes of the skill triples are accessible
         """
-        cha = d20srd35.Ability(d20srd35.CHAR.cha)
-        self.assertEqual(str(cha.label), 'Cha')
+        def tests(F):
+            # test using direct sparqly access
+            cha = d20srd35.Ability(d20srd35.CHAR.cha)
+            self.assertEqual(str(cha.label), 'Cha')
 
-        dipl = skill('diplomacy')
+            dipl = F('diplomacy')
 
-        self.assertEqual(str(dipl.keyAbility.label), 'Cha')
-        # TODO - should be able to get an integer here straight from the API,
-        # oh well
-        self.assertEqual(int(dipl.synergy[0].bonus), 2)
+            self.assertEqual(str(dipl.keyAbility.label), 'Cha')
+            # TODO - should be able to get an integer here straight from the API,
+            # oh well
+            self.assertEqual(int(dipl.synergy[0].bonus), 2)
+
+        # test using direct sparqly access
+        def direct(k):
+            return d20srd35.Skill(getattr(d20srd35.SKILL, k))
+
+        # test using fact module
+        def factModule(k):
+            return self.srd.facts['skill'][getattr(d20srd35.SKILL, k)]
+
+        tests(direct)
+        tests(factModule)
 
     def test_family(self):
         """
         Verify that attributes of the family triples are accessible
         """
-        F = family
-        self.assertEqual(len(F('devil').languages), 3)
+        def tests(F):
+            self.assertEqual(len(F('devil').languages), 3)
 
-        mechs = sorted(F('ooze').combatMechanics)
-        self.assertEqual(str(mechs[0].label), 'Not subject to critical hits')
+            mechs = sorted(F('ooze').combatMechanics)
+            self.assertEqual(str(mechs[0].label), 'Not subject to critical hits')
 
-        sqs = sorted(F('undead').specialQualities)
-        self.assertEqual(str(sqs[0].comment), 
-            'Cannot be raised or resurrected.')
-        self.assertEqual(len(F('construct').combatMechanics), 8)
+            sqs = sorted(F('undead').specialQualities)
+            self.assertEqual(str(sqs[0].comment), 
+                'Cannot be raised or resurrected.')
+            self.assertEqual(len(F('construct').combatMechanics), 8)
 
-        senses = sorted(F('fey').senses)
-        self.assertEqual(str(senses[0].label), 'Low-Light Vision')
+            senses = sorted(F('fey').senses)
+            self.assertEqual(str(senses[0].label), 'Low-Light Vision')
+
+        # test using direct sparqly access
+        def direct(k):
+            return d20srd35.Family(getattr(d20srd35.FAM, k))
+
+        # test using fact module
+        def factModule(k):
+            return self.srd.facts['family'][getattr(d20srd35.FAM, k)]
+
+        tests(direct)
+        tests(factModule)
 
     def test_resistancesAndImmunities(self):
         """
         I can read off resistances and immunities from a family
         """
-        angel = family('angel')
+        # test accessing via fact module
+        angel = self.srd.facts['family'][d20srd35.FAM.angel]
 
         resl = sorted(pluck(angel.resistances, 'attackEffect', 'label'))
         resv = sorted(pluck(angel.resistances, 'value'))
@@ -137,15 +175,6 @@ class SRD35TestCase(unittest.TestCase):
         imml = sorted(pluck(angel.immunities, 'label'))
         self.assertEqual(imml, ['Acid', 'Cold', 'Petrification'])
 
-
-def skill(k):
-    return d20srd35.Skill(getattr(d20srd35.SKILL, k))
-
-def feat(k):
-    return d20srd35.Feat(getattr(d20srd35.FEAT, k))
-
-def family(k):
-    return d20srd35.Family(getattr(d20srd35.FAM, k))
 
 def pluck(items, *attrs):
     """
