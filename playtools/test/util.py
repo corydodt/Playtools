@@ -140,3 +140,16 @@ def pluginsLoadedFromTest():
         pkg = test
         pkg.__path__ = orig__path__
 
+
+def pluck(items, *attrs):
+    """
+    For each item return getattr(item, attrs[0]) recursively down to the
+    furthest-right attribute in attrs.
+    """
+    a = attrs[0]
+    rest = attrs[1:]
+    these = (getattr(o,a) for o in items)
+    if len(rest) == 0:
+        return these
+    else:
+        return pluck(these, *rest)
