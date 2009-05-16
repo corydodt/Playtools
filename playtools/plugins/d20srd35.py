@@ -23,6 +23,9 @@ from rdfalchemy import rdfSingle, rdfMultiple
 from rdfalchemy.orm import mapper
 
 
+from d20srd35config import SQLPATH, RDFPATH
+
+
 FAM = NS('http://goonmill.org/2007/family.n3#')
 CHAR = NS('http://goonmill.org/2007/characteristic.n3#')
 DICE = NS('http://goonmill.org/2007/dice.n3#')
@@ -49,9 +52,9 @@ d20srd35 = D20SRD35System()
 
 
 # the d20srd databases are essentially static and permanent, so just open them here.
-STORE = SL.Store(SL.create_database('sqlite:' + RESOURCE('plugins/srd35.db')))
+STORE = SL.Store(SL.create_database('sqlite:' + SQLPATH))
 RDFDB = S.TriplesDatabase()
-RDFDB.open(RESOURCE('plugins/srd35rdf.db'))
+RDFDB.open(RDFPATH)
 # initialize rdfalchemy mapper
 S.rdfsPTClass.db = RDFDB.graph
 
