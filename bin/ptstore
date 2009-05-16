@@ -2,6 +2,7 @@
 """
 Tool to manipulate SQLite-backed triples databases.
 """
+import warnings as w; w.filterwarnings('ignore')
 import sys, os
 import cmd
 import pprint
