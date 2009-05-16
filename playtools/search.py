@@ -153,8 +153,8 @@ class Options(usage.Options):
                                     # while fact is loading its plugins (which
                                     # import from search, this module)
 
-        SRD = fact.systems[self['system']]
-        idir = SRD.searchIndexPath
+        system = fact.systems[self['system']]
+        idir = system.getResourcePaths()['searchIndexPath']
 
         domain = self.decode(self['fact'])
 
