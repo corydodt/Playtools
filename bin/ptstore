@@ -73,7 +73,7 @@ class OpenCommand(usage.Options):
         self.open()
 
     def open(self):
-        tdb = TriplesDatabase('#')
+        tdb = TriplesDatabase()
         tdb.open(self['filename'])
         ex = Explorer(tdb)
         ex.cmdloop()
