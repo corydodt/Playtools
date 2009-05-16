@@ -14,7 +14,6 @@ from .. import search, fact
 from . import gameplugin, util
 
 
-
 class SearchTest(unittest.TestCase):
     def setUp(self):
         self.index = HDatabase()
