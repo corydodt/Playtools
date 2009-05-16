@@ -309,6 +309,8 @@ class SpecialArmorClass(S.rdfsPTClass):
     """Permanent, racial modifier to armor class"""
     rdf_type = CHAR.SpecialArmorClass
 
+specialAC = RDFFactCollection(SpecialArmorClass, 'specialAC')
+
 
 class Aura(S.rdfsPTClass):
     """
@@ -451,6 +453,6 @@ class Feat(S.rdfsPTClass):
 feat = RDFFactCollection(Feat, 'feat')
 
 
-
 mapper()
+
 
