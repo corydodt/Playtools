@@ -154,7 +154,7 @@ class Options(usage.Options):
                                     # import from search, this module)
 
         system = fact.systems[self['system']]
-        idir = system.getResourcePaths()['searchIndexPath']
+        idir = system.searchIndexPath
 
         domain = self.decode(self['fact'])
 
