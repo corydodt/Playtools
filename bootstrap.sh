@@ -20,7 +20,7 @@ export errorStatus=""
 
 function runpy()
 {
-    echo $(python -c "$1" 2>&1)
+    echo $(python -Wignore -c "$1" 2>&1)
 }
 
 function testPython()
@@ -69,10 +69,14 @@ if [ -n "$force" ]; then
     set +x
 fi
 
-tripledb=playtools/plugins/srd35rdf.db
+t='from warnings import filterwarnings as f; f("ignore")
+from playtools.plugins.d20srd35config import RDFPATH
+print RDFPATH'
+tripledb=$(runpy "$t")
 if [ ! -r "$tripledb" ]; then
     echo ::
     echo :: $tripledb
+    export PATH="$PATH":`pwd`/bin
     ptstore create $tripledb
     ns=("--n3 http://www.w3.org/2000/01/rdf-schema#"
         "--n3 http://goonmill.org/2007/family.n3#"
@@ -95,7 +99,7 @@ estraierindex=playtools/plugins/srd35-index
 if [ ! -d "$estraierindex" ]; then
     echo ::
     echo :: $estraierindex
-    python playtools/search.py --build-index
+    python -Wignore playtools/search.py --build-index
     echo
 else
     echo "** ${estraierindex} already exists, not willing to overwrite it!"
