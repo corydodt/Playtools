@@ -18,6 +18,11 @@ EOF
 
 export errorStatus=""
 
+function runpy()
+{
+    echo $(python -c "$1" 2>&1)
+}
+
 function testPython()
 # Use: testPython "Software name" "python code"
 #  If "python code" has no output, we pass.
@@ -29,7 +34,7 @@ function testPython()
 #  redirect to stdout.
 {
     software="$1"
-    line=$(python -c "$2" 2>&1 | tail -1)
+    line=$(runpy "$2" | tail -1)
 
     if [ -n "$line" ]; then
         echo "** Install $software ($line)"
@@ -76,6 +81,7 @@ if [ ! -r "$tripledb" ]; then
         "--n3 http://goonmill.org/2007/skill.n3#"
         "--n3 http://goonmill.org/2007/feat.n3#"
         "--n3 http://goonmill.org/2009/statblock.n3#"
+        "--n3 http://goonmill.org/2007/specialAbility.n3#"
         )
     ptstore pull --verbose ${ns[@]} $tripledb || exit 1
 else
