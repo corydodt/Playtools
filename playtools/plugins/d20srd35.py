@@ -322,10 +322,14 @@ class Aura(S.rdfsPTClass):
     """
     rdf_type = CHAR.Aura
 
+aura = RDFFactCollection(Aura, 'aura')
+
 
 class SpecialAction(S.rdfsPTClass):
     """Something a creature can do besides attack"""
     rdf_type = CHAR.SpecialAction
+
+specialAction = RDFFactCollection(SpecialAction, 'specialAction')
 
 
 class AttackEffect(S.rdfsPTClass):
