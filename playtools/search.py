@@ -46,7 +46,7 @@ def fuzzyQuoteTerm(t):
 def find(estdb, domain, terms, max=10):
     """Use an estraier index to find monsters or other things"""
     fuzzy = [fuzzyQuoteTerm(t) for t in terms]
-    phrase = ' '.join(fuzzy)
+    phrase = u' '.join(fuzzy)
 
     query = hypy.HCondition(phrase, matching='simple', max=max)
     query.addAttr(u'domain STREQ %s' % (domain,))
