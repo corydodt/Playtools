@@ -166,7 +166,8 @@ class Options(usage.Options):
 
             system = fact.systems[self['system']]
             indexer = HypyIndexer(system.searchIndexPath)
-            for collection in system.facts.values():
+            for name, collection in system.facts.items():
+                print '%s:'%(name,),
                 indexer.buildIndex(collection)
 
         else:

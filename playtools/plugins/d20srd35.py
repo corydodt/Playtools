@@ -349,9 +349,10 @@ class SpecialArmorClass(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this special AC
+        The indexable text of this family
         """
-        foo
+        t = unicode(self.comment)
+        return t or unicode(self.label)
 
 specialAC = RDFFactCollection(SpecialArmorClass, 'specialAC')
 
@@ -366,9 +367,10 @@ class Aura(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this aura
+        The indexable text of this family
         """
-        foo
+        t = unicode(self.comment)
+        return t or unicode(self.label)
 
 aura = RDFFactCollection(Aura, 'aura')
 
@@ -380,9 +382,10 @@ class SpecialAction(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this special action
+        The indexable text of this family
         """
-        foo
+        t = unicode(self.comment)
+        return t or unicode(self.label)
 
 specialAction = RDFFactCollection(SpecialAction, 'specialAction')
 
@@ -500,12 +503,20 @@ class Skill(S.rdfsPTClass):
     skillCheck = rdfSingle(PROP.skillCheck)
     tryAgainComment = rdfSingle(PROP.tryAgainComment)
     untrained = rdfSingle(PROP.untrained)
+    comment = rdfSingle(RDFSNS.comment)
 
     def collectText(self):
         """
         The indexable text of this skill
         """
-        foo
+        addl = self.additional or u''
+        epic = self.epicUse or u''
+        act = self.skillAction or u''
+        chk = self.skillCheck or u''
+        cm = self.comment or u''
+        again = self.tryAgainComment or u''
+        un = self.untrained or u''
+        return u' '.join([cm, act, chk, un, again, epic, addl])
 
 skill = RDFFactCollection(Skill, 'skill')
 
@@ -530,12 +541,20 @@ class Feat(S.rdfsPTClass):
     choiceText = rdfSingle(PROP.choiceText)
     prerequisiteText = rdfSingle(PROP.prerequisiteText)
     noFeatComment = rdfSingle(PROP.noFeatComment)
+    comment = rdfSingle(RDFSNS.comment)
 
     def collectText(self):
         """
-        The indexable text of this feat
+        The indexable text of this skill
         """
-        foo
+        cm = self.comment or u''
+        ben = self.benefit or u''
+        prereq = self.prerequisiteText or u''
+        choice = self.choiceText or u''
+        addl = self.additional or u''
+        nofeat = self.noFeatComment or u''
+        return u' '.join([cm, ben, prereq, choice, nofeat, addl])
+
 
 feat = RDFFactCollection(Feat, 'feat')
 
