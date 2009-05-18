@@ -25,6 +25,7 @@ from rdfalchemy.orm import mapper
 
 from d20srd35config import SQLPATH, RDFPATH
 
+RDFSNS = S.RDFSNS
 
 FAM = NS('http://goonmill.org/2007/family.n3#')
 CHAR = NS('http://goonmill.org/2007/characteristic.n3#')
@@ -275,6 +276,38 @@ def srdReferenceURL(item):
 ## RDF-based facts
 ## RDF-based facts
 
+class IRDFFact(Interface):
+    """
+    The SRD/RDF facts typically all have these special attributes, useful for
+    various reasons.
+    """
+    label = Attribute("label")
+
+    def collectText():
+        """
+        Collect all of the human-viewable text.
+        """
+
+
+class IndexableRDFFact(object):
+    """
+    Trivial layer over facts that are objects in the SRD/RDF, all of which
+    have the necessary properties.
+    """
+    implements(IIndexable)
+    __used_for__ = IRDFFact
+
+    def __init__(self, fact):
+        self.fact = fact
+        self.text = fact.collectText()
+        self.uri = unicode(fact.resUri)
+        self.title = unicode(fact.label)
+
+# Use IndexableStormFact as an adapter for stormfacts to convert them to
+# IIndexable
+globalRegistry.register([IRDFFact], IIndexable, '', IndexableRDFFact)
+
+
 class RDFFactCollection(object):
     """
     A collection of RuleFacts that are RDFalchemy-mapped objects, so we can
@@ -311,6 +344,13 @@ class RDFFactCollection(object):
 class SpecialArmorClass(S.rdfsPTClass):
     """Permanent, racial modifier to armor class"""
     rdf_type = CHAR.SpecialArmorClass
+    implements(IRDFFact)
+
+    def collectText(self):
+        """
+        The indexable text of this special AC
+        """
+        foo
 
 specialAC = RDFFactCollection(SpecialArmorClass, 'specialAC')
 
@@ -321,6 +361,13 @@ class Aura(S.rdfsPTClass):
     creature.
     """
     rdf_type = CHAR.Aura
+    implements(IRDFFact)
+
+    def collectText(self):
+        """
+        The indexable text of this aura
+        """
+        foo
 
 aura = RDFFactCollection(Aura, 'aura')
 
@@ -328,6 +375,13 @@ aura = RDFFactCollection(Aura, 'aura')
 class SpecialAction(S.rdfsPTClass):
     """Something a creature can do besides attack"""
     rdf_type = CHAR.SpecialAction
+    implements(IRDFFact)
+
+    def collectText(self):
+        """
+        The indexable text of this special action
+        """
+        foo
 
 specialAction = RDFFactCollection(SpecialAction, 'specialAction')
 
@@ -392,6 +446,9 @@ class MoveMechanic(S.rdfsPTClass):
 class Family(S.rdfsPTClass):
     """A family of monster with shared characteristics"""
     rdf_type = CHAR.Family
+    implements(IRDFFact)
+
+    comment = rdfSingle(RDFSNS.comment)
     senses = rdfMultiple(PROP.sense, range_type=CHAR.Sense)
     languages = rdfMultiple(PROP.language, range_type=CHAR.Language)
     immunities = rdfMultiple(PROP.immunity, range_type=CHAR.Immunity)
@@ -404,6 +461,13 @@ class Family(S.rdfsPTClass):
             range_type=CHAR.SpecialQuality)
     combatMechanics = rdfMultiple(PROP.combatMechanic,
             range_type=CHAR.CombatMechanic)
+
+    def collectText(self):
+        """
+        The indexable text of this family
+        """
+        t = unicode(self.comment)
+        return textFromHtml(t or u'<p>NO_TEXT_HERE</p>')
 
 family = RDFFactCollection(Family, 'family')
 
@@ -425,6 +489,7 @@ class SkillSynergy(S.rdfsPTClass):
 class Skill(S.rdfsPTClass):
     """A skill usable by monsters, such as Diplomacy"""
     rdf_type = CHAR.Skill
+    implements(IRDFFact)
 
     keyAbility = rdfSingle(PROP.keyAbility, range_type=CHAR.AbilityScore)
     synergy = rdfMultiple(PROP.synergy, range_type=CHAR.SkillSynergy)
@@ -435,12 +500,20 @@ class Skill(S.rdfsPTClass):
     tryAgainComment = rdfSingle(PROP.tryAgainComment)
     untrained = rdfSingle(PROP.untrained)
 
+    def collectText(self):
+        """
+        The indexable text of this skill
+        """
+        foo
+
 skill = RDFFactCollection(Skill, 'skill')
 
 
 class Feat(S.rdfsPTClass):
     """A feat usable by monsters, such as Weapon Focus"""
     rdf_type = CHAR.Feat
+    implements(IRDFFact)
+
     stackable = S.rdfIsInstance(CHAR.StackableFeat)
     canTakeMultiple = S.rdfIsInstance(CHAR.CanTakeMultipleFeat)
     epic = S.rdfIsInstance(CHAR.EpicFeat)
@@ -457,9 +530,14 @@ class Feat(S.rdfsPTClass):
     prerequisiteText = rdfSingle(PROP.prerequisiteText)
     noFeatComment = rdfSingle(PROP.noFeatComment)
 
+    def collectText(self):
+        """
+        The indexable text of this feat
+        """
+        foo
+
 feat = RDFFactCollection(Feat, 'feat')
 
 
 mapper()
-
 
