@@ -6,13 +6,34 @@ import re
 from zope.interface import implements, Interface, Attribute
 
 from twisted.plugin import IPlugin
+from twisted.python import log
+
 from storm import locals as SL
 
-from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
+from playtools.interfaces import (IRuleSystem, IRuleCollection,
     IIndexable)
 from playtools.util import RESOURCE
-from playtools import globalRegistry
+from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
+
+from rdflib.Namespace import Namespace as NS
+from rdflib import RDF
+
+from rdfalchemy import rdfSingle, rdfMultiple
+from rdfalchemy.orm import mapper
+
+
+from d20srd35config import SQLPATH, RDFPATH
+
+RDFSNS = S.RDFSNS
+
+FAM = NS('http://goonmill.org/2007/family.n3#')
+CHAR = NS('http://goonmill.org/2007/characteristic.n3#')
+DICE = NS('http://goonmill.org/2007/dice.n3#')
+PCCLASS = NS('http://goonmill.org/2007/pcclass.n3#')
+PROP = NS('http://goonmill.org/2007/property.n3#')
+SKILL = NS('http://goonmill.org/2007/skill.n3#')
+FEAT = NS('http://goonmill.org/2007/feat.n3#')
 
 
 class D20SRD35System(object):
@@ -31,9 +52,18 @@ class D20SRD35System(object):
 d20srd35 = D20SRD35System()
 
 
-# the d20srd database is essentially static and permanent, so just open it here.
-STORE = SL.Store(SL.create_database('sqlite:' + RESOURCE('plugins/srd35.db')))
+# the d20srd databases are essentially static and permanent, so just open them here.
+STORE = SL.Store(SL.create_database('sqlite:' + SQLPATH))
+RDFDB = S.TriplesDatabase()
+RDFDB.open(RDFPATH)
+# initialize rdfalchemy mapper
+S.rdfsPTClass.db = RDFDB.graph
 
+
+
+## SQL/Storm-based facts
+## SQL/Storm-based facts
+## SQL/Storm-based facts
 
 class IStormFact(Interface):
     """
@@ -120,10 +150,9 @@ class StormFactCollection(object):
 
 class Monster(object):
     """A Monster mapped from the db"""
-    implements(IRuleFact, IPlugin, IStormFact)
+    implements(IStormFact)
 
     __storm_table__ = 'monster'
-    factName = __storm_table__
 
     id = SL.Int(primary=True)                #
     name = SL.Unicode()                      
@@ -170,10 +199,9 @@ monsterCollection = StormFactCollection(Monster, 'monster')
 
 class Spell(object):
     """A spell"""
-    implements(IRuleFact, IPlugin, IStormFact)
+    implements(IStormFact)
 
     __storm_table__ = 'spell'
-    factName = __storm_table__
 
     id = SL.Int(primary=True)                #
     name = SL.Unicode()
@@ -242,4 +270,294 @@ def srdReferenceURL(item):
     base, rule = mapper[item.reference]
     return base % (rule(item.name),)
 
+
+
+## RDF-based facts
+## RDF-based facts
+## RDF-based facts
+
+class IRDFFact(Interface):
+    """
+    The SRD/RDF facts typically all have these special attributes, useful for
+    various reasons.
+    """
+    label = Attribute("label")
+
+    def collectText():
+        """
+        Collect all of the human-viewable text.
+        """
+
+
+class IndexableRDFFact(object):
+    """
+    Trivial layer over facts that are objects in the SRD/RDF, all of which
+    have the necessary properties.
+    """
+    implements(IIndexable)
+    __used_for__ = IRDFFact
+
+    def __init__(self, fact):
+        self.fact = fact
+        self.text = fact.collectText()
+        self.uri = unicode(fact.resUri)
+        self.title = unicode(fact.label)
+
+# Use IndexableStormFact as an adapter for stormfacts to convert them to
+# IIndexable
+globalRegistry.register([IRDFFact], IIndexable, '', IndexableRDFFact)
+
+
+class RDFFactCollection(object):
+    """
+    A collection of RuleFacts that are RDFalchemy-mapped objects, so we can
+    look them up or dump them.
+    """
+    implements(IRuleCollection, IPlugin)
+    systems = (D20SRD35System,)
+    def __init__(self, factClass, factName):
+        self.klass = factClass 
+        self.factName = factName
+
+    def __getitem__(self, key):
+        ret = self.lookup(key)
+        if not ret:
+            raise KeyError(key)
+        return ret
+
+    def dump(self):
+        """
+        All instances of the factClass
+        """
+        return list(self.klass.ClassInstances())
+
+    def lookup(self, uri):
+        """
+        Lookup an item by its uri.
+
+        @return an instance of the table-mapped class, e.g. Monster, Spell,
+        Feat or Skill
+        """
+        r = self.klass(u'<%s>' % (uri,))
+        return r
+
+
+class SpecialArmorClass(S.rdfsPTClass):
+    """Permanent, racial modifier to armor class"""
+    rdf_type = CHAR.SpecialArmorClass
+    implements(IRDFFact)
+
+    def collectText(self):
+        """
+        The indexable text of this family
+        """
+        t = unicode(self.comment)
+        return t or unicode(self.label)
+
+specialAC = RDFFactCollection(SpecialArmorClass, 'specialAC')
+
+
+class Aura(S.rdfsPTClass):
+    """
+    Permanent effect that extends some distance around the body of the
+    creature.
+    """
+    rdf_type = CHAR.Aura
+    implements(IRDFFact)
+
+    def collectText(self):
+        """
+        The indexable text of this family
+        """
+        t = unicode(self.comment)
+        return t or unicode(self.label)
+
+aura = RDFFactCollection(Aura, 'aura')
+
+
+class SpecialAction(S.rdfsPTClass):
+    """Something a creature can do besides attack"""
+    rdf_type = CHAR.SpecialAction
+    implements(IRDFFact)
+
+    def collectText(self):
+        """
+        The indexable text of this family
+        """
+        t = unicode(self.comment)
+        return t or unicode(self.label)
+
+specialAction = RDFFactCollection(SpecialAction, 'specialAction')
+
+
+class AttackEffect(S.rdfsPTClass):
+    """Some type of damage such as cold or non-magical"""
+    rdf_type = CHAR.AttackEffect
+
+
+class Resistance(S.rdfsPTClass):
+    """A resistance possessed by monsters"""
+    rdf_type = CHAR.Resistance
+
+    attackEffect = rdfSingle(PROP.attackEffect, range_type=CHAR.AttackEffect)
+    value = rdfSingle(RDF.value)
+
+    ## def __repr__(self):
+    ##     return '<%s to %s>' % (self.__class__.__name__, self.attackEffect.label)
+
+
+class Vulnerability(S.rdfsPTClass):
+    """A vulnerability possessed by monsters"""
+    rdf_type = CHAR.Vulnerability
+
+
+class Immunity(S.rdfsPTClass):
+    """An immunity possessed by monsters"""
+    rdf_type = CHAR.Immunity
+
+
+class Sense(S.rdfsPTClass):
+    """A notable sense possessed by monsters, such as darkvision"""
+    rdf_type = CHAR.Sense
+    range = rdfSingle(PROP.range)
+
+
+class Language(S.rdfsPTClass):
+    """A language understood by monsters"""
+    rdf_type = CHAR.Language
+
+
+class SpecialAbility(S.rdfsPTClass):
+    """A notable ability of any kind that isn't a standard combat mechanic"""
+    rdf_type = CHAR.SpecialAbility
+
+
+class SpecialQuality(S.rdfsPTClass):
+    """A notable quality possessed by the creature that is always on"""
+    rdf_type = CHAR.SpecialQuality
+
+
+class CombatMechanic(S.rdfsPTClass):
+    """A special combat mechanic that applies to this creature"""
+    rdf_type = CHAR.CombatMechanic
+
+
+class MoveMechanic(S.rdfsPTClass):
+    """A special move mechanic that applies to this creature"""
+    rdf_type = CHAR.MoveMechanic
+
+
+class Family(S.rdfsPTClass):
+    """A family of monster with shared characteristics"""
+    rdf_type = CHAR.Family
+    implements(IRDFFact)
+
+    comment = rdfSingle(RDFSNS.comment)
+    senses = rdfMultiple(PROP.sense, range_type=CHAR.Sense)
+    languages = rdfMultiple(PROP.language, range_type=CHAR.Language)
+    immunities = rdfMultiple(PROP.immunity, range_type=CHAR.Immunity)
+    resistances = rdfMultiple(PROP.resistance, range_type=CHAR.Resistance)
+    vulnerabilities = rdfMultiple(PROP.vulnerability,
+            range_type=CHAR.Vulnerability)
+    specialAbilities = rdfMultiple(PROP.specialAbility,
+            range_type=CHAR.SpecialAbility)
+    specialQualities = rdfMultiple(PROP.specialQuality,
+            range_type=CHAR.SpecialQuality)
+    combatMechanics = rdfMultiple(PROP.combatMechanic,
+            range_type=CHAR.CombatMechanic)
+
+    def collectText(self):
+        """
+        The indexable text of this family
+        """
+        t = unicode(self.comment)
+        return textFromHtml(t or u'<p>NO_TEXT_HERE</p>')
+
+family = RDFFactCollection(Family, 'family')
+
+
+class Ability(S.rdfsPTClass):
+    """An ability score"""
+    rdf_type = CHAR.AbilityScore
+
+
+class SkillSynergy(S.rdfsPTClass):
+    """A skill synergy"""
+    rdf_type = CHAR.SkillSynergy
+
+    bonus = rdfSingle(PROP.bonus)
+    synergyComment = rdfSingle(PROP.synergyComment)
+    otherSkill = rdfSingle(PROP.fromSkill, range_type=CHAR.Skill)
+
+
+class Skill(S.rdfsPTClass):
+    """A skill usable by monsters, such as Diplomacy"""
+    rdf_type = CHAR.Skill
+    implements(IRDFFact)
+
+    keyAbility = rdfSingle(PROP.keyAbility, range_type=CHAR.AbilityScore)
+    synergy = rdfMultiple(PROP.synergy, range_type=CHAR.SkillSynergy)
+    additional = rdfSingle(PROP.additional)
+    epicUse = rdfSingle(PROP.epicUse)
+    skillAction = rdfSingle(PROP.skillAction)
+    skillCheck = rdfSingle(PROP.skillCheck)
+    tryAgainComment = rdfSingle(PROP.tryAgainComment)
+    untrained = rdfSingle(PROP.untrained)
+    comment = rdfSingle(RDFSNS.comment)
+
+    def collectText(self):
+        """
+        The indexable text of this skill
+        """
+        addl = self.additional or u''
+        epic = self.epicUse or u''
+        act = self.skillAction or u''
+        chk = self.skillCheck or u''
+        cm = self.comment or u''
+        again = self.tryAgainComment or u''
+        un = self.untrained or u''
+        return u' '.join([cm, act, chk, un, again, epic, addl])
+
+skill = RDFFactCollection(Skill, 'skill')
+
+
+class Feat(S.rdfsPTClass):
+    """A feat usable by monsters, such as Weapon Focus"""
+    rdf_type = CHAR.Feat
+    implements(IRDFFact)
+
+    stackable = S.rdfIsInstance(CHAR.StackableFeat)
+    canTakeMultiple = S.rdfIsInstance(CHAR.CanTakeMultipleFeat)
+    epic = S.rdfIsInstance(CHAR.EpicFeat)
+    psionic = S.rdfIsInstance(CHAR.PsionicFeat)
+    isArmorClassFeat = S.rdfIsInstance(CHAR.ArmorClassFeat)
+    isAttackOptionFeat = S.rdfIsInstance(CHAR.AttackOptionFeat)
+    isSpecialActionFeat = S.rdfIsInstance(CHAR.SpecialActionFeat)
+    isRangedAttackFeat = S.rdfIsInstance(CHAR.RangedAttackFeat)
+    isSpeedFeat = S.rdfIsInstance(CHAR.SpeedFeat)
+
+    additional = rdfSingle(PROP.additional)
+    benefit = rdfSingle(PROP.benefit)
+    choiceText = rdfSingle(PROP.choiceText)
+    prerequisiteText = rdfSingle(PROP.prerequisiteText)
+    noFeatComment = rdfSingle(PROP.noFeatComment)
+    comment = rdfSingle(RDFSNS.comment)
+
+    def collectText(self):
+        """
+        The indexable text of this skill
+        """
+        cm = self.comment or u''
+        ben = self.benefit or u''
+        prereq = self.prerequisiteText or u''
+        choice = self.choiceText or u''
+        addl = self.additional or u''
+        nofeat = self.noFeatComment or u''
+        return u' '.join([cm, ben, prereq, choice, nofeat, addl])
+
+
+feat = RDFFactCollection(Feat, 'feat')
+
+
+mapper()
 

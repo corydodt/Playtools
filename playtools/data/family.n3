@@ -19,6 +19,28 @@
 .
 
 :aberration
+    rdfs:comment """<p>An aberration has a bizarre anatomy, strange abilities, an alien mindset, or any combination of the three.</p>
+<h5>Features</h5>
+<p>
+An aberration has the following features.
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+An aberration possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a>. If generally humanoid in form, proficient with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a> and any weapon it is described as using.</li>
+<li>Proficient with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Aberrations not indicated as wearing armor are not proficient with armor. Aberrations are proficient with shields if they are proficient with any form of armor.</li>
+<li>Aberrations eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -29,6 +51,32 @@
 .
 
 :animal
+    rdfs:comment """<p>An animal is a living, nonhuman creature, usually a vertebrate with no magical abilities and no innate capacity for language or culture.</p>
+<h5>Features</h5>
+<p>
+An animal has the following features (unless otherwise noted in a creature&#x2019;s entry).
+
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude</a> and <a href="/srd/combat/combatStatistics.htm#reflex">Reflex saves</a> (certain animals have different good saves, for instance <a href="/srd/monsters/direAnimal.htm">dire animals</a> have good <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude</a>, <a href="/srd/combat/combatStatistics.htm#reflex">Reflex</a>, and <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>).</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+An animal possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li>Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).</li>
+<li><a href="/srd/specialAbilities.htm#lowLightVision">Low-light vision</a>.</li>
+<li>Alignment: Always neutral.</li>
+<li>Treasure: None.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only. A noncombative herbivore uses its natural weapons as a secondary attack. Such attacks are made with a -5 penalty on the creature&#x2019;s <a href="/srd/combat/combatStatistics.htm#attackRoll">attack rolls</a>, and the animal receives only 1/2 its Strength modifier as a damage adjustment.</li>
+<li>Proficient with no armor unless trained for war.</li>
+<li>Animals eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -43,6 +91,80 @@
 .
 
 :construct
+    rdfs:comment """<p>A construct is an <a href="/srd/monsters/animatedObject.htm">animated object</a> or artificially constructed creature.</p>
+<h5>Features</h5>
+<p>
+A construct has the following features.
+</p>
+<ul>
+<li>10-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>No good <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throws</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die, if the construct has an Intelligence score. However, most constructs are mindless and gain no skill points or feats.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A construct possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<table cellspacing="0" class="right">
+<tr>
+  <th align="left">Construct Size</th>
+  <th>Bonus<br/>Hit Points</th>
+</tr>
+<tr class="odd">
+  <td>Fine</td>
+  <td align="center">&#x2014;</td>
+</tr>
+<tr class="even">
+  <td>Diminutive</td>
+  <td align="center">&#x2014;</td>
+</tr>
+<tr class="odd">
+  <td>Tiny</td>
+  <td align="center">&#x2014;</td>
+</tr>
+<tr class="even">
+  <td>Small</td>
+  <td align="center">10</td>
+</tr>
+<tr class="odd">
+  <td>Medium</td>
+  <td align="center">20</td>
+</tr>
+<tr class="even">
+  <td>Large</td>
+  <td align="center">30</td>
+</tr>
+<tr class="odd">
+  <td>Huge</td>
+  <td align="center">40</td>
+</tr>
+<tr class="even">
+  <td>Gargantuan</td>
+  <td align="center">60</td>
+</tr>
+<tr class="odd">
+  <td>Colossal</td>
+  <td align="center">80</td>
+</tr>
+</table>
+<ul>
+<li>No Constitution score.</li>
+<li><a href="/srd/specialAbilities.htm#lowLightVision">Low-light vision</a>.</li>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li>Immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</li>
+<li>Immunity to <a href="/srd/specialAbilities.htm#poison">poison</a>, <a class="spell" href="/srd/spells/sleep.htm">sleep</a> effects, <a href="/srd/specialAbilities.htm#paralysis">paralysis</a>, <a href="/srd/conditionSummary.htm#stunned">stunning</a>, <a href="/srd/specialAbilities.htm#disease">disease</a>, <a href="/srd/specialAbilities.htm#deathAttacks">death effects</a>, and necromancy effects.</li>
+<li>Cannot heal damage on their own, but often can be repaired by exposing them to a certain kind of effect (see the creature&#x2019;s description for details) or through the use of the <a href="/srd/monsterFeats.htm#craftConstruct">Craft Construct</a> feat. A construct with the <a href="/srd/specialAbilities.htm#fastHealing">fast healing</a> special quality still benefits from that quality.</li>
+<li>Not subject to <a href="/srd/combat/actionsInCombat.htm#criticalHits">critical hits</a>, <a href="/srd/combat/injuryandDeath.htm#nonlethalDamage">nonlethal damage</a>, <a href="/srd/specialAbilities.htm#abilityDamage">ability damage</a>, <a href="/srd/specialAbilities.htm#abilityDrain">ability drain</a>, <a href="/srd/conditionSummary.htm#fatigued">fatigue</a>, <a href="/srd/conditionSummary.htm#exhausted">exhaustion</a>, or <a href="/srd/specialAbilities.htm#energyDrainAndNegativeLevels">energy drain</a>.</li>
+<li>Immunity to any effect that requires a <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude save</a> (unless the effect also works on objects, or is harmless).</li>
+<li>Not at risk of death from massive damage. Immediately destroyed when reduced to 0 hit points or less.</li>
+<li>Since it was never alive, a construct cannot be raised or resurrected.</li>
+<li>Because its body is a mass of unliving matter, a construct is hard to destroy. It gains bonus hit points based on size, as shown on the table.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only, unless generally humanoid in form, in which case proficient with any weapon mentioned in its entry.</li>
+<li>Proficient with no armor.</li>
+<li>Constructs do not eat, sleep, or breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d10;
     p:babTable pcclass:cleric!p:babTable;
@@ -66,6 +188,29 @@
 .
 
 :dragon
+    rdfs:comment """<p>A dragon is a reptilelike creature, usually winged, with magical or unusual abilities.</p>
+<h5>Features</h5>
+<p>
+A dragon has the following features.
+</p>
+<ul>
+<li>12-sided Hit Dice.</li>
+<li>Base attack bonus equal to total Hit Dice (as <a href="/srd/classes/fighter.htm">fighter</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude</a>, <a href="/srd/combat/combatStatistics.htm#reflex">Reflex</a>, and <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>.</li>
+<li>Skill points equal to (6 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A dragon possesses the following traits (unless otherwise noted in the description of a particular kind).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet and <a href="/srd/specialAbilities.htm#lowLightVision">low-light vision</a>.</li>
+<li>Immunity to magic <a class="spell" href="/srd/spells/sleep.htm">sleep</a> effects and <a href="/srd/specialAbilities.htm#paralysis">paralysis</a> effects.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only unless humanoid in form (or capable of assuming humanoid form), in which case proficient with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a> and any weapons mentioned in its entry.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with no armor.</li>
+<li>Dragons eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d10;
     p:babTable pcclass:fighter!p:babTable;
@@ -82,6 +227,31 @@
 .
 
 :elemental
+    rdfs:comment """<p>An elemental is a being composed of one of the four classical elements: air, earth, fire, or water.</p>
+<h5>Features</h5>
+<p>
+An elemental has the following features.
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good saves depend on the element: Fortitude (earth, water) or Reflex (air, fire).</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+An elemental possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li>Immunity to <a href="/srd/specialAbilities.htm#poison">poison</a>, <a class="spell" href="/srd/spells/sleep.htm">sleep</a> effects, <a href="/srd/specialAbilities.htm#paralysis">paralysis</a>, and <a href="/srd/conditionSummary.htm#stunned">stunning</a>.</li>
+<li>Not subject to <a href="/srd/combat/actionsInCombat.htm#criticalHits">critical hits</a> or <a href="/srd/combat/combatModifiers.htm#flanking">flanking</a>.</li>
+<li>Unlike most other living creatures, an elemental does not have a dual nature&#x2014;its soul and body form one unit. When an elemental is slain, no soul is set loose. Spells that restore souls to their bodies, such as <a class="spell" href="/srd/spells/raiseDead.htm">raise dead</a>, <a class="spell" href="/srd/spells/reincarnate.htm">reincarnate</a>, and <a class="spell" href="/srd/spells/resurrection.htm">resurrection</a>, don&#x2019;t work on an elemental. It takes a different magical effect, such as <a class="spell" href="/srd/spells/limitedWish.htm">limited wish</a>, <a class="spell" href="/srd/spells/wish.htm">wish</a>, <a class="spell" href="/srd/spells/miracle.htm">miracle</a>, or <a class="spell" href="/srd/spells/trueResurrection.htm">true resurrection</a>, to restore it to life.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only, unless generally humanoid in form, in which case proficient with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a> and any weapons mentioned in its entry.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium, or heavy) that it is described as wearing, as well as all lighter types. Elementals not indicated as wearing armor are not proficient with armor. Elementals are proficient with shields if they are proficient with any form of armor.</li>
+<li>Elementals do not eat, sleep, or breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -109,6 +279,29 @@
 .
 
 :fey
+    rdfs:comment """<p>A fey is a creature with <a href="/srd/specialAbilities.htm#supernaturalAbilities">supernatural abilities</a> and connections to nature or to some other force or place. Fey are usually human-shaped.</p>
+<h5>Features</h5>
+<p>
+A fey has the following features.
+
+</p>
+<ul>
+<li>6-sided Hit Dice.</li>
+<li>Base attack bonus equal to 1/2 total Hit Dice (as <a href="/srd/classes/sorcererWizard.htm#wizard">wizard</a>).</li>
+<li>Good Reflex and <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>.</li>
+<li>Skill points equal to (6 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A fey possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#lowLightVision">Low-light vision</a>.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a> and any weapons mentioned in its entry.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium, or heavy) that it is described as wearing, as well as all lighter types. Fey not indicated as wearing armor are not proficient with armor. Fey are proficient with shields if they are proficient with any form of armor.</li>
+<li>Fey eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d6;
     p:babTable pcclass:wizard!p:babTable;
@@ -119,6 +312,28 @@
 .
 
 :giant
+    rdfs:comment """<p>A giant is a humanoid-shaped creature of great strength, usually of at least Large size.</p>
+<h5>Features</h5>
+<p>
+A giant has the following features.
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude saves</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A giant possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#lowLightVision">Low-light vision</a>.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple and martial weapons</a>, as well as any <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a>.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium or heavy) it is described as wearing, as well as all lighter types. Giants not described as wearing armor are not proficient with armor. Giants are proficient with shields if they are proficient with any form of armor.</li>
+<li>Giants eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -130,6 +345,33 @@
 .
 
 :humanoid
+    rdfs:comment """<p>A humanoid usually has two arms, two legs, and one head, or a humanlike torso, arms, and a head. Humanoids have few or no <a href="/srd/specialAbilities.htm#supernaturalAbilities">supernatural</a> or <a href="/srd/specialAbilities.htm#extraordinaryAbilities">extraordinary</a> abilities, but most can speak and usually have well-developed societies. They usually are Small or Medium. Every humanoid creature also has a subtype.</p>
+<p>
+Humanoids with 1 Hit Die exchange the features of their humanoid Hit Die for the class features of a PC or NPC class. Humanoids of this sort are presented as 1st-level warriors, which means that they have average combat ability and poor <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throws</a>.
+</p>
+<p>
+Humanoids with more than 1 Hit Die are the only humanoids who make use of the features of the humanoid type.
+</p>
+<h5>Features</h5>
+<p>
+A humanoid has the following features (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li>8-sided Hit Dice, or by character class.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#reflex">Reflex saves</a> (usually; a humanoid&#x2019;s good save varies).</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die, or by character class.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A humanoid possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a>, or by character class.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium, or heavy) it is described as wearing, or by character class. If a humanoid does not have a class and wears armor, it is proficient with that type of armor and all lighter types. Humanoids not indicated as wearing armor are not proficient with armor. Humanoids are proficient with shields if they are proficient with any form of armor.</li>
+<li>Humanoids breathe, eat, and sleep.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -140,6 +382,28 @@
 .
 
 :magicalBeast
+    rdfs:comment """<p>Magical beasts are similar to animals but can have Intelligence scores higher than 2. Magical beasts usually have <a href="/srd/specialAbilities.htm#supernaturalAbilities">supernatural</a> or <a href="/srd/specialAbilities.htm#extraordinaryAbilities">extraordinary</a> abilities, but sometimes are merely bizarre in appearance or habits.</p>
+<h5>Features</h5>
+<p>
+A magical beast has the following features.
+</p>
+<ul>
+<li>10-sided Hit Dice.</li>
+<li>Base attack bonus equal to total Hit Dice (as <a href="/srd/classes/fighter.htm">fighter</a>).</li>
+<li>Good Fortitude and <a href="/srd/combat/combatStatistics.htm#reflex">Reflex saves</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A magical beast possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet and <a href="/srd/specialAbilities.htm#lowLightVision">low-light vision</a>.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with no armor.</li>
+<li>Magical beasts eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     rdfs:label "Magical Beast";
     p:hitDiceType die:d10;
@@ -151,6 +415,29 @@
 .
 
 :monstrousHumanoid
+    rdfs:comment """<p>Monstrous humanoids are similar to humanoids, but with monstrous or animalistic features. They often have magical abilities as well.</p>
+<h5>Features</h5>
+<p>
+A monstrous humanoid has the following features.
+
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to total Hit Dice (as <a href="/srd/classes/fighter.htm">fighter</a>).</li>
+<li>Good Reflex and <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A monstrous humanoid possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a> and any weapons mentioned in its entry.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Monstrous humanoids not indicated as wearing armor are not proficient with armor. Monstrous humanoids are proficient with shields if they are proficient with any form of armor.</li>
+<li>Monstrous humanoids eat, sleep, and breathe.</li>
+</ul>
+""";
     a c:Family;
     rdfs:label "Monstrous Humanoid";
     p:hitDiceType die:d8;
@@ -162,6 +449,32 @@
 .
 
 :ooze
+    rdfs:comment """<p>An ooze is an amorphous or mutable creature, usually mindless.</p>
+<h5>Features</h5>
+<p>
+An ooze has the following features.
+</p>
+<ul>
+<li>10-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>No good <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throws</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die, if the ooze has an Intelligence score. However, most oozes are mindless and gain no skill points or feats.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+An ooze possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li>Mindless: No Intelligence score, and immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</li>
+<li><a href="/srd/conditionSummary.htm#blinded">Blind</a> (but have the <a href="/srd/specialAbilities.htm#blindsightAndBlindsense">blindsight</a> special quality), with immunity to <a href="/srd/specialAbilities.htm#gazeAttacks">gaze attacks</a>, visual effects, illusions, and other attack forms that rely on sight.</li>
+<li>Immunity to <a href="/srd/specialAbilities.htm#poison">poison</a>, <a class="spell" href="/srd/spells/sleep.htm">sleep</a> effects, <a href="/srd/specialAbilities.htm#paralysis">paralysis</a>, <a href="/srd/specialAbilities.htm#polymorph">polymorph</a>, and <a href="/srd/conditionSummary.htm#stunned">stunning</a>.</li>
+<li>Some oozes have the ability to deal acid damage to objects. In such a case, the amount of damage is equal to 10 + 1/2 ooze&#x2019;s HD + ooze&#x2019;s Con modifier per full round of contact.</li>
+<li>Not subject to <a href="/srd/combat/actionsInCombat.htm#criticalHits">critical hits</a> or <a href="/srd/combat/combatModifiers.htm#flanking">flanking</a>.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with no armor.</li>
+<li>Oozes eat and breathe, but do not sleep.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d10;
     p:babTable pcclass:cleric!p:babTable;
@@ -180,6 +493,29 @@
 .
 
 :outsider
+    rdfs:comment """<p>An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. Some creatures start out as some other type and become outsiders when they attain a higher (or lower) state of spiritual existence.</p>
+<h5>Features</h5>
+<p>
+An outsider has the following features.
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to total Hit Dice (as <a href="/srd/classes/fighter.htm">fighter</a>).</li>
+<li>Good Fortitude, Reflex, and <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>.</li>
+<li>Skill points equal to (8 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+An outsider possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li>Unlike most other living creatures, an outsider does not have a dual nature&#x2014;its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as <a class="spell" href="/srd/spells/raiseDead.htm">raise dead</a>, <a class="spell" href="/srd/spells/reincarnate.htm">reincarnate</a>, and <a class="spell" href="/srd/spells/resurrection.htm">resurrection</a>, don&#x2019;t work on an outsider. It takes a different magical effect, such as <a class="spell" href="/srd/spells/limitedWish.htm">limited wish</a>, <a class="spell" href="/srd/spells/wish.htm">wish</a>, <a class="spell" href="/srd/spells/miracle.htm">miracle</a>, or <a class="spell" href="/srd/spells/trueResurrection.htm">true resurrection</a> to restore it to life. An outsider with the <a href="/srd/typesSubtypes.htm#nativeSubtype">native</a> subtype can be raised, reincarnated, or resurrected just as other living creatures can be.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple and martial weapons</a> and any weapons mentioned in its entry.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Outsiders not indicated as wearing armor are not proficient with armor. Outsiders are proficient with shields if they are proficient with any form of armor.</li>
+<li>Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). <a href="/srd/typesSubtypes.htm#nativeSubtype">Native</a> outsiders breathe, eat, and sleep.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:fighter!p:babTable;
@@ -203,6 +539,31 @@
 
 
 :plant
+    rdfs:comment """<p>This type comprises vegetable creatures. Note that regular plants, such as one finds growing in gardens and fields, lack Wisdom and Charisma scores (see <a href="/srd/specialAbilities.htm#nonabilities">Nonabilities</a>) and are not creatures, but objects, even though they are alive.</p>
+<h5>Features</h5>
+<p>
+A plant creature has the following features.
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude saves</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die, if the plant creature has an Intelligence score. However, some plant creatures are mindless and gain no skill points or feats.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+A plant creature possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#lowLightVision">Low-light vision</a>.</li>
+<li>Immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</li>
+<li>Immunity to <a href="/srd/specialAbilities.htm#poison">poison</a>, <a class="spell" href="/srd/spells/sleep.htm">sleep</a> effects, <a href="/srd/specialAbilities.htm#paralysis">paralysis</a>, <a href="/srd/specialAbilities.htm#polymorph">polymorph</a>, and <a href="/srd/conditionSummary.htm#stunned">stunning</a>.</li>
+<li>Not subject to <a href="/srd/combat/actionsInCombat.htm#criticalHits">critical hits</a>.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with no armor.</li>
+<li>Plants breathe and eat, but do not sleep.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -217,6 +578,38 @@
 .
 
 :undead
+    rdfs:comment """<p>Undead are once-living creatures animated by spiritual or supernatural forces.</p>
+<h5>Features</h5>
+<p>
+An undead creature has the following features.
+
+</p>
+<ul>
+<li>12-sided Hit Dice.</li>
+<li>Base attack bonus equal to 1/2 total Hit Dice (as <a href="/srd/classes/sorcererWizard.htm#wizard">wizard</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#will">Will saves</a>.</li>
+<li>Skill points equal to (4 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die, if the undead creature has an Intelligence score. However, many undead are mindless and gain no skill points or feats.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+An undead creature possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li>No Constitution score.</li>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li>Immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</li>
+<li>Immunity to <a href="/srd/specialAbilities.htm#poison">poison</a>, <a class="spell" href="/srd/spells/sleep.htm">sleep</a> effects, <a href="/srd/specialAbilities.htm#paralysis">paralysis</a>, <a href="/srd/conditionSummary.htm#stunned">stunning</a>, <a href="/srd/specialAbilities.htm#disease">disease</a>, and <a href="/srd/specialAbilities.htm#deathAttacks">death effects</a>.</li>
+<li>Not subject to <a href="/srd/combat/actionsInCombat.htm#criticalHits">critical hits</a>, <a href="/srd/combat/injuryandDeath.htm#nonlethalDamage">nonlethal damage</a>, <a href="/srd/specialAbilities.htm#abilityDrain">ability drain</a>, or <a href="/srd/specialAbilities.htm#energyDrainAndNegativeLevels">energy drain</a>. Immune to damage to its physical ability scores (Strength, Dexterity, and Constitution), as well as to <a href="/srd/conditionSummary.htm#fatigued">fatigue</a> and <a href="/srd/conditionSummary.htm#exhausted">exhaustion</a> effects.</li>
+<li>Cannot heal damage on its own if it has no Intelligence score, although it can be healed. Negative energy (such as an <span class="spell">inflict</span> spell) can heal undead creatures. The <a href="/srd/specialAbilities.htm#fastHealing">fast healing</a> special quality works regardless of the creature&#x2019;s Intelligence score.</li>
+<li>Immunity to any effect that requires a <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude save</a> (unless the effect also works on objects or is harmless).</li>
+<li>Uses its Charisma modifier for <a href="/srd/skills/concentration.htm">Concentration</a> checks.</li>
+<li>Not at risk of death from massive damage, but when reduced to 0 hit points or less, it is immediately destroyed.</li>
+<li>Not affected by <a class="spell" href="/srd/spells/raiseDead.htm">raise dead</a> and <a class="spell" href="/srd/spells/reincarnate.htm">reincarnate</a> spells or abilities. <a class="spell" href="/srd/spells/resurrection.htm">Resurrection</a> and <a class="spell" href="/srd/spells/trueResurrection.htm">true resurrection</a> can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a>, all <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a>, and any weapons mentioned in its entry.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with whatever type of armor (light, medium, or heavy) it is described as wearing, as well as all lighter types. Undead not indicated as wearing armor are not proficient with armor. Undead are proficient with shields if they are proficient with any form of armor.</li>
+<li>Undead do not breathe, eat, or sleep.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d12;
     p:babTable pcclass:wizard!p:babTable;
@@ -245,6 +638,29 @@
 
 
 :vermin
+    rdfs:comment """<p>This type includes insects, arachnids, other arthropods, worms, and similar invertebrates.</p>
+<h5>Features</h5>
+<p>
+Vermin have the following features.
+</p>
+<ul>
+<li>8-sided Hit Dice.</li>
+<li>Base attack bonus equal to 3/4 total Hit Dice (as <a href="/srd/classes/cleric.htm">cleric</a>).</li>
+<li>Good <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude saves</a>.</li>
+<li>Skill points equal to (2 + Int modifier, minimum 1) per Hit Die, with quadruple skill points for the first Hit Die, if the vermin has an Intelligence score. However, most vermin are mindless and gain no skill points or feats.</li>
+</ul>
+<h5>Traits</h5>
+<p>
+Vermin possess the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li>Mindless: No Intelligence score, and immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</li>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with their <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> only.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with no armor.</li>
+<li>Vermin breathe, eat, and sleep.</li>
+</ul>
+""";
     a c:Family;
     p:hitDiceType die:d8;
     p:babTable pcclass:cleric!p:babTable;
@@ -257,11 +673,27 @@
 .
 
 :air
+    rdfs:comment """<p>This subtype usually is used for <a href="/srd/typesSubtypes.htm#elementalType">elementals</a> and <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> with a connection to the Elemental Plane Air. Air creatures always have fly speeds and usually have perfect maneuverability.</p>
+""";
     a c:Family;
     p:movement [ a c:Fly; p:flight c:perfectFlight ];
 .
 
 :angel
+    rdfs:comment """<p>Angels are a race of celestials, or good <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a>, native to the good-aligned Outer Planes.</p>
+<h5>Traits</h5>
+<p>
+An angel possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#darkvision">Darkvision</a> out to 60 feet and <a href="/srd/specialAbilities.htm#lowLightVision">low-light vision</a>.</li>
+<li>Immunity to acid, cold, and petrification.</li>
+<li><a href="/srd/specialAbilities.htm#resistanceToEnergy">Resistance</a> to electricity 10 and fire 10.</li>
+<li>+4 racial bonus on saves against <a href="/srd/specialAbilities.htm#poison">poison</a>.</li>
+<li>Protective Aura (<a href="/srd/specialAbilities.htm#supernaturalAbilities">Su</a>): Against attacks made or effects created by evil creatures, this ability provides a +4 <a href="/srd/theBasics.htm#deflectionBonus">deflection bonus</a> to AC and a +4 <a href="/srd/theBasics.htm#resistanceBonus">resistance bonus</a> on <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throws</a> to anyone within 20 feet of the angel. Otherwise, it functions as a <a class="spell" href="/srd/spells/magicCircleAgainstEvil.htm">magic circle against evil</a> effect and a <a class="spell" href="/srd/spells/globeOfInvulnerabilityLesser.htm">lesser globe of invulnerability</a>, both with a radius of 20 feet (caster level equals angel&#x2019;s HD). (The defensive benefits from the circle are not included in an angel&#x2019;s statistics block.)</li>
+<li>Tongues (<a href="/srd/specialAbilities.htm#supernaturalAbilities">Su</a>): All angels can speak with any creature that has a language, as though using a <a class="spell" href="/srd/spells/tongues.htm">tongues</a> spell (caster level equal to angel&#x2019;s Hit Dice). This ability is always active.</li>
+</ul>
+""";
     a c:Family;
     p:sense :standardDarkvision;
     p:immunity c:acid, c:cold, c:petrification;
@@ -272,13 +704,25 @@
 .
 
 :aquatic
+    rdfs:comment """<p>These creatures always have swim speeds and thus can
+    move in water without making <a href="/srd/skills/swim.htm">Swim</a>
+    checks. An aquatic creature can breathe underwater. It cannot also breathe
+    air unless it has the amphibious special quality.</p> """;
     a c:Family;
     p:movement c:swim;
     p:specialAbility c:breatheUnderwater;
     p:vitality c:mustBreatheWater;
 .
 
-:amphibious a c:Family . # NOT a SRD-standard type!  but required to define aquatic.
+:amphibious
+    rdfs:comment """<p>Similar to aquatic, these creatures can swim without
+    making <a href="/srd/skills/swim.htm">Swim</a> checks. An amphibious
+    creature can breathe underwater for short periods. It can breathe air
+    normally.</p>
+""";
+
+    a c:Family
+. # NOT a SRD-standard type!  but required to define aquatic.
 # TODO - requires reasoning
 { ?m p:family :aquatic, :amphibious } 
     => { { ?m p:vitality c:mustBreatheWater } a log:Falsehood. };
@@ -287,6 +731,9 @@
 
 
 :archon
+    rdfs:comment """<p style='background-color: yellow'><strong>TODO</strong></p>
+""";
+
     a c:Family;
     p:sense :standardDarkvision;
     p:immunity c:electricity, c:petrification;
@@ -294,22 +741,45 @@
     p:specialAbility c:auraOfMenace, c:magicCircleAgainstEvil, c:teleport, c:tongues;
 .
 
-:augmented a c:Family;
+:augmented
+    rdfs:comment """<p>A creature receives this subtype whenever something happens to change its original type. Some creatures (those with an inherited <a href="/srd/improvingMonsters.htm#templates">template</a>) are born with this subtype; others acquire it when they take on an acquired template. The augmented subtype is always paired with the creature&#x2019;s original type. A creature with the augmented subtype usually has the traits of its current type, but the features of its original type.</p>
+""";
+    a c:Family;
     # combined with some other type or subtype, has the traits of current type and features of original type
 .
 
 :chaotic
+    rdfs:comment """<p>A subtype usually applied only to <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> native to the chaotic-aligned Outer Planes. Most creatures that have this subtype also have chaotic alignments; however, if their alignments change they still retain the subtype. Any effect that depends on <a href="/srd/description.htm#alignment">alignment</a> affects a creature with this subtype as if the creature has a chaotic alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the chaotic subtype overcomes <a href="/srd/specialAbilities.htm#damageReduction">damage reduction</a> as if its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> and any weapons it wields were chaotic-aligned (see Damage Reduction, below).</p>
+""";
     a c:Family;
     p:alignmentEffect c:chaotic;
 .
 
 :cold
+    rdfs:comment """<p>A creature with the cold subtype has <a href="/srd/specialAbilities.htm#coldImmunity">immunity to cold</a>. It has <a href="/srd/specialAbilities.htm#vulnerabilitytoEnergy">vulnerability</a> to fire, which means it takes half again as much (+50%) damage as normal from fire, regardless of whether a <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throw</a> is allowed, or if the save is a success or failure.</p>
+""";
     a c:Family;
     p:immunity c:cold;
     p:vulnerability c:fire;
 .
 
 :demon
+    rdfs:comment """<p>Demons are a race of creatures native to chaotic evil-aligned planes. They are ferocity personified and will attack any creature just for the sheer fun of it&#x2014;even other demons.</p>
+<h5>Demon Traits</h5>
+<p>
+Most demons possess the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li>Immunity to electricity and <a href="/srd/specialAbilities.htm#poison">poison</a>.</li>
+<li><a href="/srd/specialAbilities.htm#resistanceToEnergy">Resistance</a> to acid 10, cold 10, and fire 10.</li>
+<li><a href="/srd/specialAbilities.htm#summon">Summon</a> (<a href="/srd/specialAbilities.htm#spellLikeAbilities">Sp</a>): Many demons share the ability to summon others of their kind (the success chance and type of demon summoned are noted in each monster description). Demons are often reluctant to use this power until in obvious peril or extreme circumstances.</li>
+<li><a href="/srd/specialAbilities.htm#telepathy">Telepathy</a>.</li>
+</ul>
+<p>
+Except where otherwise noted, demons speak Abyssal, Celestial, and Draconic.
+</p>
+""";
+
     a c:Family;
     p:immunity c:electricity, c:poison;
     p:resistance [ p:attackEffect c:acid; rdf:value 10 ],
@@ -320,6 +790,25 @@
 .
 
 :devil
+    rdfs:comment """<p>Devils are fiends from lawful evil-aligned planes.</p>
+<p>
+Many devils are surrounded by a <a href="/srd/specialAbilities.htm#fearAura">fear aura</a>, which they use to break up powerful groups and defeat opponents piecemeal. Devils with <a href="/srd/specialAbilities.htm#spellLikeAbilities">spell-like abilities</a> use their illusion abilities to delude and confuse foes as much as possible. A favorite trick is to create illusory reinforcements; enemies can never be entirely sure if a threat is only a figment or real summoned devils joining the fray.
+</p>
+<h5>Devil Traits</h5>
+<p>
+Most devils possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/specialAbilities.htm#fireImmunity">Immunity to fire</a> and <a href="/srd/specialAbilities.htm#poison">poison</a>.</li>
+<li><a href="/srd/specialAbilities.htm#resistanceToEnergy">Resistance</a> to acid 10 and cold 10.</li>
+<li>See in Darkness (<a href="/srd/specialAbilities.htm#supernaturalAbilities">Su</a>): Some devils can see perfectly in darkness of any kind, even that created by a <a class="spell" href="/srd/spells/deeperDarkness.htm">deeper darkness</a> spell.</li>
+<li><a href="/srd/specialAbilities.htm#summon">Summon</a> (<a href="/srd/specialAbilities.htm#spellLikeAbilities">Sp</a>): Some devils share the ability to summon others of their kind (the success chance and type of devils summoned are noted in each monster description).</li>
+<li><a href="/srd/specialAbilities.htm#telepathy">Telepathy</a>.</li>
+</ul>
+<p>
+Except when otherwise noted, devils speak Infernal, Celestial, and Draconic.
+</p>
+""";
     a c:Family;
     p:immunity c:fire, c:poison;
     p:resistance [ p:attackEffect c:acid; rdf:value 10 ], 
@@ -330,35 +819,63 @@
 .
 
 :earth
+    rdfs:comment """<p>This subtype usually is used for <a href="/srd/typesSubtypes.htm#elementalType">elementals</a> and <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> with a connection to the Elemental Plane of Earth. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock.</p>
+""";
     a c:Family;
     p:movement c:burrow;
 .
 
 :evil
+    rdfs:comment """<p>A subtype usually applied only to <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> native to the evil-aligned Outer Planes. Evil outsiders are also called fiends. Most creatures that have this subtype also have evil alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on <a href="/srd/description.htm#alignment">alignment</a> affects a creature with this subtype as if the creature has an evil alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the evil subtype overcomes <a href="/srd/specialAbilities.htm#damageReduction">damage reduction</a> as if its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> and any weapons it wields were evil-aligned (see Damage Reduction, above).</p>
+""";
     a c:Family;
     p:alignmentEffect c:evil;
 .
 
 :extraplanar
+    rdfs:comment """<p>A subtype applied to any creature when it is on a plane other than its native plane. A creature that travels the planes can gain or lose this subtype as it goes from plane to plane. Monster entries assume that encounters with creatures take place on the Material Plane, and every creature whose native plane is not the Material Plane has the extraplanar subtype (but would not have when on its home plane). Every extraplanar creature in this book has a home plane mentioned in its description. Creatures not labeled as extraplanar are natives of the Material Plane, and they gain the extraplanar subtype if they leave the Material Plane. No creature has the extraplanar subtype when it is on a transitive plane, such as the Astral Plane, the Ethereal Plane, and the Plane of Shadow.</p>
+""";
     a c:Family;
 .
 
 :fire
+    rdfs:comment """<p>A creature with the fire subtype has <a href="/srd/specialAbilities.htm#fireImmunity">immunity to fire</a>. It has <a href="/srd/specialAbilities.htm#vulnerabilitytoEnergy">vulnerability</a> to cold, which means it takes half again as much (+50%) damage as normal from cold, regardless of whether a <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throw</a> is allowed, or if the save is a success or failure.</p>
+""";
     a c:Family;
     p:immunity c:fire;
     p:vulnerability c:cold;
 .
 
 :goblinoid
+    rdfs:comment """<p>Goblinoids are stealthy <a href="/srd/typesSubtypes.htm#humanoidType">humanoids</a> who live by hunting and raiding and who all speak Goblin.</p>
+""";
     a c:Family;
 .
 
 :good
+    rdfs:comment """<p>A subtype usually applied only to <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> native to the good-aligned Outer Planes. Most creatures that have this subtype also have good alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on <a href="/srd/description.htm#alignment">alignment</a> affects a creature with this subtype as if the creature has a good alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the good subtype overcomes <a href="/srd/specialAbilities.htm#damageReduction">damage reduction</a> as if its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> and any weapons it wields were good-aligned (see Damage Reduction, above).</p>
+""";
     a c:Family;
     p:alignmentEffect c:good;
 .
 
 :incorporeal
+    rdfs:comment """<p>An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, and spells, <a href="/srd/specialAbilities.htm#spellLikeAbilities">spell-like abilities</a>, or <a href="/srd/specialAbilities.htm#supernaturalAbilities">supernatural abilities</a>. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it has a 50% chance to ignore any damage from a corporeal source (except for positive energy, negative energy, force effects such as <a class="spell" href="/srd/spells/magicMissile.htm">magic missile</a>, or attacks made with ghost touch weapons). Although it is not a magical attack, <a href="/srd/equipment/goodsAndServices.htm#holyWater">holy water</a> can affect incorporeal undead, but a hit with holy water has a 50% chance of not affecting an incorporeal creature.</p>
+<p>
+An incorporeal creature has no <a href="/srd/theBasics.htm#naturalArmorBonus">natural armor bonus</a> but has a <a href="/srd/theBasics.htm#deflectionBonus">deflection bonus</a> equal to its Charisma bonus (always at least +1, even if the creature&#x2019;s Charisma score does not normally provide a bonus).
+</p>
+<p>
+An incorporeal creature can enter or pass through solid objects, but must remain adjacent to the object&#x2019;s exterior, and so cannot pass entirely through an object whose space is larger than its own. It can sense the presence of creatures or objects within a square adjacent to its current location, but enemies have <a href="/srd/combat/combatModifiers.htm#totalConcealment">total concealment</a> (50% miss chance) from an incorporeal creature that is inside an object. In order to see farther from the object it is in and attack normally, the incorporeal creature must emerge. An incorporeal creature inside an object has <a href="/srd/combat/combatModifiers.htm#totalCover">total cover</a>, but when it attacks a creature outside the object it only has <a href="/srd/combat/combatModifiers.htm#cover">cover</a>, so a creature outside with a readied action could strike at it as it attacks. An incorporeal creature cannot pass through a force effect.
+
+</p>
+<p>
+An incorporeal creature&#x2019;s attacks pass through (ignore) natural armor, armor, and shields, although <a href="/srd/theBasics.htm#deflectionBonus">deflection bonuses</a> and force effects (such as <a class="spell" href="/srd/spells/mageArmor.htm">mage armor</a>) work normally against it. Incorporeal creatures pass through and operate in water as easily as they do in air. Incorporeal creatures cannot fall or take falling damage. Incorporeal creatures cannot make <a href="/srd/combat/specialAttacks.htm#trip">trip</a> or <a href="/srd/combat/specialAttacks.htm#grapple">grapple</a> attacks, nor can they be tripped or grappled. In fact, they cannot take any physical action that would move or manipulate an opponent or its equipment, nor are they subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight.
+</p>
+<p>
+
+An incorporeal creature moves silently and cannot be heard with <a href="/srd/skills/listen.htm">Listen</a> checks if it doesn&#x2019;t wish to be. It has no Strength score, so its Dexterity modifier applies to both its melee attacks and its ranged attacks. Nonvisual senses, such as <a href="/srd/specialAbilities.htm#scent">scent</a> and <a href="/srd/specialAbilities.htm#blindsightAndBlindsense">blindsight</a>, are either ineffective or only partly effective with regard to incorporeal creatures. Incorporeal creatures have an innate sense of direction and can move at full speed even when they cannot see.
+</p>
+""";
     a c:Family;
     p:immunity c:nonMagical;
     p:abilityConstraint [ p:ability c:str; p:maximum 0 ];
@@ -372,20 +889,100 @@
 .
 
 :lawful
+    rdfs:comment """<p>A subtype usually applied only to <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> native to the lawful-aligned Outer Planes. Most creatures that have this subtype also have lawful alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on <a href="/srd/description.htm#alignment">alignment</a> affects a creature with this subtype as if the creature has a lawful alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the lawful subtype overcomes <a href="/srd/specialAbilities.htm#damageReduction">damage reduction</a> as if its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a> and any weapons it wields were lawful-aligned (see Damage Reduction, above).</p>
+""";
     a c:Family;
     p:alignmentEffect c:lawful;
 .
 
-:native a c:Family.
+:native
+    rdfs:comment """<p>A subtype applied only to <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a>. These creatures have mortal ancestors or a strong connection to the Material Plane and can be raised, reincarnated, or resurrected just as other living creatures can be. Creatures with this subtype are native to the Material Plane (hence the subtype&#x2019;s name). Unlike true outsiders, native outsiders need to eat and sleep.</p>
+""";
+    a c:Family
+.
 
-:reptilian a c:Family.
+:reptilian
+    rdfs:comment """<p>These creatures are scaly and usually coldblooded. The reptilian subtype is only used to describe a set of humanoid races, not all animals and monsters that are truly reptiles.</p>
+""";
+    a c:Family
+.
 
 :shapechanger
+    rdfs:comment """<p>A shapechanger has the <a href="/srd/specialAbilities.htm#supernaturalAbilities">supernatural ability</a> to assume one or more <a href="/srd/specialAbilities.htm#alternateForm">alternate forms</a>. Many magical effects allow some kind of shape shifting, and not every creature that can <a href="/srd/specialAbilities.htm#changeShape">change shape</a> has the shapechanger subtype.</p>
+<h5>Traits</h5>
+<p>
+A shapechanger possesses the following traits (unless otherwise noted in a creature&#x2019;s entry).
+</p>
+<ul>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with its <a href="/srd/specialAbilities.htm#naturalWeapons">natural weapons</a>, with <a href="/srd/equipment/weapons.htm#simpleMartialandExoticWeapons">simple weapons</a>, and with any weapons mentioned in the creature&#x2019;s description.</li>
+<li><a href="/srd/combat/combatModifiers.htm#weaponArmorAndShieldProficiency">Proficient</a> with any armor mentioned in the creature&#x2019;s description, as well as all lighter forms. If no form of armor is mentioned, the shapechanger is not proficient with armor. A shapechanger is proficient with shields if it is proficient with any type of armor.</li>
+</ul>
+""";
     a c:Family;
     p:proficiency c:naturalWeapons, c:simpleWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
 .
 
 :swarm
+    rdfs:comment """<p>A swarm is a collection of Fine, Diminutive, or Tiny creatures that acts as a single creature. A swarm has the characteristics of its type, except as noted here. A swarm has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. A swarm makes <a href="/srd/combat/combatStatistics.htm#savingThrows">saving throws</a> as a single creature. A single swarm occupies a square (if it is made up of nonflying creatures) or a cube (of flying creatures) 10 feet on a side, but its reach is 0 feet, like its component creatures. In order to attack, it moves into an opponent&#x2019;s space, which provokes an <a href="/srd/combat/attacksOfOpportunity.htm">attack of opportunity</a>. It can occupy the same space as a creature of any size, since it crawls all over its prey. A swarm can move through squares occupied by enemies and vice versa without impediment, although the swarm provokes an attack of opportunity if it does so. A swarm can move through cracks or holes large enough for its component creatures.</p>
+<p>
+A swarm of Tiny creatures consists of 300 nonflying creatures or 1,000 flying creatures. A swarm of Diminutive creatures consists of 1,500 nonflying creatures or 5,000 flying creatures. A swarm of Fine creatures consists of 10,000 creatures, whether they are flying or not. Swarms of nonflying creatures include many more creatures than could normally fit in a 10-foot square based on their normal space, because creatures in a swarm are packed tightly together and generally crawl over each other and their prey when moving or attacking. Larger swarms are represented by multiples of single swarms. The area occupied by a large swarm is completely shapeable, though the swarm usually remains in contiguous squares.
+</p>
+<h5>Traits</h5>
+<p>
+A swarm has no clear front or back and no discernable anatomy, so it is not subject to <a href="/srd/combat/actionsInCombat.htm#criticalHits">critical hits</a> or <a href="/srd/combat/combatModifiers.htm#flanking">flanking</a>. A swarm made up of Tiny creatures takes half damage from slashing and piercing weapons. A swarm composed of Fine or Diminutive creatures is immune to all weapon damage. Reducing a swarm to 0 hit points or lower causes it to break up, though damage taken until that point does not degrade its ability to attack or resist attack. Swarms are never <a href="/srd/conditionSummary.htm#staggered">staggered</a> or reduced to a <a href="/srd/conditionSummary.htm#dying">dying</a> state by damage. Also, they cannot be <a href="/srd/combat/specialAttacks.htm#trip">tripped</a>, <a href="/srd/combat/specialAttacks.htm#grapple">grappled</a>, or <a href="/srd/combat/specialAttacks.htm#bullRush">bull rushed</a>, and they cannot grapple an opponent.
+
+</p>
+<p>
+A swarm is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as <a class="spell" href="/srd/spells/disintegrate.htm">disintegrate</a>), with the exception of mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects) if the swarm has an Intelligence score and a hive mind. A swarm takes half again as much damage (+50%) from spells or effects that affect an area, such as <a href="/srd/combat/specialAttacks.htm#throwSplashWeapon">splash weapons</a> and many evocation spells.
+</p>
+<p>
+Swarms made up of Diminutive or Fine creatures are susceptible to high winds such as that created by a <a class="spell" href="/srd/spells/gustOfWind.htm">gust of wind</a> spell. For purposes of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered <a href="/srd/conditionSummary.htm#unconscious">unconscious</a> by means of <a href="/srd/combat/injuryandDeath.htm#nonlethalDamage">nonlethal damage</a> becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.
+
+</p>
+<table cellspacing="0" class="right">
+<tr>
+  <th align="left">Swarm HD</th>
+  <th>Swarm<br/>Base Damage</th>
+</tr>
+<tr class="odd">
+  <td>1-5</td>
+  <td align="center">1d6</td>
+</tr>
+<tr class="even">
+  <td>6-10</td>
+  <td align="center">2d6</td>
+</tr>
+<tr class="odd">
+  <td>11-15</td>
+  <td align="center">3d6</td>
+</tr>
+<tr class="even">
+  <td>16-20</td>
+  <td align="center">4d6</td>
+</tr>
+<tr class="odd">
+  <td>21 or more</td>
+  <td align="center">5d6</td>
+</tr>
+</table>
+<h5 id="swarmAttack">Swarm Attack</h5>
+<p>
+Creatures with the swarm subtype don&#x2019;t make standard melee attacks. Instead, they deal automatic damage to any creature whose space they occupy at the end of their move, with no <a href="/srd/combat/combatStatistics.htm#attackRoll">attack roll</a> needed. Swarm attacks are not subject to a miss chance for <a href="/srd/combat/combatModifiers.htm#concealment">concealment</a> or <a href="/srd/combat/combatModifiers.htm#cover">cover</a>. A swarm&#x2019;s statistics block has &#x201C;swarm&#x201D; in the Attack and Full Attack entries, with no attack bonus given. The amount of damage a swarm deals is based on its Hit Dice, as shown in the table.
+
+</p>
+<p>
+A swarm&#x2019;s attacks are nonmagical, unless the swarm&#x2019;s description states otherwise. <a href="/srd/specialAbilities.htm#damageReduction">Damage reduction</a> sufficient to reduce a swarm attack&#x2019;s damage to 0, being <a href="/srd/conditionSummary.htm#incorporeal">incorporeal</a>, and other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, <a href="/srd/specialAbilities.htm#poison">poison</a>, blood drain, or other special attacks in addition to normal damage.
+</p>
+<p>
+Swarms do not threaten creatures in their square, and do not make <a href="/srd/combat/attacksOfOpportunity.htm">attacks of opportunity</a> with their swarm attack. However, they distract foes whose squares they occupy, as described below.
+
+</p>
+<h5 id="distraction">Distraction (<a href="/srd/specialAbilities.htm#extraordinaryAbilities">Ex</a>)</h5>
+<p>
+Any living creature vulnerable to a swarm&#x2019;s damage that begins its turn with a swarm in its square is <a href="/srd/conditionSummary.htm#nauseated">nauseated</a> for 1 round; a <a href="/srd/combat/combatStatistics.htm#fortitude">Fortitude save</a> (DC 10 + 1/2 swarm&#x2019;s HD + swarm&#x2019;s Con modifier; the exact DC is given in a swarm&#x2019;s description) negates the effect. Spellcasting or concentrating on spells within the area of a swarm requires a <a href="/srd/skills/concentration.htm">Concentration</a> check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 <a href="/srd/skills/concentration.htm">Concentration</a> check.
+
+</p>
+""";
     a c:Family;
     p:vulnerability c:areaEffect;
     p:combatMechanic c:noCriticalHits, c:noFlanking, c:destroyedAtZero, c:noTrip, 
@@ -407,6 +1004,8 @@
 .
 
 :water
+    rdfs:comment """<p>This subtype usually is used for <a href="/srd/typesSubtypes.htm#elementalType">elementals</a> and <a href="/srd/typesSubtypes.htm#outsiderType">outsiders</a> with a connection to the Elemental Plane of Water. Creatures with the water subtype always have swim speeds and can move in water without making <a href="/srd/skills/swim.htm">Swim</a> checks. A water creature can breathe underwater and usually can breathe air as well.</p>
+""";
     a c:Family;
     p:movement c:swim;
     p:specialAbility c:breatheUnderwater;

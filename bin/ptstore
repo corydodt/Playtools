@@ -2,6 +2,7 @@
 """
 Tool to manipulate SQLite-backed triples databases.
 """
+import warnings as w; w.filterwarnings('ignore')
 import sys, os
 import cmd
 import pprint
@@ -73,7 +74,7 @@ class OpenCommand(usage.Options):
         self.open()
 
     def open(self):
-        tdb = TriplesDatabase('#')
+        tdb = TriplesDatabase()
         tdb.open(self['filename'])
         ex = Explorer(tdb)
         ex.cmdloop()

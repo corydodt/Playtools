@@ -8,3 +8,4 @@
 ^Playtools.egg-info.*$
 ^dist/.*$
 ^playtools/plugins/srd35-index
+^playtools/plugins/srd35rdf.db$

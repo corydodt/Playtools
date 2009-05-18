@@ -7,8 +7,7 @@ from zope.interface import implements, Interface
 
 from twisted.plugin import IPlugin
 
-from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
-    IIndexable)
+from playtools.interfaces import (IRuleSystem, IRuleCollection, IIndexable)
 from playtools import globalRegistry
 
 class BuildingsAndBadgersSystem(object):

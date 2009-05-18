@@ -17,7 +17,7 @@ except ImportError:
     from StringIO import StringIO
 
 
-from rdflib import URIRef, BNode
+from rdflib import URIRef, BNode, Literal
 from rdflib.Graph import ConjunctiveGraph as Graph
 from rdflib.Literal import Literal as RDFLiteral
 
@@ -37,7 +37,8 @@ def iriToTitle(iri):
     if '#' not in iri:
         return ''
     uri = iri.lstrip('<').rstrip('>')
-    return uri.split('#', 1)[1].title()
+    ret = Literal(uri.split('#', 1)[1].title())
+    return ret
 
 
 NODEFAULT = ()

@@ -46,7 +46,7 @@ def fuzzyQuoteTerm(t):
 def find(estdb, domain, terms, max=10):
     """Use an estraier index to find monsters or other things"""
     fuzzy = [fuzzyQuoteTerm(t) for t in terms]
-    phrase = ' '.join(fuzzy)
+    phrase = u' '.join(fuzzy)
 
     query = hypy.HCondition(phrase, matching='simple', max=max)
     query.addAttr(u'domain STREQ %s' % (domain,))
@@ -153,8 +153,8 @@ class Options(usage.Options):
                                     # while fact is loading its plugins (which
                                     # import from search, this module)
 
-        SRD = fact.systems[self['system']]
-        idir = SRD.searchIndexPath
+        system = fact.systems[self['system']]
+        idir = system.searchIndexPath
 
         domain = self.decode(self['fact'])
 
@@ -166,7 +166,8 @@ class Options(usage.Options):
 
             system = fact.systems[self['system']]
             indexer = HypyIndexer(system.searchIndexPath)
-            for collection in system.facts.values():
+            for name, collection in system.facts.items():
+                print '%s:'%(name,),
                 indexer.buildIndex(collection)
 
         else:

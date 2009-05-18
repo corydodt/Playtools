@@ -21,6 +21,9 @@ setup(name='Playtools',
           'storm>=0.13',
           'rdflib==2.4.1',
           'rdfalchemy>=0.2b2', # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'simpleparse',
+          'twisted>=2.5.0',
+          'hypy',
           ],
 
       package_data={
@@ -28,6 +31,7 @@ setup(name='Playtools',
               'static/*.png',
               '*.n3',
               'plugins/*.n3',
+              'plugins/srd35.db',  # FIXME - set this up in D20SRD35.setup()
               'test/*.n3',
               ],
         },

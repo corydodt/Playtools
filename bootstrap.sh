@@ -18,6 +18,11 @@ EOF
 
 export errorStatus=""
 
+function runpy()
+{
+    echo $(python -Wignore -c "$1" 2>&1)
+}
+
 function testPython()
 # Use: testPython "Software name" "python code"
 #  If "python code" has no output, we pass.
@@ -29,7 +34,7 @@ function testPython()
 #  redirect to stdout.
 {
     software="$1"
-    line=$(python -c "$2" 2>&1 | tail -1)
+    line=$(runpy "$2" | tail -1)
 
     if [ -n "$line" ]; then
         echo "** Install $software ($line)"
@@ -39,12 +44,15 @@ function testPython()
     fi
 }
 
-testPython "RDFlib == 2.4.1" 'from rdflib import __version__ as v; assert v>="2.4.1"'
+t='from rdflib import __version__ as v; assert v>="2.4.1", "have %s" % (v,)'
+testPython "RDFlib == 2.4.1"  "$t"
 testPython "RDFalchemy > 0.2b2" 'from rdfalchemy import rdfsSubject'
 testPython "Storm" 'import storm.locals'
 testPython "pysqlite2" 'import pysqlite2'
 testPython "simpleparse" 'import simpleparse'
 testPython "Hypy" 'from hypy import *'
+t="from twisted import __version__ as v; assert v>='2.5.0', 'Have %s' % (v,)"
+testPython "Twisted 2.5" "$t"
 testPython "Python 2.5" 'import xml.etree'
 
 if [ "$errorStatus" == "error" ]; then
@@ -56,15 +64,19 @@ if [ -n "$force" ]; then
     echo ::
     echo ':: force is in effect: removing database files!'
     set -x
-    rm -f playtools/rdflib.db*
+    rm -f playtools/plugins/srd35rdf.db*
     rm -rf playtools/plugins/srd35-index/
     set +x
 fi
 
-tripledb=playtools/rdflib.db
+t='from warnings import filterwarnings as f; f("ignore")
+from playtools.plugins.d20srd35config import RDFPATH
+print RDFPATH'
+tripledb=$(runpy "$t")
 if [ ! -r "$tripledb" ]; then
     echo ::
     echo :: $tripledb
+    export PATH="$PATH":`pwd`/bin
     ptstore create $tripledb
     ns=("--n3 http://www.w3.org/2000/01/rdf-schema#"
         "--n3 http://goonmill.org/2007/family.n3#"
@@ -73,6 +85,7 @@ if [ ! -r "$tripledb" ]; then
         "--n3 http://goonmill.org/2007/skill.n3#"
         "--n3 http://goonmill.org/2007/feat.n3#"
         "--n3 http://goonmill.org/2009/statblock.n3#"
+        "--n3 http://goonmill.org/2007/specialAbility.n3#"
         )
     ptstore pull --verbose ${ns[@]} $tripledb || exit 1
 else
@@ -82,11 +95,11 @@ else
     echo ::
 fi
 
-estraierindex=playtools/search-index/_idx
+estraierindex=playtools/plugins/srd35-index
 if [ ! -d "$estraierindex" ]; then
     echo ::
     echo :: $estraierindex
-    python playtools/search.py --build-index
+    python -Wignore playtools/search.py --build-index
     echo
 else
     echo "** ${estraierindex} already exists, not willing to overwrite it!"
