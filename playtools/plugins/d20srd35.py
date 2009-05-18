@@ -338,7 +338,8 @@ class RDFFactCollection(object):
         @return an instance of the table-mapped class, e.g. Monster, Spell,
         Feat or Skill
         """
-        return self.klass(uri)
+        r = self.klass(uri)
+        return r
 
 
 class SpecialArmorClass(S.rdfsPTClass):
