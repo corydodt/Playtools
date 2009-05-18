@@ -338,7 +338,7 @@ class RDFFactCollection(object):
         @return an instance of the table-mapped class, e.g. Monster, Spell,
         Feat or Skill
         """
-        r = self.klass(uri)
+        r = self.klass(u'<%s>' % (uri,))
         return r
 
 

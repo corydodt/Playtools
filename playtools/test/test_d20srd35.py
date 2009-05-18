@@ -21,9 +21,9 @@ class SRD35TestCase(unittest.TestCase):
     """
     Pull out the facts
     """
-    def test_lookup(self):
+    def test_lookupSQL(self):
         """
-        Spells and Monsters are available for lookup
+        Spells and Monsters are available for lookup (the SQL aka Storm facts)
         """
         monsters = SRD.facts['monster']
         spells = SRD.facts['spell']
@@ -33,6 +33,28 @@ class SRD35TestCase(unittest.TestCase):
 
         test(10, monsters, u'Behemoth Eagle')
         test(10, spells, u'Surelife')
+
+    def test_lookupRDF(self):
+        """
+        The RDF facts are available for lookup
+        """
+        families = SRD.facts['family']
+        auras = SRD.facts['aura']
+        skills = SRD.facts['skill']
+        feats = SRD.facts['feat']
+        specialACs = SRD.facts['specialAC']
+        specialActions = SRD.facts['specialAction']
+
+        def test(n,k,s):
+            thing = k.lookup(n)
+            self.assertEqual(unicode(thing.label), s)
+
+        test(u'http://goonmill.org/2007/family.n3#devil', families, u'Devil')
+        test(u'http://goonmill.org/2007/specialAbility.n3#nullTimeField', auras, u'Null Time Field')
+        test(u'http://goonmill.org/2007/skill.n3#appraise', skills, u'Appraise')
+        test(u'http://goonmill.org/2007/feat.n3#abilityFocus', feats, u'Ability Focus')
+        test(u'http://goonmill.org/2007/specialAbility.n3#deflectingForce', specialACs, u'Deflecting Force')
+        test(u'http://goonmill.org/2007/specialAbility.n3#mucusCloud', specialActions, u'Mucus Cloud')
 
     def test_thingLists(self):
         """
@@ -178,6 +200,7 @@ class SRD35TestCase(unittest.TestCase):
         All collections should be indexable
         """
         for coll in SRD.facts.values():
-            self.assertTrue(IIndexable.providedBy(coll), "Collection %s (%s)"
+            item = coll.dump()[0]
+            self.assertTrue(IIndexable(item), "Collection %s (%s)"
                     % (coll, coll.factName))
 
