@@ -32,17 +32,6 @@ class IRuleCollection(Interface):
         Synonym for lookup
         """
 
-    def getFormatters():
-        """
-        A dict of all formatters we know about.
-        """
-
-    def getBestFormatter(desiredFormat):
-        """
-        A single IFormatter provider that is either the same format as the one
-        requested, or the next best formatter available.
-        """
-
     def lookup(idOrName):
         """
         Get a single IRuleFact that is uniquely identified by idOrName
@@ -54,16 +43,11 @@ class IRuleCollection(Interface):
         """
 
 
-class IFormatter(Interface):
+class IRuleFact(Interface):
     """
-    Make a rule collection object into a human-readable text
+    One instance from a collection of rules
     """
-    formatName = Attribute('formatName')
-
-    def format():
-        """
-        Convert the fact into a piece of text
-        """
+    collection = Attribute("collection")  # set to the collection that corresponds to me
 
 
 class IIndexable(Interface):
@@ -110,3 +94,10 @@ class IConverter(Interface):
         """
 
 
+class IPublisher(Interface):
+    name = Attribute("name")
+    def format(**kwargs):
+        """
+        Stringify the object I was initialized with.  Optional kwargs specify
+        parameters that can be passed in to modify the formatting.
+        """

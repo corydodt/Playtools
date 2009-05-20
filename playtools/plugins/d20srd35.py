@@ -3,7 +3,7 @@ The game system based on the D20 SRD (version 3.5)
 """
 import re
 
-from zope.interface import implements, Interface, Attribute
+from zope.interface import implements, Attribute
 
 from twisted.plugin import IPlugin
 from twisted.python import log
@@ -11,7 +11,7 @@ from twisted.python import log
 from storm import locals as SL
 
 from playtools.interfaces import (IRuleSystem, IRuleCollection,
-    IIndexable)
+    IIndexable, IRuleFact)
 from playtools.util import RESOURCE
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
@@ -65,7 +65,7 @@ S.rdfsPTClass.db = RDFDB.graph
 ## SQL/Storm-based facts
 ## SQL/Storm-based facts
 
-class IStormFact(Interface):
+class IStormFact(IRuleFact):
     """
     The SRD/SQL facts typically all have these special attributes, useful for
     various reasons.
@@ -114,6 +114,7 @@ class StormFactCollection(object):
     implements(IRuleCollection, IPlugin)
     systems = (D20SRD35System,)
     def __init__(self, factClass, factName):
+        factClass.collection = self
         self.klass = factClass 
         self.factName = factName
 
@@ -153,6 +154,8 @@ class Monster(object):
     implements(IStormFact)
 
     __storm_table__ = 'monster'
+
+    collection = None
 
     id = SL.Int(primary=True)                #
     name = SL.Unicode()                      
@@ -202,6 +205,8 @@ class Spell(object):
     implements(IStormFact)
 
     __storm_table__ = 'spell'
+
+    collection = None
 
     id = SL.Int(primary=True)                #
     name = SL.Unicode()
@@ -276,7 +281,7 @@ def srdReferenceURL(item):
 ## RDF-based facts
 ## RDF-based facts
 
-class IRDFFact(Interface):
+class IRDFFact(IRuleFact):
     """
     The SRD/RDF facts typically all have these special attributes, useful for
     various reasons.
@@ -316,6 +321,7 @@ class RDFFactCollection(object):
     implements(IRuleCollection, IPlugin)
     systems = (D20SRD35System,)
     def __init__(self, factClass, factName):
+        factClass.collection = self
         self.klass = factClass 
         self.factName = factName
 
@@ -347,6 +353,8 @@ class SpecialArmorClass(S.rdfsPTClass):
     rdf_type = CHAR.SpecialArmorClass
     implements(IRDFFact)
 
+    collection = None
+
     def collectText(self):
         """
         The indexable text of this family
@@ -365,6 +373,8 @@ class Aura(S.rdfsPTClass):
     rdf_type = CHAR.Aura
     implements(IRDFFact)
 
+    collection = None
+
     def collectText(self):
         """
         The indexable text of this family
@@ -379,6 +389,8 @@ class SpecialAction(S.rdfsPTClass):
     """Something a creature can do besides attack"""
     rdf_type = CHAR.SpecialAction
     implements(IRDFFact)
+
+    collection = None
 
     def collectText(self):
         """
@@ -452,6 +464,8 @@ class Family(S.rdfsPTClass):
     rdf_type = CHAR.Family
     implements(IRDFFact)
 
+    collection = None
+
     comment = rdfSingle(RDFSNS.comment)
     senses = rdfMultiple(PROP.sense, range_type=CHAR.Sense)
     languages = rdfMultiple(PROP.language, range_type=CHAR.Language)
@@ -495,6 +509,8 @@ class Skill(S.rdfsPTClass):
     rdf_type = CHAR.Skill
     implements(IRDFFact)
 
+    collection = None
+
     keyAbility = rdfSingle(PROP.keyAbility, range_type=CHAR.AbilityScore)
     synergy = rdfMultiple(PROP.synergy, range_type=CHAR.SkillSynergy)
     additional = rdfSingle(PROP.additional)
@@ -526,6 +542,8 @@ class Feat(S.rdfsPTClass):
     rdf_type = CHAR.Feat
     implements(IRDFFact)
 
+    collection = None
+
     stackable = S.rdfIsInstance(CHAR.StackableFeat)
     canTakeMultiple = S.rdfIsInstance(CHAR.CanTakeMultipleFeat)
     epic = S.rdfIsInstance(CHAR.EpicFeat)
@@ -554,7 +572,6 @@ class Feat(S.rdfsPTClass):
         addl = self.additional or u''
         nofeat = self.noFeatComment or u''
         return u' '.join([cm, ben, prereq, choice, nofeat, addl])
-
 
 feat = RDFFactCollection(Feat, 'feat')
 

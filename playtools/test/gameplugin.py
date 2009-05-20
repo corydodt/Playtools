@@ -2,13 +2,16 @@
 A fake game system for testing game system plugins.
 """
 import re
+import string
 
-from zope.interface import implements, Interface
+from zope.interface import implements
 
 from twisted.plugin import IPlugin
 
-from playtools.interfaces import (IRuleSystem, IRuleCollection, IIndexable)
-from playtools import globalRegistry
+from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
+        IIndexable,
+        IPublisher)
+from playtools import globalRegistry, publish
 
 class BuildingsAndBadgersSystem(object):
     """
@@ -25,7 +28,7 @@ class BuildingsAndBadgersSystem(object):
 buildingsAndBadgers = BuildingsAndBadgersSystem()
 
 
-class IBadgerFact(Interface):
+class IBadgerFact(IRuleFact):
     """
     A test interface for badgery.
     """
@@ -49,31 +52,20 @@ globalRegistry.register([IBadgerFact], IIndexable, '', IndexableBadgerFact)
 
 class Building(object):
     implements(IBadgerFact)
-    def __init__(self, id, name, text):
+    def __init__(self, id, name, text, collection):
         self.id = id
         self.name = name
         self.full_text = text
+        self.collection = collection
 
 
 class Badger(object):
     implements(IBadgerFact)
-    def __init__(self, id, name, text):
+    def __init__(self, id, name, text, collection):
         self.id = id
         self.name = name
         self.full_text = text
-
-
-database = {
-'badger': [
-    Badger(u'1', u'Small Badger', u'Small, pretty badger.'),
-    Badger(u'73', u'Giant Man-Eating Badger', u'Giant, hideous, bad-tempered space badger.')
-    ],
-
-'building': [
-    Building(u'2', u'Castle', 'A castle (where badgers live)'),
-    Building(u'4', u'Dungeon', 'A dungeon (built by badgers)'),
-    ],
-}
+        self.collection = collection
 
 
 class FakeFactCollection(object):
@@ -106,3 +98,36 @@ class FakeFactCollection(object):
 
 buildings = FakeFactCollection('building')
 badgers = FakeFactCollection('badger')
+
+class HTMLBuildingPublisher(object):
+    implements(IPublisher)
+    name = 'html'
+    def format(self, building, title=None):
+        t = string.Template(r"""<html><head>
+<title>$title</title>
+</head>
+<body>
+<h1>$title</h1>
+$body
+</body>
+</html>
+""")
+        if title is None:
+            title = building.name
+        r = t.substitute(title=title, body=building.full_text)
+        return r
+        #
+
+publish.addPublisher(buildings, HTMLBuildingPublisher)
+
+database = {
+'badger': [
+    Badger(u'1', u'Small Badger', u'Small, pretty badger.', badgers),
+    Badger(u'73', u'Giant Man-Eating Badger', u'Giant, hideous, bad-tempered space badger.', badgers)
+    ],
+
+'building': [
+    Building(u'2', u'Castle', 'A castle (where badgers live)', buildings),
+    Building(u'4', u'Dungeon', 'A dungeon (built by badgers)', buildings),
+    ],
+}

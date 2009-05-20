@@ -2,6 +2,9 @@
 Utilities for easing the writing of tests.
 """
 import re
+import os
+import sys
+import shutil
 import operator
 import difflib
 from pprint import pformat
@@ -10,6 +13,8 @@ from contextlib import contextmanager
 from itertools import repeat, chain, izip
 
 from twisted.plugin import pluginPackagePaths
+
+from playtools.util import RESOURCE
 
 # FIXME - not needed in python 2.6
 def izip_longest(*args, **kwds):
@@ -140,6 +145,22 @@ def pluginsLoadedFromTest():
         pkg = test
         pkg.__path__ = orig__path__
 
+## TODO - better implementation I can't bother with right now @contextmanager
+## TODO - better implementation I can't bother with right now def pluginsLoadedFromTest():
+## TODO - better implementation I can't bother with right now     otherApp = RESOURCE('test/OtherApp')
+## TODO - better implementation I can't bother with right now     plugDir = otherApp + '/playtools/plugins'
+## TODO - better implementation I can't bother with right now     try:
+## TODO - better implementation I can't bother with right now         try:
+## TODO - better implementation I can't bother with right now             shutil.rmtree(otherApp)
+## TODO - better implementation I can't bother with right now         except EnvironmentError:
+## TODO - better implementation I can't bother with right now             pass
+## TODO - better implementation I can't bother with right now         os.makedirs(plugDir)
+## TODO - better implementation I can't bother with right now         shutil.copy(RESOURCE('test/gameplugin.py'), plugDir)
+## TODO - better implementation I can't bother with right now         sys.path.insert(0, otherApp)
+## TODO - better implementation I can't bother with right now         yield
+## TODO - better implementation I can't bother with right now     finally:
+## TODO - better implementation I can't bother with right now         sys.path.remove(otherApp)
+## TODO - better implementation I can't bother with right now         shutil.rmtree(otherApp)
 
 def pluck(items, *attrs):
     """
