@@ -75,7 +75,8 @@ class SearchTest(unittest.TestCase):
         self.index.open(self.BADGERS.searchIndexPath, 'w')
         indexer = search.HypyIndexer(self.BADGERS.searchIndexPath)
 
-        dbNinja = gameplugin.Badger(23, u'Ninja Badger', u"Hello<div>\\nmy pretty")
+        dbNinja = gameplugin.Badger(23, u'Ninja Badger', u"Hello<div>\\nmy pretty",
+                self.BADGERS)
 
         indexer.indexItem(dbNinja, self.index, u'ninja')
         self.index.flush()
@@ -107,7 +108,7 @@ class SearchTest(unittest.TestCase):
                 ] # }}}
 
         for n, (full_text, name) in enumerate(tests):
-            thing = gameplugin.Badger(n, name, full_text)
+            thing = gameplugin.Badger(n, name, full_text, self.BADGERS)
             indexer.indexItem(thing, self.index, u'ninja')
 
         self.index.flush()
