@@ -1,7 +1,6 @@
 """
 A fake game system for testing game system plugins.
 """
-import re
 import string
 
 from zope.interface import implements

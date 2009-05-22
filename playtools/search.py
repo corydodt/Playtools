@@ -1,7 +1,7 @@
 """
 HyperEstraier-based indexing and searching
 """
-import sys, os
+import sys
 import shutil
 import re
 

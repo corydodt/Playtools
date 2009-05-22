@@ -1,5 +1,5 @@
 from simpleparse import parser, dispatchprocessor as disp, objectgenerator
-from simpleparse import common, objectgenerator
+from simpleparse import common
 from simpleparse.common import numbers
 ## appease pyflakes
 numbers

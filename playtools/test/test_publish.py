@@ -11,7 +11,7 @@ from twisted.trial import unittest
 
 from playtools import publish, fact
 from playtools.test.util import pluginsLoadedFromTest
-from playtools.interfaces import IRuleFact, IPublisher
+from playtools.interfaces import IPublisher
 
 class PublishTest(unittest.TestCase):
     def setUp(self):

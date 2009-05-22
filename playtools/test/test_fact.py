@@ -5,7 +5,7 @@ from __future__ import with_statement
 
 from twisted.trial import unittest
 
-from playtools import fact, test
+from playtools import fact
 from playtools.test.util import pluginsLoadedFromTest
 
 from . import gameplugin

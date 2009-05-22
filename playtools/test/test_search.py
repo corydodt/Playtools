@@ -3,11 +3,10 @@ Test search functionality
 """
 from __future__ import with_statement
 
-import operator
 import unittest
 import re
 
-from hypy import HDatabase, OpenFailed, CloseFailed
+from hypy import HDatabase, CloseFailed
 
 from .. import search, fact
 

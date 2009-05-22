@@ -1,8 +1,6 @@
 """
 Converter from srd35.db to monster.n3
 """
-import re
-
 from zope.interface import implements
 
 from twisted.plugin import IPlugin

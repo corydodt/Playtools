@@ -2,11 +2,8 @@
 Utilities for easing the writing of tests.
 """
 import re
-import os
-import sys
-import shutil
-import operator
 import difflib
+import operator
 from pprint import pformat
 from contextlib import contextmanager
 
@@ -14,7 +11,6 @@ from itertools import repeat, chain, izip
 
 from twisted.plugin import pluginPackagePaths
 
-from playtools.util import RESOURCE
 
 # FIXME - not needed in python 2.6
 def izip_longest(*args, **kwds):
@@ -145,6 +141,10 @@ def pluginsLoadedFromTest():
         pkg = test
         pkg.__path__ = orig__path__
 
+## TODO - for the pluginsLoadedFromTest import os
+## TODO - for the pluginsLoadedFromTest import sys
+## TODO - for the pluginsLoadedFromTest import shutil
+## TODO - for the pluginsLoadedFromTest from playtools.util import RESOURCE
 ## TODO - better implementation I can't bother with right now @contextmanager
 ## TODO - better implementation I can't bother with right now def pluginsLoadedFromTest():
 ## TODO - better implementation I can't bother with right now     otherApp = RESOURCE('test/OtherApp')

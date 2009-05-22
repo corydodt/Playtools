@@ -3,7 +3,6 @@ We shall be able to pull facts about the srd35 system out using the API
 """
 
 from twisted.trial import unittest
-import string
 import re
 
 from .. import fact

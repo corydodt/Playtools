@@ -6,7 +6,6 @@ import re
 from zope.interface import implements, Attribute
 
 from twisted.plugin import IPlugin
-from twisted.python import log
 
 from storm import locals as SL
 

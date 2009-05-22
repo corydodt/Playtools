@@ -14,9 +14,9 @@ from rdflib import Literal, URIRef, BNode
 from rdfalchemy import rdfSingle, rdfMultiple
 from rdfalchemy.orm import mapper
 
-from playtools import sparqly, util
+from playtools import sparqly
 from playtools.test.pttestutil import IsomorphicTestableGraph
-from playtools.common import this, RDFSNS, a
+from playtools.common import this, a
 
 from . import util
 

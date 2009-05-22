@@ -2,7 +2,6 @@
 Base system for creating formatter implementations
 """
 
-from playtools import globalRegistry
 from playtools.interfaces import IPublisher, IRuleCollection
 
 _publisherRegistry = {}
