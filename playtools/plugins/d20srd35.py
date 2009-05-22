@@ -520,6 +520,7 @@ class Skill(S.rdfsPTClass):
     tryAgainComment = rdfSingle(PROP.tryAgainComment)
     untrained = rdfSingle(PROP.untrained)
     comment = rdfSingle(RDFSNS.comment)
+    reference = rdfSingle(PROP.reference)
 
     def collectText(self):
         """
@@ -560,6 +561,7 @@ class Feat(S.rdfsPTClass):
     prerequisiteText = rdfSingle(PROP.prerequisiteText)
     noFeatComment = rdfSingle(PROP.noFeatComment)
     comment = rdfSingle(RDFSNS.comment)
+    reference = rdfSingle(PROP.reference)
 
     def collectText(self):
         """
