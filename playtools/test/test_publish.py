@@ -20,14 +20,13 @@ class PublishTest(unittest.TestCase):
             systems = fact.getSystems()
             self.bnb = systems['Buildings & Badgers']
             fact.importRuleCollections(systems)
+            publish.publishers = publish.getPublishers()
 
     def test_getPublishers(self):
         """
         We can plug in a publisher by scanning for plugins.
         """
-        with pluginsLoadedFromTest():
-            publish.publishers = publish.getPublishers()
-            self.assertTrue((buildings, 'html') in publish.publishers)
+        self.assertTrue((buildings, 'html') in publish.publishers)
 
     def test_customPublisher(self):
         """
@@ -94,11 +93,9 @@ Giant, hideous, bad-tempered space badger.
         """
         Can format as one of the known formats, and pass in kw to format
         """
-        with pluginsLoadedFromTest():
-            publish.publishers = publish.getPublishers()
-            bldg = self.bnb.facts['building']
-            ret = publish.publish(bldg.lookup(u'2'), 'html', title="hello kitty")
-            self.assertEqual(ret, """<html><head>
+        bldg = self.bnb.facts['building']
+        ret = publish.publish(bldg.lookup(u'2'), 'html', title="hello kitty")
+        self.assertEqual(ret, """<html><head>
 <title>hello kitty</title>
 </head>
 <body>
@@ -107,7 +104,7 @@ A castle (where badgers live)
 </body>
 </html>
 """)
-        #
+    #
 
     def test_override(self):
         """
@@ -141,10 +138,8 @@ $app
 
         publish.override(bldg, htmlBuildingPublisher2)
 
-        with pluginsLoadedFromTest():
-            pubs = publish.getPublishers()
-            ret = publish.publish(bldg.lookup(u'2'), 'html', app="Goonmill")
-            self.assertEqual(ret, """<html><head>
+        ret = publish.publish(bldg.lookup(u'2'), 'html', app="Goonmill")
+        self.assertEqual(ret, """<html><head>
 <title>Castle - Goonmill</title>
 </head>
 <body>
