@@ -31,8 +31,7 @@ def importRuleCollections(gameSystems):
     """
     l = list(getPlugins(IRuleCollection, PLUGINMODULE))
     for collection in l:
-        for s in collection.systems:
-            gameSystems[s.name].facts[collection.factName] = collection
+        gameSystems[collection.system.name].facts[collection.factName] = collection
 
 importRuleCollections(systems)
 

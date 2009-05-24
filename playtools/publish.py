@@ -25,7 +25,7 @@ def getPublishers():
     l = list(getPlugins(IPublisher, PLUGINMODULE))
     ret = {}
     for pub in l:
-        ret[(pub.collection, pub.name)] = pub
+        ret[(pub.systemName, pub.collectionName, pub.name)] = pub
     return ret
 
 publishers = getPublishers()
@@ -37,7 +37,9 @@ def override(collection, publisher):
     """
     assert IPublisher.providedBy(publisher)
     assert IRuleCollection.providedBy(collection)
-    publishers[(collection, publisher.name)] = publisher
+    sysname = collection.system.name
+    factname = collection.factName
+    publishers[(sysname, factname, publisher.name)] = publisher
 
 
 class PublisherPlugin(object):
@@ -47,9 +49,9 @@ class PublisherPlugin(object):
     """
     implements(IPlugin)
     collection = None
-    def __init__(self, collection):
-        assert IRuleCollection.providedBy(collection)
-        self.collection = collection
+    def __init__(self, systemName, collectionName):
+        self.systemName = systemName
+        self.collectionName = collectionName
 
 
 class Publisher(object):
@@ -62,6 +64,9 @@ class Publisher(object):
         self.outputFormat = format
 
     def format(self, **kw):
-        formatter = publishers[(self.fact.collection, self.outputFormat)]
+        col = self.fact.collection
+        systemName = col.system.name
+        factName = col.factName
+        formatter = publishers[(systemName, factName, self.outputFormat)]
         return formatter.format(self.fact, **kw)
 

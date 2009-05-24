@@ -72,7 +72,7 @@ class FakeFactCollection(object):
     A pretend collection of RuleFacts
     """
     implements(IRuleCollection, IPlugin)
-    systems = (BuildingsAndBadgersSystem,)
+    system = BuildingsAndBadgersSystem
 
     def __init__(self, factName):
         self.factName = factName
@@ -117,7 +117,8 @@ $body
         return r
         #
 
-htmlBuildingPublisher = HTMLBuildingPublisher(buildings)
+htmlBuildingPublisher = HTMLBuildingPublisher(buildingsAndBadgers.name,
+        buildings.factName)
 
 database = {
 'badger': [

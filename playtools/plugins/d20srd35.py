@@ -111,7 +111,7 @@ class StormFactCollection(object):
     or dump them.
     """
     implements(IRuleCollection, IPlugin)
-    systems = (D20SRD35System,)
+    system = D20SRD35System
     def __init__(self, factClass, factName):
         factClass.collection = self
         self.klass = factClass 
@@ -318,7 +318,7 @@ class RDFFactCollection(object):
     look them up or dump them.
     """
     implements(IRuleCollection, IPlugin)
-    systems = (D20SRD35System,)
+    system = D20SRD35System
     def __init__(self, factClass, factName):
         factClass.collection = self
         self.klass = factClass 

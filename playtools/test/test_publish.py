@@ -26,7 +26,7 @@ class PublishTest(unittest.TestCase):
         """
         We can plug in a publisher by scanning for plugins.
         """
-        self.assertTrue((buildings, 'html') in publish.publishers)
+        self.assertTrue((self.bnb.name, buildings.factName, 'html') in publish.publishers)
 
     def test_customPublisher(self):
         """
@@ -51,16 +51,16 @@ $body
         badg = self.bnb.facts['badger']
 
         latexBuildingPublisher = LatexGenericPublisher()
-        latexBuildingPublisher.collection = bldg
+        latexBuildingPublisher.collectionName = 'building'
 
         latexBadgerPublisher = LatexGenericPublisher()
-        latexBadgerPublisher.collection = badg
+        latexBadgerPublisher.collectionName = 'badger'
 
         # clone out the publisher registry so we can use it in other tests
         orig_registry = publish.publishers
         publish.publishers = publish.publishers.copy()
         try:
-            publish.publishers[(bldg, 'latex')] = latexBuildingPublisher
+            publish.publishers[('Buildings & Badgers', 'building', 'latex')] = latexBuildingPublisher
 
             # 
             ret1 = publish.publish(bldg.lookup(u'2'), 'latex', title="badger house!")
@@ -77,7 +77,7 @@ A castle (where badgers live)
             self.assertRaises(KeyError, lambda *a: publish.publish(nasty, 'latex'))
 
             # now register it and see it work
-            publish.publishers[(badg, 'latex')] = latexBadgerPublisher
+            publish.publishers[('Buildings & Badgers', 'badger', 'latex')] = latexBadgerPublisher
             ret2 = publish.publish(badg.lookup(u'73'), 'latex')
             self.assertEqual(ret2, r"""\documentclass[a4paper,12pt]{article}
 \begin{document}
@@ -134,7 +134,8 @@ $app
 
         bldg = self.bnb.facts['building']
 
-        htmlBuildingPublisher2 = HTMLBuildingPublisher2(bldg)
+        htmlBuildingPublisher2 = HTMLBuildingPublisher2(self.bnb.name,
+                bldg.factName)
 
         publish.override(bldg, htmlBuildingPublisher2)
 

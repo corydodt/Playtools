@@ -24,7 +24,7 @@ class IRuleCollection(Interface):
     A RuleCollection provides an interface to the collection of RuleFacts that
     have the same type.
     """
-    systems = Attribute("systems")
+    system = Attribute("system")
     factName = Attribute("factName")
 
     def __getitem__(self, key):
@@ -95,6 +95,8 @@ class IConverter(Interface):
 
 
 class IPublisher(Interface):
+    systemName = Attribute("systemName")
+    collectionName = Attribute("collectionName")
     name = Attribute("name")
     def format(**kwargs):
         """
