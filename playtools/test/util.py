@@ -125,19 +125,23 @@ def pluginsLoadedFromTest():
     """
     ## Provide our own PLUGINMODULE to playtools.fact and use that to test
     ## the functions that load our plugins.
-    from playtools import test, fact
+    from playtools import test, fact, publish
     pkg = test
     orig__path__ = pkg.__path__
-    orig_PLUGINMODULE = fact.PLUGINMODULE
+    originals = {fact: fact.PLUGINMODULE,
+            publish: publish.PLUGINMODULE,
+            }
     try:
         pkg.__path__.extend(pluginPackagePaths(pkg.__name__))
         # monkeypatch fact so it loads plugins from our test directory
         fact.PLUGINMODULE = pkg
+        publish.PLUGINMODULE = pkg
 
         yield
 
     finally:
-        fact.PLUGINMODULE = orig_PLUGINMODULE
+        for k in originals:
+            k.PLUGINMODULE = originals[k]
         pkg = test
         pkg.__path__ = orig__path__
 

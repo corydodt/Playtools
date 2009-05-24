@@ -98,7 +98,7 @@ class FakeFactCollection(object):
 buildings = FakeFactCollection('building')
 badgers = FakeFactCollection('badger')
 
-class HTMLBuildingPublisher(object):
+class HTMLBuildingPublisher(publish.PublisherPlugin):
     implements(IPublisher)
     name = 'html'
     def format(self, building, title=None):
@@ -117,7 +117,7 @@ $body
         return r
         #
 
-publish.addPublisher(buildings, HTMLBuildingPublisher)
+htmlBuildingPublisher = HTMLBuildingPublisher(buildings)
 
 database = {
 'badger': [

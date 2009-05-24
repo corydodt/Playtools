@@ -11,6 +11,7 @@ from twisted.trial import unittest
 
 from playtools import publish, fact
 from playtools.test.util import pluginsLoadedFromTest
+from playtools.test.gameplugin import buildings
 from playtools.interfaces import IPublisher
 
 class PublishTest(unittest.TestCase):
@@ -20,12 +21,19 @@ class PublishTest(unittest.TestCase):
             self.bnb = systems['Buildings & Badgers']
             fact.importRuleCollections(systems)
 
+    def test_getPublishers(self):
+        """
+        We can plug in a publisher by scanning for plugins.
+        """
+        with pluginsLoadedFromTest():
+            publish.publishers = publish.getPublishers()
+            self.assertTrue((buildings, 'html') in publish.publishers)
+
     def test_customPublisher(self):
         """
         Can create a publication format and use it to publish an object
         """
-        class LatexBuildingPublisher(object):
-            implements(IPublisher)
+        class LatexGenericPublisher(object):
             name = 'latex'
             def format(self, building, title=None):
                 t = string.Template(r"""\documentclass[a4paper,12pt]{article}
@@ -38,16 +46,22 @@ $body
                     title = building.name
                 r = t.substitute(title=title, body=building.full_text)
                 return r
-                #
+        #
 
         bldg = self.bnb.facts['building']
         badg = self.bnb.facts['badger']
 
+        latexBuildingPublisher = LatexGenericPublisher()
+        latexBuildingPublisher.collection = bldg
+
+        latexBadgerPublisher = LatexGenericPublisher()
+        latexBadgerPublisher.collection = badg
+
         # clone out the publisher registry so we can use it in other tests
-        orig_registry = publish._publisherRegistry
-        publish._publisherRegistry = publish._publisherRegistry.copy()
+        orig_registry = publish.publishers
+        publish.publishers = publish.publishers.copy()
         try:
-            publish.addPublisher(bldg, LatexBuildingPublisher)
+            publish.publishers[(bldg, 'latex')] = latexBuildingPublisher
 
             # 
             ret1 = publish.publish(bldg.lookup(u'2'), 'latex', title="badger house!")
@@ -64,7 +78,7 @@ A castle (where badgers live)
             self.assertRaises(KeyError, lambda *a: publish.publish(nasty, 'latex'))
 
             # now register it and see it work
-            publish.addPublisher(badg, LatexBuildingPublisher)
+            publish.publishers[(badg, 'latex')] = latexBadgerPublisher
             ret2 = publish.publish(badg.lookup(u'73'), 'latex')
             self.assertEqual(ret2, r"""\documentclass[a4paper,12pt]{article}
 \begin{document}
@@ -73,16 +87,18 @@ Giant, hideous, bad-tempered space badger.
 \end{document}
 """)
         finally:
-            publish._publisherRegistry = orig_registry
+            publish.publishers = orig_registry
         #
 
     def test_publish(self):
         """
         Can format as one of the known formats, and pass in kw to format
         """
-        bldg = self.bnb.facts['building']
-        ret = publish.publish(bldg.lookup(u'2'), 'html', title="hello kitty")
-        self.assertEqual(ret, """<html><head>
+        with pluginsLoadedFromTest():
+            publish.publishers = publish.getPublishers()
+            bldg = self.bnb.facts['building']
+            ret = publish.publish(bldg.lookup(u'2'), 'html', title="hello kitty")
+            self.assertEqual(ret, """<html><head>
 <title>hello kitty</title>
 </head>
 <body>
@@ -97,7 +113,7 @@ A castle (where badgers live)
         """
         We can install a custom formatter that overrides an existing one
         """
-        class HTMLBuildingPublisher2(object):
+        class HTMLBuildingPublisher2(publish.PublisherPlugin):
             implements(IPublisher)
             name = 'html'
             def format(self, building, title=None, app=None):
@@ -117,17 +133,16 @@ $app
                     app = u''
                 r = t.substitute(title=title, body=building.full_text, app=app)
                 return r
-                #
-
-                #
+        #
 
         bldg = self.bnb.facts['building']
 
-        # clone out the publisher registry so we can use it in other tests
-        orig_registry = publish._publisherRegistry
-        publish._publisherRegistry = publish._publisherRegistry.copy()
-        try:
-            publish.addPublisher(bldg, HTMLBuildingPublisher2)
+        htmlBuildingPublisher2 = HTMLBuildingPublisher2(bldg)
+
+        publish.override(bldg, htmlBuildingPublisher2)
+
+        with pluginsLoadedFromTest():
+            pubs = publish.getPublishers()
             ret = publish.publish(bldg.lookup(u'2'), 'html', app="Goonmill")
             self.assertEqual(ret, """<html><head>
 <title>Castle - Goonmill</title>
@@ -139,7 +154,5 @@ Goonmill
 </body>
 </html>
 """)
-        finally:
-            publish._publisherRegistry = orig_registry
         #
 
