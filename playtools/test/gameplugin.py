@@ -10,7 +10,7 @@ from twisted.plugin import IPlugin
 from playtools.interfaces import (IRuleSystem, IRuleFact, IRuleCollection,
         IIndexable,
         IPublisher)
-from playtools import globalRegistry, publish
+from playtools import globalRegistry, publisherplugin
 
 class BuildingsAndBadgersSystem(object):
     """
@@ -98,7 +98,7 @@ class FakeFactCollection(object):
 buildings = FakeFactCollection('building')
 badgers = FakeFactCollection('badger')
 
-class HTMLBuildingPublisher(publish.PublisherPlugin):
+class HTMLBuildingPublisher(publisherplugin.PublisherPlugin):
     implements(IPublisher)
     name = 'html'
     def format(self, building, title=None):

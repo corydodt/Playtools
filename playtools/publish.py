@@ -1,9 +1,7 @@
 """
 Base system for creating formatter implementations
 """
-from zope.interface import implements
-
-from twisted.plugin import IPlugin, getPlugins
+from twisted.plugin import getPlugins
 
 from playtools.interfaces import IPublisher, IRuleCollection
 import playtools.plugins
@@ -40,18 +38,6 @@ def override(collection, publisher):
     sysname = collection.system.name
     factname = collection.factName
     publishers[(sysname, factname, publisher.name)] = publisher
-
-
-class PublisherPlugin(object):
-    """
-    Base class (convenience class) for objects that want to be publishers of a
-    single collection only.
-    """
-    implements(IPlugin)
-    collection = None
-    def __init__(self, systemName, collectionName):
-        self.systemName = systemName
-        self.collectionName = collectionName
 
 
 class Publisher(object):

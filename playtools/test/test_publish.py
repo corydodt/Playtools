@@ -9,7 +9,7 @@ from zope.interface import implements
 
 from twisted.trial import unittest
 
-from playtools import publish, fact
+from playtools import publish, fact, publisherplugin
 from playtools.test.util import pluginsLoadedFromTest
 from playtools.test.gameplugin import buildings
 from playtools.interfaces import IPublisher
@@ -110,7 +110,7 @@ A castle (where badgers live)
         """
         We can install a custom formatter that overrides an existing one
         """
-        class HTMLBuildingPublisher2(publish.PublisherPlugin):
+        class HTMLBuildingPublisher2(publisherplugin.PublisherPlugin):
             implements(IPublisher)
             name = 'html'
             def format(self, building, title=None, app=None):
