@@ -1,0 +1,18 @@
+BEGIN;
+ANALYZE sqlite_master;
+INSERT INTO "sqlite_stat1" VALUES('item','item_name_idx','1680 2');
+INSERT INTO "sqlite_stat1" VALUES('spell','spell_name_idx','699 2');
+INSERT INTO "sqlite_stat1" VALUES('class','class_name_idx','53 1');
+INSERT INTO "sqlite_stat1" VALUES('class_table','class_table_name_idx','985 19');
+INSERT INTO "sqlite_stat1" VALUES('power','power_name_idx','286 1');
+INSERT INTO "sqlite_stat1" VALUES('domain','domain_name_idx','36 1');
+INSERT INTO "sqlite_stat1" VALUES('equipment','equipment_name_idx','282 1');
+CREATE INDEX class_name_idx ON class(name);
+CREATE INDEX class_table_name_idx ON class_table(name);
+CREATE INDEX domain_name_idx ON domain(name);
+CREATE INDEX equipment_name_idx ON equipment(name);
+CREATE INDEX item_name_idx ON item(name);
+CREATE INDEX power_name_idx ON power(name);
+CREATE INDEX spell_name_idx ON spell(name);
+CREATE INDEX monster_name_idx ON monster(name);
+COMMIT;
