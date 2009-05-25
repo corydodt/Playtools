@@ -3,9 +3,7 @@ Access to facts given by the game systems we know about.
 """
 
 from .interfaces import IRuleSystem, IRuleCollection
-import playtools.plugins
-
-PLUGINMODULE = playtools.plugins  # making it possible to monkey-patch this in test code
+from playtools import PLUGINMODULE
 
 from twisted.plugin import getPlugins
 

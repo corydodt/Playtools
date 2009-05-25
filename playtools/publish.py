@@ -4,9 +4,7 @@ Base system for creating formatter implementations
 from twisted.plugin import getPlugins
 
 from playtools.interfaces import IPublisher, IRuleCollection
-import playtools.plugins
-
-PLUGINMODULE = playtools.plugins  # making it possible to monkey-patch this in test code
+from playtools import PLUGINMODULE
 
 def publish(fact, format, **kw):
     """
