@@ -20,7 +20,7 @@ class TestFactPluginLoading(unittest.TestCase):
         """
         The getSystems function finds systems we have set up
         """
-        with pluginsLoadedFromTest():
+        with pluginsLoadedFromTest(fact):
             systems = fact.getSystems()
 
         self.assertTrue('Buildings & Badgers' in systems)
@@ -42,7 +42,7 @@ class TestFactPluginLoading(unittest.TestCase):
         systems = {'Buildings & Badgers': game,
                 ('Buildings & Badgers', '2.06'): game,
                 }
-        with pluginsLoadedFromTest():
+        with pluginsLoadedFromTest(fact):
             fact.importRuleCollections(systems)
 
     def test_importRuleCollections(self):

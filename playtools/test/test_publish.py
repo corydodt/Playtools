@@ -16,11 +16,12 @@ from playtools.interfaces import IPublisher
 
 class PublishTest(unittest.TestCase):
     def setUp(self):
-        with pluginsLoadedFromTest():
-            systems = fact.getSystems()
-            self.bnb = systems['Buildings & Badgers']
-            fact.importRuleCollections(systems)
-            publish.publishers = publish.getPublishers()
+        with pluginsLoadedFromTest(fact):
+            with pluginsLoadedFromTest(publish):
+                systems = fact.getSystems()
+                self.bnb = systems['Buildings & Badgers']
+                fact.importRuleCollections(systems)
+                publish.publishers = publish.getPublishers()
 
     def test_getPublishers(self):
         """

@@ -1,15 +1,21 @@
 """
 Utilities for easing the writing of tests.
 """
+from __future__ import with_statement
+
 import re
 import difflib
 import operator
 from pprint import pformat
 from contextlib import contextmanager
 
+from fudge.patcher import patched_context
+
 from itertools import repeat, chain, izip
 
-from twisted.plugin import pluginPackagePaths
+import twisted.plugin
+
+from playtools.interfaces import IRuleSystem, IPublisher, IRuleCollection
 
 
 # FIXME - not needed in python 2.6
@@ -118,53 +124,28 @@ class DiffTestCaseMixin(object):
 
 
 @contextmanager
-def pluginsLoadedFromTest():
+def pluginsLoadedFromTest(mod):
     """
-    Run code in an environment that uses the playtools.test directory as the
-    playtools plugin directory
+    Run code in a patched environment.  Utility function.  Pass in the module
+    into you wish to patch getPluginsFake.
     """
-    ## Provide our own PLUGINMODULE to playtools.fact and use that to test
-    ## the functions that load our plugins.
-    from playtools import test, fact, publish
-    pkg = test
-    orig__path__ = pkg.__path__
-    originals = {fact: fact.PLUGINMODULE,
-            publish: publish.PLUGINMODULE,
-            }
-    try:
-        pkg.__path__.extend(pluginPackagePaths(pkg.__name__))
-        # monkeypatch fact so it loads plugins from our test directory
-        fact.PLUGINMODULE = pkg
-        publish.PLUGINMODULE = pkg
-
+    with patched_context(mod, "getPlugins", getPluginsFake):
         yield
 
-    finally:
-        for k in originals:
-            k.PLUGINMODULE = originals[k]
-        pkg = test
-        pkg.__path__ = orig__path__
 
-## TODO - for the pluginsLoadedFromTest import os
-## TODO - for the pluginsLoadedFromTest import sys
-## TODO - for the pluginsLoadedFromTest import shutil
-## TODO - for the pluginsLoadedFromTest from playtools.util import RESOURCE
-## TODO - better implementation I can't bother with right now @contextmanager
-## TODO - better implementation I can't bother with right now def pluginsLoadedFromTest():
-## TODO - better implementation I can't bother with right now     otherApp = RESOURCE('test/OtherApp')
-## TODO - better implementation I can't bother with right now     plugDir = otherApp + '/playtools/plugins'
-## TODO - better implementation I can't bother with right now     try:
-## TODO - better implementation I can't bother with right now         try:
-## TODO - better implementation I can't bother with right now             shutil.rmtree(otherApp)
-## TODO - better implementation I can't bother with right now         except EnvironmentError:
-## TODO - better implementation I can't bother with right now             pass
-## TODO - better implementation I can't bother with right now         os.makedirs(plugDir)
-## TODO - better implementation I can't bother with right now         shutil.copy(RESOURCE('test/gameplugin.py'), plugDir)
-## TODO - better implementation I can't bother with right now         sys.path.insert(0, otherApp)
-## TODO - better implementation I can't bother with right now         yield
-## TODO - better implementation I can't bother with right now     finally:
-## TODO - better implementation I can't bother with right now         sys.path.remove(otherApp)
-## TODO - better implementation I can't bother with right now         shutil.rmtree(otherApp)
+def getPluginsFake(interface, mod):
+    """
+    Load a predetermined list of plugins from gameplugin.  Meant for use with 
+    fudge.patcher.patch*
+    """
+    from playtools.test import gameplugin
+    plugins = {IRuleSystem: [gameplugin.buildingsAndBadgers],
+            IRuleCollection: [gameplugin.buildings, gameplugin.badgers],
+            IPublisher: [gameplugin.htmlBuildingPublisher]
+            }
+    assert interface in plugins, "Modify getPluginsFake to support this new interface first"
+    return iter(plugins[interface])
+
 
 def pluck(items, *attrs):
     """

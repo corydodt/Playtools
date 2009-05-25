@@ -17,7 +17,7 @@ class SearchTest(unittest.TestCase):
     def setUp(self):
         self.index = HDatabase()
 
-        with util.pluginsLoadedFromTest():
+        with util.pluginsLoadedFromTest(fact):
             systems = fact.getSystems()
             fact.importRuleCollections(systems)
 
