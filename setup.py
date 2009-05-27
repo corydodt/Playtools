@@ -32,7 +32,6 @@ setup(name='Playtools',
               'static/*.png',
               '*.n3',
               'plugins/*.n3',
-              'plugins/srd35.db',  # FIXME - set this up in D20SRD35.setup()
               'test/*.n3',
               ],
         },
