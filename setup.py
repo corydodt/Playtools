@@ -13,26 +13,38 @@ setup(name='Playtools',
       url='http://goonmill.org/playtools/',
       download_url='http://playtools-source.goonmill.org/archive/tip.tar.gz',
 
+      entry_points = {'zc.buildout': ['d20srd35 = playtools.recipe.d20srd35:D20SRD35',
+                                      'trial = playtools.recipe.trial:RunTrial',
+                                      ]},
+
       packages=find_packages(),
 
-      scripts=['bin/ptconvert', 'bin/ptstore'],
+      scripts=['bin/ptconvert', 'bin/ptstore', 'bin/pt-system-install'],
 
       install_requires=[
+          'zc.buildout>=1.2.1',
           'pysqlite>=2',
           'storm>=0.13',
-          'rdflib==2.4.1',
-          'rdfalchemy>=0.2b2', # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'rdflib>=2.4.1.dev,<2.5',
           'simpleparse',
           'twisted>=2.5.0',
           'hypy',
+          'fudge',
+          'rdfalchemy==0.2b2',
+          ],
+
+      dependency_links=[
+          'http://goonmill.org/static/RDFAlchemy-0.2b2.tar.gz',  # FIXME - svn post 0.2b2 added rdfsSubject which is needed
           ],
 
       package_data={
           'playtools': ['data/*.n3',
-              'static/*.png',
               '*.n3',
               'plugins/*.n3',
               'test/*.n3',
+              'plugins/d20srd35-sql/*.sql',
+              'buildout.cfg',
+              'static/*.png',
               ],
         },
       classifiers=[

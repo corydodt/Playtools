@@ -18,3 +18,14 @@ Architecture
 
 ...
 
+
+============
+Installation
+============
+
+If you are installing with easy_install, you should be aware of an additional
+installation step, pt-system-install.  This builds a database which Playtools
+uses heavily.
+
+$ sudo easy_install playtools
+$ sudo pt-system-install
