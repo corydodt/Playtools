@@ -5,16 +5,6 @@ Install a plugin
 
 import sys, os
 
-import zc.buildout.buildout
+from playtools.scripts.ptsysteminstall import run
 
-import playtools
-from twisted.python.util import sibpath
-
-def run(argv=None):
-    cfg = sibpath(playtools.__file__, 'buildout.cfg')
-    if argv is None:
-        argv = sys.argv  
-    zc.buildout.buildout.main(['-c', cfg])
-
-if __name__ == '__main__':
-    run()
+if __name__ == '__main__': sys.exit(run())
