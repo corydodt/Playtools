@@ -5,6 +5,8 @@ import zc.buildout
 
 from playtools.scripts import ptstore
 
+from twisted.python.util import sibpath
+
 class D20SRD35(object):
     """
     Do the work required to set up playtools' included D20 SRD 3.5e plugin.
@@ -58,9 +60,11 @@ class D20SRD35(object):
         """
         Create the SQL database by running static SQL scripts
         """
+        from playtools import plugins
+
         sqls = map(str.strip, self.options['sqls'].split())
         for f in sqls:
-            f = os.sep.join([self.buildout['buildout']['directory'], f])
+            f = sibpath(plugins.__file__, f)
             self.sqlite3('-init', f, path, '.exit')
             if path not in self.options.created():
                 self.options.created(path)
