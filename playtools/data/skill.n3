@@ -2046,7 +2046,7 @@
 
  :concentration2 a c:PsionicSkill,
          c:Skill;
-     rdfs:label "Concentration";
+     rdfs:label "Concentration (Psionic)";
      p:additional "You can use Concentration to manifest a power or use a psi-like ability defensively, so as to avoid attacks of opportunity altogether. The DC of the check is 15 + the power's level. If the Concentration check succeeds, you can manifest normally without provoking any attacks of opportunity. If the Concentration check fails, the power also automatically fails and the power points are wasted, just as if your concentration had been disrupted by a distraction.A character with the Combat Manifestation feat gets a +4 bonus on Concentration checks made to manifest a power or use a psi-like ability while on the defensive or while grappling or pinned.";
      p:keyAbility c:con;
      p:reference <http://www.d20srd.org/srd/psionic/skills/concentration.htm>;
