@@ -26,15 +26,16 @@ setup(name='Playtools',
           'pysqlite>=2',
           'storm>=0.13',
           'rdflib>=2.4.1.dev,<2.5',
-          'simpleparse',
+          'SimpleParse>=2.1.0a1,<2.2',
           'twisted>=2.5.0',
           'hypy',
           'fudge',
-          'rdfalchemy==0.2b2',
+          'rdfalchemy==0.2b2.svn1',
           ],
 
       dependency_links=[
-          'http://goonmill.org/static/RDFAlchemy-0.2b2.tar.gz',  # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'http://goonmill.org/static/RDFAlchemy-0.2b2.svn1.tar.gz',  # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'http://softlayer.dl.sourceforge.net/sourceforge/simpleparse/SimpleParse-2.1.0a1.tar.gz', # simpleparse easy_install stopped working, dunno why
           ],
 
       package_data={
