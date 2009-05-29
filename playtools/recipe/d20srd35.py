@@ -3,6 +3,8 @@ import glob
 
 import zc.buildout
 
+from playtools.scripts import ptstore
+
 class D20SRD35(object):
     """
     Do the work required to set up playtools' included D20 SRD 3.5e plugin.
@@ -28,11 +30,7 @@ class D20SRD35(object):
         """
         Run ptstore with arguments
         """
-        ## bin = self.buildout['buildout']['bin-directory']
-        ## _pt = os.sep.join([bin, 'ptstore'])
-        _pt = 'ptstore'
-        quoted = ['"%s"'%x for x in a]
-        os.system('%s %s' % (_pt, ' '.join(quoted)))
+        ptstore.run(['_ignored'] + list(a))
 
     def sqlite3(self, *a):
         """
@@ -64,7 +62,8 @@ class D20SRD35(object):
         for f in sqls:
             f = os.sep.join([self.buildout['buildout']['directory'], f])
             self.sqlite3('-init', f, path, '.exit')
-            self.options.created(path)
+            if path not in self.options.created():
+                self.options.created(path)
 
         os.chmod(path, 0644)
 
