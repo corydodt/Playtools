@@ -577,5 +577,96 @@ class Feat(S.rdfsPTClass):
 feat = RDFFactCollection(Feat, 'feat')
 
 
+#" class Monster(S.rdfsPTClass):
+#"     """
+#"     A creature statted from the SRD monster list
+#"     """
+#"     the problem with sb.get is that it always returns a string.  however the
+#"     convention seems to be to return "" or some False value when there is nothing to show.  the
+#"     converter should handle that.  see resource.
+#" 
+#"     name                   = rdfSingle(...)  # direct from sql
+#"     family                 = rdfSingle(...)  # direct from sql
+#"     altname                = rdfSingle(...)  # direct from sql
+#"     size                   = rdfSingle(...)  # direct from sql
+#"     type                   = rdfSingle(...)  # direct from sql
+#"     descriptor             = rdfSingle(...)  # direct from sql
+#"     # hit_dice             = rdfSingle(...)
+#"     hitDice                = rdfSingle(...)  # from sb.get
+#"     # hitPoints will always be computed by outside app.
+#"     # count will always be outside app
+#"     # label will always be outside app
+#"     specialAC              = rdfSingle(...)  # from sb.get
+#"     acFeats                = rdfSingle(...)  # from sb.get????
+#"     speedFeats             = rdfSingle(...)  # from sb.get????
+#"     attackOptionFeats      = rdfSingle(...)  # from sb.get????
+#"     rangedAttackFeats      = rdfSingle(...)  # from sb.get????
+#"     listen                 = rdfSingle(...)  # from sb.get????
+#"     spot                   = rdfSingle(...)  # from sb.get????
+#"     
+#"     initiative             = rdfSingle(...)  # direct from sql
+#"     speed                  = rdfSingle(...)  # direct from sql
+#"     # armor_class          = rdfSingle(...)
+#"     armorClass             = rdfSingle(...)  # write a parser
+#"     base_attack            = rdfSingle(...)  # direct from sql
+#"     grapple                = rdfSingle(...)  # direct from sql
+#"     attack                 = rdfSingle(...)  # direct from sql
+#"     # full_attack          = rdfSingle(...)
+#"     attackGroups           = rdfSingle(...)  # from sb.get
+#"     space                  = rdfSingle(...)  # direct from sql
+#"     reach                  = rdfSingle(...)  # direct from sql
+#"     # special_attacks      = rdfSingle(...)  # from sb.get
+#"     specialAttacks         = rdfSingle(...)  # from sb.get (write a parser)
+#"     # special_qualities    = rdfSingle(...)
+#"     fullAbilities          = rdfSingle(...)  # from sb.get - maybe rename
+#"     casterLevel            = rdfSingle(...)  # from sb.get
+#"     spellLikeAbilities     = rdfSingle(...)  # from sb.get
+#"     spellResistance        = rdfSingle(...)  # from sb.get
+#"     languages              = rdfSingle(...)  # from sb.get
+#"     aura                   = rdfSingle(...)  # from sb.get
+#"     fastHealing            = rdfSingle(...)  # from sb.get  
+#"     regeneration           = rdfSingle(...)  # from sb.get
+#"     damageReduction        = rdfSingle(...)  # from sb.get
+#"     senses                 = rdfSingle(...)  # from sb.get
+#"     immunities             = rdfSingle(...)  # from sb.get
+#"     resistances            = rdfSingle(...)  # from sb.get
+#"     vulnerabilities        = rdfSingle(...)  # from sb.get
+#" 
+#"     # saves                = rdfSingle(...)
+#"     fortSave               = rdfSingle(...)  # from sb.get
+#"     refSave                = rdfSingle(...)  # from sb.get
+#"     willSave               = rdfSingle(...)  # from sb.get
+#" 
+#"     # abilities            = rdfSingle(...)
+#"     abilityStr             = rdfSingle(...)  # list from abilityparser.parseAbilities
+#"     abilityDex             = rdfSingle(...)  # list from abilityparser.parseAbilities
+#"     abilityCon             = rdfSingle(...)  # list from abilityparser.parseAbilities
+#"     abilityInt             = rdfSingle(...)  # list from abilityparser.parseAbilities
+#"     abilityWis             = rdfSingle(...)  # list from abilityparser.parseAbilities
+#"     abilityCha             = rdfSingle(...)  # list from abilityparser.parseAbilities
+#" 
+#"     # skills               = rdfSingle(...)
+#"     skills                 = rdfSingle(...)  # dict from sb.parseSkills  
+#" 
+#"     bonus_feats            = rdfSingle(...)  # list from sb.parseFeats
+#"     feats                  = rdfSingle(...)  # list from sb.parseFeats
+#"     epic_feats             = rdfSingle(...)  # list from sb.parseFeats
+#"     environment            = rdfSingle(...)  # direct from sql
+#"     organization           = rdfSingle(...)  # direct from sql
+#"     challenge_rating       = rdfSingle(...)  # direct from sql
+#"     treasure               = rdfSingle(...)  # direct from sql
+#"     # alignment            = rdfSingle(...)
+#"     alignment              = rdfSingle(...)  # from sb.get
+#"     advancement            = rdfSingle(...)  # direct from sql
+#"     level_adjustment       = rdfSingle(...)  # direct from sql
+#"     special_abilities      = rdfSingle(...)  # direct from sql
+#"     # stat_block           = rdfSingle(...)
+#"     # full_text            = rdfSingle(...)
+#"     fullText               = rdfSingle(...)  # clean up from sql
+#"     reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
+#" 
+#"     image                  = rdfSingle(...)  # direct from sql
+
+
 mapper()
 
