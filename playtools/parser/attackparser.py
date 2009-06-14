@@ -1,4 +1,4 @@
-from playtools import diceparser
+from . import diceparser
 diceparser
 
 from simpleparse import parser, dispatchprocessor as disp

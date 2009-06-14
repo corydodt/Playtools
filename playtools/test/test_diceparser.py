@@ -1,6 +1,6 @@
 import unittest
 
-from playtools import diceparser
+from playtools.parser import diceparser
 from simpleparse import parser
 
 class DiceParserTestCase(unittest.TestCase):

@@ -17,10 +17,6 @@ class IMPORTTestCase(unittest.TestCase):
         import playtools.interfaces
         playtools.interfaces
 
-    def test_importDiceparser(self):
-        import playtools.diceparser
-        playtools.diceparser
-
     def test_importDice(self):
         import playtools.dice
         playtools.dice
@@ -77,3 +73,34 @@ class IMPORTTestCase(unittest.TestCase):
         import playtools.plugins.util
         playtools.plugins.util
 
+    def test_importParserDiceparser(self):
+        import playtools.parser.diceparser
+        playtools.parser.diceparser
+
+    def test_importParserAbilityparser(self):
+        import playtools.parser.abilityparser
+        playtools.parser.abilityparser
+
+    def test_importParserAttackparser(self):
+        import playtools.parser.attackparser
+        playtools.parser.attackparser
+
+    def test_importParserFeatparser(self):
+        import playtools.parser.featparser
+        playtools.parser.featparser
+
+    def test_importParserFullabilityparser(self):
+        import playtools.parser.fullabilityparser
+        playtools.parser.fullabilityparser
+
+    def test_importParserSaveparser(self):
+        import playtools.parser.saveparser
+        playtools.parser.saveparser
+
+    def test_importParserSkillparser(self):
+        import playtools.parser.skillparser
+        playtools.parser.skillparser
+
+    def test_importParserSpecialparser(self):
+        import playtools.parser.specialparser
+        playtools.parser.specialparser

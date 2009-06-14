@@ -2,7 +2,7 @@
 import unittest
 
 from .. import dice
-from .. import diceparser
+from ..parser import diceparser
 
 class DiceTestCase(unittest.TestCase):
     def test_roll(self):

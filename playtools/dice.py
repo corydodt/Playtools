@@ -4,7 +4,7 @@ Implement dice rolling using parsed dice
 import sys
 import random
 
-from playtools import diceparser
+from playtools.parser import diceparser
 
 def rollDie(die, mod=0):
     return random.choice(range(1, die+1)) + mod
