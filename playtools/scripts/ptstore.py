@@ -65,7 +65,7 @@ class OpenCommand(usage.Options):
     """
     Open and explore a store interactively: ptstore open <filename>
     """
-    synopsis = "open <filename>"
+    synopsis = "<filename>"
 
     def parseArgs(self, filename):
         self['filename'] = filename
@@ -84,7 +84,7 @@ class CreateCommand(usage.Options):
     """
     Create a new database: ptstore create <filename>
     """
-    synopsis = "create <filename>"
+    synopsis = "<filename>"
     optFlags = [('force', 'f', "Wipe the db, if any, before creating"),
             ]
 
@@ -112,7 +112,7 @@ class PullCommand(usage.Options):
     """
     Fill an existing database with data from a document at some URI
     """
-    synopsis = "pull --n3 <uri> <filename>"
+    synopsis = "--n3 <uri> <filename>"
     optFlags = [
             ['verbose', 'v', 'Print more information (be verbose)'],
             ]
@@ -168,7 +168,7 @@ class PullCommand(usage.Options):
 
 
 class Options(usage.Options):
-    # synopsis = "ptstore <subcommand>"
+    synopsis = "ptstore"
 
     subCommands = [
             ("create", None, CreateCommand, "Create a new store"),
@@ -180,6 +180,7 @@ class Options(usage.Options):
 
     def postOptions(self):
         if self.subCommand is None:
+            self.synopsis = "ptstore <subcommand>"
             raise usage.UsageError("** Please specify a subcommand (see \"Commands\").")
 
 
@@ -190,7 +191,10 @@ def run(argv=None):
     try:
         o.parseOptions(argv[1:])
     except usage.UsageError, e:
-        print str(o)
+        if hasattr(o, 'subOptions'):
+            print str(o.subOptions)
+        else:
+            print str(o)
         print str(e)
         return 1
 
