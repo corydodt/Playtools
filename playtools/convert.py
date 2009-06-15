@@ -7,13 +7,14 @@ except ImportError:
 from twisted.plugin import getPlugins
 from .interfaces import IConverter
 
+from playtools import PLUGINMODULE
+
 
 XHTML_NS = 'http://www.w3.org/1999/xhtml#'
 
 
 def getConverters():
-    import playtools.plugins
-    l = list(getPlugins(IConverter, playtools.plugins))
+    l = list(getPlugins(IConverter, PLUGINMODULE))
     return l
 
 def getConverter(converterName):
