@@ -6,7 +6,7 @@ from zope.interface import implements
 from twisted.plugin import IPlugin
 from twisted.python import usage
 
-from storm import locals as SL
+from rdflib import ConjunctiveGraph as Graph
 
 from playtools.interfaces import IConverter
 from playtools import sparqly
@@ -14,58 +14,17 @@ from playtools.common import monsterNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
 from playtools.plugins.util import srdBoolean, initDatabase, cleanSrdXml
 
-from twisted.python.util import sibpath
 
+def statblockSource():
+    # fact loads plugins. we can't do that in this, a plugin, so this import
+    # is hidden.
+    from playtools import fact
 
-class Monster(object):
-    __storm_table__ = 'monster'
-    id = SL.Int(primary=True)                #
-    name = SL.Unicode()                      #
-    family = SL.Unicode()
-    altname = SL.Unicode()                   #
-    size = SL.Unicode()                      #
-    type = SL.Unicode()
-    descriptor = SL.Unicode()
-    hit_dice = SL.Unicode()
-    initiative = SL.Unicode()                #
-    speed = SL.Unicode()                     #
-    armor_class = SL.Unicode()
-    base_attack = SL.Unicode()
-    grapple = SL.Unicode()
-    attack = SL.Unicode()
-    full_attack = SL.Unicode()
-    space = SL.Unicode()
-    reach = SL.Unicode()
-    special_attacks = SL.Unicode()
-    special_qualities = SL.Unicode()
-    saves = SL.Unicode()
-    abilities = SL.Unicode()
-    skills = SL.Unicode()
-    bonus_feats = SL.Unicode()
-    feats = SL.Unicode()
-    epic_feats = SL.Unicode()
-    environment = SL.Unicode()
-    organization = SL.Unicode()
-    challenge_rating = SL.Unicode()          #
-    treasure = SL.Unicode()                  #
-    alignment = SL.Unicode()                 #
-    advancement = SL.Unicode()
-    level_adjustment = SL.Unicode()
-    special_abilities = SL.Unicode()
-    stat_block = SL.Unicode()
-    full_text = SL.Unicode()
-    reference = SL.Unicode()
-
-
-def monsterSource(store):
-    for p in store.find(Monster).order_by(Monster.name):
-        yield p
-
-def statblockSource(store):
     # blah, cross-dependencies :(
-    from goonmill.history import Statblock
+    from goonmill.statblock import Statblock
 
-    for m in monsterSource(store):
+    SRD = fact.systems['D20 SRD']
+    for m in SRD.facts['monster'].dump():
         yield Statblock.fromMonster(m)
 
 
@@ -222,12 +181,12 @@ class MonsterConverter(object):
         return u"monsters"
 
     def preamble(self):
-        self.db.extendGraph(RESOURCE('plugins/monsters_preamble.n3'))
+        openFile = open(RESOURCE('plugins/monsters_preamble.n3'))
+        self.db.extendGraphFromFile(openFile)
 
     def writeAll(self, playtoolsIO):
         playtoolsIO.write(self.db.dump())
 
 
-store = initDatabase(sibpath(__file__, 'srd35.db'))
-ss = statblockSource(store)
+ss = statblockSource()
 monsterConverter = MonsterConverter(ss)

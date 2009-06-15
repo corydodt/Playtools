@@ -1,9 +1,8 @@
-## @prefix : <http://thesoftworld.com/2007/monster.n3#> .
+@prefix : <http://goonmill.org/2009/monster.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-## @prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
-## @prefix p: <http://thesoftworld.com/2007/property.n3#> .
+@prefix c: <http://goonmill.org/2007/characteristic.n3#> .
+@prefix p: <http://goonmill.org/2007/property.n3#> .
 ## @prefix owl: <http://www.w3.org/2002/07/owl#> .
 ## 
-## <> rdfs:title "All d20 SRD Feats" .
-## <> rdfs:comment "" .
-## 
+<> rdfs:title "All d20 SRD Monsters" .
+<> rdfs:comment "" .
