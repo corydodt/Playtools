@@ -450,6 +450,17 @@
     rdfs:subClassOf :Characteristic;
     rdfs:comment "When this feat is taken more than once, its effects stack";
 .
+:ArmorClassFeat a rdfs:Class;
+    rdfs:comment "Should appear in statblocks near the armor class stat" .
+:SpecialActionFeat a rdfs:Class;
+    rdfs:comment "Should appear in statblocks near the special actions" .
+:SpeedFeat a rdfs:Class;
+    rdfs:comment "Should appear in statblocks near the speed stat" .
+:AttackOptionFeat a rdfs:Class;
+    rdfs:comment "Should appear in statblocks near the attacks" .
+:RangedAttackFeat a rdfs:Class;
+    rdfs:comment "Should appear in statblocks near the ranged attacks" .
+
 
 :Armor
     rdfs:subClassOf :Characteristic;
@@ -569,3 +580,5 @@
 :doubleStandardTreasure a :TreasureType .
 :tripleStandardTreasure a :TreasureType .
 :noTreasure a :TreasureType .
+
+
