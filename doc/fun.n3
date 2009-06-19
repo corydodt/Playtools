@@ -1,0 +1,28 @@
+@prefix rdfs: <http://fake.org/rdfs#> .
+@prefix rdf: <http://fake.org/rdf#> .
+@prefix : <file:///home/cdodt/wc/Playtools/doc/fun.n3#> .
+
+<> rdfs:label "testing monster multi" .
+
+:Attack a rdfs:Class.
+
+:alice a :Monster;
+    :name "alice";
+    :attack ( [ a :Attack; rdf:value ("hax" 10) ] );
+.
+
+:bob a :Monster;
+    :name "bob";
+    :attack ( [ a :Attack; rdf:value ("bite" 20) ] 
+              [ a :Attack; rdf:value ("claw" 21) ]
+              [ a :Attack; rdf:value ("wang" 22) ]);
+.
+
+## this version works ok for rdfMultiple(..range_type=FUN.Attack)
+## :bob a :Monster;
+##     :name "bob";
+##     :attack [ a :Attack; rdf:value ("bite" 20) ],
+##             [ a :Attack; rdf:value ("claw" 21) ],
+##             [ a :Attack; rdf:value ("wang" 22) ];
+## .
+## 
