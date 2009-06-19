@@ -11,7 +11,7 @@ from twisted.python.util import sibpath
 from rdflib.Namespace import Namespace
 from rdflib import Literal, URIRef, BNode
 
-from rdfalchemy import rdfSingle, rdfMultiple
+from rdfalchemy import rdfSingle, rdfList 
 from rdfalchemy.orm import mapper
 
 from playtools import sparqly
@@ -37,7 +37,7 @@ class Employee(sparqly.rdfsPTClass):
     straightShooter = sparqly.rdfIsInstance(
             STAFF.StraightShooterWithUpperManagementWrittenAllOverHim)
     peoplePerson = sparqly.rdfIsInstance( STAFF.PeoplePerson)
-    supervisor = rdfMultiple(STAFF.supervisor, range_type=STAFF.Employee)
+    supervisor = rdfList(STAFF.supervisor, range_type=STAFF.Employee)
 
 mapper()
 
@@ -122,6 +122,7 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
 
         bill = peter.supervisor[0]
         self.assertEqual(bill.lastname, 'Lumbergh')
+        self.assertEqual(peter.supervisor[1].lastname, 'Slydell')
 
     def test_readUpdateDescriptor(self):
         """

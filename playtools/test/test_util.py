@@ -29,16 +29,23 @@ class UtilTestCase(unittest.TestCase):
         self.assertEqual(util.filenameAsUri('/x/y/z'), 'file:///x/y/z')
 
     def test_prefixen(self):
+        """
+        Prefixes determined for items are stable
+        """
         from rdflib.Graph import Graph
         g = Graph()
         corp = sibpath(__file__, 'corp.n3')
         g.load(corp, format='n3')
         prefixes = dict(g.namespaces())
-        res = g.query("BASE <http://corp.com/staff#> SELECT ?x ?y ?z { ?x ?y ?z } ORDER BY ?x ?y")
+        res = g.query("BASE <http://corp.com/staff#> SELECT ?x ?y ?z { ?x a <http://www.w3.org/2000/01/rdf-schema#Class> } ORDER BY ?x ?y")
+
         l = list(res)
         rx1 = r':Employee'
-        rx2 = r'{_:[a-zA-Z0-9]+}'
-        x1 = util.prefixen(prefixes, l[2][0], )
-        x2 = util.prefixen(prefixes, l[-1][0], )
+        x1 = util.prefixen(prefixes, l[0][0], )
         self.assertTrue(re.match(rx1, x1) is not None, '%s != %s' % (rx1, x1))
+
+        res = g.query("BASE <http://corp.com/staff#> SELECT ?x ?y ?z { ?x ?y ?z } ORDER BY ?x ?y")
+        l = list(res)
+        rx2 = r'{_:[a-zA-Z0-9]+}'
+        x2 = util.prefixen(prefixes, l[-1][0], )
         self.assertTrue(re.match(rx2, x2) is not None, '%s != %s' % (rx2, x2))

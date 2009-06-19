@@ -30,11 +30,11 @@ setup(name='Playtools',
           'twisted>=2.5.0',
           'hypy',
           'fudge',
-          'rdfalchemy==0.2b2.svn1',
+          'rdfalchemy==0.2b2.svn2',
           ],
 
       dependency_links=[
-          'http://goonmill.org/static/RDFAlchemy-0.2b2.svn1.tar.gz',  # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'http://goonmill.org/static/RDFAlchemy-0.2b2.svn2.tar.gz',  # FIXME - svn post 0.2b2 added rdfsSubject which is needed
           'http://softlayer.dl.sourceforge.net/sourceforge/simpleparse/SimpleParse-2.1.0a1.tar.gz', # simpleparse easy_install stopped working, dunno why
           ],
 

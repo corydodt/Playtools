@@ -12,7 +12,7 @@
     rdfs:label "Protagonist of Office Space, Peter Gibbons";
     rdfs:comment "I stole something else.";
     :lastname "Gibbons";
-    :supervisor :e1001;
+    :supervisor (:e1001 :c1013);
     a :Employee;
     a :StraightShooterWithUpperManagementWrittenAllOverHim ;
     :nickname "\"The Gib\"";
@@ -23,6 +23,12 @@
     :lastname "Lumbergh";
     :supervisor :e900;
     a :PeoplePerson;
+    a :Employee;
+.
+
+:c1013 :firstname "Bob";
+    :lastname "Slydell";
+    :supervisor :e900;
     a :Employee;
 .
 
