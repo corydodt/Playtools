@@ -18,11 +18,3 @@
               [ a :Attack; rdf:value ("wang" 22) ]);
 .
 
-## this version works ok for rdfMultiple(..range_type=FUN.Attack)
-## :bob a :Monster;
-##     :name "bob";
-##     :attack [ a :Attack; rdf:value ("bite" 20) ],
-##             [ a :Attack; rdf:value ("claw" 21) ],
-##             [ a :Attack; rdf:value ("wang" 22) ];
-## .
-## 
