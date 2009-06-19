@@ -1,26 +1,24 @@
-# from playtools.test.test_sparqly import TestableDatabase
-# from playtools import sparqly as S
+from playtools import sparqly as S
 from rdflib.Namespace import Namespace
-from rdfalchemy import rdfSingle, rdfMultiple, rdfList, rdfSubject
+from rdfalchemy import rdfSingle, rdfMultiple, rdfList, rdfsSubject
 from rdfalchemy.orm import mapper
 
 FUN = Namespace('file:///home/cdodt/wc/Playtools/doc/fun.n3#')
 RDF = Namespace('http://fake.org/rdf#')
 
-class Attack(rdfSubject):
+class Attack(rdfsSubject):
     rdf_type = FUN.Attack
     value = rdfList(RDF.value)
     def __str__(self):
         "ATTACK for %s" % (self.value,)
 
-class Monster(rdfSubject):
+class Monster(rdfsSubject):
     name = rdfSingle(FUN.name)
-    # attack = rdfMultiple(FUN.attack, range_type=FUN.Attack)
     attack = rdfList(FUN.attack, range_type=FUN.Attack)
 
 mapper()
 
-rdfSubject.db.load('fun.n3', format='n3')
+rdfsSubject.db.load('fun.n3', format='n3')
 
 
 for m in Monster.ClassInstances():
