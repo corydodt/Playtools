@@ -13,6 +13,9 @@ from playtools import sparqly
 from playtools.common import monsterNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
 from playtools.plugins.util import srdBoolean, initDatabase, cleanSrdXml
+from playtools.parser import abilityparser, saveparser
+
+from playtools.plugins import d20srd35
 
 
 def statblockSource():
@@ -35,50 +38,51 @@ badTreasures = 0
 badCr = 0
 badAlignment = 0
 
+# TODO - unit tests for these little parsers
 def parseTreasure(s):
     if s is None:
-        return (P.treasure, C.standardTreasure)
+        return C.standardTreasure
 
     s = s.lower()
     if s == 'standard':
-        return (P.treasure, C.standardTreasure)
+        return C.standardTreasure
     if s == 'double standard':
-        return (P.treasure, C.doubleStandardTreasure)
+        return C.doubleStandardTreasure
     if s == 'triple standard':
-        return (P.treasure, C.tripleStandardTreasure)
+        return C.tripleStandardTreasure
     if s == 'none':
-        return (P.treasure, C.noTreasure)
+        return C.noTreasure
 
     global badTreasures
     badTreasures = badTreasures + 1
     print 'bad treasure', s, badTreasures
-    return (P.treasureText, s)
+    return s
 
 
 def parseInitiative(s):
     """
-    Some initiatives include explanations (show the math).  We consider these 
+    Some initiatives include explanations (show the math).  We consider these
     excess verbiage, and drop them.
     """
     splits = s.split(None, 1)
     if len(splits) == 1:
-        return (P.initiative, int(s))
-    return (P.initiative, int(splits[0]))
+        return int(s)
+    return int(splits[0])
 
 
 def parseChallengeRating(s):
     if s.startswith('1/'):
-        return (P.cr, 1./int(s[2:]))
+        return 1./int(s[2:])
     else:
         try:
-            return (P.cr, int(s))
+            return int(s)
         except ValueError:
             pass
 
     global badCr
     badCr = badCr + 1
     print 'bad cr', s, badCr
-    return (P.crText, s)
+    return s
 
 
 def parseAlignment(s):
@@ -105,10 +109,10 @@ def parseAlignment(s):
         global badAlignment
         badAlignment = badAlignment + 1
         print 'bad alignment', s, badAlignment
-        return (P.alignmentText, s)
+        return s
     if l:
-        return [P.alignment] + l             
-    return (P.alignment, C.noAlignment)
+        return l
+    return C.noAlignment
 
 
 class MonsterConverter(object):
@@ -123,8 +127,7 @@ class MonsterConverter(object):
         self.statblockSource = statblockSource
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': monsterNs }
-        self.db = sparqly.TriplesDatabase()
-        self.db.open(None)
+        self.graph = Graph()
 
     def __iter__(self):
         return self
@@ -132,60 +135,104 @@ class MonsterConverter(object):
     def next(self):
         return self.statblockSource.next()
 
-    def addTriple(self, s, v, *o):
-        if s == None or v == None or None in o:
-            return
-        self.db.addTriple(monsterNs[s], v, *o)
+    def makePlaytoolsItem(self, sb):
+        sparqly.rdfsPTClass.db = self.graph
+        m = d20srd35.Monster2()
 
-    def makePlaytoolsItem(self, item):
-        r = rdfName(item.get('name'))
-        origR = r
+        def set(what, toWhat):
+            """
+            Set the new monster's what only if toWhat is a real thing
+            """
+            if toWhat:
+                setattr(m, what, toWhat)
 
-        ## # for monsters with same name, increment a counter on the rdfName
-        ## assert r not in self._seenNames
-        ## if r in self._seenNames:
-        ##     self._seenNames[r] = self._seenNames[r] + 1
-        ##     r = "%s%s" % (r, self._seenNames[r])
-        ## else:
-        ##     self._seenNames[r] = 1
+        # all of these are direct from the sql
+        orig = sb.monster
 
-        def add(v, *o):
-            self.addTriple(r, v, *o)
+        set('label',             orig.name)
+        set('altname',           orig.altname)
 
-        add(RDFSNS.label, item.get('name'))
-        add(a, C.Monster)
-        add(*parseAlignment(item.get('alignment')))
-        add(*parseTreasure(item.get('treasure')))
-        add(*parseChallengeRating(item.get('challenge_rating')))
-        add(P.size, rdfName(item.get('size')))
-        add(*parseInitiative(item.get('initiative')))
-        add(P.speedText, item.get('speed'))
-        add(P.altName, item.get('altname'))
+        # TODO - use nodes for family/type/descriptor when known, otherwise
+        # fallback to string - use statblock.Statblock.determineFamilies()
+        set('family',            orig.family)
+        set('type',              orig.type)
+        set('descriptor',        orig.descriptor)
 
-        print 'base_attack', item.get('base_attack')
-        if item.get('base_attack') is None:
-            import pdb; pdb.set_trace()
+        # TODO - parser for size
+        set('size',              orig.size)
+        set('initiative',        parseInitiative(orig.initiative))
+        set('speed',             orig.speed)
+        # TODO - parse bab
+        set('bab',               orig.base_attack)
+        # TODO - I would like a grapple parser
+        set('grapple',           orig.grapple)
+        # TODO - space and reach are of type ^^distance
+        set('space',             orig.space)
+        set('reach',             orig.reach)
+        set('environment',       orig.environment)
+        # TODO - ideally i should have a parser written for organization
+        set('organization',      orig.organization)
+        set('cr',                parseChallengeRating(orig.challenge_rating))
+        set('treasure',          parseTreasure(orig.treasure))
+        set('advancement',       orig.advancement)
+        set('levelAdjustment',   orig.level_adjustment)
+        set('alignment',         parseAlignment(sb.get('alignment')))
 
-        ## if srdBoolean(item.stack):
-        ##     add(a, C.StackableFeat)
-        ## if item.normal:
-        ##     add(P.noFeatComment, item.normal)
-        ## if item.is_ranged_attack_feat:
-        ##     add(a, C.RangedAttackFeat)
+        # TODO - create an image resource
+        set('image',             orig.image)
 
-        ## - do we really care about fullText?
-        ## if item.full_text:
-        ##    add(P.fullText, cleanSrdXml(item.get("full_text")))
+        # TODO - the problem with sb.get is that it always returns a string.
+        # we don't even want to set properties unless there is some data
+        # there.  Check for strings like "None" or "False" returned
+
+        # TODO - hitdice is of type parseable dice expression
+        set('hitDice',            sb.get('hitDice'))
+
+        saves = saveparser.parseSaves(orig.saves)[0]
+
+        FIXME("""construct a Save class in d20srd35 based on rdfsPTClass and
+        give it a bonus, qualifier and splat attribute.  construct three of
+        those things here, instancing c:Fort, c:Ref and c:Will.""")
+        fort, ref, will = zip(*sorted(saves.items()))[1]
+        set('saveFort',           fort.bonus)
+        set('saveFortNote',       fort.qualifier or fort.splat)
+        set('saveRef',            ref.bonus)
+        set('saveRefNote',        ref.qualifier or ref.splat)
+        set('saveWill',           will.bonus)
+        set('saveWillNote',       will.qualifier or will.splat)
+
+        FIXME("""construct an AbilityScore class in d20srd35 based on
+        rdfsPTClass and give it a bonus, qualifier and splat attribute.
+        construct six of those things here, instancing c:Str, c:Dex and
+        so on.""")
+        abilities = abilityparser.parseAbilities(orig.abilities)[0]
+        cha, con, dex, int, str, wis = zip(*sorted(abilities.items()))[1]
+        set('abilityStr',         str.bonus)
+        set('abilityStrNote',     str.qualifier or str.splat)
+        set('abilityDex',         dex.bonus)
+        set('abilityDexNote',     dex.qualifier or dex.splat)
+        set('abilityCon',         con.bonus)
+        set('abilityConNote',     con.qualifier or con.splat)
+        set('abilityInt',         int.bonus)
+        set('abilityIntNote',     int.qualifier or int.splat)
+        set('abilityWis',         wis.bonus)
+        set('abilityWisNote',     wis.qualifier or wis.splat)
+        set('abilityCha',         cha.bonus)
+        set('abilityChaNote',     cha.qualifier or cha.splat)
+
+        # TODO - boolean flags (for example type membership: ":foo a c:Monster")
+        # require us to step out of sqlalchemy
+
 
     def label(self):
         return u"monsters"
 
     def preamble(self):
         openFile = open(RESOURCE('plugins/monsters_preamble.n3'))
-        self.db.extendGraphFromFile(openFile)
+        sparqly.extendGraphFromFile(self.graph, openFile)
 
     def writeAll(self, playtoolsIO):
-        playtoolsIO.write(self.db.dump())
+        self.graph.serialize(destination=playtoolsIO, format='n3')
 
 
 ss = statblockSource()

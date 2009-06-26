@@ -166,21 +166,7 @@ class TriplesDatabase(object):
         modified to mean <> in the new context
         """
         assert self._open
-        g2 = Graph()
-
-        # Generate a random publicID, then later throw it away, by
-        # replacing references to it with URIRef('').  extendGraphFromFile thus
-        # treats the inserted file as if it were part of the original file
-        publicID = randomPublicID()
-        g2.load(graphFile, format='n3', publicID=publicID)
-
-        # add each triple
-        # FIXME - this should use addN
-        for s,v,o in g2:
-            if s == URIRef(publicID):
-                self.graph.add((URIRef(''), v, o))
-            else:
-                self.graph.add((s,v,o))
+        extendGraphFromFile(graphFile)
 
     def extendGraph(self, graph):
         """
@@ -297,3 +283,27 @@ class rdfsPTClass(rdfsClass):
     """
     label = rdfSingleDefault(RDFSNS.label, lambda o: iriToTitle(o.resUri))
 
+
+def extendGraphFromFile(inGraph, graphFile):
+    """
+    Add all the triples in graphFile to inGraph
+
+    This is done as if the loaded graph is the same context as this
+    database's graph, which means <> from the loaded graph will be
+    modified to mean <> in the new context
+    """
+    g2 = Graph()
+
+    # Generate a random publicID, then later throw it away, by
+    # replacing references to it with URIRef('').  extendGraphFromFile thus
+    # treats the inserted file as if it were part of the original file
+    publicID = randomPublicID()
+    g2.load(graphFile, format='n3', publicID=publicID)
+
+    # add each triple
+    # FIXME - this should use addN
+    for s,v,o in g2:
+        if s == URIRef(publicID):
+            inGraph.add((URIRef(''), v, o))
+        else:
+            inGraph.add((s,v,o))

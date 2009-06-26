@@ -114,7 +114,7 @@ class StormFactCollection(object):
     system = D20SRD35System
     def __init__(self, factClass, factName):
         factClass.collection = self
-        self.klass = factClass 
+        self.klass = factClass
         self.factName = factName
 
     def __getitem__(self, key):
@@ -134,7 +134,7 @@ class StormFactCollection(object):
         Implement the dual-interpretation logic for "idOrName" to look
         up an object from the database by id or by name.  Naturally
         this requires the table have a 'name' column.
-        
+
         @return an instance of the table-mapped class, e.g. Monster, Spell,
         Feat or Skill
         """
@@ -157,7 +157,7 @@ class Monster(object):
     collection = None
 
     id = SL.Int(primary=True)                #
-    name = SL.Unicode()                      
+    name = SL.Unicode()
     family = SL.Unicode()
     altname = SL.Unicode()
     size = SL.Unicode()
@@ -321,7 +321,7 @@ class RDFFactCollection(object):
     system = D20SRD35System
     def __init__(self, factClass, factName):
         factClass.collection = self
-        self.klass = factClass 
+        self.klass = factClass
         self.factName = factName
 
     def __getitem__(self, key):
@@ -577,98 +577,106 @@ class Feat(S.rdfsPTClass):
 feat = RDFFactCollection(Feat, 'feat')
 
 
-class Monster(S.rdfsPTClass):
+class Monster2(S.rdfsPTClass):
     """
     A creature statted from the SRD monster list
-    """
-    the problem with sb.get is that it always returns a string.  however the
-    convention seems to be to return "" or some False value when there is nothing to show.  the
-    converter should handle that.  see resource.
 
-    # label                = rdfSingle(...)  # name, from sql
-    family                 = rdfSingle(...)  # direct from sql
-    altname                = rdfSingle(...)  # direct from sql
-    size                   = rdfSingle(...)  # direct from sql
-    type                   = rdfSingle(...)  # direct from sql
-    descriptor             = rdfSingle(...)  # direct from sql
-    # hit_dice             = rdfSingle(...)
-    hitDice                = rdfSingle(...)  # from sb.get
+    Explicitly excluded: armor_class (is armorClass), full_attack (is
+    attackGroups list), special_qualities (is fullAbilities or something else
+    if we rename that), special_abilities (is multiple of specialAbility),
+    stat_block (dropped, redundant), full_text (is fullText)
+    """
+    family                 = rdfSingle(PROP.family)           # DONE!
+    altname                = rdfSingle(PROP.altname)          # DONE!
+    size                   = rdfSingle(PROP.size)             # DONE!
+    type                   = rdfSingle(PROP.type)             # DONE!
+    descriptor             = rdfSingle(PROP.descriptor)       # DONE!
+    hitDice                = rdfSingle(PROP.hitDice)          # DONE!
     # hitPoints will always be computed by outside app.
     # count will always be outside app
     # label will always be outside app
-    specialAC              = rdfSingle(...)  # from sb.get
-    acFeats                = rdfSingle(...)  # from sb.get????
-    speedFeats             = rdfSingle(...)  # from sb.get????
-    attackOptionFeats      = rdfSingle(...)  # from sb.get????
-    rangedAttackFeats      = rdfSingle(...)  # from sb.get????
-    listen                 = rdfSingle(...)  # from sb.get????
-    spot                   = rdfSingle(...)  # from sb.get????
-    
-    initiative             = rdfSingle(...)  # direct from sql
-    speed                  = rdfSingle(...)  # direct from sql
-    # armor_class          = rdfSingle(...)
-    armorClass             = rdfSingle(...)  # write a parser
-    # base_attack          = rdfSingle(...)
-    baseAttack             = rdfSingle(...)  # direct from sql
-    grapple                = rdfSingle(...)  # direct from sql
-    attack                 = rdfSingle(...)  # direct from sql
-    # full_attack          = rdfSingle(...)
-    attackGroups           = rdfSingle(...)  # from sb.get
-    space                  = rdfSingle(...)  # direct from sql
-    reach                  = rdfSingle(...)  # direct from sql
-    # special_attacks      = rdfSingle(...)  # from sb.get
-    specialAttacks         = rdfSingle(...)  # from sb.get (write a parser)
-    # special_qualities    = rdfSingle(...)
-    fullAbilities          = rdfSingle(...)  # from sb.get - maybe rename
-    casterLevel            = rdfSingle(...)  # from sb.get
-    spellLikeAbilities     = rdfSingle(...)  # from sb.get
-    spellResistance        = rdfSingle(...)  # from sb.get
-    languages              = rdfSingle(...)  # from sb.get
-    aura                   = rdfSingle(...)  # from sb.get
-    fastHealing            = rdfSingle(...)  # from sb.get  
-    regeneration           = rdfSingle(...)  # from sb.get
-    damageReduction        = rdfSingle(...)  # from sb.get
-    senses                 = rdfSingle(...)  # from sb.get
-    immunities             = rdfSingle(...)  # from sb.get
-    resistances            = rdfSingle(...)  # from sb.get
-    vulnerabilities        = rdfSingle(...)  # from sb.get
 
-    # saves                = rdfSingle(...)
-    fortSave               = rdfSingle(...)  # from sb.get
-    refSave                = rdfSingle(...)  # from sb.get
-    willSave               = rdfSingle(...)  # from sb.get
+    TODO("""acFeats, speedFeats, attackOptionFeats and rangedAttackFeats will be
+    property()'s of Monster2.  Their values will be computed, by examining
+    self.feats
+    """)
+#"     acFeats
+#"     speedFeats
+#"     attackOptionFeats
+#"     rangedAttackFeats
 
-    # abilities            = rdfSingle(...)
-    abilityStr             = rdfSingle(...)  # list from abilityparser.parseAbilities
-    abilityDex             = rdfSingle(...)  # list from abilityparser.parseAbilities
-    abilityCon             = rdfSingle(...)  # list from abilityparser.parseAbilities
-    abilityInt             = rdfSingle(...)  # list from abilityparser.parseAbilities
-    abilityWis             = rdfSingle(...)  # list from abilityparser.parseAbilities
-    abilityCha             = rdfSingle(...)  # list from abilityparser.parseAbilities
+    TODO("""listen and spot will be property()'s of Monster2.  Values will be
+    computed by examining self.skills
+    """)
+#"     listen
+#"     spot
 
-    # skills               = rdfSingle(...)
-    skills                 = rdfSingle(...)  # dict from sb.parseSkills  
+    initiative             = rdfSingle(PROP.initiative)       # DONE!
+    speed                  = rdfSingle(PROP.speed)            # DONE!
+#"     armorClass             = rdfSingle(...)  # write a parser
+    bab                    = rdfSingle(PROP.bab)                # DONE!
+    grapple                = rdfSingle(PROP.grapple)            # DONE!
 
-    bonus_feats            = rdfSingle(...)  # list from sb.parseFeats
-    feats                  = rdfSingle(...)  # list from sb.parseFeats
-    epic_feats             = rdfSingle(...)  # list from sb.parseFeats
-    environment            = rdfSingle(...)  # direct from sql
-    organization           = rdfSingle(...)  # direct from sql
-    challenge_rating       = rdfSingle(...)  # direct from sql
-    treasure               = rdfSingle(...)  # direct from sql
-    # alignment            = rdfSingle(...)
-    alignment              = rdfSingle(...)  # from sb.get
-    advancement            = rdfSingle(...)  # direct from sql
-    # level_adjustment     = rdfSingle(...)
-    levelAdjustment        = rdfSingle(...)  # direct from sql 
-    # special_abilities    = rdfSingle(...)
-    specialAbilities       = rdfSingle(...)  # direct from sql
-    # stat_block           = rdfSingle(...)
-    # full_text            = rdfSingle(...)
-    fullText               = rdfSingle(...)  # clean up from sql
-    reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
+#"     attackGroups           = rdfSingle(...)  # from sb.get - list
 
-    image                  = rdfSingle(...)  # direct from sql
+    TODO("""attack will be a property() of Monster2. value will be computed by
+    returning attackGroups[0]
+    """)
+#"     attack
+
+    space                  = rdfSingle(PROP.space)              # DONE!
+    reach                  = rdfSingle(PROP.reach)              # DONE!
+
+#"     languages              = rdfSingle(PROP.)                   # from sb.get? - list
+
+#"     specialAttacks         = rdfList(...)  # from sb.get
+#"     fullAbility            = rdfMulti(...)  # from sb.get - maybe rename
+#"     specialAbility         = rdfMulti(PROP.specialAbility)           # list parsed from sb.get
+
+    TODO("""specialAC, spellLikeAbilities, casterLevel, spellResistance, aura,
+    fastHealing, regeneration, damageReduction, immunities, senses,
+    resistances, vulnerabilities will be computed by looking at
+    self.fullAbilities and self.specialAttacks and self.specialAbility""")
+#"     specialAC
+#"     spellLikeAbilities
+#"     casterLevel
+#"     spellResistance
+#"     aura
+#"     fastHealing
+#"     regeneration
+
+    TODO("""damageReduction, senses, immunities, resistances and
+    vulnerabilities are dictionaries, though.""")
+#"     damageReduction
+#"     senses
+#"     immunities
+#"     resistances
+#"     vulnerabilities
+
+    save                   = rdfMultiple(PROP.save)
+
+    ability                = rdfMultiple(PROP.abilityScore)
+
+#"     skills                 = rdfSingle(...)  # dict from sb.parseSkills
+
+#"     feats                  = rdfSingle(...)  # list from sb.parseFeats
+    TODO("""epicFeats and bonusFeats are property()'s derived from
+    self.feats""")
+#"     bonusFeats
+#"     epicFeats
+
+    environment            = rdfSingle(PROP.environment)        # DONE!
+    organization           = rdfSingle(PROP.organization)       # DONE!
+    cr                     = rdfSingle(PROP.cr)                 # DONE!
+    treasure               = rdfSingle(PROP.treasure)           # DONE!
+    alignment              = rdfSingle(PROP.alignment)          # DONE!
+    advancement            = rdfSingle(PROP.advancement)        # DONE!
+    levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
+
+#"    fullText               = rdfSingle(...)  # clean up from sql
+#"    reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
+
+    image                  = rdfSingle(PROP.image)              # DONE!
 
 
 mapper()

@@ -65,6 +65,15 @@ class TestableDatabase(sparqly.TriplesDatabase):
 
 
 class SparqlyTestCase(unittest.TestCase):
+    """
+    Test top-level functions
+    """
+    def test_extendGraphFromFile(self):
+        """
+        Can build graphs by loading other graphs from a disk file
+        """
+        TODO
+
     def test_select(self):
         """
         Select generates select strings and not something else, such as

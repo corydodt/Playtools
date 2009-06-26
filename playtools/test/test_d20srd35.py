@@ -203,3 +203,11 @@ class SRD35TestCase(unittest.TestCase):
             self.assertTrue(IIndexable(item), "Collection %s (%s)"
                     % (coll, coll.factName))
 
+
+    def test_monster(slef):
+        """
+        Verify that attributes of the monster triples are accessible
+        (Monster2)
+        """
+        TODO("""Check e.g. force dragon's force AC is in monster.fullAbilities
+        and then check that it's in monster.specialAC""")
