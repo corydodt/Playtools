@@ -17,9 +17,9 @@
 
 :Save rdfs:subClassOf :Characteristic .
 
-:fort a :Save; rdfs:label "Fortitude" .
-:ref a :Save; rdfs:label "Reflex" .
-:will a :Save; rdfs:label "Will" .
+:Fort rdfs:subClassOf :Save; rdfs:label "Fortitude" .
+:Ref rdfs:subClassOf :Save; rdfs:label "Reflex" .
+:Will rdfs:subClassOf :Save; rdfs:label "Will" .
 
 
 :Family rdfs:subClassOf :Characteristic .
@@ -306,29 +306,23 @@
 .
 
 :AbilityScore rdfs:subClassOf :Characteristic .
-:str 
-    a :AbilityScore ;
-    rdfs:label "Str"
+:Str 
+    rdfs:subClassOf :AbilityScore ;
 .
-:dex 
-    a :AbilityScore ;
-    rdfs:label "Dex"
+:Dex 
+    rdfs:subClassOf :AbilityScore ;
 .
-:con 
-    a :AbilityScore ;
-    rdfs:label "Con"
+:Con 
+    rdfs:subClassOf :AbilityScore ;
 .
-:int 
-    a :AbilityScore ;
-    rdfs:label "Int"
+:Int 
+    rdfs:subClassOf :AbilityScore ;
 .
-:wis 
-    a :AbilityScore ;
-    rdfs:label "Wis"
+:Wis 
+    rdfs:subClassOf :AbilityScore ;
 .
-:cha 
-    a :AbilityScore ;
-    rdfs:label "Cha"
+:Cha 
+    rdfs:subClassOf :AbilityScore ;
 .
 
 

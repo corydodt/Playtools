@@ -1,6 +1,7 @@
 @prefix : <http://goonmill.org/2007/property.n3#>.
 @prefix c: <http://goonmill.org/2007/characteristic.n3#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 <> rdfs:title "Properties of Characters" .
@@ -27,6 +28,10 @@
 .
 # objects of this class are Features
 
+:hitDice a rdfs:Property;
+    rdfs:comment "The hit dice expression for a particular monster";
+.
+
 
 :miscTrait a rdfs:Property;
     rdfs:comment "Possesses a generic special ability, quality or other attribute possessed by the creature arising from its families.";
@@ -37,6 +42,8 @@
     rdfs:comment "Something the creature can do on its turn other than cast, attack, or invoke a spell-like ability.";
     owl:allValuesFrom c:SpecialAction;
 .
+
+:spellLikeAbility a rdfs:Property .
 
 :sense a rdfs:Property;
     rdfs:comment "A sense possessed by the creature.";
@@ -83,6 +90,14 @@
     owl:allValuesFrom c:Family;
 .
 
+:type a rdfs:Property;
+    owl:allValuesFrom c:Family;
+.
+
+:descriptor a rdfs:Property;
+    owl:allValuesFrom c:Family;
+.
+
 :alignmentEffect a rdfs:Property;
     rdfs:comment "For some given alignment aspect (example: evil, lawful), any effect that depends on alignment affects a creature with this subtype as if the creature has that alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the aligned quality overcomes damage reduction as if its natural weapons and any weapons it wields were aligned to that alignment.";
     owl:allValuesFrom c:Alignment;
@@ -100,12 +115,15 @@
 :shapeChangeStatus a rdfs:Property;
     rdfs:comment "For a creature able to shape change, the shape it has currently assumed.";
 .
+
 :range a rdfs:Property;
+    rdfs:comment "FIXME - what does this apply to?";
 .
+
 :abilityScore a rdfs:Property;
     rdfs:label "Ability Score";
     rdfs:comment "Used to specify one of the 6 ability scores as a predicate.";
-    owl:allValuesFrom c:AbilityScore;
+    owl:range c:AbilityScore;
 .
 :maximum a rdfs:Property;
     rdfs:comment "Numeric Constraint: May be no more than";
@@ -133,6 +151,12 @@
 :spellResistance a rdfs:Property;
     rdfs:label "Spell Resistance";
 .
+:regeneration a rdfs:Property;
+    rdfs:label "Regeneration";
+.  
+:fastHealing a rdfs:Property;
+    rdfs:label "Fast Healing";
+.  
 :speed a rdfs:Property;
 .
 :damageReduction a rdfs:Property;
@@ -174,5 +198,22 @@
 
 :combatMechanic a rdfs:Property ;
     rdfs:comment "A rule that affects attack and defense of this creature in combat";
+.
+
+:environment a rdfs:Property ;
+    rdfs:comment "The physical environs where this creature tends to live";
+.
+
+:organization a rdfs:Property ;
+    rdfs:comment "The typical organization of this monster into groups";
+.
+
+:environment a rdfs:Property ;
+    rdfs:comment "The physical environs where this creature tends to live";
+.
+
+:image a rdfs:Property;
+    rdfs:comment "An image";
+    owl:allValuesFrom dctype:Image;
 .
 
