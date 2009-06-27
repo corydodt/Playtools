@@ -209,5 +209,5 @@ class SRD35TestCase(unittest.TestCase):
         Verify that attributes of the monster triples are accessible
         (Monster2)
         """
-        TODO("""Check e.g. force dragon's force AC is in monster.fullAbilities
-        and then check that it's in monster.specialAC""")
+    test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
+        and then check that it's in monster.specialAC"""

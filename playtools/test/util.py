@@ -159,3 +159,29 @@ def pluck(items, *attrs):
         return these
     else:
         return pluck(these, *rest)
+
+
+_signals = {}
+
+def signal(which):
+    def fn(s):
+        """
+        Spew a message to stderr to remind me to fix something
+        """
+        global _signals
+        import traceback
+        stack = traceback.extract_stack()
+        f,l,fn = stack[-2][:3]
+        if (f,l,fn) in _signals:
+            return
+
+        import sys, textwrap
+        lines = [("%s: "%(which,)) + x for x in textwrap.wrap(s, 72)]
+        print >>sys.stderr, '\n'.join(lines)
+        print >>sys.stderr, '^^^^^ %s:%s:%s()' % (f,l,fn)
+        _signals[(f,l,fn)] = s
+    return fn
+
+FIXME = signal('FIXME')
+XXX = signal('XXX')
+TODO = signal('TODO')

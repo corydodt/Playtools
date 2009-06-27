@@ -72,7 +72,7 @@ class SparqlyTestCase(unittest.TestCase):
         """
         Can build graphs by loading other graphs from a disk file
         """
-        TODO
+    test_extendGraphFromFile.todo = "call this function"
 
     def test_select(self):
         """
