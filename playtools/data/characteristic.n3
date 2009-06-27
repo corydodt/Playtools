@@ -351,6 +351,7 @@
 :huge a :Size .
 :gargantuan a :Size .
 :colossal a :Size .
+:colossalPlus a :Size .
 
 
 :SpecialAction rdfs:subClassOf :Characteristic .
