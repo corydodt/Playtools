@@ -11,7 +11,7 @@ from playtools.interfaces import ICharSheetSection
 
 rdfs = NS('http://www.w3.org/2000/01/rdf-schema#')
 rdf = NS("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
-charsheet = NS('http://thesoftworld.com/2007/charsheet.n3#')
+charsheet = NS('http://goonmill.org/2007/charsheet.n3#')
 
 def getCharSheetSections():
     import playtools.plugins

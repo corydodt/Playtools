@@ -6,6 +6,7 @@
 @prefix c:     <http://goonmill.org/2007/characteristic.n3#> .
 @prefix p:     <http://goonmill.org/2007/property.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 <> rdfs:label "Monsters" .
 <> rdfs:comment "All monster stats" .
@@ -37,7 +38,9 @@
     p:immunity c:fire, c:paralysis, c:sleep;
     p:spellResistance 21;
     p:vulnerability c:cold;
-    p:save [ c:fort +17 ], [ c:ref +12 ], [ c:will +16 ];
+    p:save [ a c:Fort; rdf:value +17 ], 
+            [ a c:Ref; rdf:value +12 ], 
+            [ a c:Will; rdf:value +16 ];
 
     p:speed [ c:ground "60 ft." ], 
         [ c:flight "200 ft. (poor)" ],
@@ -55,12 +58,12 @@
         c:wing (+28  "1d8+5");
         c:tail (+28  "2d6+15");
     ];
-    p:abilityScore [ c:str 31 ],
-        [ c:dex 10 ],
-        [ c:con 21 ],
-        [ c:int 18 ],
-        [ c:wis 19 ],
-        [ c:cha 18 ]
+    p:abilityScore [ a c:Str; rdf:value 31 ],
+        [ a c:Dex; rdf:value 10 ],
+        [ a c:Con; rdf:value 21 ],
+        [ a c:Int; rdf:value 18 ],
+        [ a c:Wis; rdf:value 19 ],
+        [ a c:Cha; rdf:value 18 ]
     ;
     p:combatGear ...; # TODO
     p:spellBook ...; # TODO

@@ -1,12 +1,12 @@
 
-@prefix p: <http://thesoftworld.com/2007/property.n3#> .
-@prefix player: <http://thesoftworld.com/2007/player.n3#> .
-@prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
-@prefix character: <http://thesoftworld.com/2007/character.n3#> .
-@prefix s: <http://thesoftworld.com/2007/skill.n3#> .
-@prefix weapon: <http://thesoftworld.com/2007/weapon.n3#> .
-@prefix a: <http://thesoftworld.com/2007/armor.n3#> .
-@prefix charsheet: <http://thesoftworld.com/2007/charsheet.n3#> .
+@prefix p: <http://goonmill.org/2007/property.n3#> .
+@prefix player: <http://goonmill.org/2007/player.n3#> .
+@prefix c: <http://goonmill.org/2007/characteristic.n3#> .
+@prefix character: <http://goonmill.org/2007/character.n3#> .
+@prefix s: <http://goonmill.org/2007/skill.n3#> .
+@prefix weapon: <http://goonmill.org/2007/weapon.n3#> .
+@prefix a: <http://goonmill.org/2007/armor.n3#> .
+@prefix charsheet: <http://goonmill.org/2007/charsheet.n3#> .
 @prefix : <http://trinket.thorne.id.au/2007/lynwood.n3#> .
 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

@@ -8,15 +8,15 @@ from rdflib.sparql.bison import Parse
 
 rdfs = NS('http://www.w3.org/2000/01/rdf-schema#')
 rdf = NS("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
-fam = NS('http://thesoftworld.com/2007/family.n3#')
-char = NS('http://thesoftworld.com/2007/characteristic.n3#')
-dice = NS('http://thesoftworld.com/2007/dice.n3#')
-pcclass = NS('http://thesoftworld.com/2007/pcclass.n3#')
-prop = NS('http://thesoftworld.com/2007/property.n3#')
-player = NS('http://thesoftworld.com/2007/player.n3#')
-character_ns = NS('http://thesoftworld.com/2007/character.n3#')
-weapon = NS('http://thesoftworld.com/2007/weapon.n3#')
-skill = NS('http://thesoftworld.com/2007/skill.n3#')
+fam = NS('http://goonmill.org/2007/family.n3#')
+char = NS('http://goonmill.org/2007/characteristic.n3#')
+dice = NS('http://goonmill.org/2007/dice.n3#')
+pcclass = NS('http://goonmill.org/2007/pcclass.n3#')
+prop = NS('http://goonmill.org/2007/property.n3#')
+player = NS('http://goonmill.org/2007/player.n3#')
+character_ns = NS('http://goonmill.org/2007/character.n3#')
+weapon = NS('http://goonmill.org/2007/weapon.n3#')
+skill = NS('http://goonmill.org/2007/skill.n3#')
 
 NAMESPACES = {
     'fam':fam,
@@ -134,9 +134,9 @@ class Skills(object):
     """
     Expects data of this form::
 
-        @prefix character: <http://thesoftworld.com/2007/character.n3#> .
-        @prefix c: <http://thesoftworld.com/2007/characteristic.n3#> .
-        @prefix s: <http://thesoftworld.com/2007/skill.n3#> .
+        @prefix character: <http://goonmill.org/2007/character.n3#> .
+        @prefix c: <http://goonmill.org/2007/characteristic.n3#> .
+        @prefix s: <http://goonmill.org/2007/skill.n3#> .
         :somePlayer 
             c:str 10;
             character:hasSkill [ character:skill s:hide; skill:skillRanks 4; ]
