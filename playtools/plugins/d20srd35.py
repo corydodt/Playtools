@@ -15,10 +15,12 @@ from playtools.util import RESOURCE
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 
+from playtools.test.util import TODO
+
 from rdflib.Namespace import Namespace as NS
 from rdflib import RDF
 
-from rdfalchemy import rdfSingle, rdfMultiple
+from rdfalchemy import rdfSingle, rdfMultiple, rdfList
 from rdfalchemy.orm import mapper
 
 
@@ -669,7 +671,7 @@ class Monster2(S.rdfsPTClass):
     organization           = rdfSingle(PROP.organization)       # DONE!
     cr                     = rdfSingle(PROP.cr)                 # DONE!
     treasure               = rdfSingle(PROP.treasure)           # DONE!
-    alignment              = rdfSingle(PROP.alignment)          # DONE!
+    alignment              = rdfList(PROP.alignment)            # DONE!
     advancement            = rdfSingle(PROP.advancement)        # DONE!
     levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
 
