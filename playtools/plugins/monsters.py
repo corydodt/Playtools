@@ -16,6 +16,7 @@ from playtools.plugins.util import srdBoolean, initDatabase, cleanSrdXml
 from playtools.parser import abilityparser, saveparser
 
 from playtools.plugins import d20srd35
+from playtools.test.util import TODO, FIXME
 
 
 def statblockSource():
@@ -38,7 +39,7 @@ badTreasures = 0
 badCr = 0
 badAlignment = 0
 
-# TODO - unit tests for these little parsers
+TODO("unit tests for these little parsers")
 def parseTreasure(s):
     if s is None:
         return C.standardTreasure
@@ -85,6 +86,13 @@ def parseChallengeRating(s):
     return s
 
 
+def parseSize(s):
+    s = s.lower()
+    if size == 'colossal+':
+        return C.colossalPlus
+    return getattr(C, s.lower())
+
+
 def parseAlignment(s):
     l = []
     bad = 0
@@ -109,10 +117,10 @@ def parseAlignment(s):
         global badAlignment
         badAlignment = badAlignment + 1
         print 'bad alignment', s, badAlignment
-        return s
+        return [s]
     if l:
         return l
-    return C.noAlignment
+    return [C.noAlignment]
 
 
 class MonsterConverter(object):
@@ -152,25 +160,24 @@ class MonsterConverter(object):
         set('label',             orig.name)
         set('altname',           orig.altname)
 
-        # TODO - use nodes for family/type/descriptor when known, otherwise
-        # fallback to string - use statblock.Statblock.determineFamilies()
+        TODO("""use nodes for family/type/descriptor when known, otherwise
+        fallback to string - use statblock.Statblock.determineFamilies()""")
         set('family',            orig.family)
         set('type',              orig.type)
         set('descriptor',        orig.descriptor)
 
-        # TODO - parser for size
-        set('size',              orig.size)
+        set('size',              parseSize(orig.size))
         set('initiative',        parseInitiative(orig.initiative))
         set('speed',             orig.speed)
-        # TODO - parse bab
+        TODO("parse bab")
         set('bab',               orig.base_attack)
-        # TODO - I would like a grapple parser
+        TODO("I would like a grapple parser")
         set('grapple',           orig.grapple)
-        # TODO - space and reach are of type ^^distance
+        TODO("space and reach to be of type ^^distance")
         set('space',             orig.space)
         set('reach',             orig.reach)
         set('environment',       orig.environment)
-        # TODO - ideally i should have a parser written for organization
+        TODO("ideally I should have a parser written for organization")
         set('organization',      orig.organization)
         set('cr',                parseChallengeRating(orig.challenge_rating))
         set('treasure',          parseTreasure(orig.treasure))
@@ -178,14 +185,14 @@ class MonsterConverter(object):
         set('levelAdjustment',   orig.level_adjustment)
         set('alignment',         parseAlignment(sb.get('alignment')))
 
-        # TODO - create an image resource
+        TODO("create a dublin-core-style image resource")
         set('image',             orig.image)
 
-        # TODO - the problem with sb.get is that it always returns a string.
-        # we don't even want to set properties unless there is some data
-        # there.  Check for strings like "None" or "False" returned
+        TODO("""the problem with sb.get is that it always returns a string.
+        We don't even want to set properties unless there is some data there.
+        Check for strings lke "None" or "False" returned.""")
 
-        # TODO - hitdice is of type parseable dice expression
+        TODO("hitDice to be of type parseable dice expression")
         set('hitDice',            sb.get('hitDice'))
 
         saves = saveparser.parseSaves(orig.saves)[0]
@@ -220,9 +227,8 @@ class MonsterConverter(object):
         set('abilityCha',         cha.bonus)
         set('abilityChaNote',     cha.qualifier or cha.splat)
 
-        # TODO - boolean flags (for example type membership: ":foo a c:Monster")
-        # require us to step out of sqlalchemy
-
+        TODO("""boolean flags (for example type membership: ":foo a c:Monster")
+        require us to step out of sqlalchemy (rdfalchemy?)""")
 
     def label(self):
         return u"monsters"
