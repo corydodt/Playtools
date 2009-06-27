@@ -18,7 +18,9 @@ def rdfName(s):
     parts = s.split()
     parts[0] = parts[0].lower()
     parts[1:] = [p.capitalize() for p in parts[1:]]
-    return ''.join(parts)
+    ret = ''.join(parts)
+    if ret[0].isdigit(): ret = '_' + ret
+    return ret
 
 def filenameAsUri(fn):
     return 'file://' + os.path.abspath(fn)

@@ -15,9 +15,11 @@ class UtilTestCase(unittest.TestCase):
         s1 = "thing"
         s2 = "The Thing. that (we want)"
         s3 = "The Thing, that (we want)"
+        s4 = "1st-level astral construct"
         self.assertEqual(util.rdfName(s1), "thing")
         self.assertEqual(util.rdfName(s2), "theThingThatWeWant")
         self.assertEqual(util.rdfName(s3), "theThingThatWeWant")
+        self.assertEqual(util.rdfName(s4), "_1stLevelAstralConstruct")
 
     def test_filenameAsUri(self):
         """
