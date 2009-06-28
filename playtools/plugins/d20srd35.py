@@ -611,7 +611,6 @@ class Monster2(S.rdfsPTClass):
     environment            = rdfSingle(PROP.environment)        # DONE!
     organization           = rdfSingle(PROP.organization)       # DONE!
     cr                     = rdfSingle(PROP.cr)                 # DONE!
-    treasure               = rdfSingle(PROP.treasure)           # DONE!
     alignment              = rdfList(PROP.alignment)            # DONE!
     advancement            = rdfSingle(PROP.advancement)        # DONE!
     levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
@@ -629,6 +628,9 @@ class Monster2(S.rdfsPTClass):
     _saves                 = rdfMultiple(PROP.save)             # DONE!  
 
     _abilities             = rdfMultiple(PROP.abilityScore)     # DONE!  
+
+    _treasures             = rdfMultiple(PROP.treasure)         # DONE!
+    treasureNotes          = rdfSingle(PROP.treasureNotes)      # DONE!
 
     TODO("""_saves and _abilities are lists, so we must reconstruct the whole
     list to set any of them, and we must iterate the whole list to get any of

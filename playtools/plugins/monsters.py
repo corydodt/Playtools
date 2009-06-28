@@ -15,7 +15,7 @@ from playtools import sparqly
 from playtools.common import monsterNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
 from playtools.plugins.util import srdBoolean, initDatabase, cleanSrdXml
-from playtools.parser import abilityparser, saveparser
+from playtools.parser import abilityparser, saveparser, treasureparser
 
 from playtools.plugins import d20srd35
 from playtools.test.util import TODO, FIXME
@@ -39,60 +39,6 @@ class Options(usage.Options):
 
 TODO("unit tests for these little parsers")
 
-def parseTreasure(s):
-    if s is None:
-        return C.standardTreasure
-
-    s = s.lower()
-    if s == 'standard':
-        return C.standardTreasure
-    if s == 'double standard':
-        return C.doubleStandardTreasure
-    if s == 'triple standard':
-        return C.tripleStandardTreasure
-    if s == 'none':
-        return C.noTreasure
-
-    return s
-
-"""bad treasures: {{{
-      1/10th coins, 50% goods (no nonmetal or nonstone), 50% items (no nonmetal or nonstone) ** (1)
-                                                     1/10th coins; 50% goods; standard items ** (1)
-                                                             1/5 coins; 50% goods; 50% items ** (1)
-                                                                      +2 chain shirt barding ** (1)
-                                                                                as character ** (1)
-                                                                    double goods (gems only) ** (1)
-                                       double standard (nonflammables only) and +3 longspear ** (1)
-             double standard plus +4 half-plate armor and gargantuan +3 adamantine warhammer ** (1)
-                                                                               half standard ** (1)
-                                                  no coins; 1/4 goods (honey only); no items ** (1)
-                           no coins; 50% goods (metal or stone only); 50% items (no scrolls) ** (1)
-                                                  no coins, 50% goods (stone only), no items ** (1)
-                                                  no coins; 50% goods (stone only); no items ** (1)
-                                                      no coins; standard goods; double items ** (1)
-                                                               nonstandard (just its dagger) ** (1)
-      standard coins; double goods (nonflammables only); standard items (nonflammables only) ** (1)
-                                                standard coins, double goods, standard items ** (1)
-                        standard coins; double goods; standard items, plus 1d4 magic weapons ** (1)
- standard coins; double goods; standard items, plus +1 vorpal greatsword and +1 flaming whip ** (1)
-                                  standard coins; standard goods (gems only); standard items ** (1)
-    standard coins; standard goods (nonflammables only); standard items (nonflammables only) ** (1)
-                  standard (including +1 hide armor, +1 greatclub and ring of protection +1) ** (1)
-                                                              standard (including equipment) ** (1)
-                                                       standard plus possessions noted below ** (1)
-                         standard, plus rope and +1 flaming composite longbow (+5 str bonus) ** (1)
-                                                                         standard (see text) ** (1)
-                                                     1/2 coins; double goods; standard items **** (2)
-                                                             50% coins; 50% goods; 50% items **** (2)
-                                                              no coins; 50% goods; 50% items **** (2)
-                                                               standard (nonflammables only) **** (2)
-                                                          1/10th coins; 50% goods; 50% items ******** (4)
-                                                      no coins; double goods; standard items ****************** (9)
-                                                standard coins; double goods; standard items ************************* (12)
-                                                            1/10 coins; 50% goods; 50% items ************************************************** (24)
-""" # }}}
-
-
 def parseInitiative(s):
     """
     Some initiatives include explanations (show the math).  We consider these
@@ -113,9 +59,6 @@ def parseChallengeRating(s):
         except ValueError:
             pass
 
-    global badCr
-    badCr = badCr +
-    print >>sys.stderr, 'bad cr', s, badCr
     return s
 
 """bad cr: {{{
@@ -234,7 +177,7 @@ class MonsterConverter(object):
         TODO("ideally I should have a parser written for organization")
         set('organization',      orig.organization)
         set('cr',                parseChallengeRating(orig.challenge_rating))
-        set('treasure',          parseTreasure(orig.treasure))
+ 
         set('advancement',       orig.advancement)
         set('levelAdjustment',   orig.level_adjustment)
         set('alignment',         parseAlignment(sb.get('alignment')))
@@ -249,7 +192,9 @@ class MonsterConverter(object):
         TODO("hitDice to be of type parseable dice expression")
         set('hitDice',            sb.get('hitDice'))
 
-        def _makeValues(dct):
+        def _makeValues(dct, 
+                getValue=lambda x: x.bonus,
+                getComment=lambda x: x.qualifier or x.bonus):
             """
             Create an AnnotatedValue for each of the keys in dct
             """
@@ -262,9 +207,9 @@ class MonsterConverter(object):
                 # have to strip out "a rdfs:Class" for some reason added by rdfalc
                 self.graph.remove((x.resUri, a, RDFSNS.Class))
 
-                x.value = parsed.bonus
-                if parsed.qualifier or parsed.splat:
-                    x.comment = parsed.qualifier or parsed.splat
+                x.value = getValue(parsed)
+                if getComment(parsed):
+                    x.comment = getComment(parsed)
                 retlist.append(x)
             return retlist
 
@@ -280,6 +225,18 @@ class MonsterConverter(object):
         ablist = _makeValues({cha:C.Cha, con:C.Con, dex:C.Dex, _int:C.Int,
                 _str:C.Str, wis:C.Wis })
         set('_abilities',         ablist)
+
+        # parse treasures, then stack them up under _treasures
+        treasure, other = treasureparser.parseTreasures(orig.treasure)[0]
+        coins, goods, items = zip(*sorted(treasure.items()))[1]
+        getValueT = lambda x: x.value
+        getCommentT = lambda x: x.qualifier
+        tlist = _makeValues({coins:C.Coins, goods:C.Goods, items:C.Items},
+                getValueT, getCommentT)
+        set('_treasures',         tlist)
+        if other:
+            set('treasureNotes',  other)
+
 
     def label(self):
         return u"monsters"
