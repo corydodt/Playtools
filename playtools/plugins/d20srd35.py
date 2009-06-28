@@ -579,6 +579,13 @@ class Feat(S.rdfsPTClass):
 feat = RDFFactCollection(Feat, 'feat')
 
 
+class AnnotatedValue(S.rdfsPTClass):
+    """
+    A simple integer score, which may have annotations
+    """
+    value                  = rdfSingle(RDF.value)
+
+
 class Monster2(S.rdfsPTClass):
     """
     A creature statted from the SRD monster list
@@ -587,16 +594,45 @@ class Monster2(S.rdfsPTClass):
     attackGroups list), special_qualities (is fullAbilities or something else
     if we rename that), special_abilities (is multiple of specialAbility),
     stat_block (dropped, redundant), full_text (is fullText)
+
     """
-    family                 = rdfSingle(PROP.family)           # DONE!
-    altname                = rdfSingle(PROP.altname)          # DONE!
-    size                   = rdfSingle(PROP.size)             # DONE!
-    type                   = rdfSingle(PROP.type)             # DONE!
-    descriptor             = rdfSingle(PROP.descriptor)       # DONE!
-    hitDice                = rdfSingle(PROP.hitDice)          # DONE!
+    rdf_type = CHAR.Monster
+
+    family                 = rdfSingle(PROP.family)             # DONE!
+    altname                = rdfSingle(PROP.altname)            # DONE!
+    size                   = rdfSingle(PROP.size)               # DONE!
+    type                   = rdfSingle(PROP.type)               # DONE!
+    descriptor             = rdfSingle(PROP.descriptor)         # DONE!
+    hitDice                = rdfSingle(PROP.hitDice)            # DONE!
     # hitPoints will always be computed by outside app.
     # count will always be outside app
     # label will always be outside app
+
+    environment            = rdfSingle(PROP.environment)        # DONE!
+    organization           = rdfSingle(PROP.organization)       # DONE!
+    cr                     = rdfSingle(PROP.cr)                 # DONE!
+    treasure               = rdfSingle(PROP.treasure)           # DONE!
+    alignment              = rdfList(PROP.alignment)            # DONE!
+    advancement            = rdfSingle(PROP.advancement)        # DONE!
+    levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
+
+    image                  = rdfSingle(PROP.image)              # DONE!
+
+    initiative             = rdfSingle(PROP.initiative)         # DONE!
+    speed                  = rdfSingle(PROP.speed)              # DONE!
+    bab                    = rdfSingle(PROP.bab)                # DONE!
+    grapple                = rdfSingle(PROP.grapple)            # DONE!
+
+    space                  = rdfSingle(PROP.space)              # DONE!
+    reach                  = rdfSingle(PROP.reach)              # DONE!
+
+    _saves                 = rdfMultiple(PROP.save)             # DONE!  
+
+    _abilities             = rdfMultiple(PROP.abilityScore)     # DONE!  
+
+    TODO("""_saves and _abilities are lists, so we must reconstruct the whole
+    list to set any of them, and we must iterate the whole list to get any of
+    them.  Implement an associative type""")
 
     TODO("""acFeats, speedFeats, attackOptionFeats and rangedAttackFeats will be
     property()'s of Monster2.  Their values will be computed, by examining
@@ -613,11 +649,7 @@ class Monster2(S.rdfsPTClass):
 #"     listen
 #"     spot
 
-    initiative             = rdfSingle(PROP.initiative)       # DONE!
-    speed                  = rdfSingle(PROP.speed)            # DONE!
 #"     armorClass             = rdfSingle(...)  # write a parser
-    bab                    = rdfSingle(PROP.bab)                # DONE!
-    grapple                = rdfSingle(PROP.grapple)            # DONE!
 
 #"     attackGroups           = rdfSingle(...)  # from sb.get - list
 
@@ -626,38 +658,33 @@ class Monster2(S.rdfsPTClass):
     """)
 #"     attack
 
-    space                  = rdfSingle(PROP.space)              # DONE!
-    reach                  = rdfSingle(PROP.reach)              # DONE!
-
 #"     languages              = rdfSingle(PROP.)                   # from sb.get? - list
 
 #"     specialAttacks         = rdfList(...)  # from sb.get
-#"     fullAbility            = rdfMulti(...)  # from sb.get - maybe rename
-#"     specialAbility         = rdfMulti(PROP.specialAbility)           # list parsed from sb.get
+#"     fullAbility            = rdfMultiple(...)  # from sb.get - maybe rename
+#"     specialAbility         = rdfMultiple(PROP.specialAbility)           # list parsed from sb.get
 
-    TODO("""specialAC, spellLikeAbilities, casterLevel, spellResistance, aura,
-    fastHealing, regeneration, damageReduction, immunities, senses,
-    resistances, vulnerabilities will be computed by looking at
-    self.fullAbilities and self.specialAttacks and self.specialAbility""")
-#"     specialAC
-#"     spellLikeAbilities
-#"     casterLevel
-#"     spellResistance
-#"     aura
-#"     fastHealing
-#"     regeneration
+    TODO("""specialAC, 
+    spellLikeAbilities, 
+    casterLevel, 
+    spellResistance, 
+    aura,
+    fastHealing, 
+    regeneration, 
+    damageReduction, 
+    immunities, 
+    senses,
+    resistances, 
+    vulnerabilities 
+    ... will be computed by looking at self.fullAbilities and
+    self.specialAttacks and self.specialAbility""")
 
-    TODO("""damageReduction, senses, immunities, resistances and
-    vulnerabilities are dictionaries, though.""")
-#"     damageReduction
-#"     senses
-#"     immunities
-#"     resistances
-#"     vulnerabilities
-
-    save                   = rdfMultiple(PROP.save)
-
-    ability                = rdfMultiple(PROP.abilityScore)
+    TODO("""damageReduction, 
+    senses, 
+    immunities, 
+    resistances,
+    vulnerabilities 
+    are dictionaries, though.""")
 
 #"     skills                 = rdfSingle(...)  # dict from sb.parseSkills
 
@@ -667,18 +694,13 @@ class Monster2(S.rdfsPTClass):
 #"     bonusFeats
 #"     epicFeats
 
-    environment            = rdfSingle(PROP.environment)        # DONE!
-    organization           = rdfSingle(PROP.organization)       # DONE!
-    cr                     = rdfSingle(PROP.cr)                 # DONE!
-    treasure               = rdfSingle(PROP.treasure)           # DONE!
-    alignment              = rdfList(PROP.alignment)            # DONE!
-    advancement            = rdfSingle(PROP.advancement)        # DONE!
-    levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
-
+    TODO("""fullText should be a link into an HTML document which contains all
+    of the full texts, with the parts that are already covered by the data
+    removed.  We need an automatic way to determine which part of the HTML
+    documents to keep, and an automatic way to determine which monsters should
+    share which fulltexts.""")
 #"    fullText               = rdfSingle(...)  # clean up from sql
 #"    reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
-
-    image                  = rdfSingle(PROP.image)              # DONE!
 
 
 mapper()

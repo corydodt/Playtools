@@ -1,6 +1,8 @@
 """
 Converter from srd35.db to monster.n3
 """
+import sys
+
 from zope.interface import implements
 
 from twisted.plugin import IPlugin
@@ -56,7 +58,7 @@ def parseTreasure(s):
 
     global badTreasures
     badTreasures = badTreasures + 1
-    print 'bad treasure', s, badTreasures
+    print >>sys.stderr, 'bad treasure', s, badTreasures
     return s
 
 
@@ -82,13 +84,13 @@ def parseChallengeRating(s):
 
     global badCr
     badCr = badCr + 1
-    print 'bad cr', s, badCr
+    print >>sys.stderr, 'bad cr', s, badCr
     return s
 
 
 def parseSize(s):
     s = s.lower()
-    if size == 'colossal+':
+    if s == 'colossal+':
         return C.colossalPlus
     return getattr(C, s.lower())
 
@@ -116,7 +118,7 @@ def parseAlignment(s):
     if bad:
         global badAlignment
         badAlignment = badAlignment + 1
-        print 'bad alignment', s, badAlignment
+        print >>sys.stderr, 'bad alignment', s, badAlignment
         return [s]
     if l:
         return l
@@ -145,7 +147,10 @@ class MonsterConverter(object):
 
     def makePlaytoolsItem(self, sb):
         sparqly.rdfsPTClass.db = self.graph
-        m = d20srd35.Monster2()
+ 
+        orig = sb.monster
+
+        m = d20srd35.Monster2(getattr(monsterNs, rdfName(orig.name)))
 
         def set(what, toWhat):
             """
@@ -153,9 +158,6 @@ class MonsterConverter(object):
             """
             if toWhat:
                 setattr(m, what, toWhat)
-
-        # all of these are direct from the sql
-        orig = sb.monster
 
         set('label',             orig.name)
         set('altname',           orig.altname)
@@ -195,40 +197,37 @@ class MonsterConverter(object):
         TODO("hitDice to be of type parseable dice expression")
         set('hitDice',            sb.get('hitDice'))
 
+        def _makeValues(dct):
+            """
+            Create an AnnotatedValue for each of the keys in dct
+            """
+            retlist = []
+            for parsed, cls in dct.items():
+                x = d20srd35.AnnotatedValue()
+
+                # manually set the class
+                self.graph.add((x.resUri, a, cls))
+                # have to strip out "a rdfs:Class" for some reason added by rdfalc
+                self.graph.remove((x.resUri, a, RDFSNS.Class))
+
+                x.value = parsed.bonus
+                if parsed.qualifier or parsed.splat:
+                    x.comment = parsed.qualifier or parsed.splat
+                retlist.append(x)
+            return retlist
+
+        # parse saves, then stack them up under _saves
         saves = saveparser.parseSaves(orig.saves)[0]
-
-        FIXME("""construct a Save class in d20srd35 based on rdfsPTClass and
-        give it a bonus, qualifier and splat attribute.  construct three of
-        those things here, instancing c:Fort, c:Ref and c:Will.""")
         fort, ref, will = zip(*sorted(saves.items()))[1]
-        set('saveFort',           fort.bonus)
-        set('saveFortNote',       fort.qualifier or fort.splat)
-        set('saveRef',            ref.bonus)
-        set('saveRefNote',        ref.qualifier or ref.splat)
-        set('saveWill',           will.bonus)
-        set('saveWillNote',       will.qualifier or will.splat)
+        savelist = _makeValues({fort:C.Fort, ref:C.Ref, will:C.Will})
+        set('_saves',             savelist)
 
-        FIXME("""construct an AbilityScore class in d20srd35 based on
-        rdfsPTClass and give it a bonus, qualifier and splat attribute.
-        construct six of those things here, instancing c:Str, c:Dex and
-        so on.""")
+        # parse abilities, then stack them up under _abilities
         abilities = abilityparser.parseAbilities(orig.abilities)[0]
-        cha, con, dex, int, str, wis = zip(*sorted(abilities.items()))[1]
-        set('abilityStr',         str.bonus)
-        set('abilityStrNote',     str.qualifier or str.splat)
-        set('abilityDex',         dex.bonus)
-        set('abilityDexNote',     dex.qualifier or dex.splat)
-        set('abilityCon',         con.bonus)
-        set('abilityConNote',     con.qualifier or con.splat)
-        set('abilityInt',         int.bonus)
-        set('abilityIntNote',     int.qualifier or int.splat)
-        set('abilityWis',         wis.bonus)
-        set('abilityWisNote',     wis.qualifier or wis.splat)
-        set('abilityCha',         cha.bonus)
-        set('abilityChaNote',     cha.qualifier or cha.splat)
-
-        TODO("""boolean flags (for example type membership: ":foo a c:Monster")
-        require us to step out of sqlalchemy (rdfalchemy?)""")
+        cha, con, dex, _int, _str, wis = zip(*sorted(abilities.items()))[1]
+        ablist = _makeValues({cha:C.Cha, con:C.Con, dex:C.Dex, _int:C.Int,
+                _str:C.Str, wis:C.Wis })
+        set('_abilities',         ablist)
 
     def label(self):
         return u"monsters"
