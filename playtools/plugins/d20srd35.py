@@ -632,9 +632,9 @@ class Monster2(S.rdfsPTClass):
     _treasures             = rdfMultiple(PROP.treasure)         # DONE!
     treasureNotes          = rdfSingle(PROP.treasureNotes)      # DONE!
 
-    TODO("""_saves and _abilities are lists, so we must reconstruct the whole
-    list to set any of them, and we must iterate the whole list to get any of
-    them.  Implement an associative type""")
+    TODO("""_saves and _treasures and _abilities are lists, so we must
+    reconstruct the whole list to set any of them, and we must iterate the
+    whole list to get any of them.  Implement an associative type""")
 
     TODO("""acFeats, speedFeats, attackOptionFeats and rangedAttackFeats will be
     property()'s of Monster2.  Their values will be computed, by examining
