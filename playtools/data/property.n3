@@ -67,6 +67,10 @@
     rdfs:comment "Type of treasure typically possessed by creatures of this type.";
 .
 
+:treasureNotes a rdfs:Property;
+    rdfs:comment "Additional notes about the treasure, such as specific items that are possessed by the creatures";
+.
+
 :vitality a rdfs:Property;
     rdfs:comment "Behaviors of the creature that differ from the basic needs of life, e.g. needs to eat, sleep, drink.";
     owl:allValuesFrom c:Vitality;

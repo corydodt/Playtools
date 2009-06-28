@@ -570,10 +570,16 @@
 
 :Monster rdfs:subClassOf :Characteristic .
 
-:TreasureType rdfs:subClassOf :Characteristic .
-:standardTreasure a :TreasureType .
-:doubleStandardTreasure a :TreasureType .
-:tripleStandardTreasure a :TreasureType .
-:noTreasure a :TreasureType .
+:TreasureValue rdfs:subClassOf :Characteristic .
+:standardTreasure a :TreasureValue .
+:doubleStandardTreasure a :TreasureValue .
+:tripleStandardTreasure a :TreasureValue .
+:noTreasure a :TreasureValue .
+:asCharacter a :TreasureValue .
+:halfStandard a :TreasureValue .
 
+:TreasureType rdfs:subClassOf :Characteristic .
+:Coins rdfs:subClassOf :TreasureType .
+:Goods rdfs:subClassOf :TreasureType .
+:Items rdfs:subClassOf :TreasureType .
 
