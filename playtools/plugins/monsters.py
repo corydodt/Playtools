@@ -52,32 +52,20 @@ def parseInitiative(s):
 
 def parseChallengeRating(s):
     if s.startswith('1/'):
-        return 1./int(s[2:])
+        return [((1./int(s[2:])), None,)]
     else:
         try:
-            return int(s)
+            return [(int(s), None)]
         except ValueError:
-            pass
-
-    return s
-
-"""bad cr: {{{
-\"
-1 (see text)
-5 (noble 8)
-8 (elder 9)
-4 (normal);\n6 (pyro- or cryo-)
-5 (normal);\n7 (pyro- or cryo-)
-6 (normal);\n8 (pyro- or cryo-)
-7 (normal);\n9 (pyro- or cryo-)
-8 (normal);\n10 (pyro- or cryo-)
-9 (normal);\n11 (pyro- or cryo-)
-10 (normal);\n12 (pyro- or cryo-)
-11 (normal);\n13 (pyro- or cryo-)
-2 (without pipes) or 4 (with pipes)
-4 (5 with irresistible dance)
-Included with master
-""" # }}}
+            items = map(unicode.strip, s.split(';', 1))
+            l = []
+            for i in items:
+                parts = i.split(None, 1)
+                if len(parts)>1:
+                    l.append((int(parts[0]), parts[1]))
+                else:
+                    l.append((int(parts[0]), None))
+            return l
 
 
 def parseSize(s):
@@ -176,8 +164,7 @@ class MonsterConverter(object):
         set('environment',       orig.environment)
         TODO("ideally I should have a parser written for organization")
         set('organization',      orig.organization)
-        set('cr',                parseChallengeRating(orig.challenge_rating))
- 
+
         set('advancement',       orig.advancement)
         set('levelAdjustment',   orig.level_adjustment)
         set('alignment',         parseAlignment(sb.get('alignment')))
@@ -192,14 +179,16 @@ class MonsterConverter(object):
         TODO("hitDice to be of type parseable dice expression")
         set('hitDice',            sb.get('hitDice'))
 
-        def _makeValues(dct, 
-                getValue=lambda x: x.bonus,
-                getComment=lambda x: x.qualifier or x.bonus):
+        defaultGetValue = lambda x: x.bonus
+        defaultGetComment = lambda x: x.qualifier or x.bonus
+
+        def _makeValues(dct, getValue=defaultGetValue, getComment=defaultGetComment):
             """
             Create an AnnotatedValue for each of the keys in dct
             """
             retlist = []
             for parsed, cls in dct.items():
+
                 x = d20srd35.AnnotatedValue()
 
                 # manually set the class
@@ -211,6 +200,7 @@ class MonsterConverter(object):
                 if getComment(parsed):
                     x.comment = getComment(parsed)
                 retlist.append(x)
+
             return retlist
 
         # parse saves, then stack them up under _saves
@@ -236,6 +226,16 @@ class MonsterConverter(object):
         set('_treasures',         tlist)
         if other:
             set('treasureNotes',  other)
+
+        # challenge ratings are not differentiated by type (like saves and
+        # abilities).  There are sometimes two different CR's, so make a list
+        # like the others.
+        crs = parseChallengeRating(orig.challenge_rating)
+        d = {}
+        for cr in crs: d[cr] = C.ChallengeRating
+        crlist = _makeValues(d, lambda x:x[0], lambda x:x[1])
+        set('cr',                 crlist)
+
 
 
     def label(self):

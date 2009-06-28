@@ -610,7 +610,7 @@ class Monster2(S.rdfsPTClass):
 
     environment            = rdfSingle(PROP.environment)        # DONE!
     organization           = rdfSingle(PROP.organization)       # DONE!
-    cr                     = rdfSingle(PROP.cr)                 # DONE!
+    cr                     = rdfMultiple(PROP.cr)               # DONE!
     alignment              = rdfList(PROP.alignment)            # DONE!
     advancement            = rdfSingle(PROP.advancement)        # DONE!
     levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!

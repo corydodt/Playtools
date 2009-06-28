@@ -13,6 +13,10 @@
     rdfs:comment "Aspect of a creature that does not fall into any other category.";
 .
 
+:ChallengeRating a rdfs:Class;
+    rds:comment "The CR value for a monster, which may have annotations.";
+.
+
 :Race rdfs:subClassOf :Characteristic .
 
 :Save rdfs:subClassOf :Characteristic .
