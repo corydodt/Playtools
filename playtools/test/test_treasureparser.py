@@ -220,7 +220,7 @@ class HUGETreasureParserTest(unittest.TestCase):
         """
         monsters = MONSTERS.dump()
         for monster in monsters:
-            # we aren't actually making any assertions about abilities except
+            # we aren't actually making any assertions about treasures except
             # that they can be processed.  The "exp" construction is here so
             # that the assertEqual at the end will have a string to tell us
             # *which* monster failed, if one does.
