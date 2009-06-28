@@ -37,11 +37,8 @@ def statblockSource():
 class Options(usage.Options):
     synopsis = "monsters"
 
-badTreasures = 0
-badCr = 0
-badAlignment = 0
-
 TODO("unit tests for these little parsers")
+
 def parseTreasure(s):
     if s is None:
         return C.standardTreasure
@@ -56,10 +53,44 @@ def parseTreasure(s):
     if s == 'none':
         return C.noTreasure
 
-    global badTreasures
-    badTreasures = badTreasures + 1
-    print >>sys.stderr, 'bad treasure', s, badTreasures
     return s
+
+"""bad treasures: {{{
+      1/10th coins, 50% goods (no nonmetal or nonstone), 50% items (no nonmetal or nonstone) ** (1)
+                                                     1/10th coins; 50% goods; standard items ** (1)
+                                                             1/5 coins; 50% goods; 50% items ** (1)
+                                                                      +2 chain shirt barding ** (1)
+                                                                                as character ** (1)
+                                                                    double goods (gems only) ** (1)
+                                       double standard (nonflammables only) and +3 longspear ** (1)
+             double standard plus +4 half-plate armor and gargantuan +3 adamantine warhammer ** (1)
+                                                                               half standard ** (1)
+                                                  no coins; 1/4 goods (honey only); no items ** (1)
+                           no coins; 50% goods (metal or stone only); 50% items (no scrolls) ** (1)
+                                                  no coins, 50% goods (stone only), no items ** (1)
+                                                  no coins; 50% goods (stone only); no items ** (1)
+                                                      no coins; standard goods; double items ** (1)
+                                                               nonstandard (just its dagger) ** (1)
+      standard coins; double goods (nonflammables only); standard items (nonflammables only) ** (1)
+                                                standard coins, double goods, standard items ** (1)
+                        standard coins; double goods; standard items, plus 1d4 magic weapons ** (1)
+ standard coins; double goods; standard items, plus +1 vorpal greatsword and +1 flaming whip ** (1)
+                                  standard coins; standard goods (gems only); standard items ** (1)
+    standard coins; standard goods (nonflammables only); standard items (nonflammables only) ** (1)
+                  standard (including +1 hide armor, +1 greatclub and ring of protection +1) ** (1)
+                                                              standard (including equipment) ** (1)
+                                                       standard plus possessions noted below ** (1)
+                         standard, plus rope and +1 flaming composite longbow (+5 str bonus) ** (1)
+                                                                         standard (see text) ** (1)
+                                                     1/2 coins; double goods; standard items **** (2)
+                                                             50% coins; 50% goods; 50% items **** (2)
+                                                              no coins; 50% goods; 50% items **** (2)
+                                                               standard (nonflammables only) **** (2)
+                                                          1/10th coins; 50% goods; 50% items ******** (4)
+                                                      no coins; double goods; standard items ****************** (9)
+                                                standard coins; double goods; standard items ************************* (12)
+                                                            1/10 coins; 50% goods; 50% items ************************************************** (24)
+""" # }}}
 
 
 def parseInitiative(s):
@@ -83,9 +114,27 @@ def parseChallengeRating(s):
             pass
 
     global badCr
-    badCr = badCr + 1
+    badCr = badCr +
     print >>sys.stderr, 'bad cr', s, badCr
     return s
+
+"""bad cr: {{{
+\"
+1 (see text)
+5 (noble 8)
+8 (elder 9)
+4 (normal);\n6 (pyro- or cryo-)
+5 (normal);\n7 (pyro- or cryo-)
+6 (normal);\n8 (pyro- or cryo-)
+7 (normal);\n9 (pyro- or cryo-)
+8 (normal);\n10 (pyro- or cryo-)
+9 (normal);\n11 (pyro- or cryo-)
+10 (normal);\n12 (pyro- or cryo-)
+11 (normal);\n13 (pyro- or cryo-)
+2 (without pipes) or 4 (with pipes)
+4 (5 with irresistible dance)
+Included with master
+""" # }}}
 
 
 def parseSize(s):
@@ -97,7 +146,6 @@ def parseSize(s):
 
 def parseAlignment(s):
     l = []
-    bad = 0
     punct = '()'
     for word in s.split():
         word = word.lower().strip(punct)
@@ -113,17 +161,21 @@ def parseAlignment(s):
 
         if word in ['any']:    # this word is stupid and devoid of meaning
             continue
-        bad = 1
 
-    if bad:
-        global badAlignment
-        badAlignment = badAlignment + 1
-        print >>sys.stderr, 'bad alignment', s, badAlignment
-        return [s]
     if l:
         return l
     return [C.noAlignment]
 
+"""bad alignments: {{{
+Any (same as creator)
+As master
+Lawful evil or chaotic evil
+Neutral evil or neutral
+Often lawful good\n(Deep: Usually lawful neutral or neutral)
+Usually chaotic good\n(Wood: Usually neutral)
+Usually chaotic neutral, neutral evil, or chaotic evil
+Usually neutral good or neutral evil
+""" # }}}
 
 class MonsterConverter(object):
     """Convert the goonmill.history.History object to a rdf-based monster
