@@ -1,8 +1,6 @@
 """
 Converter from srd35.db to monster.n3
 """
-import sys
-
 from zope.interface import implements
 
 from twisted.plugin import IPlugin
@@ -14,11 +12,12 @@ from playtools.interfaces import IConverter
 from playtools import sparqly
 from playtools.common import monsterNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
-from playtools.plugins.util import srdBoolean, initDatabase, cleanSrdXml
 from playtools.parser import abilityparser, saveparser, treasureparser
+from playtools.parser.misc import (parseInitiative, parseSize,
+            parseChallengeRating, parseAlignment, parseFamily)
 
 from playtools.plugins import d20srd35
-from playtools.test.util import TODO, FIXME
+from playtools.test.util import TODO
 
 
 def statblockSource():
@@ -37,76 +36,6 @@ def statblockSource():
 class Options(usage.Options):
     synopsis = "monsters"
 
-TODO("unit tests for these little parsers")
-
-def parseInitiative(s):
-    """
-    Some initiatives include explanations (show the math).  We consider these
-    excess verbiage, and drop them.
-    """
-    splits = s.split(None, 1)
-    if len(splits) == 1:
-        return int(s)
-    return int(splits[0])
-
-
-def parseChallengeRating(s):
-    if s.startswith('1/'):
-        return [((1./int(s[2:])), None,)]
-    else:
-        try:
-            return [(int(s), None)]
-        except ValueError:
-            items = map(unicode.strip, s.split(';', 1))
-            l = []
-            for i in items:
-                parts = i.split(None, 1)
-                if len(parts)>1:
-                    l.append((int(parts[0]), parts[1]))
-                else:
-                    l.append((int(parts[0]), None))
-            return l
-
-
-def parseSize(s):
-    s = s.lower()
-    if s == 'colossal+':
-        return C.colossalPlus
-    return getattr(C, s.lower())
-
-
-def parseAlignment(s):
-    l = []
-    punct = '()'
-    for word in s.split():
-        word = word.lower().strip(punct)
-        if word == 'none':
-            l.append(C.noAlignment)
-            continue
-        if word in ['always', 'often', 'usually']:
-            l.append(getattr(C, 'aligned%s' % (word.capitalize())))
-            continue
-        if word in ['neutral', 'lawful', 'chaotic', 'evil', 'good']:
-            l.append(getattr(C, word))
-            continue
-
-        if word in ['any']:    # this word is stupid and devoid of meaning
-            continue
-
-    if l:
-        return l
-    return [C.noAlignment]
-
-"""bad alignments: {{{
-Any (same as creator)
-As master
-Lawful evil or chaotic evil
-Neutral evil or neutral
-Often lawful good\n(Deep: Usually lawful neutral or neutral)
-Usually chaotic good\n(Wood: Usually neutral)
-Usually chaotic neutral, neutral evil, or chaotic evil
-Usually neutral good or neutral evil
-""" # }}}
 
 class MonsterConverter(object):
     """Convert the goonmill.history.History object to a rdf-based monster
@@ -147,9 +76,9 @@ class MonsterConverter(object):
 
         TODO("""use nodes for family/type/descriptor when known, otherwise
         fallback to string - use statblock.Statblock.determineFamilies()""")
-        set('family',            orig.family)
-        set('type',              orig.type)
-        set('descriptor',        orig.descriptor)
+        set('family',            parseFamily(orig.family))
+        set('type',              parseFamily(orig.type))
+        set('descriptor',        parseFamily(orig.descriptor))
 
         set('size',              parseSize(orig.size))
         set('initiative',        parseInitiative(orig.initiative))
@@ -235,8 +164,6 @@ class MonsterConverter(object):
         for cr in crs: d[cr] = C.ChallengeRating
         crlist = _makeValues(d, lambda x:x[0], lambda x:x[1])
         set('cr',                 crlist)
-
-
 
     def label(self):
         return u"monsters"
