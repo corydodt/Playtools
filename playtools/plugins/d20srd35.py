@@ -358,7 +358,7 @@ class SpecialArmorClass(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this family
+        The indexable text of this special AC
         """
         t = unicode(self.comment)
         return t or unicode(self.label)
@@ -378,7 +378,7 @@ class Aura(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this family
+        The indexable text of this aura
         """
         t = unicode(self.comment)
         return t or unicode(self.label)
@@ -395,7 +395,7 @@ class SpecialAction(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this family
+        The indexable text of this special action
         """
         t = unicode(self.comment)
         return t or unicode(self.label)
