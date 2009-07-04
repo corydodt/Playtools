@@ -63,30 +63,27 @@
 
 
 :Alignment rdfs:subClassOf :Characteristic .
-:AlignmentAtom rdfs:subClassOf :Characteristic .
-:AlignmentWhen rdfs:subClassOf :Characteristic .
-:AlignmentTrue rdfs:subClassOf :Characteristic;
+:AlignmentAtom rdfs:subClassOf :Alignment.
+:AlignmentTrue rdfs:subClassOf :Alignment;
     rdfs:comment "A complete moral-ethic alignment, those available to PCs";
 .
 
-:lawfulGood a :Alignment, :AlignmentTrue .
-:neutralGood a :Alignment, :AlignmentTrue .
-:chaoticGood a :Alignment, :AlignmentTrue .
-:lawfulNeutral a :Alignment, :AlignmentTrue .
-:neutral a :Alignment, :AlignmentAtom, :AlignmentTrue .
-:chaoticNeutral a :Alignment, :AlignmentTrue .
-:lawfulEvil a :Alignment, :AlignmentTrue .
-:neutralEvil a :Alignment, :AlignmentTrue .
-:chaoticEvil a :Alignment, :AlignmentTrue .
-:lawful a :Alignment, :AlignmentAtom .
-:chaotic a :Alignment, :AlignmentAtom .
-:evil a :Alignment, :AlignmentAtom .
-:good a :Alignment, :AlignmentAtom .
-:noAlignment a :Alignment, :AlignmentAtom .
-
-:alignedUsually a :AlignmentWhen .
-:alignedAlways a :AlignmentWhen .
-:alignedOften a :AlignmentWhen .
+:lawfulGood      a  :AlignmentTrue .
+:neutralGood     a  :AlignmentTrue .
+:chaoticGood     a  :AlignmentTrue .
+:lawfulNeutral   a  :AlignmentTrue .
+:neutralNeutral  a  :AlignmentTrue .
+:chaoticNeutral  a  :AlignmentTrue .
+:lawfulEvil      a  :AlignmentTrue .
+:neutralEvil     a  :AlignmentTrue .
+:chaoticEvil     a  :AlignmentTrue .
+:lawful          a  :AlignmentAtom .
+:chaotic         a  :AlignmentAtom .
+:evil            a  :AlignmentAtom .
+:good            a  :AlignmentAtom .
+:neutralMorals   a  :AlignmentAtom .
+:neutralEthics   a  :AlignmentAtom .
+:noAlignment     a  :AlignmentAtom .
 
 
 :AttackEffect rdfs:subClassOf :Characteristic .
