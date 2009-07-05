@@ -4,7 +4,7 @@ Test for the parsing of saves
 
 from twisted.trial import unittest
 
-from playtools.parser import misc 
+from playtools.parser import misc
 from playtools import fact
 from playtools.common import C
 
@@ -54,19 +54,4 @@ class MiscParserTest(unittest.TestCase):
         self.assertEqual(misc.parseSize(t2), C.tiny)
         self.assertEqual(misc.parseSize(t3), C.colossalPlus)
         self.assertEqual(misc.parseSize(t4), C.diminutive)
-
-    def test_alignment(self):
-        """
-        Alignments return a correct alignment or choice of them
-Any (same as creator)
-As master
-Lawful evil or chaotic evil
-Neutral evil or neutral
-Often lawful good (normal); Usually lawful neutral or neutral (Deep)
-Usually chaotic good (normal); Usually neutral (Wood)
-Usually chaotic neutral, neutral evil, or chaotic evil
-Usually neutral good or neutral evil
-        """
-        t1 = "None"
-    test_alignment.todo = "waiting to actually finish implementing alignment parser"
 

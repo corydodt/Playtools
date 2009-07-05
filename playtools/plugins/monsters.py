@@ -12,9 +12,9 @@ from playtools.interfaces import IConverter
 from playtools import sparqly
 from playtools.common import monsterNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
-from playtools.parser import abilityparser, saveparser, treasureparser
+from playtools.parser import abilityparser, saveparser, treasureparser, alignmentparser
 from playtools.parser.misc import (parseInitiative, parseSize,
-            parseChallengeRating, parseAlignment, parseFamily)
+            parseChallengeRating, parseFamily)
 
 from playtools.plugins import d20srd35
 from playtools.test.util import TODO

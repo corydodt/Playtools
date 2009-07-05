@@ -37,40 +37,6 @@ def parseSize(s):
     return getattr(C, s.lower())
 
 
-def parseAlignment(s):
-    l = []
-    punct = '()'
-    for word in s.split():
-        word = word.lower().strip(punct)
-        if word == 'none':
-            l.append(C.noAlignment)
-            continue
-        if word in ['always', 'often', 'usually']:
-            l.append(getattr(C, 'aligned%s' % (word.capitalize())))
-            continue
-        if word in ['neutral', 'lawful', 'chaotic', 'evil', 'good']:
-            l.append(getattr(C, word))
-            continue
-
-        if word in ['any']:    # this word is stupid and devoid of meaning
-            continue
-
-    if l:
-        return l
-    return [C.noAlignment]
-
-"""bad alignments: {{{
-Any (same as creator)
-As master
-Lawful evil or chaotic evil
-Neutral evil or neutral
-Often lawful good (normal); Usually lawful neutral or neutral (Deep)
-Usually chaotic good (normal); Usually neutral (Wood)
-Usually chaotic neutral, neutral evil, or chaotic evil
-Usually neutral good or neutral evil
-""" # }}}
-
-
 def parseFamily(s):
     """
     Parse family, type and subtype (convert into a node)
