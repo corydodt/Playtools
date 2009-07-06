@@ -25,13 +25,14 @@ atom                   :=  c'lawful'/c'chaotic'/c'evil'/c'good'
 
 usuallyOftenQualifier  :=  c'usually'/c'often'
 >usuallyOften<         :=  usuallyOftenQualifier, !, ws, trueAlignment, ws
+>rawAlignment<         :=  trueAlignment 
 
-oneAlignment           :=  always/usuallyOften
+oneAlignment           :=  always/usuallyOften/rawAlignment
 
-choice                 :=  oneAlignment, (ws, 'or', !, ws, oneAlignment)+, ws
+>choice<               :=  oneAlignment, (ws, 'or', !, ws, oneAlignment)*, ws
 any                    :=  c'any', !, (ws, atom)?, ws
 
-alignmentStat          :=  oneAlignment/any
+alignmentStat          :=  choice/any
 _alignmentStat         :=  alignmentStat
 ''') # }}}
 
