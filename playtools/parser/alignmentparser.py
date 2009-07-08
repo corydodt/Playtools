@@ -15,7 +15,7 @@ r'''# alignment stats
 
 <nonParen>             :=  letter/digit/whitespacechar/['"{}!@#*&^$%;:.,<>/?+-]
 
-qualifier              :=  '(', nonParen*, ')'
+qualifier              :=  c'usually'/c'often'/('(', nonParen*, ')')
 
 trueAlignment          :=  c'lawful good'/c'neutral good'/c'chaotic good'/c'lawful neutral'/c'chaotic neutral'/c'lawful evil'/c'neutral evil'/c'chaotic evil'/c'neutral'/c'none'
 
@@ -23,11 +23,8 @@ atom                   :=  c'lawful'/c'chaotic'/c'evil'/c'good'
 
 >always<               :=  c'always', !, ws, trueAlignment, ws
 
-usuallyOftenQualifier  :=  c'usually'/c'often'
->usuallyOften<         :=  usuallyOftenQualifier, !, ws, trueAlignment, ws
->rawAlignment<         :=  trueAlignment 
-
-oneAlignment           :=  always/usuallyOften/rawAlignment
+>usuallyOften<         :=  qualifier, !, ws, always/trueAlignment/any, ws
+oneAlignment           :=  usuallyOften/always/trueAlignment
 
 >choice<               :=  oneAlignment, (ws, 'or', !, ws, oneAlignment)*, ws
 any                    :=  c'any', !, (ws, atom)?, ws
@@ -88,70 +85,67 @@ class AlignmentPart(object):
     """
     A container for an alignment choice
     """
-    alignment = None
-    qualifier = None
+    def __init__(self, id):
+        self.id = id
+        self.qualifiers = []
 
     def simplify(self):
         """
         A flat list version of the alignment
         """
         r = []
-        if self.alignment is not None:
-            r.append(self.alignment)
-        if self.qualifier is not None and len(self.qualifier) > 0:
-            r.append(''.join(self.qualifier))
+        if self.id is not None:
+            r.append(self.id)
+        if len(self.qualifiers) > 0:
+            r.append(''.join(self.qualifiers))
         return r
-
 
 
 class Processor(disp.DispatchProcessor):
     def alignmentStat(self, (t,s1,s2,sub), buffer):
         self.alignments = []
-        self.currentAlignment = None
+        self.qualifiers = None
+        self.currentAtom = None
         disp.dispatchList(self, sub, buffer)
         return [x.simplify() for x in self.alignments]
 
+    def oneAlignment(self, (t,s1,s2,sub), buffer):
+        self.qualifiers = []
+        disp.dispatchList(self, sub, buffer)
+
     def atom(self, (t,s1,s2,sub), buffer):
-        self.currentAlignment.alignment = atomMap[
-                disp.getString((t,s1,s2,sub),buffer).lower().strip()
-                ]
+        atom = disp.getString((t,s1,s2,sub),buffer).lower().strip()
+        self.currentAtom = atomMap[ atom ]
 
     def any(self, (t,s1,s2,sub), buffer):
-        self.currentAlignment = AlignmentPart()
         disp.dispatchList(self, sub, buffer)
-        possibles = atomCross[self.currentAlignment.alignment]
-        for p in possibles:
-            al = AlignmentPart()
-            al.alignment = p
-            al.qualifier = self.currentAlignment.qualifier
-            self.alignments.append(al)
-        self.currentAlignment = None
+        array = atomCross[self.currentAtom]
+        for id in array:
+            self.gotCompleteAlignment(id)
+
+    def gotCompleteAlignment(self, id):
+        """
+        We have identified a complete alignment.  add it to self.alignments
+        """
+        part = AlignmentPart(id)
+        self.alignments.append(part)
+        if self.qualifiers is not None:
+            assert part.qualifiers == []
+            part.qualifiers = self.qualifiers[:]
 
     def trueAlignment(self, (t,s1,s2,sub), buffer):
-        self.currentAlignment.alignment = alignMap[
-                disp.getString((t,s1,s2,sub),buffer).lower()
-                ]
-
-    def usuallyOftenQualifier(self, (t,s1,s2,sub), buffer):
-        self.currentAlignment.qualifier.append(
-                disp.getString((t,s1,s2,sub), buffer)
-                )
-
-    def oneAlignment(self, (t,s1,s2,sub), buffer):
-        self.currentAlignment = AlignmentPart()
-        self.currentAlignment.qualifier = []
-        disp.dispatchList(self, sub, buffer)
-        self.alignments.append(self.currentAlignment)
-        self.currentAlignment = None
+        id = alignMap[ disp.getString((t,s1,s2,sub),buffer).lower() ]
+        self.gotCompleteAlignment(id)
 
     def qualifier(self, (t,s1,s2,sub), buffer):
-        qualifier = disp.getString((t,s1,s2,sub), buffer)
-        self.currentAlignment.qualifier.append(qualifier)
+        q = disp.getString((t,s1,s2,sub), buffer)
+        self.qualifiers.append(q)
 
 
 #
 ## proc = Processor()
-## proc.currentAlignment=AlignmentPart('coins')
-## s = "double standard; plus +4 half-plate armor and gargantuan +3 adamantine warhammer"
-## s = "standard coins; double goods; standard items; plus 1d4 magic weapons"
-## print alignmentParser.parse(s, processor=proc, production='_alignmentStat')
+## ## proc.currentAlignment = AlignmentPart()
+## s = "Usually any evil"
+## ## s = "standard coins; double goods; standard items; plus 1d4 magic weapons"
+## ## print alignmentParser.parse(s, processor=proc, production='_alignmentStat')[1]
+## print parseAlignment(s)
