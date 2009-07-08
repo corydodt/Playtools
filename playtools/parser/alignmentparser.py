@@ -16,6 +16,7 @@ r'''# alignment stats
 <nonParen>             :=  letter/digit/whitespacechar/['"{}!@#*&^$%;:.,<>/?+-]
 
 qualifier              :=  c'usually'/c'often'/('(', nonParen*, ')')
+postqualifier          :=  qualifier
 
 trueAlignment          :=  c'lawful good'/c'neutral good'/c'chaotic good'/c'lawful neutral'/c'chaotic neutral'/c'lawful evil'/c'neutral evil'/c'chaotic evil'/c'neutral'/c'none'
 
@@ -24,10 +25,10 @@ atom                   :=  c'lawful'/c'chaotic'/c'evil'/c'good'
 >always<               :=  c'always', !, ws, trueAlignment, ws
 
 >usuallyOften<         :=  qualifier, !, ws, always/trueAlignment/any, ws
-oneAlignment           :=  usuallyOften/always/trueAlignment
+oneAlignment           :=  usuallyOften/always/trueAlignment, (ws, postqualifier)?
 
 >choice<               :=  oneAlignment, (ws, 'or', !, ws, oneAlignment)*, ws
-any                    :=  c'any', !, (ws, atom)?, ws
+any                    :=  c'any', !, (ws, atom)?, (ws, qualifier)?, ws
 
 alignmentStat          :=  choice/any
 _alignmentStat         :=  alignmentStat
@@ -97,7 +98,7 @@ class AlignmentPart(object):
         if self.id is not None:
             r.append(self.id)
         if len(self.qualifiers) > 0:
-            r.append(''.join(self.qualifiers))
+            r.append('; '.join(self.qualifiers))
         return r
 
 
@@ -118,6 +119,8 @@ class Processor(disp.DispatchProcessor):
         self.currentAtom = atomMap[ atom ]
 
     def any(self, (t,s1,s2,sub), buffer):
+        if self.qualifiers is None:
+            self.qualifiers = []
         disp.dispatchList(self, sub, buffer)
         array = atomCross[self.currentAtom]
         for id in array:
@@ -140,6 +143,11 @@ class Processor(disp.DispatchProcessor):
     def qualifier(self, (t,s1,s2,sub), buffer):
         q = disp.getString((t,s1,s2,sub), buffer)
         self.qualifiers.append(q)
+
+    def postqualifier(self, (t,s1,s2,sub), buffer):
+        q = disp.getString((t,s1,s2,sub), buffer)[1:-1]
+        for al in self.alignments:
+            al.qualifiers.append(q)
 
 
 #
