@@ -41,7 +41,7 @@ class AlignmentParserTest(unittest.TestCase):
 
         t('Usually lawful good', [[C.lawfulGood, 'Usually']])
         t('Often neutral', [[C.neutralNeutral, 'Often']])
-        t('Often neutral (ugly)', [[C.neutralNeutral, 'Often; ugly']])
+        t('(ugly) Often neutral', [[C.neutralNeutral, 'ugly; Often']])
     
     def test_simpleAny(self):
         """
@@ -107,35 +107,35 @@ class AlignmentParserTest(unittest.TestCase):
             [C.neutralEvil, 'Usually'],
             [C.chaoticEvil, 'Usually'],
             ])
-        t('Any (as master)', [
-            [C.lawfulGood, '(as master)'],
-            [C.neutralGood, '(as master)'],
-            [C.chaoticGood, '(as master)'],
-            [C.lawfulNeutral, '(as master)'],
-            [C.neutralNeutral, '(as master)'],
-            [C.chaoticNeutral, '(as master)'],
-            [C.lawfulEvil, '(as master)'],
-            [C.neutralEvil, '(as master)'],
-            [C.chaoticEvil, '(as master)'],
+        t('(as master) Any', [
+            [C.lawfulGood, 'as master'],
+            [C.neutralGood, 'as master'],
+            [C.chaoticGood, 'as master'],
+            [C.lawfulNeutral, 'as master'],
+            [C.neutralNeutral, 'as master'],
+            [C.chaoticNeutral, 'as master'],
+            [C.lawfulEvil, 'as master'],
+            [C.neutralEvil, 'as master'],
+            [C.chaoticEvil, 'as master'],
             ])
-        t('Often lawful good or Usually lawful neutral (deep only) or Usually neutral (Deep only)',
+        t('Often lawful good or (deep only) Usually lawful neutral or (Deep only) Usually neutral',
                 [
                     [C.lawfulGood, 'Often'],
-                    [C.lawfulNeutral, 'Usually; deep only'],
-                    [C.neutralNeutral, 'Usually; Deep only'],
+                    [C.lawfulNeutral, 'deep only; Usually'],
+                    [C.neutralNeutral, 'Deep only; Usually'],
                     ])
-        t('Usually chaotic good or Usually neutral (Wood only)',
+        t('Usually chaotic good or (Wood only) Usually neutral',
                 [
                     [C.chaoticGood, 'Usually'],
-                    [C.neutralNeutral, 'Wood only; usually']
+                    [C.neutralNeutral, 'Wood only; Usually']
                     ])
-        t('Usually chaotic neutral or neutral evil or chaotic evil',
+        t('Usually chaotic neutral or Usually neutral evil or Usually chaotic evil',
                 [
                     [C.chaoticNeutral, 'Usually'],
                     [C.neutralEvil, 'Usually'],
                     [C.chaoticEvil, 'Usually'],
                     ])
-        t('Usually neutral good or neutral evil',
+        t('Usually neutral good or Usually neutral evil',
                 [
                     [C.neutralGood, 'Usually'],
                     [C.neutralEvil, 'Usually'],
@@ -146,7 +146,7 @@ class HUGEAlignmentParserTest(unittest.TestCase):
     """
     Test every known alignment stat against the parser
     """
-    def xxtest_huge(self):
+    def test_huge(self):
         """
         Everything.
         """
@@ -166,4 +166,4 @@ class HUGEAlignmentParserTest(unittest.TestCase):
                 act = [monster.name, alignmentparser.parseAlignment(stat) and None]
                 self.assertEqual(exp, act)
             finally:
-                print monster.name
+                """print monster.name"""

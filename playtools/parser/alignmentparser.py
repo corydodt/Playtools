@@ -16,7 +16,6 @@ r'''# alignment stats
 <nonParen>             :=  letter/digit/whitespacechar/['"{}!@#*&^$%;:.,<>/?+-]
 
 qualifier              :=  c'usually'/c'often'/('(', nonParen*, ')')
-postqualifier          :=  qualifier
 
 trueAlignment          :=  c'lawful good'/c'neutral good'/c'chaotic good'/c'lawful neutral'/c'chaotic neutral'/c'lawful evil'/c'neutral evil'/c'chaotic evil'/c'neutral'/c'none'
 
@@ -24,11 +23,11 @@ atom                   :=  c'lawful'/c'chaotic'/c'evil'/c'good'
 
 >always<               :=  c'always', !, ws, trueAlignment, ws
 
->usuallyOften<         :=  qualifier, !, ws, always/trueAlignment/any, ws
-oneAlignment           :=  usuallyOften/always/trueAlignment, (ws, postqualifier)?
+>usuallyOften<         :=  qualifier, (ws, qualifier)*, !, ws, always/trueAlignment/any, ws
+oneAlignment           :=  usuallyOften/always/trueAlignment
 
 >choice<               :=  oneAlignment, (ws, 'or', !, ws, oneAlignment)*, ws
-any                    :=  c'any', !, (ws, atom)?, (ws, qualifier)?, ws
+any                    :=  (ws, qualifier)?, c'any', !, (ws, atom)?, ws
 
 alignmentStat          :=  choice/any
 _alignmentStat         :=  alignmentStat
@@ -142,12 +141,9 @@ class Processor(disp.DispatchProcessor):
 
     def qualifier(self, (t,s1,s2,sub), buffer):
         q = disp.getString((t,s1,s2,sub), buffer)
+        if q.startswith('('):
+            q = q[1:-1]
         self.qualifiers.append(q)
-
-    def postqualifier(self, (t,s1,s2,sub), buffer):
-        q = disp.getString((t,s1,s2,sub), buffer)[1:-1]
-        for al in self.alignments:
-            al.qualifiers.append(q)
 
 
 #
