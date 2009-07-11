@@ -77,13 +77,13 @@
 :lawfulEvil      a  :AlignmentTrue .
 :neutralEvil     a  :AlignmentTrue .
 :chaoticEvil     a  :AlignmentTrue .
+:noAlignment     a  :AlignmentTrue .
 :lawful          a  :AlignmentAtom .
 :chaotic         a  :AlignmentAtom .
 :evil            a  :AlignmentAtom .
 :good            a  :AlignmentAtom .
 :neutralMorals   a  :AlignmentAtom .
 :neutralEthics   a  :AlignmentAtom .
-:noAlignment     a  :AlignmentAtom .
 
 
 :AttackEffect rdfs:subClassOf :Characteristic .
