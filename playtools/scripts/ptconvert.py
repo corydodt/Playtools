@@ -16,7 +16,7 @@ def getConverterSubcommands():
         ret.append((c.label(), None, c.commandLine, convert.converterDoc(c)))
     return ret
 
-        
+
 class Options(usage.Options):
     synopsis = """ptconvert [options] <converter> [<converter args>]""" 
     subCommands = getConverterSubcommands()
