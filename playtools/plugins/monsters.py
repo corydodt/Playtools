@@ -132,7 +132,7 @@ class MonsterConverter(object):
         set('hitDice',            sb.get('hitDice'))
 
         defaultGetValue = lambda x: x.bonus
-        defaultGetComment = lambda x: x.qualifier or x.bonus
+        defaultGetComment = lambda x: x.qualifier
 
         def _makeValues(dct, getValue=defaultGetValue, getComment=defaultGetComment):
             """
