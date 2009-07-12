@@ -14,7 +14,7 @@
 .
 
 :ChallengeRating a rdfs:Class;
-    rds:comment "The CR value for a monster, which may have annotations.";
+    rdfs:comment "The CR value for a monster, which may have annotations.";
 .
 
 :Race rdfs:subClassOf :Characteristic .
