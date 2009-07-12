@@ -16,7 +16,7 @@ from playtools.common import monsterNs, P, C, a, RDFSNS
 from playtools.util import RESOURCE, rdfName
 from playtools.parser import abilityparser, saveparser, treasureparser, alignmentparser
 from playtools.parser.misc import (parseInitiative, parseSize,
-            parseChallengeRating, parseFamily)
+            parseChallengeRating, parseFamily, parseGrapple)
 
 from playtools.plugins import d20srd35
 from playtools.test.util import TODO
@@ -96,8 +96,7 @@ class MonsterConverter(object):
         set('speed',             orig.speed)
         if orig.base_attack is not None:
             set('bab',           int(orig.base_attack))
-        TODO("I would like a grapple parser")
-        set('grapple',           orig.grapple)
+        set('grapple',           parseGrapple(orig.grapple))
         TODO("space and reach to be of type ^^distance")
         set('space',             orig.space)
         set('reach',             orig.reach)

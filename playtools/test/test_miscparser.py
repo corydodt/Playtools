@@ -48,3 +48,13 @@ class MiscParserTest(unittest.TestCase):
         """
         self.assertEqual(misc.parseFamily("Abomination"), FAM.abomination)
         self.assertEqual(misc.parseFamily("Abnegation"), "Abnegation")
+
+    def test_grapple(self):
+        """
+        Grapple finds the number
+        """
+        self.assertEqual(misc.parseGrapple("+1"), 1)
+        self.assertEqual(misc.parseGrapple("-"), None)
+        self.assertEqual(misc.parseGrapple("-3"), -3)
+        self.assertEqual(misc.parseGrapple(
+            "+26 Attack:Morningstar +16 melee (3d6+8) or rock +9 ranged (2d6+8)"), 26)

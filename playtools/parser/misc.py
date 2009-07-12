@@ -46,3 +46,12 @@ def parseFamily(s):
     Parse family, type and subtype (convert into a node)
     """
     return knownFamilies.get(s, s)
+
+
+def parseGrapple(s):
+    """
+    Integer-ize grapple numbers
+    """
+    s = s.split(None, 1)[0]
+    if s == '-': return None
+    return int(s)
