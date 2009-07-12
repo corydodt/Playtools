@@ -54,6 +54,7 @@ class MiscParserTest(unittest.TestCase):
         Grapple finds the number
         """
         self.assertEqual(misc.parseGrapple("+1"), 1)
+        self.assertEqual(misc.parseGrapple(None), None)
         self.assertEqual(misc.parseGrapple("-"), None)
         self.assertEqual(misc.parseGrapple("-3"), -3)
         self.assertEqual(misc.parseGrapple(

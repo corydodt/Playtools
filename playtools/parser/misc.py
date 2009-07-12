@@ -52,6 +52,6 @@ def parseGrapple(s):
     """
     Integer-ize grapple numbers
     """
+    if s in ['-', None]: return None
     s = s.split(None, 1)[0]
-    if s == '-': return None
     return int(s)
