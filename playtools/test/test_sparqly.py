@@ -295,12 +295,12 @@ class TriplesDbTestCase(unittest.TestCase, util.DiffTestCaseMixin):
 @prefix a: <http://a#>\.
 @prefix b: <http://b#>\.
 
- <> <> "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>\. 
+ <> <> \d\.
 
- a:x a:y "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>;
-     b:y "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>\. 
+ a:x a:y \d;
+     b:y \d\.
 
- b:xb b:yb "\d"\^\^<http://www\.w3\.org/2001/XMLSchema#integer>\. 
+ b:xb b:yb \d\.
 
  _.:e1231 _\d:firstname "Michael";
      _\d:lastname "Bolton";

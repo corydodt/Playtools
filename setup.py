@@ -25,7 +25,7 @@ setup(name='Playtools',
           'zc.buildout>=1.2.1',
           'pysqlite>=2',
           'storm>=0.13',
-          'rdflib>=2.4.2,<2.5',
+          'rdflib==2.4.2_cdd1',
           'SimpleParse>=2.1.0a1,<2.2',
           'twisted>=2.5.0',
           'hypy',
@@ -35,6 +35,7 @@ setup(name='Playtools',
 
       dependency_links=[
           'http://goonmill.org/static/RDFAlchemy-0.2b2.svn2.tar.gz',  # FIXME - svn post 0.2b2 added rdfsSubject which is needed
+          'http://goonmill.org/static/rdflib-2.4.2_cdd1.tar.gz',      # FIXME - I patched this to write integers as digits, not typed strings
           'http://softlayer.dl.sourceforge.net/sourceforge/simpleparse/SimpleParse-2.1.0a1.tar.gz', # simpleparse easy_install stopped working, dunno why
           ],
 

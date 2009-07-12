@@ -1,0 +1,27 @@
+Index: rdflib/Literal.py
+===================================================================
+--- rdflib/Literal.py	(revision 1690)
++++ rdflib/Literal.py	(working copy)
+@@ -265,6 +265,12 @@
+                 return '%s@%s' % (encoded, language)
+         else:
+             if datatype:
++                # clean up integer representation (TODO - float?)
++                if datatype == _XSD_NS.integer:
++                    try:
++                        return '%d' % (int(encoded[1:-1]),)
++                    except ValueError, e:
++                        pass
+                 return '%s^^<%s>' % (encoded, datatype)
+             else:
+                 return '%s' % encoded
+Index: CHANGELOG
+===================================================================
+--- CHANGELOG	(revision 1690)
++++ CHANGELOG	(working copy)
+@@ -1,3 +1,5 @@
++        The n3 writer now renders integers as digits, not typed strings.
++
+         (#58) Removed a stderr print inside the SQLite store implementation.
+ 
+ 2009/03/30
