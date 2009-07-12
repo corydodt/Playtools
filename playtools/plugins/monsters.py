@@ -62,7 +62,11 @@ class MonsterConverter(object):
         return self.statblockSource.next()
 
     def makePlaytoolsItem(self, sb):
-        sparqly.rdfsPTClass.db = self.graph
+        # some rdf-based classes need to be told where their data store is.
+        # We want the default to remain the sqlite-backed one used by SRD
+        d20srd35.Monster2.db = self.graph
+        d20srd35.AnnotatedValue.db = self.graph
+        d20srd35.Alignment.db = self.graph
  
         orig = sb.monster
 
@@ -101,9 +105,21 @@ class MonsterConverter(object):
         TODO("ideally I should have a parser written for organization")
         set('organization',      orig.organization)
 
+        alignments = alignmentparser.parseAlignment(sb.get('alignment'))
+        alnlist = []
+        for _aln in alignments:
+            al = d20srd35.Alignment()
+            al.value = _aln[0]
+            if len(_aln) > 1:
+                al.comment = _aln[1]
+            alnlist.append(al)
+            # strip out "a AlignmentTrue" for some reason added by rdfalc
+            self.graph.remove((al.resUri, a, C.AlignmentTrue))
+
+        set('_alignments',       alnlist)
+
         set('advancement',       orig.advancement)
         set('levelAdjustment',   orig.level_adjustment)
-        set('alignment',         parseAlignment(sb.get('alignment')))
 
         TODO("create a dublin-core-style image resource")
         set('image',             orig.image)

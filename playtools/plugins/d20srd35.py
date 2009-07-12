@@ -579,6 +579,14 @@ class Feat(S.rdfsPTClass):
 feat = RDFFactCollection(Feat, 'feat')
 
 
+class Alignment(S.rdfsPTClass):
+    """
+    One of the 10 alignments (including none)
+    """
+    rdf_type               = CHAR.AlignmentTrue
+    value                  = rdfSingle(RDF.value)
+
+
 class AnnotatedValue(S.rdfsPTClass):
     """
     A simple integer score, which may have annotations
@@ -611,7 +619,9 @@ class Monster2(S.rdfsPTClass):
     environment            = rdfSingle(PROP.environment)        # DONE!
     organization           = rdfSingle(PROP.organization)       # DONE!
     cr                     = rdfMultiple(PROP.cr)               # DONE!
-    alignment              = rdfList(PROP.alignment)            # DONE!
+
+    _alignments            = rdfMultiple(PROP.alignment)        # DONE!
+
     advancement            = rdfSingle(PROP.advancement)        # DONE!
     levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
 
