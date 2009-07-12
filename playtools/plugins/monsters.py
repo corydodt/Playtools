@@ -94,15 +94,15 @@ class MonsterConverter(object):
         set('size',              parseSize(orig.size))
         set('initiative',        parseInitiative(orig.initiative))
         set('speed',             orig.speed)
-        TODO("parse bab")
-        set('bab',               orig.base_attack)
+        if orig.base_attack is not None:
+            set('bab',           int(orig.base_attack))
         TODO("I would like a grapple parser")
         set('grapple',           orig.grapple)
         TODO("space and reach to be of type ^^distance")
         set('space',             orig.space)
         set('reach',             orig.reach)
         set('environment',       orig.environment)
-        TODO("ideally I should have a parser written for organization")
+        ## TODO("ideally I should have a parser written for organization")
         set('organization',      orig.organization)
 
         alignments = alignmentparser.parseAlignment(sb.get('alignment'))
