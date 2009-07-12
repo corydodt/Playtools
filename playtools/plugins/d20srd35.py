@@ -602,7 +602,7 @@ class Monster2(S.rdfsPTClass):
     altname                = rdfSingle(PROP.altname)            # DONE!
     size                   = rdfSingle(PROP.size)               # DONE!
     type                   = rdfSingle(PROP.type)               # DONE!
-    descriptor             = rdfSingle(PROP.descriptor)         # DONE!
+    _descriptors           = rdfMultiple(PROP.descriptor)       # DONE!
     hitDice                = rdfSingle(PROP.hitDice)            # DONE!
     # hitPoints will always be computed by outside app.
     # count will always be outside app

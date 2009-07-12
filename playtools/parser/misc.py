@@ -1,5 +1,9 @@
 from playtools.test.util import TODO
 from playtools.common import C
+from playtools import fact
+
+SRD = fact.systems['D20 SRD']
+knownFamilies = dict((unicode(x.label), x) for x in SRD.facts['family'].dump())
 
 def parseInitiative(s):
     """
@@ -41,11 +45,4 @@ def parseFamily(s):
     """
     Parse family, type and subtype (convert into a node)
     """
-    TODO("""double blah, now we're importing fact in two different modules to hide
-    it from the plugin system. move these parsers into other modules.""")
-    from playtools import fact
-    SRD = fact.systems['D20 SRD']
-    knownFamilies = dict((unicode(x.label), x) for x in SRD.facts['family'].dump())
-    import pdb; pdb.set_trace()
-
-
+    return knownFamilies.get(s, s)

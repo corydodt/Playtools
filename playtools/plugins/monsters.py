@@ -1,6 +1,8 @@
 """
 Converter from srd35.db to monster.n3
 """
+import re
+
 from zope.interface import implements
 
 from twisted.plugin import IPlugin
@@ -24,11 +26,11 @@ def statblockSource():
     # fact loads plugins. we can't do that in this, a plugin, so this import
     # is hidden.
     from playtools import fact
+    SRD = fact.systems['D20 SRD']
 
     # blah, cross-dependencies :(
     from goonmill.statblock import Statblock
 
-    SRD = fact.systems['D20 SRD']
     for m in SRD.facts['monster'].dump():
         yield Statblock.fromMonster(m)
 
@@ -36,6 +38,8 @@ def statblockSource():
 class Options(usage.Options):
     synopsis = "monsters"
 
+
+FAMRX = re.compile(r',\s*')
 
 class MonsterConverter(object):
     """Convert the goonmill.history.History object to a rdf-based monster
@@ -74,11 +78,14 @@ class MonsterConverter(object):
         set('label',             orig.name)
         set('altname',           orig.altname)
 
-        TODO("""use nodes for family/type/descriptor when known, otherwise
-        fallback to string - use statblock.Statblock.determineFamilies()""")
         set('family',            parseFamily(orig.family))
         set('type',              parseFamily(orig.type))
-        set('descriptor',        parseFamily(orig.descriptor))
+        _desc = []
+        for item in FAMRX.split(orig.descriptor or ''):
+            if item:
+                _desc.append(parseFamily(item))
+        if _desc:
+            set('_descriptors',      _desc)
 
         set('size',              parseSize(orig.size))
         set('initiative',        parseInitiative(orig.initiative))
