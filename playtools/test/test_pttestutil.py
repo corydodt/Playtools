@@ -5,7 +5,7 @@ from twisted.trial import unittest
 
 from rdflib import BNode
 
-from playtools.test.pttestutil import padZip, compareXml, IsomorphicTestableGraph
+from playtools.test.pttestutil import padZip, compareXml, IsomorphicTestableGraph, pluck
 from playtools.common import P, C
 
 
@@ -88,3 +88,19 @@ class TestUtilTestCase(unittest.TestCase):
 
         # check formulae
 
+    def test_pluck(self):
+        """
+        The pluck utility pulls attributes out of a list of things
+        """
+        class C: pass
+        c1 = C(); c1.x = 1
+        c2 = C(); c2.x = 2
+        c3 = C(); c3.x = 3
+        c4 = C(); c4.x = 4
+        ll = [c1,c2,c3,c4]
+        self.assertEqual(pluck(ll, 'x'), [1,2,3,4])
+        c1.c = C(); c1.c.x = 7
+        c2.c = C(); c2.c.x = 8
+        c3.c = C(); c3.c.x = 9
+        c4.c = C(); c4.c.x = 10
+        self.assertEqual(pluck(ll, 'c', 'x'), [7,8,9,10])
