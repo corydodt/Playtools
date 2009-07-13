@@ -284,7 +284,7 @@ class rdfsPTClass(rdfsClass):
     label = rdfSingleDefault(RDFSNS.label, lambda o: iriToTitle(o.resUri))
 
 
-def extendGraphFromFile(inGraph, graphFile):
+def extendGraphFromFile(inGraph, graphFile, format='n3'):
     """
     Add all the triples in graphFile to inGraph
 
@@ -298,7 +298,7 @@ def extendGraphFromFile(inGraph, graphFile):
     # replacing references to it with URIRef('').  extendGraphFromFile thus
     # treats the inserted file as if it were part of the original file
     publicID = randomPublicID()
-    g2.load(graphFile, format='n3', publicID=publicID)
+    g2.load(graphFile, format=format, publicID=publicID)
 
     # add each triple
     # FIXME - this should use addN
