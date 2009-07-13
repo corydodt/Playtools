@@ -250,7 +250,7 @@ class rdfIsInstance(rdfAbstract):
         Create the triple for obj
         """
         obj.__dict__[self.klass] = true_false
-        obj.db.set((obj.resUri, self.klass, true_false))
+        obj.db.set((obj.resUri, RDF_a, self.klass))
 
     def __delete__(self, obj):
         if obj.__dict__.has_key(self.klass):

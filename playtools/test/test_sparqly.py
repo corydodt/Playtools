@@ -116,7 +116,7 @@ class SparqlyTestCase(unittest.TestCase):
         self.assertEqual(title5, 'Foozam Zam')
 
 
-class RDFAlchemyDescriptorTestCase(unittest.TestCase):
+class RDFIsInstanceTestCase(unittest.TestCase):
     """
     Tests of the rdfIsInstance descriptor
     """
@@ -167,6 +167,9 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         self.assertEqual(peter.peoplePerson, False, "peter.peoplePerson should be False")
         peter.peoplePerson = True
         self.assertTrue(peter.peoplePerson, "Peter should now be a people person")
+        self.assertTrue((a, STAFF.PeoplePerson) in
+                list(peter.db.predicate_objects(peter.resUri)),
+                "Peter's db graph should contain :peter a :PeoplePerson")
 
     def test_deleteDescriptor(self):
         """
@@ -176,6 +179,9 @@ class RDFAlchemyDescriptorTestCase(unittest.TestCase):
         self.assertTrue(bill.peoplePerson, "bill should be a people person")
         del bill.peoplePerson
         self.failIf(bill.peoplePerson, "bill.peoplePerson should have been deleted")
+        self.failIf((a, STAFF.PeoplePerson) in
+                list(bill.db.predicate_objects(bill.resUri)),
+                "Bill's db graph should no longer contain :peter a :PeoplePerson")
 
 
 class RDFAlchemyClassTestCase(unittest.TestCase):
