@@ -166,7 +166,7 @@ class TriplesDatabase(object):
         modified to mean <> in the new context
         """
         assert self._open
-        extendGraphFromFile(graphFile)
+        extendGraphFromFile(self.graph, graphFile)
 
     def extendGraph(self, graph):
         """
