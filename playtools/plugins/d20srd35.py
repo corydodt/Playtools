@@ -28,13 +28,8 @@ from d20srd35config import SQLPATH, RDFPATH
 
 RDFSNS = S.RDFSNS
 
-FAM = NS('http://goonmill.org/2007/family.n3#')
-CHAR = NS('http://goonmill.org/2007/characteristic.n3#')
 DICE = NS('http://goonmill.org/2007/dice.n3#')
 PCCLASS = NS('http://goonmill.org/2007/pcclass.n3#')
-PROP = NS('http://goonmill.org/2007/property.n3#')
-SKILL = NS('http://goonmill.org/2007/skill.n3#')
-FEAT = NS('http://goonmill.org/2007/feat.n3#')
 
 
 class D20SRD35System(object):
@@ -539,6 +534,25 @@ class Skill(S.rdfsPTClass):
 skill = RDFFactCollection(Skill, 'skill')
 
 
+class MonsterFeat(S.rdfsPTClass):
+    """
+    A feat possessed by a particular monster, which may be a bonus feat
+    """
+    coreFeat = rdfSingle(RDF.value)
+    isBonusFeat = S.rdfIsInstance(CHAR.MonsterBonusFeat)
+
+
+class BonusFeatFilter(object):
+    def __get__(self, instance, owner):
+        if instance is None:
+            raise NotImplemented("this is an instance attribute, not meant to be used on the class")
+        ret = []
+        for feat in instance.feats:
+            if feat.isBonusFeat:
+                ret.append(feat)
+        return ret
+
+
 class Feat(S.rdfsPTClass):
     """A feat usable by monsters, such as Weapon Focus"""
     rdf_type = CHAR.Feat
@@ -620,7 +634,8 @@ class Monster2(S.rdfsPTClass):
     organization           = rdfSingle(PROP.organization)       # DONE!
     cr                     = rdfMultiple(PROP.cr)               # DONE!
 
-    _alignments            = rdfMultiple(PROP.alignment)        # DONE!
+    _alignments            = rdfMultiple(PROP.alignment,
+                                range_type=CHAR.AlignmentTrue)  # DONE!
 
     advancement            = rdfSingle(PROP.advancement)        # DONE!
     levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
@@ -646,14 +661,15 @@ class Monster2(S.rdfsPTClass):
     reconstruct the whole list to set any of them, and we must iterate the
     whole list to get any of them.  Implement an associative type""")
 
-    TODO("""acFeats, speedFeats, attackOptionFeats and rangedAttackFeats will be
-    property()'s of Monster2.  Their values will be computed, by examining
-    self.feats
+    TODO("""acFeats, speedFeats, attackOptionFeats, epicFeats and
+    rangedAttackFeats will be property()'s of Monster2.  Their values will be
+    computed, by examining self.feats
     """)
 #"     acFeats
 #"     speedFeats
 #"     attackOptionFeats
 #"     rangedAttackFeats
+#"     epicFeats
 
     TODO("""listen and spot will be property()'s of Monster2.  Values will be
     computed by examining self.skills
@@ -698,13 +714,10 @@ class Monster2(S.rdfsPTClass):
     vulnerabilities 
     are dictionaries, though.""")
 
-#"     skills                 = rdfSingle(...)  # dict from sb.parseSkills
+#"     skills                 = rdfMultiple(PROP.skill, ...)  # dict from sb.parseSkills
 
-#"     feats                  = rdfSingle(...)  # list from sb.parseFeats
-    TODO("""epicFeats and bonusFeats are property()'s derived from
-    self.feats""")
-#"     bonusFeats
-#"     epicFeats
+    feats                  = rdfMultiple(PROP.feat, range_type=CHAR.MonsterFeat)
+    bonusFeats             = BonusFeatFilter()  
 
     TODO("""fullText should be a link into an HTML document which contains all
     of the full texts, with the parts that are already covered by the data
@@ -714,6 +727,9 @@ class Monster2(S.rdfsPTClass):
 #"    fullText               = rdfSingle(...)  # clean up from sql
 #"    reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
 
+TODO("""Extremely important TODO: add author/license/creation date/etc.
+metadata to everything here, so publishers can describe their work using
+friggin' RDF.""")
 
 mapper()
 

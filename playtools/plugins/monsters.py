@@ -65,6 +65,7 @@ class MonsterConverter(object):
         # some rdf-based classes need to be told where their data store is.
         # We want the default to remain the sqlite-backed one used by SRD
         d20srd35.Monster2.db = self.graph
+        d20srd35.MonsterFeat.db = self.graph
         d20srd35.AnnotatedValue.db = self.graph
         d20srd35.Alignment.db = self.graph
  
@@ -183,6 +184,15 @@ class MonsterConverter(object):
         for cr in crs: d[cr] = C.ChallengeRating
         crlist = _makeValues(d, lambda x:x[0], lambda x:x[1])
         set('cr',                 crlist)
+
+        _feats = sb.get('feats')
+        _myFeats = []
+        for f in _feats:
+            ff = d20srd35.MonsterFeat()
+            if getattr(f, 'isBonusFeat', False):
+                ff.isBonusFeat = True
+            _myFeats.append(ff)
+        set('feat',               _myFeats)
 
     def label(self):
         return u"monsters"

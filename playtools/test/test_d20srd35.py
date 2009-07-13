@@ -210,3 +210,25 @@ class SRD35TestCase(unittest.TestCase):
         """
     test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
         and then check that it's in monster.specialAC"""
+
+    def test_bonusFeat(self):
+        """
+        The bonus feat property can be used to access the bonus feats
+        """
+        MF = d20srd35.MonsterFeat
+        acro = MF(); acro.coreFeat = FEAT.acrobatic
+        agile = MF(); agile.coreFeat = FEAT.agile
+        zone = MF(); zone.coreFeat = FEAT.zoneOfAnimation
+        zone.isBonusFeat = True
+        sunder = MF(); sunder.coreFeat = FEAT.focusedSunder
+        sunder.isBonusFeat = True
+        _feats = (acro, agile, zone, sunder)
+
+        class Tester(object):
+            bonusFeats = d20srd35.BonusFeatFilter()
+            feats = _feats
+
+        t = Tester()
+        self.assertEqual(pluck(list(t.bonusFeats), 'coreFeat'),
+                [FEAT.zoneOfAnimation, FEAT.focusedSunder])
+
