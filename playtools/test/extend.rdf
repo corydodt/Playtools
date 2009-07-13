@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://a#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="file:///home/cdodt/wc/Playtools/playtools/test/extend.n3">
+    <f rdf:resource="http://a#g"/>
+  </rdf:Description>
+</rdf:RDF>

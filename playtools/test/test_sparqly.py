@@ -2,14 +2,13 @@
 Test the database and object mapping abilities of playtools.sparqly
 """
 import os
-
-import rdflib
+import xml
 
 from twisted.trial import unittest
 from twisted.python.util import sibpath
 
 from rdflib.Namespace import Namespace
-from rdflib import Literal, URIRef, BNode
+from rdflib import Literal, URIRef, BNode, ConjunctiveGraph
 
 from rdfalchemy import rdfSingle, rdfList 
 from rdfalchemy.orm import mapper
@@ -48,7 +47,7 @@ class TestableDatabase(sparqly.TriplesDatabase):
     """
     def __init__(self):
         sparqly.TriplesDatabase.__init__(self)
-        self.graph = rdflib.ConjunctiveGraph()
+        self.graph = ConjunctiveGraph()
         # hack so there's a blank (base) namespace
         self.graph.bind('', STAFF)
 
@@ -59,7 +58,7 @@ class TestableDatabase(sparqly.TriplesDatabase):
         """
         Read a file with N3 triples and extend me with it
         """
-        g = rdflib.ConjunctiveGraph()
+        g = ConjunctiveGraph()
         g.load(filename, format='n3')
         self.extendGraph(g)
 
@@ -72,7 +71,25 @@ class SparqlyTestCase(unittest.TestCase):
         """
         Can build graphs by loading other graphs from a disk file
         """
-    test_extendGraphFromFile.todo = "call this function"
+        extend_n3 = sibpath(__file__, 'extend.n3')
+        extend_xml = sibpath(__file__, 'extend.rdf')
+        
+        g1 = ConjunctiveGraph()
+        g1.add((STAFF.x, STAFF.y, STAFF.z))
+        g2 = ConjunctiveGraph()
+        g2.add((STAFF.x, STAFF.y, STAFF.z))
+
+        sparqly.extendGraphFromFile(g1, extend_n3)
+        self.assertEqual(list(g1.predicate_objects(URIRef(''))),
+                [(URIRef('http://a#f'), URIRef('http://a#g'))])
+
+        sparqly.extendGraphFromFile(g2, extend_xml, format='xml')
+        self.assertEqual(list(g1.predicate_objects(URIRef(''))), 
+                [(URIRef('http://a#f'), URIRef('http://a#g'))])
+
+        self.assertRaises(xml.sax._exceptions.SAXParseException,
+                sparqly.extendGraphFromFile, g2, extend_n3,
+                format='xml')
 
     def test_select(self):
         """
@@ -347,5 +364,5 @@ class TriplesDbTestCase(unittest.TestCase, util.DiffTestCaseMixin):
         self.db.open('test.db')
         ret = sorted(self.db.query("SELECT ?c { <http://corp.com/staff#e1231> ?b ?c }"))
         self.assertEqual(len(ret), 1)
-        self.assertEqual(ret[0][0], Literal('Michael', datatype=rdflib.URIRef('NULL')))
+        self.assertEqual(ret[0][0], Literal('Michael', datatype=URIRef('NULL')))
 
