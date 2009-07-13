@@ -8,7 +8,7 @@
 ^_trial_temp$
 ^Playtools.egg-info.*$
 ^playtools/plugins/srd35-index$
-^playtools/plugins/srd35.*\.db$
+^playtools/plugins/srd35.*\.db.*$
 ^eggs$
 ^bin/buildout$
 ^develop-eggs$
