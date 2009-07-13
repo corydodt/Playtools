@@ -97,7 +97,6 @@ class MonsterConverter(object):
         if orig.base_attack is not None:
             set('bab',           int(orig.base_attack))
         set('grapple',           parseGrapple(orig.grapple))
-        TODO("space and reach to be of type ^^distance")
         set('space',             orig.space)
         set('reach',             orig.reach)
         set('environment',       orig.environment)
@@ -120,14 +119,12 @@ class MonsterConverter(object):
         set('advancement',       orig.advancement)
         set('levelAdjustment',   orig.level_adjustment)
 
-        TODO("create a dublin-core-style image resource")
         set('image',             orig.image)
 
         TODO("""the problem with sb.get is that it always returns a string.
         We don't even want to set properties unless there is some data there.
-        Check for strings lke "None" or "False" returned.""")
+        Check for strings like "None" or "False" returned.""")
 
-        TODO("hitDice to be of type parseable dice expression")
         set('hitDice',            sb.get('hitDice'))
 
         defaultGetValue = lambda x: x.bonus
