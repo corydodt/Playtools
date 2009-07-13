@@ -542,10 +542,34 @@ class MonsterFeat(S.rdfsPTClass):
     isBonusFeat = S.rdfIsInstance(CHAR.MonsterBonusFeat)
 
 
-class BonusFeatFilter(object):
+NO_CACHE = object()
+
+
+class CachingDescriptor(object):
+    """
+    Read-only descriptor which can compute its return value and caches it on
+    the instance, once computed
+    """
+    def __init__(self, name):
+        self.name = name
+
     def __get__(self, instance, owner):
+        attrName = "_CachingDescriptor_" + str(self.name)
         if instance is None:
             raise NotImplemented("this is an instance attribute, not meant to be used on the class")
+        cached = getattr(instance, attrName, NO_CACHE)
+        if cached is not NO_CACHE:
+            return cached
+        r = self.get(instance, owner)
+        setattr(instance, attrName, r)
+        return r
+
+
+class BonusFeatFilter(CachingDescriptor):
+    """
+    Descriptor to get those feats which are bonus feats.
+    """
+    def get(self, instance, owner):
         ret = []
         for feat in instance.feats:
             if feat.isBonusFeat:
@@ -717,7 +741,7 @@ class Monster2(S.rdfsPTClass):
 #"     skills                 = rdfMultiple(PROP.skill, ...)  # dict from sb.parseSkills
 
     feats                  = rdfMultiple(PROP.feat, range_type=CHAR.MonsterFeat)
-    bonusFeats             = BonusFeatFilter()  
+    bonusFeats             = BonusFeatFilter("bonusFeats")
 
     TODO("""fullText should be a link into an HTML document which contains all
     of the full texts, with the parts that are already covered by the data

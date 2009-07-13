@@ -2,8 +2,10 @@
 We shall be able to pull facts about the srd35 system out using the API
 """
 
-from twisted.trial import unittest
 import re
+from itertools import count
+
+from twisted.trial import unittest
 
 from .. import fact
 from ..interfaces import IIndexable
@@ -225,10 +227,46 @@ class SRD35TestCase(unittest.TestCase):
         _feats = (acro, agile, zone, sunder)
 
         class Tester(object):
-            bonusFeats = d20srd35.BonusFeatFilter()
+            bonusFeats = d20srd35.BonusFeatFilter("bonusFeats")
             feats = _feats
 
         t = Tester()
         self.assertEqual(pluck(list(t.bonusFeats), 'coreFeat'),
                 [FEAT.zoneOfAnimation, FEAT.focusedSunder])
 
+
+class CachingDescriptorTest(unittest.TestCase):
+    def test_basicAccess(self):
+        """
+        I can reach an attribute through the descriptor
+        """
+        class TestDescriptor(d20srd35.CachingDescriptor):
+            def get(self, instance, owner): return 1
+
+        class C(object):
+            x = TestDescriptor('x')
+
+        c = C()
+        self.assertEqual(c.x, 1)
+
+    def test_cached(self):
+        """
+        When a value has been cached, return the cached value instead of the
+        computed one
+        """
+        counter = count()
+        class TestDescriptor(d20srd35.CachingDescriptor):
+            def get(self, instance, owner):
+                return counter.next()
+
+        class C(object):
+            x = TestDescriptor('x')
+            y = TestDescriptor('y')
+
+        c = C()
+        self.assertEqual(c.x, 0)
+        counter.next()
+        self.assertEqual(c.x, 0)
+        self.assertEqual(c.y, 2)
+        counter.next()
+        self.assertEqual(c.y, 2)
