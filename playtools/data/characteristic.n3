@@ -456,6 +456,8 @@
     rdfs:comment "Should appear in statblocks near the attacks" .
 :RangedAttackFeat a rdfs:Class;
     rdfs:comment "Should appear in statblocks near the ranged attacks" .
+:MonsterBonusFeat a rdfs:Class;
+    rdfs:comment "Feat always possessed by a monster even when it does not actually satisfy the requirements" .
 
 
 :Armor
