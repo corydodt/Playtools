@@ -14,8 +14,8 @@ from playtools.interfaces import (IRuleSystem, IRuleCollection,
 from playtools.util import RESOURCE
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
-
-from playtools.test.util import TODO
+from playtools.common import FAM, P as PROP, C as CHAR, skillNs as SKILL, featNs as FEAT
+from playtools.test.pttestutil import TODO
 
 from rdflib.Namespace import Namespace as NS
 from rdflib import RDF

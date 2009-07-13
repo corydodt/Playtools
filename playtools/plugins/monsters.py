@@ -19,7 +19,7 @@ from playtools.parser.misc import (parseInitiative, parseSize,
             parseChallengeRating, parseFamily, parseGrapple)
 
 from playtools.plugins import d20srd35
-from playtools.test.util import TODO
+from playtools.test.pttestutil import TODO
 
 
 def statblockSource():

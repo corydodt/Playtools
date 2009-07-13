@@ -8,8 +8,8 @@ import re
 from .. import fact
 from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
-
-from .util import pluck
+from playtools.common import featNs as FEAT
+from playtools.test.pttestutil import pluck
 
 import warnings
 warnings.filterwarnings('ignore', category=SyntaxWarning)
@@ -203,8 +203,7 @@ class SRD35TestCase(unittest.TestCase):
             self.assertTrue(IIndexable(item), "Collection %s (%s)"
                     % (coll, coll.factName))
 
-
-    def test_monster(slef):
+    def test_monster(self):
         """
         Verify that attributes of the monster triples are accessible
         (Monster2)
