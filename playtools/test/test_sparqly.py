@@ -17,7 +17,7 @@ from playtools import sparqly
 from playtools.test.pttestutil import IsomorphicTestableGraph
 from playtools.common import this, a
 
-from . import util
+from . import pttestutil
 
 STAFF = Namespace('http://corp.com/staff#')
 ANS = Namespace('http://a#')
@@ -200,7 +200,7 @@ class RDFAlchemyClassTestCase(unittest.TestCase):
         self.assertEqual(bill.label, u"E1001")
 
 
-class TriplesDbTestCase(unittest.TestCase, util.DiffTestCaseMixin):
+class TriplesDbTestCase(unittest.TestCase, pttestutil.DiffTestCaseMixin):
     def fill(self, graph):
         """
         Add some triples to a graph (without using addTriple)

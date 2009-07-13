@@ -10,14 +10,14 @@ from hypy import HDatabase, CloseFailed
 
 from .. import search, fact
 
-from . import gameplugin, util
+from . import gameplugin, pttestutil
 
 
 class SearchTest(unittest.TestCase):
     def setUp(self):
         self.index = HDatabase()
 
-        with util.pluginsLoadedFromTest(fact):
+        with pttestutil.pluginsLoadedFromTest(fact):
             systems = fact.getSystems()
             fact.importRuleCollections(systems)
 

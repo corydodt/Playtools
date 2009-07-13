@@ -10,7 +10,7 @@ from zope.interface import implements
 from twisted.trial import unittest
 
 from playtools import publish, fact, publisherplugin
-from playtools.test.util import pluginsLoadedFromTest
+from playtools.test.pttestutil import pluginsLoadedFromTest
 from playtools.test.gameplugin import buildings
 from playtools.interfaces import IPublisher
 
