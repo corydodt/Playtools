@@ -196,6 +196,8 @@ class MonsterConverter(object):
             ff.value = f.dbFeat.resUri
             if f.qualifier is not None:
                 ff.comment = f.qualifier
+            if f.timesTaken:
+                ff.timesTaken = f.timesTaken
             self.graph.remove((ff.resUri, a, C.MonsterHasFeat))
             _myFeats.append(ff)
         set('feats',               _myFeats)
