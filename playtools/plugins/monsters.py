@@ -2,6 +2,7 @@
 Converter from srd35.db to monster.n3
 """
 import re
+import sys
 
 from zope.interface import implements
 
@@ -59,6 +60,7 @@ class MonsterConverter(object):
         return self
 
     def next(self):
+        sys.stderr.write('.')
         return self.statblockSource.next()
 
     def makePlaytoolsItem(self, sb):
@@ -90,7 +92,7 @@ class MonsterConverter(object):
             if item:
                 _desc.append(parseFamily(item))
         if _desc:
-            set('_descriptors',      _desc)
+            set('_descriptors',  _desc)
 
         set('size',              parseSize(orig.size))
         set('initiative',        parseInitiative(orig.initiative))
@@ -185,14 +187,18 @@ class MonsterConverter(object):
         crlist = _makeValues(d, lambda x:x[0], lambda x:x[1])
         set('cr',                 crlist)
 
-        _feats = sb.get('feats')
+        _feats = sb.parseFeats()
         _myFeats = []
         for f in _feats:
             ff = d20srd35.MonsterFeat()
             if getattr(f, 'isBonusFeat', False):
                 ff.isBonusFeat = True
+            ff.value = f.dbFeat.resUri
+            if f.qualifier is not None:
+                ff.comment = f.qualifier
+            self.graph.remove((ff.resUri, a, C.MonsterHasFeat))
             _myFeats.append(ff)
-        set('feat',               _myFeats)
+        set('feats',               _myFeats)
 
     def label(self):
         return u"monsters"

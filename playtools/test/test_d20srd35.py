@@ -10,7 +10,7 @@ from twisted.trial import unittest
 from .. import fact
 from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
-from playtools.common import featNs as FEAT
+from playtools.common import featNs as FEAT, monsterNs as MONSTER
 from playtools.test.pttestutil import pluck
 
 import warnings
@@ -210,6 +210,18 @@ class SRD35TestCase(unittest.TestCase):
         Verify that attributes of the monster triples are accessible
         (Monster2)
         """
+        m = SRD.facts['monster2']
+        badger = m.lookup(MONSTER.badger)
+        self.assertEqual(str(badger.hitDice), 'd8+2')
+        self.assertEqual(pluck(badger.bonusFeats, 'value', 'resUri'), [FEAT.track])
+        self.assertEqual(pluck(badger.epicFeats, 'value', 'resUri'), [])
+
+        gorilla = m.lookup(MONSTER.behemothGorilla)
+        self.assertEqual(sorted(pluck(gorilla.acFeats, 'value', 'resUri')),
+                [FEAT.dodge, FEAT.mobility])
+        self.assertEqual(pluck(gorilla.epicFeats, 'value', 'resUri'),
+                [FEAT.epicToughness])
+
     test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
         and then check that it's in monster.specialAC"""
 

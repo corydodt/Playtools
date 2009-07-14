@@ -534,14 +534,6 @@ class Skill(S.rdfsPTClass):
 skill = RDFFactCollection(Skill, 'skill')
 
 
-class MonsterFeat(S.rdfsPTClass):
-    """
-    A feat possessed by a particular monster, which may be a bonus feat
-    """
-    coreFeat = rdfSingle(RDF.value)
-    isBonusFeat = S.rdfIsInstance(CHAR.MonsterBonusFeat)
-
-
 NO_CACHE = object()
 
 
@@ -575,6 +567,22 @@ class BonusFeatFilter(CachingDescriptor):
             if feat.isBonusFeat:
                 ret.append(feat)
         return ret
+
+
+class CoreFeatFilter(CachingDescriptor):
+    """
+    Descriptor to get feats filtered along various axes.  These all work by
+    inspecting the value of a monster's feat.
+
+    Pass in a matcher function, and only feats for which matcher returns true
+    on value will be returned.
+    """
+    def __init__(self, name, matcher):
+        self.matcher = matcher
+        CachingDescriptor.__init__(self, name)
+
+    def get(self, instance, owner):
+        return [f for f in instance.feats if self.matcher(f.value)]
 
 
 class Feat(S.rdfsPTClass):
@@ -632,6 +640,15 @@ class AnnotatedValue(S.rdfsPTClass):
     value                  = rdfSingle(RDF.value)
 
 
+class MonsterFeat(S.rdfsPTClass):
+    """
+    A feat possessed by a particular monster, which may be a bonus feat
+    """
+    rdf_type = CHAR.MonsterHasFeat
+    value                  = rdfSingle(RDF.value, range_type=Feat.rdf_type)
+    isBonusFeat = S.rdfIsInstance(CHAR.MonsterBonusFeat)
+
+
 class Monster2(S.rdfsPTClass):
     """
     A creature statted from the SRD monster list
@@ -685,15 +702,19 @@ class Monster2(S.rdfsPTClass):
     reconstruct the whole list to set any of them, and we must iterate the
     whole list to get any of them.  Implement an associative type""")
 
-    TODO("""acFeats, speedFeats, attackOptionFeats, epicFeats and
-    rangedAttackFeats will be property()'s of Monster2.  Their values will be
-    computed, by examining self.feats
-    """)
-#"     acFeats
-#"     speedFeats
-#"     attackOptionFeats
-#"     rangedAttackFeats
-#"     epicFeats
+    feats                  = rdfMultiple(PROP.feat, range_type=CHAR.MonsterHasFeat)
+    bonusFeats             = BonusFeatFilter("bonusFeats")
+    acFeats                = CoreFeatFilter("acFeats", 
+                                            lambda x: x.isArmorClassFeat)
+    speedFeats             = CoreFeatFilter("speedFeats", 
+                                            lambda x: x.isSpeedFeat)
+    attackOptionFeats      = CoreFeatFilter("attackOptionFeats", 
+                                            lambda x: x.isAttackOptionFeat)
+    rangedAttackFeats      = CoreFeatFilter("rangedAttackFeats", 
+                                            lambda x: x.isRangedAttackFeat)
+    epicFeats              = CoreFeatFilter("epicFeats", 
+                                            lambda x: x.epic)
+
 
     TODO("""listen and spot will be property()'s of Monster2.  Values will be
     computed by examining self.skills
@@ -739,9 +760,6 @@ class Monster2(S.rdfsPTClass):
     are dictionaries, though.""")
 
 #"     skills                 = rdfMultiple(PROP.skill, ...)  # dict from sb.parseSkills
-
-    feats                  = rdfMultiple(PROP.feat, range_type=CHAR.MonsterFeat)
-    bonusFeats             = BonusFeatFilter("bonusFeats")
 
     TODO("""fullText should be a link into an HTML document which contains all
     of the full texts, with the parts that are already covered by the data
