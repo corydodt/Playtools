@@ -592,23 +592,23 @@ class Feat(S.rdfsPTClass):
 
     collection = None
 
-    stackable = S.rdfIsInstance(CHAR.StackableFeat)
-    canTakeMultiple = S.rdfIsInstance(CHAR.CanTakeMultipleFeat)
-    epic = S.rdfIsInstance(CHAR.EpicFeat)
-    psionic = S.rdfIsInstance(CHAR.PsionicFeat)
-    isArmorClassFeat = S.rdfIsInstance(CHAR.ArmorClassFeat)
-    isAttackOptionFeat = S.rdfIsInstance(CHAR.AttackOptionFeat)
-    isSpecialActionFeat = S.rdfIsInstance(CHAR.SpecialActionFeat)
-    isRangedAttackFeat = S.rdfIsInstance(CHAR.RangedAttackFeat)
-    isSpeedFeat = S.rdfIsInstance(CHAR.SpeedFeat)
-
-    additional = rdfSingle(PROP.additional)
-    benefit = rdfSingle(PROP.benefit)
-    choiceText = rdfSingle(PROP.choiceText)
-    prerequisiteText = rdfSingle(PROP.prerequisiteText)
-    noFeatComment = rdfSingle(PROP.noFeatComment)
-    comment = rdfSingle(RDFSNS.comment)
-    reference = rdfSingle(PROP.reference)
+    stackable              = S.rdfIsInstance(CHAR.StackableFeat)
+    canTakeMultiple        = S.rdfIsInstance(CHAR.CanTakeMultipleFeat)
+    epic                   = S.rdfIsInstance(CHAR.EpicFeat)
+    psionic                = S.rdfIsInstance(CHAR.PsionicFeat)
+    isArmorClassFeat       = S.rdfIsInstance(CHAR.ArmorClassFeat)
+    isAttackOptionFeat     = S.rdfIsInstance(CHAR.AttackOptionFeat)
+    isSpecialActionFeat    = S.rdfIsInstance(CHAR.SpecialActionFeat)
+    isRangedAttackFeat     = S.rdfIsInstance(CHAR.RangedAttackFeat)
+    isSpeedFeat            = S.rdfIsInstance(CHAR.SpeedFeat)
+    
+    additional             = rdfSingle(PROP.additional)
+    benefit                = rdfSingle(PROP.benefit)
+    choiceText             = rdfSingle(PROP.choiceText)
+    prerequisiteText       = rdfSingle(PROP.prerequisiteText)
+    noFeatComment          = rdfSingle(PROP.noFeatComment)
+    comment                = rdfSingle(RDFSNS.comment)
+    reference              = rdfSingle(PROP.reference)
 
     def collectText(self):
         """
@@ -646,7 +646,8 @@ class MonsterFeat(S.rdfsPTClass):
     """
     rdf_type = CHAR.MonsterHasFeat
     value                  = rdfSingle(RDF.value, range_type=Feat.rdf_type)
-    isBonusFeat = S.rdfIsInstance(CHAR.MonsterBonusFeat)
+    isBonusFeat            = S.rdfIsInstance(CHAR.MonsterBonusFeat)
+    timesTaken             = rdfSingle(PROP.featTimesTaken)
 
 
 class Monster2(S.rdfsPTClass):
