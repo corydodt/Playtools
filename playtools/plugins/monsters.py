@@ -60,8 +60,9 @@ class MonsterConverter(object):
         return self
 
     def next(self):
-        sys.stderr.write('.')
-        return self.statblockSource.next()
+        n = self.statblockSource.next()
+        sys.stderr.write(n.get('name')[0])
+        return n
 
     def makePlaytoolsItem(self, sb):
         # some rdf-based classes need to be told where their data store is.
