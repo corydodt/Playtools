@@ -769,6 +769,8 @@ class Monster2(S.rdfsPTClass):
 #"    fullText               = rdfSingle(...)  # clean up from sql
 #"    reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
 
+TODO("""monster2 = RDFFactCollection(Monster2, 'monster2')""")
+
 TODO("""Extremely important TODO: add author/license/creation date/etc.
 metadata to everything here, so publishers can describe their work using
 friggin' RDF.""")
