@@ -189,6 +189,9 @@
 .
 
 :feat a rdfs:Property .
+:featTimesTaken a rdfs:Property;
+    rdfs:label "Times Taken";  
+    rdfs:comment "How many times the feat has been taken by an individual".
 
 :skill a rdfs:Property .
 
