@@ -169,7 +169,7 @@ def pluck(items, *attrs):
 _signals = {}
 
 def signal(which):
-    def fn(s):
+    def fn(s, details=None):
         """
         Spew a message to stderr to remind me to fix something
         """
