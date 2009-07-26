@@ -2,7 +2,7 @@ import sys
 import re
 
 from playtools.fact import systems
-from playtools.util import rdfName
+from playtools.util import rdfName, doNodes, findNodes
 
 MONSTERS2 = systems['D20 SRD'].facts['monster2']
 
@@ -11,30 +11,6 @@ from xml.dom import minidom
 uniqueMonster = set()
 monsterMash = []
 
-
-def doNodes(dom, matcher, cb=None):
-    """
-    Call cb(node) on every node under dom for which matcher(node) == True
-    """
-    todo = [dom]
-
-    for n, node in enumerate(todo):
-        # slice assignment is fucking awesome
-        todo[n+1:n+1] = list(node.childNodes)
-        if matcher(node):
-            cb(node)
-
-def findNodes(dom, matcher):
-    ret = []
-    doNodes(dom, matcher, lambda x: ret.append(x))
-    return ret
-
-def gatherText(dom, accumulator=None):
-    """
-    Return all the text nodes
-    """
-    tn = findNodes(dom, lambda x: x.nodeName == '#text')
-    return ' '.join([t.toxml() for t in tn])
 
 def getFirstTextNode(dom):
     return findNodes(dom, lambda zz: len(zz.childNodes) and
@@ -181,7 +157,7 @@ class FullText(object):
 
 def fixupMonsterDOM(monster):
     """
-    Correct this monster's HTML DOM
+    Correct this monster's HTML DOM and return a path for the fixed up one
     """
     s = monster.fullText
 
@@ -200,18 +176,17 @@ def fixupMonsterDOM(monster):
     id = rdfName(et.getAttribute('topic'))
     et.setAttribute('id', id)
     
+    # when titles do not match the way we want, skip the reference URL
+    xmltitle = normalizeText(obj.apparentTitle)
+    monsterlabel = normalizeText(monster.label)
+    if xmltitle not in monsterlabel and monsterlabel not in xmltitle:
+        et.setAttribute("class", "badTitle")
+
     if filterable not in uniqueMonster:
         uniqueMonster.add(filterable)
     else:
         return None, None
 
-    # fix missing titles
-    xmltitle = normalizeText(obj.apparentTitle)
-    monsterlabel = normalizeText(monster.label)
-    if xmltitle not in monsterlabel and monsterlabel not in xmltitle:
-        et.setAttribute("class", "badTitle")
-        et.insertBefore(makeTitle(monster.label), et.firstChild)
-        
     print >>sys.stderr, str(obj)
     print >>sys.stderr, ''
 
@@ -228,11 +203,9 @@ def run(argv=None):
     <style type="text/css">.badTitle { background-color: yellow; }</style>
     </head><body>""")
     for m in sorted(MONSTERS2.dump(), key=lambda m:m.label):
-        print
         print m
         if m.fullText:
             id, et = fixupMonsterDOM(m)
-            # m.fullText = "http://goonmill.org/2009/monster.html#%s" % (id,)
             if id:
                 # done manipulating.  get the string.
                 s = et.toxml('utf-8').decode('string-escape')
