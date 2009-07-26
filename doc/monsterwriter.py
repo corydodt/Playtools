@@ -36,6 +36,10 @@ def gatherText(dom, accumulator=None):
     tn = findNodes(dom, lambda x: x.nodeName == '#text')
     return ' '.join([t.toxml() for t in tn])
 
+def getFirstTextNode(dom):
+    return findNodes(dom, lambda zz: len(zz.childNodes) and
+                            zz.childNodes[0].nodeName == '#text')[0]
+
 REMSPACE = re.compile('\s+')
 ALPHAONLY = re.compile('[[\]\\\'!"#$%&()*+,-./:;<=>?@_`{|}~^]')
 
@@ -58,7 +62,6 @@ def hasAncestor(x, y):
         x = x.parentNode
         if x is y:
             return True
-
 
 
 class FullText(object):
@@ -95,14 +98,13 @@ class FullText(object):
                             ))
                 else:
                     assert xml.hasAttribute('topic')
-                    title = findNodes(xml, lambda zz: len(zz.childNodes) and
-                            zz.childNodes[0].nodeName == '#text')[0]
+                    title = getFirstTextNode(xml)
                     topic = xml.getAttribute('topic')
                     gt = g(title)
                     if gt == normalizeText(topic):
                         actual = ''
                     else:
-                        import pdb; pdb.set_trace()
+                        # we probably inserted a title
                         actual = gt
                     ret.append('{brackets} {level}. {t} {_actual}'.format(
                         brackets=indent,
@@ -177,7 +179,7 @@ class FullText(object):
         return self
 
 
-def o(monster):
+def fixupMonsterDOM(monster):
     """
     Correct this monster's HTML DOM
     """
@@ -203,20 +205,22 @@ def o(monster):
     else:
         return None, None
 
-    # TODO("""Colossus, horses: missing titles""")
+    # fix missing titles
     xmltitle = normalizeText(obj.apparentTitle)
     monsterlabel = normalizeText(monster.label)
     if xmltitle not in monsterlabel and monsterlabel not in xmltitle:
         et.setAttribute("class", "badTitle")
-        print >>sys.stderr, '!!!!!!!!!!!!!!!!!!!!!!!!!', obj.apparentTitle
-
-    # TODO("""Find the topmost node containing text and make it an h2.  then
-    # recursively find its children and make them h3, h4, ...""")
-
+        et.insertBefore(makeTitle(monster.label), et.firstChild)
+        
     print >>sys.stderr, str(obj)
     print >>sys.stderr, ''
 
     return id, et
+
+def makeTitle(s):
+    t = minidom.parseString('<h2>{title}</h2>'.format(
+        title=s)).documentElement
+    return t
 
 def run(argv=None):
     fout = open('monsters2.html', 'w')
@@ -227,7 +231,7 @@ def run(argv=None):
         print
         print m
         if m.fullText:
-            id, et = o(m)
+            id, et = fixupMonsterDOM(m)
             # m.fullText = "http://goonmill.org/2009/monster.html#%s" % (id,)
             if id:
                 # done manipulating.  get the string.
