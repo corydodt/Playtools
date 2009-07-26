@@ -224,3 +224,10 @@
     owl:allValuesFrom dctype:Image;
 .
 
+:reference a rdfs:Property;
+    rdfs:comment "An online description of the object";
+.
+
+:textLocation a rdfs:Property;
+    rdfs:comment "The location of text which can be indexed when building a search entry for this monster.";
+.
