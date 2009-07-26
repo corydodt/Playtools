@@ -2,6 +2,7 @@
 The game system based on the D20 SRD (version 3.5)
 """
 import re
+from xml.dom import minidom
 
 from zope.interface import implements, Attribute
 
@@ -11,7 +12,7 @@ from storm import locals as SL
 
 from playtools.interfaces import (IRuleSystem, IRuleCollection,
     IIndexable, IRuleFact)
-from playtools.util import RESOURCE
+from playtools.util import RESOURCE, gatherText
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import FAM, P as PROP, C as CHAR, skillNs as SKILL, featNs as FEAT
@@ -657,9 +658,10 @@ class Monster2(S.rdfsPTClass):
     Explicitly excluded: armor_class (is armorClass), full_attack (is
     attackGroups list), special_qualities (is fullAbilities or something else
     if we rename that), special_abilities (is multiple of specialAbility),
-    stat_block (dropped, redundant), full_text (is fullText)
+    stat_block (dropped, redundant), full_text (dropped, see textLocation)
 
     """
+    implements(IRDFFact)
     rdf_type = CHAR.Monster
 
     family                 = rdfSingle(PROP.family)             # DONE!
@@ -699,7 +701,8 @@ class Monster2(S.rdfsPTClass):
     _treasures             = rdfMultiple(PROP.treasure)         # DONE!
     treasureNotes          = rdfSingle(PROP.treasureNotes)      # DONE!
 
-    TODO("""_saves and _treasures and _abilities are lists, so we must
+    TODO("_saves and _treasures and _abilities",
+    """they are lists, so we must
     reconstruct the whole list to set any of them, and we must iterate the
     whole list to get any of them.  Implement an associative type""")
 
@@ -716,8 +719,10 @@ class Monster2(S.rdfsPTClass):
     epicFeats              = CoreFeatFilter("epicFeats", 
                                             lambda x: x.epic)
 
+#"     skills                 = rdfMultiple(PROP.skill, ...)  # dict from sb.parseSkills
 
-    TODO("""listen and spot will be property()'s of Monster2.  Values will be
+    TODO("listen and spot", 
+    """listen and spot will be property()'s of Monster2.  Values will be
     computed by examining self.skills
     """)
 #"     listen
@@ -727,7 +732,8 @@ class Monster2(S.rdfsPTClass):
 
 #"     attackGroups           = rdfSingle(...)  # from sb.get - list
 
-    TODO("""attack will be a property() of Monster2. value will be computed by
+    TODO("monster.attack", 
+    """attack will be a property() of Monster2. value will be computed by
     returning attackGroups[0]
     """)
 #"     attack
@@ -737,8 +743,7 @@ class Monster2(S.rdfsPTClass):
 #"     specialAttacks         = rdfList(...)  # from sb.get
 #"     fullAbility            = rdfMultiple(...)  # from sb.get - maybe rename
 #"     specialAbility         = rdfMultiple(PROP.specialAbility)           # list parsed from sb.get
-
-    TODO("""specialAC, 
+    TODO("specialability-based monster props which are singles", """specialAC, 
     spellLikeAbilities, 
     casterLevel, 
     spellResistance, 
@@ -753,26 +758,41 @@ class Monster2(S.rdfsPTClass):
     ... will be computed by looking at self.fullAbilities and
     self.specialAttacks and self.specialAbility""")
 
-    TODO("""damageReduction, 
+    TODO("specialability-based monster props which are dicts", """damageReduction, 
     senses, 
     immunities, 
     resistances,
     vulnerabilities 
     are dictionaries, though.""")
 
-#"     skills                 = rdfMultiple(PROP.skill, ...)  # dict from sb.parseSkills
+    reference              = rdfSingle(PROP.reference)
+    textLocation           = rdfSingle(PROP.textLocation)
 
-    TODO("""fullText should be a link into an HTML document which contains all
-    of the full texts, with the parts that are already covered by the data
-    removed.  We need an automatic way to determine which part of the HTML
-    documents to keep, and an automatic way to determine which monsters should
-    share which fulltexts.""")
-#"    fullText               = rdfSingle(...)  # clean up from sql
-#"    reference              = rdfSingle(...)  # from d20srd35.srdReferenceURL
+    TODO("better collectText", "add the detail after the return stmt to collectText")
+    def collectText(self):  
+        t = gatherText(minidom.parse(open(self.textLocation)))
+        t = t.decode('utf-8')
+        return t # TODO
 
-TODO("""monster2 = RDFFactCollection(Monster2, 'monster2')""")
+        ujoin = lambda o: u' '.join([x.label for x in o])
+        ret = u'''{text}
+{self.name} {self.family} {self.altname} {descriptors} 
+{self.environment} 
+{feats} 
+{attackGroups}
+{specialAbilities}
+'''.format(text=t,
+        self=self,
+    descriptors=ujoin(self.descriptors),
+    feats=ujoin(self.feats),
+    attackGroups=ujoin(self.attackGroups),
+    specialAbilities=ujoin(self.specialAbilities),
+            )
+        return ret
 
-TODO("""Extremely important TODO: add author/license/creation date/etc.
+monster2 = RDFFactCollection(Monster2, 'monster2')
+
+TODO("""Author metadata!!""", """add author/license/creation date/etc.
 metadata to everything here, so publishers can describe their work using
 friggin' RDF.""")
 
