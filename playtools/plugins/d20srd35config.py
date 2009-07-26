@@ -18,8 +18,8 @@ RDFURIS = ['http://www.w3.org/2000/01/rdf-schema#',
            'http://goonmill.org/2007/feat.n3#', 
            'http://goonmill.org/2009/statblock.n3#', 
            'http://goonmill.org/2007/specialAbility.n3#', 
+           'http://goonmill.org/2007/monster.n3#'
            ]
-TODO('http://goonmill.org/2007/monster.n3#')
 
 SQLS =    ['d20srd35-sql/class.sql', 
            'd20srd35-sql/class_table.sql', 
