@@ -58,3 +58,34 @@ def columnizeResult(res, prefixes=None):
             ret.append(px(col)[:26].ljust(28))
         ret.append('\n')
     return ''.join(ret)
+
+TODO("unit test dom manipulators")
+def doNodes(dom, matcher, cb=None):
+    """
+    Call cb(node) on every node under dom for which matcher(node) == True
+    """
+    todo = [dom]
+
+    if cb is None:
+        cb = lambda x: x
+
+    for n, node in enumerate(todo):
+        # slice assignment is fucking awesome
+        todo[n+1:n+1] = list(node.childNodes)
+        if matcher(node):
+            yield cb(node)
+
+def findNodes(dom, matcher):
+    """
+    Generate nodes matching the matcher function
+    """
+    for node in doNodes(dom, matcher):
+        yield node
+
+def gatherText(dom, accumulator=None):
+    """
+    Return all the text nodes
+    """
+    tn = findNodes(dom, lambda x: x.nodeName == '#text')
+    return ' '.join([t.toxml() for t in tn])
+
