@@ -242,4 +242,5 @@ def run(argv=None):
 
     ## for monster in sorted(monsterMash):
 
-run()
+if __name__ == '__main__':
+    run()
