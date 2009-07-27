@@ -1,10 +1,7 @@
 import sys
 import re
 
-from playtools.fact import systems
-from playtools.util import rdfName, doNodes, findNodes
-
-MONSTERS2 = systems['D20 SRD'].facts['monster2']
+from playtools.util import rdfName, doNodes, findNodes, gatherText
 
 from xml.dom import minidom
 
@@ -104,9 +101,9 @@ class FullText(object):
         self = cls()
 
         self.statblock = findNodes(xmlnode, lambda x: x.nodeName == 'table' and 'Speed' in
-                gatherText(x))[0]
+                gatherText(x)).next()
 
-        self.apparentTitle = gatherText(xmlnode.childNodes[0])
+        self.apparentTitle = xmlnode.getAttribute('topic')
 
         def matcher(z):
             """
@@ -155,10 +152,17 @@ class FullText(object):
         return self
 
 
-def fixupMonsterDOM(monster):
+def fixupMonsterDOM(monster, writer=None):
     """
     Correct this monster's HTML DOM and return a path for the fixed up one
     """
+    if writer is None:
+        def writer(fn, s, title):
+            f = open(fn, 'w')
+            f.write("<html>\n<head><title>%s</title></head>\n<body>" % (title,))
+            f.write(s)
+            f.write("</body></html>")
+
     s = monster.fullText
 
     et = minidom.parseString(s).firstChild
@@ -173,7 +177,7 @@ def fixupMonsterDOM(monster):
 
     # pull the rdfname off of the div, since it won't always match the monster
     # node it came from
-    id = rdfName(et.getAttribute('topic'))
+    id = rdfName(obj.apparentTitle)
     et.setAttribute('id', id)
     
     # when titles do not match the way we want, skip the reference URL
@@ -181,39 +185,37 @@ def fixupMonsterDOM(monster):
     monsterlabel = normalizeText(monster.label)
     if xmltitle not in monsterlabel and monsterlabel not in xmltitle:
         et.setAttribute("class", "badTitle")
+        id = 'BAD__' + id
+
+    textLocation = "monstertext/%s.htm" % (id,)
+
+    print >>sys.stderr, str(obj)
 
     if filterable not in uniqueMonster:
         uniqueMonster.add(filterable)
-    else:
-        return None, None
+        s = et.toxml('utf-8').decode('string-escape')
+        writer(textLocation, s, xmltitle)
 
-    print >>sys.stderr, str(obj)
-    print >>sys.stderr, ''
-
-    return id, et
-
-def makeTitle(s):
-    t = minidom.parseString('<h2>{title}</h2>'.format(
-        title=s)).documentElement
-    return t
+    return textLocation
 
 def run(argv=None):
+    from playtools.fact import systems
+    MONSTERS2 = systems['D20 SRD'].facts['monster2']
+
     fout = open('monsters2.html', 'w')
+
+    def writer(fn, data):
+        fout.write(data)
+
     fout.write("""<html><head><title>D20 SRD Monsters</title>
     <style type="text/css">.badTitle { background-color: yellow; }</style>
     </head><body>""")
     for m in sorted(MONSTERS2.dump(), key=lambda m:m.label):
         print m
         if m.fullText:
-            id, et = fixupMonsterDOM(m)
-            if id:
-                # done manipulating.  get the string.
-                s = et.toxml('utf-8').decode('string-escape')
-                fout.write(s)
+            loc = fixupMonsterDOM(m, writer=lambda fn, data, title: fout.write(data))
     fout.write("""</body></html>""")
 
-
-    ## for monster in sorted(monsterMash):
 
 if __name__ == '__main__':
     run()
