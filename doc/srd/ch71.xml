@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (S)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch70s21.html" title="Rust Monster"/>
+    <link rel="next" href="ch71s02.html" title="Salamander"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (S)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s21.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch71s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1372710"/>Monsters (S)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch71.html#id2159431">Sahuagin</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71.html#id2160284">Sahuagin Mutants</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s02.html">Salamander</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s03.html">Satyr</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s03.html#id2165610">Satyrs as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s04.html">Sea Cat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s05.html">Shadow</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s05.html#id2169409">Greater Shadow</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s06.html">Shadow Mastiff</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s07.html">Shambling Mound</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s08.html">Shield Guardian</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s08.html#id2174404">Construction</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s08.html#id2174546">Amulet</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s09.html">Shocker Lizard</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s10.html">Skeleton</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s10.html#id2177439">Creating A Skeleton</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s11.html">Skum</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s12.html">Spectre</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s13.html">Sphinx</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s13.html#id2185560">Androsphinx</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s13.html#id2187237">Criosphinx</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s13.html#id2188804">Gynosphinx</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s13.html#id2191217">Hieracosphinx</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s14.html">Spider Eater</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s14.html#id2194311">Training A Spider Eater</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s15.html">Sprite</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s15.html#id2195685">Grig</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s15.html#id2198193">Nixie</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s15.html#id2200199">Pixie</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s16.html">Stirge</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch71s17.html">Swarm</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s17.html#id2204995">Bat Swarm</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s17.html#id2206504">Centipede Swarm</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s17.html#id2208368">Hellwasp Swarm</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s17.html#id2211099">Locust Swarm</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s17.html#id2212790">Rat Swarm</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch71s17.html#id2213993">Spider Swarm</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersS1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id2159431"/>Sahuagin</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71.html#id2159576">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch71.html#id2160284">Sahuagin Mutants</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS2"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2159447">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Sahuagin</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8+2 (11 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 60 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Talon +4 melee (1d4+2) or trident +4 melee (1d8+3) or heavy crossbow +3 ranged (1d10/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Trident +4 melee (1d8+3) and bite +2 melee (1d4+1); or 2 talons +4 melee (1d4+2) and bite +2 melee (1d4+1); or heavy crossbow +3 ranged (1d10/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Blood frenzy, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 1d4+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities11">Blindsense</a> 30 ft., darkvision 60 ft., freshwater sensitivity, light blindness, <a href="ch21s05.html#CombatI95">speak</a> with <a href="ch73s39.html#MonstersAnimals140">sharks</a>, <a href="ch04.html#TypesSubtypesAbilities79">water</a> dependent</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +4, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 13, Con 12, Int 14, Wis 13, Cha 9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +4*, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6*, <a href="ch16s03.html#CombinedSkills230">Profession</a> (hunter) +1*, <a href="ch16s03.html#CombinedSkills243">Ride</a> +3, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6*, <a href="ch16s03.html#CombinedSkills303">Survival</a> +1*</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, team (5-8), patrol (11-20 plus 1 3rd-level lieutenant and 1-2 <a href="ch73s39.html#MonstersAnimals140">sharks</a>), band (20-80 plus 100% noncombatants plus 1 3rd-level lieutenant and 1 4th-level chieftain per 20 adults plus 1-2 <a href="ch73s39.html#MonstersAnimals140">sharks</a>), or tribe (70-160 plus 100% noncombatants plus 1 3rd-level lieutenant per 20 adults, 1 4th-level chieftain per 40 adults, 9 4th-level guards, 1-4 underpriestesses of 3rd-6th level, 1 7th-level priestess, and 1 baron of 6th-8th level plus 5-8 <a href="ch73s39.html#MonstersAnimals140">sharks</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3-5 HD (<a href="ch22.html#CombatII28">Medium</a>), 6-10 HD (<a href="ch22.html#CombatII28">Large</a>), or by character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+2 (+3 if four-armed)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Most <a href="ch71.html#MonstersS2">sahuagin</a> feature green coloration, darker along the back and lighter on the belly. Many have dark stripes, bands, or spots, but these tend to fade with age. An adult male <a href="ch71.html#MonstersS2">sahuagin</a> stands roughly 6 feet tall and weighs about 200 pounds.<a href="img/MonstersS.Sahuagin.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Sahuagin.jpg" align="right"/></span></a></p>
+        <p><a href="ch71.html#MonstersS2">Sahuagin</a> are the natural enemy of aquatic <a href="ch65s03.html#MonstersE-F26">elves</a>. The two cannot coexist peacefully: Wars between them are prolonged, bloody affairs that sometimes interfere with shipping and maritime trade. <a href="ch71.html#MonstersS2">Sahuagin</a> have an only slightly less vehement hatred for <a href="ch72s07.html#MonstersT-Z37">tritons</a>.</p>
+        <p><a href="ch71.html#MonstersS2">Sahuagin</a> speak their own language, <a href="ch71.html#MonstersS2">Sahuagin</a>. Thanks to their high Intelligence scores, most <a href="ch71.html#MonstersS2">sahuagin</a> also speak two bonus languages, usually Common and Aquan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2159576"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS3"/>
+          <p><a href="ch71.html#MonstersS2">Sahuagin</a> are savage fighters, asking for and giving no quarter. When swimming, a <a href="ch71.html#MonstersS2">sahuagin</a> tears with its feet as it strikes with its talons or a weapon. About half of any group of <a href="ch71.html#MonstersS2">sahuagin</a> are also armed with nets.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2159627"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS4"/>
+            <p><span class="strong"><strong>Blindsense (Ex):</strong></span> A <a href="ch71.html#MonstersS2">sahuagin</a> can locate creatures underwater within a 30-foot radius. This ability works only when the <a href="ch71.html#MonstersS2">sahuagin</a> is underwater.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2159676"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS5"/>
+            <p><span class="strong"><strong>Blood Frenzy:</strong></span> Once per day a <a href="ch71.html#MonstersS2">sahuagin</a> that takes damage in combat can fly into a frenzy in the following round, clawing and biting madly until either it or its opponent is dead. It gains +2 Constitution and +2 Strength, and takes a -2 penalty to Armor Class. A <a href="ch71.html#MonstersS2">sahuagin</a> cannot end its frenzy voluntarily.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2159727"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS6"/>
+            <p><span class="strong"><strong>Rake (Ex):</strong></span> Attack bonus +2 melee, damage 1d4+1. A <a href="ch71.html#MonstersS2">sahuagin</a> also gains two rake attacks when it attacks while swimming.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2159834"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS7"/>
+            <p><span class="strong"><strong>Freshwater Sensitivity (Ex):</strong></span> A <a href="ch71.html#MonstersS2">sahuagin</a> fully immersed in fresh water must succeed on a DC 15 Fortitude save or become fatigued. Even on a success, it must repeat the save attempt every 10 minutes it remains immersed.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2159872"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS8"/>
+            <p><span class="strong"><strong>Light Blindness (Ex):</strong></span> Abrupt exposure to bright light (such as sunlight or a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell) blinds <a href="ch71.html#MonstersS2">sahuagin</a> for round. On subsequent rounds, they are dazzled while operating in bright light.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2159923"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS9"/>
+            <p><span class="strong"><strong>Speak with Sharks (Ex):</strong></span> <a href="ch71.html#MonstersS2">Sahuagin</a> can communicate telepathically with <a href="ch73s39.html#MonstersAnimals140">sharks</a> up to 150 feet away. The communication is limited to fairly simple concepts such as 'food,' 'danger,' and 'enemy.' <a href="ch71.html#MonstersS2">Sahuagin</a> can use the <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> skill to befriend and train <a href="ch73s39.html#MonstersAnimals140">sharks</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2160002"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS10"/>
+            <p><span class="strong"><strong>Water Dependent (Ex):</strong></span> <a href="ch71.html#MonstersS2">Sahuagin</a> can survive out of the water for 1 hour per 2 points of Constitution (after that, refer to the drowning rules on page 304 of the <span class="emphasis"><em>Dungeon Master's Guide</em></span>).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2160115"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS11"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71.html#MonstersS2">sahuagin</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+            <p>*Underwater, a <a href="ch71.html#MonstersS2">sahuagin</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+            <p>*A <a href="ch71.html#MonstersS2">sahuagin</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> and <a href="ch16s03.html#CombinedSkills230">Profession</a> (hunter) checks within 50 miles of its home.</p>
+            <p>*A <a href="ch71.html#MonstersS2">sahuagin</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> checks when working with <a href="ch73s39.html#MonstersAnimals140">sharks</a>.</p>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2160284"/>Sahuagin Mutants</h3>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS12"/>
+          <p>About one in two hundred <a href="ch71.html#MonstersS2">sahuagin</a> has four arms. Such creatures can make four claw attacks or use extra weapons, in addition to the claw and bite attacks.</p>
+          <p>If a community of aquatic <a href="ch65s03.html#MonstersE-F26">elves</a> is located within 100 miles of a <a href="ch71.html#MonstersS2">sahuagin</a> community, about one in one hundred <a href="ch71.html#MonstersS2">sahuagin</a> looks just like an aquatic <a href="ch65s03.html#MonstersE-F26">elf</a>. These creatures, called malenti, have a swim speed of 40 feet, can remain out of water for 1 hour per point of Constitution, and have freshwater sensitivity and light sensitivity (dazzled in bright light). Malenti have no natural attacks. They are otherwise identical with <a href="ch71.html#MonstersS2">sahuagin</a>.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s21.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch71s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Rust Monster </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Salamander</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

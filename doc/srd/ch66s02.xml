@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Genie</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch66.html" title="Monsters (G)"/>
+    <link rel="prev" href="ch66.html" title="Monsters (G)"/>
+    <link rel="next" href="ch66s03.html" title="Ghaele"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Genie</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (G)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1781086"/>Genie</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch66s02.html#id1781126">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s02.html#id1781227">Djinni</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s02.html#id1783217">Efreeti</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s02.html#id1784837">Janni</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersG8"/>
+      <p><a href="ch66s02.html#MonstersG8">Genies</a> are humanlike beings who dwell on the <a href="ch65s02.html#MonstersE-F7">elemental</a> planes. They are famous for their strength, guile, and skill with illusion magic.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1781126"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG9"/>
+        <p><a href="ch66s02.html#MonstersG8">Genies</a> prefer to outmaneuver and outthink their foes. They are not too proud to flee if it means they'll live to fight another day. If trapped, they bargain, offering treasure or favors in return for their lives and freedom.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1781155"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG10"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Plane Shift</em></span> (Sp):</strong></span> A <a href="ch66s02.html#MonstersG8">genie</a> can enter any of the <a href="ch65s02.html#MonstersE-F7">elemental</a> planes, the Astral Plane, or the Material Plane. This ability transports the <a href="ch66s02.html#MonstersG8">genie</a> and up to eight other creatures, provided they all link hands with the <a href="ch66s02.html#MonstersG8">genie</a>. It is otherwise similar to the spell of the same name (caster level 13th).</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1781227"/>Djinni</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s02.html#id1782761">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s02.html#id1783159">
+                  <span class="strong">
+                    <strong>Noble Djinn</strong>
+                  </span>
+                </a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG11"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1781246">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Djinni</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+14 (45 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 60 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 size, +4 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +10 melee (1d8+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +10 melee (1d8+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> whirlwind</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to acid, <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +9, Will +7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 19, Con 14, Int 14, Wis 15, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills39">Appraise</a> +12, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +12, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any one) +12, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +14, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +12, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +14, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +4 (+6 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, company (2-4), or band (6-15)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5 (noble 8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description8">chaotic good</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-10 HD (<a href="ch22.html#CombatII28">Large</a>); 11-21 (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The djinn (singular <a href="ch66s02.html#MonstersG11">djinni</a>) are <a href="ch66s02.html#MonstersG8">genies</a> from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Air.</p>
+        <p>A <a href="ch66s02.html#MonstersG11">djinni</a> is about 10-1/2 feet tall and weighs about 1,000 pounds.</p>
+        <p>Djinn speak Auran, Celestial, Common, and Ignan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1782761"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG12"/>
+          <p>Djinn disdain physical combat, preferring to use their magical powers and aerial abilities against foes. A <a href="ch66s02.html#MonstersG11">djinni</a> overmatched in combat usually takes flight and becomes a whirlwind to harass those who follow.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1782792"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG13"/>
+            <p><span class="strong"><strong>Air Mastery (Ex):</strong></span> Airborne creatures take a -1 penalty on attack and damage rolls against a <a href="ch66s02.html#MonstersG11">djinni</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1782831"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG14"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> (self only); 1/day- <span class="emphasis"><em><a href="ch44.html#SpellsC47">create food and water</a></em></span>,  <span class="emphasis"><em>create wine</em></span> (as <span class="emphasis"><em><a href="ch44.html#SpellsC50">create water</a></em></span>, <span class="emphasis"><em/></span> but wine instead), <span class="emphasis"><em><a href="ch48.html#SpellsM-O24">major creation</a></em></span> (created vegetable matter is permanent), <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z53">wind walk</a></em></span>. Once per day, a <a href="ch66s02.html#MonstersG11">djinni</a> can assume <span class="emphasis"><em><a href="ch46.html#SpellsF-G35">gaseous form</a></em></span> (as the spell) for up to 1 hour. Caster level 20th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1782955"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG15"/>
+            <p><span class="strong"><strong>Whirlwind (Su):</strong></span> A <a href="ch66s02.html#MonstersG11">djinni</a> can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 7 rounds. In this form, it can move through the air or along a surface at its fly speed.</p>
+            <p>The whirlwind is 5 feet wide at the base, up to 30 feet wide at the top and up to 50 feet tall. The <a href="ch66s02.html#MonstersG11">djinni</a> controls the exact height, but it must be at least 10 feet.</p>
+            <p>A <a href="ch66s02.html#MonstersG11">djinni's</a> movement while in whirlwind form does not provoke attacks of opportunity, even if the <a href="ch66s02.html#MonstersG11">djinni</a> enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the <a href="ch66s02.html#MonstersG11">djinni</a> moves into or through the creature's space.</p>
+            <p>Creatures one or more size categories smaller than the <a href="ch66s02.html#MonstersG11">djinni</a> might take damage when caught in the whirlwind and be lifted into the air. An affected creature must succeed on a DC 20 Reflex save when it comes into contact with the whirlwind or take 3d6 points of damage. It must also succeed on a second DC 20 Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking 1d8 points of damage each round. A creature with a fly speed is allowed a DC 20 Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The save DC is Strength-based and includes a +3 racial adjustment.</p>
+            <p>Creatures trapped in the whirlwind cannot move except to go where the <a href="ch66s02.html#MonstersG11">djinni</a> carries them or to escape the whirlwind. Creatures caught in the whirlwind can otherwise act normally, but must make a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a -4 penalty to Dexterity and a -2 penalty on attack rolls. The <a href="ch66s02.html#MonstersG11">djinni</a> can have only as many trapped inside a whirlwind at one time as will fit inside the whirlwind's volume.</p>
+            <p>The <a href="ch66s02.html#MonstersG11">djinni</a> can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be.</p>
+            <p>If the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the <a href="ch66s02.html#MonstersG11">djinni</a> and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.</p>
+            <p>Those caught in the cloud must succeed on a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 15 + spell level) to cast a spell.</p>
+            <p>A <a href="ch66s02.html#MonstersG11">djinni</a> in whirlwind form cannot make melee attacks and does not threaten the area around it.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title">
+                  <a name="id1783159"/>
+                  <span class="strong">
+                    <strong>Noble Djinn</strong>
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG16"/>
+          <p>Some djinn (1% of the total population) are noble. A noble <a href="ch66s02.html#MonstersG11">djinni</a> can grant three <span class="emphasis"><em>wishes</em></span> to any being (nongenies only) who captures it. Noble djinn perform no other services and, upon granting the third <span class="emphasis"><em><a href="ch51.html#SpellsT-Z55">wish</a></em></span>, <span class="emphasis"><em/></span> are free of their servitude. Noble djinn are as strong as efreet (see below), with 10 Hit Dice.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1783217"/>Efreeti</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s02.html#id1784557">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG17"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1783235">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Efreeti</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d8+20 (65 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 40 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, +3 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/+20</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +15 melee (1d8+6 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +15 melee (1d8+6 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>Change size</em></span>, heat, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft., vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +10, Will +9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 17, Con 14, Int 12, Wis 15, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +15, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any one) +14, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +15, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +17, <a href="ch16s03.html#CombinedSkills204">Listen</a> +15, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +16, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +15, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch20.html#MonsterFeats40">Quicken Spell-Like Ability</a> (<span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, company (2-4), or band (6-15)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>11-15 HD (<a href="ch22.html#CombatII28">Large</a>); 16-30 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The efreet (singular <a href="ch66s02.html#MonstersG17">efreeti</a>) are <a href="ch66s02.html#MonstersG8">genies</a> from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Fire.<a href="img/MonstersG.Efreeti.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Efreeti.jpg" align="right"/></span></a></p>
+        <p>An <a href="ch66s02.html#MonstersG17">efreeti</a> stands about 12 feet tall and weighs about 2,000 pounds.</p>
+        <p>Efreet speak Auran, Common, Ignan, and <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1784557"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG18"/>
+          <p>Efreet love to mislead, befuddle, and confuse their foes. They do so for enjoyment as well as a battle tactic.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1784578"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG19"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>Change Size</em></span> (Sp):</strong></span> Twice per day, an <a href="ch66s02.html#MonstersG17">efreeti</a> can magically change a creature's size. This works just like an <span class="emphasis"><em><a href="ch45.html#SpellsD-E64">enlarge person</a></em></span> or <span class="emphasis"><em><a href="ch49.html#SpellsP-R54">reduce person</a></em></span> spell (the <a href="ch66s02.html#MonstersG17">efreeti</a> chooses when using the ability), except that the ability can work on the <a href="ch66s02.html#MonstersG17">efreeti</a>. A DC 13 Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1784663"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG20"/>
+            <p><span class="strong"><strong>Heat (Ex):</strong></span> An <a href="ch66s02.html#MonstersG17">efreeti's</a> red-hot body deals 1d6 points of extra fire damage whenever it hits in melee, or in each round it maintains a hold when grappling.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1784703"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG21"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R31">produce flame</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R44">pyrotechnics</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span> (1 ray only); 3/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z38">wall of fire</a></em></span> (DC 16); 1/day-grant up to three <span class="emphasis"><em>wishes</em></span> (to nongenies only), <span class="emphasis"><em><a href="ch46.html#SpellsF-G35">gaseous form</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R5">permanent image</a></em></span> (DC 18), <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> (self only). Caster level 12th. The save DCs are Charisma-based.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1784837"/>Janni</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s02.html#id1786027">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s02.html#id1786294">
+                  <span class="strong">
+                    <strong>Jann as Characters</strong>
+                  </span>
+                </a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG22"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1784855">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Janni</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities45">Native</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+6 (33 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 15 ft. (perfect) in chainmail; base land <a href="ch21s02.html#CombatI14">speed</a> 30 ft., base fly <a href="ch21s02.html#CombatI14">speed</a> 20 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+2 Dex, +1 natural, +5 chainmail), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Scimitar +9 melee (1d6+4/18-20) or longbow +8 ranged (1d8/x3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Scimitar +9/+4 melee (1d6+4/18-20) or longbow +8/+3 ranged (1d8/x3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>Change size</em></span>, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> endurance, <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>, <span class="emphasis"><em/></span> <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +7, Will +7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 16, Dex 15, Con 12, Int 14, Wis 15, Cha 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills39">Appraise</a> +11, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +10, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any two) +11, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills243">Ride</a> +11, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +2 (+4 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats253">Mobility</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm deserts</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, company (2-4), or band (6-15)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-9 HD (<a href="ch22.html#CombatII28">Medium</a>); 10-18 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The jann (singular <a href="ch66s02.html#MonstersG22">janni</a>) are the weakest of the <a href="ch66s02.html#MonstersG8">genies</a>. Jann are formed out of all four elements and must therefore spend most of their time on the Material Plane.</p>
+        <p>Jann speak Common, one <a href="ch65s02.html#MonstersE-F7">elemental</a> language (Aquan, Auran, Ignan, or Terran) and one alignment language (Abyssal, Celestial, or <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>).</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1786027"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG23"/>
+          <p>Jann are physically strong and courageous, and do not take kindly to insult or injury. If they meet a foe they cannot defeat in a standup fight, they use flight and <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> to regroup and maneuver to a more advantageous position.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1786062"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG24"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>Change Size</em></span> (Sp):</strong></span> Twice per day, a <a href="ch66s02.html#MonstersG22">janni</a> can magically change a creature's size. This works just like an <span class="emphasis"><em><a href="ch45.html#SpellsD-E64">enlarge person</a></em></span> or <span class="emphasis"><em><a href="ch49.html#SpellsP-R54">reduce person</a></em></span> spell (the <a href="ch66s02.html#MonstersG22">janni</a> chooses when using the ability), except that the ability can work on the <a href="ch66s02.html#MonstersG22">janni</a>. A DC 13 Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1786147"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG25"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 3/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> (self only), <span class="emphasis"><em><a href="ch50.html#SpellsS50">speak with animals</a></em></span>. Caster level 12th. Once per day a <a href="ch66s02.html#MonstersG22">janni</a> can <span class="emphasis"><em><a href="ch44.html#SpellsC47">create food and water</a></em></span> (caster level 7th) and can use <span class="emphasis"><em><a href="ch45.html#SpellsD-E70">ethereal jaunt</a></em></span> (caster level 12th) for 1 hour. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1786231"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG26"/>
+            <p><span class="strong"><strong>Elemental Endurance (Ex):</strong></span> Jann can survive on the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Planes of Air, Earth, Fire, or Water for up to 48 hours. Failure to return to the Material Plane before that time expires causes a <a href="ch66s02.html#MonstersG22">janni</a> to take 1 point of damage per additional hour spent on the <a href="ch65s02.html#MonstersE-F7">elemental</a> plane, until it dies or returns to the Material Plane.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title">
+                  <a name="id1786294"/>
+                  <span class="strong">
+                    <strong>Jann as Characters</strong>
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG27"/>
+          <p><a href="ch66s02.html#MonstersG22">Janni</a> characters possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+6 Strength, +4 Dexterity, +2 Constitution, +4 Intelligence, +4 Wisdom, +2 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+              </li>
+            </ul>
+          </div>
+          <p>-A <a href="ch66s02.html#MonstersG22">janni's</a> base land speed is 30 feet. It also has a fly speed of 20 feet (perfect).</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>Darkvision out to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: A <a href="ch66s02.html#MonstersG22">janni</a> begins with six levels of <a href="ch04.html#TypesSubtypesAbilities49">outsider</a>, which provide 6d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +6, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Skills: A <a href="ch66s02.html#MonstersG22">janni's</a> <a href="ch04.html#TypesSubtypesAbilities49">outsider</a> levels give it skill points equal to 9 x (8 + Int modifier). Its class skills are <a href="ch16s03.html#CombinedSkills39">Appraise</a>, <a href="ch16s03.html#CombinedSkills78">Concentration</a>, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any), <a href="ch16s03.html#CombinedSkills137">Escape Artist</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills243">Ride</a>, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Feats: A <a href="ch66s02.html#MonstersG22">janni's</a> <a href="ch04.html#TypesSubtypesAbilities49">outsider</a> levels give it three feats. A <a href="ch66s02.html#MonstersG22">janni</a> receives <a href="ch17s03.html#Feats191">Improved Initiative</a> as a bonus feat.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+1 natural armor bonus.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): <span class="emphasis"><em>Change size</em></span>, <span class="emphasis"><em/></span> <a href="ch21s05.html#CombatI64">spell-like abilities.</a></p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> endurance, <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>, <span class="emphasis"><em/></span> <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a>. 100 ft.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common. Bonus Languages: Abyssal, Aquan, Auran, Celestial, Ignan, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, Terran.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Rogue.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Level adjustment +5.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch66.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (G) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Ghaele</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

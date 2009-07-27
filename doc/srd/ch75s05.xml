@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Demilich</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch75.html" title="Epic Monsters (A-E)"/>
+    <link rel="prev" href="ch75s04.html" title="Colossus"/>
+    <link rel="next" href="ch75s06.html" title="Devastation Vermin"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Demilich</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch75s04.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (A-E)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch75s06.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2387895"/>Demilich</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch75s05.html#id2389121">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s05.html#id2389964">Creating A Demilich</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s05.html#id2391702">Demilich Characters</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s05.html#id2391748">Creating Soul Gems</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(A-E)134"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2387913">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Demilich</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Diminutive</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>21d12 (130 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7 (+3 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 180 ft. (perfect)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>51 (+4 size, +3 Dex, +5 natural armor, +8 bracers of armor,  +2 ring of protection,  +21 insight), <a href="ch21s02.html#CombatI12">touch</a> 38, <a href="ch21s03.html#CombatI21">flat-footed</a> 48</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/-2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch21s02.html#CombatI12">Touch</a> +35 (10d6+20 plus paralyzing <a href="ch21s02.html#CombatI12">touch</a>) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch21s02.html#CombatI12">Touch</a> +35 (10d6+20 plus paralyzing <a href="ch21s02.html#CombatI12">touch</a>) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>1 ft./0 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Trap the soul, <a href="ch04.html#TypesSubtypesAbilities27">fear</a> aura, paralyzing <a href="ch21s02.html#CombatI12">touch</a>, 21st-level wizard spellcaster, Perfect <a href="ch18s02.html#EpicFeats27">Automatic Still Spell</a>, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Magic immunity, phylactery transference, <a href="ch04.html#TypesSubtypesAbilities75">turn resistance</a> +20, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/Epic and bludgeoning, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 20, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 20, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 20, immune to <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, electricity, polymorph, and mind-affecting <a href="ch21s05.html#CombatI41">attacks.</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +10, Ref +12, Will +17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 16 (with <span class="emphasis"><em>gloves</em></span>), Con -, Int 39 (with <span class="emphasis"><em>headband</em></span>), Wis 24, Cha 20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +25, <a href="ch16s03.html#CombinedSkills91">Craft</a> (alchemy) +34, <a href="ch16s03.html#CombinedSkills179">Hide</a> +35, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana, religion, the planes) +34, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (history) +26, <a href="ch16s03.html#CombinedSkills204">Listen</a> +27, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +23, <a href="ch16s03.html#CombinedSkills253">Search</a> +34, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +27, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +36, <a href="ch16s03.html#CombinedSkills294">Spot</a> +27</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats57">Brew Potion</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats87">Craft Wondrous Item</a>, <a href="ch17s03.html#Feats114">Enlarge Spell</a>, <a href="ch17s03.html#Feats161">Heighten Spell</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats251">Maximize Spell</a>, <a href="ch17s03.html#Feats290">Quicken Spell</a>, <a href="ch17s03.html#Feats309">Scribe Scroll</a>, <a href="ch17s03.html#Feats343">Spell Penetration</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats19">Automatic Quicken Spell</a>, <a href="ch18s02.html#EpicFeats34">Blinding Speed</a>, <a href="ch18s02.html#EpicFeats311">Improved Spell Capacity</a> (10th), <a href="ch18s02.html#EpicFeats531">Tenacious Magic</a> (any)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>29</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p><a href="ch02s02.html#Description13">Neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> speak the languages they knew as liches and as living creatures.<a href="img/EpicMonsters(A-E).Demilich.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Demilich.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2389121"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)135"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389140"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)136"/>
+          <p><span class="strong"><strong>Trap the Soul (Su):</strong></span> A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can trap the souls of up to eight living creatures per day. To use this power, it selects any target it can see within 300 feet. The target is allowed a Fortitude saving throw (DC 36). If the target makes its saving throw, it gains four negative levels (this does not count as a use of trap the soul). If the target fails its save, the soul of the target is instantly drawn from its body and trapped within one of the gems incorporated into the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> form. The gem gleams for 24 hours, indicating the captive soul within. The soulless body collapses in a mass of corruption and molders in a single round, reduced to dust. If left to its own devices, the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> slowly devours the soul over 24 hours-at the end of that time the soul is completely absorbed, and the victim is forever gone. If the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> is overcome before the soul is eaten, crushing the gem releases the soul, after which time it is free to seek the afterlife or be returned to its body by the use of either <span class="emphasis"><em><a href="ch49.html#SpellsP-R74">resurrection</a></em></span>, <span class="emphasis"><em><a href="ch51.html#SpellsT-Z23">true resurrection</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC22">clone</a></em></span>, <span class="emphasis"><em/></span> or <span class="emphasis"><em><a href="ch48.html#SpellsM-O38">miracle</a></em></span>. A potential victim protected by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E9">death ward</a></em></span> spell is not immune to trap the soul, but receives a +5 bonus on its Fortitude saving throw and is effective against the level loss on a successful save. The DC is Charisma-based</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389275"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)137"/>
+          <p><span class="strong"><strong>Fear Aura (Su):</strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> are shrouded in a dreadful aura of death and evil. Creatures of less than 5 HD in a 60-foot radius that look at the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> must succeed at a Will save (DC 19) or be affected as though by <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> as cast by a 21st-level caster. The DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389337"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)138"/>
+          <p><span class="strong"><strong>Paralyzing Touch (Su):</strong></span> Any living creature a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> touches must succeed at a Fortitude save (DC 36) or be permanently paralyzed. <span class="emphasis"><em><a href="ch49.html#SpellsP-R63">Remove paralysis</a></em></span> or any spell that can remove a curse can free the victim. The effect cannot be dispelled. Anyone paralyzed by a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> seems dead, though a successful <a href="ch16s03.html#CombinedSkills294">Spot</a> check (DC 20) or <a href="ch16s03.html#CombinedSkills171">Heal</a> check (DC 15) reveals that the victim is still alive.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389420"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)139"/>
+          <p><span class="strong"><strong>Spells:</strong></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can cast any spells it could cast as a lich. This sample <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> was a 21st-level wizard (spells per day: 4/12/8/7/7/7/7/6/6/6/3). The last three spell slots are 10th-level slots and available for 0-9th level metamagic spells.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389472"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)140"/>
+          <p><span class="strong"><strong>Perfect Automatic Still Spell (Ex):</strong></span> A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can cast all the spells it knows without gestures.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389512"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)141"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B9">alter self</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B28">astral projection</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC48">create greater undead</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC49">create undead</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E8">death knell</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E63">enervation</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L5">harm</a></em></span> (usually used to heal itself ), <span class="emphasis"><em>summon monster I-IX</em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z2">telekinesis</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z50">weird</a></em></span>; 2/day-<span class="emphasis"><em><a href="ch49.html#SpellsP-R12">greater planar ally</a></em></span>. <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> use these abilities as casters of a level equal to their spellcaster level, but the save DCs are all 36. The DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389676"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)142"/>
+          <p><span class="strong"><strong>Magic Immunity (Ex):</strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> are immune to all magical and supernatural effects, except as follows. A <span class="emphasis"><em><a href="ch50.html#SpellsS27">shatter</a></em></span> spell affects a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> as if it were a crystalline creature, but deals half the damage normally indicated. A <span class="emphasis"><em><a href="ch45.html#SpellsD-E41">dispel evil</a></em></span> spell deals 3d6 points of damage (Fort save for half damage). <span class="emphasis"><em><a href="ch47.html#SpellsH-L25">Holy smite</a></em></span> spells affect <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a> normally.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389769"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)143"/>
+          <p><span class="strong"><strong>Phylactery Transference (Su):</strong></span> Headbands, belts, rings, cloaks, and other wearable items kept in close association with the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> phylactery transfer all their benefits to the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> no matter how far apart the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> and the phylactery are located. The standard limits on types of items utilized simultaneously still apply. The sample <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> 'wears' <span class="emphasis"><em>bracers of armor +8</em></span>,  <span class="emphasis"><em>headband of intellect +6</em></span>,  <span class="emphasis"><em>pink Ioun stone</em></span>,  <span class="emphasis"><em>ring of wizardry</em></span> I, <span class="emphasis"><em>ring of protection +2</em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em>gloves of Dexterity +2</em></span>. </p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389872"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)144"/>
+          <p><span class="strong"><strong>Undead Traits:</strong></span> Immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive dam-age, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2389921"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)145"/>
+          <p><span class="strong"><strong>Immunities (Ex):</strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> are immune to cold, electricity, polymorph, and mind-affecting attacks.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2389964"/>Creating A Demilich</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)146"/>
+        <p>'Demilich' is a tem-plate that can be added to any lich. It uses all the lich's statistics and special abilities except as noted here. A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> form is concentrated into a single portion of its original body, usually its skull. Part of the process of becoming a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> includes the incorporation of costly gems into the retained body part; see Creating Soul Gems, below.</p>
+        <p>Size: Medium-size and Large liches become Diminutive <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a>, Huge liches become Small <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a>, Gargantuan liches become Medium-size <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a>, and Colossal liches become Large <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a>.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390054"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)147"/>
+          <p><span class="strong"><strong>Hit Dice:</strong></span> As lich.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390083"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)148"/>
+          <p><span class="strong"><strong>Speed:</strong></span> Replace with fly 180 ft. (perfect) or the lich's supernatural (not natural) fly speed, whichever is better.</p>
+          <p><span class="strong"><strong>AC:</strong></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> retains the lich's +5 natural armor bonus and gains an insight bonus equal to AC equal to its Hit Dice, as well as a probable size adjustment to AC.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390133"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)149"/>
+          <p><span class="strong"><strong>Attack:</strong></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> gains an insight bonus equal to its Hit Dice as a bonus on its touch attacks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390172"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)150"/>
+          <p><span class="strong"><strong>Damage:</strong></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> gains an enhanced touch attack over that of its previous lich form (it now uses its entire flying skull to make the touch attack), including paralyzing touch. The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> touch attack uses negative energy to deal 10d6+20 points of damage to living creatures (no saving throw). Liches with other natural attacks lose them.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390225"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)151"/>
+          <p><span class="strong"><strong>Special Attacks:</strong></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> retains all the lich's special attacks and also gains those described below.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390264"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)152"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Trap the Soul (Su):</em></span></strong></span> A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can trap the souls of up to eight living creatures per day. To use this power, it selects any target it can see within 300 feet. The target is allowed a Fort saving throw (DC 10 + <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> HD + <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> Cha modifier). If the target makes its saving throw, it gains four negative levels (this does not count as a use of trap the soul). If the target fails its save, the soul of the target is instantly drawn from its body and trapped within one of the gems incorporated into the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> form. The gem gleams wickedly for 24 hours, indicating the captive soul within. The soulless body collapses in a mass of corruption and molders in a single round, reduced to dust. If left to its own devices, the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> slowly devours the soul over 24 hours-at the end of that time the soul is completely absorbed, and the victim is forever gone. If the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> is overcome before the soul is eaten, crushing the gem releases the soul, after which time it is free to seek the afterlife or be returned to its body by the use of either <span class="emphasis"><em><a href="ch49.html#SpellsP-R74">resurrection</a></em></span>, <span class="emphasis"><em><a href="ch51.html#SpellsT-Z23">true resurrection</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC22">clone</a></em></span>, <span class="emphasis"><em/></span> or <span class="emphasis"><em><a href="ch48.html#SpellsM-O38">miracle</a></em></span>. If the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> is overcome before the soul is eaten, crushing the gem releases the soul, after which time it is free to seek the afterlife or be returned to its body by the use of either <span class="emphasis"><em><a href="ch49.html#SpellsP-R74">resurrection</a></em></span>, <span class="emphasis"><em><a href="ch51.html#SpellsT-Z23">true resurrection</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC22">clone</a></em></span>, <span class="emphasis"><em/></span> or <span class="emphasis"><em><a href="ch48.html#SpellsM-O38">miracle</a></em></span>. A potential victim protected by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E9">death ward</a></em></span> spell is not immune to trap the soul, but receives a +5 bonus on its Fortitude saving throw and is effective against the level loss on a successful save.</p>
+          <p><span class="strong"><strong><span class="emphasis"><em>Fear Aura (Su):</em></span> </strong></span><a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> are shrouded in a dreadful aura of death and evil. Creatures of less than 5 HD in a 60- foot radius that look at the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> must succeed at a Will save (DC 14 + <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> Cha modifier) or be affected as though by <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> as cast by a 21st-level caster.</p>
+          <p><span class="strong"><strong><span class="emphasis"><em>Paralyzing Touch (Su):</em></span> </strong></span>Any living creature a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> touches must succeed at a Fortitude save (DC 10 + <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> HD + <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> Cha modifier) or be permanently paralyzed. <span class="emphasis"><em><a href="ch49.html#SpellsP-R63">Remove paralysis</a></em></span> or any spell that can remove a curse can free the victim. The effect cannot be dispelled. Anyone paralyzed by a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> seems dead, though a successful <a href="ch16s03.html#CombinedSkills294">Spot</a> check (DC 20) or <a href="ch16s03.html#CombinedSkills171">Heal</a> check (DC 15) reveals that the victim is still alive.</p>
+          <p>Spells: The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can cast any spells it could cast as a lich.</p>
+          <p><span class="emphasis"><em>Perfect Automatic Still Spell:</em></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can cast all the spells it knows without gestures.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390653"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)153"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B9">alter self</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B28">astral projection</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC48">create greater undead</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC49">create undead</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E8">death knell</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E63">enervation</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L5">harm</a></em></span> (usually used to heal itself ), <span class="emphasis"><em>summon monster I-IX</em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z2">telekinesis</a></em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em><a href="ch51.html#SpellsT-Z50">weird</a></em></span>; 2/day- <span class="emphasis"><em><a href="ch49.html#SpellsP-R12">greater planar ally</a></em></span>. <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> use these abilities as casters of a level equal to their spellcaster level, but the save DCs are equal to 10 + the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> HD + the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> Charisma modifier.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390840"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)154"/>
+          <p><span class="strong"><strong>Special Qualities:</strong></span> The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> retains all the lich's special qualities and also has those described below.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390880"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)155"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Magic Immunity (Ex):</em></span></strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> are immune to all magical and supernatural effects, except as follows. A <span class="emphasis"><em><a href="ch50.html#SpellsS27">shatter</a></em></span> spell affects a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> as if it were a crystalline creature, but deals half the damage normally indicated. A <span class="emphasis"><em><a href="ch45.html#SpellsD-E41">dispel evil</a></em></span> spell deals 3d6 points of damage (Fort save for half damage). <span class="emphasis"><em><a href="ch47.html#SpellsH-L25">Holy smite</a></em></span> spells affect <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a> normally.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2390975"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)156"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Phylactery Transference (Su):</em></span></strong></span> Headbands, belts, rings, cloaks, and other wearable items kept in close association with the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> phylactery transfer all their benefits to the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> no matter how far apart the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> and the phylactery are located. The standard limits on types of items utilized simultaneously still apply.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391038"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)157"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Undead Traits:</em></span></strong></span> Immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391088"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)158"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Immunities (Ex):</em></span></strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> are immune to cold, electricity, polymorph, and mind-affecting attacks.</p>
+          <p><span class="strong"><strong><span class="emphasis"><em>Turn Resistance (Ex):</em></span> </strong></span>A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> has turn resistance +20.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391150"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)159"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Damage Reduction (Su):</em></span></strong></span> A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> loses any previous damage reduction and instead has damage reduction 15/Epic and bludgeoning (15  points of damage is subtracted from all melee attacks unless the weapon used is both an epic and a bludgeoning weapon). Vorpal weapons, no matter their enhancement bonus, ignore this damage reduction but do only half damage to a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> (<a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a> cannot be beheaded).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391215"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)160"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Resistances (Ex):</em></span></strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> have acid resistance 20, fire resistance 20, and sonic resistance 20.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391256"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)161"/>
+          <p><span class="strong"><strong>Saves:</strong></span> Same as the lich.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391284"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)162"/>
+          <p><span class="strong"><strong>Abilities:</strong></span> A <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> gains +10 to Intelligence, Wisdom, and Charisma.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391323"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)163"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> receive a +20 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills253">Search</a>, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks. Otherwise same as the lich (this overlaps with the previous racial bonus gained by the lich; it does not stack).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391422"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)164"/>
+          <p><span class="strong"><strong>Feats:</strong></span> Same as the lich.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391450"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)165"/>
+          <p><span class="strong"><strong>Epic Feats:</strong></span> <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> gain the feats <a href="ch18s02.html#EpicFeats34">Blinding Speed</a>, <a href="ch18s02.html#EpicFeats531">Tenacious Magic</a>, and <a href="ch18s02.html#EpicFeats19">Automatic Quicken Spell</a>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391517"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)166"/>
+          <p><span class="strong"><strong>Environment:</strong></span> Same as the lich.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391546"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)167"/>
+          <p><span class="strong"><strong>Organization:</strong></span> Solitary or consistory (1 <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> and 3-6 liches).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391584"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)168"/>
+          <p><span class="strong"><strong>Challenge Rating:</strong></span> Same as the lich + 6.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391614"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)169"/>
+          <p><span class="strong"><strong>Treasure:</strong></span> Same as the lich.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391642"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)170"/>
+          <p><span class="strong"><strong>Alignment:</strong></span> Any evil.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2391670"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)171"/>
+          <p><span class="strong"><strong>Advancement:</strong></span> By character class.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2391702"/>Demilich Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)172"/>
+        <p>The process of becoming a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> can be undertaken only by a lich acting of its own free will. The <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> retains all class abilities it had as a lich.</p>
+        <p/>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2391748"/>Creating Soul Gems</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)173"/>
+        <p>Liches have phylacteries that allow them to reappear 1d10 days after their apparent death, as do <a href="ch75s05.html#EpicMonsters(A-E)134">demiliches</a>. <a href="ch75s05.html#EpicMonsters(A-E)134">Demiliches</a> also have eight soul gems, each of which acts like a phylactery in its own right. If all the soul gems, as well as the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich's</a> phylactery, are not destroyed after a <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> is downed, the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> reappears 1d10 days after its apparent death. The soul gems also allow the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> to use its most devastating ability, trap the soul (see above). Each <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a> must make its own soul gems, which requires the <a href="ch17s03.html#Feats87">Craft Wondrous Item</a> feat. The lich must be a sorcerer, wizard, or cleric of at least 21st level. Each soul gem costs 120,000 gp and 4,800 XP to create and has a caster level equal to that of its creator at the time of creation. Soul gems appear as egg-shaped gems of wondrous quality. They are always incorporated directly into the concentrated form of the <a href="ch75s05.html#EpicMonsters(A-E)134">demilich</a>.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch75s04.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch75.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch75s06.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Colossus </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Devastation Vermin</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

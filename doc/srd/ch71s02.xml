@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Salamander</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch71.html" title="Monsters (S)"/>
+    <link rel="prev" href="ch71.html" title="Monsters (S)"/>
+    <link rel="next" href="ch71s03.html" title="Satyr"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Salamander</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch71.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (S)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch71s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2160446"/>Salamander</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch71s02.html#id2162960">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersS13"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2160464">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Flamebrother Salamander</strong></span></p></td>
+<td><p><span class="strong"><strong>Average Salamander</strong></span></p></td>
+<td><p><span class="strong"><strong>Noble Salamander</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+8 (26 hp)</p></td>
+<td><p>9d8+18 (58 hp)</p></td>
+<td><p>15d8+45 (112 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+<td><p>+1</p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>19 (+1 size, +1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+<td><p>18 (+1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>18 (-1 size, +1 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+1</p></td>
+<td><p>+9/+11</p></td>
+<td><p>+15/+25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Spear +6 melee (1d6+1/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Spear +11 melee (1d8+3/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p><span class="emphasis"><em>+3 longspear</em></span> +23 melee (1d8+9/x3 plus 1d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Spear +6 melee (1d6+1/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) and tail slap +4 melee (1d4 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Spear +11/+6 melee (1d8+3/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) and tail slap +9 melee (2d6+1 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p><span class="emphasis"><em>+3 longspear</em></span> +23/+18/+13 melee (1d8+9/x3 plus 1d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) and tail slap +18 melee (2d8+3 plus 1d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft. (10 ft. with tail)</p></td>
+<td><p>10 ft./10 ft. (20 ft. with tail or longspear)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d4 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, heat, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 2d6+1 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, heat, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 2d8+3 plus 1d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, heat, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/magic, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 15/magic, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +5, Will +6</p></td>
+<td><p>Fort +8, Ref +7, Will +8</p></td>
+<td><p>Fort +12, Ref +10, Will +11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 12, Dex 13, Con 14, Int 14, Wis 15, Cha 13</p></td>
+<td><p>Str 14, Dex 13, Con 14, Int 14, Wis 15, Cha 13</p></td>
+<td><p>Str 22, Dex 13, Con 16, Int 16, Wis 15, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) +8, <a href="ch16s03.html#CombinedSkills179">Hide</a> +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +11, <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) +19, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +1 (+3 acting), <a href="ch16s03.html#CombinedSkills179">Hide</a> +11, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +11,<a href="ch16s03.html#CombinedSkills253">Search</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +19, <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) +25, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +15, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +17, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats329">Skill Focus</a> (<a href="ch16s03.html#CombinedSkills91">Craft</a> [blacksmithing])</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or cluster (3-5)</p></td>
+<td><p>Solitary, pair, or cluster (3-5)</p></td>
+<td><p>Solitary, pair, or noble party (9-14)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>6</p></td>
+<td><p>10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard (nonflammables only)</p></td>
+<td><p>Standard (nonflammables only)</p></td>
+<td><p>Double standard (nonflammables only) and <span class="emphasis"><em>+3 longspear</em></span></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch04.html#TypesSubtypesAbilities24">evil</a> (any)</p></td>
+<td><p>Usually <a href="ch04.html#TypesSubtypesAbilities24">evil</a> (any)</p></td>
+<td><p>Usually <a href="ch04.html#TypesSubtypesAbilities24">evil</a> (any)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>8-14 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>16-21 HD (<a href="ch22.html#CombatII28">Large</a>); 22-45 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+<td><p>+5</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <p><a href="ch71s02.html#MonstersS13">Salamanders</a> speak Ignan. Some average <a href="ch71s02.html#MonstersS13">salamanders</a> and all nobles also speak Common.<a href="img/MonstersS.Salamander.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Salamander.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2162960"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS14"/>
+        <p>If a <a href="ch71s02.html#MonstersS13">salamander</a> has damage reduction, its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2163538"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS15"/>
+          <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch71s02.html#MonstersS13">salamander</a> deals automatic tail slap damage (including fire damage) with a successful grapple check. A noble <a href="ch71s02.html#MonstersS13">salamander</a> can constrict multiple creatures simultaneously, provided they are all at least two sizes smaller than it.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2163994"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS16"/>
+          <p><span class="strong"><strong>Heat (Ex):</strong></span> A <a href="ch71s02.html#MonstersS13">salamander</a> generates so much heat that its mere touch deals additional fire damage. <a href="ch71s02.html#MonstersS13">Salamanders'</a> metallic weapons also conduct this heat.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2164042"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS17"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch71s02.html#MonstersS13">salamander</a> must hit a creature of up to one size larger than itself with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2164084"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS18"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> (Noble <a href="ch71s02.html#MonstersS13">salamanders</a> only) 3/day-<span class="emphasis"><em><a href="ch43.html#SpellsA-B53">burning hands</a></em></span> (DC 13), <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch46.html#SpellsF-G20">flaming sphere</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z38">wall of fire</a></em></span> (DC 16); 1/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS83">summon monster VII</a></em></span> (Huge <a href="ch65s02.html#MonstersE-F18">fire elemental</a>). Caster level 15th. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2164197"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS19"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch71s02.html#MonstersS13">Salamanders</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) checks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2164245"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS20"/>
+          <p><span class="strong"><strong>Feats:</strong></span> <a href="ch71s02.html#MonstersS13">Salamanders</a> have the <a href="ch20.html#MonsterFeats31">Multiattack</a> feat even though they do not have the requisite three natural weapons.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch71.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch71.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch71s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (S) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Satyr</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

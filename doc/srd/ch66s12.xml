@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Golem</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch66.html" title="Monsters (G)"/>
+    <link rel="prev" href="ch66s11.html" title="Goblin"/>
+    <link rel="next" href="ch66s13.html" title="Gorgon"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Golem</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66s11.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (G)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66s13.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1810083"/>Golem</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch66s12.html#id1810184">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect3">
+              <a href="ch66s12.html#id1810425">Construction</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s12.html#id1810622">Clay Golem</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s12.html#id1812253">Flesh Golem</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s12.html#id1813664">Iron Golem</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s12.html#id1814893">Stone Golem</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect3">
+                  <a href="ch66s12.html#id1816152">Construction</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s12.html#id1816258">Greater Stone Golem</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersG141"/>
+      <p><a href="ch76s04.html#EpicMonsters(G-W)25">Golems</a> are magically created automatons of great power. Constructing one involves the employment of mighty magic and <a href="ch65s02.html#MonstersE-F7">elemental</a> forces.<a href="img/MonstersG.Golem.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Golem.jpg" align="right"/></span></a></p>
+      <p>The animating force for a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> is a spirit from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Earth. The process of creating the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> binds the unwilling spirit to the artificial body and subjects it to the will of the <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creator.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1810184"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG142"/>
+        <p><a href="ch76s04.html#EpicMonsters(G-W)25">Golems</a> are tenacious in combat and prodigiously strong as well. Being mindless, they do nothing without orders from their creators. They follow instructions explicitly and are incapable of any strategy or tactics. They are emotionless in combat and cannot be provoked.</p>
+        <p>A <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creator can command it if the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> is within 60 feet and can see and hear its creator. If uncommanded, a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> usually follows its last instruction to the best of its ability, though if attacked it returns the attack. The creator can give the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> a simple command to govern its actions in his or her absence. The <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creator can order the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> to obey the commands of another person (who might in turn place the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> under someone else's control, and so on), but the <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creator can always resume control over his creation by commanding the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> to obey him alone.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1810384"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG143"/>
+          <p><span class="strong"><strong>Immunity to Magic (Ex):</strong></span> <a href="ch76s04.html#EpicMonsters(G-W)25">Golems</a> have immunity to most magical and supernatural effects, except when otherwise noted.</p>
+        </div>
+      </div>
+      <div class="sect3" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a name="id1810425"/>Construction</h4>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG144"/>
+        <p>The cost to create given for each <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> includes the cost of the physical body and all the materials and spell components that are consumed or become a permanent part of the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a>. Creating a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> is essentially similar to creating any sort of magic item. However, a <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> body includes costly material components that may require some extra preparation. The <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creator can assemble the body or hire someone else to do the job. The builder must have the appropriate skill, which varies with the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> variety.</p>
+        <p>Completing the <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creation drains the appropriate XP from the creator and requires casting any spells on the final day.</p>
+        <p>The creator must cast the spells personally, but they can come from outside sources, such as scrolls.</p>
+        <p>The characteristics of a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> that come from its nature as a magic item (caster level, prerequisite feats and spells, market price, cost to create) are given in summary form at the end of each <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> description.</p>
+        <p><span class="emphasis"><em>Note:</em></span> The market price of an advanced <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> (a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> with more Hit Dice than the typical <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> described in each entry) is increased by 5,000 gp for each additional Hit Die, and increased by an additional 50,000 gp if the <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> size increases. The XP cost for creating an advanced <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> is equal to 1/25 the advanced <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> market price minus the cost of the special materials required.</p>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1810622"/>Clay Golem</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1811620">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1812148">Construction</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG145"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1810641">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Clay Golem</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>11d10+30 (90 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (-1 size, -1 Dex, +14 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 22</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+19</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +14 melee (2d10+7 plus cursed wound)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +14 melee (2d10+7 plus cursed wound)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Berserk, cursed wound</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch24.html#SpecialMaterials3">adamantine</a> and bludgeoning, darkvision 60 ft., haste, immunity to magic, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +2, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 9, Con -, Int -, Wis 11, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>12-18 HD (<a href="ch22.html#CombatII28">Large</a>); 19-33 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>This <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> has a humanoid body made from clay. A <a href="ch66s12.html#MonstersG145">clay golem</a> wears no clothing except for a metal or stiff leather garment around its hips.</p>
+        <p>A <a href="ch66s12.html#MonstersG145">clay golem</a> <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> cannot speak or make any vocal noise. It walks and moves with a slow, clumsy gait. It weighs around 600 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1811620"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG146"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1811639"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG147"/>
+            <p><span class="strong"><strong>Berserk (Ex):</strong></span> When a <a href="ch66s12.html#MonstersG145">clay golem</a> enters combat, there is a cumulative 1% chance each round that its <a href="ch65s02.html#MonstersE-F7">elemental</a> spirit breaks free and the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> goes berserk. The uncontrolled <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. Once a <a href="ch66s12.html#MonstersG145">clay golem</a> goes berserk, no known method can reestablish control.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1811857"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG148"/>
+            <p><span class="strong"><strong>Cursed Wound (Ex):</strong></span> The damage a <a href="ch66s12.html#MonstersG145">clay golem</a> deals doesn't heal naturally and resists healing spells. A character attempting to cast a conjuration (healing) spell on a creature damaged by a <a href="ch66s12.html#MonstersG145">clay golem</a> must succeed on a DC 26 caster level check, or the spell has no effect on the injured character.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1811906"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG149"/>
+            <p><span class="strong"><strong>Immunity to Magic (Ex):</strong></span> A <a href="ch66s12.html#MonstersG145">clay golem</a> is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+            <p>A <span class="emphasis"><em><a href="ch48.html#SpellsM-O47">move earth</a></em></span> spell drives the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> back 120 feet and deals 3d12 points of damage to it.</p>
+            <p>A <span class="emphasis"><em><a href="ch45.html#SpellsD-E38">disintegrate</a></em></span> spell slows the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> (as the <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell) for 1d6 rounds and deals 1d12 points of damage.</p>
+            <p>An <span class="emphasis"><em><a href="ch45.html#SpellsD-E59">earthquake</a></em></span> spell cast directly at a <a href="ch66s12.html#MonstersG145">clay golem</a> stops it from moving on its next turn and deals 5d10 points of damage. The <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> gets no saving throw against any of these effects.</p>
+            <p>Any magical attack against a <a href="ch66s12.html#MonstersG145">clay golem</a> that deals acid damage heals 1 point of damage for every 3 points of damage it would otherwise deal. If the amount of healing would cause the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> to exceed its full normal hit points, it gains any excess as temporary hit points. For example, a <a href="ch66s12.html#MonstersG145">clay golem</a> hit by the breath weapon of a <a href="ch64.html#MonstersDr-Dw26">black dragon</a> heals 7 points of damage if the attack would have dealt 22 points of damage. A <a href="ch66s12.html#MonstersG145">clay golem</a> <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> gets no saving throw against magical attacks that deal acid damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1812106"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG150"/>
+            <p><span class="strong"><strong>Haste (Su):</strong></span> After it has engaged in at least 1 round of combat, a <a href="ch66s12.html#MonstersG145">clay golem</a> can haste itself once per day as a free action. The effect lasts 3 rounds and is otherwise the same as the spell.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1812148"/>Construction</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG151"/>
+          <p>A <a href="ch66s12.html#MonstersG145">clay golem's</a> body must be sculpted from a single block of clay weighing at least 1,000 pounds, treated with rare oils and powders worth 1,500 gp. Creating the body requires a DC 15 <a href="ch16s03.html#CombinedSkills91">Craft</a> (sculpting) check or a DC 15 <a href="ch16s03.html#CombinedSkills91">Craft</a> (pottery) check.</p>
+          <p>CL 11th; <a href="ch20.html#MonsterFeats9">Craft Construct</a>, <span class="emphasis"><em><a href="ch43.html#SpellsA-B16">animate objects</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC29">commune</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R74">resurrection</a></em></span>, caster must be at least 11th level<span class="emphasis"><em/></span>; Price 40,000 gp; Cost 21,500 gp + 1,540 XP.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1812253"/>Flesh Golem</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1813263">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1813537">Construction</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG152"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1812272">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Flesh Golem</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d10+30 (79 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, -1 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +10 melee (2d8+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +10 melee (2d8+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Berserk</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/<a href="ch24.html#SpecialMaterials3">adamantine</a>, darkvision 60 ft., immunity to magic, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +2, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 9, Con -, Int -, Wis 11, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>10-18 HD (<a href="ch22.html#CombatII28">Large</a>); 19-27 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch66s12.html#MonstersG152">flesh golem</a> is a ghoulish collection of stolen humanoid body parts, stitched together into a single composite form. No natural animal willingly tracks a <a href="ch66s12.html#MonstersG152">flesh golem</a>. The <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> wears whatever clothing its creator desires, usually just a ragged pair of trousers. It has no possessions and no weapons. It stands 8 feet tall and weighs almost 500 pounds.</p>
+        <p>A <a href="ch66s12.html#MonstersG152">flesh golem</a> <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> cannot speak, although it can emit a hoarse roar of sorts. It walks and moves with a stiff-jointed gait, as if not in complete control of its body.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1813263"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG153"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1813281"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG154"/>
+            <p><span class="strong"><strong>Berserk (Ex):</strong></span> When a <a href="ch66s12.html#MonstersG152">flesh golem</a> enters combat, there is a cumulative 1% chance each round that its <a href="ch65s02.html#MonstersE-F7">elemental</a> spirit breaks free and the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> goes berserk. The uncontrolled <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> goes on a rampage, attacking the nearest living creature or smashing some object smaller than itself if no creature is within reach, then moving on to spread more destruction. The <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> creator, if within 60 feet, can try to regain control by speaking firmly and persuasively to the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a>, which requires a DC 19 Charisma check. It takes 1 minute of inactivity by the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> to reset the <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> berserk chance to 0%.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1813393"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG155"/>
+            <p><span class="strong"><strong>Immunity to Magic (Ex):</strong></span> A <a href="ch66s12.html#MonstersG152">flesh golem</a> is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+            <p>A magical attack that deals cold or fire damage slows a <a href="ch66s12.html#MonstersG152">flesh golem</a> (as the <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell) for 2d6 rounds, with no saving throw.</p>
+            <p>A magical attack that deals electricity damage breaks any <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> effect on the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> and heals 1 point of damage for every 3 points of damage the attack would otherwise deal. If the amount of healing would cause the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> to exceed its full normal hit points, it gains any excess as temporary hit points. For example, a <a href="ch66s12.html#MonstersG152">flesh golem</a> hit by a <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span> heals 3 points of damage if the attack would have dealt 11 points of damage. A <a href="ch66s12.html#MonstersG152">flesh golem</a> <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> gets no saving throw against attacks that deal electricity damage.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1813537"/>Construction</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG156"/>
+          <p>The pieces of a <a href="ch66s12.html#MonstersG152">flesh golem</a> must come from normal human corpses that have not decayed significantly. Assembly requires a minimum of six different bodies-one for each limb, the torso (including head), and the brain. In some cases, more bodies may be necessary. Special unguents and bindings worth 500 gp are also required. Note that creating a <a href="ch66s12.html#MonstersG152">flesh golem</a> requires casting a spell with the evil descriptor.</p>
+          <p>Assembling the body requires a DC 13 <a href="ch16s03.html#CombinedSkills91">Craft</a> (leatherworking) check or a DC 13 <a href="ch16s03.html#CombinedSkills171">Heal</a> check.</p>
+          <p>CL 8th; <a href="ch20.html#MonsterFeats9">Craft Construct</a>, <span class="emphasis"><em><a href="ch43.html#SpellsA-B15">animate dead</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B51">bull's strength</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>, caster must be at least 8th level<span class="emphasis"><em/></span>; Price 20,000 gp; Cost 10,500 gp + 780 XP.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1813664"/>Iron Golem</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1814560">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1814776">Construction</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG157"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1813682">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Iron Golem</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>18d10+30 (129 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>30 (-1 size, -1 Dex, +22 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 30</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+28</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +23 melee (2d10+11)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +23 melee (2d10+11)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/<a href="ch24.html#SpecialMaterials3">adamantine</a>, darkvision 60 ft., immunity to magic, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +5, Will +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 33, Dex 9, Con -, Int -, Wis 11, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>19-24 HD (<a href="ch22.html#CombatII28">Large</a>); 25-54 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>This <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> has a humanoid body made from iron. An <a href="ch66s12.html#MonstersG157">iron golem</a> can be fashioned in any manner, just like a <a href="ch66s12.html#MonstersG162">stone golem</a> (see below), although it almost always displays armor of some sort. Its features are much smoother than those of a <a href="ch66s12.html#MonstersG162">stone golem</a>. <a href="ch66s12.html#MonstersG157">Iron golems</a> sometimes carry a short sword in one hand. An <a href="ch66s12.html#MonstersG157">iron golem</a> is 12 feet tall and weighs about 5,000 pounds. An <a href="ch66s12.html#MonstersG157">iron golem</a> cannot speak or make any vocal noise, nor does it have any distinguishable odor. It moves with a ponderous but smooth gait. Each step causes the floor to tremble unless it is on a thick, solid foundation.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1814560"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG158"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1814579"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG159"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cube, cloud of poisonous gas lasting 1 round, free action once every 1d4+1 rounds; initial damage 1d4 Con, secondary damage 3d4 Con, Fortitude DC 19 negates. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1814610"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG160"/>
+            <p><span class="strong"><strong>Immunity to Magic (Ex):</strong></span> An <a href="ch66s12.html#MonstersG157">iron golem</a> is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+            <p>A magical attack that deals electricity damage slows an <a href="ch66s12.html#MonstersG157">iron golem</a> (as the <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell) for 3 rounds, with no saving throw.</p>
+            <p>A magical attack that deals fire damage breaks any <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> effect on the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> to exceed its full normal hit points, it gains any excess as temporary hit points. For example, an <a href="ch66s12.html#MonstersG157">iron golem</a> hit by a <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span> gains back 6 hit points if the damage total is 18 points. An <a href="ch66s12.html#MonstersG157">iron golem</a> gets no saving throw against fire effects.</p>
+            <p>An <a href="ch66s12.html#MonstersG157">iron golem</a> is affected normally by rust attacks, such as that of a <a href="ch70s21.html#MonstersO-R146">rust monster</a> or a <span class="emphasis"><em><a href="ch49.html#SpellsP-R78">rusting grasp</a></em></span> spell.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1814776"/>Construction</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG161"/>
+          <p>An <a href="ch66s12.html#MonstersG157">iron golem's</a> body is sculpted from 5,000 pounds of pure iron, smelted with rare tinctures and admixtures costing at least 10,000 gp. Assembling the body requires a DC 20 <a href="ch16s03.html#CombinedSkills91">Craft</a> (armorsmithing) check or a DC 20 <a href="ch16s03.html#CombinedSkills91">Craft</a> (weaponsmithing) check.</p>
+          <p>CL 16th; <a href="ch20.html#MonsterFeats9">Craft Construct</a>, <span class="emphasis"><em><a href="ch44.html#SpellsC23">cloudkill</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R22">polymorph any object</a></em></span>, caster must be at least 16th level<span class="emphasis"><em/></span>; Price 150,000 gp; Cost 80,000 gp + 5,600 XP.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1814893"/>Stone Golem</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s12.html#id1815967">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect3">
+                <a href="ch66s12.html#id1816152">Construction</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG162"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1814911">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Stone Golem</strong></span></p></td> <td><p><span class="strong"><strong>Greater Stone Golem</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>14d10+30 (107 hp)</p></td>
+<td><p>42d10+40 (271 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+<td><p>-2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>26 (-1 size, -1 Dex, +18 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 26</p></td>
+<td><p>27 (-2 size, -2 Dex, +21 natural), <a href="ch21s02.html#CombatI12">touch</a> 6, <a href="ch21s03.html#CombatI21">flat-footed</a> 27</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/+23</p></td>
+<td><p>+31/+52</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +18 melee (2d10+9)</p></td>
+<td><p>Slam +42 melee (4d8+13)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +18 melee (2d10+9)</p></td>
+<td><p>2 slams +42 melee (4d8+13)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Slow</p></td>
+<td><p>Slow</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch24.html#SpecialMaterials3">adamantine</a>, darkvision 60 ft., immunity to magic, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch24.html#SpecialMaterials3">adamantine</a>, darkvision 60 ft., immunity to magic, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +3, Will +4</p></td>
+<td><p>Fort +14, Ref +12, Will +14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 29, Dex 9, Con -, Int -, Wis 11, Cha 1</p></td>
+<td><p>Str 37, Dex 7, Con -, Int -, Wis 11, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>11</p></td>
+<td><p>16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>15-21 HD (<a href="ch22.html#CombatII28">Large</a>); 22-42 (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>This <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> has a humanoid body made from stone. A <a href="ch66s12.html#MonstersG162">stone golem</a> is 9 feet tall and weighs around 2,000 pounds. Its body is frequently stylized to suit its creator. For example, it might look like it is wearing armor, with a particular symbol carved on the breastplate, or have designs worked into the stone of its limbs.<a href="img/MonstersG.Stone_Golem.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Stone_Golem.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1815967"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG163"/>
+          <p><a href="ch66s12.html#MonstersG162">Stone golems</a> are formidable opponents, being physically powerful and difficult to harm.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1815997"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG164"/>
+            <p><span class="strong"><strong>Slow (Su):</strong></span> A <a href="ch66s12.html#MonstersG162">stone golem</a> can use a slow effect, as the spell, as a free action once every 2 rounds. The effect has a range of 10 feet and a duration of 7 rounds, requiring a DC 17 Will save to negate. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1816038"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG165"/>
+            <p><span class="strong"><strong>Immunity to Magic (Ex):</strong></span> A <a href="ch66s12.html#MonstersG162">stone golem</a> is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.</p>
+            <p>A <span class="emphasis"><em><a href="ch51.html#SpellsT-Z18">transmute rock to mud</a></em></span> spell slows a <a href="ch66s12.html#MonstersG162">stone golem</a> (as the <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell) for 2d6 rounds, with no saving throw, while <span class="emphasis"><em><a href="ch51.html#SpellsT-Z17">transmute mud to rock</a></em></span> heals all of its lost hit points.</p>
+            <p>A <span class="emphasis"><em><a href="ch50.html#SpellsS72">stone to flesh</a></em></span> spell does not actually change the <a href="ch76s04.html#EpicMonsters(G-W)25">golem's</a> structure but negates its damage reduction and immunity to magic for 1 full round.</p>
+          </div>
+        </div>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id1816152"/>Construction</h4>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG166"/>
+          <p>A <a href="ch66s12.html#MonstersG162">stone golem's</a> body is chiseled from a single block of hard stone, such as granite, weighing at least 3,000 pounds. The stone must be of exceptional quality, and costs 5,000 gp. Assembling the body requires a DC 17 <a href="ch16s03.html#CombinedSkills91">Craft</a> (sculpting) check or a DC 17 <a href="ch16s03.html#CombinedSkills91">Craft</a> (stonemasonry) check.</p>
+          <p>CL 14th; <a href="ch20.html#MonsterFeats9">Craft Construct</a>, <span class="emphasis"><em><a href="ch43.html#SpellsA-B20">antimagic field</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS104">symbol of stunning</a></em></span>, caster must be at least 14th level<span class="emphasis"><em/></span>; Price 90,000 gp; Cost 50,000 gp + 3,400 XP.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1816258"/>Greater Stone Golem</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG167"/>
+        <p>A <a href="ch66s12.html#MonstersG167">greater stone golem</a> is 18 feet tall and weighs around 32,000 pounds. It resembles a typical <a href="ch66s12.html#MonstersG162">stone golem</a> in all respects, except that the Will save DC is 31 against its slow ability. CL 14th; <a href="ch20.html#MonsterFeats9">Craft Construct</a>, <span class="emphasis"><em><a href="ch43.html#SpellsA-B20">antimagic field</a></em></span> <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS104">symbol of stunning</a></em></span>, caster must be at least 14th level<span class="emphasis"><em/></span>; Price 196,000 gp; Cost 105,000 gp + 7,640 XP.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66s11.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch66.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66s13.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Goblin </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Gorgon</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

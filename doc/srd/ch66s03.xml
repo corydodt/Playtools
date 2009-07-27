@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ghaele</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch66.html" title="Monsters (G)"/>
+    <link rel="prev" href="ch66s02.html" title="Genie"/>
+    <link rel="next" href="ch66s04.html" title="Ghost"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ghaele</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66s02.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (G)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66s04.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1786709"/>Ghaele</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch66s03.html#id1788029">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersG28"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1786727">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Ghaele</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities35">Good</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d8+20 (65 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares), fly 150 ft. (perfect)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>25 (+1 Dex, +14 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 24, or 14 (+1 Dex, +3 deflection), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/+17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>+4 holy greatsword</em></span> +21 melee (2d6+14/19-20) or light <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +11 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>+4 holy greatsword</em></span> +21/+16 melee (2d6+14/19-20) or 2 light rays +11 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> spells, <a href="ch04.html#TypesSubtypesAbilities32">gaze</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities24">evil</a> and <a href="ch24.html#SpecialMaterials6">cold iron</a>, darkvision 60 ft., immunity to electricity and petrification, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, protective aura, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10 <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 28, tongues</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +8, Will +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 12, Con 15, Int 16, Wis 17, Cha 16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +15, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +5, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +14, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +16, <a href="ch16s03.html#CombinedSkills179">Hide</a> +14, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any two) +16, <a href="ch16s03.html#CombinedSkills204">Listen</a> +16, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +14, <a href="ch16s03.html#CombinedSkills243">Ride</a> +16, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +16, <a href="ch16s03.html#CombinedSkills294">Spot</a> +16, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +1 (+3 with bindings)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats66">Combat Expertise</a>, <a href="ch17s03.html#Feats174">Improved Disarm</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats214">Improved Trip</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities15">chaotic</a> good-aligned plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or squad (3-5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>No coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description8">chaotic good</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>11-15 HD (<a href="ch22.html#CombatII28">Medium</a>); 16-30 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch66s03.html#MonstersG28">ghaele</a> can take the form of an incorporeal globe of eldritch colors, 5 feet in diameter. A <a href="ch66s03.html#MonstersG28">ghaele</a> is about 6 feet tall and weighs about 170 pounds.</p>
+      <p><a href="ch66s03.html#MonstersG28">Ghaeles</a> speak Celestial, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, and Draconic, but can communicate with almost any creature, thanks to their <span class="emphasis"><em><a href="ch51.html#SpellsT-Z12">tongues</a></em></span> ability.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1788029"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG29"/>
+        <p><a href="ch66s03.html#MonstersG28">Ghaeles</a> who enter combat prefer direct confrontation and damaging attacks to more subtle or insidious methods. They usually fight in their humanoid form, wielding incandescent <span class="emphasis"><em>+4 holy greatswords</em></span>. If a <a href="ch66s03.html#MonstersG28">ghaele</a> desires mobility, it assumes its globe form and blasts the enemy with light rays.</p>
+        <p>A <a href="ch66s03.html#MonstersG28">ghaele's</a> natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and good-aligned for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1788091"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG30"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B5">aid</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch44.html#SpellsC24">color spray</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch44.html#SpellsC31">comprehend languages</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC40">continual flame</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC56">cure light wounds</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch45.html#SpellsD-E2">dancing lights</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E20">detect evil</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E28">detect thoughts</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span> (DC 18), <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span> (self only), <span class="emphasis"><em><a href="ch48.html#SpellsM-O25">major image</a></em></span> (DC 16), <span class="emphasis"><em><a href="ch50.html#SpellsS14">see invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only); 1/day-<span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch49.html#SpellsP-R29">prismatic spray</a></em></span> (DC 20), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z39">wall of force</a></em></span>. Caster level 12th. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1788325"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG31"/>
+          <p><span class="strong"><strong>Spells:</strong></span> <a href="ch66s03.html#MonstersG28">Ghaeles</a> in humanoid form can cast divine spells as 14th-level clerics. A <a href="ch66s03.html#MonstersG28">ghaele</a> has access to two of the following domains: Air, Animal, Chaos, Good, or Plant (plus any others from its deity). The save DCs are Wisdom-based.</p>
+          <p><span class="emphasis"><em>Typical Cleric Spells Prepared</em></span> (6/7/7/6/5/4/4/3; save DC 13 + spell level): 0-<span class="emphasis"><em><a href="ch44.html#SpellsC58">cure minor wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G55">guidance</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z35">virtue</a></em></span>; 1st-<span class="emphasis"><em><a href="ch43.html#SpellsA-B43">bless</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC4">calm animals</a>*</em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC25">command</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E50">divine favor</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O52">obscuring mist</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS2">sanctuary</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS29">shield of faith</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B5">aid</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B8">align weapon</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B36">bear's endurance</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L18">hold animal</a>*</em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R73">lesser restoration</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R63">remove paralysis</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z60">zone of truth</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G35">gaseous form</a>*</em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R26">prayer</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS10">searing light</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z45">water breathing</a></em></span>; 4th-<span class="emphasis"><em><a href="ch45.html#SpellsD-E9">death ward</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E39">dismissal</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E51">divine power</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R71">restoration</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS89">summon nature's ally IV</a> (animal)*</em></span>; 5th-<span class="emphasis"><em><a href="ch44.html#SpellsC45">control winds</a>*</em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G19">flame strike</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R48">raise dead</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span>; 6th-<span class="emphasis"><em><a href="ch43.html#SpellsA-B34">banishment</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B41">blade barrier</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a>*</em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span>; 7th-<span class="emphasis"><em><a href="ch43.html#SpellsA-B13">animal shapes</a>*</em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L27">holy word</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS83">summon monster VII</a></em></span>.</p>
+          <p>*Domain spell. Domains: Air and Animal.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1788847"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG32"/>
+          <p><span class="strong"><strong>Gaze (Su):</strong></span> In humanoid form-slay evil creatures of 5 or less HD, range 60 feet, Will DC 18 negates. Even if the save succeeds, the creature is affected as though by a <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> spell for 2d10 rounds. Nonevil creatures, and evil creatures with more than 5 HD, must succeed on a DC 18 Will save or suffer the <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> effect. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1788901"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG33"/>
+          <p><span class="strong"><strong>Light Ray (Ex):</strong></span> A <a href="ch66s03.html#MonstersG28">ghaele</a> in globe form can project light rays with a range of 300 feet. This attack overcomes damage reduction of any type.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1788941"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG34"/>
+          <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A <a href="ch66s03.html#MonstersG28">ghaele</a> can shift between its humanoid and globe forms as a standard action. In humanoid form, it cannot fly or use its light rays, but it can use its gaze attack and spell-like abilities, make physical attacks, and cast spells. In globe form, it can fly, use its light rays, and use spell-like abilities, but it cannot cast spells or use its gaze attack. The globe form is incorporeal, and the <a href="ch66s03.html#MonstersG28">ghaele</a> has no Strength score while in that form.</p>
+          <p>A <a href="ch66s03.html#MonstersG28">ghaele</a> remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, nor does the <a href="ch66s03.html#MonstersG28">ghaele</a> revert to any particular form when killed. A <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span> spell or ability, however, reveals both forms simultaneously.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1789021"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG35"/>
+          <p><span class="strong"><strong>Protective Aura (Su):</strong></span> Against attacks made or effects created by evil creatures, <span class="emphasis"><em>this</em></span> ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the <a href="ch66s03.html#MonstersG28">ghaele</a>. Otherwise, it functions as a <span class="emphasis"><em><a href="ch48.html#SpellsM-O12">magic circle against evil</a></em></span> effect and a <span class="emphasis"><em><a href="ch46.html#SpellsF-G46">lesser globe of invulnerability</a></em></span>, <span class="emphasis"><em/></span> both with a radius of 20 feet (caster level equals <a href="ch66s03.html#MonstersG28">ghaele's</a> HD). (The defensive benefits from the circle are not included in a <a href="ch66s03.html#MonstersG28">ghaele's</a> statistics block.)</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1789112"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG36"/>
+          <p><span class="strong"><strong>Tongues (Su):</strong></span> <a href="ch66s03.html#MonstersG28">Ghaeles</a> can speak with any creature that has a language, as though using a <span class="emphasis"><em><a href="ch51.html#SpellsT-Z12">tongues</a></em></span> spell (caster level 14th). This ability is always active.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66s02.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch66.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66s04.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Genie </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Ghost</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

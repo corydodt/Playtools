@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Tayellah</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s23.html" title="Sirrush"/>
+    <link rel="next" href="ch76s25.html" title="Thorciasid"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Tayellah</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s23.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s25.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2445809"/>Tayellah</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s24.html#id2446775">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)208"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2445828">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Tayellah</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>34d10+448 (635 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+27 (+19 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>100 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>44 (+19 Dex, -4 size, +15 insight, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 40, <a href="ch21s03.html#CombatI21">flat-footed</a> 25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+34/+57</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +52 (2d8+11) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +52 (2d8+11) melee, 3 bites +47 (2d6+5) melee, sting +39 (3d6+5 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>20 ft./15 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities53">Pounce</a>, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 4d6+15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities66">Spell resistance</a> 34, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/epic</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +31, Ref +38, Will +22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 32, Dex 48, Con 34, Int 14, Wis 32, Cha 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +44, <a href="ch16s03.html#CombinedSkills192">Jump</a> +39, <a href="ch16s03.html#CombinedSkills204">Listen</a> +48, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +56, <a href="ch16s03.html#CombinedSkills294">Spot</a> +48</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats369">Track</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite), <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw), <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x2), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (bite), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (claw), <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>,</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any temperate or <a href="ch04.html#TypesSubtypesAbilities16">cold</a> land</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>35-68 HD (<a href="ch22.html#CombatII28">Gargantuan</a>); 69-102 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch76s24.html#EpicMonsters(G-W)208">tayellah's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.<a href="img/EpicMonsters(G-W).Tayellah.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Tayellah.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2446775"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)209"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2446794"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)210"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Sting, Fort save (DC 39); initial and secondary Damage 2d10 temporary Con. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2446824"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)211"/>
+          <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch76s24.html#EpicMonsters(G-W)208">tayellah</a> leaps upon a foe during the first round of combat, it can make a full attack even if it has already taken a move action.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2446864"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)212"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, the <a href="ch76s24.html#EpicMonsters(G-W)208">tayellah</a> must hit with two of its claw attacks. If it gets a hold, it can rake.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2446903"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)213"/>
+          <p><span class="strong"><strong>Rake (Ex):</strong></span> A <a href="ch76s24.html#EpicMonsters(G-W)208">tayellah</a> that gets a hold can make two additional rake attacks (+44 melee) with legs it normally only uses for walking, dealing 4d6+5 points of Damage each. If the <a href="ch76s24.html#EpicMonsters(G-W)208">tayellah</a> pounces on an opponent, it can also rake.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s23.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s25.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Sirrush </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Thorciasid</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

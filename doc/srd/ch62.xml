@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (D-De)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch61s18.html" title="Couatl"/>
+    <link rel="next" href="ch62s02.html" title="Delver"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (D-De)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61s18.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch62s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id432935"/>Monsters (D-De)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch62.html#id1678013">Darkmantle</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch62s02.html">Delver</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch62s03.html">Demon</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1679520">Babau</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1680889">Balor</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1682939">Bebilith</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1684281">Dretch</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1685417">Glabrezu</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1687000">Hezrou</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1688445">Marilith</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1690065">Nalfeshnee</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1691543">Quasit</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1692908">Retriever</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1693975">Succubus</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s03.html#id1695453">Vrock</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch62s04.html">Derro</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch62s05.html">Destrachan</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch62s06.html">Devil</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1699725">Barbed Devil (Hamatula)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1701178">Bearded Devil (Barbazu)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1702532">Bone Devil (Osyluth)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1703883">Chain Devil (Kyton)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1705143">Erinyes</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1706564">Hellcat (Bezekira)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1707823">Horned Devil (Cornugon)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1709424">Ice Devil (Gelugon)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1710989">Imp</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1712274">Lemure</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch62s06.html#id1712966">Pit Fiend</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch62s07.html">Devourer</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersD-De1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id1678013"/>Darkmantle</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62.html#id1660795">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De2"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1678030">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Darkmantle</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d10+1 (6 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 30 ft. (poor)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d4+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d4+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Darkness, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities17">constrict</a> 1d4+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 90 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +2, Will +0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 16, Dex 10, Con 13, Int 2, Wis 10, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +5*, <a href="ch16s03.html#CombinedSkills294">Spot</a> +5*</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, clutch (3-9), or <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> (6-15)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>2-3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The <a href="ch62.html#MonstersD-De2">darkmantle</a> hangs from a ceiling by a muscular 'foot' at the top of its body. It can look like a stalactite, by holding its tentacles stiffly under itself, or like a lump of rock, spreading its tentacles so the membrane between them covers its body. Its shell and skin usually resemble limestone, but a <a href="ch62.html#MonstersD-De2">darkmantle</a> can change its color to match almost any type of stony background.<a href="img/MonstersD-De.Darkmantle.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Darkmantle.jpg" align="right"/></span></a></p>
+        <p>A <a href="ch62.html#MonstersD-De2">darkmantle</a> is about 4 feet long from the tips of its tentacles to the top of its head. It weighs about 30 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1660795"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De3"/>
+          <p>A <a href="ch62.html#MonstersD-De2">darkmantle</a> attacks by dropping onto its prey and wrapping its tentacles around the opponent's head. Once attached, it squeezes and tries to suffocate the foe. A <a href="ch62.html#MonstersD-De2">darkmantle</a> that misses its initial attack often flies up and tries to drop on the opponent again.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1660839"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De4"/>
+            <p><span class="strong"><strong>Darkness (Su):</strong></span> Once per day a <a href="ch62.html#MonstersD-De2">darkmantle</a> can cause darkness as the <span class="emphasis"><em><a href="ch45.html#SpellsD-E3">darkness</a></em></span> spell (caster level 5th). It most often uses this ability just before attacking.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1660889"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De5"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch62.html#MonstersD-De2">darkmantle</a> must hit a Large or smaller creature with its slam attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.</p>
+            <p>If it wins the grapple check, it attaches to the opponent's head and can constrict.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1660934"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De6"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch62.html#MonstersD-De2">darkmantle</a> deals 1d4+4 points of damage with a successful grapple check.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1678082"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De7"/>
+            <p><span class="strong"><strong>Blindsight (Ex):</strong></span> A <a href="ch62.html#MonstersD-De2">darkmantle</a> can 'see' by emitting high-frequency sounds, inaudible to most other creatures, that allows it to ascertain objects and creatures within 90 feet. A <span class="emphasis"><em><a href="ch50.html#SpellsS37">silence</a></em></span> spell negates this ability and effectively blinds the <a href="ch62.html#MonstersD-De2">darkmantle</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1678143"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De8"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch62.html#MonstersD-De2">darkmantle</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+            <p>These bonuses are lost if its blindsight is negated. The creature's variable coloration gives it a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61s18.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch62s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Couatl </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Delver</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

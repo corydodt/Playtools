@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Troll</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s08.html" title="Troglodyte"/>
+    <link rel="next" href="ch72s10.html" title="Unicorn"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Troll</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s08.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s10.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2226211"/>Troll</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s09.html#id2227579">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s09.html#id2227704">Scrag</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s09.html#id2227742">Troll Hunter</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s09.html#id2227862">Trolls as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z44"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2226229">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Troll</strong></span></p></td>
+<td><p><span class="strong"><strong><a href="ch72s09.html#MonstersT-Z49">Troll Hunter</a>, 6th-Level Ranger</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+36 (63 hp)</p></td>
+<td><p>6d8+6d8+72 (130 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 size, +2 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>21 (-1 size, +1 Dex, +6 natural, +5 <span class="emphasis"><em>+1 chain shirt</em></span>), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+14</p></td>
+<td><p>+10/+21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +9 melee (1d6+6)</p></td>
+<td><p>Claw +16 melee (1d6+7) or <span class="emphasis"><em>+1 battleaxe</em></span> +17 melee (2d6+8/x3) or javelin +10 ranged (1d8+7)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +9 melee (1d6+6) and bite +4 melee (1d6+3)</p></td>
+<td><p>2 claws +16 melee (1d6+7) and bite +11 melee (1d6+3); or <span class="emphasis"><em>+1 battleaxe</em></span> +17/+12 melee (2d6+8/x3) and claw +12 melee (1d6+3) and bite +12 (1d6+3); or javelin +10 ranged (1d8+7)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rend 2d6+9</p></td>
+<td><p>Rend 2d6+10, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 90 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 5, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p>Darkvision 90 ft., favored enemy <a href="ch65s03.html#MonstersE-F26">elves</a> (+4), favored enemy humans (+2), <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 5, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, wild empathy</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +11, Ref +4, Will +3</p></td>
+<td><p>Fort +16, Ref +8, Will +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 14, Con 23, Int 6, Wis 9, Cha 6</p></td>
+<td><p>Str 25, Dex 12, Con 22, Int 10, Wis 15, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +6, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (dungeoneering) +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills253">Search</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills303">Survival</a> +11 (+13 above- or underground and following tracks)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats369">Track</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats110">Endurance</a> <sup>B</sup>, <a href="ch20.html#MonsterFeats24">Improved Natural Armor</a>, <a href="ch17s03.html#Feats222">Improved Two-Weapon Fighting</a> <sup>B</sup>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup>, <a href="ch17s03.html#Feats381">Two-Weapon Fighting</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> mountains</p>
+<p>(Scrag: <a href="ch04.html#TypesSubtypesAbilities16">Cold</a> <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a>)</p></td> <td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> mountains</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+<td><p>11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+<td><p>+5</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <p><a href="ch72s09.html#MonstersT-Z44">Trolls</a> walk upright but hunched forward with sagging shoulders. Their gait is uneven, and when they run, their arms dangle and drag along the ground. For all this seeming awkwardness, <a href="ch72s09.html#MonstersT-Z44">trolls</a> are very agile.<a href="img/MonstersT-Z.Troll.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Troll.jpg" align="right"/></span></a></p>
+      <p>A typical adult <a href="ch72s09.html#MonstersT-Z44">troll</a> stands 9 feet tall and weighs 500 pounds. Females are slightly larger than males. A <a href="ch72s09.html#MonstersT-Z44">troll's</a> rubbery hide is moss green, mottled green and gray, or putrid gray. The hair is usually greenish black or iron gray.</p>
+      <p><a href="ch72s09.html#MonstersT-Z44">Trolls</a> speak <a href="ch66s06.html#MonstersG67">Giant</a>.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2227579"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z45"/>
+        <p><a href="ch72s09.html#MonstersT-Z44">Trolls</a> have no fear of death: They launch themselves into combat without hesitation, flailing wildly at the closest opponent. Even when confronted with fire, they try to get around the flames and attack.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2227611"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z46"/>
+          <p><span class="strong"><strong>Rend (Ex):</strong></span> If a <a href="ch72s09.html#MonstersT-Z44">troll</a> hits with both claw attacks, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 2d6+9 points of damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2227651"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z47"/>
+          <p><span class="strong"><strong>Regeneration (Ex):</strong></span> Fire and acid deal normal damage to a <a href="ch72s09.html#MonstersT-Z44">troll</a>. If a <a href="ch72s09.html#MonstersT-Z44">troll</a> loses a limb or body part, the lost portion regrows in 3d6 minutes. The creature can reattach the severed member instantly by holding it to the stump.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2227704"/>Scrag</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z48"/>
+        <p>These cousins of the <a href="ch72s09.html#MonstersT-Z44">troll</a> have the aquatic subtype. They dwell in any body of water in any climate. They have a base land speed of 20 feet and a swim speed of 40 feet and are found only in aquatic environments. They regenerate only if mostly immersed in water.</p>
+        <p/>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2227742"/>Troll Hunter</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch72s09.html#id2227783">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z49"/>
+        <p>Some <a href="ch72s09.html#MonstersT-Z44">trolls</a>, more cunning than most, are not satisfied with merely eating civilized beings but train to hunt them relentlessly. These <a href="ch72s09.html#MonstersT-Z44">troll</a> hunters are fearsome rangers who focus on slaying and devouring humanoid prey.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2227783"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z50"/>
+          <p>A <a href="ch72s09.html#MonstersT-Z44">troll</a> hunter makes full use of its scent ability to track its favored enemies and generally prefers to hunt in darkness.</p>
+          <p>The <a href="ch72s09.html#MonstersT-Z44">troll</a> hunter uses its limited repertoire of spells to protect itself from damaging forms of energy and to immobilize enemies.</p>
+          <p><span class="emphasis"><em>Typical Ranger Spells Prepared</em></span> (2; save DC 12 + spell level): 1st-<span class="emphasis"><em><a href="ch45.html#SpellsD-E66">entangle</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R70">resist energy</a></em></span>.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2227862"/>Trolls as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z51"/>
+        <p><a href="ch72s09.html#MonstersT-Z44">Troll</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+12 Strength, +4 Dexterity, +12 Constitution, -4 Intelligence (minimum 3), -2 Wisdom, -4 Charisma.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Large</a> size. -1 penalty to <a href="ch21s02.html#CombatI11">Armor Class</a>, -1 penalty on <a href="ch21s02.html#CombatI4">attack rolls,</a> -4 penalty on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks, +4 bonus on <a href="ch22s03.html#CombatII67">grapple checks,</a> lifting and carrying limits double those of <a href="ch22.html#CombatII28">Medium</a> characters.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Space/Reach: 10 feet/10 feet.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-A <a href="ch72s09.html#MonstersT-Z44">troll's</a> base land speed is 30 feet.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Darkvision out to 60 feet and <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: A <a href="ch72s09.html#MonstersT-Z44">troll</a> begins with six levels of <a href="ch04.html#TypesSubtypesAbilities33">giant</a>, which provide 6d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +4, and base saving throw bonuses of Fort +5, Ref +2, and Will +2.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: A <a href="ch72s09.html#MonstersT-Z44">troll's</a> <a href="ch04.html#TypesSubtypesAbilities33">giant</a> levels give it skill points equal to 9 x?(2 + Int modifier, minimum 1). Its class skills are <a href="ch16s03.html#CombinedSkills204">Listen</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: A <a href="ch72s09.html#MonstersT-Z44">troll's</a> <a href="ch04.html#TypesSubtypesAbilities33">giant</a> levels give it three feats.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>+5 natural armor bonus.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Natural Weapons: Claw (1d6) and bite (1d6).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): Rend, <a href="ch21s02.html#CombatI7">damage</a> 2d6 + 1-1/2 times Str modifier.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Special Qualities: <a href="ch04.html#TypesSubtypesAbilities58">Regeneration</a> 5, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>. Bonus Languages: Common, <a href="ch70s04.html#MonstersO-R48">Orc</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Fighter.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level adjustment +5.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s10.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Troglodyte </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Unicorn</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

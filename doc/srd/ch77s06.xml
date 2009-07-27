@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Caller in Darkness</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s05.html" title="Brain Mole"/>
+    <link rel="next" href="ch77s07.html" title="Cerebrilith"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Caller in Darkness</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s05.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2468828"/>Caller in Darkness</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s06.html#id2469762">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters89"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2468847">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Caller in Darkness</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a> (<a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a>, Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>11d12 (71 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 60 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +3 Dex, +2 deflection), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +7 melee (2d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>4 <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> <a href="ch21s02.html#CombatI12">touches</a> +7 melee (2d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Psi-like abilities, steal essence</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> traits, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, unnatural aura, vulnerability to sunlight</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +6, Will +9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex 16, Con -, Int 14, Wis 14, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +9, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +12, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (<a href="ch04.html#TypesSubtypesAbilities55">psionics</a>) +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills236">Psicraft</a> +12, <a href="ch16s03.html#CombinedSkills253">Search</a> +12, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>12-22 HD (<a href="ch22.html#CombatII28">Large</a>); 23-33 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch77s06.html#PsionicMonsters89">caller in darkness</a> is an incorporeal creature composed of the minds of dozens of victims who died together in terror. It seeks to draw others into its fearwracked, hellish existence.</p>
+      <p><a href="ch77s06.html#PsionicMonsters89">Callers in darkness</a> rarely speak, but when they do, they speak Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2469762"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters90"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2469780"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters91"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C58">clairvoyant sense</a></em></span>,  <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C70">concussion blast</a></em></span> (two targets, 3d6*)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F18">detect psionics</a></em></span>,  <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F61">ego whip</a></em></span> (2d4, DC 16*), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P61">mind thrust</a></em></span> (7d10, DC 16*); 3/day-<span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F7">death urge</a></em></span> (DC 16), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P116">psychic crush</a></em></span> (DC 13**), <span class="emphasis"><em>psionic <a href="ch50.html#SpellsS74">suggestion</a></em></span> (three targets, DC 14*); 1/day-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C82">co-opt concentration</a></em></span> (DC 18). Manifester level 7th. The save DCs are Charisma-based.</p>
+          <p>*Includes augmentation for the caller's manifester level.</p>
+          <p>**Includes the inherent +4 save adjustment described in the power.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2469923"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters92"/>
+          <p><span class="strong"><strong>Steal Essence (Su):</strong></span> Any living, intelligent creature slain by a <a href="ch77s06.html#PsionicMonsters89">caller in darkness's</a> touch attack is mentally absorbed into the monster's consciousness. (The physical body of the victim remains intact). Stealing a victim's essence is a free action; it grants the caller 12 temporary hit points, and a permanent new screaming face appears within its cloud.</p>
+          <p>A <a href="ch77s06.html#PsionicMonsters89">caller in darkness</a> can also steal the essence of living, intelligent creatures within 30 feet that are paralyzed or sleeping, or that are helpless due to having a mental ability score reduced to 0 (often by the caller's <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F61">ego whip</a></em></span> attack). Doing so is a standard action that provokes attacks of opportunity. The victim dies, and the caller gains 12 temporary hit points.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2469995"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters93"/>
+          <p><span class="strong"><strong>Incorporeal Traits:</strong></span> A <a href="ch77s06.html#PsionicMonsters89">caller in darkness</a> is harmed only by other incorporeal creatures, magic weapons, spells, spell-like abilities, and supernatural abilities. It has a 50% chance to ignore any damage from a corporeal source, except for force effects or attacks made with ghost touch weapons. It can pass through solid objects, but not force effects, at will. Its attacks ignore natural armor, armor, and shields, but deflection bonuses and force effects work normally against them. The creature always moves silently and cannot be heard with <a href="ch16s03.html#CombinedSkills204">Listen</a> checks if it doesn't wish to be.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2470044"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters94"/>
+          <p><span class="strong"><strong>Undead Traits:</strong></span> A <a href="ch77s06.html#PsionicMonsters89">caller in darkness</a> is immune to mind-affecting effects, poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death effects, and any effect that requires a Fortitude save unless it also works on objects or is harmless. It is not subject to critical hits, nonlethal damage, ability damage to its physical ability scores, ability drain, energy drain, fatigue, exhaustion, or death from massive damage. It cannot be raised, and <span class="emphasis"><em><a href="ch49.html#SpellsP-R74">resurrection</a></em></span> works only if it is willing. It has darkvision out to 60 feet.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2470113"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters95"/>
+          <p><span class="strong"><strong>Unnatural Aura (Su):</strong></span> Animals can sense the unnatural presence of a <a href="ch77s06.html#PsionicMonsters89">caller in darkness</a>. Any animal within 30 feet must make a DC 17 Will save or become panicked until it is no longer within 30 feet of the <a href="ch77s06.html#PsionicMonsters89">caller in darkness</a>. A panicked creature that is cornered begins cowering. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2470162"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters96"/>
+          <p><span class="strong"><strong>Vulnerability to Sunlight (Ex):</strong></span> <a href="ch77s06.html#PsionicMonsters89">Callers in darkness</a> are utterly powerless in natural sunlight (not merely a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell) and flee from it. A caller caught in sunlight cannot attack and can take only a single move action or standard action each turn, but  not both (nor can it take full-round actions).</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Brain Mole </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Cerebrilith</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1988 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Dire Animal</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch63.html" title="Monsters (Di-Do)"/>
+    <link rel="prev" href="ch63s02.html" title="Dinosaur"/>
+    <link rel="next" href="ch63s04.html" title="Doppelganger"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Dire Animal</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch63s02.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Di-Do)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch63s04.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1498403"/>Dire Animal</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1498433">Dire Ape</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1612754">Dire Badger</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1662496">Dire Bat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1663691">Dire Bear</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1664962">Dire Boar</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1666096">Dire Lion</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1667415">Dire Rat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1668682">Dire Shark</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1669966">Dire Tiger</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1671559">Dire Weasel</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1672767">Dire Wolf</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch63s03.html#id1674180">Dire Wolverine</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersDi-Do27"/>
+      <p><a href="ch63s03.html#MonstersDi-Do27">Dire animals</a> are larger, tougher, meaner versions of ordinary animals. Each kind tends to have a feral, prehistoric, or even demonic appearance.</p>
+      <p/>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1498433"/>Dire Ape</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1611582">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do28"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1498451">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Ape</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>5d8+13 (35 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), climb 15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (-1 size, +2 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +8 melee (1d6+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +8 melee (1d6+6) and bite +3 melee (1d8+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rend 2d6+9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +6, Will +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 22, Dex 15, Con 14, Int 2, Wis 12, Cha 7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or company (5-8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>6-15 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch63s03.html#MonstersDi-Do28">dire ape</a> stands about 9 feet tall and weighs from 800 to 1,200 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1611582"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do29"/>
+          <p><a href="ch63s03.html#MonstersDi-Do28">Dire apes</a> attack anything that enters their territory, even other <a href="ch63s03.html#MonstersDi-Do28">dire apes</a>. If an opponent's armor foils a <a href="ch63s03.html#MonstersDi-Do28">dire ape's</a> attacks, the creature will attempt to grapple and pin, then rend the prone opponent.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1611630"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do30"/>
+            <p><span class="strong"><strong>Rend (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do28">dire ape</a> that hits with both claw attacks latches onto the opponent's body and tears the flesh. This attack automatically deals an extra 2d6+12 points of damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1612692"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do31"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch63s03.html#MonstersDi-Do28">Dire apes</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1612754"/>Dire Badger</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1662421">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do32"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1612773">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Badger</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+15 (28 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), burrow 10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d4+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d4+2) and bite -1 melee (1d6+1)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rage</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +6, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 17, Con 19, Int 2, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats361">Toughness</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or cete (2-5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-9 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>These vicious creatures tolerate no intrusions. They cannot burrow into solid rock, but can move through just about any material softer than that. A <a href="ch63s03.html#MonstersDi-Do32">dire badger</a> usually leaves behind a usable tunnel 5 feet in diameter when burrowing unless the material it's moving through is very loose.</p>
+        <p>A <a href="ch63s03.html#MonstersDi-Do32">dire badger</a> is from 5 to 7 feet in length and can weigh up to 500 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1662421"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do33"/>
+          <p><a href="ch63s03.html#MonstersDi-Do32">Dire badgers</a> attack with their sharp claws and teeth.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1662450"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do34"/>
+            <p><span class="strong"><strong>Rage (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do32">dire badger</a> that takes damage in combat flies into a berserk rage on its next turn, clawing and biting madly until either it or its opponent is dead. It gains +4 Strength, +4 Constitution, and -2 AC. The creature cannot end its rage voluntarily.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1662496"/>Dire Bat</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1663552">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do35"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1662514">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Bat</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+12 (30 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 40 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (-1 size, +6 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +5 melee (1d8+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +5 melee (1d8+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities11">Blindsense</a> 40 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +10, Will +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 22, Con 17, Int 2, Wis 14, Cha 6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +12*, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8*</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats353">Stealthy</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate deserts</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or colony (5-8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-12 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch63s03.html#MonstersDi-Do35">dire bat</a> has a wingspan of 15 feet and weighs about 200 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1663552"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do36"/>
+          <p><a href="ch63s03.html#MonstersDi-Do35">Dire bats</a> swoop down upon unsuspecting prey from above.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1663581"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do37"/>
+            <p><span class="strong"><strong>Blindsense (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do35">dire bat</a> uses echolocation to pinpoint creatures within 40 feet. Opponents still have total concealment against the <a href="ch73s04.html#MonstersAnimals13">bat</a> unless it can actually see them.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1663629"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do38"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch63s03.html#MonstersDi-Do35">Dire bats</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> and <a href="ch16s03.html#CombinedSkills204">Listen</a> checks. These bonuses are lost if its blindsense is negated.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1663691"/>Dire Bear</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1664889">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do39"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1663709">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Bear</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d8+51 (105 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (-1 size, +1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+23</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +19 melee (2d4+10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +19 melee (2d4+10) and bite +13 melee (2d8+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12, Ref +9, Will +9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 31, Dex 13, Con 19, Int 2, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +10, <a href="ch16s03.html#CombinedSkills311">Swim</a> +13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats361">Toughness</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>13-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-36 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The omnivorous <a href="ch63s03.html#MonstersDi-Do39">dire bear</a> usually does not bother creatures that try to avoid it, but will aggressively defend a kill or other source of food. It will not hesitate to rip apart anything that might contain something edible.<a href="img/MonstersDi-Do.Dire_Bear.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersDi-Do.Dire_Bear.jpg" align="right"/></span></a></p>
+        <p>A typical <a href="ch63s03.html#MonstersDi-Do39">dire bear</a> is 12 feet long and weighs as much as 8,000 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1664889"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do40"/>
+          <p>A <a href="ch63s03.html#MonstersDi-Do39">dire bear</a> attacks by tearing at opponents with its claws.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1664920"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do41"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch63s03.html#MonstersDi-Do39">dire bear</a> must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1664962"/>Dire Boar</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1665956">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do42"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1664980">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Boar</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+21 (52 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (-1 size, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Gore +12 melee (1d8+12)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Gore +12 melee (1d8+12)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Ferocity</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +5, Will +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 27, Dex 10, Con 17, Int 2, Wis 13, Cha 8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats233">Iron Will</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or herd (5-8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-21 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do42">Dire boars</a> are omnivorous and spend most of their time rooting around, much as ordinary pigs do. They viciously attack anything that approaches them, however.</p>
+        <p><a href="ch63s03.html#MonstersDi-Do42">Dire boars</a> grow up to 12 feet long and weigh as much as 2,000 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1665956"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do43"/>
+          <p>A <a href="ch63s03.html#MonstersDi-Do42">dire boar</a> charges its opponent, trying to rip the target open with its tusks.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1666054"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do44"/>
+            <p><span class="strong"><strong>Ferocity (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do42">dire boar</a> is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1666096"/>Dire Lion</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1666933">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do45"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1666114">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Lion</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+24 (60 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (-1 size, +2 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +13 melee (1d6+7)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +13 melee (1d6+7) and bite +7 melee (1d8+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities53">pounce</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 1d6+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +8, Will +7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 15, Con 17, Int 2, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +2*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or pride (6-10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-24 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do45">Dire lions</a> are patient hunters, just like their smaller cousins, but apt to take on bigger prey.</p>
+        <p><a href="ch63s03.html#MonstersDi-Do45">Dire lions</a> grow to be up to 15 feet long and weigh up to 3,500 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1666933"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do46"/>
+          <p>A <a href="ch63s03.html#MonstersDi-Do45">dire lion</a> attacks by running at prey, leaping, and clawing and biting as it rakes with its rear claws. It often jumps onto a creature larger than itself.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1667236"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do47"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch63s03.html#MonstersDi-Do45">dire lion</a> must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can rake.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1667274"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do48"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch63s03.html#MonstersDi-Do45">dire lion</a> charges, it can make a full attack, including two rake attacks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1667311"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do49"/>
+            <p><span class="strong"><strong>Rake (Ex):</strong></span> Attack bonus +12 melee, damage 1d6+3.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1667340"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do50"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch63s03.html#MonstersDi-Do45">Dire lions</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks.</p>
+            <p>*In areas of tall grass or heavy undergrowth, the <a href="ch16s03.html#CombinedSkills179">Hide</a> bonus improves to +8.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1667415"/>Dire Rat</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1668445">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do51"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1667433">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Rat</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 (5 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares), climb 20 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+1 size, +3 Dex, +1 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +4 melee (1d4 plus disease)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +4 melee (1d4 plus disease)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Disease</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +5, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 12, Int 1, Wis 12, Cha 4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +11, <a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4, <a href="ch16s03.html#CombinedSkills311">Swim</a> +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pack (11-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>2-3 HD (<a href="ch22.html#CombatII28">Small</a>); 4-6 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do51">Dire rats</a> are omnivorous scavengers, but will attack to defend their nests and territories.</p>
+        <p>A <a href="ch63s03.html#MonstersDi-Do51">dire rat</a> can grow to be up to 4 feet long and weigh over 50 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1668445"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do52"/>
+          <p><a href="ch63s03.html#MonstersDi-Do51">Dire rat</a> packs attack fearlessly, biting and chewing with their sharp incisors.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1668473"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do53"/>
+            <p><span class="strong"><strong>Disease (Ex):</strong></span> Filth fever-bite, Fortitude DC 11, incubation period 1d3 days, damage 1d3 Dex and 1d3 Con. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1668501"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do54"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch63s03.html#MonstersDi-Do51">Dire rats</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills311">Swim</a> checks. <a href="ch63s03.html#MonstersDi-Do51">Dire rats</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, even if rushed or threatened.</p>
+            <p><a href="ch63s03.html#MonstersDi-Do51">Dire rats</a> use their Dexterity modifier for <a href="ch16s03.html#CombinedSkills71">Climb</a> and <a href="ch16s03.html#CombinedSkills311">Swim</a> checks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1668682"/>Dire Shark</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1669722">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do55"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1668700">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Shark</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>18d8+66 (147 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills311">Swim</a> 60 ft. (12 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (-2 size, +2 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+13/+27</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +18 melee (2d8+9)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +18 melee (2d8+9)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities69">swallow whole</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Keen <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +14, Ref +13, Will +12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 15, Con 17, Int 1, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills311">Swim</a> +14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (bite), <a href="ch17s03.html#Feats361">Toughness</a> (4), <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or school (2-5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>19-32 (<a href="ch22.html#CombatII28">Huge</a>); 33-54 (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do55">Dire sharks</a> attack anything they perceive to be edible, even larger creatures.</p>
+        <p>This monstrous fish can grow to a length of 25 feet and weigh more than 20,000 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1669722"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do56"/>
+          <p><a href="ch63s03.html#MonstersDi-Do55">Dire sharks</a> bite with their powerful jaws, swallowing smaller creatures in one gulp.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1669751"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do57"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch63s03.html#MonstersDi-Do55">dire shark</a> must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can try to swallow the foe in the following round.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1669792"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do58"/>
+            <p><span class="strong"><strong>Swallow Whole (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do55">dire shark</a> can try to swallow a grabbed opponent of up to one size smaller by making a successful grapple check. Once inside, the opponent takes 2d6+6 points of bludgeoning damage plus 1d8+4 points of acid damage per round from the <a href="ch73s39.html#MonstersAnimals140">shark's</a> digestive juices. A swallowed creature can cut its way out using a light slashing or piercing weapon by dealing 25 points of damage to the <a href="ch73s39.html#MonstersAnimals140">shark's</a> digestive tract (AC 13). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out.</p>
+            <p>A Huge <a href="ch63s03.html#MonstersDi-Do55">dire shark's</a> gullet can hold 2 Large, 8 Medium or Small, 32 Tiny, 128 Diminutive, or 512 Fine or smaller opponents.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1669864"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do59"/>
+            <p><span class="strong"><strong>Keen Scent (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do55">dire shark</a> can notice creatures by scent in a 180-foot radius and can detect blood in the water at a range of up to 1 mile.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1669902"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do60"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch63s03.html#MonstersDi-Do55">dire shark</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered.</p>
+            <p>It can use the run action while swimming, provided it swims in a straight line.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1669966"/>Dire Tiger</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1671349">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do61"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1669984">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Tiger</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>16d8+48 (120 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (-1 size, +2 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+24</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +20 melee (2d4+8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +20 melee (2d4+8) and bite +14 melee (2d6+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities53">pounce</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 2d4+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +13, Ref +12, Will +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 27, Dex 15, Con 17, Int 2, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +7*, <a href="ch16s03.html#CombinedSkills192">Jump</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills311">Swim</a> +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (claw), <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (bite), <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats353">Stealthy</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>17-32 HD (<a href="ch22.html#CombatII28">Large</a>); 33-48 (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do61">Dire tigers</a> prey on just about anything that moves. They will patiently stalk a potential meal, striking whenever the creature lets down its guard.<a href="img/MonstersDi-Do.Dire_Tiger.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersDi-Do.Dire_Tiger.jpg" align="right"/></span></a></p>
+        <p><a href="ch63s03.html#MonstersDi-Do61">Dire tigers</a> grow to be over 12 feet long and can weigh up to 6,000 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1671349"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do62"/>
+          <p>A <a href="ch63s03.html#MonstersDi-Do61">dire tiger</a> attacks by running at prey, leaping, and clawing and biting as it rakes with its rear claws.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1671379"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do63"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch63s03.html#MonstersDi-Do61">dire tiger</a> must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can rake.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1671421"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do64"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch63s03.html#MonstersDi-Do61">dire tiger</a> charges, it can make a full attack, including two rake attacks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1671458"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do65"/>
+            <p><span class="strong"><strong>Rake (Ex):</strong></span> Attack bonus +18 melee, damage 2d4+4.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1671486"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do66"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch63s03.html#MonstersDi-Do61">Dire tigers</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks. *In areas of tall grass or heavy undergrowth, the <a href="ch16s03.html#CombinedSkills179">Hide</a> bonus improves to +8.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1671559"/>Dire Weasel</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1672564">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do67"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1671577">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Weasel</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+4 Dex, +2 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +6 melee (1d6+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +6 melee (1d6+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Attach, blood drain</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +7, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 19, Con 10, Int 2, Wis 12, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats353">Stealthy</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate hills</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Medium</a>); 7-9 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do67">Dire weasels</a> grow to be up to 10 feet long and can reach a weight of 700 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1672564"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do68"/>
+          <p><a href="ch63s03.html#MonstersDi-Do67">Dire weasels</a> stalk their prey in the dark and then leap on it, biting and clawing.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1672593"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do69"/>
+            <p><span class="strong"><strong>Attach (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do67">dire weasel</a> that hits with its bite attack latches onto the opponent's body with its powerful jaws. An attached <a href="ch63s03.html#MonstersDi-Do67">dire weasel</a> loses its Dexterity bonus to AC and thus has an AC of 12. An attached <a href="ch63s03.html#MonstersDi-Do67">dire weasel</a> can be struck with a weapon or grappled itself. To remove an attached <a href="ch63s03.html#MonstersDi-Do67">dire weasel</a> through grappling, the opponent must achieve a pin against the creature.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1672657"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do70"/>
+            <p><span class="strong"><strong>Blood Drain (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do67">dire weasel</a> drains blood for 1d4 points of Constitution damage each round it remains attached.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1672767"/>Dire Wolf</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1674006">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do71"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1672786">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Wolf</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+18 (45 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +2 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +11 melee (1d8+10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +11 melee (1d8+10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch22s03.html#CombatII100">Trip</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +7, Will +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 15, Con 17, Int 2, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +0, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2*</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pack (5-8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-18 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do71">Dire wolves</a> are efficient pack hunters that will kill anything they can catch.</p>
+        <p><a href="ch63s03.html#MonstersDi-Do71">Dire wolves</a> are mottled gray or black, about 9 feet long and weighing some 800 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1674006"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do72"/>
+          <p><a href="ch63s03.html#MonstersDi-Do71">Dire wolves</a> prefer to attack in packs, surrounding and flanking a foe when they can.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1674035"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do73"/>
+            <p><span class="strong"><strong>Trip (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a> that hits with a bite attack can attempt to trip its opponent (+11 check modifier) as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1674086"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do74"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a> has a +2 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+            <p>*It also has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> checks when tracking by scent.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1674180"/>Dire Wolverine</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch63s03.html#id1675312">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersDi-Do75"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1674198">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dire Wolverine</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>5d8+23 (45 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), climb 10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 size, +3 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +8 melee (1d6+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +8 melee (1d6+6) and bite +3 melee (1d8+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rage</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +7, Will +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 22, Dex 17, Con 19, Int 2, Wis 12, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats361">Toughness</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>6-15 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch63s03.html#MonstersDi-Do75">Dire wolverines</a> grow to about 12 feet in length and can weigh as much as 2,000 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1675312"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDi-Do76"/>
+          <p><a href="ch63s03.html#MonstersDi-Do75">Dire wolverines</a> attack opponents wantonly, fearing no other creatures.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1675342"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do77"/>
+            <p><span class="strong"><strong>Rage (Ex):</strong></span> A <a href="ch63s03.html#MonstersDi-Do75">dire wolverine</a> that takes damage in combat flies into a berserk rage on its next turn, clawing and biting madly until either it or its opponent is dead. An enraged <a href="ch63s03.html#MonstersDi-Do75">dire wolverine</a> gains +4 Strength, +4 Constitution, and -2 AC. The creature cannot end its rage voluntarily.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1675388"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDi-Do78"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch63s03.html#MonstersDi-Do75">dire wolverine</a> has a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch63s02.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch63.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch63s04.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Dinosaur </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Doppelganger</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monstrous Scorpion</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch74.html" title="Monsters (Vermin)"/>
+    <link rel="prev" href="ch74s08.html" title="Monstrous Centipede"/>
+    <link rel="next" href="ch74s10.html" title="Monstrous Spider"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monstrous Scorpion</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch74s08.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Vermin)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch74s10.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2159361"/>Monstrous Scorpion</h2>
+          </div>
+        </div>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersVermin24"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2159380">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Monstrous Scorpion, Tiny</strong></span></p></td> <td><p><span class="strong"><strong>Monstrous Scorpion, Small</strong></span></p></td>
+<td><p><span class="strong"><strong>Monstrous Scorpion, Medium</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1/2 d8+2 (4 hp)</p></td>
+<td><p>1d8+2 (6 hp)</p></td>
+<td><p>2d8+4 (13 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+2 size, +2 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>14 (+1 size, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>14 (+4 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-8</p></td>
+<td><p>+0/-4</p></td>
+<td><p>+1/+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +2 melee (1d2-4)</p></td>
+<td><p>Claw +1 melee (1d3-1)</p></td>
+<td><p>Claw +2 melee (1d4+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +2 melee (1d2-4) and sting -3 melee (1d2-4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+<td><p>2 claws +1 melee (1d3-1) and sting -4 melee (1d3-1 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+<td><p>2 claws +2 melee (1d4+1) and sting -3 melee (1d4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>2-1/2 ft./0 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d2-4, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d3-1, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d4+1, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +0, Will +0</p></td>
+<td><p>Fort +4, Ref +0, Will +0</p></td>
+<td><p>Fort +5, Ref +0, Will +0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 3, Dex 10, Con 14, Int -, Wis 10, Cha 2</p></td>
+<td><p>Str 9, Dex 10, Con 14, Int -, Wis 10, Cha 2</p></td>
+<td><p>Str 13, Dex 10, Con 14, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +0, <a href="ch16s03.html#CombinedSkills179">Hide</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +5, <a href="ch16s03.html#CombinedSkills179">Hide</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm deserts</p></td>
+<td><p>Warm deserts</p></td>
+<td><p>Warm deserts</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Colony (8-16)</p></td>
+<td><p>Colony (2-5) or <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> (6-11)</p></td>
+<td><p>Solitary or colony (2-5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/4</p></td>
+<td><p>1/2</p></td>
+<td><p>1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3-4 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1828991">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Monstrous Scorpion, Large</strong></span></p></td>
+<td><p><span class="strong"><strong>Monstrous Scorpion, Huge</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>5d8+10 (32 hp)</p></td>
+<td><p>10d8+30 (75 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 size, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>20 (-2 size, +12 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+11</p></td>
+<td><p>+7/+21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +6 melee (1d6+4)</p></td>
+<td><p>Claw +11 melee (1d8+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +6 melee (1d6+4) and sting +1 melee (1d6+2 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+<td><p>2 claws +11 melee (1d8+6) and sting +6 melee (2d4+3 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d6+4, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d8+6, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +1, Will +1</p></td>
+<td><p>Fort +10, Ref +3, Will +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 10, Con 14, Int -, Wis 10, Cha 2</p></td>
+<td><p>Str 23, Dex 10, Con 16, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +8, <a href="ch16s03.html#CombinedSkills179">Hide</a> +0, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +10, <a href="ch16s03.html#CombinedSkills179">Hide</a> -4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm deserts</p></td>
+<td><p>Warm deserts</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or colony (2-5)</p></td>
+<td><p>Solitary or colony (2-5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>1/10 coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+<td><p>1/10 coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>6-9 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>11-19 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2155316">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Monstrous Scorpion, Gargantuan</strong></span></p></td>
+<td><p><span class="strong"><strong>Monstrous Scorpion, Colossal</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>20d8+60 (150 hp)</p></td>
+<td><p>40d8+120 (300 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>-1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>24 (-4 size, +18 natural), <a href="ch21s02.html#CombatI12">touch</a> 6, <a href="ch21s03.html#CombatI21">flat-footed</a> 24</p></td>
+<td><p>26 (-8 size, -1 Dex, +25 natural), <a href="ch21s02.html#CombatI12">touch</a> 1, <a href="ch21s03.html#CombatI21">flat-footed</a> 26</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+15/+37</p></td>
+<td><p>+30/+58</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +21 melee (2d6+10)</p></td>
+<td><p>Claw +34 melee (2d8+12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +21 melee (2d6+10) and sting +16 melee (2d6+5 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+<td><p>2 claws +34 melee (2d8+12) and sting +29 melee (2d8+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>20 ft./15 ft.</p></td>
+<td><p>40 ft./30 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 2d6+10, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 2d8+12, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +15, Ref +6, Will +6</p></td>
+<td><p>Fort +25, Ref +12, Will +13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 31, Dex 10, Con 16, Int -, Wis 10, Cha 2</p></td>
+<td><p>Str 35, Dex 8, Con 16, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +14, <a href="ch16s03.html#CombinedSkills179">Hide</a> -8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +16, <a href="ch16s03.html#CombinedSkills179">Hide</a> -12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm deserts</p></td>
+<td><p>Warm deserts</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+<td><p>12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>1/10 coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+<td><p>1/10 coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>21-39 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+<td><p>41-60 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch74s09.html#MonstersVermin24">Monstrous scorpions</a> are likely to attack any creature that approaches, and they usually charge when attacking prey.</p>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2153746"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersVermin25"/>
+        <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch74s09.html#MonstersVermin24">monstrous scorpion</a> deals automatic claw damage on a successful grapple check.</p>
+      </div>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2153784"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersVermin26"/>
+        <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch74s09.html#MonstersVermin24">monstrous scorpion</a> must hit with a claw attack. A <a href="ch74s09.html#MonstersVermin24">monstrous scorpion</a> can use either its Strength modifier or Dexterity modifier for grapple checks, whichever is better.</p>
+      </div>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id1977623"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersVermin27"/>
+        <p><span class="strong"><strong>Poison (Ex):</strong></span> A <a href="ch74s09.html#MonstersVermin24">monstrous scorpion</a> has a poisonous sting. The details vary by the scorpion's size, as follows. The save DCs are Constitution- based. The indicated damage is initial and secondary damage.</p>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1977659">
+          <tbody>
+            <tr><td><p><span class="strong"><strong>Size</strong></span></p></td>
+<td><p><span class="strong"><strong>Fort DC</strong></span></p></td>
+<td><p><span class="strong"><strong>Damage</strong></span></p></td>
+<td><p><span class="strong"><strong>Size</strong></span></p></td>
+<td><p><span class="strong"><strong>Fort DC</strong></span></p></td>
+<td><p><span class="strong"><strong>Damage</strong></span></p></td>
+
+</tr>
+            <tr><td><p><a href="ch22.html#CombatII28">Tiny</a></p></td>
+<td><p>12</p></td>
+<td><p>1 Con</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a></p></td>
+<td><p>18</p></td>
+<td><p>1d6 Con</p></td>
+
+</tr>
+            <tr><td><p><a href="ch22.html#CombatII28">Small</a></p></td>
+<td><p>12</p></td>
+<td><p>1d2 Con</p></td>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a></p></td>
+<td><p>23</p></td>
+<td><p>1d8 Con</p></td>
+
+</tr>
+            <tr><td><p><a href="ch22.html#CombatII28">Medium</a></p></td>
+<td><p>13</p></td>
+<td><p>1d3 Con</p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a></p></td>
+<td><p>33</p></td>
+<td><p>1d10 Con</p></td>
+
+</tr>
+            <tr><td><p><a href="ch22.html#CombatII28">Large</a></p></td>
+<td><p>14</p></td>
+<td><p>1d4 Con</p></td>
+<td/>
+<td/>
+<td/>
+
+</tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2155190"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersVermin28"/>
+        <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch74s09.html#MonstersVermin24">monstrous scorpion</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch74s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch74.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch74s10.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monstrous Centipede </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monstrous Spider</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Devil</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch62.html" title="Monsters (D-De)"/>
+    <link rel="prev" href="ch62s05.html" title="Destrachan"/>
+    <link rel="next" href="ch62s07.html" title="Devourer"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Devil</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch62s05.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (D-De)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch62s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1699449"/>Devil</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1699725">Barbed Devil (Hamatula)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1701178">Bearded Devil (Barbazu)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1702532">Bone Devil (Osyluth)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1703883">Chain Devil (Kyton)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1705143">Erinyes</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1706564">Hellcat (Bezekira)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1707823">Horned Devil (Cornugon)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1709424">Ice Devil (Gelugon)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1710989">Imp</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1712274">Lemure</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch62s06.html#id1712966">Pit Fiend</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersD-De114"/>
+      <p><a href="ch62s06.html#MonstersD-De114">Devils</a> are fiends from lawful evil-aligned planes.<a href="img/MonstersD-De.Devil.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Devil.jpg" align="right"/></span></a></p>
+      <p>Many <a href="ch62s06.html#MonstersD-De114">devils</a> are surrounded by a fear aura, which they use to break up powerful groups and defeat opponents piecemeal. <a href="ch62s06.html#MonstersD-De114">Devils</a> with spell-like abilities use their illusion abilities to delude and confuse foes as much as possible. A favorite trick is to create illusory reinforcements; enemies can never be entirely sure if a threat is only a figment or real summoned <a href="ch62s06.html#MonstersD-De114">devils</a> joining the fray.</p>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id1699534"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De115"/>
+        <p><span class="strong"><strong>Devil Traits:</strong></span> Most <a href="ch62s06.html#MonstersD-De114">devils</a> possesses the following traits (unless otherwise noted in a creature's entry).</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch04.html#TypesSubtypesAbilities60">Resistance to acid</a> 10 and <a href="ch04.html#TypesSubtypesAbilities16">cold</a> 10.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>See in Darkness (Su): Some <a href="ch62s06.html#MonstersD-De114">devils</a> can see perfectly in darkness of any kind, even that created by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E12">deeper darkness</a></em></span> spell.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-<span class="emphasis"><em>Summon</em></span> (Sp): Some <a href="ch62s06.html#MonstersD-De114">devils</a> share the ability to summon others of their kind (the success chance and type of <a href="ch62s06.html#MonstersD-De114">devils</a> summoned are noted in each monster description).</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p><a href="ch04.html#TypesSubtypesAbilities71">Telepathy</a>.</p>
+            </li>
+          </ul>
+        </div>
+        <p>Except when otherwise noted, <a href="ch62s06.html#MonstersD-De114">devils</a> speak <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, Celestial, and Draconic.</p>
+        <p/>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1699725"/>Barbed Devil (Hamatula)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1700767">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De116"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1699743">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Barbed Devil</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d8+72 (126 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>29 (+6 Dex, +13 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 23</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+22</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +18 melee (2d8+6 plus <a href="ch04.html#TypesSubtypesAbilities27">fear</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +18 melee (2d8+6 plus <a href="ch04.html#TypesSubtypesAbilities27">fear</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities27">Fear</a>, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, impale 3d8+9, <span class="emphasis"><em>summon devil</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Barbed defense, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 23, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +14, Ref +14, Will +12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 23, Con 23, Int 12, Wis 14, Cha 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +21, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +21, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +19, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +16, <a href="ch16s03.html#CombinedSkills204">Listen</a> +19, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +21, <a href="ch16s03.html#CombinedSkills253">Search</a> +16, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +17, <a href="ch16s03.html#CombinedSkills294">Spot</a> +19, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2 (+4 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats186">Improved Grapple</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, team (3-5), or squad (6-10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>13-24 (<a href="ch22.html#CombatII28">Medium</a>); 25-36 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch62s06.html#MonstersD-De116">barbed devil</a> is about 7 feet tall and weighs about 300 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1700767"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De117"/>
+          <p><a href="ch62s06.html#MonstersD-De116">Barbed devils</a> eagerly fight with their claws, trying to impale their opponents. They use <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span> to immobilize those who avoid their hug attacks.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De116">barbed devil's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1700823"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De118"/>
+            <p><span class="strong"><strong>Fear (Su):</strong></span> A creature hit by a <a href="ch62s06.html#MonstersD-De116">barbed devil</a> must succeed on a DC 20 Will save or be affected as though by <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> (caster level 9th).</p>
+            <p>Whether or not the save is successful, that creature cannot be affected by that same <a href="ch62s06.html#MonstersD-De116">barbed devil's</a> fear ability for 24 hours. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1700887"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De119"/>
+            <p><span class="strong"><strong>Impale (Ex):</strong></span> A <a href="ch62s06.html#MonstersD-De116">barbed devil</a> deals 3d8+9 points of piercing damage to a grabbed opponent with a successful grapple check.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1700926"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De120"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch62s06.html#MonstersD-De116">barbed devil</a> must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can impale the opponent on its barbed body.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1700967"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De121"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Once per day a <a href="ch62s06.html#MonstersD-De116">barbed devil</a> can attempt to summon 1d6 <a href="ch62s06.html#MonstersD-De124">bearded devils</a> or another <a href="ch62s06.html#MonstersD-De116">barbed devil</a> with a 35% chance of success. This ability is the equivalent of a 4th-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1701028"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De122"/>
+            <p><span class="strong"><strong>Barbed Defense (Su):</strong></span> Any creature striking a <a href="ch62s06.html#MonstersD-De116">barbed devil</a> with handheld weapons or natural weapons takes 1d8+6 points of piercing and slashing damage from the <a href="ch62s06.html#MonstersD-De114">devil's</a> barbs. Note that weapons with exceptional reach, such as longspears, do not endanger their users in this way.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1701079"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De123"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only), <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span> (DC 16), <span class="emphasis"><em><a href="ch48.html#SpellsM-O25">major image</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span> (2 rays only). 1/day-<span class="emphasis"><em><a href="ch48.html#SpellsM-O54">order's wrath</a></em></span> (DC 18), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z30">unholy blight</a></em></span> (DC 18). Caster level 12th. The save DCs are Charisma-based.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1701178"/>Bearded Devil (Barbazu)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1702156">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De124"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1701197">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Bearded Devil</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+18 (45 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>19 (+2 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Glaive +9 melee (1d10+3 plus <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound) or claw +8 melee (1d6+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Glaive +9/+4 melee (1d10+3 plus <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound) or 2 claws +8 melee (1d6+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft. (10 ft. with glaive)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)57">Infernal</a> wound, beard, battle frenzy, <span class="emphasis"><em>summon devil</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/silver or <a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 17, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +7, Will +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 15, Con 17, Int 6, Wis 10, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +11, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +2, <a href="ch16s03.html#CombinedSkills179">Hide</a> +11, <a href="ch16s03.html#CombinedSkills204">Listen</a> +9, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (glaive)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, team (3-5), or squad (6-10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-9 HD (<a href="ch22.html#CombatII28">Medium</a>); 10-18 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Every <a href="ch62s06.html#MonstersD-De124">bearded devil</a> carries a sawtoothed glaive.</p>
+        <p>A <a href="ch62s06.html#MonstersD-De124">bearded devil</a> stands 6 feet tall and weighs about 225 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1702156"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De125"/>
+          <p><a href="ch62s06.html#MonstersD-De124">Bearded devils</a> are aggressive and love to fight. They revel in their battle frenzy, spreading mayhem among their foes.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De124">bearded devil's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1702201"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De126"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will- <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only). Caster level 12th.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1702242"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De127"/>
+            <p><span class="strong"><strong>Infernal Wound (Su):</strong></span> The damage a <a href="ch62s06.html#MonstersD-De124">bearded devil</a> deals with its glaive causes a persistent wound. An injured creature loses 2 additional hit points each round. The wound does not heal naturally and resists healing spells. The continuing hit point loss can be stopped by a DC 16 <a href="ch16s03.html#CombinedSkills171">Heal</a> check, a <span class="emphasis"><em>cure</em></span> spell, or a <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell. However, a character attempting to cast a <span class="emphasis"><em>cure</em></span> spell or a <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell on a creature damaged by a <a href="ch62s06.html#MonstersD-De124">bearded devil's</a> glaive must succeed on a DC 16 caster level check, or the spell has no effect on the injured character.</p>
+            <p>A successful <a href="ch16s03.html#CombinedSkills171">Heal</a> check automatically stops the continuing hit point loss as well as restoring hit points. The <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound is a supernatural ability of the <a href="ch62s06.html#MonstersD-De124">bearded devil</a>, not of the weapon. The check DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1702370"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De128"/>
+            <p><span class="strong"><strong>Beard (Ex):</strong></span> If a <a href="ch62s06.html#MonstersD-De124">bearded devil</a> hits a single opponent with both claw attacks, it automatically hits with its beard. The affected creature takes 1d8+2 points of damage and must succeed on a DC 16 Fortitude save or be infected with a vile disease known as <a href="ch62s06.html#MonstersD-De114">devil</a> chills (incubation period 1d4 days, damage 1d4 Str). Damage is dealt each day until the afflicted creature succeeds on three consecutive Fortitude saves, the disease is cured magically, or the creature dies. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1702425"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De129"/>
+            <p><span class="strong"><strong>Battle Frenzy (Ex):</strong></span> Twice per day, a <a href="ch62s06.html#MonstersD-De124">bearded devil</a> can work itself into a battle frenzy similar to the barbarian's rage (+4 Strength, +4 Constitution, +2 morale bonus on Will saves, -2 AC penalty). The frenzy lasts for 6 rounds, and the <a href="ch62s06.html#MonstersD-De124">bearded devil</a> suffers no ill effects afterward.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1702476"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De130"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Once per day a <a href="ch62s06.html#MonstersD-De124">bearded devil</a> can attempt to summon 2d10 lemures with a 50% chance of success, or another <a href="ch62s06.html#MonstersD-De124">bearded devil</a> with a 35% chance of success. This ability is the equivalent of a 3rd-level spell.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1702532"/>Bone Devil (Osyluth)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1703572">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De131"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1702551">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Bone Devil</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d8+50 (95 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>25 (-1 size, +5 Dex, +11 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/+19</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +14 melee (1d8+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +14 melee (1d8+5) and 2 claws +12 melee (1d4+2) and sting +12 melee (3d4+2 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities27">fear</a> aura, <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <span class="emphasis"><em>summon devil</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 21, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12, Ref +12, Will +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 21, Con 21, Int 14, Wis 14, Cha 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +15, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +18, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills179">Hide</a> +14, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +17, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +15, <a href="ch16s03.html#CombinedSkills204">Listen</a> +17, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +18, <a href="ch16s03.html#CombinedSkills253">Search</a> +15, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +15, <a href="ch16s03.html#CombinedSkills294">Spot</a> +17, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2 (+4 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, team (2-4), or squad (6-10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>11-20 HD (<a href="ch22.html#CombatII28">Large</a>); 21-30 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch62s06.html#MonstersD-De131">Bone devils</a> stand about 9 feet tall and weigh about 500 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1703572"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De132"/>
+          <p><a href="ch62s06.html#MonstersD-De131">Bone devils</a> hate all other creatures and attack ruthlessly. They freely use <span class="emphasis"><em><a href="ch51.html#SpellsT-Z40">wall of ice</a></em></span> to keep the enemy divided.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De131">bone devil's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1703628"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De133"/>
+            <p><span class="strong"><strong>Fear Aura (Su):</strong></span> <a href="ch62s06.html#MonstersD-De131">Bone devils</a> can radiate a 5-foot-radius fear aura as a free action. Affected creatures must succeed on a DC 17 Will save or be affected as though by a <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> spell (caster level 7th). A creature that successfully saves cannot be affected again by the same <a href="ch62s06.html#MonstersD-De131">bone devil's</a> aura for 24 hours. Other <a href="ch62s06.html#MonstersD-De114">devils</a> are immune to the aura. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1703700"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De134"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 20, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC</p>
+            <p>is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1703732"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De135"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only), <span class="emphasis"><em><a href="ch45.html#SpellsD-E32">dimensional anchor</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> (self only), <span class="emphasis"><em><a href="ch48.html#SpellsM-O25">major image</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z40">wall of ice</a></em></span>. Caster level 12th. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1703827"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De136"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Once per day a <a href="ch62s06.html#MonstersD-De131">bone devil</a> can attempt to summon 2d10 lemures with a 50% chance of success, or another <a href="ch62s06.html#MonstersD-De131">bone devil</a> with a 35% chance of success. This ability is the equivalent of a 4th-level spell.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1703883"/>Chain Devil (Kyton)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1704843">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De137"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1703902">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Chain Devil</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+16 (52 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (+2 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Chain +10 melee (2d4+2/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 chains +10 melee (2d4+2/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft. (10 ft. with chains)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Dancing chains, unnerving <a href="ch04.html#TypesSubtypesAbilities32">gaze</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/silver or <a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 2, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +8, Will +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 15, Con 15, Int 6, Wis 10, Cha 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +13, <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) +17, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +13, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +2 (+4 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (chain), <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, gang (2-4), band (6-10), or mob (11-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch62s06.html#MonstersD-De137">Kytons</a> are humanlike <a href="ch62s06.html#MonstersD-De114">devils</a>, wrapped in chains instead of clothing. A <a href="ch62s06.html#MonstersD-De137">chain devil</a> is 6 feet tall and weighs about 300 pounds, chains included.<a href="img/MonstersD-De.Chain_Devil.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Chain_Devil.jpg" align="right"/></span></a></p>
+        <p><a href="ch62s06.html#MonstersD-De137">Chain devils</a> speak <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a> and Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1704843"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De138"/>
+          <p>A <a href="ch62s06.html#MonstersD-De137">chain devil</a> attacks by flailing away with the spiked chains that serve as its clothing, armor, and weapons.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De137">chain devil's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1704890"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De139"/>
+            <p><span class="strong"><strong>Dancing Chains (Su):</strong></span> A <a href="ch62s06.html#MonstersD-De137">chain devil's</a> most awesome attack is its ability to control up to four chains within 20 feet as a standard action, making the chains dance or move as it wishes. In addition, a <a href="ch62s06.html#MonstersD-De137">chain devil</a> can increase these chains' length by up to 15 feet and cause them to sprout razor-edged barbs. These chains attack as effectively as the <a href="ch62s06.html#MonstersD-De114">devil</a> itself. If a chain is in another creature's possession, the creature can attempt a DC 15 Will save to break the <a href="ch62s06.html#MonstersD-De137">chain devil's</a> power over that chain. If the save is successful, the <a href="ch62s06.html#MonstersD-De137">kyton</a> cannot attempt to control that particular chain again for 24 hours or until the chain leaves the creature's possession. The save DC is Charisma-based.</p>
+            <p>A <a href="ch62s06.html#MonstersD-De137">chain devil</a> can climb chains it controls at its normal speed without making <a href="ch16s03.html#CombinedSkills71">Climb</a> checks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1704998"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De140"/>
+            <p><span class="strong"><strong>Unnerving Gaze (Su):</strong></span> Range 30 ft., Will DC 15 negates. A <a href="ch62s06.html#MonstersD-De137">chain devil</a> can make its face resemble one of an opponent's departed loved ones or bitter enemies. Those who fail their saves take a -2 penalty on attack rolls for 1d3 rounds. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1705040"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De141"/>
+            <p><span class="strong"><strong>Regeneration (Ex):</strong></span> <a href="ch62s06.html#MonstersD-De137">Chain devils</a> take normal damage from silvered weapons, good-aligned weapons, and spells or effects with the good descriptor. A <a href="ch62s06.html#MonstersD-De137">chain devil</a> that loses a piece of its body regrows it in 2d6x10 minutes. Holding the severed member against the stump enables it to reattach instantly.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1705091"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De142"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch62s06.html#MonstersD-De137">Chain devils</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills91">Craft</a> checks involving metalwork.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1705143"/>Erinyes</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1706268">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De143"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1705161">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Erinyes</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d8+45 (85 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>23 (+5 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Longsword +14 melee (1d8+5/19-20) or <span class="emphasis"><em>+1 flaming composite longbow</em></span> (+5 Str bonus) +15 ranged (1d8+6/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) or rope +14 ranged (entangle)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Longsword +14/+9 melee (1d8+5/19-20) or <span class="emphasis"><em>+1 flaming composite longbow</em></span> (+5 Str bonus) +15/+10 ranged (1d8+6/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) or rope +14 ranged (entangle)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Entangle, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon devil</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/<a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 20, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft., true seeing</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +11, Ref +11, Will +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 21, Con 21, Int 14, Wis 18, Cha 20</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +17, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +7, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +17, <a href="ch16s03.html#CombinedSkills179">Hide</a> +17, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any two) +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +16, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +17, <a href="ch16s03.html#CombinedSkills253">Search</a> +14, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +16, <a href="ch16s03.html#CombinedSkills294">Spot</a> +16, <a href="ch16s03.html#CombinedSkills303">Survival</a> +4 (+6 following tracks), <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +5 (+7 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a> <sup>B</sup>, <a href="ch17s03.html#Feats253">Mobility</a> <sup>B</sup>, <a href="ch17s03.html#Feats274">Point Blank Shot</a>, <a href="ch17s03.html#Feats281">Precise Shot</a>, <a href="ch17s03.html#Feats298">Rapid Shot</a>, <a href="ch17s03.html#Feats318">Shot on the Run</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard, plus rope and <span class="emphasis"><em>+1 flaming composite longbow</em></span> (+5 Str bonus)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>10-18 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Unlike other <a href="ch62s06.html#MonstersD-De114">devils</a>, <a href="ch62s06.html#MonstersD-De143">erinyes</a> appear attractive to humans, resembling very comely women or men. An <a href="ch62s06.html#MonstersD-De143">erinyes</a> stands about 6 feet tall and weighs about 150 pounds.<a href="img/MonstersD-De.Erinyes.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Erinyes.jpg" align="right"/></span></a></p>
+        <p><a href="ch62s06.html#MonstersD-De143">Erinyes</a> speak <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, Celestial, and Draconic.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1706268"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De144"/>
+          <p><a href="ch62s06.html#MonstersD-De143">Erinyes</a> prefer to engage in combat from a distance. They use <span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span> to distract or disorganize their opponents, then rain down fiery arrows from above.</p>
+          <p>An <a href="ch62s06.html#MonstersD-De143">erinyes's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1706325"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De145"/>
+            <p><span class="strong"><strong>Entangle (Ex):</strong></span> Each <a href="ch62s06.html#MonstersD-De143">erinyes</a> carries a stout rope some 50 feet long that entangles opponents of any size as an <span class="emphasis"><em><a href="ch43.html#SpellsA-B18">animate rope</a></em></span> spell (caster level 16th). An <a href="ch62s06.html#MonstersD-De143">erinyes</a> can hurl its rope 30 feet with no range penalty. Typically, an <a href="ch62s06.html#MonstersD-De143">erinyes</a> entangles a foe, lifts it into the air, and drops it from a great height.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1706396"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De146"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only), <span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch48.html#SpellsM-O37">minor image</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z30">unholy blight</a></em></span> (DC 19). Caster level 12th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1706469"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De147"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Once per day an <a href="ch62s06.html#MonstersD-De143">erinyes</a> can attempt to summon 2d10 lemures or 1d4 <a href="ch62s06.html#MonstersD-De124">bearded devils</a> with a 50% chance of success. This ability is the equivalent of a 3rd-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1706521"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De148"/>
+            <p><span class="strong"><strong>True Seeing (Su):</strong></span> <a href="ch62s06.html#MonstersD-De143">Erinyes</a> continuously use true seeing, as the spell (caster level 14th).</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1706564"/>Hellcat (Bezekira)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1707554">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De149"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1706582">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Hellcat</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+24 (60 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>21 (-1 size, +5 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +13 melee (1d8+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +13 melee (1d8+6) and bite +8 melee (2d8+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities53">pounce</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 1d8+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/<a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., invisible in light, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 19, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +11, Will +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 21, Con 17, Int 10, Wis 14, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +16, <a href="ch16s03.html#CombinedSkills71">Climb</a> +17, <a href="ch16s03.html#CombinedSkills179">Hide</a> +13, <a href="ch16s03.html#CombinedSkills192">Jump</a> +21, <a href="ch16s03.html#CombinedSkills204">Listen</a> +17, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +20, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills311">Swim</a> +17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats369">Track</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or pride (6-10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-10 HD (<a href="ch22.html#CombatII28">Large</a>); 11-24 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>While its appearance suggests it is incorporeal, a <a href="ch62s06.html#MonstersD-De149">hellcats</a> has a corporeal body and can be harmed by physical attacks.<a href="img/MonstersD-De.Hellcat.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Hellcat.jpg" align="right"/></span></a></p>
+        <p><a href="ch62s06.html#MonstersD-De149">Hellcats</a> use a natural telepathy to communicate with one another and those they encounter. A <a href="ch62s06.html#MonstersD-De149">hellcat</a> measures about 9 feet long and weighs about 900 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1707554"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De150"/>
+          <p>A <a href="ch62s06.html#MonstersD-De149">hellcat</a> can hold its own in combat thanks to sharp claws and wicked fangs. It prefers to leap upon opponents, just as a <a href="ch73s24.html#MonstersAnimals84">lion</a> does.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De149">hellcat's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1707611"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De151"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch62s06.html#MonstersD-De149">hellcat</a> must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can rake.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1707652"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De152"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch62s06.html#MonstersD-De149">hellcat</a> charges, it can make a full attack, including two rake attacks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1707691"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De153"/>
+            <p><span class="strong"><strong>Rake (Ex):</strong></span> Attack bonus +13 melee, damage 1d8+3.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1707719"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De154"/>
+            <p><span class="strong"><strong>Invisible in Light (Ex):</strong></span> A <a href="ch62s06.html#MonstersD-De149">hellcat</a> is invisible in any area lit well enough for a human to see. In a darkened area, it shows up as a faintly glowing outline visible up to 30 feet away (60 feet if the viewer has low-light vision). Magical darkness smothers the glow and conceals the outline.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1707762"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De155"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch62s06.html#MonstersD-De149">Hellcats</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1707823"/>Horned Devil (Cornugon)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1708928">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De156"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1707842">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Horned Devil</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>15d8+105 (172 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 50 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>35 (-1 size, +7 Dex, +19 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 28</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+15/+29</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Spiked chain +25 melee (2d6+15 plus stun) or claw +24 melee (2d6+10) or tail +24 melee (2d6+10 plus <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Spiked chain +25/+20/+15 melee (2d6+15 plus stun) and bite +22 melee (2d8+5) and tail +22 melee (2d6+5 plus <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound); or 2 claws +24 melee (2d6+10) and bite + 22 melee (2d8+5) and tail +22 melee (2d6+5 plus <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft. (20 ft. with spiked chain)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities27">Fear</a> aura, <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> wound, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> stun, <span class="emphasis"><em>summon devil</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and silver, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 5, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 28, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +16, Ref +16, Will +15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 31, Dex 25, Con 25, Int 14, Wis 18, Cha 22</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +24, <a href="ch16s03.html#CombinedSkills71">Climb</a> +28, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +24, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +10, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +6 (+8 acting), <a href="ch16s03.html#CombinedSkills179">Hide</a> +21, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +26, <a href="ch16s03.html#CombinedSkills204">Listen</a> +22, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +23, <a href="ch16s03.html#CombinedSkills253">Search</a> +20, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +22, <a href="ch16s03.html#CombinedSkills294">Spot</a> +22, <a href="ch16s03.html#CombinedSkills303">Survival</a> +4 (+6 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (spiked chain)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, team (2-4), or squad (6-10)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>16-20 HD (<a href="ch22.html#CombatII28">Large</a>); 21-45 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch62s06.html#MonstersD-De156">horned devil</a> is 9 feet tall and weighs about 600 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1708928"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De157"/>
+          <p><a href="ch62s06.html#MonstersD-De156">Horned devils</a> are bold fighters. They rarely retreat, even against overwhelming odds. They love to fight with their spiked chains, usually singling out the most powerful foes to stun and eliminate quickly.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De156">horned devil's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1708975"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De158"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E40">dispel chaos</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch45.html#SpellsD-E42">dispel good</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch48.html#SpellsM-O13">magic circle against good</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only); <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 21) 3/day-<span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span> (DC 19). Caster level 15th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1709080"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De159"/>
+            <p><span class="strong"><strong>Fear Aura (Su):</strong></span> A <a href="ch62s06.html#MonstersD-De156">horned devil</a> can radiate a 5-foot-radius fear aura as a free action. A creature in the area must succeed on a DC 23 Will save or be affected as though by a <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> spell (caster level 15th). A creature that successfully saves cannot be affected again by the same <a href="ch62s06.html#MonstersD-De156">horned devil's</a> aura for 24 hours. Other <a href="ch62s06.html#MonstersD-De114">devils</a> are immune to the aura. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1709153"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De160"/>
+            <p><span class="strong"><strong>Stun (Su):</strong></span> Whenever a <a href="ch62s06.html#MonstersD-De156">horned devil</a> hits with a spiked chain attack, the opponent must succeed on a DC 27 Fortitude save or be stunned for 1d4 rounds. The save DC is Strength-based. This ability is a function of the <a href="ch62s06.html#MonstersD-De156">horned devil</a>, not of the spiked chain.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1709203"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De161"/>
+            <p><span class="strong"><strong>Infernal Wound (Su):</strong></span> The damage a <a href="ch62s06.html#MonstersD-De156">horned devil</a> deals with its tail attack causes a persistent wound. An injured creature loses 2 additional hit points each round. The wound does not heal naturally and resists healing spells. The continuing hit point loss can be stopped by a DC 24 <a href="ch16s03.html#CombinedSkills171">Heal</a> check, a <span class="emphasis"><em>cure</em></span> spell, or a <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell. However, a character attempting to cast a <span class="emphasis"><em>cure</em></span> spell or a <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell on a creature damaged by a <a href="ch62s06.html#MonstersD-De156">horned devil's</a> tail must succeed on a DC 24 caster level check, or the spell has no effect on the injured character. A successful <a href="ch16s03.html#CombinedSkills171">Heal</a> check automatically stops the continuing hit point loss as well as restoring hit points. The check DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1709308"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De162"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Once per day a <a href="ch62s06.html#MonstersD-De156">horned devil</a> can attempt to summon 2d10 lemures or 1d6 <a href="ch62s06.html#MonstersD-De124">bearded devils</a> with a 50% chance of success, 1d6 <a href="ch62s06.html#MonstersD-De116">barbed devils</a> with a 35% chance of success, or another <a href="ch62s06.html#MonstersD-De156">horned devil</a> with a 20% chance of success. This ability is the equivalent of a 6th-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1709380"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De163"/>
+            <p><span class="strong"><strong>Regeneration (Ex):</strong></span> A <a href="ch62s06.html#MonstersD-De156">horned devil</a> takes normal damage from good-aligned silvered weapons, and from spells or effects with the good descriptor.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1709424"/>Ice Devil (Gelugon)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1710530">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De164"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1709443">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Ice Devil</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>14d8+84 (147 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>32 (-1 size, +5 Dex, +18 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 27</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+14/+24</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Spear +20 melee (2d6+9/x3 plus slow) or claw +19 melee (1d10+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Spear +20/+15/+10 melee (2d6+9/x3 plus slow) and bite +14 melee (2d6+3) and tail +14 melee (3d6+3 plus slow); or 2 claws +19 melee (1d10+6) and bite +14 melee (2d6+3) and tail +14 melee (3d6+3 plus slow)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities27">Fear</a> aura, slow, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon devil</em></span> </p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities35">good</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 5, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 25, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +15, Ref +14, Will +15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 21, Con 23, Int 22, Wis 22, Cha 20</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +22, <a href="ch16s03.html#CombinedSkills71">Climb</a> +23, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +23, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +9, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +5 (+7 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +24, <a href="ch16s03.html#CombinedSkills192">Jump</a> +27, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any three) +23, <a href="ch16s03.html#CombinedSkills204">Listen</a> +25, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +22, <a href="ch16s03.html#CombinedSkills253">Search</a> +23, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +23, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +23, <a href="ch16s03.html#CombinedSkills294">Spot</a> +25, <a href="ch16s03.html#CombinedSkills303">Survival</a> +6 (+8 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (spear)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, team (2-4), squad (6-10), or troupe (1-2 <a href="ch62s06.html#MonstersD-De164">ice devils</a>, 7-12 <a href="ch62s06.html#MonstersD-De124">bearded devils</a>, and 1-4 <a href="ch62s06.html#MonstersD-De131">bone devils</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>15-28 HD (<a href="ch22.html#CombatII28">Large</a>); 29-42 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>An <a href="ch62s06.html#MonstersD-De164">ice devil</a> is about 12 feet tall and weighs about 700 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1710530"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De165"/>
+          <p>An <a href="ch62s06.html#MonstersD-De164">ice devil</a> prefers to fight only when doing so serves its mission, but it never hesitates to attack when it deems a battle necessary-or likely to end in its victory.</p>
+          <p>An <a href="ch62s06.html#MonstersD-De164">ice devil's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1710577"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De166"/>
+            <p><span class="strong"><strong>Fear Aura (Su):</strong></span> An <a href="ch62s06.html#MonstersD-De164">ice devil</a> can radiate a 10-foot-radius fear aura as a free action. A creature in the area must succeed on a DC 22 Will save or be affected as though by a <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> spell (caster level 13th). A creature that successfully saves cannot be affected again by the same <a href="ch62s06.html#MonstersD-De164">ice devil's</a> aura for 24 hours. Other <a href="ch62s06.html#MonstersD-De114">devils</a> are immune to the aura. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1710649"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De167"/>
+            <p><span class="strong"><strong>Slow (Su):</strong></span> A hit from an <a href="ch62s06.html#MonstersD-De164">ice devil's</a> tail or spear induces numbing cold. The opponent must succeed on a DC 23 Fortitude save or be affected as though by a <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell for 1d6 rounds. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1710700"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De168"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch44.html#SpellsC32">cone of cold</a></em></span> (DC 20), <span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L31">ice storm</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only), <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 20), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span> (DC 23), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z40">wall of ice</a></em></span> (DC 19). Caster level 13th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1710874"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De169"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Once per day an <a href="ch62s06.html#MonstersD-De164">ice devil</a> can attempt to summon 2d10 lemures or 1d6 <a href="ch62s06.html#MonstersD-De124">bearded devils</a>, 2d4 <a href="ch62s06.html#MonstersD-De131">bone devils</a> with a 50% chance of success, or another <a href="ch62s06.html#MonstersD-De164">ice devil</a> with a 20% chance of success. This ability is the equivalent of a 4th-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1710945"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De170"/>
+            <p><span class="strong"><strong>Regeneration (Ex):</strong></span> An <a href="ch62s06.html#MonstersD-De164">ice devil</a> takes normal damage from good-aligned weapons and from spells or effects with the good descriptor.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1710989"/>Imp</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1711964">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De171"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1711007">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Imp</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 50 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (+2 size, +3 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Sting +8 melee (1d4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Sting +8 melee (1d4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>2-1/2 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/<a href="ch04.html#TypesSubtypesAbilities35">good</a> or silver, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +6, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 10, Int 10, Wis 12, Cha 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +8, <a href="ch16s03.html#CombinedSkills179">Hide</a> +17, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills253">Search</a> +6, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills303">Survival</a> +1 (+3 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Tiny</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>- (<a href="ch17s03.html#Feats179">Improved Familiar</a>)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>In its natural form, an <a href="ch62s06.html#MonstersD-De171">imp</a> stands almost 2 feet tall and weighs about 8 pounds.<a href="img/MonstersD-De.Imp.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Imp.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1711964"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De172"/>
+          <p><a href="ch62s06.html#MonstersD-De171">Imps</a> are craven, but not so timid as to pass up an opportunity for a surprise attack using their <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> and alternate form ability. In its natural form, an <a href="ch62s06.html#MonstersD-De171">imp</a> attacks with the wicked stinger on its tail. It quickly flies out of reach if a foe manages to strike back effectively.</p>
+          <p>An <a href="ch62s06.html#MonstersD-De171">imp's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1712032"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De173"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 13, initial damage 1d4 Dex, secondary damage 2d4 Dex. The save DC is Constitution-based and includes a +2 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1712062"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De174"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E21">detect good</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> (self only); 1/day-<span class="emphasis"><em><a href="ch50.html#SpellsS74">suggestion</a></em></span> (DC 15). Caster level 6th. The save DC is Charisma-based.</p>
+            <p>Once per week an <a href="ch62s06.html#MonstersD-De171">imp</a> can use <span class="emphasis"><em><a href="ch44.html#SpellsC29">commune</a></em></span> to ask six questions. The ability otherwise works as the spell (caster level 12th).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1712159"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De175"/>
+            <p><span class="strong"><strong>Alternate Form (Su):</strong></span> An <a href="ch62s06.html#MonstersD-De171">imp</a> can assume other forms at will as a standard action. This ability functions as a <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> spell cast on itself (caster level 12th), except that an <a href="ch62s06.html#MonstersD-De171">imp</a> does not regain hit points for changing form, and an individual <a href="ch62s06.html#MonstersD-De171">imp</a> can assume only one or two forms no larger than Medium. Common forms include <a href="ch74s10.html#MonstersVermin29">monstrous spider</a>, <a href="ch73s37.html#MonstersAnimals136">raven</a>, <a href="ch73s36.html#MonstersAnimals133">rat</a>, and <a href="ch73s09.html#MonstersAnimals29">boar</a>.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1712274"/>Lemure</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1712894">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De176"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1712293">
+          <tbody>
+            <tr><td/><td><strong>Lemure</strong></td></tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+            <tr><td><p><a href="ch21s02.html#CombatI13">Hit Dice</a>:</p></td>
+<td><p>2d8 (9 hp)</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s03.html#CombatI19">Initiative</a>:</p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s02.html#CombatI14">Speed</a>:</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s02.html#CombatI11">Armor Class</a>:</p></td>
+<td><p>14 (+4 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p>Base <a href="ch21s05.html#CombatI41">Attack</a>/<a href="ch22s03.html#CombatII66">Grapple</a>:</p></td>
+<td><p>+2/+2</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s05.html#CombatI41">Attack</a>:</p></td>
+<td><p>Claw +2 melee (1d4)</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s05.html#CombatI81">Full Attack</a>:</p></td>
+<td><p>2 claws +2 melee (1d4)</p></td>
+
+</tr>
+            <tr><td><p>Space/Reach:</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><a href="ch22s03.html#CombatII52">Special Attacks</a>:</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p>Special Qualities:</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/<a href="ch04.html#TypesSubtypesAbilities35">good</a> or silver, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, mindless, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, mindless, see in darkness</p></td>
+
+</tr>
+            <tr><td><p>Saves:</p></td>
+<td><p>Fort +3, Ref +3, Will +3</p></td>
+
+</tr>
+            <tr><td><p>Abilities:</p></td>
+<td><p>Str 10, Dex 10, Con 10, Int -, Wis 11, Cha 5</p></td>
+
+</tr>
+            <tr><td><p>Environment:</p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p>Organization:</p></td>
+<td><p>Solitary, pair, gang (3-5), <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> (6-15), or mob (10-40)</p></td>
+
+</tr>
+            <tr><td><p>Challenge Rating:</p></td>
+<td><p>1</p></td>
+
+</tr>
+            <tr><td><p>Treasure:</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><a href="ch02.html#Description2">Alignment</a>:</p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p>Advancement:</p></td>
+<td><p>3-6 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p>Level Adjustment:</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A lemure is about 5 feet tall and weighs about 100 pounds.</p>
+        <p>Lemures are mindless and cannot communicate, but they are sensitive to telepathic messages from other <a href="ch62s06.html#MonstersD-De114">devils</a>, typically obeying a <a href="ch62s06.html#MonstersD-De114">devil's</a> mental commands.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1712894"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De177"/>
+          <p>Lemures surge toward anything they meet and try to claw it apart. Only a telepathic command from other <a href="ch62s06.html#MonstersD-De114">devils</a> or the complete destruction of the lemures can make them stop.</p>
+          <p>A lemure's natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1712932"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De178"/>
+            <p><span class="strong"><strong>Mindless (Ex):</strong></span> Immunity to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1712966"/>Pit Fiend</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1714618">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch62s06.html#id1715238">Tactics Round-by-Round</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De179"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1712985">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Pit Fiend</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>18d8+144 (225 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares), fly 60 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>40 (-1 size, +8 Dex, +23 natural), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 32</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+18/+35</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +30 melee (2d8+13)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +30 melee (2d8+13) and 2 wings +28 melee (2d6+6) and bite +28 melee (4d6+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a> plus disease) and tail slap +28 melee (2d8+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 2d8+26, <a href="ch04.html#TypesSubtypesAbilities27">fear</a> aura, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon devil</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and silver, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 5, see in darkness, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 32, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +19, Ref +19, Will +21</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 37, Dex 27, Con 27, Int 26, Wis 26, Cha 26</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +10, <a href="ch16s03.html#CombinedSkills61">Bluff</a> +29, <a href="ch16s03.html#CombinedSkills71">Climb</a> +34, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +29, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +10, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +29 (+31 acting), <a href="ch16s03.html#CombinedSkills179">Hide</a> +25, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +31, <a href="ch16s03.html#CombinedSkills192">Jump</a> +40, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana) +29, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +10, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +29, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +29, <a href="ch16s03.html#CombinedSkills204">Listen</a> +29, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +29, <a href="ch16s03.html#CombinedSkills253">Search</a> +29, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +31, <a href="ch16s03.html#CombinedSkills294">Spot</a> +29, <a href="ch16s03.html#CombinedSkills303">Survival</a> +8 (+10 on other planes, +10 when tracking), <a href="ch16s03.html#CombinedSkills318">Tumble</a> +31</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch20.html#MonsterFeats40">Quicken Spell-Like Ability</a> (<span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, team (3-4), or troupe (1-2 <a href="ch62s06.html#MonstersD-De179">pit fiends</a>, 2-5 <a href="ch62s06.html#MonstersD-De156">horned devils</a>, and 2-5 <a href="ch62s06.html#MonstersD-De116">barbed devils</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>20</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>19-36 HD (<a href="ch22.html#CombatII28">Large</a>); 37-54 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch62s06.html#MonstersD-De179">pit fiend</a> often wraps its wings around itself like a grotesque cloak, and appears wreathed in flames.<a href="img/MonstersD-De.Pit_Fiend.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Pit_Fiend.jpg" align="right"/></span></a></p>
+        <p>A <a href="ch62s06.html#MonstersD-De179">pit fiend</a> is 12 feet tall and weighs 800 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1714618"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De180"/>
+          <p><a href="ch62s06.html#MonstersD-De179">Pit fiends</a> are wily and resourceful fighters, using <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> to gain the upper hand and biting at foes seemingly able to see them. They don't hesitate to blanket an area with <span class="emphasis"><em>fireballs</em></span>, and can call down the wrath of an inferno with <span class="emphasis"><em><a href="ch48.html#SpellsM-O33">meteor swarm</a></em></span>.</p>
+          <p>A <a href="ch62s06.html#MonstersD-De179">pit fiend's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1714690"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De181"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch62s06.html#MonstersD-De179">pit fiend</a> deals 2d8+26 points of damage with a successful grapple check.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1714728"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De182"/>
+            <p><span class="strong"><strong>Disease (Su):</strong></span> A creature struck by a <a href="ch62s06.html#MonstersD-De179">pit fiend's</a> bite attack must succeed on a DC 27 Fortitude save or be infected with a vile disease known as <a href="ch62s06.html#MonstersD-De114">devil</a> chills (incubation period 1d4 days, damage 1d4 Str). The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1714779"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De183"/>
+            <p><span class="strong"><strong>Fear Aura (Su):</strong></span> A <a href="ch62s06.html#MonstersD-De179">pit fiend</a> can radiate a 20-foot-radius fear aura as a free action. A creature in the area must succeed on a DC 27 Will save or be affected as though by a <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> spell (caster level 18th). A creature that successfully saves cannot be affected again by the same <a href="ch62s06.html#MonstersD-De179">pit fiend's</a> aura for 24 hours. Other <a href="ch62s06.html#MonstersD-De114">devils</a> are immune to the aura. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1714851"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De184"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch62s06.html#MonstersD-De179">pit fiend</a> must hit with its tail slap attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.</p>
+            <p>If it wins the grapple check, it establishes a hold and can constrict.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1714895"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De185"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 27, initial damage 1d6 Con, secondary damage death. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1714924"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De186"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B42">blasphemy</a></em></span> (DC 25), <span class="emphasis"><em><a href="ch44.html#SpellsC49">create undead</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 50 pounds of objects only), <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O13">magic circle against good</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L20">mass hold monster</a></em></span> (DC 27), <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 23), <span class="emphasis"><em><a href="ch49.html#SpellsP-R25">power word stun</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span> (DC 26); 1/day-<span class="emphasis"><em><a href="ch48.html#SpellsM-O33">meteor swarm</a></em></span> (DC 27). Caster level 18th. The save DCs are Charisma-based.</p>
+            <p>Once per year a <a href="ch62s06.html#MonstersD-De179">pit fiend</a> can use <span class="emphasis"><em><a href="ch51.html#SpellsT-Z55">wish</a></em></span> as the spell (caster level 20th).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1715108"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De187"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>summon devil</em></span> (Sp):</strong></span> Twice per day a <a href="ch62s06.html#MonstersD-De179">pit fiend</a> can automatically summon 2 lemures, <a href="ch62s06.html#MonstersD-De131">bone devils</a>, or <a href="ch62s06.html#MonstersD-De124">bearded devils</a>, or 1 <a href="ch62s06.html#MonstersD-De143">erinyes</a>, <a href="ch62s06.html#MonstersD-De156">horned devil</a>, or <a href="ch62s06.html#MonstersD-De164">ice devil</a>. This ability is the equivalent of an 8th-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1715197"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersD-De188"/>
+            <p><span class="strong"><strong>Regeneration (Ex):</strong></span> A <a href="ch62s06.html#MonstersD-De179">pit fiend</a> takes normal damage from good-aligned silvered weapons, and from spells or effects with the good descriptor.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1715238"/>Tactics Round-by-Round</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De189"/>
+          <p>A <a href="ch62s06.html#MonstersD-De179">pit fiend</a> typically opens combat by using its spell-like abilities, attempting to neutralize dangerous opponents before entering melee.</p>
+          <p><span class="emphasis"><em>Prior to combat: <a href="ch51.html#SpellsT-Z29">Unholy aura</a></em></span>; activate fear aura, <span class="emphasis"><em>summon devil</em></span>.</p>
+          <p><span class="emphasis"><em>Round 1:</em></span> Quickened <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span> and <span class="emphasis"><em><a href="ch47.html#SpellsH-L20">mass hold monster</a></em></span> if facing three or more visible, active opponents; otherwise <span class="emphasis"><em><a href="ch49.html#SpellsP-R25">power word stun</a></em></span> against unarmored opponent (preferably a spellcaster).</p>
+          <p><span class="emphasis"><em>Round 2: <a href="ch48.html#SpellsM-O33">Meteor swarm</a></em></span> against as many foes as possible, approach worst-injured enemy.</p>
+          <p><span class="emphasis"><em>Round 3:</em></span> Full attack against injured enemy.</p>
+          <p><span class="emphasis"><em>Round 4:</em></span> Continue melee against injured enemy, or <span class="emphasis"><em><a href="ch49.html#SpellsP-R25">power word stun</a></em></span> against annoying spellcaster.</p>
+          <p><span class="emphasis"><em>Round 5:</em></span> Repeat from round 1, or <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> to safety if endangered.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch62s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch62.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch62s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Destrachan </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Devourer</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

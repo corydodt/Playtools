@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (H-I)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch66s17.html" title="Grimlock"/>
+    <link rel="next" href="ch67s02.html" title="Half-Celestial"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (H-I)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66s17.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch67s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id2077360"/>Monsters (H-I)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch67.html#id1530013">Hag</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67.html#id1748854">Annis</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67.html#id1503057">Green Hag</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67.html#id1740671">Sea Hag</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67.html#id1797489">Hag Covey</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s02.html">Half-Celestial</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s02.html#id1791737">Creating A Half-Celestial</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s03.html">Half-Dragon</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s03.html#id1722264">Creating A Half-Dragon</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s04.html">Half-Fiend</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s04.html#id1773617">Creating A Half-Fiend</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s05.html">Halfling</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s05.html#id1777331">Subraces</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s06.html">Harpy</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s06.html#id1779996">Harpy Archer</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s07.html">Hell Hound</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s07.html#id1825377">Nessian Warhound</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s08.html">Hippogriff</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s08.html#id1826591">Training A Hippogriff</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s09.html">Hobgoblin</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s09.html#id1828407">Hobgoblin Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s10.html">Homunculus</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s10.html#id1962792">Construction</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s11.html">Howler</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s11.html#id1964034">Training A Howler</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s12.html">Hydra</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s12.html#id1969709">Pyrohydra</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s12.html#id1969794">Cryohydra</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s13.html">Inevitable</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s13.html#id1970264">Kolyarut</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s13.html#id1971587">Marut</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch67s13.html#id1973172">Zelekhut</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch67s14.html">Invisible Stalker</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>his material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersH-I1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id1530013"/>Hag</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch67.html#id1748804">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch67.html#id1748854">Annis</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch67.html#id1503057">Green Hag</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch67.html#id1740671">Sea Hag</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch67.html#id1797489">Hag Covey</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I2"/>
+        <p>Although different <a href="ch67.html#MonstersH-I2">hags</a> are unique in appearance and mannerism, they have many aspects in common. All take the form of crones whose bent shapes belie their fierce power and swiftness.</p>
+        <p><a href="ch67.html#MonstersH-I2">Hags</a> speak <a href="ch66s06.html#MonstersG67">Giant</a> and Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1748804"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I3"/>
+          <p><a href="ch67.html#MonstersH-I2">Hags</a> are tremendously strong. They are naturally resistant to spells and can cast magic of their own. <a href="ch67.html#MonstersH-I2">Hags</a> often gather to form coveys. A covey, usually containing one <a href="ch67.html#MonstersH-I2">hag</a> of each type, can use powers beyond those of the individual members.</p>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1748854"/>Annis</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch67.html#id1801206">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I4"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1501829">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Annis</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+14 (45 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (-1 size, +1 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+18</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +13 melee (1d6+7)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +13 melee (1d6+7) and bite +8 melee (1d6+3)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 1d6+7, rend 2d6+10, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 2/bludgeoning, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 19</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +6, Will +6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 12, Con 14, Int 13, Wis 13, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +2, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +0 (+2 acting), <a href="ch16s03.html#CombinedSkills179">Hide</a> +5, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +2, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> marshes</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or covey (3 <a href="ch67.html#MonstersH-I2">hags</a> of any kind plus 1-8 <a href="ch70.html#MonstersO-R2">ogres</a> and 1-4 <a href="ch04.html#TypesSubtypesAbilities24">evil</a> <a href="ch04.html#TypesSubtypesAbilities33">giants</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>An <a href="ch67.html#MonstersH-I4">annis</a> commonly uses its <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span> ability to take the form of an exceptionally tall human, a fair <a href="ch66s06.html#MonstersG67">giant</a>, or an <a href="ch70.html#MonstersO-R2">ogre</a>.</p>
+          <p>An <a href="ch67.html#MonstersH-I4">annis</a> stands some 8 feet tall and weighs about 325 pounds.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id1801206"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I5"/>
+            <p>Though physically powerful, these <a href="ch67.html#MonstersH-I2">hags</a> do not favor simple assaults but try to divide and confuse their foes before combat. They love to pose as commoners or gentlefolk to lull their victims into a sense of false security before they attack.</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1672462"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I6"/>
+              <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, an <a href="ch67.html#MonstersH-I4">annis</a> must hit a Large or smaller opponent with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1793867"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I7"/>
+              <p><span class="strong"><strong>Rake (Ex):</strong></span> Attack bonus +13 melee, damage 1d6+7. An <a href="ch67.html#MonstersH-I4">annis</a> can attack a grappled foe with both claws at no penalty.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1793906"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I8"/>
+              <p><span class="strong"><strong>Rend (Ex):</strong></span> An <a href="ch67.html#MonstersH-I4">annis</a> that hits with both claw attacks latches onto the opponent's body and tears the flesh. This attack automatically deals an extra 2d6+10 points of damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1401422"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I9"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 3/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span>, <span class="emphasis"><em><a href="ch46.html#SpellsF-G25">fog cloud</a></em></span>. Caster level 8th.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1503057"/>Green Hag</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch67.html#id1785730">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I10"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1503076">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Green Hag</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d8+9 (49 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 30 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (+1 Dex, +11 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 21</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+13</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +13 melee (1d4+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +13 melee (1d4+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> weakness, mimicry</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 90 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 18</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +7, Will +7</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 12, Con 12, Int 13, Wis 13, Cha 14</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +7, <a href="ch16s03.html#CombinedSkills91">Craft</a> or <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +7, <a href="ch16s03.html#CombinedSkills179">Hide</a> +9, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11 <a href="ch16s03.html#CombinedSkills311">Swim</a> +12</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate marshes</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or covey (3 <a href="ch67.html#MonstersH-I2">hags</a> of any kind plus 1-8 <a href="ch70.html#MonstersO-R2">ogres</a> and 1-4 <a href="ch04.html#TypesSubtypesAbilities24">evil</a> <a href="ch04.html#TypesSubtypesAbilities33">giants</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p><a href="ch67.html#MonstersH-I10">Green hags</a> are found in desolate swamps and dark forests.<a href="img/MonstersH-I.Green_Hag.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersH-I.Green_Hag.jpg" align="right"/></span></a></p>
+          <p>A <a href="ch67.html#MonstersH-I10">green hag</a> is about the same height and weight as a female human.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id1785730"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I11"/>
+            <p><a href="ch67.html#MonstersH-I10">Green hags</a> prefer to attack from hiding, usually after distracting foes. They often use darkvision to their advantage by attacking during moonless nights.</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1787568"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I12"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E2">dancing lights</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G40">ghost sound</a></em></span> (DC 12), <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R3">pass without trace</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z12">tongues</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z45">water breathing</a></em></span>. Caster level 9th. The save DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1737310"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I13"/>
+              <p><span class="strong"><strong>Weakness (Su):</strong></span> A <a href="ch67.html#MonstersH-I10">green hag</a> can weaken a foe by making a special touch attack. The opponent must succeed on a DC 16 Fortitude save or take 2d4 points of Strength damage. The save DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1729611"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I14"/>
+              <p><span class="strong"><strong>Mimicry (Ex):</strong></span> A <a href="ch67.html#MonstersH-I10">green hag</a> can imitate the sounds of almost any animal found near its lair.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1785803"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I15"/>
+              <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch67.html#MonstersH-I10">green hag</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1740671"/>Sea Hag</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch67.html#id1797361">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I16"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1740689">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Sea Hag</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 40 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+1 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+7</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +7 melee (1d4+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +7 melee (1d4+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Horrific appearance, <a href="ch04.html#TypesSubtypesAbilities24">evil</a> eye</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Amphibious, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 14</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +2, Ref +4, Will +4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 12, Con 12, Int 10, Wis 13, Cha 14</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills91">Craft</a> or <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills311">Swim</a> +12</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or covey (3 <a href="ch67.html#MonstersH-I2">hags</a> of any kind plus 1-8 <a href="ch70.html#MonstersO-R2">ogres</a> and 1-4 <a href="ch04.html#TypesSubtypesAbilities24">evil</a> <a href="ch04.html#TypesSubtypesAbilities33">giants</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>The <a href="ch67.html#MonstersH-I16">sea hag</a> is found in the water of seas or overgrown lakes.</p>
+          <p>A <a href="ch67.html#MonstersH-I16">sea hag</a> is about the same height and weight as a female human.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id1797361"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I17"/>
+            <p><a href="ch67.html#MonstersH-I16">Sea hags</a> are not subtle and prefer a direct approach to combat.</p>
+            <p>They usually remain in hiding until they can affect as many foes as possible with their horrific appearance.</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1797393"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I18"/>
+              <p><span class="strong"><strong>Horrific Appearance (Su):</strong></span> The sight of a <a href="ch67.html#MonstersH-I16">sea hag</a> is so revolting that anyone (other than another <a href="ch67.html#MonstersH-I2">hag</a>) who sets eyes upon one must succeed on a DC 13 Fortitude save or instantly be weakened, taking 2d6 points of Strength damage. This damage cannot reduce a victim's Strength score below 0, but anyone reduced to Strength 0 is helpless. Creatures that are affected by this power or that successfully save against it cannot be affected again by the same <a href="ch67.html#MonstersH-I2">hag's</a> horrific appearance for 24 hours. The save DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1822511"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I19"/>
+              <p><span class="strong"><strong>Evil Eye (Su):</strong></span> Three times per day, a <a href="ch67.html#MonstersH-I16">sea hag</a> can cast its dire gaze upon any single creature within 30 feet. The target must succeed on a DC 13 Will save or be dazed for three days, although <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span> or <span class="emphasis"><em><a href="ch45.html#SpellsD-E41">dispel evil</a></em></span> can restore sanity sooner. In addition, an affected creature must succeed on a DC 13 Fortitude save or die from fright. Creatures with immunity to fear effects are not affected by the <a href="ch67.html#MonstersH-I16">sea hag's</a> evil eye. The save DCs are Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1729667"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I20"/>
+              <p><span class="strong"><strong>Amphibious (Ex):</strong></span> Although <a href="ch67.html#MonstersH-I16">sea hags</a> are aquatic, they can survive indefinitely on land.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1729705"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I21"/>
+              <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch67.html#MonstersH-I16">sea hag</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1797489"/>Hag Covey</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch67.html#id1798809">Combat</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect4">
+                  <a href="ch67.html#id1773182">Hag Eye</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I22"/>
+          <p>From time to time, a trio of <a href="ch67.html#MonstersH-I2">hags</a> gathers as a covey. Usually this foul triune includes one <a href="ch67.html#MonstersH-I2">hag</a> of each type, but this is not always the case.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id1798809"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I23"/>
+            <p><a href="ch67.html#MonstersH-I2">Hags</a> in a covey rely on deception and their boosted magical abilities in combat.</p>
+            <p>A covey of <a href="ch67.html#MonstersH-I2">hags</a> is 80% likely to be guarded by 1d8 <a href="ch70.html#MonstersO-R2">ogres</a> and 1d4 evil <a href="ch66s06.html#MonstersG67">giants</a> who do their bidding. These minions are often disguised with a <span class="emphasis"><em><a href="ch51.html#SpellsT-Z33">veil</a></em></span> spell to appear less threatening and sent forth as spies. Such minions often (60%) carry magic stones known as <span class="emphasis"><em>hag eyes</em></span> (see below).</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id1824995"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersH-I24"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 3/day-<span class="emphasis"><em><a href="ch43.html#SpellsA-B15">animate dead</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B38">bestow curse</a></em></span> (DC 17)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC44">control weather</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E56">dream</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G27">forcecage</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O34">mind blank</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O39">mirage arcana</a></em></span> (DC 18)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z33">veil</a></em></span> (DC 19)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z36">vision</a></em></span>. Caster level 9th. The save DCs are based on a Charisma score of 16. To use one of these abilities (which requires a full-round action), all three <a href="ch67.html#MonstersH-I2">hags</a> must be within 10 feet of one another, and all must participate.</p>
+              <p>Once per month, a covey that does not have a <span class="emphasis"><em>hag eye</em></span> can create one from a gem worth at least 20 gp (see below).</p>
+              <p/>
+            </div>
+          </div>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id1773182"/>Hag Eye</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I25"/>
+            <p>A <span class="emphasis"><em>hag eye</em></span> is a magic gem created by a covey. It appears to be nothing more than a semiprecious stone, but a <span class="emphasis"><em>gem of seeing</em></span> or other such effect reveals it as a disembodied eye. Often, a <span class="emphasis"><em>hag eye</em></span> is worn as a ring, brooch, or other adornment. Any of the three <a href="ch67.html#MonstersH-I2">hags</a> who created the <span class="emphasis"><em>hag eye</em></span> can see through it whenever they wish, so long as it is on the same plane of existence as the <a href="ch67.html#MonstersH-I2">hag</a>. A <span class="emphasis"><em>hag eye</em></span> has hardness 5 and 10 hit points. Destroying a <span class="emphasis"><em>hag eye</em></span> deals 1d10 points of damage to each member of the covey and causes the one who sustained the greatest damage to be blinded for 24 hours.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66s17.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch67s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Grimlock </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Half-Celestial</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

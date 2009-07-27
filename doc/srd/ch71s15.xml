@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Sprite</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch71.html" title="Monsters (S)"/>
+    <link rel="prev" href="ch71s14.html" title="Spider Eater"/>
+    <link rel="next" href="ch71s16.html" title="Stirge"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Sprite</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch71s14.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (S)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch71s16.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2194668"/>Sprite</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s15.html#id2195685">Grig</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s15.html#id2198193">Nixie</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s15.html#id2200199">Pixie</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersS123"/>
+      <p><a href="ch71s15.html#MonstersS123">Sprites</a> are reclusive fey. They go out of their way to fight evil and ugliness and to protect their homelands. Combat<a href="img/MonstersS.Sprite.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Sprite.jpg" align="right"/></span></a></p>
+      <p><a href="ch71s15.html#MonstersS123">Sprites</a> fight their opponents with spell-like abilities and pintsized weaponry. They prefer ambushes and other trickery over direct confrontation.</p>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2194934"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersS124"/>
+        <p><span class="strong"><strong>Skills:</strong></span> All <a href="ch71s15.html#MonstersS123">sprites</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills253">Search</a>, <a href="ch16s03.html#CombinedSkills294">Spot</a>, and <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+        <p/>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2195685"/>Grig</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s15.html#id2197743">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS125"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2195703">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Grig</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities28">Fey</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1/2 d6+1 (2 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 40 ft. (poor)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+2 size, +4 Dex, +2 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Short sword +6 melee (1d3-3/19-20) or longbow +6 ranged (1d4-3/x3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Short sword +6 melee (1d3-3/19-20) or longbow +6 ranged (1d4-3/x3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>2-1/2 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> fiddle</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/<a href="ch24.html#SpecialMaterials6">cold iron</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +6, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 5, Dex 18, Con 13, Int 10, Wis 13, Cha 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills91">Craft</a> (any one) +4, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +8, <a href="ch16s03.html#CombinedSkills179">Hide</a> +16, <a href="ch16s03.html#CombinedSkills192">Jump</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +8*, <a href="ch16s03.html#CombinedSkills222">Perform</a> (string instruments) +6, <a href="ch16s03.html#CombinedSkills253">Search</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Gang (2-4), band (6-11), or tribe (20-80)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>No coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description7">neutral good</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>1-3 HD (<a href="ch22.html#CombatII28">Tiny</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch71s15.html#MonstersS125">Grigs</a> can leap great distances. They have light blue skin, forest-green hair, and brown hairy legs, and usually wear tunics or brightly colored vests with buttons made from tiny gems. A <a href="ch71s15.html#MonstersS125">grig</a> stands 1-1/2 feet tall and weighs about 1 pound.</p>
+        <p><a href="ch71s15.html#MonstersS125">Grigs</a> speak Sylvan. Some also speak Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2197743"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS126"/>
+          <p><a href="ch71s15.html#MonstersS125">Grigs</a> are fierce by <a href="ch71s15.html#MonstersS123">sprite</a> standards, attacking opponents fearlessly with bow and dagger.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2197850"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS127"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 3/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E66">entangle</a></em></span> (DC 13)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> (self only), <span class="emphasis"><em><a href="ch49.html#SpellsP-R44">pyrotechnics</a></em></span> (DC 14)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z34">ventriloquism</a></em></span> (DC 13)<span class="emphasis"><em/></span>. Caster level 9th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2198010"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS128"/>
+            <p><span class="strong"><strong>Fiddle (Su):</strong></span> One <a href="ch71s15.html#MonstersS125">grig</a> in each band carries a tiny, grig-sized fiddle. When the fiddler plays, any nonsprite within 30 feet of the instrument must succeed on a DC 12 Will save or be affected as though by <span class="emphasis"><em><a href="ch47.html#SpellsH-L59">irresistible dance</a></em></span> for as long as the playing continues. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2198131"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS129"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch71s15.html#MonstersS125">Grigs</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills192">Jump</a> checks. *They also have a +5 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks in a forest setting.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2198193"/>Nixie</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s15.html#id2199705">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS130"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2198211">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Nixie</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities28">Fey</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d6 (3 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), swim 30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+1 size, +3 Dex), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Short sword +4 melee (1d4-2/19-20) or light crossbow +4 ranged (1d6/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Short sword +4 melee (1d4-2/19-20) or light crossbow +4 ranged (1d6/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em><a href="ch44.html#SpellsC15">Charm person</a></em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Amphibious, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/<a href="ch24.html#SpecialMaterials6">cold iron</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 16, <span class="emphasis"><em><a href="ch51.html#SpellsT-Z45">water breathing</a></em></span>, <span class="emphasis"><em/></span> wild empathy</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +5, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 7, Dex 16, Con 11, Int 12, Wis 13, Cha 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any one) +5, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +6, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +8, <a href="ch16s03.html#CombinedSkills179">Hide</a> +7*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills222">Perform</a> (sing) +7, <a href="ch16s03.html#CombinedSkills253">Search</a> +3, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills311">Swim</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Gang (2-4), band (6-11), or tribe (20-80)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>No coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a> (metal or stone only); 50% items (no scrolls)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>2-3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Most <a href="ch71s15.html#MonstersS130">nixies</a> are slim and comely, with lightly scaled, pale green skin and dark green hair. Females often twine shells and pearl strings in their hair and dress in wraps woven from colorful seaweed. Males wear loincloths of the same materials. <a href="ch71s15.html#MonstersS130">Nixies</a> prefer not to leave their lakes.</p>
+        <p>A <a href="ch71s15.html#MonstersS130">nixie</a> stands about 4 feet tall and weighs about 45 pounds.</p>
+        <p><a href="ch71s15.html#MonstersS130">Nixies</a> speak Aquan and Sylvan. Some also speak Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2199705"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS131"/>
+          <p><a href="ch71s15.html#MonstersS130">Nixies</a> rely on their <span class="emphasis"><em><a href="ch44.html#SpellsC15">Charm Person</a></em></span> ability to deter enemies, entering combat only to protect themselves and their territory.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2199746"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS132"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>Charm Person</em></span> (Sp):</strong></span> A <a href="ch71s15.html#MonstersS130">nixie</a> can use <span class="emphasis"><em><a href="ch44.html#SpellsC15">Charm Person</a></em></span> three times per day as the spell (caster level 4th). Those affected must succeed on a DC 15 Will save or be <span class="emphasis"><em>charmed</em></span> for 24 hours. Most <span class="emphasis"><em>charmed</em></span> creatures are used to perform heavy labor, guard duty, and other onerous tasks for the <a href="ch71s15.html#MonstersS130">nixie</a> community. Shortly before the effect wears off, the <a href="ch71s15.html#MonstersS130">nixie</a> escorts the <span class="emphasis"><em>charmed</em></span> creature away and orders it to keep walking. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2199834"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS133"/>
+            <p><span class="strong"><strong>Amphibious (Ex):</strong></span> Although <a href="ch71s15.html#MonstersS130">nixies</a> are aquatic, they can survive indefinitely on land.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2199873"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS134"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>water breathing</em></span> (Sp):</strong></span> Once per day a <a href="ch71s15.html#MonstersS130">nixie</a> can use <span class="emphasis"><em><a href="ch51.html#SpellsT-Z45">water breathing</a></em></span> as the spell (caster level 12th). <a href="ch71s15.html#MonstersS130">Nixies</a> usually bestow this effect on those they have <span class="emphasis"><em>charmed</em></span>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2199939"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS135"/>
+            <p><span class="strong"><strong>Wild Empathy (Ex):</strong></span> This ability works like the druid's wild empathy class feature, except that a <a href="ch71s15.html#MonstersS130">nixie</a> has a +6 racial bonus on the check.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2200047"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS136"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71s15.html#MonstersS130">nixie</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line. *<a href="ch71s15.html#MonstersS130">Nixies</a> have a +5 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks when in the water.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2200199"/>Pixie</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s15.html#id2201960">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s15.html#id2202339">Pixies as Characters</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS137"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2200218">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Pixie</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities28">Fey</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d6 (3 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 60 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +4 Dex, +1 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Short sword +5 melee (1d4-2/19-20) or longbow +5 ranged (1d6-2/3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Short sword +5 melee (1d4-2/19-20) or longbow +5 ranged (1d6-2)/x3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> special arrows</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch24.html#SpecialMaterials6">cold iron</a>, greater invisibility, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +6, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 7, Dex 18, Con 11, Int 16, Wis 15, Cha 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +7, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +4, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +8, <a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +8, <a href="ch16s03.html#CombinedSkills243">Ride</a> +8, <a href="ch16s03.html#CombinedSkills253">Search</a> +9, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Gang (2-4), band (6-11), or tribe (20-80)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4 (5 with <span class="emphasis"><em><a href="ch47.html#SpellsH-L59">irresistible dance</a></em></span>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>No coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description7">neutral good</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>2-3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+4 (+6 with <span class="emphasis"><em><a href="ch47.html#SpellsH-L59">irresistible dance</a></em></span>)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch71s15.html#MonstersS137">Pixies</a> wear bright clothing, often including a cap and shoes with curled and pointed toes.</p>
+        <p>A <a href="ch71s15.html#MonstersS137">pixie</a> stands about 2-1/2 feet tall and weighs about 30 pounds.</p>
+        <p><a href="ch71s15.html#MonstersS137">Pixies</a> speak Sylvan and Common, and may know other languages as well.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2201960"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS138"/>
+          <p>The normally carefree <a href="ch71s15.html#MonstersS137">pixies</a> ferociously attack evil creatures and unwanted intruders. They take full advantage of their invisibility and other abilities to harass and drive away opponents.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2201993"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS139"/>
+            <p><span class="strong"><strong>Greater Invisibility (Su):</strong></span> A <a href="ch71s15.html#MonstersS137">pixie</a> remains invisible even when it attacks. This ability is constant, but the <a href="ch71s15.html#MonstersS137">pixie</a> can suppress or resume it as a free action.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2202043"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS140"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 1/day-<span class="emphasis"><em><a href="ch44.html#SpellsC34">lesser confusion</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch45.html#SpellsD-E2">dancing lights</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E19">detect chaos</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E21">detect good</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E20">detect evil</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E22">detect law</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E28">detect thoughts</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E66">entangle</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch49.html#SpellsP-R5">permanent image</a></em></span> (DC 19; visual and auditory elements only), <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> (self only). Caster level 8th. The save DCs are Charisma-based.</p>
+            <p>One <a href="ch71s15.html#MonstersS137">pixie</a> in ten can use <span class="emphasis"><em><a href="ch47.html#SpellsH-L59">irresistible dance</a></em></span> (caster level 8th) once per day.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2202215"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS141"/>
+            <p><span class="strong"><strong>Special Arrows (Ex):</strong></span> <a href="ch71s15.html#MonstersS137">Pixies</a> sometimes employ arrows that deal no damage but can erase memory or put a creature to sleep.</p>
+            <p><span class="emphasis"><em>Memory Loss:</em></span> An opponent struck by this arrow must succeed on a DC 15 Will save or lose all memory. The save DC is Charisma-based and includes a +2 racial bonus. The subject retains skills, languages, and class abilities but forgets everything else until he or she receives a <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell or memory restoration with <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z55">wish</a></em></span>, <span class="emphasis"><em/></span> or <span class="emphasis"><em><a href="ch48.html#SpellsM-O38">miracle</a></em></span>.</p>
+            <p><span class="emphasis"><em><a href="ch50.html#SpellsS41">Sleep</a>:</em></span> Any opponent struck by this arrow, regardless of Hit Dice, must succeed on a DC 15 Fortitude save or be affected as though by a <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span> spell. The save DC is Charisma-based and includes a +2 racial bonus.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2202339"/>Pixies as Characters</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS142"/>
+          <p>A <a href="ch71s15.html#MonstersS137">pixie</a> character exchanges its 1 HD of fey for its first class level.</p>
+          <p><a href="ch71s15.html#MonstersS137">Pixie</a> characters possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>-4 Strength, +8 Dexterity, +6 Intelligence, +4 Wisdom, +6 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Small</a> size. +1 bonus to <a href="ch21s02.html#CombatI11">Armor Class</a>, +1 bonus on <a href="ch21s02.html#CombatI4">attack rolls,</a> +4 bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks, -4 penalty on <a href="ch22s03.html#CombatII67">grapple checks,</a> lifting and carrying limits 3/4 those of <a href="ch22.html#CombatII28">Medium</a> characters.</p>
+              </li>
+            </ul>
+          </div>
+          <p>-A <a href="ch71s15.html#MonstersS137">pixie's</a> base land speed is 20 feet. It also has a fly speed of 60 feet (good).</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Skills: <a href="ch71s15.html#MonstersS137">Pixies</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills253">Search</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Feats: A <a href="ch71s15.html#MonstersS137">pixie</a> receives <a href="ch17s03.html#Feats104">Dodge</a> as a bonus feat.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+1 natural armor bonus.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): <a href="ch21s05.html#CombatI64">Spell-like abilities.</a></p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch24.html#SpecialMaterials6">cold iron</a>, greater invisibility, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> equal to 15 + class levels.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, Sylvan. Bonus Languages: Elven, <a href="ch66s10.html#MonstersG128">Gnome</a>, <a href="ch67s05.html#MonstersH-I71">Halfling</a>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Sorcerer.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Level adjustment +4 (+6 if the <a href="ch71s15.html#MonstersS137">pixie</a> can use <span class="emphasis"><em><a href="ch47.html#SpellsH-L59">irresistible dance</a>)</em></span>.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch71s14.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch71.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch71s16.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Spider Eater </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Stirge</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

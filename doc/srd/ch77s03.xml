@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Astral Construct</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s02.html" title="Aboleth, Psionic"/>
+    <link rel="next" href="ch77s04.html" title="Blue"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Astral Construct</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s02.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s04.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2339747"/>Astral Construct</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s03.html#id2339881">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch77s03.html#id2340142">Creating an Astral Construct</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters21"/>
+      <p><a href="ch77s03.html#PsionicMonsters21">Astral constructs</a> are brought into being by the metacreativity power <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C12">astral construct</a></em></span>. They are formed from raw ectoplasm (a portion of the astral medium drawn into the Material Plane). The power points spent by the construct's creator during the manifestation of the power determine the level of the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> created. However, even <a href="ch77s03.html#PsionicMonsters21">astral constructs</a> of the same level vary somewhat from each other, depending on the whims of their creators.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2339881"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters22"/>
+        <p><a href="ch77s03.html#PsionicMonsters21">Astral constructs</a> act as directed by their creators. As a free action, a construct's manifester can direct the construct to attack particular enemies, use specific tactics or powers, perform other actions, or do nothing at all. The construct does exactly what its creator directs it to do.</p>
+        <p>An <a href="ch77s03.html#PsionicMonsters21">astral construct</a> generally appears as an animate clump of ectoplasm with a vaguely humanoid shape, but the manifester can mold or sculpt one according to his or her whim within the limits imposed by the creature's size. The quality of such 'construct sculpture' is determined by a <a href="ch16s03.html#CombinedSkills91">Craft</a> (sculpting) check. A result of 10 to 19 creates a creature that is recognizably similar to the desired creature shape; a result of 20 to 29 creates a construct that looks like an accurate portrayal of that creature type; a result of 30 or higher creates a construct that looks like a specific individual. No matter how high the <a href="ch16s03.html#CombinedSkills91">Craft</a> (sculpting) check result, though, an <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> appearance can't hide the otherworldly material from which it is formed.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2339953"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters23"/>
+          <p><span class="strong"><strong>Construct Traits:</strong></span> An <a href="ch77s03.html#PsionicMonsters21">astral construct</a> has immunity to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death effects, necromancy effects, mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and any effect that requires a Fortitude save unless it also works on objects or is harmless. It is not subject to critical hits, nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. It cannot heal damage, but it can be repaired.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2340013"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters24"/>
+          <p><span class="strong"><strong>Special Abilities:</strong></span> Every time an <a href="ch77s03.html#PsionicMonsters21">astral construct</a> is created, the manifester can choose to apply one special ability to the construct. When the manifester begins to manifest the <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C12">astral construct</a></em></span> power, he chooses one or more special abilities from a menu of abilities appropriate to that level of <a href="ch77s03.html#PsionicMonsters21">astral construct</a>.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2340142"/>Creating an Astral Construct</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2340232">Astral Construct Menu A</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2341142">Astral Construct Menu <sup>B</sup></a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2343742">Astral Construct Menu C</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2459843">1ST-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2460554">2ND-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2461254">3RD-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2461965">4TH-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2462680">5TH-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2463405">6TH-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2464130">7TH-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2464851">8TH-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch77s03.html#id2465640">9TH-LEVEL ASTRAL CONSTRUCT</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters25"/>
+        <p>When manifesting the <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C12">astral construct</a></em></span> power, the manifester assembles the desired creature from a menu of choices, as specified in the construct's statistics block. A manifester can always substitute two choices from a lesser menu for one of its given abilities. Multiple selections of the same menu choice do not stack unless the ability specifically notes that stacking is allowed.</p>
+        <p>Some menu choices grant an <a href="ch77s03.html#PsionicMonsters21">astral construct</a> the ability to manifest specific powers as psi-like abilities. Unless using the ability is a free action, an <a href="ch77s03.html#PsionicMonsters21">astral construct</a> manifesting such a power does so as a standard action that provokes attacks of opportunity. All such powers have a manifester level equal to the <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> Hit Dice or the creator's manifester level, whichever is lower.</p>
+        <p>An <a href="ch77s03.html#PsionicMonsters21">astral construct</a> does not need to meet the prerequisites for a feat granted by a menu choice.</p>
+        <p/>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2340232"/>Astral Construct Menu A</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters26"/>
+          <p>A manifester creating a 1st-level, 2nd-level, or <a href="ch77s03.html#PsionicMonsters70">3rd-level astral construct</a> can choose one special ability from this menu.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340266"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters27"/>
+            <p><span class="strong"><strong>Buff (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains an extra 5 hit points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340304"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters28"/>
+            <p><span class="strong"><strong>Celerity (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> land speed is increased by 10 feet.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340548"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters29"/>
+            <p><span class="strong"><strong>Cleave (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats60">Cleave</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340664"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters30"/>
+            <p><span class="strong"><strong>Deflection (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains a +1 deflection bonus to Armor Class.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340703"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters31"/>
+            <p><span class="strong"><strong>Fly (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> has physical wings and a fly speed of 20 feet (average).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340742"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters32"/>
+            <p><span class="strong"><strong>Improved Bull Rush (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats163">Improved Bull Rush</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340791"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters33"/>
+            <p><span class="strong"><strong>Improved Slam Attack (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340840"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters34"/>
+            <p><span class="strong"><strong>Mobility (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats253">Mobility</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340888"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters35"/>
+            <p><span class="strong"><strong>Power Attack (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats277">Power Attack</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340936"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters36"/>
+            <p><span class="strong"><strong>Resistance (Ex):</strong></span> Choose one of the following energy types: fire, cold, acid, electricity, or sonic. The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains resistance 5 against that energy type.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2340974"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters37"/>
+            <p><span class="strong"><strong>Swim (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> is streamlined and <a href="ch73s39.html#MonstersAnimals140">shark</a> like, and gains a swim speed of 30 feet.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2341091"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters38"/>
+            <p><span class="strong"><strong>Trip (Ex):</strong></span> If the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> hits with a slam attack, it can attempt to trip the opponent as a free action without making a touch attack or provoking attacks of opportunity. If the attempt fails, the opponent cannot react to trip the <a href="ch77s03.html#PsionicMonsters21">astral construct</a>.</p>
+            <p/>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2341142"/>Astral Construct Menu <sup>B</sup></h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters39"/>
+          <p>A manifester creating a 4th-level, 5th-level, or <a href="ch77s03.html#PsionicMonsters73">6th-level astral construct</a> can choose one special ability from this menu. Alternatively, the construct can have two special abilities from Menu A.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2341177"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters40"/>
+            <p><span class="strong"><strong>Energy Touch (Ex):</strong></span> If you are a kineticist with the <a href="ch19s03.html#PsionicsFeats75">Expanded Knowledge</a> feat tied to this power, the <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> physical attacks are wreathed in an energy type of your choice (acid, cold, electricity, or fire), dealing an extra 1d6 points of energy damage. Otherwise, the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> you manifest deals an extra 1d4 points of damage of an energy type you choose (acid, cold, electricity, or fire).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2341512"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters41"/>
+            <p><span class="strong"><strong>Extra Attack:</strong></span> If the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> is Medium or smaller, it gains two slam attacks instead of one when it makes a full attack. Its bonus on damage rolls for each attack is equal to its Strength modifier, not its Strength modifier x 1-1/2. If the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> is Large or larger, it gains three slams instead of two when it makes a full attack. Its attacks are otherwise unchanged.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2341972"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters42"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> heals 2 hit points each round. It is still immediately destroyed when it reaches 0 hit points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342010"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters43"/>
+            <p><span class="strong"><strong>Heavy Deflection (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains a +4 deflection bonus to Armor Class.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342050"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters44"/>
+            <p><span class="strong"><strong>Improved Buff (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains an extra 15 hit points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342089"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters45"/>
+            <p><span class="strong"><strong>Improved Critical (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats170">Improved Critical</a> feat with its slam attacks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342138"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters46"/>
+            <p><span class="strong"><strong>Improved Damage Reduction (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> surface forms a hard carapace and provides an additional 3 points of damage reduction (or damage reduction 3/magic if it does not already have damage reduction).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342248"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters47"/>
+            <p><span class="strong"><strong>Improved Fly (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> has physical wings and a fly speed of 40 feet (average).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342287"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters48"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, the construct must hit with its slam attack. A construct can use this ability only on a target that is at least one size smaller than itself.</p>
+            <p>Improved <a href="ch16s03.html#CombinedSkills311">Swim</a>: The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> is streamlined and sharklike, and gains a swim speed of 60 feet.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342342"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters49"/>
+            <p><span class="strong"><strong>Muscle (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains a +4 bonus to its Strength score.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2342449"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters50"/>
+            <p><span class="strong"><strong>Poison Touch (Ex):</strong></span> If the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> hits with a melee attack, the target must make an initial Fortitude save (DC 10 + 1/2 <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> HD + <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> Cha modifier) or take 1 point of Constitution damage. One minute later, the target must save again or take 1d2 points of Constitution damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343326"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters51"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> charges a foe, it can make a full attack.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343365"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters52"/>
+            <p><span class="strong"><strong>Smite (Su):</strong></span> Once per day the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can make one attack that deals extra damage equal to its Hit Dice.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343472"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters53"/>
+            <p><span class="strong"><strong>Trample (Ex):</strong></span> As a standard action during its turn each round, a Large or larger <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can literally run over an opponent at least one size smaller than itself. It merely has to move over the opponent to deal bludgeoning damage equal to 1d8 + its Str modifier. The target can attempt a Reflex save (DC 10 + 1/2 <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> Hit Dice + <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> Str modifier) to negate the damage, or it can instead choose to make an attack of opportunity at a -4 penalty.</p>
+            <p/>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2343742"/>Astral Construct Menu C</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters54"/>
+          <p>A manifester creating a 7th-level, 8th-level, or <a href="ch77s03.html#PsionicMonsters76">9th-level astral construct</a> can choose one special ability from this menu. Alternatively, the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can have two special abilities from Menu <sup>B</sup>. (One or both of the Menu <sup>B</sup> choices can be swapped for two choices from Menu A.)</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343797"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters55"/>
+            <p><span class="strong"><strong>Blindsight (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> has blindsight out to 60 feet.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343836"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters56"/>
+            <p><span class="strong"><strong>Concussion (Ps):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can manifest <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C70">concussion blast</a></em></span> (manifester level 7th) as a free action once per round.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343886"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters57"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> has the improved grab ability with its slam attack. In addition, on a successful grapple check, the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> deals damage equal to its slam damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343934"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters58"/>
+            <p><span class="strong"><strong>Dimension Slide (Ps):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can manifest <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F24">dimension slide</a></em></span> (manifester level equal to Hit Dice) as a move action once per round.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2343985"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters59"/>
+            <p><span class="strong"><strong>Energy Bolt (Ps):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can manifest <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F80">energy bolt</a></em></span> (manifester level 8th) as a standard action once per round. The creator sets the energy type that the <a href="ch77s03.html#PsionicMonsters21">astral construct</a> can manifest when he creates it.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2344181"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters60"/>
+            <p><span class="strong"><strong>Extra Buff (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains an extra 30 hit points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2344220"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters61"/>
+            <p><span class="strong"><strong>Extreme Damage Reduction (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct's</a> surface forms hard, armor-like plates and provides an additional 6 points of damage reduction.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2344259"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters62"/>
+            <p><span class="strong"><strong>Extreme Deflection (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains a +8 deflection bonus to Armor Class.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2344435"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters63"/>
+            <p><span class="strong"><strong>Natural Invisibility (Su):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> is constantly invisible, even when attacking. This ability is inherent and not subject to the <span class="emphasis"><em><a href="ch47.html#SpellsH-L55">invisibility purge</a></em></span> spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2459650"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters64"/>
+            <p><span class="strong"><strong>Power Resistance (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains power resistance equal to 10 + its Hit Dice.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2459690"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters65"/>
+            <p><span class="strong"><strong>Rend (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> makes claw attacks instead of slam attacks (it deals the same amount of damage as it would with its slam damage, but does slashing damage instead of bludgeoning damage). An <a href="ch77s03.html#PsionicMonsters21">astral construct</a> that hits the same opponent with two claw attacks in the same round rends its foe, which deals extra damage equal to 2d6 + 1-1/2 times its Str modifier.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2459744"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters66"/>
+            <p><span class="strong"><strong>Spring Attack (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats349">Spring Attack</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2459792"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="PsionicMonsters67"/>
+            <p><span class="strong"><strong>Whirlwind Attack (Ex):</strong></span> The <a href="ch77s03.html#PsionicMonsters21">astral construct</a> gains the <a href="ch17s03.html#Feats398">Whirlwind Attack</a> feat.</p>
+            <p/>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2459843"/>1ST-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters68"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2459862">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>1st-Level Astral Construct</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d10+10 (15 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+2 Dex, +5 natural, +1 size), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/-1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d4+3)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d4+3)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu A, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +2, Will +0</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 15, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2460554"/>2ND-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters69"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2460573">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>2nd-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d10+20 (31 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+2 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +4 melee (1d6+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +4 melee (1d6+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +2, Will +0</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 15, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2461254"/>3RD-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters70"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2461274">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>3rd-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d10+20 (36 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (+2 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+7</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +7 melee (1d6+7)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +7 melee (1d6+7)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu A, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +3, Will +1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 15, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2461965"/>4TH-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters71"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2461984">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>4th-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>5d10+20 (47 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (+2 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +10 melee (1d6+10)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +10 melee (1d6+10)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu <sup>B</sup>, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +3, Will +1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 15, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2462680"/>5TH-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters72"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2462699">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>5th-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d10+30 (68 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>23 (+1 Dex, +13 natural, -1 size), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 22</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+18</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +13 melee (1d8+9)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +13 melee (1d8+9)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu <sup>B</sup>, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +2, Ref +3, Will +2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 29, Dex 13, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2463405"/>6TH-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters73"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2463424">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>6th-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d10+30 (85 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>25 (+1 Dex, +15 natural, -1 size), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 24</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+22</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +17 melee (1d8+11)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +17 melee (1d8+11)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu <sup>B</sup>, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +4, Will +3</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 33, Dex 13, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2464130"/>7TH-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters74"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2464149">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>7th-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>13d10+30 (101 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>27 (+1 Dex, +17 natural, -1 size), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 26</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+11/+25</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +20 melee (1d8+12)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +20 melee (1d8+12)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu C, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +5, Will +4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 35, Dex 13, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2464851"/>8TH-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters75"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2464870">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>8th-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>16d10+30 (118 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>29 (+1 Dex, +19 natural, -1 size), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 28</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+14/+30</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +25 melee (1d8+14)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +25 melee (1d8+14)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>One ability from Menu C, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +6, Will +5</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 39, Dex 13, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2465640"/>9TH-LEVEL ASTRAL CONSTRUCT</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters76"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2465660">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>9th-Level Astral Construct</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>19d10+40 (144 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>33 (+25 natural, -2 size), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 33</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+16/+38</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +28 melee (2d6+16)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +28 melee (2d6+16)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Two abilities from Menu C, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +6, Will +6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 43, Dex 11, Con -, Int -, Wis 11, Cha 10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s02.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s04.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Aboleth, Psionic </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Blue</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

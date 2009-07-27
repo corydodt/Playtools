@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (Animals)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch72s23.html" title="Zombie"/>
+    <link rel="next" href="ch73s02.html" title="Baboon"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (Animals)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s23.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch73s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1183405"/>Monsters (Animals)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch73.html#id2268549">Ape</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s02.html">Baboon</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s03.html">Badger</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s04.html">Bat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s05.html">Bear, Black</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s06.html">Bear, Brown</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s07.html">Bear, Polar</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s08.html">Bison</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s09.html">Boar</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s10.html">Camel</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s11.html">Cat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s12.html">Cheetah</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s13.html">Crocodile</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s14.html">Crocodile, Giant</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s15.html">Dog</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s16.html">Dog, Riding</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s17.html">Donkey</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s18.html">Eagle</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s19.html">Elephant</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s20.html">Hawk</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s21.html">Horse</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s22.html">Hyena</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s23.html">Leopard</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s24.html">Lion</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s25.html">Lizard</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s26.html">Lizard, Monitor</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s27.html">Manta Ray</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s28.html">Monkey</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s29.html">Mule</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s30.html">Octopus</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s31.html">Octopus, Giant</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s32.html">Owl</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s33.html">Pony</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s34.html">Pony, War</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s35.html">Porpoise</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s36.html">Rat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s37.html">Raven</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s38.html">Rhinoceros</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s39.html">Shark</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s40.html">Snake</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s41.html">Squid</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s42.html">Squid, Giant</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s43.html">Tiger</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s44.html">Toad</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s45.html">Weasel</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s46.html">Whale</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s47.html">Wolf</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch73s48.html">Wolverine</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersAnimals1"/>
+      <p/>
+      <p>This section provides statistics and basic information for many common kinds of mundane animals. These creatures generally operate on instinct, driven by simple needs such as food and reproduction. Most animals, even predators, do not attack unless they or their young are threatened.</p>
+      <p>Animals are not capable of detailed reasoning, although with the <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> skill it is possible to tame an animal and teach it to perform certain tricks.</p>
+      <p>Some herbivorous animals do not normally use their natural weapons to attack. As such, their natural weapons are treated as secondary attacks. The animal's attack and damage entries note this fact, with an explanatory footnote.</p>
+      <p/>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2150766"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersAnimals2"/>
+        <p><span class="strong"><strong>Animal Traits:</strong></span> An animal possesses the following traits (unless otherwise noted in a creature's entry).</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Intelligence score of 1 or 2 (no creature with an Intelligence score of 3 or higher can be an animal).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Low-light vision.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-<span class="emphasis"><em>Alignment:</em></span> Always neutral. Animals are not governed by a human sense of morality.</p>
+        <p>-<span class="emphasis"><em>Treasure:</em></span> None. Animals never possess treasure.</p>
+        <p/>
+      </div>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id2268549"/>Ape</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch73.html#id2157378">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersAnimals3"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2268567">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Ape</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+11 (29 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), climb 30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +2 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claws +7 melee (1d6+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +7 melee (1d6+5) and bite +2 melee (1d6+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +6, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 15, Con 14, Int 2, Wis 12, Cha 7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or company (3-5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-8 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>These powerful omnivores resemble gorillas but are far more aggressive; they kill and eat anything they can catch. An adult male <a href="ch73.html#MonstersAnimals3">ape</a> is 5-1/2 to 6 feet tall and weighs 300 to 400 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2157378"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals4"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2157396"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersAnimals5"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch73.html#MonstersAnimals3">Apes</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s23.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch73s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Zombie </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Baboon</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Squid, Giant</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch73.html" title="Monsters (Animals)"/>
+    <link rel="prev" href="ch73s41.html" title="Squid"/>
+    <link rel="next" href="ch73s43.html" title="Tiger"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Squid, Giant</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch73s41.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Animals)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch73s43.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2317955"/>Squid, Giant</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch73s42.html#id2318719">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersAnimals160"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2317974">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Squid, Giant</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d8+18 (72 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills311">Swim</a> 80 ft. (16 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (-2 size, +3 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+29</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Tentacle +15 melee (1d6+8)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>10 tentacles +15 melee (1d6+8) and bite +10 melee (2d8+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft. (30 ft. with tentacle)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 1d6+8, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Ink cloud, jet, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +11, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 26, Dex 17, Con 13, Int 1, Wis 12, Cha 2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills311">Swim</a> +16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats98">Diehard</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats361">Toughness</a> (2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>13-18 HD (<a href="ch22.html#CombatII28">Huge</a>); 19-36 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>These voracious creatures can have bodies more than 20 feet long and attack almost anything they meet.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2318719"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersAnimals161"/>
+        <p>An opponent can attack a <a href="ch73s42.html#MonstersAnimals160">giant squid's</a> tentacles with a sunder attempt as if they were weapons. A <a href="ch73s42.html#MonstersAnimals160">giant squid's</a> tentacles have 10 hit points each. If a <a href="ch73s42.html#MonstersAnimals160">giant squid</a> is currently grappling a target with the tentacle that is being attacked, it usually uses another limb to make its attack of opportunity against the opponent making the sunder attempt. Severing one of a <a href="ch73s42.html#MonstersAnimals160">giant squid's</a> tentacles deals 5 points of damage to the creature. A <a href="ch73s42.html#MonstersAnimals160">giant squid</a> usually withdraws from combat if it loses five tentacles. The creature regrows severed limbs in 1d10+10 days.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2318791"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals162"/>
+          <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch73s42.html#MonstersAnimals160">giant squid</a> deals 1d6+8 points of damage with a successful grapple check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2318830"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals163"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch73s42.html#MonstersAnimals160">giant squid</a> must hit an opponent of any size with a tentacle attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict. *A <a href="ch73s42.html#MonstersAnimals160">giant squid</a> has a +4 racial bonus on grapple checks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2318882"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals164"/>
+          <p><span class="strong"><strong>Ink Cloud (Ex):</strong></span> A <a href="ch73s42.html#MonstersAnimals160">giant squid</a> can emit a cloud of jet-black ink 20 feet high by 20 feet wide by 20 feet long once per minute as a free action. The cloud provides total concealment, which the <a href="ch73s41.html#MonstersAnimals154">squid</a> normally uses to escape a losing fight. All vision within the cloud is obscured.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2318934"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals165"/>
+          <p><span class="strong"><strong>Jet (Ex):</strong></span> A <a href="ch73s42.html#MonstersAnimals160">giant squid</a> can jet backward once per round as a full-round action, at a speed of 320 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2318975"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals166"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch73s42.html#MonstersAnimals160">giant squid</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch73s41.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch73.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch73s43.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Squid </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Tiger</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

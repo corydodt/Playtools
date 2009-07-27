@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Titan</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s03.html" title="Thoqqua"/>
+    <link rel="next" href="ch72s05.html" title="Tojanida"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Titan</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s03.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s05.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2218452"/>Titan</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s04.html#id2219746">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s04.html#id2220146">Tactics Round-by-Round</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z21"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2218538">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Titan</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>20d8+280 (370 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. in half-plate armor (8 squares); base <a href="ch21s02.html#CombatI14">speed</a> 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>38 (-2 size, +19 natural, +11 <span class="emphasis"><em>+4 half-plate armor</em></span>), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 38</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+20/+44</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <span class="emphasis"><em>+3 adamantine warhammer</em></span> +37 melee (4d6+27/x3) or <span class="emphasis"><em>+3 javelin</em></span> +22 ranged (2d6+19) or slam +34 (1d8+16)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <span class="emphasis"><em>+3 adamantine warhammer</em></span> +37/+32/+27/+22 melee (4d6+27/3) or <span class="emphasis"><em>+3 javelin</em></span> +22 ranged (2d6+19) or 2 slams +34 (1d8+16)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Oversized weapon, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities39">lawful</a>, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 32</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +26, Ref +13, Will +21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 43, Dex 12, Con 39, Int 21, Wis 28, Cha 24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +7, <a href="ch16s03.html#CombinedSkills61">Bluff</a> +19, <a href="ch16s03.html#CombinedSkills71">Climb</a> +22, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +37, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any one) +28, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +11, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +7 (+9 acting), <a href="ch16s03.html#CombinedSkills171">Heal</a> +20, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +32, <a href="ch16s03.html#CombinedSkills192">Jump</a> +38, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +28, <a href="ch16s03.html#CombinedSkills204">Listen</a> +32, <a href="ch16s03.html#CombinedSkills222">Perform</a> (oratory) +30, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +32, <a href="ch16s03.html#CombinedSkills253">Search</a> +28, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +17, <a href="ch16s03.html#CombinedSkills294">Spot</a> +32, <a href="ch16s03.html#CombinedSkills303">Survival</a> +9 (+11 following tracks), <a href="ch16s03.html#CombinedSkills311">Swim</a> +16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch20.html#MonsterFeats40">Quicken Spell-Like Ability</a> (<span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A <a href="ch04.html#TypesSubtypesAbilities15">chaotic</a> good-aligned plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Double standard plus <span class="emphasis"><em>+4 half-plate armor</em></span> and <a href="ch22.html#CombatII28">Gargantuan</a> <span class="emphasis"><em>+3 adamantine warhammer</em></span></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch04.html#TypesSubtypesAbilities15">chaotic</a> (any)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>21-30 HD (<a href="ch22.html#CombatII28">Huge</a>); 31-60 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch72s04.html#MonstersT-Z21">titan</a> is about 25 feet tall and weighs about 14,000 pounds.<a href="img/MonstersT-Z.Titan.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Titan.jpg" align="right"/></span></a></p>
+      <p><a href="ch72s04.html#MonstersT-Z21">Titans</a> speak Abyssal, Common, Celestial, Draconic, and <a href="ch66s06.html#MonstersG67">Giant</a>.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2219746"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z22"/>
+        <p>A <a href="ch72s04.html#MonstersT-Z21">titan's</a> natural weapons, as well as any weapons it wields, are treated as chaotic-aligned for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2219778"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z23"/>
+          <p><span class="strong"><strong>Oversized Weapon (Ex):</strong></span> A <a href="ch72s04.html#MonstersT-Z21">titan</a> wields a great, two-handed warhammer (big enough for Gargantuan creatures) without penalty.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2219818"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z24"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> (DC 23), <span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch44.html#SpellsC54">cure critical wounds</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch46.html#SpellsF-G14">fire storm</a></em></span> (DC 24), <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span> (DC 22), <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L55">invisibility purge</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L66">levitate</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 22), <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> (humanoid forms only, duration 1 hour); 3/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E71">etherealness</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z57">word of chaos</a></em></span> (DC 22), <span class="emphasis"><em><a href="ch50.html#SpellsS94">summon nature's ally IX</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch46.html#SpellsF-G36">gate</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O29">maze</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O33">meteor swarm</a></em></span> (DC 26). Caster level 20th. The save DCs are Charisma-based.</p>
+          <p>In addition, <a href="ch72s04.html#MonstersT-Z21">titans</a> of good or neutral alignment can use the following additional spell-like abilities: At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L25">holy smite</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span> (DC 21); 1/day-<span class="emphasis"><em><a href="ch49.html#SpellsP-R72">greater restoration</a></em></span>. Caster level 20th. The save DCs are Charisma-based.</p>
+          <p><a href="ch72s04.html#MonstersT-Z21">Titans</a> of evil alignment can use the following additional spell-like abilities: At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B38">bestow curse</a></em></span> (DC 21), <span class="emphasis"><em><a href="ch45.html#SpellsD-E12">deeper darkness</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z30">unholy blight</a></em></span> (DC 21); 1/day-<span class="emphasis"><em><a href="ch44.html#SpellsC53">crushing hand</a></em></span> (DC 26). Caster level 20th. The save DCs are Charisma-based.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2220146"/>Tactics Round-by-Round</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z25"/>
+        <p><a href="ch72s04.html#MonstersT-Z21">Titans</a> enjoy combat and usually close with their foes. If that proves ineffective, they swiftly back off and pelt the foe with spell-like abilities and magical effects. Because of a <a href="ch72s04.html#MonstersT-Z21">titan's</a> <a href="ch20.html#MonsterFeats40">Quicken Spell-Like Ability</a> feat, it can use <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> as a free action, and frequently attacks in melee while lashing out with this ability at the same time.</p>
+        <p><span class="emphasis"><em>Prior to combat: <a href="ch47.html#SpellsH-L55">Invisibility purge</a></em></span> or <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>.</p>
+        <p><span class="emphasis"><em>Round 1:</em></span> Charge and attempt to sunder the weapon of the most dangerous foe. Hurl <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> at opponents standing away from the fight.</p>
+        <p><span class="emphasis"><em>Round 2:</em></span> Full attack against the disarmed opponent, and hurl <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> at other opponents.</p>
+        <p><span class="emphasis"><em>Round 3:</em></span> Back away from first opponent and use <span class="emphasis"><em><a href="ch48.html#SpellsM-O29">maze</a></em></span> or <span class="emphasis"><em><a href="ch48.html#SpellsM-O33">meteor swarm</a></em></span> on any spellcaster causing trouble.</p>
+        <p><span class="emphasis"><em>Round 4:</em></span> Sunder the weapon of the next most effective combatant, or use <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span> on all nearby opponents.</p>
+        <p><span class="emphasis"><em>Round 5:</em></span> Full attack against any nearby opponent, or use <span class="emphasis"><em><a href="ch46.html#SpellsF-G14">fire storm</a></em></span>.</p>
+        <p>Use another quickened <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> if foes seem really dangerous.</p>
+        <p>A <a href="ch72s04.html#MonstersT-Z21">titan</a> usually reserves its <span class="emphasis"><em><a href="ch46.html#SpellsF-G36">gate</a></em></span> and <span class="emphasis"><em><a href="ch45.html#SpellsD-E71">etherealness</a></em></span> abilities to escape a fight that is not going well.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s03.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s05.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Thoqqua </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Tojanida</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

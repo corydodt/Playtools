@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Zombie</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="template"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s22.html" title="Yrthak"/>
+    <link rel="next" href="ch73.html" title="Monsters (Animals)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Zombie</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s22.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch73.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2249630"/>Zombie</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s23.html#id2249675">Creating A Zombie</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">template</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z166"/>
+      <p>Zombies are corpses reanimated through dark and sinister magic.<a href="img/MonstersT-Z.Zombie.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Zombie.jpg" align="right"/></span></a></p>
+      <p>Because of their utter lack of intelligence, the instructions given to a newly created zombie must be very simple.</p>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2249675"/>Creating A Zombie</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z167"/>
+        <p>'Zombie' is an acquired template that can be added to any corporeal creature (other than an undead) that has a skeletal system (referred to hereafter as the base creature).</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249699"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z168"/>
+          <p><span class="strong"><strong>Size and Type:</strong></span> The creature's type changes to undead. It retains any subtypes except alignment subtypes and subtypes that indicate kind. It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249731"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z169"/>
+          <p><span class="strong"><strong>Hit Dice:</strong></span> Drop any Hit Dice from class levels (to a minimum of 1), double the number of Hit Dice left, and raise them to d12s. If the base creature has more than 10 Hit Dice (not counting those gained with experience), it can't be made into a zombie with the <span class="emphasis"><em><a href="ch43.html#SpellsA-B15">animate dead</a></em></span> spell.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249774"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z170"/>
+          <p><span class="strong"><strong>Speed:</strong></span> If the base creature can fly, its maneuverability rating drops to clumsy.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249803"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z171"/>
+          <p><span class="strong"><strong>Armor Class:</strong></span> Natural armor bonus increases by a number based on the zombie's size:</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2249830">
+            <tbody>
+              <tr><td><p>Tiny or smaller</p></td> <td><p>+0</p></td>
+
+</tr>
+              <tr><td><p>Small</p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p>Medium</p></td>
+<td><p>+2</p></td>
+
+</tr>
+              <tr><td><p>Large</p></td>
+<td><p>+3</p></td>
+
+</tr>
+              <tr><td><p>Huge</p></td>
+<td><p>+4</p></td>
+
+</tr>
+              <tr><td><p>Gargantuan</p></td>
+<td><p>+7</p></td>
+
+</tr>
+              <tr><td><p>Colossal</p></td>
+<td><p>+11</p></td>
+
+</tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250028"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z172"/>
+          <p><span class="strong"><strong>Base Attack:</strong></span> A zombie has a base attack bonus equal to 1/2 its Hit Dice.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250057"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z173"/>
+          <p><span class="strong"><strong>Attacks:</strong></span> A zombie retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature. A zombie also gains a slam attack.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250156"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z174"/>
+          <p><span class="strong"><strong>Damage:</strong></span> Natural and manufactured weapons deal damage normally. A slam attack deals damage depending on the zombie's size. (Use the base creature's slam damage if it's better.)</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2250185">
+            <tbody>
+              <tr><td><p>Fine</p></td> <td><p>1</p></td>
+
+</tr>
+              <tr><td><p>Diminutive</p></td>
+<td><p>1d2</p></td>
+
+</tr>
+              <tr><td><p>Tiny</p></td>
+<td><p>1d3</p></td>
+
+</tr>
+              <tr><td><p>Small</p></td>
+<td><p>1d4</p></td>
+
+</tr>
+              <tr><td><p>Medium</p></td>
+<td><p>1d6</p></td>
+
+</tr>
+              <tr><td><p>Large</p></td>
+<td><p>1d8</p></td>
+
+</tr>
+              <tr><td><p>Huge</p></td>
+<td><p>2d6</p></td>
+
+</tr>
+              <tr><td><p>Gargantuan</p></td>
+<td><p>2d8</p></td>
+
+</tr>
+              <tr><td><p>Colossal</p></td>
+<td><p>4d6</p></td>
+
+</tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250346"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z175"/>
+          <p><span class="strong"><strong>Special Attacks:</strong></span> A zombie retains none of the base creature's special attacks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250375"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z176"/>
+          <p><span class="strong"><strong>Special Qualities:</strong></span> A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.</p>
+          <p><span class="emphasis"><em>Single Actions Only (Ex):</em></span> Zombies have poor reflexes and can perform only a single move action or attack action each round. A zombie can move up to its speed and attack in the same round, but only if it attempts a charge.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250416"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z177"/>
+          <p><span class="strong"><strong>Saves:</strong></span> Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250446"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z178"/>
+          <p><span class="strong"><strong>Abilities:</strong></span> A zombie's Strength increases by +2, its Dexterity decreases by 2, it has no Constitution or Intelligence score, its Wisdom changes to 10, and its Charisma changes to 1.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250476"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z179"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A zombie has no skills.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250573"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z180"/>
+          <p><span class="strong"><strong>Feats:</strong></span> A zombie loses all feats of the base creature and gains <a href="ch17s03.html#Feats361">Toughness</a>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250611"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z181"/>
+          <p><span class="strong"><strong>Environment:</strong></span> Any land and underground.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250639"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z182"/>
+          <p><span class="strong"><strong>Organization:</strong></span> Any.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250667"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z183"/>
+          <p><span class="strong"><strong>Challenge Rating:</strong></span> Depends on Hit Dice, as follows:</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2250695">
+            <tbody>
+              <tr><td><p><span class="strong"><strong>Hit Dice</strong></span></p></td>
+<td><p><span class="strong"><strong>Challenge Rating</strong></span></p></td>
+
+</tr>
+              <tr><td><p>1/2</p></td>
+<td><p>1/8</p></td>
+
+</tr>
+              <tr><td><p>1</p></td>
+<td><p>1/4</p></td>
+
+</tr>
+              <tr><td><p>2</p></td>
+<td><p>1/2</p></td>
+
+</tr>
+              <tr><td><p>4</p></td>
+<td><p>1</p></td>
+
+</tr>
+              <tr><td><p>6</p></td>
+<td><p>2</p></td>
+
+</tr>
+              <tr><td><p>8-10</p></td>
+<td><p>3</p></td>
+
+</tr>
+              <tr><td><p>12-14</p></td>
+<td><p>4</p></td>
+
+</tr>
+              <tr><td><p>15-16</p></td>
+<td><p>5</p></td>
+
+</tr>
+              <tr><td><p>18-20</p></td>
+<td><p>6</p></td>
+
+</tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250880"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z184"/>
+          <p><span class="strong"><strong>Treasure:</strong></span> None.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250908"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z185"/>
+          <p><span class="strong"><strong>Alignment:</strong></span> Always neutral evil.</p>
+          <p>Advancement: As base creature, but double Hit Dice (maximum 20), or - if the base creature advances by character class.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2250941"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z186"/>
+          <p><span class="strong"><strong>Level Adjustment:</strong></span> -.</p>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2250969">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Kobold Zombie</strong></span></p></td>
+<td><p><span class="strong"><strong>Human Commoner Zombie</strong></span></p></td>
+<td><p><span class="strong"><strong>Troglodyte Zombie</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p>Small Undead</p></td>
+<td><p>Medium Undead</p></td>
+<td><p>Medium Undead</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Hit Dice:</strong></span></p></td>
+<td><p>2d12+3 (16 hp)</p></td>
+<td><p>2d12+3 (16 hp)</p></td>
+<td><p>4d12+3 (29 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Initiative:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>-1</p></td>
+<td><p>-2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Speed:</strong></span></p></td>
+<td><p>30 ft. (6 squares; can't run)</p></td>
+<td><p>30 ft. (6 squares; can't run)</p></td>
+<td><p>30 ft. (6 squares; can't run)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Armor Class:</strong></span></p></td>
+<td><p>13 (+1 size, +2 natural), touch 11, flat-footed 13</p></td>
+<td><p>11 (-1 Dex, +2 natural), touch 9, flat-footed 11</p></td>
+<td><p>16 (-2 Dex, +8 natural), touch 8, flat-footed 16</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Base Attack/Grapple:</strong></span></p></td>
+<td><p>+1/-4</p></td>
+<td><p>+1/+2</p></td>
+<td><p>+2/+3</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Attack:</strong></span></p></td>
+<td><p>Spear+1 melee (1d6-1/x3) or slam +1 melee (1d4-1) or light crossbow +2 ranged (1d6/19-20)</p></td>
+<td><p>Slam+2 melee (1d6+1) or club +2 melee (1d6+1)</p></td>
+<td><p>Greatclub +3 melee (1d10+1) or bite +3 melee (1d4+1) or slam +3 melee (1d6+1) or javelin +0 ranged (1d6+1)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Full Attack:</strong></span></p></td>
+<td><p>Spear +0 melee (1d6-1/x3) or slam +0 melee (1d4-1) or light crossbow +1 ranged (1d6/19-20)</p></td>
+<td><p>Slam+2 melee, (1d6+1) or club +2 melee (1d6+1)</p></td>
+<td><p>Greatclub +3 melee (1d10+1) or bite +3 melee (1d4+1) or slam +3 melee (1d6+1) or javelin +0 ranged (1d6+1)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Space/Reach:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft</p></td>
+<td><p>5 ft./5 ft</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Special Attacks:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Special Qualities:</strong></span></p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Saves:</strong></span></p></td>
+<td><p>Fort +0, Ref +0, Will +3</p></td>
+<td><p>Fort +0, Ref -1, Will +3</p></td>
+<td><p>Fort +1, Ref -1, Will +4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Abilities:</strong></span></p></td>
+<td><p>Str 8, Dex 11, Con -, Int -, Wis 10, Cha 1</p></td>
+<td><p>Str 12, Dex 8, Con -, Int -, Wis 10, Cha 1</p></td>
+<td><p>Str 12, Dex 7, Con -, Int -, Wis 10, Cha 1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Skills:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Feats:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Environment:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Any</p></td>
+<td><p>Underground</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Organization:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Challenge Rating:</strong></span></p></td>
+<td><p>1/2</p></td>
+<td><p>1/2</p></td>
+<td><p>1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Treasure:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Alignment:</strong></span></p></td>
+<td><p>Always neutral evil</p></td>
+<td><p>Always neutral evil</p></td>
+<td><p>Always neutral evil</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Advancement:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Level Adjustment:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2251796">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Bugbear Zombie</strong></span></p></td>
+<td><p><span class="strong"><strong>Ogre Zombie</strong></span></p></td>
+<td><p><span class="strong"><strong>Minotaur Zombie</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p>Medium Undead</p></td>
+<td><p>Large Undead</p></td>
+<td><p>Large Undead</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Hit Dice:</strong></span></p></td>
+<td><p>6d12+3 (42 hp)</p></td>
+<td><p>8d12+3 (55 hp)</p></td>
+<td><p>12d8+3 (81 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Initiative:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>-2</p></td>
+<td><p>-1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Speed:</strong></span></p></td>
+<td><p>30 ft. (6 squares; can't run)</p></td>
+<td><p>40 ft. (8 squares; can't run)</p></td>
+<td><p>30 ft. (6 squares; can't run)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Armor Class:</strong></span></p></td>
+<td><p>16 (+5 natural, +1 light wooden shield), touch 10, flat-footed 16</p></td>
+<td><p>15 (-1 size, -2 Dex, +8 natural), touch 7, flat-footed 15</p></td>
+<td><p>16 (-1 size, -1 Dex, +8 natural), touch 8, flat-footed 16</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Base Attack/Grapple:</strong></span></p></td>
+<td><p>+3/+6</p></td>
+<td><p>+4/+14</p></td>
+<td><p>+6/+15</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Attack:</strong></span></p></td>
+<td><p>Morningstar +6 melee (1d8+3) or slam +6 melee (1d6+3) or javelin +3 ranged (1d6+2)</p></td>
+<td><p>Greatclub +9 melee (2d8+9) or slam +9 melee (1d8+9) or javelin +1 ranged (1d8+6)</p></td>
+<td><p>Greataxe +10 melee (3d6+7/x3) or gore +10 melee (1d8+5) or slam +10 melee (1d8+5)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Full Attack:</strong></span></p></td>
+<td><p>Morningstar +6 melee (1d8+3) or slam +6 melee (1d6+3) or javelin +3 ranged (1d6+2)</p></td>
+<td><p>Greatclub +9 melee (2d8+9) or slam +9 melee (1d8+9) or javelin +1 ranged (1d8+6)</p></td>
+<td><p>Greataxe +10 melee (3d6+7/x3) or gore +10 melee (1d8+5) or slam +10 melee (1d8+5)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Space/Reach:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Special Attacks:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Special Qualities:</strong></span></p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Saves:</strong></span></p></td>
+<td><p>Fort +2, Ref +2, Will +5</p></td>
+<td><p>Fort +2, Ref +0, Will +6</p></td>
+<td><p>Fort +4, Ref +3, Will +8</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Abilities:</strong></span></p></td>
+<td><p>Str 17, Dex 10, Con -, Int -, Wis 10, Cha 1</p></td>
+<td><p>Str 23, Dex 6, Con -, Int -, Wis 10, Cha 1</p></td>
+<td><p>Str 21, Dex 8, Con -, Int -, Wis 10, Cha 1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Skills:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Feats:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Environment:</strong></span></p></td>
+<td><p>Temperate mountains</p></td>
+<td><p>Temperate hills</p></td>
+<td><p>Underground</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Organization:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Challenge Rating:</strong></span></p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Treasure:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Alignment:</strong></span></p></td>
+<td><p>Always neutral evil</p></td>
+<td><p>Always neutral evil</p></td>
+<td><p>Always neutral evil</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Advancement:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Level Adjustment:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2252557">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Wyvern Zombie</strong></span></p></td>
+<td><p><span class="strong"><strong>Gray Render Zombie</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p>Large Undead</p></td>
+<td><p>Large Undead</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Hit Dice:</strong></span></p></td>
+<td><p>14d12+3 (94 hp)</p></td>
+<td><p>20d8+3 (133 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Initiative:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>-1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Speed:</strong></span></p></td>
+<td><p>20 ft. (4 squares; can't run), fly 60 ft. (poor)</p></td>
+<td><p>30 ft. (6 squares; can't run)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Armor Class:</strong></span></p></td>
+<td><p>20 (-2 size, +12 natural), touch 8, flat-footed 20</p></td>
+<td><p>16 (-1 size, -1 Dex, +8 natural), touch 8, flat-footed 16</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Base Attack/Grapple:</strong></span></p></td>
+<td><p>+7/+16</p></td>
+<td><p>+10/+21</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Attack:</strong></span></p></td>
+<td><p>Slam +11 melee (2d6+7) or talons +11 melee (2d6+5)</p></td>
+<td><p>Bite +16 melee (2d6+7) or slam +16 melee (1d8+10)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Full Attack:</strong></span></p></td>
+<td><p>Slam +11 melee (2d6+7) or talons +11 melee (2d6+5)</p></td>
+<td><p>Bite +16 melee (2d6+7) or slam +16 melee (1d8+10)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Space/Reach:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Special Attacks:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Special Qualities:</strong></span></p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+<td><p>Single actions only, damage reduction 5/slashing, darkvision 60 ft., undead traits</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Saves:</strong></span></p></td>
+<td><p>Fort +4, Ref +4, Will +9</p></td>
+<td><p>Fort +6, Ref +5, Will +12</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Abilities:</strong></span></p></td>
+<td><p>Str 21, Dex 10, Con -, Int -, Wis 10, Cha 1</p></td>
+<td><p>Str 25, Dex 8, Con -, Int -, Wis 10, Cha 1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Skills:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Feats:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Environment:</strong></span></p></td>
+<td><p>Warm hills</p></td>
+<td><p>Temperate marshes</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Organization:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Challenge Rating:</strong></span></p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Treasure:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Alignment:</strong></span></p></td>
+<td><p>Always neutral evil</p></td>
+<td><p>Always neutral evil</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Advancement:</strong></span></p></td>
+<td><p>16-20 HD (Huge)</p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Level Adjustment:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s22.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch73.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Yrthak </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (Animals)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

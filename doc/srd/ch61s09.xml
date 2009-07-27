@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Bulette</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="prev" href="ch61s08.html" title="Bugbear"/>
+    <link rel="next" href="ch61s10.html" title="Celestial Creature"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Bulette</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61s08.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (B-C)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch61s10.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1647885"/>Bulette</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch61s09.html#id1648718">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersB-C50"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1647903">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Bulette</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d10+45 (94 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares), burrow 10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (-2 size, +2 Dex, +12 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +16 melee (2d8+8)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +16 melee (2d8+8) and 2 claws +10 melee (2d6+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Leap</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +11, Ref +8, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 27, Dex 15, Con 20, Int 2, Wis 13, Cha 6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +18, <a href="ch16s03.html#CombinedSkills204">Listen</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats369">Track</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate hills</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>10-16 HD (<a href="ch22.html#CombatII28">Huge</a>); 17-27 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>Also known as the landshark, the <a href="ch61s09.html#MonstersB-C50">bulette</a> is a terrifying predator that lives only to eat.<a href="img/MonstersB-C.Bulette.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Bulette.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1648718"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C51"/>
+        <p>A <a href="ch61s09.html#MonstersB-C50">bulette</a> attacks anything it regards as edible, choosing the easiest or closest prey first. The only creatures it refuses to eat are <a href="ch65s03.html#MonstersE-F26">elves</a> (and it dislikes the taste of <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>). When burrowing underground, a landshark relies on its tremorsense ability to detect prey.</p>
+        <p>When it senses something edible (that is, senses movement), it breaks to the surface, crest first, and begins its attack.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1648776"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C52"/>
+          <p><span class="strong"><strong>Leap (Ex):</strong></span> A <a href="ch61s09.html#MonstersB-C50">bulette</a> can jump into the air during combat. This allows it to make four claw attacks instead of two, each with a +15 attack bonus, but it cannot bite.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch61.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch61s10.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Bugbear </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Celestial Creature</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

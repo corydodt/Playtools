@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ravid</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s16.html" title="Rast"/>
+    <link rel="next" href="ch70s18.html" title="Remorhaz"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ravid</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s16.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s18.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2142409"/>Ravid</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch70s17.html#id2143627">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R127"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2142427">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Ravid</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+3 (16 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 60 ft. (perfect)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>25 (+15 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Tail slap +4 melee (1d6+1 plus positive energy) or tail <a href="ch21s02.html#CombatI12">touch</a> +4 melee <a href="ch21s02.html#CombatI12">touch</a> (positive energy)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Tail slap +4 melee (1d6+1 plus positive energy) and claw +2 melee (1d4 plus positive energy); or tail <a href="ch21s02.html#CombatI12">touch</a> +4 melee <a href="ch21s02.html#CombatI12">touch</a> (positive energy) and claw <a href="ch21s02.html#CombatI12">touch</a> +2 melee <a href="ch21s02.html#CombatI12">touch</a> (positive energy)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Positive energy lash, animate objects</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities30">flight</a>, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +3, Will +4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 10, Con 13, Int 7, Wis 12, Cha 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills303">Survival</a> +7, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +0 (+2 with bindings)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Positive Energy Plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1 plus at least 1 <a href="ch60s06.html#MonstersIntro-A66">animated object</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4 HD (<a href="ch22.html#CombatII28">Medium</a>); 5-9 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch70s17.html#MonstersO-R127">Ravids</a> are creatures from the Positive Energy Plane. These bizarre entities imbue creatures with energy by their touch and animate lifeless objects around them. <a href="ch70s17.html#MonstersO-R127">Ravids</a> that make their way to the Material Plane wander about aimlessly, followed by the objects to which they have given life.<a href="img/MonstersO-R.Ravid.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Ravid.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch70s17.html#MonstersO-R127">ravid</a> is about 7 feet long and weighs about 75 pounds.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2143627"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R128"/>
+        <p><a href="ch70s17.html#MonstersO-R127">Ravids</a> fight only in self-defense. A <a href="ch70s17.html#MonstersO-R127">ravid</a> itself is not very powerful but is always accompanied by at least one <a href="ch60s06.html#MonstersIntro-A66">animated object</a> that defends it.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2143677"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R129"/>
+          <p><span class="strong"><strong>Positive Energy Lash (Su):</strong></span> A <a href="ch70s17.html#MonstersO-R127">ravid</a> can make a touch attack or hit with a claw or tail slap attack to infuse a target with positive energy. The energy produces an unpleasant tingle in living creatures, and against undead foes (even incorporeal ones) it deals 2d10 points of damage.</p>
+          <p>Animate Objects (Su): Once per round, a random object within 20 feet of a <a href="ch70s17.html#MonstersO-R127">ravid</a> animates as though by the spell <span class="emphasis"><em><a href="ch43.html#SpellsA-B16">animate objects</a></em></span> (caster level 20th). These objects defend the <a href="ch70s17.html#MonstersO-R127">ravid</a> to the best of their ability, but the <a href="ch70s17.html#MonstersO-R127">ravid</a> isn't intelligent enough to employ elaborate tactics with them.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2143833"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R130"/>
+          <p><span class="strong"><strong>Flight (Su):</strong></span> A <a href="ch70s17.html#MonstersO-R127">ravid</a> can cease or resume flight as a free action. A <a href="ch70s16.html#MonstersO-R121">rast</a> that loses this ability falls and can perform only a single action (either a move action or an attack action) each round.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2143951"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R131"/>
+          <p><span class="strong"><strong>Feats:</strong></span> A <a href="ch70s17.html#MonstersO-R127">ravid</a> has the <a href="ch20.html#MonsterFeats31">Multiattack</a> feat even through it does not have the requisite three natural weapons.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s16.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s18.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Rast </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Remorhaz</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Unicorn</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s09.html" title="Troll"/>
+    <link rel="next" href="ch72s11.html" title="Vampire"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Unicorn</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s09.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s11.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2228234"/>Unicorn</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s10.html#id2229576">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s10.html#id2230092">Celestial Charger</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z52"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2228252">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Unicorn</strong></span></p></td> <td><p><span class="strong"><strong><a href="ch72s10.html#MonstersT-Z58">Celestial Charger</a>, 7th-Level Cleric</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d10+20 (42 hp)</p></td>
+<td><p>8d10+7d8+75 (155 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft. (12 squares)</p></td>
+<td><p>60 ft. (12 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, +3 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>24 (-1 size, +4 Dex, +6 natural, +5 <span class="emphasis"><em>bracers of armor +5</em></span>), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+13</p></td>
+<td><p>+13/+24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Horn +11 melee (1d8+8)</p></td>
+<td><p>Horn +22 melee (1d8+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Horn +11 melee (1d8+8) and 2 hooves +3 melee (1d4+2)</p></td>
+<td><p>Horn +22 melee (1d8+10) and 2 hooves +14 melee (1d4+3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Turn <a href="ch04.html#TypesSubtypesAbilities76">undead</a> 13/day, smite <a href="ch04.html#TypesSubtypesAbilities24">evil</a>, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., magic circle against <a href="ch04.html#TypesSubtypesAbilities24">evil</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, charm, and compulsion, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, wild empathy</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/magic, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, charm, and compulsion, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, magic circle against <a href="ch04.html#TypesSubtypesAbilities24">evil</a>, <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 20, wild empathy</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +7, Will +6</p></td>
+<td><p>Fort +16, Ref +12, Will +15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 20, Dex 17, Con 21, Int 10, Wis 21, Cha 24</p></td>
+<td><p>Str 24, Dex 18, Con 20, Int 13, Wis 27, Cha 22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +21, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills303">Survival</a> +8*</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +11, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +9, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +15, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +15, <a href="ch16s03.html#CombinedSkills303">Survival</a> +15 (+17 aboveground)*</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats329">Skill Focus</a> (<a href="ch16s03.html#CombinedSkills303">Survival</a>)</p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats125">Extra Turning</a>, <a href="ch17s03.html#Feats219">Improved Turning</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats329">Skill Focus</a> (<a href="ch16s03.html#CombinedSkills303">Survival</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+<td><p>A <a href="ch02s02.html#Description8">chaotic good</a> plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or grace (3-6)</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description8">chaotic good</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description8">chaotic good</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-8 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+4 (cohort)</p></td>
+<td><p>+8 (cohort)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch72s10.html#MonstersT-Z52">unicorn</a> has deep sea-blue, violet, brown, or fiery gold eyes. Males sport a white beard.<a href="img/MonstersT-Z.Unicorn.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Unicorn.jpg" align="right"/></span></a></p>
+      <p>A typical adult <a href="ch72s10.html#MonstersT-Z52">unicorn</a> grows to 8 feet in length, stands 5 feet high at the shoulder, and weighs 1,200 pounds. Females are slightly smaller and slimmer than males.</p>
+      <p><a href="ch72s10.html#MonstersT-Z52">Unicorns</a> speak Sylvan and Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2229576"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z53"/>
+        <p><a href="ch72s10.html#MonstersT-Z52">Unicorns</a> normally attack only when defending themselves or their forests. They either charge, impaling foes with their horns like lances, or strike with their hooves. The horn is a +3 magic weapon, though its power fades if removed from the <a href="ch72s10.html#MonstersT-Z52">unicorn</a>.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2229824"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z54"/>
+          <p><span class="strong"><strong>Magic Circle against Evil (Su):</strong></span> This ability continuously duplicates the effect of the spell. A <a href="ch72s10.html#MonstersT-Z52">unicorn</a> cannot suppress this ability.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2229862"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z55"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> <a href="ch72s10.html#MonstersT-Z52">Unicorns</a> can use <span class="emphasis"><em><a href="ch45.html#SpellsD-E20">detect evil</a></em></span> at will as a free action.</p>
+          <p>Once per day a <a href="ch72s10.html#MonstersT-Z52">unicorn</a> can use <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> to move anywhere within its home. It cannot teleport beyond the forest boundaries nor back from outside.</p>
+          <p>A <a href="ch72s10.html#MonstersT-Z52">unicorn</a> can use <span class="emphasis"><em><a href="ch44.html#SpellsC56">cure light wounds</a></em></span> three times per day and <span class="emphasis"><em><a href="ch44.html#SpellsC59">cure moderate wounds</a></em></span> once per day (caster level 5th) by touching a wounded creature with its horn. Once per day it can use <span class="emphasis"><em><a href="ch48.html#SpellsM-O48">neutralize poison</a></em></span> (DC 21, caster level 8th) with a touch of its horn. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2229984"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z56"/>
+          <p><span class="strong"><strong>Wild Empathy (Ex):</strong></span> This power works like the druid's wild empathy class feature, except that a <a href="ch72s10.html#MonstersT-Z52">unicorn</a> has a +6 racial bonus on the check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230022"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z57"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch72s10.html#MonstersT-Z52">Unicorns</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks. *<a href="ch72s10.html#MonstersT-Z52">Unicorns</a> have a +3 competence bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> checks within the boundaries of their forest.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2230092"/>Celestial Charger</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch72s10.html#id2230124">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z58"/>
+        <p>The celestial charger described here is an 8 HD celestial <a href="ch72s10.html#MonstersT-Z52">unicorn</a> with seven levels of cleric.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2230124"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z59"/>
+          <p>The save DC for this celestial charger's <span class="emphasis"><em><a href="ch48.html#SpellsM-O48">neutralize poison</a></em></span> ability (DC 20) is adjusted for its greater Hit Dice and altered Charisma score.</p>
+          <p>A celestial charger's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2230163"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z60"/>
+            <p><span class="strong"><strong>Smite Evil (Su):</strong></span> Once per day a celestial charger can make a normal melee attack to deal 15 points of extra damage against an evil foe.</p>
+            <p><span class="emphasis"><em>Cleric Spells Prepared</em></span> (6/7/6/5/4; save DC 18 + spell level): 0- <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E24">detect poison</a></em></span> (2), <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z35">virtue</a></em></span> (2); 1st-<span class="emphasis"><em><a href="ch43.html#SpellsA-B43">bless</a></em></span> (2), <span class="emphasis"><em><a href="ch44.html#SpellsC4">calm animals</a>*</em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O52">obscuring mist</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R62">remove fear</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS2">sanctuary</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS29">shield of faith</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B5">aid</a></em></span>* (2), <span class="emphasis"><em><a href="ch43.html#SpellsA-B12">animal messenger</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R73">lesser restoration</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R63">remove paralysis</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS31">shield other</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch49.html#SpellsP-R26">prayer</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R36">protection from energy</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS10">searing light</a></em></span> (2); 4th-<span class="emphasis"><em><a href="ch43.html#SpellsA-B6">air walk</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E51">divine power</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L25">holy smite</a>*</em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R71">restoration</a></em></span>.</p>
+            <p>*Domain spell. Domains: Animal and Good.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s09.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s11.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Troll </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Vampire</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

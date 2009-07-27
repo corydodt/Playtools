@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Chuul</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="prev" href="ch61s14.html" title="Choker"/>
+    <link rel="next" href="ch61s16.html" title="Cloaker"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Chuul</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61s14.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (B-C)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch61s16.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1654067"/>Chuul</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch61s15.html#id1655107">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersB-C81"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1654085">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Chuul</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>11d8+44 (93 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (-1 size, +3 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +12 melee (2d6+5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +12 melee (2d6+5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 3d6+5, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, paralytic tentacles</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Amphibious, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +6, Will +9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 20, Dex 16, Con 18, Int 10, Wis 14, Cha 5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills311">Swim</a> +13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate marshes</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or pack (3-5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>1/10th coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>12-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-33 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A horrible mix of crustacean, insect, and serpent, the <a href="ch61s15.html#MonstersB-C81">chuul</a> is an <a href="ch75.html#EpicMonsters(A-E)2">abomination</a> that lurks submerged or partially submerged, awaiting intelligent prey to devour. Although amphibious, <a href="ch61s15.html#MonstersB-C81">chuuls</a> are not good swimmers and actually prefer to be on land or in very shallow water when they attack. A <a href="ch61s15.html#MonstersB-C81">chuul</a> is about 8 feet long and weighs 650 pounds.<a href="img/MonstersB-C.Chuul.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Chuul.jpg" align="right"/></span></a></p>
+      <p><a href="ch61s15.html#MonstersB-C81">Chuuls</a> speak Common (or Undercommon, for the underground variety).</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1655107"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C82"/>
+        <p>A <a href="ch61s15.html#MonstersB-C81">chuul</a> prefers to wait by the shore, submerged in murky water, until it hears nearby prey (in or out of the water) that it can attack with surprise. A <a href="ch61s15.html#MonstersB-C81">chuul</a> grabs with its claws and constricts its foe, then passes the opponent to its paralytic tentacles. It tries to always have one claw free, so if it faces a large number of opponents, it drops a paralyzed or dead victim and continues attempting to grab, constrict, and paralyze the rest.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1655149"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C83"/>
+          <p><span class="strong"><strong>Constrict (Ex):</strong></span> On a successful grapple check, a <a href="ch61s15.html#MonstersB-C81">chuul</a> deals 3d6+5 points of damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1655187"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C84"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch61s15.html#MonstersB-C81">chuul</a> must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict or on its next turn transfer a grabbed opponent to its tentacles.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1655229"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C85"/>
+          <p><span class="strong"><strong>Paralytic Tentacles (Ex):</strong></span> A <a href="ch61s15.html#MonstersB-C81">chuul</a> can transfer grabbed victims from a claw to its ten- tacles as a move action. The tentacles grapple with the same strength as the claw but deal no damage. However, they exude a paralytic secretion. Anyone held in the tentacles must succeed on a DC 19 Fortitude save each round on the <a href="ch61s15.html#MonstersB-C81">chuul's</a> turn or be paralyzed for 6 rounds. The save DC is Constitution-based. While held in the tentacles, paralyzed or not, a victim automatically takes 1d8+2 points of damage each round from the creature's mandibles.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1655285"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C86"/>
+          <p><span class="strong"><strong>Amphibious (Ex):</strong></span> Although <a href="ch61s15.html#MonstersB-C81">chuuls</a> are aquatic, they can survive indefinitely on land.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1655324"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C87"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch61s15.html#MonstersB-C81">chuul</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61s14.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch61.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch61s16.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Choker </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Cloaker</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

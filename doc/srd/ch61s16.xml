@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Cloaker</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="prev" href="ch61s15.html" title="Chuul"/>
+    <link rel="next" href="ch61s17.html" title="Cockatrice"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Cloaker</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61s15.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (B-C)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch61s17.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1655388"/>Cloaker</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch61s16.html#id1656501">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersB-C88"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1655407">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Cloaker</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+18 (45 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares), fly 40 ft. (average)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>19 (-1 size, +3 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Tail slap +8 melee (1d6+5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Tail slap +8 melee (1d6+5) and bite +3 melee (1d4+2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft. (5 ft. with bite)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Moan, engulf</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch71s05.html#MonstersS31">shadow</a> shift</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +5, Will +7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 16, Con 17, Int 14, Wis 15, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, mob (3-6), or flock (7-12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description11">chaotic neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-9 HD (<a href="ch22.html#CombatII28">Large</a>); 10-18 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>When resting or lying in wait, these creatures are almost impossible to distinguish from common black cloaks (the <a href="ch61s16.html#MonstersB-C88">cloaker's</a> ivory claws look very much like bone clasps). Only when it unfurls does the horrific nature of the creature become apparent.<a href="img/MonstersB-C.Cloaker.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Cloaker.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch61s16.html#MonstersB-C88">cloaker</a> has a wingspan of about 8 feet. It weighs about 100 pounds.</p>
+      <p><a href="ch61s16.html#MonstersB-C88">Cloakers</a> speak Undercommon.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1656501"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C89"/>
+        <p><a href="ch61s16.html#MonstersB-C88">Cloakers</a> usually lie still, watching and listening for prey. If facing a single opponent, a <a href="ch61s16.html#MonstersB-C88">cloaker</a> uses its engulf attack. Against multiple foes, it lashes with its tail in concert with its moan and <a href="ch71s05.html#MonstersS31">shadow</a> shift abilities to reduce the opposition's numbers, then engulfs a survivor. Multiple <a href="ch61s16.html#MonstersB-C88">cloakers</a> usually split up, leaving one or two behind to use special abilities while the rest make melee attacks.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1656564"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C90"/>
+          <p><span class="strong"><strong>Moan (Ex):</strong></span> A <a href="ch61s16.html#MonstersB-C88">cloaker</a> can emit a dangerous subsonic moan as a standard action. By changing the frequency, the <a href="ch61s16.html#MonstersB-C88">cloaker</a> can cause one of four effects. <a href="ch61s16.html#MonstersB-C88">Cloakers</a> are immune to these sonic, mindaffecting attacks. Unless otherwise specified, a creature that successfully saves against one of these effects cannot be affected by the same moan effect from the same <a href="ch61s16.html#MonstersB-C88">cloaker</a> for 24 hours. All save DCs for moan effects are Charisma-based.</p>
+          <p><span class="emphasis"><em>Unnerve:</em></span> Anyone within a 60-foot spread automatically takes a -2 penalty on attack and damage rolls. Those forced to hear the moan for more than 6 consecutive rounds must succeed on a DC 15 Will save or enter a trance, unable to attack or defend themselves until the moaning stops.</p>
+          <p><span class="emphasis"><em><a href="ch46.html#SpellsF-G6">Fear</a>:</em></span> Anyone within a 30-foot spread must succeed on a DC 15 Will save or become panicked for 2 rounds.</p>
+          <p><span class="emphasis"><em>Nausea:</em></span> Anyone in a 30-foot cone must succeed on a DC 15 Fortitude save or be overcome by nausea and weakness.</p>
+          <p>Affected characters fall prone and become nauseated for 1d4+1 rounds.</p>
+          <p><span class="emphasis"><em>Stupor:</em></span> A single creature within 30 feet of the <a href="ch61s16.html#MonstersB-C88">cloaker</a> must succeed on a DC 15 Fortitude save or be affected as though by a <span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span> spell for 5 rounds. Even after a successful save, the creature must repeat the save if the <a href="ch61s16.html#MonstersB-C88">cloaker</a> uses this effect again.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1656779"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C91"/>
+          <p><span class="strong"><strong>Engulf (Ex):</strong></span> A <a href="ch61s16.html#MonstersB-C88">cloaker</a> can try to wrap a Medium or smaller creature in its body as a standard action. The <a href="ch61s16.html#MonstersB-C88">cloaker</a> attempts a grapple that does not provoke an attack of opportunity. If it wins the grapple check, it establishes a hold and bites the engulfed victim with a +4 bonus on its attack roll. It can still use its whiplike tail to strike at other targets.</p>
+          <p>Attacks that hit an engulfing <a href="ch61s16.html#MonstersB-C88">cloaker</a> deal half their damage to the monster and half to the trapped victim.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1656845"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C92"/>
+          <p><span class="strong"><strong>Shadow Shift (Su):</strong></span> A <a href="ch61s16.html#MonstersB-C88">cloaker</a> can manipulate <a href="ch71s05.html#MonstersS31">shadows</a>. This ability is effective only in shadowy areas and has three possible effects.</p>
+          <p><span class="emphasis"><em>Obscure <a href="ch51.html#SpellsT-Z36">Vision</a>:</em></span> The <a href="ch61s16.html#MonstersB-C88">cloaker</a> gains concealment (20% miss chance) for 1d4 rounds.</p>
+          <p><span class="emphasis"><em>Dancing Images:</em></span> This effect duplicates a <span class="emphasis"><em><a href="ch48.html#SpellsM-O40">mirror image</a></em></span> spell (caster level 6th).</p>
+          <p><span class="emphasis"><em><a href="ch50.html#SpellsS38">Silent Image</a>:</em></span> This effect duplicates a <span class="emphasis"><em><a href="ch50.html#SpellsS38">silent image</a></em></span> spell (DC 15, caster level 6th). The save DC is Charisma-based.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61s15.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch61.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch61s17.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Chuul </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Cockatrice</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

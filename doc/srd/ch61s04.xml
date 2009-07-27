@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Belker</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="prev" href="ch61s03.html" title="Behir"/>
+    <link rel="next" href="ch61s05.html" title="Blink Dog"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Belker</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61s03.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (B-C)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch61s05.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1611188"/>Belker</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch61s04.html#id1608358">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersB-C27"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1611206">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Belker</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+7 (38 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (perfect)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (-1 size, +5 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Wing +9 melee (1d6+2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 wings +9 melee (1d6+2) and bite +4 melee (1d4+1) and 2 claws +4 melee (1d3+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Smoke claws</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, smoke form</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +10, Will +2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 21, Con 13, Int 6, Wis 11, Cha 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or clutch (3-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-10 HD (<a href="ch22.html#CombatII28">Large</a>); 11-21 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch61s04.html#MonstersB-C27">Belkers</a> are creatures from the Plane of Air. They are composed primarily of smoke. Although undeniably evil, they are very reclusive and usually have no interest in the affairs of others. A <a href="ch61s04.html#MonstersB-C27">belker's</a> winged shape makes it look distinctly demonic. It is about 7 feet long and weighs about 8 pounds.<a href="img/MonstersB-C.Belker.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Belker.jpg" align="right"/></span></a></p>
+      <p><a href="ch61s04.html#MonstersB-C27">Belkers</a> speak Auran.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1608358"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C28"/>
+        <p>In most cases, a <a href="ch61s04.html#MonstersB-C27">belker</a> fights with its nasty claws and painful bite.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1608389"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C29"/>
+          <p><span class="strong"><strong>Smoke Claws (Ex):</strong></span> A <a href="ch61s04.html#MonstersB-C27">belker</a> in smoke form (see below) can engulf opponents by moving on top of them. It fills the air around one Medium or smaller opponent without provoking an attack of opportunity. The target must succeed on a DC 14 Fortitude save or inhale part of the creature. The save DC is Constitution-based. Smoke inside the victim solidifies into a claw and begins to rip at the surrounding organs, dealing 3d4 points of damage per round. An affected creature can attempt another Fortitude save each subsequent round to cough out the semivaporous menace.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1608435"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C30"/>
+          <p><span class="strong"><strong>Smoke Form (Su):</strong></span> Most of the time a <a href="ch61s04.html#MonstersB-C27">belker</a> is more or less solid, but at will it can assume smoke form. It can switch forms once per round as a free action and can spend up to 20 rounds per day in smoke form. A <a href="ch61s04.html#MonstersB-C27">belker</a> in smoke form can fly at a speed of 50 feet (perfect). The ability is otherwise similar to a <span class="emphasis"><em><a href="ch46.html#SpellsF-G35">gaseous form</a></em></span> spell (caster level 7th).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1608495"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C31"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch61s04.html#MonstersB-C27">Belkers</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61s03.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch61.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch61s05.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Behir </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Blink Dog</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

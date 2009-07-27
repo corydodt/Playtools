@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Fungus</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch65.html" title="Monsters (E-F)"/>
+    <link rel="prev" href="ch65s10.html" title="Frost Worm"/>
+    <link rel="next" href="ch66.html" title="Monsters (G)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Fungus</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch65s10.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (E-F)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1767767"/>Fungus</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch65s11.html#id1770294">Combat<span class="inlinemediaobject"><img src="thumb/MonstersE-F.Fungus.jpg" align="right"/></span></a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s11.html#id1770430">Shrieker</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s11.html#id1770868">Violet Fungus</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersE-F102"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1767785">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Shrieker</strong></span></p></td> <td><p><span class="strong"><strong>Violet Fungus</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities51">Plant</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities51">Plant</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8+2 (11 hp)</p></td>
+<td><p>2d8+6 (15 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-5</p></td>
+<td><p>-1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>0 ft.</p></td>
+<td><p>10 ft. (2 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>8 (-5 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 5, <a href="ch21s03.html#CombatI21">flat-footed</a> 8</p></td>
+<td><p>13 (-1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-4</p></td>
+<td><p>+1/+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Tentacle +3 melee (1d6+2 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>4 tentacles +3 melee (1d6+2 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./0 ft.</p></td>
+<td><p>5 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Shriek</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities51">plant</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities51">plant</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref -, Will -4</p></td>
+<td><p>Fort +6, Ref -1, Will +0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex -, Con 13, Int -, Wis 2, Cha 1</p></td>
+<td><p>Str 14, Dex 8, Con 16, Int -, Wis 11, Cha 9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or patch (3-5)</p></td>
+<td><p>Solitary, patch (2-4), or mixed patch (2-4 violet fungi and 3-5 <a href="ch65s11.html#MonstersE-F104">shriekers</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>3-6 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1770294"/>Combat<a href="img/MonstersE-F.Fungus.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersE-F.Fungus.jpg" align="right"/></span></a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F103"/>
+        <p><a href="ch65s11.html#MonstersE-F104">Shriekers</a> and violet fungi often work together to attract and kill prey. When the <a href="ch65s11.html#MonstersE-F104">shriekers'</a> hellish racket attracts a curious creature, the <a href="ch65s11.html#MonstersE-F107">violet fungus</a> tries to kill it. Both creatures enjoy the fruits of a successful hunt.</p>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1770430"/>Shrieker</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s11.html#id1770490">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F104"/>
+        <p>A <a href="ch65s11.html#MonstersE-F104">shrieker</a> is a stationary <a href="ch65s11.html#MonstersE-F102">fungus</a> that emits a loud noise to attract prey or when disturbed. <a href="ch65s11.html#MonstersE-F104">Shriekers</a> live in dark, subterranean places, often in the company of violet fungi, whose poison they are immune to.</p>
+        <p><a href="ch65s11.html#MonstersE-F104">Shriekers</a> come in of shades of purple.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1770490"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F105"/>
+          <p>A <a href="ch65s11.html#MonstersE-F104">shrieker</a> has no means of attack. Instead, it lures prey to its vicinity by emitting a loud noise.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1770727"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F106"/>
+            <p><span class="strong"><strong>Shriek (Ex):</strong></span> Movement or a light source within 10 feet of a <a href="ch65s11.html#MonstersE-F104">shrieker</a> causes the <a href="ch65s11.html#MonstersE-F102">fungus</a> to emit a piercing sound that lasts for 1d3 rounds. The sound attracts nearby creatures that are disposed to investigate it. Some creatures that live near <a href="ch65s11.html#MonstersE-F104">shriekers</a> come to learn that the <a href="ch65s11.html#MonstersE-F102">fungus's</a> noise means there is food nearby.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1770868"/>Violet Fungus</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s11.html#id1770902">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F107"/>
+        <p>Violet fungi resemble <a href="ch65s11.html#MonstersE-F104">shriekers</a> and are often found growing among them.</p>
+        <p>A violet fungi's coloration ranges from purple overall to dull gray or violet covered with purple spots.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1770902"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F108"/>
+          <p>A <a href="ch65s11.html#MonstersE-F107">violet fungus</a> flails about with its tentacles at living creatures that come within its reach.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1771412"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F109"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 14, initial and secondary damage 1d4 Str and 1d4 Con. The save DC is Constitution-based.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch65s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch65.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Frost Worm </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (G)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

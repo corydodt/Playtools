@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Elemental</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch65.html" title="Monsters (E-F)"/>
+    <link rel="prev" href="ch65.html" title="Monsters (E-F)"/>
+    <link rel="next" href="ch65s03.html" title="Elf"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Elemental</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch65.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (E-F)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch65s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1750707"/>Elemental</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch65s02.html#id1750736">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s02.html#id1750776">Air Elemental</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s02.html#id1720977">Earth Elemental</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s02.html#id1728138">Fire Elemental</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s02.html#id1736279">Water Elemental</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersE-F7"/>
+      <p><a href="ch65s02.html#MonstersE-F7">Elementals</a> are incarnations of the elements that compose existence.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1750736"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F8"/>
+        <p><a href="ch65s02.html#MonstersE-F7">Elementals</a> have varied combat abilities and tactics, but all have the same <a href="ch65s02.html#MonstersE-F7">elemental</a> qualities.</p>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1750776"/>Air Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s02.html#id1720016">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F9"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1750794">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Air Elemental, Small</strong></span></p></td> <td><p><span class="strong"><strong>Air Elemental, Medium</strong></span></p></td>
+<td><p><span class="strong"><strong>Air Elemental, Large</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8 (9 hp)</p></td>
+<td><p>4d8+8 (26 hp)</p></td>
+<td><p>8d8+24 (60 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+<td><p>+9</p></td>
+<td><p>+11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 100 ft. (perfect) (20 squares)</p></td>
+<td><p>Fly 100 ft. (perfect) (20 squares)</p></td>
+<td><p>Fly 100 ft. (perfect) (20 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, +3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>18 (+5 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+<td><p>20 (-1 size, +7 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-3</p></td>
+<td><p>+3/+4</p></td>
+<td><p>+6/+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d4)</p></td>
+<td><p>Slam +8 melee (1d6+1)</p></td>
+<td><p>Slam +12 melee (2d6+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d4)</p></td>
+<td><p>Slam +8 melee (1d6+1)</p></td>
+<td><p>2 slams +12 melee (2d6+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +6, Will +0</p></td>
+<td><p>Fort +3, Ref +9, Will +1</p></td>
+<td><p>Fort +5, Ref +13, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 10, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 12, Dex 21, Con 14, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 14, Dex 25, Con 16, Int 6, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>5-7 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>9-15 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1718616">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Air Elemental, Huge</strong></span></p></td>
+<td><p><span class="strong"><strong>Air Elemental, Greater</strong></span></p></td>
+<td><p><span class="strong"><strong>Air Elemental, Elder</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>16d8+64 (136 hp)</p></td>
+<td><p>21d8+84 (178 hp)</p></td>
+<td><p>24d8+96 (204 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+13</p></td>
+<td><p>+14</p></td>
+<td><p>+15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 100 ft. (perfect) (20 squares)</p></td>
+<td><p>Fly 100 ft. (perfect) (20 squares)</p></td>
+<td><p>Fly 100 ft. (perfect) (20 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>21 (-2 size, +9 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+<td><p>26 (-2 size, +10 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 18, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>27 (-2 size, +11 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 19, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+24</p></td>
+<td><p>+15/+28</p></td>
+<td><p>+18/+32</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +19 melee (2d8+4)</p></td>
+<td><p>Slam +23 melee (2d8+5)</p></td>
+<td><p>Slam +27 melee (2d8+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +19 melee (2d8+4)</p></td>
+<td><p>2 slams +23 melee (2d8+5)</p></td>
+<td><p>2 slams +27 melee (2d8+6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +19, Will +5</p></td>
+<td><p>Fort +11, Ref +22, Will +9</p></td>
+<td><p>Fort +12, Ref +25, Will +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 29, Con 18, Int 6, Wis 11, Cha 11</p></td>
+<td><p>Str 20, Dex 31, Con 18, Int 8, Wis 11, Cha 11</p></td>
+<td><p>Str 22, Dex 33, Con 18, Int 10, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +29, <a href="ch16s03.html#CombinedSkills294">Spot</a> +29</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, Blind-fight, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, Blind-fight, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>17-20 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>22-23 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>25-48 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p><a href="ch65s02.html#MonstersE-F9">Air elementals</a> speak Auran, though they rarely choose to do so.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1720016"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F10"/>
+          <p>Their rapid speed makes <a href="ch65s02.html#MonstersE-F9">air elementals</a> useful on vast battlefields or in extended aerial combat.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1720047"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F11"/>
+            <p><span class="strong"><strong>Air Mastery (Ex):</strong></span> Airborne creatures take a -1 penalty on attack and damage rolls against an <a href="ch65s02.html#MonstersE-F9">air elemental</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1720084"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F12"/>
+            <p><span class="strong"><strong>Whirlwind (Su):</strong></span> The <a href="ch65s02.html#MonstersE-F7">elemental</a> can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 1 round for every 2 HD it has. In this form, the <a href="ch65s02.html#MonstersE-F7">elemental</a> can move through the air or along a surface at its fly speed.</p>
+            <p>The whirlwind is 5 feet wide at the base, up to 30 feet wide at the top, and up to 50 feet tall, depending on the <a href="ch65s02.html#MonstersE-F7">elemental's</a> size. The <a href="ch65s02.html#MonstersE-F7">elemental</a> controls the exact height, but it must be at least 10 feet.</p>
+            <p>The <a href="ch65s02.html#MonstersE-F7">elemental's</a> movement while in whirlwind form does not provoke attacks of opportunity, even if the <a href="ch65s02.html#MonstersE-F7">elemental</a> enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the <a href="ch65s02.html#MonstersE-F7">elemental</a> moves into or through the creature's space.</p>
+            <p>Creatures one or more size categories smaller than the <a href="ch65s02.html#MonstersE-F7">elemental</a> might take damage when caught in the whirlwind (see the table below for details) and may be lifted into the air. An affected creature must succeed on a Reflex save when it comes into contact with the whirlwind or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking the indicated damage each round. A creature that can fly is allowed a Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The DC for saves against the whirlwind's effects varies with the <a href="ch65s02.html#MonstersE-F7">elemental's</a> size (see the table). The save DC is Strength based.</p>
+            <p>Creatures trapped in the whirlwind cannot move except to go where the <a href="ch65s02.html#MonstersE-F7">elemental</a> carries them or to escape the whirlwind.</p>
+            <p>Creatures caught in the whirlwind can otherwise act normally, but must succeed on a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a -4 penalty to Dexterity and a -2 penalty on attack rolls. The <a href="ch65s02.html#MonstersE-F7">elemental</a> can have only as many creatures trapped inside the whirlwind at one time as will fit inside the whirlwind's volume.</p>
+            <p>The <a href="ch65s02.html#MonstersE-F7">elemental</a> can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be. A summoned <a href="ch65s02.html#MonstersE-F7">elemental</a> always ejects trapped creatures before returning to its home plane.</p>
+            <p>If the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the <a href="ch65s02.html#MonstersE-F7">elemental</a> and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.</p>
+            <p>Those caught in the cloud must succeed on a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 15 + spell level) to cast a spell.</p>
+            <p>An <a href="ch65s02.html#MonstersE-F7">elemental</a> in whirlwind form cannot make slam attacks and does not threaten the area around it.</p>
+            <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1720320">
+              <tbody>
+                <tr><td colspan="6"><p><span class="strong"><strong>Air Elemental Sizes</strong></span></p></td>
+
+</tr>
+                <tr><td/>
+<td/>
+<td/>
+<td colspan="3" align="center"><p><span class="strong"><strong>----- Whirlwind -----</strong></span></p></td>
+
+</tr>
+                <tr><td><p><span class="strong"><strong>Elemental</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+<td><p><span class="strong"><strong>Weight</strong></span></p></td>
+<td><p><span class="strong"><strong>Save DC</strong></span></p></td>
+<td><p><span class="strong"><strong>Damage</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Small</a></p></td>
+<td><p>4 ft.</p></td>
+<td><p>1 lb.</p></td>
+<td><p>11</p></td>
+<td><p>1d4</p></td>
+<td><p>10-20 ft.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Medium</a></p></td>
+<td><p>8 ft.</p></td>
+<td><p>2 lb.</p></td>
+<td><p>13</p></td>
+<td><p>1d6</p></td>
+<td><p>10-30 ft.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Large</a></p></td>
+<td><p>16 ft.</p></td>
+<td><p>4 lb.</p></td>
+<td><p>16</p></td>
+<td><p>2d6</p></td>
+<td><p>10-40 ft.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Huge</a></p></td>
+<td><p>32 ft.</p></td>
+<td><p>8 lb.</p></td>
+<td><p>22</p></td>
+<td><p>2d8</p></td>
+<td><p>10-50 ft.</p></td>
+
+</tr>
+                <tr><td><p>Greater</p></td>
+<td><p>36 ft.</p></td>
+<td><p>10 lb.</p></td>
+<td><p>25</p></td>
+<td><p>2d8</p></td>
+<td><p>10-60 ft.</p></td>
+
+</tr>
+                <tr><td><p>Elder</p></td>
+<td><p>40 ft.</p></td>
+<td><p>12 lb.</p></td>
+<td><p>28</p></td>
+<td><p>2d8</p></td>
+<td><p>10-60 ft.</p></td>
+
+</tr>
+              </tbody>
+            </table>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1720977"/>Earth Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s02.html#id1727696">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F13"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1720995">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Earth Elemental, Small</strong></span></p></td> <td><p><span class="strong"><strong>Earth Elemental, Medium</strong></span></p></td>
+<td><p><span class="strong"><strong>Earth Elemental, Large</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8+2 (11 hp)</p></td>
+<td><p>4d8+12 (30 hp)</p></td>
+<td><p>8d8+32 (68 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, -1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>18 (-1 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+<td><p>18 (-1 size, -1 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+0</p></td>
+<td><p>+3/+8</p></td>
+<td><p>+6/+17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d6+4)</p></td>
+<td><p>Slam +8 melee (1d8+7)</p></td>
+<td><p>Slam +12 melee (2d8+7)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d6+4)</p></td>
+<td><p>Slam +8 melee (1d8+7)</p></td>
+<td><p>2 slams +12 melee (2d8+7)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref -1, Will +0</p></td>
+<td><p>Fort +7, Ref +0, Will +1</p></td>
+<td><p>Fort +10, Ref +1, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 8, Con 13, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 21, Dex 8, Con 17, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 25, Dex 8, Con 19, Int 6, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills294">Spot</a> +2</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>5-7 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>9-15 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1722630">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Earth Elemental, Huge</strong></span></p></td>
+<td><p><span class="strong"><strong>Earth Elemental, Greater</strong></span></p></td>
+<td><p><span class="strong"><strong>Earth Elemental, Elder</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>16d8+80 (152 hp)</p></td>
+<td><p>21d8+105 (199 hp)</p></td>
+<td><p>24d8+120 (228 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-2 size, -1 Dex, +11 natural), <a href="ch21s02.html#CombatI12">touch</a> 7, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+<td><p>20 (-2 size, -1 Dex, +13 natural), <a href="ch21s02.html#CombatI12">touch</a> 7, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+<td><p>22 (-2 size, -1 Dex, +15 natural), <a href="ch21s02.html#CombatI12">touch</a> 7, <a href="ch21s03.html#CombatI21">flat-footed</a> 22</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+29</p></td>
+<td><p>+15/+33</p></td>
+<td><p>+18/+37</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +19 melee (2d10+9)</p></td>
+<td><p>Slam +23 melee (2d10+10)</p></td>
+<td><p>Slam +27 melee (2d10+11/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +19 melee (2d10+9)</p></td>
+<td><p>2 slams +23 melee (2d10+10) 2</p></td>
+<td><p>slams +27 melee (2d10+11/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +15, Ref +4, Will +7</p></td>
+<td><p>Fort +17, Ref +6, Will +9</p></td>
+<td><p>Fort +19, Ref +7, Will +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 29, Dex 8, Con 21, Int 6, Wis 11, Cha 11</p></td>
+<td><p>Str 31, Dex 8, Con 21, Int 8, Wis 11, Cha 11</p></td>
+<td><p>Str 33, Dex 8, Con 21, Int 10, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +9</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +29, <a href="ch16s03.html#CombinedSkills294">Spot</a> +29</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (slam), <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>17-20 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>22-23 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>25-48 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p>When summoned to the Material Plane, an <a href="ch65s02.html#MonstersE-F13">earth elemental</a> consists of whatever types of dirt, stones, precious metals, and gems it was conjured from.<a href="img/MonstersE-F.Earth_Elemental.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersE-F.Earth_Elemental.jpg" align="right"/></span></a></p>
+        <p><a href="ch65s02.html#MonstersE-F13">Earth elementals</a> speak Terran but rarely choose to do so.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1727696"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F14"/>
+          <p>Though an <a href="ch65s02.html#MonstersE-F13">earth elemental</a> moves slowly, it is a relentless opponent. It can travel though solid ground or stone as easily as humans walk on the earth's surface. It cannot swim, however, and must either walk around a body of water or go through the ground under it. An <a href="ch65s02.html#MonstersE-F13">earth elemental</a> can move along the bottom of a body of water but prefers not to.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1727735"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F15"/>
+            <p><span class="strong"><strong>Earth Mastery (Ex):</strong></span> An <a href="ch65s02.html#MonstersE-F13">earth elemental</a> gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the <a href="ch65s02.html#MonstersE-F7">elemental</a> takes a -4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1727781"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F16"/>
+            <p><span class="strong"><strong>Push (Ex):</strong></span> An <a href="ch65s02.html#MonstersE-F13">earth elemental</a> can start a bull rush maneuver without provoking an attack of opportunity. The combat modifiers given in Earth Mastery, above, also apply to the <a href="ch65s02.html#MonstersE-F7">elemental's</a> opposed Strength checks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1727831"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F17"/>
+            <p><span class="strong"><strong>Earth Glide (Ex):</strong></span> An <a href="ch65s02.html#MonstersE-F13">earth elemental</a> can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A <span class="emphasis"><em><a href="ch48.html#SpellsM-O47">move earth</a></em></span> spell cast on an area containing a burrowing <a href="ch65s02.html#MonstersE-F13">earth elemental</a> flings the <a href="ch65s02.html#MonstersE-F7">elemental</a> back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.</p>
+            <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1727896">
+              <tbody>
+                <tr><td colspan="6"><p><span class="strong"><strong>Earth Elemental Sizes</strong></span></p></td> 
+</tr>
+                <tr><td><p><span class="strong"><strong>Elemental</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+<td><p><span class="strong"><strong>Weight</strong></span></p></td>
+<td><p><span class="strong"><strong>Elemental</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+<td><p><span class="strong"><strong>Weight</strong></span></p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Small</a></p></td>
+<td><p>4 ft.</p></td>
+<td><p>80 lb.</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a></p></td>
+<td><p>32 ft.</p></td>
+<td><p>48,000 lb.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Medium</a></p></td>
+<td><p>8 ft.</p></td>
+<td><p>750 lb.</p></td>
+<td><p>Greater</p></td>
+<td><p>36 ft.</p></td>
+<td><p>54,000 lb.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Large</a></p></td>
+<td><p>16 ft.</p></td>
+<td><p>6,000 lb.</p></td>
+<td><p>Elder</p></td>
+<td><p>40 ft.</p></td>
+<td><p>60,000 lb.</p></td>
+
+</tr>
+              </tbody>
+            </table>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1728138"/>Fire Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s02.html#id1735412">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F18"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1728156">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Fire Elemental, Small</strong></span></p></td> <td><p><span class="strong"><strong>Fire Elemental, Medium</strong></span></p></td>
+<td><p><span class="strong"><strong>Fire Elemental, Large</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8 (9 hp)</p></td>
+<td><p>4d8+8 (26 hp)</p></td>
+<td><p>8d8+24 (60 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+<td><p>+7</p></td>
+<td><p>+9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+<td><p>50 ft. (10 squares)</p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+1 size, +1 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>16 (+3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+<td><p>18 (-1 size, +5 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-3</p></td>
+<td><p>+3/+4</p></td>
+<td><p>+6/+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d4 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Slam +6 melee (1d6+1 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Slam +10 melee (2d6+2 plus 2d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d4 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Slam +6 melee (1d6+1 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>2 slams +10 melee (2d6+2 plus 2d6 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Burn</p></td>
+<td><p>Burn</p></td>
+<td><p>Burn</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +4, Will +0</p></td>
+<td><p>Fort +3, Ref +7, Will +1</p></td>
+<td><p>Fort +5, Ref +11, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 13, Con 10, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 12, Dex 17, Con 14, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 14, Dex 21, Con 16, Int 6, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>5-7 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>9-15 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1731983">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Fire Elemental, Huge</strong></span></p></td>
+<td><p><span class="strong"><strong>Fire Elemental, Greater</strong></span></p></td>
+<td><p><span class="strong"><strong>Fire Elemental, Elder</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>16d8+64 (136 hp)</p></td>
+<td><p>21d8+84 (178 hp)</p></td>
+<td><p>24d8+96 (204 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+11</p></td>
+<td><p>+12</p></td>
+<td><p>+13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft. (12 squares)</p></td>
+<td><p>60 ft. (12 squares)</p></td>
+<td><p>60 ft. (12 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>19 (-2 size, +7 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+<td><p>24 (-2 size, +8 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>25 (-2 size, +9 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+24</p></td>
+<td><p>+15/+28</p></td>
+<td><p>+18/+32</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +17 melee (2d8+4 plus 2d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Slam +22 melee (2d8+5 plus 2d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>Slam +26 melee (2d8+6 plus 2d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +17 melee (2d8+4 plus 2d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>2 slams +22 melee (2d8+5 plus 2d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+<td><p>2 slams +26 melee (2d8+6 plus 2d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Burn</p></td>
+<td><p>Burn</p></td>
+<td><p>Burn</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +17, Will +7</p></td>
+<td><p>Fort +11, Ref +20, Will +9</p></td>
+<td><p>Fort +14, Ref +23, Will +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 25, Con 18, Int 6, Wis 11, Cha 11</p></td>
+<td><p>Str 20, Dex 27, Con 18, Int 6, Wis 11, Cha 11</p></td>
+<td><p>Str 22, Dex 29, Con 18, Int 6, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +28, <a href="ch16s03.html#CombinedSkills294">Spot</a> +29</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>17-20 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>22-23 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>25-48 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p>A <a href="ch65s02.html#MonstersE-F18">fire elemental</a> cannot enter water or any other nonflammable liquid. A body of water is an impassible barrier unless the <a href="ch65s02.html#MonstersE-F18">fire elemental</a> can step or jump over it.</p>
+        <p><a href="ch65s02.html#MonstersE-F18">Fire elementals</a> speak Ignan, though they rarely choose to do so.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1735412"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F19"/>
+          <p>A <a href="ch65s02.html#MonstersE-F18">fire elemental</a> is a fierce opponent that attacks its enemies directly and savagely. It takes joy in burning the creatures and objects of the Material Plane to ashes.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1735444"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F20"/>
+            <p><span class="strong"><strong>Burn (Ex):</strong></span> A <a href="ch65s02.html#MonstersE-F18">fire elemental's</a> slam attack deals bludgeoning damage plus fire damage from the <a href="ch65s02.html#MonstersE-F7">elemental's</a> flaming body. Those hit by a <a href="ch65s02.html#MonstersE-F18">fire elemental's</a> slam attack also must succeed on a Reflex save or catch on fire. The flame burns for 1d4 rounds. The save DC varies with the <a href="ch65s02.html#MonstersE-F7">elemental's</a> size (see the table below). A burning creature can take a move action to put out the flame. The save DC is Constitution- based.</p>
+            <p>Creatures hitting a <a href="ch65s02.html#MonstersE-F18">fire elemental</a> with natural weapons or unarmed attacks take fire damage as though hit by the <a href="ch65s02.html#MonstersE-F7">elemental's</a> attack, and also catch on fire unless they succeed on a Reflex save.</p>
+            <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1735532">
+              <tbody>
+                <tr><td colspan="4"><p><span class="strong"><strong>Fire Elemental Sizes</strong></span></p></td>
+
+</tr>
+                <tr><td><p><span class="strong"><strong>Elemental</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+<td><p><span class="strong"><strong>Weight</strong></span></p></td>
+<td><p><span class="strong"><strong>Burn Save DC</strong></span></p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Small</a></p></td>
+<td><p>4 ft.</p></td>
+<td><p>1 lb.</p></td>
+<td><p>11</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Medium</a></p></td>
+<td><p>8 ft.</p></td>
+<td><p>2 lb.</p></td>
+<td><p>14</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Large</a></p></td>
+<td><p>16 ft.</p></td>
+<td><p>4 lb.</p></td>
+<td><p>17</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Huge</a></p></td>
+<td><p>32 ft.</p></td>
+<td><p>8 lb.</p></td>
+<td><p>22</p></td>
+
+</tr>
+                <tr><td><p>Greater</p></td>
+<td><p>36 ft.</p></td>
+<td><p>10 lb.</p></td>
+<td><p>24</p></td>
+
+</tr>
+                <tr><td><p>Elder</p></td>
+<td><p>40 ft.</p></td>
+<td><p>12 lb.</p></td>
+<td><p>26</p></td>
+
+</tr>
+              </tbody>
+            </table>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1736279"/>Water Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s02.html#id1740328">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F21"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1736297">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Water Elemental, Small</strong></span></p></td> <td><p><span class="strong"><strong>Water Elemental, Medium</strong></span></p></td>
+<td><p><span class="strong"><strong>Water Elemental, Large</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8+2 (11 hp)</p></td>
+<td><p>4d8+12 (30 hp)</p></td>
+<td><p>8d8+32 (68 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), swim 90 ft.</p></td>
+<td><p>20 ft. (4 squares), swim 90 ft.</p></td>
+<td><p>20 ft. (4 squares), swim 90 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>19 (+1 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+<td><p>20 (-1 size, +2 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-1</p></td>
+<td><p>+3/+6</p></td>
+<td><p>+6/+15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +4 melee (1d6+3)</p></td>
+<td><p>Slam +6 melee (1d8+4)</p></td>
+<td><p>Slam +10 melee (2d8+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +4 melee (1d6+3)</p></td>
+<td><p>Slam +6 melee (1d8+4)</p></td>
+<td><p>2 slams +10 melee (2d8+5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +0, Will +0</p></td>
+<td><p>Fort +7, Ref +2, Will +1</p></td>
+<td><p>Fort +10, Ref +4, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 10, Con 13, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 16, Dex 12, Con 17, Int 4, Wis 11, Cha 11</p></td>
+<td><p>Str 20, Dex 14, Con 19, Int 6, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>5-7 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>9-15 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1738722">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Water Elemental, Huge</strong></span></p></td>
+<td><p><span class="strong"><strong>Water Elemental, Greater</strong></span></p></td>
+<td><p><span class="strong"><strong>Water Elemental, Elder</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>16d8+80 (152 hp)</p></td>
+<td><p>21d8+105 (199 hp)</p></td>
+<td><p>24d8+120 (228 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+<td><p>+5</p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 120 ft.</p></td>
+<td><p>30 ft. (6 squares), swim 120 ft.</p></td>
+<td><p>30 ft. (6 squares), swim 120 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>21 (-2 size, +4 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>22 (-2 size, +5 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>23 (-2 size, +6 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+27</p></td>
+<td><p>+15/+31</p></td>
+<td><p>+18/+35</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +17 melee (2d10+7)</p></td>
+<td><p>Slam +21 melee (2d10+8)</p></td>
+<td><p>Slam +25 melee (2d10+9/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +17 melee (2d10+7)</p></td>
+<td><p>2 slams +21 melee (2d10+8)</p></td>
+<td><p>2 slams +25 melee (2d10+9/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities22">elemental</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +15, Ref +9, Will +7</p></td>
+<td><p>Fort +17, Ref +14, Will +9</p></td>
+<td><p>Fort +19, Ref +16, Will +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 24, Dex 18, Con 21, Int 6, Wis 11, Cha 11</p></td>
+<td><p>Str 26, Dex 20, Con 21, Int 8, Wis 11, Cha 11</p></td>
+<td><p>Str 28, Dex 22, Con 21, Int 10, Wis 11, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +29, <a href="ch16s03.html#CombinedSkills294">Spot</a> +29</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats233">Iron Will</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (slam), <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>17-20 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>22-23 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>25-48 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p>A <a href="ch65s02.html#MonstersE-F21">water elemental</a> can't venture more than 180 feet from the body of water from which it was conjured.</p>
+        <p><a href="ch65s02.html#MonstersE-F21">Water elementals</a> speak Aquan but rarely choose to do so.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1740328"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F22"/>
+          <p>A <a href="ch65s02.html#MonstersE-F21">water elemental</a> prefers to fight in a large body of water where it can disappear beneath the waves and suddenly swell up behind its opponents.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1740361"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F23"/>
+            <p><span class="strong"><strong>Water Mastery (Ex):</strong></span> A <a href="ch65s02.html#MonstersE-F21">water elemental</a> gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the <a href="ch65s02.html#MonstersE-F7">elemental</a> is touching the ground, the <a href="ch65s02.html#MonstersE-F7">elemental</a> takes a -4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)</p>
+            <p>A <a href="ch65s02.html#MonstersE-F21">water elemental</a> can be a serious threat to a ship that crosses its path. An <a href="ch65s02.html#MonstersE-F7">elemental</a> can easily overturn small craft (5 feet of length per Hit Die of the <a href="ch65s02.html#MonstersE-F7">elemental</a>) and stop larger vessels (10 feet long per HD). Even large ships (20 feet long per HD) can be slowed to half speed.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1740453"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F24"/>
+            <p><span class="strong"><strong>Drench (Ex):</strong></span> The <a href="ch65s02.html#MonstersE-F7">elemental's</a> touch puts out torches, campfires, exposed lanterns, and other open flames of nonmagical origin if these are of Large size or smaller. The creature can dispel magical fire it touches as <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span> (caster level equals <a href="ch65s02.html#MonstersE-F7">elemental's</a> HD).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1740513"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F25"/>
+            <p><span class="strong"><strong>Vortex (Su):</strong></span> The <a href="ch65s02.html#MonstersE-F7">elemental</a> can transform itself into a whirlpool once every 10 minutes, provided it is underwater, and remain in that form for up to 1 round for every 2 HD it has. In vortex form, the <a href="ch65s02.html#MonstersE-F7">elemental</a> can move through the water or along the bottom at its swim speed. The vortex is 5 feet wide at the base, up to 30 feet wide at the top, and 10 feet or more tall, depending on the <a href="ch65s02.html#MonstersE-F7">elemental's</a> size. The <a href="ch65s02.html#MonstersE-F7">elemental</a> controls the exact height, but it must be at least 10 feet.</p>
+            <p>The <a href="ch65s02.html#MonstersE-F7">elemental's</a> movement while in vortex form does not provoke attacks of opportunity, even if the <a href="ch65s02.html#MonstersE-F7">elemental</a> enters the space another creature occupies. Another creature might be caught in the vortex if it touches or enters the vortex, or if the <a href="ch65s02.html#MonstersE-F7">elemental</a> moves into or through the creature's space.</p>
+            <p>Creatures one or more size categories smaller than the <a href="ch65s02.html#MonstersE-F7">elemental</a> might take damage when caught in the vortex (see the table below for details) and may be swept up by it. An affected creature must succeed on a Reflex save when it comes into contact with the vortex or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful currents, automatically taking damage each round. An affected creature is allowed a Reflex save each round to escape the vortex. The creature still takes damage, but can leave if the save is successful. The DC for saves against the vortex's effects varies with the <a href="ch65s02.html#MonstersE-F7">elemental's</a> size. The save DC is Strength-based.</p>
+            <p>Creatures trapped in the vortex cannot move except to go where the <a href="ch65s02.html#MonstersE-F7">elemental</a> carries them or to escape the whirlwind. Creatures caught in the whirlwind can otherwise act normally, but must make a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 10 + spell level) to cast a spell. Creatures caught in the whirlwind take a -4 penalty to Dexterity and a -2 penalty on attack rolls. The <a href="ch65s02.html#MonstersE-F7">elemental</a> can have only as many creatures trapped inside the vortex at one time as will fit inside the vortex's volume.</p>
+            <p>The <a href="ch65s02.html#MonstersE-F7">elemental</a> can eject any carried creatures whenever it wishes, depositing them wherever the vortex happens to be. A summoned <a href="ch65s02.html#MonstersE-F7">elemental</a> always ejects trapped creatures before returning to its home plane.</p>
+            <p>If the vortex's base touches the bottom, it creates a swirling cloud of debris. This cloud is centered on the <a href="ch65s02.html#MonstersE-F7">elemental</a> and has a diameter equal to half the vortex's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.</p>
+            <p>Those caught in the cloud must make a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 15 + spell level) to cast a spell.</p>
+            <p>An <a href="ch65s02.html#MonstersE-F7">elemental</a> in vortex form cannot make slam attacks and does not threaten the area around it.</p>
+            <p>Skills: A <a href="ch65s02.html#MonstersE-F21">water elemental</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+            <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1740981">
+              <tbody>
+                <tr><td colspan="6"><p><span class="strong"><strong>Water Elemental Sizes</strong></span></p></td>
+
+</tr>
+                <tr><td/>
+<td/>
+<td/>
+<td colspan="3" align="center"><p><span class="strong"><strong>------- Vortex -------</strong></span></p></td>
+
+</tr>
+                <tr><td><p><span class="strong"><strong>Elemental</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+<td><p><span class="strong"><strong>Weight</strong></span></p></td>
+<td><p><span class="strong"><strong>Save DC</strong></span></p></td>
+<td><p><span class="strong"><strong>Damage</strong></span></p></td>
+<td><p><span class="strong"><strong>Height</strong></span></p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Small</a></p></td>
+<td><p>4 ft.</p></td>
+<td><p>34 lb.</p></td>
+<td><p>13</p></td>
+<td><p>1d4</p></td>
+<td><p>10-20 ft.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Medium</a></p></td>
+<td><p>8 ft.</p></td>
+<td><p>280 lb.</p></td>
+<td><p>15</p></td>
+<td><p>1d6</p></td>
+<td><p>10-30 ft.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Large</a></p></td>
+<td><p>16 ft.</p></td>
+<td><p>2,250 lb.</p></td>
+<td><p>19</p></td>
+<td><p>2d6</p></td>
+<td><p>10-40 ft.</p></td>
+
+</tr>
+                <tr><td><p><a href="ch22.html#CombatII28">Huge</a></p></td>
+<td><p>32 ft.</p></td>
+<td><p>18,000 lb.</p></td>
+<td><p>25</p></td>
+<td><p>2d8</p></td>
+<td><p>10-50 ft.</p></td>
+
+</tr>
+                <tr><td><p>Greater</p></td>
+<td><p>36 ft.</p></td>
+<td><p>21,000 lb.</p></td>
+<td><p>28</p></td>
+<td><p>2d8</p></td>
+<td><p>10-60 ft.</p></td>
+
+</tr>
+                <tr><td><p>Elder</p></td>
+<td><p>40 ft.</p></td>
+<td><p>24,000 lb.</p></td>
+<td><p>31</p></td>
+<td><p>2d8</p></td>
+<td><p>10-60 ft.</p></td>
+
+</tr>
+              </tbody>
+            </table>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch65.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch65.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch65s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (E-F) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Elf</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

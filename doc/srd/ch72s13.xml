@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Wight</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s12.html" title="Vargouille"/>
+    <link rel="next" href="ch72s14.html" title="Will-O'-Wisp"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Wight</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s12.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s14.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2235057"/>Wight</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s13.html#id2235898">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z108"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2235075">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Wight</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d12 (26 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d4+1 plus <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d4+1 plus <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Create spawn, <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +2, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 12, Dex 12, Con -, Int 11, Wis 13, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +16, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, gang (3-5), or pack (6-11)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-8 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch72s13.html#MonstersT-Z108">wight's</a> appearance is a weird and twisted reflection of the form it had in life. A <a href="ch72s13.html#MonstersT-Z108">wight</a> is about the height and weight of a human.<a href="img/MonstersT-Z.Wight.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Wight.jpg" align="right"/></span></a></p>
+      <p><a href="ch72s13.html#MonstersT-Z108">Wights</a> speak Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2235898"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z109"/>
+        <p><a href="ch72s13.html#MonstersT-Z108">Wights</a> attack by hammering with their fists.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2235927"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z110"/>
+          <p><span class="strong"><strong>Create Spawn (Su):</strong></span> Any humanoid slain by a <a href="ch72s13.html#MonstersT-Z108">wight</a> becomes a <a href="ch72s13.html#MonstersT-Z108">wight</a> in 1d4 rounds. Spawn are under the command of the <a href="ch72s13.html#MonstersT-Z108">wight</a> that created them and remain enslaved until its death. They do not possess any of the abilities they had in life.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2236055"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z111"/>
+          <p><span class="strong"><strong>Energy Drain (Su):</strong></span> Living creatures hit by a <a href="ch72s13.html#MonstersT-Z108">wight's</a> slam attack gain one negative level. The DC is 14 for the Fortitude save to remove a negative level. The save DC is Charisma-based. For each such negative level bestowed, the <a href="ch72s13.html#MonstersT-Z108">wight</a> gains 5 temporary hit points.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2236106"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z112"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch72s13.html#MonstersT-Z108">Wights</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s12.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s14.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Vargouille </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Will-O'-Wisp</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

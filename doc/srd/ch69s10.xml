@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Naga</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch69.html" title="Monsters (M-N)"/>
+    <link rel="prev" href="ch69s09.html" title="Mummy"/>
+    <link rel="next" href="ch69s11.html" title="Night Hag"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Naga</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s09.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (M-N)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch69s11.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2086096"/>Naga</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch69s10.html#id2086155">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s10.html#id2086186">Dark Naga</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s10.html#id2089280">Guardian Naga</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s10.html#id2091963">Spirit Naga</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s10.html#id2094203">Water Naga</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersM-N101"/>
+      <p>All <a href="ch69s10.html#MonstersM-N101">nagas</a> have long, snakelike bodies covered with glistening scales, and more or less human faces. They range in length from 10 to 20 feet and weigh from 200 to 500 pounds. The eyes of a <a href="ch69s10.html#MonstersM-N101">naga</a> are bright and intelligent, burning with an almost hypnotic inner light.<a href="img/MonstersM-N.Naga.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Naga.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2086155"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N102"/>
+        <p><a href="ch69s10.html#MonstersM-N101">Nagas</a> favor spells over other forms of combat. Because they are almost always found in the lairs they guard and know well, they can arrange most encounters to suit their wishes.</p>
+        <p/>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2086186"/>Dark Naga</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s10.html#id2088250">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N103"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2086204">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dark Naga</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d8+18 (58 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +2 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Sting +7 melee (2d4+2 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Sting +7 melee (2d4+2 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) and bite +2 melee (1d4+1)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, spells</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., detect thoughts, guarded thoughts, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, resistance to charm</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +7, Will +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 15, Con 14, Int 16, Wis 15, Cha 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +9, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +7, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +5 (+7 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +5, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +8, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a> <sup>B</sup>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate hills</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or nest (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>10-13 HD (<a href="ch22.html#CombatII28">Large</a>); 14-27 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s10.html#MonstersM-N103">Dark nagas</a> speak Common and <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2088250"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N104"/>
+          <p><a href="ch69s10.html#MonstersM-N103">Dark nagas</a> prefer to fight from an elevated position where they get a good view of the battlefield while also staying out of reach.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2088281"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N105"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 16 or lapse into a nightmare-haunted sleep for 2d4 minutes. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2088310"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N106"/>
+            <p><span class="strong"><strong>Spells:</strong></span> <a href="ch69s10.html#MonstersM-N103">Dark nagas</a> cast spells as 7th-level sorcerers.</p>
+            <p><span class="emphasis"><em>Typical Sorcerer Spells Known</em></span> (6/7/7/5; save DC 13 + spell level): 0-<span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O3">mage hand</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O53">open/close</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R51">ray of frost</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>; 1st-<span class="emphasis"><em><a href="ch45.html#SpellsD-E72">expeditious retreat</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R49">ray of enfeeblement</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS28">shield</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS38">silent image</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch44.html#SpellsC6">cat's grace</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch45.html#SpellsD-E46">displacement</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2089151"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N107"/>
+            <p><span class="strong"><strong>Resistance to <span class="emphasis"><em>Charm</em></span>:</strong></span> <a href="ch69s10.html#MonstersM-N103">Dark nagas</a> have a +2 racial bonus on saving throws against all <span class="emphasis"><em>charm</em></span> effects (not included in the statistics block).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2089200"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N108"/>
+            <p><span class="strong"><strong>Detect Thoughts (Su):</strong></span> A <a href="ch69s10.html#MonstersM-N103">dark naga</a> can continuously use detect thoughts as the spell (caster level 9th; Will DC 15 negates). This ability is always active. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2089237"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N109"/>
+            <p><span class="strong"><strong>Guarded Thoughts (Ex):</strong></span> <a href="ch69s10.html#MonstersM-N103">Dark nagas</a> are immune to any form of mind reading.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2089280"/>Guardian Naga</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s10.html#id2091294">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N110"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2089299">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Guardian Naga</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>11d8+44 (93 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, +2 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +12 melee (2d6+7 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) or spit +9 ranged <a href="ch21s02.html#CombatI12">touch</a> (<a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +12 melee (2d6+7 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) or spit +9 ranged <a href="ch21s02.html#CombatI12">touch</a> (<a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, spit, spells</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +7, Will +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 14, Con 19, Int 16, Wis 19, Cha 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +18, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +19, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +8, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +4 (+6 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +6, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +18, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +17, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a> <sup>B</sup>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or nest (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description6">lawful good</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>12-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-33 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s10.html#MonstersM-N110">Guardian nagas</a> speak Celestial and Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2091294"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N111"/>
+          <p><a href="ch69s10.html#MonstersM-N110">Guardian nagas</a> usually warn off intruders before attacking. If the warning is ignored, they may begin a spell assault or spit poison.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2091324"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N112"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury or contact, Fortitude DC 19, initial and secondary damage 1d10 Con. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2091354"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N113"/>
+            <p><span class="strong"><strong>Spit (Ex):</strong></span> A <a href="ch69s10.html#MonstersM-N110">guardian naga</a> can spit its venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make successful saves (see above) to avoid the effect.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2091391"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N114"/>
+            <p><span class="strong"><strong>Spells:</strong></span> <a href="ch69s10.html#MonstersM-N110">Guardian nagas</a> cast spells as 9th-level sorcerers, and can also cast spells from the cleric list and from the Good and Law domains. The cleric spells and domain spells are considered arcane spells for a <a href="ch69s10.html#MonstersM-N110">guardian naga</a>, meaning that the creature does not need a divine focus to cast them.</p>
+            <p><span class="emphasis"><em>Typical Spells Known</em></span> (6/7/7/7/5; save DC 14 + spell level): 0- <span class="emphasis"><em><a href="ch44.html#SpellsC58">cure minor wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O3">mage hand</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O53">open/close</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R51">ray of frost</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>; 1st-<span class="emphasis"><em><a href="ch44.html#SpellsC56">cure light wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E50">divine favor</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E72">expeditious retreat</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O2">mage armor</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch45.html#SpellsD-E28">detect thoughts</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R73">lesser restoration</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS14">see invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch44.html#SpellsC61">cure serious wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span>; 4th-<span class="emphasis"><em><a href="ch45.html#SpellsD-E51">divine power</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2091963"/>Spirit Naga</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s10.html#id2093860">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N115"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2091981">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Spirit Naga</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d8+36 (76 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 size, +1 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +9 melee (2d6+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +9 melee (2d6+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Charming <a href="ch04.html#TypesSubtypesAbilities32">gaze</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, spells</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +6, Will +9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 13, Con 18, Int 12, Wis 17, Cha 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats2">Ability Focus</a> (charming <a href="ch04.html#TypesSubtypesAbilities32">gaze</a>), <a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a> <sup>B</sup>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate marshes</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or nest (2-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>10-13 HD (<a href="ch22.html#CombatII28">Large</a>); 14-27 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s10.html#MonstersM-N115">Spirit nagas</a> speak Abyssal and Common.<a href="img/MonstersM-N.Spirit_Naga.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Spirit_Naga.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2093860"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N116"/>
+          <p><a href="ch69s10.html#MonstersM-N115">Spirit nagas</a> meet foes boldly so as to use their gaze attacks to best effect. They quickly slither forward to bite foes that avert their eyes.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2093891"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N117"/>
+            <p><span class="strong"><strong>Charming Gaze (Su):</strong></span> As <span class="emphasis"><em><a href="ch44.html#SpellsC15">charm person</a></em></span>, <span class="emphasis"><em/></span> 30 feet, Will DC 19 negates. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2093933"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N118"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 18, initial and secondary damage 1d8 Con. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2093963"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N119"/>
+            <p><span class="strong"><strong>Spells:</strong></span> <a href="ch69s10.html#MonstersM-N115">Spirit nagas</a> cast spells as 7th-level sorcerers, and can also cast spells from the cleric spell list and from the Chaos and Evil domains as arcane spells. The cleric spells and domain spells are considered arcane spells for a <a href="ch69s10.html#MonstersM-N115">spirit naga</a>, meaning that the creature does not need a divine focus to cast them.</p>
+            <p><span class="emphasis"><em>Typical Spells Known</em></span> (6/7/7/5; save DC 13 + spell level): 0-<span class="emphasis"><em><a href="ch44.html#SpellsC58">cure minor wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O3">mage hand</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O53">open/close</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R51">ray of frost</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>; 1st-<span class="emphasis"><em><a href="ch44.html#SpellsC15">charm person</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC56">cure light wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E50">divine favor</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS29">shield of faith</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch44.html#SpellsC6">cat's grace</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS95">summon swarm</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch45.html#SpellsD-E46">displacement</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span>.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2094203"/>Water Naga</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s10.html#id2095329">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N120"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2094221">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Water Naga</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+28 (59 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 50 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (-1 size, +1 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +7 melee (2d6+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +7 melee (2d6+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, spells</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +5, Will +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 16, Dex 13, Con 18, Int 10, Wis 17, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills311">Swim</a> +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a> <sup>B</sup>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or nest (3-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-10 HD (<a href="ch22.html#CombatII28">Large</a>); 11-21 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s10.html#MonstersM-N120">Water nagas</a> speak Aquan and Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2095329"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N121"/>
+          <p><a href="ch69s10.html#MonstersM-N120">Water nagas</a> prefer to stay mostly concealed in a body of water while they launch a spell attack.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2095360"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N122"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 17, initial and secondary damage 1d8 Con. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2095389"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N123"/>
+            <p><span class="strong"><strong>Spells:</strong></span> <a href="ch69s10.html#MonstersM-N120">Water nagas</a> cast spells as 7th-level sorcerers but never use fire spells.</p>
+            <p><span class="emphasis"><em>Typical Sorcerer Spells Known</em></span> (6/7/7/4; save DC 12 + spell level): 0-<span class="emphasis"><em><a href="ch43.html#SpellsA-B4">acid splash</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O3">mage hand</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O53">open/close</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>; 1st-<span class="emphasis"><em><a href="ch45.html#SpellsD-E72">expeditious retreat</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O52">obscuring mist</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS28">shield</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z25">true strike</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B2">acid arrow</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O40">mirror image</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch49.html#SpellsP-R36">protection from energy</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS74">suggestion</a></em></span>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2096162"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N124"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch69s10.html#MonstersM-N120">water naga</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s09.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch69.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch69s11.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Mummy </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Night Hag</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

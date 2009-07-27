@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Destrachan</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch62.html" title="Monsters (D-De)"/>
+    <link rel="prev" href="ch62s04.html" title="Derro"/>
+    <link rel="next" href="ch62s06.html" title="Devil"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Destrachan</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch62s04.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (D-De)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch62s06.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1698237"/>Destrachan</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch62s05.html#id1699124">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersD-De107"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1698255">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Destrachan</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+24 (60 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, +1 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +9 melee (1d6+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +9 melee (1d6+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Destructive harmonics</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 100 ft., immunities, protection from sonics</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +5, Will +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 12, Con 16, Int 12, Wis 18, Cha 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +25, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +7, <a href="ch16s03.html#CombinedSkills303">Survival</a> +9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pack (3-5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-24 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>The dungeon-dwelling <a href="ch62s05.html#MonstersD-De107">destrachan</a> looks like some bizarre, nonintelligent beast, but it's an incredibly evil and crafty sadist. A <a href="ch62s05.html#MonstersD-De107">destrachan</a> has a pair of complex, three-part ears that it can adjust to be more or less sensitive to various sounds. It is blind, yet hunts with a sense of hearing more precise than most creatures' sight.<a href="img/MonstersD-De.Destrachan.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Destrachan.jpg" align="right"/></span></a></p>
+      <p>From its tubular mouth a <a href="ch62s05.html#MonstersD-De107">destrachan</a> emits carefully focused harmonics, producing sonic energy so powerful it can shatter a stone wall. So skilled is a <a href="ch62s05.html#MonstersD-De107">destrachan</a> at controlling the sounds it emits that it can choose what type of material to affect with its attack.</p>
+      <p>A <a href="ch62s05.html#MonstersD-De107">destrachan</a> is about 10 feet long from its mouth to the tip of the tail and weighs about 4,000 pounds.</p>
+      <p>A <a href="ch62s05.html#MonstersD-De107">destrachan</a> speaks no language but understands Common. If a <a href="ch62s05.html#MonstersD-De107">destrachan</a> must communicate, it does so through action.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1699124"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De108"/>
+        <p>A <a href="ch62s05.html#MonstersD-De107">destrachan</a> uses its claws only as a last resort or to finish off foes weakened by its sonic attacks. It often enters battle with surprise if possible. It first focuses on destroying metal armor and weapons and then changes to harmonics that disrupt flesh.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1699158"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De109"/>
+          <p><span class="strong"><strong>Destructive Harmonics (Su):</strong></span> A <a href="ch62s05.html#MonstersD-De107">destrachan</a> can blast sonic energy in a cone up to 80 feet long. It can also use this attack to affect any creatures or objects within a 30-foot radius. It can tune the harmonics of this destructive power to affect different types of targets. All save DCs are Charisma-based.</p>
+          <p><span class="emphasis"><em>Flesh:</em></span> Disrupting tissue and rending bone, this attack deals 4d6 points of damage to all within the area (Reflex DC 15 half ).</p>
+          <p><span class="emphasis"><em>Nerves:</em></span> A <a href="ch62s05.html#MonstersD-De107">destrachan</a> can focus its harmonics to knock out foes rather than slay them. This attack deals 6d6 points of nonlethal damage to all within the area (Reflex DC 15 half ).</p>
+          <p><span class="emphasis"><em>Material:</em></span> When using this form of harmonics, a <a href="ch62s05.html#MonstersD-De107">destrachan</a> chooses wood, stone, metal, or glass. All objects made of that material within the area must succeed on a DC 15 Fortitude save or shatter. Objects (or portions of objects) that have up to 30 hit points are potentially affected by this attack.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1699245"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De110"/>
+          <p><span class="strong"><strong>Blindsight (Ex):</strong></span> A <a href="ch62s05.html#MonstersD-De107">destrachan</a> can use hearing to ascertain all foes within 100 feet as a sighted creature would.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1699284"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De111"/>
+          <p><span class="strong"><strong>Immunities:</strong></span> <a href="ch62s05.html#MonstersD-De107">Destrachans</a> have immunity to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1699323"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De112"/>
+          <p><span class="strong"><strong>Protection from Sonics (Ex):</strong></span> While they can be affected by loud noises and sonic spells (such as <span class="emphasis"><em><a href="ch46.html#SpellsF-G40">ghost sound</a></em></span> or <span class="emphasis"><em><a href="ch50.html#SpellsS37">silence</a></em></span>), <a href="ch62s05.html#MonstersD-De107">destrachans</a> are less vulnerable to sonic attacks (+4 circumstance bonus on all saves) because they can protect their ears. A <a href="ch62s05.html#MonstersD-De107">destrachan</a> whose sense of hearing is impaired is effectively blinded, and all targets are treated as having total concealment.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1699397"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De113"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch62s05.html#MonstersD-De107">destrachan</a> has a +10 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch62s04.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch62.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch62s06.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Derro </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Devil</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

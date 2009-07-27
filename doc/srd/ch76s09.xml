@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Hunefer</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s08.html" title="Hoary Steed"/>
+    <link rel="next" href="ch76s10.html" title="Lavawight"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Hunefer</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s08.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s10.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2356115"/>Hunefer</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s09.html#id2358347">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)60"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2356134">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Hunefer</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>50d12+3 (603 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+16 (+12 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>100 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>52 (+12 Dex, +20 natural, +10 insight), <a href="ch21s02.html#CombatI12">touch</a> 32, <a href="ch21s03.html#CombatI21">flat-footed</a> 40</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+25/+43</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +44 (3d6+18/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit)</a> plus <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer</a> rot)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +44 (3d6+18/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit)</a> plus <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer</a> rot)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Despair, <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer</a> rot, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 300 ft., <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/-, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 30, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 37, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, <a href="ch04.html#TypesSubtypesAbilities29">fire</a> vulnerability</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +18, Ref +30, Will +41</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 47, Dex 35, Con -, Int 18, Wis 38, Cha 36</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +66, <a href="ch16s03.html#CombinedSkills192">Jump</a> +46, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion, the planes) +57, <a href="ch16s03.html#CombinedSkills204">Listen</a> +67, <a href="ch16s03.html#CombinedSkills253">Search</a> +57, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +67, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +57, <a href="ch16s03.html#CombinedSkills294">Spot</a> +67</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats66">Combat Expertise</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (slam), <a href="ch17s03.html#Feats174">Improved Disarm</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (slam), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (slam), <a href="ch18s02.html#EpicFeats504">Spell Stowaway</a> (<span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or court (5-9)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>51-56 HD (<a href="ch22.html#CombatII28">Medium-size</a>); 57-60 HD (<a href="ch22.html#CombatII28">Large</a>); 61-66 HD (<a href="ch22.html#CombatII28">Huge</a>); 67-70 HD (<a href="ch22.html#CombatII28">Gargantuan</a>); 71+ HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch76s09.html#EpicMonsters(G-W)60">Hunefers</a> speak all spoken languages, though it takes one 1d4 rounds to switch between languages.<a href="img/EpicMonsters(G-W).Hunefer.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Hunefer.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2358347"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)61"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2358365"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)62"/>
+          <p><span class="strong"><strong>Despair (Su):</strong></span> The mere sight of a <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer</a> requires viewers to succeed at a Will saving throw (DC 48) or be paralyzed with fear for 1d4 rounds. Regardless of the outcome of the save, a subject is not again vulnerable to that <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer's</a> despair ability for 24 hours. The DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2358417"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)63"/>
+          <p><span class="strong"><strong>Hunefer Rot (Su):</strong></span> Supernatural disease-slam, Fort save (DC 35), incubation period instantaneous; Damage 1d6 temporary Con. Unlike normal diseases, <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer</a> rot requires a victim to make a successful saving throw every round or take another 1d6 points of temporary Constitution Damage. The rot continues until the victim reaches Constitution 0 (and dies) or receives a <span class="emphasis"><em><a href="ch49.html#SpellsP-R61">remove disease</a></em></span> spell or similar magic. An afflicted creature that dies shrivels away into sand unless both <span class="emphasis"><em><a href="ch49.html#SpellsP-R61">remove disease</a></em></span> and <span class="emphasis"><em><a href="ch49.html#SpellsP-R48">raise dead</a></em></span> (or better) are cast on the remains within 2 rounds. If the remains are not so treated, on the third round the dust swirls and forms an 18 HD <a href="ch69s09.html#MonstersM-N94">mummy</a> with the dead foe's equipment under the <a href="ch76s09.html#EpicMonsters(G-W)60">hunefer's</a> command. (The <span class="emphasis"><em><a href="ch52s02.html#EpicSpells52">mummy dust</a></em></span> epic spell has statistics for an 18 HD <a href="ch69s09.html#MonstersM-N94">mummy</a>.)</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2358596"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)64"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E46">displacement</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L62">knock</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R2">passwall</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS7">scrying</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z50">weird</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch52s02.html#EpicSpells59">ruin</a></em></span> (epic spell). Caster level 27th; save DC 23 + spell level. The DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2358892"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)65"/>
+          <p><span class="strong"><strong>Undead Traits:</strong></span> Immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual dam-age, ability Damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive Damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s10.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Hoary Steed </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Lavawight</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Epic Monsters (G-W)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch75s09.html" title="Elemental, Primal"/>
+    <link rel="next" href="ch76s02.html" title="Gibbering Orb"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Epic Monsters (G-W)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch75s09.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1006033"/>Epic Monsters (G-W)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch76.html#id2253487">Genius Loci</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s02.html">Gibbering Orb</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s03.html">Gloom</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s04.html">Golem</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s04.html#id2349982">Mithral Golem<span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Golem.jpg" align="right"/></span></a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s04.html#id2350542">Adamantine Golem</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s05.html">Ha-Naga</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s06.html">Hagunemnon (Protean)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s07.html">Hoary Hunter</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s08.html">Hoary Steed</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s09.html">Hunefer</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s10.html">Lavawight</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s11.html">Legendary Animal</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s11.html#id2362300">Legendary Bear</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s11.html#id2362398">Legendary Tiger</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s12.html">Leshay</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s13.html">Living Vault</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s14.html">Mercane</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s14.html#id2432273">Mercane Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s15.html">Mu Spore</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s16.html">Neh-Thalggu (Brain Collector)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s17.html">Paragon Creature</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s17.html#id2435243">Creating A Paragon Creature</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s18.html">Prismasaurus</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s19.html">Pseudonatural Troll</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s19.html#id2438125">Creating A Pseudonatural Creature</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s20.html">Ruin Swarm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s21.html">Shadow of the Void</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s22.html">Shape of Fire</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s23.html">Sirrush</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s23.html#id2444459">Three-Headed Sirrush</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s24.html">Tayellah</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s25.html">Thorciasid</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s26.html">Titan, Elder</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s27.html">Treant, Elder</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s28.html">Umbral Blot (Blackball)</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s29.html">Uvuudaum</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s30.html">Vermiurge</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s31.html">Winterwight</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch76s32.html">Worm that Walks</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch76s32.html#id2458332">Creating A Worm that Walks</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch76s32.html#id2459218">Worm that Walks Characters</a>
+                    </span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="sect4">
+                          <a href="ch76s32.html#id2459301">Gathering of Maggots</a>
+                        </span>
+                      </dt>
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="EpicMonsters(G-W)1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id2253487"/>Genius Loci</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch76.html#id2254555">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)2"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2253505">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Genius Loci</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities48">Ooze</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>70d10+1,400 (1,785 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-2 (Dex)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>5 ft., burrow 5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>0 (-2 Dex, -8 size), <a href="ch21s02.html#CombatI12">touch</a> 0, <a href="ch21s03.html#CombatI21">flat-footed</a> 0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+52/+88</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +64 (4d10+20) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>10 slam +64 (4d10+20) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>Varies (see text)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Enslave, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities17">constrict</a> 4d10+30</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 200 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 50, <a href="ch04.html#TypesSubtypesAbilities48">ooze</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +43, Ref +21, Will +30</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 50, Dex 6, Con 50, Int -, Wis 24, Cha 26</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>30</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually any <a href="ch04.html#TypesSubtypesAbilities24">evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> is difficult to spot, since it looks like any other section of landscape. A <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> itself has no intelligence, but rather 'emulates' the sentience of any creature it currently enslaves (see below), if any.  Each <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> has only a single enslaved creature at one time, though other creatures may also inhabit the surface of the <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a>. Any creature entering a <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> who makes a successful <a href="ch16s03.html#CombinedSkills303">Survival</a> check (DC 31) realizes that something is amiss, though it is difficult to tell exactly what. <a href="ch76.html#EpicMonsters(G-W)2">Genius loci</a> do not speak directly, though they may do so through their currently enslaved thrall.<a href="img/EpicMonsters(G-W).Genius_Loci.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Genius_Loci.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2254555"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)3"/>
+          <p>A <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> can directly attack any creature standing on its surface with animated parts of itself, delivering slam attacks. It also directs its enslaved thrall against those it attacks. If its slave is slain, it selects another of its foes as its next, newest slave. Once a <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> animates a portion of itself to attack the boundaries of its form become clear, and the creature becomes open to attack (<a href="ch16s03.html#CombinedSkills303">Survival</a> checks to determine the extent of the <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> are no longer necessary). The animated part of the <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> has a reach of 15 feet.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2254626"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)4"/>
+            <p><span class="strong"><strong>Enslave (Su):</strong></span> A <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> can use the epic spell <span class="emphasis"><em>enslave</em></span> once per round as a free action until it successfully enslaves a foe (Will DC 53 to resist). The DC is Charisma-based. Once it has a slave, it cannot enslave another until its current slave dies, is <span class="emphasis"><em>imprisoned</em></span>, or is otherwise incapaticiated. A slave becomes free if its <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> master is slain. A <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> forces its slave to remain with it, though it may send its slave off to temporarily visit nearby locations in order to draw in unsuspecting victims. In fact, the 'purposes' of the <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> are to some degree influenced by the current slave. The <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> has no Intelligence score of its own; thus, its emulation of its slave's intelligence sometimes transfers attitudes and goals. However, a slave can only go so far in influencing its mobile master, and cannot knowingly attempt to free itself from the <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> that keeps it close.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2344983"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)5"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> If the <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> hits a Gargantuan or smaller creature with a slam attack, it deals normal Damage and attempts to start a grapple as a free action without provoking an attack of opportunity. The <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> has the option to conduct the grapple normally, or simply use the part of its body it used in the improved grab to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals slam attack Damage, in addition to constriction Damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2345038"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)6"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch76.html#EpicMonsters(G-W)2">genius loci</a> crushes its opponent, dealing 4d10+30 points of bludgeoning Damage, after making a successful grapple check.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2345076"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)7"/>
+            <p><span class="strong"><strong>Ooze Traits:</strong></span> An <a href="ch70s03.html#MonstersO-R17">ooze</a> is an amorphous or mutable creature. <a href="ch70s03.html#MonstersO-R17">Oozes</a> are immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, and polymorphing. They have no clear front or back and are therefore not subject to critical hits or flanking. <a href="ch70s03.html#MonstersO-R17">Oozes</a> are blind but have the blindsight special quality. They have no Intelligence scores and are therefore immune to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch75s09.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Elemental, Primal </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Gibbering Orb</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

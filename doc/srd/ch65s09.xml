@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Formian</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch65.html" title="Monsters (E-F)"/>
+    <link rel="prev" href="ch65s08.html" title="Fiendish Creature"/>
+    <link rel="next" href="ch65s10.html" title="Frost Worm"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Formian</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch65s08.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (E-F)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch65s10.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1754118"/>Formian</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch65s09.html#id1758612">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s09.html#id1758771">Worker</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s09.html#id1758929">Warrior</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s09.html#id1759021">Taskmaster</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s09.html#id1759263">Myrmarch</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch65s09.html#id1761209">Queen</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersE-F71"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1754136">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Formian <a href="ch65s09.html#MonstersE-F74">Worker</a></strong></span></p></td> <td><p><span class="strong"><strong>Formian <a href="ch65s09.html#MonstersE-F78">Warrior</a></strong></span></p></td>
+<td><p><span class="strong"><strong>Formian <a href="ch65s09.html#MonstersE-F81">Taskmaster</a></strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 (5 hp)</p></td>
+<td><p>4d8+8 (26 hp)</p></td>
+<td><p>6d8+12 (39 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, +2 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>18 (+3 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>19 (+3 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-2</p></td>
+<td><p>+4/+7</p></td>
+<td><p>+6/+10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +3 melee (1d4+1)</p></td>
+<td><p>Sting +7 melee (2d4+3 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+<td><p>Sting +10 melee (2d4+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +3 melee (1d4+1)</p></td>
+<td><p>Sting +7 melee (2d4+3 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) and 2 claws +5 melee (1d6+1) and bite +5 melee (1d4+1)</p></td>
+<td><p>Sting +10 melee (2d4+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) and 2 claws +8 melee (1d6+2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a></p></td>
+<td><p>Dominate monster, dominated creature, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em><a href="ch44.html#SpellsC61">Cure serious wounds</a></em></span>, <span class="emphasis"><em/></span> hive mind, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, petrification, and <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <span class="emphasis"><em><a href="ch48.html#SpellsM-O26">make whole</a></em></span>, <span class="emphasis"><em/></span> <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 10</p></td>
+<td><p>Hive mind, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, petrification, and <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 18</p></td>
+<td><p>Hive mind, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, petrification, and <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 21, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +4, Will +2</p></td>
+<td><p>Fort +6, Ref +7, Will +5</p></td>
+<td><p>Fort +7, Ref +8, Will +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 14, Con 13, Int 6, Wis 10, Cha 9</p></td>
+<td><p>Str 17, Dex 16, Con 14, Int 10, Wis 12, Cha 11</p></td>
+<td><p>Str 18, Dex 16, Con 14, Int 11, Wis 16, Cha 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +10, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any one) +5, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills253">Search</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +10, <a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills192">Jump</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +10, <a href="ch16s03.html#CombinedSkills253">Search</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8, <a href="ch16s03.html#CombinedSkills303">Survival</a> +1 (+3 following tracks), <a href="ch16s03.html#CombinedSkills318">Tumble</a> +12</p></td><td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +12, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +12,  <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills253">Search</a> +9, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3 (+5 following tracks)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats329">Skill Focus</a> (<a href="ch16s03.html#CombinedSkills91">Craft</a> [selected skill])</p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A lawful-aligned plane</p></td>
+<td><p>A lawful-aligned plane</p></td>
+<td><p>A lawful-aligned plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Team (2-4) or crew (7-18)</p></td>
+<td><p>Solitary, team (2-4), or troop (6-11)</p></td>
+<td><p>Solitary (1 plus 1 dominated creature) or conscription team (2-4 plus 1 dominated creature per team member)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+<td><p>3</p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>2-3 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>5-8 HD (<a href="ch22.html#CombatII28">Medium</a>); 9-12 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>7-9 HD (<a href="ch22.html#CombatII28">Medium</a>); 10-12 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1756129">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Formian <a href="ch65s09.html#MonstersE-F86">Myrmarch</a></strong></span></p></td>
+<td><p><span class="strong"><strong>Formian <a href="ch65s09.html#MonstersE-F90">Queen</a></strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d8+48 (102 hp)</p></td>
+<td><p>20d8+100 (190 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+8</p></td>
+<td><p>-5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+<td><p>0 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>28 (-1 size, +4 Dex, +15 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 24</p></td>
+<td><p>23 (-1 size, +14 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+20</p></td>
+<td><p>+20/+24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Sting +15 melee (2d4+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) or javelin +15 ranged (1d6+4)</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Sting +15 melee (2d4+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) and bite +13 melee (2d6+2); or javelin +15/+10 ranged (1d6+4)</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities26">Fast healing</a> 2, hive mind, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, petrification, and <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 25</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities26">Fast healing</a> 2, hive mind, immunity to <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, petrification, and <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 30, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12, Ref +12, Will +11</p></td>
+<td><p>Fort +19, Ref -, Will +19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 18, Con 18, Int 16, Wis 16, Cha 17</p></td>
+<td><p>Str -, Dex -, Con 20, Int 20, Wis 20, Cha 21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +19, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +18, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +20, <a href="ch16s03.html#CombinedSkills179">Hide</a> +15, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +18, <a href="ch16s03.html#CombinedSkills204">Listen</a> +18, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +19, <a href="ch16s03.html#CombinedSkills253">Search</a> +18, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +18, <a href="ch16s03.html#CombinedSkills294">Spot</a> +18, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3 (+5 following tracks)</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills39">Appraise</a> +28, <a href="ch16s03.html#CombinedSkills61">Bluff</a> +28, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +28, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +32, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +5 (+7 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +30, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any three) +28, <a href="ch16s03.html#CombinedSkills204">Listen</a> +30, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +28, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +28 (+30 scrolls), <a href="ch16s03.html#CombinedSkills294">Spot</a> +30, <a href="ch16s03.html#CombinedSkills329">Use Magic Device</a> +28 (+30 scrolls)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats349">Spring Attack</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a> <sup>B</sup>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats167">Improved Counterspell</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, item creation feat (any one), <a href="ch17s03.html#Feats251">Maximize Spell</a>, <a href="ch17s03.html#Feats336">Spell Focus</a> (enchantment)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span> </p></td>
+<td><p>A lawful-aligned plane</p></td>
+<td><p>A lawful-aligned plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, team (2-4), or platoon (1 plus 7-18 workers and 6-11 warriors)</p></td>
+<td><p>Hive (1 plus 100-400 workers, 11-40 warriors, 4-7 taskmasters with 1 dominated creature each, and 5-8 myrmarchs)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+<td><p>17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Double standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>13-18 HD (<a href="ch22.html#CombatII28">Large</a>); 19-24 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+<td><p>21-30 HD (<a href="ch22.html#CombatII28">Huge</a>); 31-40 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <p>A <a href="ch65s09.html#MonstersE-F71">formian</a> resembles a cross between an ant and a <a href="ch61s11.html#MonstersB-C63">centaur</a>. All <a href="ch65s09.html#MonstersE-F71">formians</a> are covered in a brownish-red carapace; size and appearance differs for each variety.<a href="img/MonstersE-F.Formian.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersE-F.Formian.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1758612"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F72"/>
+        <p><a href="ch65s09.html#MonstersE-F71">Formians</a> are generally aggressive, seeking to subdue all they encounter. If they perceive even the slightest threat to their hive-city or to their queen, they attack immediately and fight to the death. Any <a href="ch65s09.html#MonstersE-F71">formian</a> also attacks immediately if ordered to do so by a superior.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1758719"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F73"/>
+          <p><span class="strong"><strong>Hive Mind (Ex):</strong></span> All <a href="ch65s09.html#MonstersE-F71">formians</a> within 50 miles of their queen are in constant communication. If one is aware of a particular danger, they all are. If one in a group is not flat-footed, none of them are. No <a href="ch65s09.html#MonstersE-F71">formian</a> in a group is considered flanked unless all of them are.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1758771"/>Worker</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s09.html#id1758801">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F74"/>
+        <p>While workers cannot speak, they can convey simple concepts (such as danger) by body movements. Through the hive mind, however, they can communicate just fine-although their intelligence still limits the concepts that they can grasp.</p>
+        <p>A worker is about 3 feet long and about 2-1/2 feet high at the front. It weighs about 60 pounds. Its hands are suitable only for manual labor.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1758801"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F75"/>
+          <p><a href="ch65s09.html#MonstersE-F71">Formian</a> workers fight only to defend their hive-cities, using their mandibled bite.</p>
+          <p>A <a href="ch65s09.html#MonstersE-F71">formian</a> worker's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1758844"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F76"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>cure serious wounds</em></span> (Sp):</strong></span> Eight workers together can heal a creature's wounds as though using the <span class="emphasis"><em><a href="ch44.html#SpellsC61">cure serious wounds</a></em></span> spell (caster level 7th). This is a full-round action for all eight workers.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1758886"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F77"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>make whole</em></span> (Sp):</strong></span> Three workers together can repair an object as though using the <span class="emphasis"><em><a href="ch48.html#SpellsM-O26">make whole</a></em></span> spell (caster level 7th). This is a fullround action for all three workers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1758929"/>Warrior</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s09.html#id1758955">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F78"/>
+        <p>Warriors communicate through the hive mind to convey battle plans and make reports to their commanders. They cannot speak otherwise.</p>
+        <p>A warrior is about is about 5 feet long and about 4-1/2 feet high at the front. It weighs about 180 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1758955"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F79"/>
+          <p>Warriors are wicked combatants, using claws, bite, and a poisonous sting all at once. Through the hive mind, they attack with coordinated and extremely efficient tactics.</p>
+          <p>A <a href="ch65s09.html#MonstersE-F71">formian</a> warrior's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1758990"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F80"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 14, initial and secondary damage 1d6 Str. The save DC is Constitution-based.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1759021"/>Taskmaster</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s09.html#id1759055">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F81"/>
+        <p>These <a href="ch65s09.html#MonstersE-F71">formians</a> communicate only telepathically and derive sustenance from the mental energies of those they dominate.</p>
+        <p>A taskmaster is about the same size as a warrior.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1759055"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F82"/>
+          <p>Taskmasters rely on their dominated slaves to fight for them if at all possible. If necessary, though, they can defend themselves with claws and a poison sting.</p>
+          <p>A <a href="ch65s09.html#MonstersE-F71">formian</a> taskmaster's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1759093"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F83"/>
+            <p><span class="strong"><strong>Dominate Monster (Su):</strong></span> A taskmaster can use a <span class="emphasis"><em><a href="ch45.html#SpellsD-E53">dominate monster</a></em></span> ability as the spell from a 10th-level caster (Will DC 17 negates), although the subject may be of any kind and may be up to Large size. Creatures that successfully save cannot be affected by the same taskmaster's dominate monster ability for 24 hours. A single taskmaster can dominate up to four subjects at a time. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1759132"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F84"/>
+            <p><span class="strong"><strong>Dominated Creature (Ex):</strong></span> A taskmaster is never encountered alone. One dominated nonformian creature always accompanies it (choose or determine randomly any creature of CR 4).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1759232"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F85"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 15, initial and secondary damage 1d6 Str. The save DC is Constitution-based.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1759263"/>Myrmarch</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s09.html#id1759316">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F86"/>
+        <p>Myrmarchs are the elite of <a href="ch65s09.html#MonstersE-F71">formian</a> society. Much more than those beneath them, these creatures are individuals, with goals, desires, and creative thought.</p>
+        <p>A myrmarch is about is about 7 feet long and about 5-1/2 feet high at the front. It weighs about 1,500 pounds. Its claws are capable of fine manipulation, like human hands. Each myrmarch wears a bronze helm to signify its position (the more elaborate the helm, the more prestigious the position).</p>
+        <p>Myrmarchs speak <a href="ch65s09.html#MonstersE-F71">Formian</a> and Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1759316"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F87"/>
+          <p>Myrmarchs' claws are like hands and thus serve no combat purpose.</p>
+          <p>Myrmarchs occasionally employ javelins for ranged attacks, coated with poison from their own stingers.</p>
+          <p>They fight intelligently, aiding those under them (if any such are present) and commanding them through the hive mind. If chaotic creatures are present, however, a myrmarch is singleminded in its quest to destroy them.</p>
+          <p>A <a href="ch65s09.html#MonstersE-F71">formian</a> myrmarch's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1759356"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F88"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 20, initial and secondary damage 2d6 Dex. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1759383"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F89"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch44.html#SpellsC19">clairaudience/clairvoyance</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E19">detect chaos</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E28">detect thoughts</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch48.html#SpellsM-O11">magic circle against chaos</a></em></span>, <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E30">dictum</a></em></span> (DC 20), <span class="emphasis"><em><a href="ch48.html#SpellsM-O54">order's wrath</a></em></span> (DC 17). Caster level 12th. The save DCs are Charisma-based.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1761209"/>Queen</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65s09.html#id1761265">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F90"/>
+        <p>The <a href="ch65s09.html#MonstersE-F71">formian</a> queen cannot move. With her telepathic abilities, though, she can send instructions to and get reports from any <a href="ch65s09.html#MonstersE-F71">formian</a> within her range.</p>
+        <p>She is about 10 feet long, perhaps 4 feet high, and weighs about 3,500 pounds.</p>
+        <p>The queen speaks <a href="ch65s09.html#MonstersE-F71">Formian</a> and Common, although she can communicate with any creature telepathically.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1761265"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F91"/>
+          <p>The queen does not fight. She has no ability to move. If necessary, a team of workers and myrmarchs (or dominated slaves) haul her enormous bulk to where she needs to go. This sort of occurrence is very rare, however, and most of the time the queen remains within her well-defended chambers.</p>
+          <p>Despite her utter lack of physical activity, the queen can cast spells and use spell-like abilities to great effect in her own defense as well as the defense of the hive-city.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1761297"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F92"/>
+            <p><span class="strong"><strong>Spells:</strong></span> The queen casts arcane spells as a 17th-level sorcerer.</p>
+            <p><span class="emphasis"><em>Typical Sorcerer Spells Known</em></span> (6/8/7/7/7/7/6/6/4, base save DC 15 + spell level): 0-<span class="emphasis"><em><a href="ch43.html#SpellsA-B4">acid splash</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B25">arcane mark</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O3">mage hand</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z13">touch of fatigue</a></em></span>; 1st-<span class="emphasis"><em><a href="ch44.html#SpellsC31">comprehend languages</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L32">identify</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O2">mage armor</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS28">shield</a></em></span>; 2nd- <span class="emphasis"><em><a href="ch47.html#SpellsH-L29">hypnotic pattern</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R34">protection from arrows</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R70">resist energy</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L13">heroism</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O50">nondetection</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span>; 4th- <span class="emphasis"><em><a href="ch44.html#SpellsC33">confusion</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E25">detect scrying</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B40">black tentacles</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS7">scrying</a></em></span>; 5th-<span class="emphasis"><em><a href="ch44.html#SpellsC32">cone of cold</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E39">dismissal</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z5">teleport</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z39">wall of force</a></em></span>; 6th-<span class="emphasis"><em><a href="ch43.html#SpellsA-B10">analyze dweomer</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R67">repulsion</a></em></span>; 7th-<span class="emphasis"><em><a href="ch50.html#SpellsS83">summon monster VII</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z36">vision</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z47">waves of exhaustion</a></em></span>; 8th-<span class="emphasis"><em><a href="ch49.html#SpellsP-R30">prismatic wall</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z9">temporal stasis</a></em></span>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1761750"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F93"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch44.html#SpellsC5">calm emotions</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch44.html#SpellsC19">clairaudience/clairvoyance</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E19">detect chaos</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E28">detect thoughts</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E30">dictum</a></em></span> (DC 22), <span class="emphasis"><em><a href="ch45.html#SpellsD-E49">divination</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span> (DC 20), <span class="emphasis"><em><a href="ch48.html#SpellsM-O11">magic circle against chaos</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O54">order's wrath</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch50.html#SpellsS30">shield of law</a></em></span> (DC 23), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span>. Caster level 17th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1761976"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F94"/>
+            <p><span class="strong"><strong>Telepathy (Su):</strong></span> The queen can communicate telepathically with any intelligent creature within 50 miles whose presence she is aware of.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch65s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch65.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch65s10.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Fiendish Creature </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Frost Worm</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

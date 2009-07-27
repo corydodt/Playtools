@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Titan, Elder</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s25.html" title="Thorciasid"/>
+    <link rel="next" href="ch76s27.html" title="Treant, Elder"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Titan, Elder</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s25.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s27.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2448236"/>Titan, Elder</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s26.html#id2449336">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)219"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2448254">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Titan, Elder</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>70d8+700 (1,015 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>150 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>58 (-8 size, +32 natural, +24 insight), <a href="ch21s02.html#CombatI12">touch</a> 26, <a href="ch21s03.html#CombatI21">flat-footed</a> 58</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+70/+104</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>Colossal +5 warhammer</em></span> +87 (4d8+30/19-20 (+2d6 on <a href="ch21s05.html#CombatI51">critical hit))</a> melee; or <span class="emphasis"><em>Colossal +5 javelin</em></span> +70 (2d10+22/19-20) ranged</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>Colossal +5 warhammer</em></span> +87/+82/+77/+72 (4d8+30/19-20 (+2d6 on <a href="ch21s05.html#CombatI51">critical hit))</a> melee; or <span class="emphasis"><em>Colossal +5 javelin</em></span> +70/+65/+60/+55 (2d10+22/19-20) ranged</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./30 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 20/epic, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 40</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +47, Ref +37, Will +50</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 45, Dex 10, Con 31, Int 33, Wis 37, Cha 26</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +83, <a href="ch16s03.html#CombinedSkills91">Craft</a> (any five) +45, <a href="ch16s03.html#CombinedSkills102">Decipher Script</a> +84, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +45, <a href="ch16s03.html#CombinedSkills154">Gather Information</a> +87, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +56, <a href="ch16s03.html#CombinedSkills192">Jump</a> +90, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (all) +66, <a href="ch16s03.html#CombinedSkills204">Listen</a> +86, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +86, <a href="ch16s03.html#CombinedSkills279">Speak Language</a> (any five), <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +90, <a href="ch16s03.html#CombinedSkills294">Spot</a> +86</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats66">Combat Expertise</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (warhammer), <a href="ch17s03.html#Feats170">Improved Critical</a> (javelin), <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats322">Silent Spell</a>, <a href="ch17s03.html#Feats355">Still Spell</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (warhammer), <a href="ch17s03.html#Feats390">Weapon Focus</a> (javelin)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats23">Automatic Silent Spell</a> (0- through 9th level spells), <a href="ch18s02.html#EpicFeats27">Automatic Still Spell</a> (0- through 9th level spells), <a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (warhammer), <a href="ch18s02.html#EpicFeats167">Epic Spellcasting</a>, <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (warhammer), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (javelin), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (warhammer), <a href="ch18s02.html#EpicFeats445">Polyglot</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>30</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>71-140 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>An <a href="ch76s26.html#EpicMonsters(G-W)219">elder titan's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2449336"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)220"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2449355"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)221"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B9">alter self</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B10">analyze dweomer</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC30">commune with nature</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC54">cure critical wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E74">eyebite</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G33">freedom of movement</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G25">fog cloud</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R31">produce flame</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R36">protection from energy</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS2">sanctuary</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS16">sending</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS50">speak with animals</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS45">soften earth and stone</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS52">speak with plants</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS82">summon monster VI</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z54">wind wall</a></em></span>; 3/day-<span class="emphasis"><em><a href="ch43.html#SpellsA-B19">antilife shell</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B28">astral projection</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC36">contact other plane</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS8">greater scrying</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L55">invisibility purge</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>. Caster level 29th; save DC 18 + spell level. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2449676"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)222"/>
+          <p><span class="strong"><strong>Spells:</strong></span> An <a href="ch76s26.html#EpicMonsters(G-W)219">elder titan</a> can use arcane spells as a 29th-level wizard or divine spells as a 29th-level cleric, from the cleric list and from the <a href="ch16s03.html#CombinedSkills197">Knowledge</a> and Magic domains. He will also possess the knowledge of at least three epic spells and the means by which to develop them, though he may not have done so himself.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s25.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s27.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Thorciasid </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Treant, Elder</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

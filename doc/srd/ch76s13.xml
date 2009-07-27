@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Living Vault</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s12.html" title="Leshay"/>
+    <link rel="next" href="ch76s14.html" title="Mercane"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Living Vault</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s12.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s14.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2429912"/>Living Vault</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s13.html#id2430664">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)92"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2429931">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Living Vault</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>96d10+80 (608 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-2 (Dex)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (can't <a href="ch21s05.html#CombatI90">run)</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>60 (-8 size, -2 Dex, +60 natural), <a href="ch21s02.html#CombatI12">touch</a> 0, <a href="ch21s03.html#CombatI21">flat-footed</a> 60</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+72/+123</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +99 (10d6+35) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +99 (10d6+35) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em><a href="ch47.html#SpellsH-L37">Imprisonment</a></em></span></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Recognition, <span class="emphasis"><em>safekeeping</em></span>, <span class="emphasis"><em/></span> <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, magic immunity, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/epic and <a href="ch24.html#SpecialMaterials3">adamantine</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +32, Ref +30, Will +33</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 80, Dex 7, Con -, Int -, Wis 12, Cha 1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>33</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard (see text)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p><a href="ch02s02.html#Description10">Neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>To access a vault, its creator must call the vault from where it is sequestered through the use of a <span class="emphasis"><em><a href="ch50.html#SpellsS16">sending</a></em></span> spell. The vault has no obvious opening; however, items can be stored and retrieved by naming them (the <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> provides an inventory to its creator on request). The item to be stored appears to sink into the <a href="ch76s13.html#EpicMonsters(G-W)92">living vault's</a> form as if made of mud. Likewise, items retrieved pop out of the <a href="ch76s13.html#EpicMonsters(G-W)92">living vault's</a> form. Storing and retrieving items in this fashion takes one round per transaction. Creatures other than the vault's master who wish to access the inventory must destroy the vault to do so. If a vault is destroyed, all the objects and creatures stored within immediately emerge.</p>
+      <p>A <a href="ch76s13.html#EpicMonsters(G-W)92">living vault's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2430664"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)93"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2430682"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)94"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>imprisonment</em></span> (Sp):</strong></span> As a free action twice per day, a <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> can project a 60-foot cone. Creatures caught in the cone must make a Will save (DC 58) or be affected as by the <span class="emphasis"><em><a href="ch47.html#SpellsH-L37">imprisonment</a></em></span> spell, except creatures are stored within the vault's interior. The <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> can hold two Gargantuan creatures, eight Huge creatures, thirty-two Large creatures, one hundred twenty-eight Medium-size creatures, and so on. This assumes that the rest of the vault is also relatively empty, so a large hoard of treasure reduces the number of creatures a <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> can hold at any one time. If <span class="emphasis"><em><a href="ch46.html#SpellsF-G32">freedom</a></em></span> is later cast upon the very spot where the victim of <span class="emphasis"><em><a href="ch47.html#SpellsH-L37">imprisonment</a></em></span> disappeared, the victim is freed, though it doesn't appear where it disappeared, but in a space adjacent to wherever the <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> is currently physically located.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2430860"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)95"/>
+          <p><span class="strong"><strong>Recognition (Ex):</strong></span> Once made, a <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> responds only to its owner; no other being can access the vault's interior. The vault is not fooled by disguised creatures, and can distinguish between its true master and false duplicates, even penetrating disguises used in conjunction with <span class="emphasis"><em><a href="ch50.html#SpellsS26">shapechange</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B9">alter self</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS15">seeming</a></em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em><a href="ch50.html#SpellsS39">simulacrum</a></em></span> and similar effects. The vault does, however, respond to the product of a <span class="emphasis"><em><a href="ch44.html#SpellsC22">clone</a></em></span> spell.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2430976"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)96"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Safekeeping</em></span> (Sp):</strong></span> At will, a <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> can use a power that combines the effects of <span class="emphasis"><em><a href="ch50.html#SpellsS18">sequester</a></em></span> and <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span> to render the vault invisible to any form of sight or divination, and at the same time transfer it to a random portion of the Astral Plane. When in safekeeping mode, the <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> responds to a <span class="emphasis"><em><a href="ch50.html#SpellsS16">sending</a></em></span> by its master, returning to the location from which it left and becoming tangible once again. Creatures and objects that are stored within the vault are treated as if under the effects of <span class="emphasis"><em><a href="ch50.html#SpellsS18">sequester</a></em></span>, <span class="emphasis"><em/></span> whether the vault itself is or not. Often, creatures are brought into the vault via <span class="emphasis"><em><a href="ch47.html#SpellsH-L37">Imprisonment</a></em></span>, <span class="emphasis"><em/></span> but sometimes unconscious or otherwise subdued creatures are stored as an object, in which case they receive no saving throw to resist the effect.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2431092"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)97"/>
+          <p><span class="strong"><strong>Construct Traits:</strong></span> Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. Cannot heal Damage (though regeneration and fast healing still apply, if present). Not subject to critical hits, subdual Damage, ability Damage, ability drain, or energy drain. Not at risk of death from massive Damage, but destroyed when reduced to 0 hit points or less; cannot be raised or resurrected. Darkvision 60 ft.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2431142"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)98"/>
+          <p><span class="strong"><strong>Magic Immunity (Ex):</strong></span> A <a href="ch76s13.html#EpicMonsters(G-W)92">living vault</a> is immune to all magical and supernatural effects, except as follows. A <span class="emphasis"><em><a href="ch46.html#SpellsF-G32">freedom</a></em></span> spell cast on it causes it to defer the use of its own <span class="emphasis"><em><a href="ch47.html#SpellsH-L37">imprisonment</a></em></span> power for 10 rounds.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s12.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s14.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Leshay </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Mercane</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

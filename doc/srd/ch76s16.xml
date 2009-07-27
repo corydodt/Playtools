@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Neh-Thalggu (Brain Collector)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s15.html" title="Mu Spore"/>
+    <link rel="next" href="ch76s17.html" title="Paragon Creature"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Neh-Thalggu (Brain Collector)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s15.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s17.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2433613"/>Neh-Thalggu (Brain Collector)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s16.html#id2434674">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)112"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2433632">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Neh-Thalggu</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>32d8+192 (336 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+12 (+4 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft. or via <span class="emphasis"><em><a href="ch45.html#SpellsD-E31">dimension door</a></em></span> </p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>35 (-2 size, +4 Dex, +3 deflection, +20 insight), <a href="ch21s02.html#CombatI12">touch</a> 35, <a href="ch21s03.html#CombatI21">flat-footed</a> 31</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+24/-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +26 (4d10 + 12 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +26 (4d10 + 12 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a> ) melee, 10 head-tentacles +21 (2d10 plus ability drain ) melee <a href="ch21s02.html#CombatI12">touch attack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Extract brains (<a href="ch21s05.html#CombatI44">ranged attack),</a> <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>Dimensional travel</em></span>, <span class="emphasis"><em/></span> <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/epic, <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> traits, amorphous physiology, manifest maw, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 30, darkvision 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +16, Ref +14, Will +23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex 19, Con 22, Int 20, Wis 20, Cha 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +41, <a href="ch16s03.html#CombinedSkills179">Hide</a> +39, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana, the planes) +40, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +39, <a href="ch16s03.html#CombinedSkills253">Search</a> +40, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +40</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a>, <a href="ch17s03.html#Feats66">Combat Expertise</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats251">Maximize Spell</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats349">Spring Attack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>26</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p><a href="ch22s03.html#CombatII100">Triple</a> standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description11">chaotic neutral</a>, <a href="ch02s02.html#Description13">neutral evil</a>, or <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>33-66 HD (<a href="ch22.html#CombatII28">Gargantuan</a>); 67-112 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A creature whose brain has been harvested by a <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector</a> cannot be raised, reincarnated, or resurrected while the brain is in the creature, because the collector preserves and draws upon the soul and basic personality of the creature for as long as it retains the brain. <a href="ch76s16.html#EpicMonsters(G-W)112">Neh-thalggus'</a> own language is a silent sign language 'spoken' with their writhing head-tentacles. They can also communicate telepathically with any creature that has a language within 100 feet.</p>
+      <p>A <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2434674"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)113"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2434693"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)114"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> A <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu's</a> bite injects a debilitating poison (DC 32) that Damages the victim's Constitution. He or she loses half his or her current Constitution immediately on a failed save and must save again 1 minute later or lose half of his or her remaining Constitution. If the character survives, he or she heals the ability Damage at the normal rate (1 point per day). The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2434730"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)115"/>
+          <p><span class="strong"><strong>Head-Tentacles (Ex):</strong></span> The long, whiplike tentacles that frame either side of a <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector's</a> face can deliver a dangerous touch attack that, if successful, causes the target to dehydrate and wither (2d10 points of desiccation Damage). In addition, each successful tentacle attack drains 1 point of Strength, 1 point of Dexterity, and 1 point of Constitution. This is permanent ability drain and may only be reversed by spells such as <span class="emphasis"><em><a href="ch49.html#SpellsP-R71">restoration</a></em></span> and <span class="emphasis"><em><a href="ch49.html#SpellsP-R72">greater restoration</a></em></span>. It can bring all ten tentacles to bear on a single target facing it or divide its attacks against up to ten targets that it threatens.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2434790"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)116"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Extract Brains</em></span> (Sp):</strong></span> Once every 1d4 rounds, as a full-round action, a <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector</a> can extract the brain from a target creature in line of sight. This attack is psionic in nature and can be blocked by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E32">dimensional anchor</a></em></span> currently in force on the target. The target gets a Will save (DC 31) to resist the extraction. The save DC is Intelligence-based. If the save fails, his or her brain is drawn out intact through the skull by extradimensional means and sucked up by the <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector</a>, lodging in an unused storage sac above and behind its eyes. If the save succeeds, he or she takes 9d6 points of Damage and is stunned for 1d4+1 rounds. A <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector</a> prefers to absorb brains of high-level arcane spellcasters but is fully capable of extracting those of other foes as a highly effective attack. When encountered, assume a <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu</a> has a full retinue of thirteen stolen brains. Each brain less than the full thirteen bestows one negative level on the <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu</a> (though these never convert to actual level loss), which is a powerful incentive for the creature to always keep its brain-sacs filled. A <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu</a> is free to draw on all the <a href="ch16s03.html#CombinedSkills197">Knowledge</a> skills of each brain it currently stores, using the base ranks in a skill possessed by each brain, and adjusted by the <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu's</a> own skill modifiers for the <a href="ch16s03.html#CombinedSkills197">Knowledge</a> skill in question (or its Intelligence modifier, for a skill it has no ranks in).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2434927"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)117"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Dimensional Travel</em></span> (Sp):</strong></span> A <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector's</a> preferred method of locomotion is via <span class="emphasis"><em><a href="ch45.html#SpellsD-E31">dimension door</a></em></span>, <span class="emphasis"><em/></span> which it can do as a quickened action, once per round. It can also use <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> or <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span> at will as a move-equivalent action.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2435006"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)118"/>
+          <p><span class="strong"><strong>Spells (Sp):</strong></span> A fully grown <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector</a> can cast arcane spells as a 13th-level sorcerer (one level of spell-casting ability per brain).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2435046"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)119"/>
+          <p><span class="strong"><strong>Incorporeal:</strong></span> A <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu</a> is not wholly in our reality but always remains partially extradimensional. Thus it can be harmed only by other incorporeal creatures, +1 or better weapons, magic, or psionics, with a 50% chance to ignore any Damage from a corporeal source. It can pass through solid objects at will, and its own attacks pass through armor (except for its bite attack, which is treated as if a corporeal attack). It always moves silently unless it chooses otherwise.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2435091"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)120"/>
+          <p><span class="strong"><strong>Amorphous Physiology (Ex):</strong></span> A <a href="ch76s16.html#EpicMonsters(G-W)112">brain collector</a> does not have fixed organs. As such, it is immune to critical hits, death from massive Damage, sneak attacks, and coup de grace.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2435130"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)121"/>
+          <p><span class="strong"><strong>Manifest Maw:</strong></span> Though it is an incorporeal creature, a <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu</a> can manifest its mouth in corporeal form as a standard action. While so manifested, the mouth can deliver bite attacks against corporeal creatures or pick up objects. The mouth bites as if it had Str 35.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2435172"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)122"/>
+          <p><span class="strong"><strong>Feats:</strong></span> A <a href="ch76s16.html#EpicMonsters(G-W)112">neh-thalggu</a> gains <a href="ch17s03.html#Feats277">Power Attack</a> as a bonus feat, even though it has no Strength score.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s15.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s17.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Mu Spore </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Paragon Creature</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

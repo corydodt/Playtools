@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Wyvern</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s17.html" title="Wraith"/>
+    <link rel="next" href="ch72s19.html" title="Xill"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Wyvern</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s17.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s19.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2241867"/>Wyvern</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s18.html#id2243176">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z138"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2242022">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Wyvern</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities20">Dragon</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d12+14 (59 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 60 ft. (poor)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, +1 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Sting +10 melee (1d6+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) or talon +10 melee (2d6+4) or bite +10 melee (2d8+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Sting +10 melee (1d6+4 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) and bite +8 melee (2d8+4) and 2 wings +8 melee (1d8+2) and 2 talons +8 melee (2d6+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span> and <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +6, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 12, Con 15, Int 6, Wis 12, Cha 9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +7, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats2">Ability Focus</a> (<a href="ch04.html#TypesSubtypesAbilities52">poison</a>), <a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm hills</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or <a href="ch04.html#TypesSubtypesAbilities30">flight</a> (3-6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-10 HD (<a href="ch22.html#CombatII28">Huge</a>); 11-21 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A distant cousin to the <a href="ch64.html#MonstersDr-Dw2">true dragons</a>, the <a href="ch72s18.html#MonstersT-Z138">wyvern</a> is a huge flying <a href="ch73s25.html#MonstersAnimals90">lizard</a> with a poisonous stinger in its tail.<a href="img/MonstersT-Z.Wyvern.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Wyvern.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch72s18.html#MonstersT-Z138">wyvern's</a> body is 15 feet long, and dark brown to gray; half that length is tail. Its wingspan is about 20 feet. A <a href="ch72s18.html#MonstersT-Z138">wyvern</a> weighs about one ton.</p>
+      <p><a href="ch72s18.html#MonstersT-Z138">Wyverns</a> speak Draconic, but usually don't bother with anything more elaborate than a loud hiss or a deep-throated growl much like that of a bull alligator.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2243176"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z139"/>
+        <p><a href="ch72s18.html#MonstersT-Z138">Wyverns</a> are rather stupid but always aggressive: They attack nearly anything that isn't obviously more powerful than themselves. A <a href="ch72s18.html#MonstersT-Z138">wyvern</a> dives from the air, snatching the opponent with its talons and stinging it to death. A <a href="ch72s18.html#MonstersT-Z138">wyvern</a> can slash with its talons only when making a flyby attack.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2243228"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z140"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch72s18.html#MonstersT-Z138">wyvern</a> must hit with its talons. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and stings.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2243269"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z141"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 17, initial and secondary damage 2d6 Con. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2243298"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z142"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch72s18.html#MonstersT-Z138">Wyverns</a> have a +3 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s17.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s19.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Wraith </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Xill</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

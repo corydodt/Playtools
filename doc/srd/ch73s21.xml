@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Horse</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch73.html" title="Monsters (Animals)"/>
+    <link rel="prev" href="ch73s20.html" title="Hawk"/>
+    <link rel="next" href="ch73s22.html" title="Hyena"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Horse</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch73s20.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Animals)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch73s22.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2288195"/>Horse</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch73s21.html#id2288225">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersAnimals68"/>
+      <p><a href="ch73s21.html#MonstersAnimals68">Horses</a> are widely domesticated for riding and as beasts of burden.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2288225"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersAnimals69"/>
+        <p>A <a href="ch73s21.html#MonstersAnimals68">horse</a> not trained for war does not normally use its hooves to attack. Its hoof attack is treated as a secondary attack and adds only half the <a href="ch73s21.html#MonstersAnimals68">horse's</a> Strength bonus to damage. (These secondary attacks are noted with an asterisk in the Attack and Full Attack entries for the heavy <a href="ch73s21.html#MonstersAnimals68">horse</a> and the light <a href="ch73s21.html#MonstersAnimals68">horse</a>.)</p>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2288358">
+          <tbody>
+            <tr><td/>
+<td><strong><a href="ch73s21.html#MonstersAnimals68">Horse</a>, Heavy</strong></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (-1 size, +1 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Hoof -1 melee (1d6+1*)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 hooves -1 melee (1d6+1*)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +4, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 16, Dex 13, Con 15, Int 2, Wis 12, Cha 6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats306">Run</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Domesticated</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The statistics presented here describe large breeds of working <a href="ch73s21.html#MonstersAnimals68">horses</a> such as Clydesdales. These animals are usually ready for heavy work by age three. A heavy <a href="ch73s21.html#MonstersAnimals68">horse</a> cannot fight while carrying a rider.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2289729"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals70"/>
+          <p><span class="strong"><strong>Carrying Capacity:</strong></span> A light load for a heavy <a href="ch73s21.html#MonstersAnimals68">horse</a> is up to 200 pounds; a medium load, 201-400 pounds; and a heavy load, 401-600 pounds. A heavy <a href="ch73s21.html#MonstersAnimals68">horse</a> can drag 3,000 pounds.</p>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2289915">
+            <tbody>
+              <tr><td/>
+                <td><strong><a href="ch73s21.html#MonstersAnimals68">Horse</a>, Light</strong></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft. (12 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (-1 size, +1 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+8</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Hoof -2 melee (1d4+1*)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 hooves -2 melee (1d4+1*)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +4, Will +2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 13, Con 15, Int 2, Wis 12, Cha 6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats306">Run</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Domesticated or herd (6-30)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>The statistics presented here describe smaller breeds of working <a href="ch73s21.html#MonstersAnimals68">horses</a> such as quarter <a href="ch73s21.html#MonstersAnimals68">horses</a> and Arabians as well as wild <a href="ch73s21.html#MonstersAnimals68">horses</a>. These animals are usually ready for useful work by age two. A light <a href="ch73s21.html#MonstersAnimals68">horse</a> cannot fight while carrying a rider.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2291103"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals71"/>
+          <p><span class="strong"><strong>Carrying Capacity:</strong></span> A light load for a light <a href="ch73s21.html#MonstersAnimals68">horse</a> is up to 150 pounds; a medium load, 151-300 pounds; and a heavy load, 301-450 pounds. A light <a href="ch73s21.html#MonstersAnimals68">horse</a> can drag 2,250 pounds.</p>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2291153">
+            <tbody>
+              <tr><td/>
+<td><strong>Warhorse, Heavy</strong></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+12 (30 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+11</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Hoof +6 melee (1d6+4)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 hooves +6 melee (1d6+4) and bite +1 melee (1d4+2)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +5, Will +2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 13, Con 17, Int 2, Wis 13, Cha 6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats306">Run</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Domesticated</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>These animals are similar to heavy <a href="ch73s21.html#MonstersAnimals68">horses</a> but are trained and bred for strength and aggression. A heavy warhorse can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a <a href="ch16s03.html#CombinedSkills243">Ride</a> check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2291973"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals72"/>
+          <p><span class="strong"><strong>Carrying Capacity:</strong></span> A light load for a heavy warhorse is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds. A heavy warhorse can drag 4,500 pounds.</p>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2292004">
+            <tbody>
+              <tr><td/>
+<td><strong>Warhorse, Light</strong></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+9 (22 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft. (12 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+9</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Hoof +4 melee (1d4+3)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 hooves +4 melee (1d4+3) and bite -1 melee (1d3+1)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +4, Will +2</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 16, Dex 13, Con 17, Int 2, Wis 13, Cha 6</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats306">Run</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Domesticated</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>These animals or similar to light <a href="ch73s21.html#MonstersAnimals68">horses</a> but are trained and bred for strength and aggression. They usually are not ready for warfare before age three. A light warhorse can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a <a href="ch16s03.html#CombinedSkills243">Ride</a> check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2292821"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersAnimals73"/>
+          <p><span class="strong"><strong>Carrying Capacity:</strong></span> A light load for a light warhorse is up to 230 pounds; a medium load, 231-460 pounds; and a heavy load, 461-690 pounds. A light warhorse can drag 3,450 pounds.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch73s20.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch73.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch73s22.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Hawk </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Hyena</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

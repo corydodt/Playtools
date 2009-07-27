@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (E-F)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch64s06.html" title="Dwarf"/>
+    <link rel="next" href="ch65s02.html" title="Elemental"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (E-F)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch64s06.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch65s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1144073"/>Monsters (E-F)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch65.html#id1717461">Eagle, Giant</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65.html#id1762584">Training A Giant Eagle</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s02.html">Elemental</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s02.html#id1750776">Air Elemental</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s02.html#id1720977">Earth Elemental</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s02.html#id1728138">Fire Elemental</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s02.html#id1736279">Water Elemental</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s03.html">Elf</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s03.html#id1743589">Subraces</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s04.html">Ethereal Filcher</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s05.html">Ethereal Marauder</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s06.html">Ettercap</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s07.html">Ettin</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s08.html">Fiendish Creature</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s08.html#id1753621">Creating A Fiendish Creature</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s09.html">Formian</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s09.html#id1758771">Worker</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s09.html#id1758929">Warrior</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s09.html#id1759021">Taskmaster</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s09.html#id1759263">Myrmarch</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s09.html#id1761209">Queen</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s10.html">Frost Worm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch65s11.html">Fungus</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s11.html#id1770430">Shrieker</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch65s11.html#id1770868">Violet Fungus</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersE-F1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id1717461"/>Eagle, Giant</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch65.html#id1763889">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch65.html#id1762584">Training A Giant Eagle</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F2"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1717480">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Eagle, Giant</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d10+4 (26 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares), fly 80 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (-1 size, +3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +7 melee (1d6+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +7 melee (1d6+4) and bite +2 melee (1d8+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, evasion</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +7, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 17, Con 12, Int 10, Wis 14, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +2, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +15, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate mountains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or eyrie (5-12)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description7">neutral good</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-8 HD (<a href="ch22.html#CombatII28">Large</a>); 9-12 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+2 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A typical <a href="ch65.html#MonstersE-F2">giant eagle</a> stands about 10 feet tall, has a wingspan of up to 20 feet, and resembles its smaller cousins in nearly every way except size. It weighs about 500 pounds.<a href="img/MonstersE-F.Eagle_Giant.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersE-F.Eagle_Giant.jpg" align="right"/></span></a></p>
+        <p><a href="ch65.html#MonstersE-F2">Giant eagles</a> speak Common and Auran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1763889"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F3"/>
+          <p>A <a href="ch65.html#MonstersE-F2">giant eagle</a> typically attacks from a great height, diving earthward at tremendous speed. When it cannot dive, it uses its powerful talons and slashing beak to strike at its target's head and eyes.</p>
+          <p>A solitary <a href="ch65.html#MonstersE-F2">giant eagle</a> is typically hunting or patrolling in the vicinity of its nest and generally ignores creatures that do not appear threatening. A mated pair attacks in concert, making repeated diving attacks to drive away intruders, and fights to the death to defend their nest or hatchlings.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1763931"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F4"/>
+            <p><span class="strong"><strong>Evasion (Ex):</strong></span> With a successful Reflex save against an attack that allows a Reflex save for half damage, a <a href="ch65.html#MonstersE-F2">giant eagle</a> takes no damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1763968"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersE-F5"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch65.html#MonstersE-F2">Giant eagles</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1762584"/>Training A Giant Eagle</h3>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F6"/>
+          <p>Although intelligent, a <a href="ch65.html#MonstersE-F2">giant eagle</a> requires training before it can bear a rider in combat. To be trained, a <a href="ch65.html#MonstersE-F2">giant eagle</a> must have a friendly attitude toward the trainer (this can be achieved through a successful <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> check). Training a friendly <a href="ch65.html#MonstersE-F2">giant eagle</a> requires six weeks of work and a DC 25 <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> check.</p>
+          <p>Riding a <a href="ch65.html#MonstersE-F2">giant eagle</a> requires an exotic saddle. A <a href="ch65.html#MonstersE-F2">giant eagle</a> can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a <a href="ch16s03.html#CombinedSkills243">Ride</a> check.</p>
+          <p><a href="ch65.html#MonstersE-F2">Giant eagle</a> eggs are worth 2,500 gp apiece on the open market, while chicks are worth 4,000 gp each. Professional trainers charge 1,000 gp to rear or train a <a href="ch65.html#MonstersE-F2">giant eagle</a>.</p>
+          <p>Carrying Capacity: A light load for a <a href="ch65.html#MonstersE-F2">giant eagle</a> is up to 300 pounds; a medium load, 301-600 pounds; and a heavy load, 601-900 pounds.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch64s06.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch65s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Dwarf </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Elemental</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

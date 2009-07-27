@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Colossus</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch75.html" title="Epic Monsters (A-E)"/>
+    <link rel="prev" href="ch75s03.html" title="Brachyurus"/>
+    <link rel="next" href="ch75s05.html" title="Demilich"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Colossus</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch75s03.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (A-E)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch75s05.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2385118"/>Colossus</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch75s04.html#id2385300">Construction</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s04.html#id2386650">Stone Colossus</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s04.html#id2386986">Flesh Colossus</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s04.html#id2387623">Iron Colossus</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(A-E)110"/>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2385136"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)111"/>
+        <p><span class="strong"><strong>Construct Traits:</strong></span> Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. Cannot heal damage (though regeneration and fast healing still apply, if present). Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Not at risk of death from massive damage, but destroyed when reduced to 0 hit points or less; cannot be raised or resurrected. Darkvision 60 ft.</p>
+      </div>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2385188"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)112"/>
+        <p><span class="strong"><strong>Magic Immunity (Ex):</strong></span> A <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> completely resists most magical and supernatural effects, except where otherwise noted below.</p>
+      </div>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2385228"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)113"/>
+        <p><span class="strong"><strong>Antimagic Field (Ex):</strong></span> A <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> constantly generates an antimagic field in a 100-foot-radius. The field is an invisible barrier that is impervious to most magical effects, including spells, spell-like abilities, and supernatural abilities. Likewise, it prevents the functioning of any magic items or spells within its confines, except for the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus's</a> own supernatural abilities. This effect is otherwise as an <span class="emphasis"><em>antimagic</em></span> field cast by a 25th-level caster.</p>
+        <p>A <a href="ch75s04.html#EpicMonsters(A-E)110">colossus's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      </div>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2385300"/>Construction</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)114"/>
+        <p>The construction cost given for each <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> takes into account the physical body and all the materials and spell components that are consumed or become a permanent part of it. Except for the much tougher requirements, constructing a <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> is not unlike constructing a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a>.</p>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2385355">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Stone Colossus</strong></span> </p></td>
+<td><p><span class="strong"><strong>Flesh Colossus</strong></span> </p></td>
+<td><p><span class="strong"><strong>Iron Colossus</strong></span> </p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>64d10 (432 hp)</p></td>
+<td><p>100d10 (630 hp) or as controlling spirit</p></td>
+<td><p>96d10 (603 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-3 (Dex)</p></td>
+<td><p>+2 (-2 Dex, +4 Improved</p></td>
+<td><p>-2 (Dex) <a href="ch21s03.html#CombatI19">Initiative</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (can't <a href="ch21s05.html#CombatI90">run)</a></p></td>
+<td><p>40 ft. (can't <a href="ch21s05.html#CombatI90">run)</a></p></td>
+<td><p>50 ft. (can't <a href="ch21s05.html#CombatI90">run)</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>44 (-8 size, -3 Dex, +45 natural), <a href="ch21s02.html#CombatI12">touch</a> -1, <a href="ch21s03.html#CombatI21">flat-footed</a> 44</p></td>
+<td><p>45 (-8 size, -2 Dex, +25 natural, +20 profane), <a href="ch21s02.html#CombatI12">touch</a> 20, <a href="ch21s03.html#CombatI21">flat-footed</a> 45</p></td>
+<td><p>60 (-8 size, -2 Dex, +60 natural), <a href="ch21s02.html#CombatI12">touch</a> 0, <a href="ch21s03.html#CombatI21">flat-footed</a> 60</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+48/+94</p></td>
+<td><p>+75/+103</p></td>
+<td><p>+72/+123</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +70 (8d6+30) melee</p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> club +79 (6d6+18) melee or slam +79 (4d6+12) melee or thrown object (weighing 10 tons or less) +65 (4d6+12) ranged</p></td>
+<td><p>Slam +99 (12d6+35) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +70 (8d6+30) melee</p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> club +79 (6d6+18) melee or 2 slams +79 (4d6+12) melee or thrown object (weighing 10 tons or less) +65 (4d6+12) ranged</p></td>
+<td><p>2 slams +99 (12d6+35) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./30 ft.</p></td>
+<td><p>30 ft./30 ft.</p></td>
+<td><p>30 ft./30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Shatter</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities31">Frightful presence</a>, horrific appearance, stomp, stench</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, magic immunity, antimagic field, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/Epic and <a href="ch24.html#SpecialMaterials3">adamantine</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, magic immunity, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/Epic and <a href="ch24.html#SpecialMaterials3">adamantine</a>, negative energy affinity</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, magic immunity, antimagic field, rustproof, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 20/Epic and <a href="ch24.html#SpecialMaterials3">adamantine</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +21, Ref +18, Will +21</p></td>
+<td><p>Fort +33, Ref +31, Will +33</p></td>
+<td><p>Fort +32, Ref +30, Will +33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 70, Dex 5, Con -, Int 7, Wis 10, Cha 1</p></td>
+<td><p>Str 35, Dex 6, Con -, Int 1 or as controlling spirit, Wis 11 or as controlling spirit, Cha 1 or as controlling spirit</p></td>
+<td><p>Str 80, Dex 7, Con -, Int 9, Wis 12, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +34</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +16 or as controlling spirit</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +43</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>24</p></td>
+<td><p>27</p></td>
+<td><p>33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p><a href="ch02s02.html#Description13">Neutral evil</a> or <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>65-192 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+<td><p>None (abilities may vary by level of possessing spirit)</p></td>
+<td><p>97-288 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2386650"/>Stone Colossus</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s04.html#id2386700">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s04.html#id2386866"><span class="strong"><strong>Construction</strong></span> </a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)115"/>
+        <p>A <a href="ch75s04.html#EpicMonsters(A-E)115">stone colossus</a> cannot speak or make any vocal noise.<a href="img/EpicMonsters(A-E).Stone_Colossus.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Stone_Colossus.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2386700"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)116"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2386719"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)117"/>
+            <p><span class="strong"><strong>Shatter (Su):</strong></span> A <a href="ch75s04.html#EpicMonsters(A-E)115">stone colossus</a> can use <span class="emphasis"><em><a href="ch50.html#SpellsS27">shatter</a></em></span>(DC 7) as a free action once every 2 rounds against an opponent's weapon or other item as a 24th-level caster. The DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2386770"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)118"/>
+            <p><span class="strong"><strong>Magic Immunity (Ex):</strong></span> A <a href="ch75s04.html#EpicMonsters(A-E)115">stone colossus</a> is immune to all spells, spell-like abilities, and supernatural effects, except as follows. A <span class="emphasis"><em><a href="ch51.html#SpellsT-Z18">transmute rock to mud</a></em></span> spell slows it (as the <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell) for 1 round, with no saving throw, while <span class="emphasis"><em><a href="ch51.html#SpellsT-Z17">transmute mud to rock</a></em></span> heals all its lost hit points. A <span class="emphasis"><em><a href="ch50.html#SpellsS72">stone to flesh</a></em></span> spell has no effect on a <a href="ch75s04.html#EpicMonsters(A-E)115">stone colossus</a>.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2386866"/><span class="strong"><strong>Construction</strong></span> </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)119"/>
+          <p>A <a href="ch75s04.html#EpicMonsters(A-E)115">stone colossus's</a> body is chiseled from a single block of hard stone, such as granite, weighing at least 375,000 pounds. The <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> costs 760,000 gp to create, which includes 100,000 gp for the body. Assembling the body requires a successful <a href="ch16s03.html#CombinedSkills91">Craft</a> (sculpting) or <a href="ch16s03.html#CombinedSkills91">Craft</a> (masonry) check (DC 37). The creator must be 25th level and able to cast epic spells. Completing the ritual drains 30,600 XP from the creator and requires <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R22">polymorph any object</a></em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em><a href="ch50.html#SpellsS27">shatter</a></em></span>.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2386986"/>Flesh Colossus</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s04.html#id2387039">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s04.html#id2387461"><span class="strong"><strong>Construction</strong></span> </a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)120"/>
+        <p>A <a href="ch75s04.html#EpicMonsters(A-E)120">flesh colossus</a> knows all languages spoken in life by the ghost who acts as its control-ling spirit. When the controlling spirit is suppressed, it mutters in all the tongues spoken by its component corpses.<a href="img/EpicMonsters(A-E).Flesh_Colossus.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Flesh_Colossus.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2387039"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)121"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2387057"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)122"/>
+            <p><span class="strong"><strong>Frightful Presence (Ex):</strong></span> All who come within a mile of the <a href="ch75s04.html#EpicMonsters(A-E)120">flesh colossus</a> must make Will saves (DC 55). Those who make their saves are shaken. Those who fail by 20 points or less are frightened. Those who fail by 21 to 40 points are panicked. Those who fail by 41 points or more are cowering. The DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2387101"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)123"/>
+            <p><span class="strong"><strong>Horrific Appearance (Su):</strong></span> Once per day, the controlling spirit within a <a href="ch75s04.html#EpicMonsters(A-E)120">flesh colossus</a> may draw upon the negative energy latent in the construct to transform its countenance into a horrible leering visage: All within 300 feet who see this must make a Fortitude save (DC 55) or take 2d4 points of temporary Strength, Dexterity, and Constitution damage. The DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2387145"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)124"/>
+            <p><span class="strong"><strong>Stomp (Ex):</strong></span> As a full-round action, a <a href="ch75s04.html#EpicMonsters(A-E)120">flesh colossus</a> may stomp upon any adjacent foe (that is, any within the area it threatens). Its attack roll modifier for this special attack is +65 (+75 base, -2 Dex, -8 size). If successful, the stomp deals double damage (8d6 +24) and pins the victim until the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> chooses to release him or her.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2387197"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)125"/>
+            <p><span class="strong"><strong>Stench (Ex):</strong></span> All creatures with a sense of smell who come within 300 feet of the construct must make a Fortitude save (DC 60) or be nauseated (unable to attack, cast spells, concentrate on spells, or do anything else requiring attention, except for a single move or move-equivalent action per round). Those who succeed on their saves take a -4 circumstance penalty on all attack rolls, saving throws, and skill checks for the next 2d6+4 minutes. The DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2387301"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)126"/>
+            <p><span class="strong"><strong>Magic Immunity (Ex):</strong></span> A <a href="ch75s04.html#EpicMonsters(A-E)120">flesh colossus</a> is immune to all magical and supernatural effects except those that use negative energy (see below).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2387341"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)127"/>
+            <p><span class="strong"><strong>Negative Energy Affinity (Su):</strong></span> Any negative energy spell targeted at the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> repairs damage taken by the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> at the rate of 1d10 hit points per level of the spell.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2387461"/><span class="strong"><strong>Construction</strong></span> </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)128"/>
+          <p>Only a master necromancer of surpassing power can create a <a href="ch75s04.html#EpicMonsters(A-E)120">flesh colossus</a>. The bodies of not less than three hundred previously animated Medium-size humanoid creatures must be stripped of their flesh and the bones, which are then rendered in two great vats. The resulting semiliquid bone-paste is then cast into a new articulated skeleton of great size, to which the rendered flesh is applied like wet clay to shape the figure. Finally, the necromancer must bind a ghost of at least 10 HD (the more powerful the better) into the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> to act as its controlling spirit. Without the controlling spirit, the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> is just an oversized zombie; with it, it functions as a <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a> of great size and repugnant appearance. If no ghost is available, the necromancer may occupy the <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> himself by casting <span class="emphasis"><em><a href="ch48.html#SpellsM-O17">magic jar</a></em></span>. The <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> costs 760,000 gp to create, which includes 100,000 gp for the body. Assembling the body takes no great skill, and many flesh colossi reveal that fact in their uncouth forms. The creator must be 29th level and able to cast epic spells. Completing the ritual drains 30,600 XP from the creator and requires <span class="emphasis"><em><a href="ch48.html#SpellsM-O17">magic jar</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R22">polymorph any object</a></em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em><a href="ch46.html#SpellsF-G11">finger of death</a></em></span>.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2387623"/>Iron Colossus</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s04.html#id2387772"><span class="strong"><strong>Construction</strong></span> </a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)129"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2387641"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)130"/>
+          <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> Cone of poisonous gas, 80 feet, as a free action every 1d4 rounds, initial damage 3d6 temporary Con, secondary damage 2d6 temporary Con, Fort half (DC 58). The DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2387673"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)131"/>
+          <p><span class="strong"><strong>Magic Immunity (Ex):</strong></span> An <a href="ch75s04.html#EpicMonsters(A-E)129">iron colossus</a> is immune to all magical and supernatural effects, except as follows. An electricity effect restores 1 hit point to the <a href="ch75s04.html#EpicMonsters(A-E)129">iron colossus</a> for each 3 points of damage it would otherwise deal.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2387724"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)132"/>
+          <p><span class="strong"><strong>Rustproof (Ex):</strong></span> An <a href="ch75s04.html#EpicMonsters(A-E)129">iron colossus</a> is not affected by rust attacks, unlike smaller <a href="ch66s12.html#MonstersG157">iron golems</a>.</p>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2387772"/><span class="strong"><strong>Construction</strong></span> </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)133"/>
+          <p>An <a href="ch75s04.html#EpicMonsters(A-E)129">iron colossus's</a> body is sculpted from 150,000 pounds of pure iron. The <a href="ch75s04.html#EpicMonsters(A-E)110">colossus</a> costs 1,000,000 gp to create, which includes 100,500 gp for the body. Assembling the body requires a successful <a href="ch16s03.html#CombinedSkills91">Craft</a> (armorsmithing) or <a href="ch16s03.html#CombinedSkills91">Craft</a> (weaponsmithing) check (DC 42). The creator must be 35th level and able to cast epic spells. Completing the ritual drains 50,000 XP from the creator and requires <span class="emphasis"><em><a href="ch44.html#SpellsC23">cloudkill</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em><a href="ch49.html#SpellsP-R22">polymorph any object</a></em></span>. </p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch75s03.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch75.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch75s05.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Brachyurus </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Demilich</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

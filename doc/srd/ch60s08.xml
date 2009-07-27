@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Aranea</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch60.html" title="Monsters (Intro-A)"/>
+    <link rel="prev" href="ch60s07.html" title="Ankheg"/>
+    <link rel="next" href="ch60s09.html" title="Archon"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Aranea</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch60s07.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Intro-A)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch60s09.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1628490"/>Aranea</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch60s08.html#id1629540">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersIntro-A77"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1628508">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Aranea</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a> (<a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d10+6 (22 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares), climb 25 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (+2 Dex, +1 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +5 melee (1d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) or web +5 ranged</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +5 melee (1d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) or web +5 ranged</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a>, spells, web</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities14">Change shape</a>, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +5, Will +4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 11, Dex 15, Con 14, Int 14, Wis 13, Cha 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +14, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +5, <a href="ch16s03.html#CombinedSkills192">Jump</a> +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or colony (3-6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>An <a href="ch60s08.html#MonstersIntro-A77">aranea</a> is an intelligent, shapechanging spider with sorcerous powers. In its natural form, an <a href="ch60s08.html#MonstersIntro-A77">aranea</a> resembles a big spider, with a humpbacked body a little bigger than a human torso. It has fanged mandibles like a normal spider. Two small arms, each about 2 feet long, lie below the mandibles. Each arm has a hand with four many-jointed fingers and a double-jointed thumb.<a href="img/MonstersIntro-A.Aranea.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersIntro-A.Aranea.jpg" align="right"/></span></a></p>
+      <p>An <a href="ch60s08.html#MonstersIntro-A77">aranea</a> weighs about 150 pounds. The hump on its back houses its brain.</p>
+      <p><a href="ch60s08.html#MonstersIntro-A77">Araneas</a> speak Common and Sylvan.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1629540"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersIntro-A78"/>
+        <p>An <a href="ch60s08.html#MonstersIntro-A77">aranea</a> avoids physical combat and uses its webs and spells when it can. In a battle, it tries to immobilize or distract the most aggressive opponents first. <a href="ch60s08.html#MonstersIntro-A77">Araneas</a> often subdue opponents for ransom.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1629584"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A79"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 13, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1629613"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A80"/>
+          <p><span class="strong"><strong>Spells:</strong></span> An <a href="ch60s08.html#MonstersIntro-A77">aranea</a> casts spells as a 3rd-level sorcerer. It prefers illusions and enchantments and avoids fire spells.</p>
+          <p><span class="emphasis"><em>Typical Sorcerer Spells Known</em></span> (6/6; save DC 12 + spell level): 0- <span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G40">ghost sound</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>; 1st-<span class="emphasis"><em><a href="ch48.html#SpellsM-O2">mage armor</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS38">silent image</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1629745"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A81"/>
+          <p><span class="strong"><strong>Web (Ex):</strong></span> In spider or hybrid form (see below), an <a href="ch60s08.html#MonstersIntro-A77">aranea</a> can throw a web up to six times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and is effective against targets of up to Large size. The web anchors the target in place, allowing no movement.</p>
+          <p>An entangled creature can escape with a DC 13 <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> check or burst the web with a DC 17 Strength check. The check DCs are Constitution-based, and the Strength check DC includes a +4 racial bonus. The web has 6 hit points, hardness 0, and takes double damage from fire.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1629804"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A82"/>
+          <p><span class="strong"><strong>Change Shape (Su):</strong></span> An <a href="ch60s08.html#MonstersIntro-A77">aranea's</a> natural form is that of a Medium <a href="ch74s10.html#MonstersVermin29">monstrous spider</a>. It can assume two other forms. The first is a unique Small or Medium humanoid; an <a href="ch60s08.html#MonstersIntro-A77">aranea</a> in its humanoid form always assumes the same appearance and traits, much as a lycanthrope would. In humanoid form, an <a href="ch60s08.html#MonstersIntro-A77">aranea</a> cannot use its bite attack, webs, or poison.</p>
+          <p>The second form is a Medium spider-humanoid hybrid. In hybrid form, an <a href="ch60s08.html#MonstersIntro-A77">aranea</a> looks like a Medium humanoid at first glance, but a DC 18 <a href="ch16s03.html#CombinedSkills294">Spot</a> check reveals the creature's fangs and spinnerets. The <a href="ch60s08.html#MonstersIntro-A77">aranea</a> retains its bite attack, webs, and poison in this form, and can also wield weapons or wear armor. When in hybrid form, an <a href="ch60s08.html#MonstersIntro-A77">aranea's</a> speed is 30 feet (6 squares).</p>
+          <p>An <a href="ch60s08.html#MonstersIntro-A77">aranea</a> remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, nor does an <a href="ch60s08.html#MonstersIntro-A77">aranea</a> revert to its natural form when killed. A <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span> spell, however, reveals its natural form if it is in humanoid or hybrid form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1629959"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A83"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch60s08.html#MonstersIntro-A77">Araneas</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills192">Jump</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks. They have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks even if rushed or threatened.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch60s07.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch60.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch60s09.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Ankheg </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Archon</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

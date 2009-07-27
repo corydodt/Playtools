@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Remorhaz</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s17.html" title="Ravid"/>
+    <link rel="next" href="ch70s19.html" title="Roc"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Remorhaz</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s17.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s19.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2144003"/>Remorhaz</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch70s18.html#id2145116">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R132"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2144022">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Remorhaz</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d10+35 (73 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), burrow 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (-2 size, +1 Dex, +11 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +13 melee (2d8+12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +13 melee (2d8+12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities69">swallow whole</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., heat, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +10, Ref +6, Will +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 26, Dex 13, Con 21, Int 5, Wis 12, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> desert</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-14 HD (<a href="ch22.html#CombatII28">Huge</a>); 15-21 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch70s18.html#MonstersO-R132">remorhaz</a> is whitish-blue in color but pulses with a reddish glow from the heat its body produces. The creature is a little more than 20 feet long, with a body about 5 feet wide. It weighs about 10,000 pounds.<a href="img/MonstersO-R.Remorhaz.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Remorhaz.jpg" align="right"/></span></a></p>
+      <p><a href="ch70s18.html#MonstersO-R132">Remorhazes</a> cannot speak.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2145116"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R133"/>
+        <p><a href="ch70s18.html#MonstersO-R132">Remorhazes</a> hide under the snow and ice until they hear movement above them, then attack from below and surprise prey.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2145215"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R134"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch70s18.html#MonstersO-R132">remorhaz</a> must hit an opponent least one size category smaller than itself with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can attempt to swallow the opponent the following round.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2145257"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R135"/>
+          <p><span class="strong"><strong>Swallow Whole (Ex):</strong></span> When a <a href="ch70s18.html#MonstersO-R132">remorhaz</a> begins its turn with a grappled opponent in its mouth, it can swallow that opponent with a successful grapple check. Once inside, the opponent takes 2d8+12 points of bludgeoning damage plus 8d6 points of fire damage per round from the <a href="ch70s18.html#MonstersO-R132">remorhaz's</a> gizzard. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 25 points of damage to the gizzard (AC 15). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out. A Huge <a href="ch70s18.html#MonstersO-R132">remorhaz's</a> interior can hold 2 Large, 4 Medium, 8 Small, 32 Tiny, 128 Diminutive, or 512 Fine or smaller opponents.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2145324"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R136"/>
+          <p><span class="strong"><strong>Heat (Ex):</strong></span> An enraged <a href="ch70s18.html#MonstersO-R132">remorhaz</a> generates heat so intense that anything touching its body takes 8d6 points of fire damage. Creatures striking a <a href="ch70s18.html#MonstersO-R132">remorhaz</a> with natural attacks or unarmed attacks are subject to this damage, but creatures striking with melee weapons do not take damage from the <a href="ch70s18.html#MonstersO-R132">remorhaz's</a> heat. This heat can melt or char weapons; any weapon that strikes a <a href="ch70s18.html#MonstersO-R132">remorhaz</a> is allowed a DC 18 Fortitude save to avoid destruction. The save DC is Constitution-based. Skills: <a href="ch70s18.html#MonstersO-R132">Remorhazes</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s17.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s19.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Ravid </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Roc</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

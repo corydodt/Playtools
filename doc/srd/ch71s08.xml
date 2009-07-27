@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Shield Guardian</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch71.html" title="Monsters (S)"/>
+    <link rel="prev" href="ch71s07.html" title="Shambling Mound"/>
+    <link rel="next" href="ch71s09.html" title="Shocker Lizard"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Shield Guardian</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch71s07.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (S)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch71s09.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2172892"/>Shield Guardian</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch71s08.html#id2173953">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s08.html#id2174404">Construction</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s08.html#id2174546">Amulet</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersS50"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2172910">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Shield Guardian</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>15d10+30 (112 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>24 (-1 size, +15 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+11/+21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +16 melee (1d8+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +16 melee (1d8+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 5, find master, guard, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <span class="emphasis"><em><a href="ch50.html#SpellsS31">shield other</a></em></span>,  <span class="emphasis"><em>spell storing</em></span></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +5, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 22, Dex 10, Con -, Int -, Wis 10, Cha 1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>16-24 HD (<a href="ch22.html#CombatII28">Large</a>); 25-45 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>Created by spellcasters to be bodyguards, <a href="ch71s08.html#MonstersS50">shield guardians</a> are constructs that protect their masters with spells and stamina. When it is fashioned, a <a href="ch71s08.html#MonstersS50">shield guardian</a> is keyed to a particular magical amulet. Henceforth, it regards the wearer of that amulet to be its master, protecting and following that individual everywhere (unless specifically commanded not to do so).<a href="img/MonstersS.Shield_Guardian.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Shield_Guardian.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch71s08.html#MonstersS50">shield guardian</a> obeys its master's verbal commands to the best of its ability, although it is not good for much beyond combat and possibly simple manual labor. It can also be keyed to perform specific tasks at specific times or when certain conditions are met. The wearer of the amulet can call the <a href="ch71s08.html#MonstersS50">shield guardian</a> from any distance, and it will come as long as it is on the same plane.</p>
+      <p>A <a href="ch71s08.html#MonstersS50">shield guardian</a> is some 9 feet tall and weighs more than 1,200 pounds.</p>
+      <p><a href="ch71s08.html#MonstersS50">Shield guardians</a> cannot speak, but they understand commands given in any language.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2173953"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS51"/>
+        <p><a href="ch71s08.html#MonstersS50">Shield guardians</a> are straightforward in battle, bashing with their heavy stone fists. They are made for defense and are not particularly impressive on offense.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2173985"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS52"/>
+          <p><span class="strong"><strong>Find Master (Su):</strong></span> As long as a <a href="ch71s08.html#MonstersS50">shield guardian</a> and its amulet are on the same plane, the <a href="ch71s08.html#MonstersS50">shield guardian</a> can find the amulet wearer (or just the amulet, if it is removed after the guardian is called).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2174034"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS53"/>
+          <p><span class="strong"><strong>Guard (Ex):</strong></span> If ordered to do so, a <a href="ch71s08.html#MonstersS50">shield guardian</a> moves swiftly to defend the wearer of its amulet, blocking blows and disrupting foes. All attacks against the amulet wearer take a -2 penalty when the <a href="ch71s08.html#MonstersS50">shield guardian</a> is adjacent to its master.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2174084"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS54"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Shield Other</em></span> (Sp):</strong></span> The wearer of a <a href="ch71s08.html#MonstersS50">shield guardian's</a> amulet can activate this defensive ability if within 100 feet of the <a href="ch71s08.html#MonstersS50">shield guardian</a>. Just as the spell of the same name, this ability transfers to the <a href="ch71s08.html#MonstersS50">shield guardian</a> half the damage that would be dealt to the amulet wearer (this ability does not provide the spell's AC or save bonuses).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2174352"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS55"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Spell Storing</em></span> (Sp):</strong></span> A <a href="ch71s08.html#MonstersS50">shield guardian</a> can store one spell of 4th level or lower that is cast into it by another creature. It 'casts' this spell when commanded to do so or when a predefined situation arises. Once this spell is used, the <a href="ch71s08.html#MonstersS50">shield guardian</a> can store another spell (or the same spell again).</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2174404"/>Construction</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS56"/>
+        <p>A <a href="ch71s08.html#MonstersS50">shield guardian</a> is built from wood, bronze, stone, and steel. The materials cost 5,000 gp.</p>
+        <p>The creature's master may assemble the body or hire someone else to do the job. Creating the body requires a DC 16 <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) or <a href="ch16s03.html#CombinedSkills91">Craft</a> (carpentry) check. The keyed amulet is fashioned at the same time, and its cost (20,000 gp) is included in the cost of the guardian. After the body is sculpted, the <a href="ch71s08.html#MonstersS50">shield guardian</a> is animated through an extended magical ritual that requires a specially prepared laboratory or workroom, similar to an alchemist's laboratory and costing 500 gp to establish. If the creator is personally constructing the creature's body, the building and the ritual can be performed together. A <a href="ch71s08.html#MonstersS50">shield guardian</a> with more than 15 Hit Dice can be created, but each additional Hit Die adds +5,000 gp to the market price, and the price increases by +20,000 gp if the creature's size increases to Huge, modifying the cost to create accordingly.</p>
+        <p>CL 15th; <a href="ch20.html#MonsterFeats9">Craft Construct</a>, <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E36">discern location</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS28">shield</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS31">shield other</a></em></span>, <span class="emphasis"><em/></span> caster must be at least 15th level; Price 120,000 gp; Cost 65,000 gp + 4,600 XP.</p>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2174546"/>Amulet</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS57"/>
+        <p>If a <a href="ch71s08.html#MonstersS50">shield guardian's</a> amulet is destroyed, the guardian ceases to function until a new one is created. If the wearer dies but the amulet is intact, the <a href="ch71s08.html#MonstersS50">shield guardian</a> carries out the last command it was given.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch71s07.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch71.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch71s09.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Shambling Mound </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Shocker Lizard</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Mummy</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch69.html" title="Monsters (M-N)"/>
+    <link rel="prev" href="ch69s08.html" title="Mohrg"/>
+    <link rel="next" href="ch69s10.html" title="Naga"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Mummy</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s08.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (M-N)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch69s10.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2082805"/>Mummy</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch69s09.html#id2084504">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s09.html#id2084767">Mummy Lord</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersM-N94"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2082892">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Mummy</strong></span></p></td>
+<td><p><span class="strong"><strong><a href="ch69s09.html#MonstersM-N98">Mummy Lord</a>, 10th-Level Cleric</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d12+3 (55 hp)</p></td>
+<td><p>8d12 plus 10d8 (97 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>15 ft. in half-plate armor (3 squares); base <a href="ch21s02.html#CombatI14">speed</a> 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (+10 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 20</p></td>
+<td><p>30 (+1 Dex, +10 natural, +9 <span class="emphasis"><em>+2 half-plate armor</em></span>), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 29</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+11</p></td>
+<td><p>+11/+19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +11 melee (1d6+10 plus <a href="ch69s09.html#MonstersM-N94">mummy</a> rot)</p></td>
+<td><p>Slam +20 melee (1d6+12/19-20 plus <a href="ch69s09.html#MonstersM-N94">mummy</a> rot)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +11 melee (1d6+10 plus <a href="ch69s09.html#MonstersM-N94">mummy</a> rot)</p></td>
+<td><p>Slam +20 melee (1d6+12/19-20 plus <a href="ch69s09.html#MonstersM-N94">mummy</a> rot)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Despair, <a href="ch69s09.html#MonstersM-N94">mummy</a> rot</p></td>
+<td><p>Despair, <a href="ch69s09.html#MonstersM-N94">mummy</a> rot, <a href="ch22s03.html#CombatII113">rebuke</a> <a href="ch04.html#TypesSubtypesAbilities76">undead</a>, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, vulnerability to <a href="ch04.html#TypesSubtypesAbilities29">fire</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/-, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, vulnerability to <a href="ch04.html#TypesSubtypesAbilities29">fire</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +2, Will +8</p></td>
+<td><p>Fort +13, Ref +8, Will +20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 24, Dex 10, Con -, Int 6, Wis 14, Cha 15</p></td>
+<td><p>Str 26, Dex 12, Con -, Int 8, Wis 20, Cha 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +7, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +8, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +18, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (slam), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, warden squad (2-4), or guardian detail (6-10)</p></td>
+<td><p>Solitary or tomb guard (1 <a href="ch69s09.html#MonstersM-N94">mummy</a> lord and 6-10 <a href="ch69s09.html#MonstersM-N94">mummies</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+<td><p>15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard plus possessions noted below</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Medium</a>); 17-24 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch69s09.html#MonstersM-N94">Mummies</a> are preserved corpses animated through the auspices of dark desert gods best forgotten.<a href="img/MonstersM-N.Mummy.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Mummy.jpg" align="right"/></span></a></p>
+      <p>Most <a href="ch69s09.html#MonstersM-N94">mummies</a> are 5 to 6 feet tall and weigh about 120 pounds.</p>
+      <p><a href="ch69s09.html#MonstersM-N94">Mummies</a> can speak Common, but seldom bother to do so.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2084504"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N95"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2084522"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N96"/>
+          <p><span class="strong"><strong>Despair (Su):</strong></span> At the mere sight of a <a href="ch69s09.html#MonstersM-N94">mummy</a>, the viewer must succeed on a DC 16 Will save or be paralyzed with fear for 1d4 rounds. Whether or not the save is successful, that creature cannot be affected again by the same <a href="ch69s09.html#MonstersM-N94">mummy's</a> despair ability for 24 hours. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2084569"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N97"/>
+          <p><span class="strong"><strong>Mummy Rot (Su):</strong></span> Supernatural disease-slam, Fortitude DC 16, incubation period 1 minute; damage 1d6 Con and 1d6 Cha. The save DC is Charisma-based.</p>
+          <p>Unlike normal diseases, <a href="ch69s09.html#MonstersM-N94">mummy</a> rot continues until the victim reaches Constitution 0 (and dies) or is cured as described below.</p>
+          <p><a href="ch69s09.html#MonstersM-N94">Mummy</a> rot is a powerful curse, not a natural disease. A character attempting to cast any conjuration (healing) spell on a creature afflicted with <a href="ch69s09.html#MonstersM-N94">mummy</a> rot must succeed on a DC 20 caster level check, or the spell has no effect on the afflicted character.</p>
+          <p>To eliminate <a href="ch69s09.html#MonstersM-N94">mummy</a> rot, the curse must first be broken with <span class="emphasis"><em><a href="ch43.html#SpellsA-B50">break enchantment</a></em></span> or <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span> (requiring a DC 20 caster level check for either spell), after which a caster level check is no longer necessary to cast healing spells on the victim, and the <a href="ch69s09.html#MonstersM-N94">mummy</a> rot can be magically cured as any normal disease.</p>
+          <p>An afflicted creature who dies of <a href="ch69s09.html#MonstersM-N94">mummy</a> rot shrivels away into sand and dust that blow away into nothing at the first wind.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2084767"/>Mummy Lord</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N98"/>
+        <p>Unusually powerful or evil individuals preserved as <a href="ch69s09.html#MonstersM-N94">mummies</a> sometimes rise as greater <a href="ch69s09.html#MonstersM-N94">mummies</a> after death. A <a href="ch69s09.html#MonstersM-N94">mummy</a> lord resembles its lesser fellows, but often wears or carries equipment it used in life.<a href="img/MonstersM-N.Mummy_Lord.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Mummy_Lord.jpg" align="right"/></span></a></p>
+        <p><a href="ch69s09.html#MonstersM-N94">Mummy</a> lords are often potent spellcasters. They are found as guardians of the tombs of high lords, priests, and mages. Most are sworn to defend for eternity the resting place of those whom they served in life, but in some cases a <a href="ch69s09.html#MonstersM-N94">mummy</a> lord's unliving state is the result of a terrible curse or rite designed to punish treason, infidelity, or crimes of an even more abhorrent nature. A <a href="ch69s09.html#MonstersM-N94">mummy</a> lord of this sort is usually imprisoned in a tomb that is never meant to be opened again.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2084940"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N99"/>
+          <p><span class="strong"><strong>Despair (Su):</strong></span> The save DC against this <a href="ch69s09.html#MonstersM-N94">mummy</a> lord's despair is 17.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2084978"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N100"/>
+          <p><span class="strong"><strong>Mummy Rot (Su):</strong></span> The save DC against this <a href="ch69s09.html#MonstersM-N94">mummy</a> lord's <a href="ch69s09.html#MonstersM-N94">mummy</a> rot is 17.</p>
+          <p><span class="emphasis"><em>Typical Cleric Spells Prepared</em></span> (6/7/6/5/5/4; save DC 15 + spell level): 0-<span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span> (2), <span class="emphasis"><em><a href="ch46.html#SpellsF-G55">guidance</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z35">virtue</a></em></span>; 1st-<span class="emphasis"><em><a href="ch43.html#SpellsA-B33">bane</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC25">command</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E10">deathwatch</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E50">divine favor</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E55">doom</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS2">sanctuary</a>*</em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS29">shield of faith</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B51">bull's strength</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E8">death knell</a>*</em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R70">resist energy</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS37">silence</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS62">spiritual weapon</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B15">animate dead</a>*</em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E12">deeper darkness</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L55">invisibility purge</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS10">searing light</a></em></span>; 4th-<span class="emphasis"><em><a href="ch43.html#SpellsA-B6">air walk</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E39">dismissal</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E51">divine power</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G42">giant vermin</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS54">spell immunity</a>*</em></span>; 5th-<span class="emphasis"><em><a href="ch47.html#SpellsH-L49">insect plague</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS40">slay living</a>*</em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS56">spell resistance</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS101">symbol of pain</a></em></span>.</p>
+          <p>*Domain Spell. Domains: Death and Protection.</p>
+          <p>Possessions: +2 half-plate armor, cloak of resistance +2, ring of minor <a href="ch65s02.html#MonstersE-F7">elemental</a> resistance (fire), brooch of shielding. (Different <a href="ch69s09.html#MonstersM-N94">mummy</a> lords may have different possessions.)</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch69.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch69s10.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Mohrg </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Naga</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

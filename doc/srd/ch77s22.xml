@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Psion-Killer</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s21.html" title="Psicrystal"/>
+    <link rel="next" href="ch77s23.html" title="Puppeteer"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Psion-Killer</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s21.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s23.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2487242"/>Psion-Killer</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s22.html#id2488231">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch77s22.html#id2488471">Construction</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters184"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2487261">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Psion-Killer</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>15d10+30 (112 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>28 (-1 size, +19 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+11/+25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +20 melee (2d10+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +20 melee (2d10+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Dispel <a href="ch04.html#TypesSubtypesAbilities55">psionics</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch24.html#SpecialMaterials3">adamantine</a>, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities55">psionics</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +5, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 31, Dex 10, Con -, Int -, Wis 11, Cha 1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>16-21 HD (<a href="ch22.html#CombatII28">Large</a>); 22-45 (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> (also called a crystal <a href="ch76s04.html#EpicMonsters(G-W)25">golem</a>) is 9-1/2 feet tall and weighs around 2,500 pounds. Its body is composed of sharply faceted crystal.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2488231"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters185"/>
+        <p>A <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> does nothing without explicit orders from its creator. It follows instructions literally and is incapable of any strategy or tactics. <a href="ch77s22.html#PsionicMonsters184">Psion-killers</a> don't use weapons, even if ordered to, but always strike with their fists.</p>
+        <p>A <a href="ch77s22.html#PsionicMonsters184">psion-killer's</a> creator can command it if the <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> is within 60 feet and can see and hear its creator. If uncommanded, a <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> usually follows its last instruction to the best of its ability, though if attacked it returns the attack. Its creator can give a <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> a simple command to govern its actions in his or her absence.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2488321"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters186"/>
+          <p><span class="strong"><strong>Dispel Psionics (Su):</strong></span> A <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> can use <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F36">dispel psionics</a></em></span> as a free action once per round. The effect is as an area dispel in a 30-foot-radius burst. The dispel check is 1d20+10.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2488372"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters187"/>
+          <p><span class="strong"><strong>Construct Traits:</strong></span> A <a href="ch77s22.html#PsionicMonsters184">psion-killer</a> has immunity to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span> effects, paralysis, stunning, disease, death effects, necromancy effects, mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and any effect that requires a Fortitude save unless it also works on objects or is harmless. It is not subject to critical hits, nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. It cannot heal damage, but it can be repaired.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2488429"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters188"/>
+          <p><span class="strong"><strong>Immunity to Psionics (Ex):</strong></span> <a href="ch77s22.html#PsionicMonsters184">Psion-killers</a> completely resist psionic effects that are subject to power resistance.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2488471"/>Construction</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters189"/>
+        <p>A <a href="ch77s22.html#PsionicMonsters184">psion-killer's</a> body is constructed from massive blocks of quartz crystal with a total weight of at least 5,000 pounds and costing at least 8,000 gp. Assembling the body requires a DC 20 <a href="ch16s03.html#CombinedSkills91">Craft</a> (sculpting) check or a DC 20 <a href="ch16s03.html#CombinedSkills91">Craft</a> (stonemasonry) check.</p>
+        <p>ML 16th; <a href="ch19s03.html#PsionicsFeats57">Craft Psionic Construct</a>, <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C28">bend reality</a></em></span>, <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F36">dispel psionics</a></em></span>, <span class="emphasis"><em><a href="ch46.html#SpellsF-G2">fabricate</a></em></span>, <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P57">mind seed</a></em></span>, manifester must be at least 16th level; Price 150,000 gp; Cost 79,000 gp + 5,680 XP.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s21.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s23.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Psicrystal </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Puppeteer</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

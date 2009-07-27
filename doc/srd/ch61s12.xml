@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Chaos Beast</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="prev" href="ch61s11.html" title="Centaur"/>
+    <link rel="next" href="ch61s13.html" title="Chimera"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Chaos Beast</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61s11.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (B-C)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch61s13.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1650506"/>Chaos Beast</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch61s12.html#id1651430">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersB-C66"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1650525">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Chaos Beast</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+8 (44 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +10 melee (1d3+2 plus corporeal instability)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +10 melee (1d3+2 plus corporeal instability)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Corporeal instability</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to <a href="ch21s05.html#CombatI51">critical hits</a> and transformation, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +7, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 13, Con 13, Int 10, Wis 10, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +13, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +12, <a href="ch16s03.html#CombinedSkills179">Hide</a> +12, <a href="ch16s03.html#CombinedSkills192">Jump</a> +9, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills253">Search</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills303">Survival</a> +0 (+2 following tracks), <a href="ch16s03.html#CombinedSkills318">Tumble</a> +14, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +1 (+3 with bindings)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats253">Mobility</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Ever-Changing Chaos of Limbo</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description11">chaotic neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-12 HD (<a href="ch22.html#CombatII28">Medium</a>); 13-24 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>The horrific creatures known as <a href="ch61s12.html#MonstersB-C66">chaos beasts</a> have mutable, ever-changing forms. A <a href="ch61s12.html#MonstersB-C66">chaos beast's</a> dimensions vary, but it always weighs about 200 pounds.<a href="img/MonstersB-C.Chaos_Beast.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Chaos_Beast.jpg" align="right"/></span></a></p>
+      <p><a href="ch61s12.html#MonstersB-C66">Chaos beasts</a> do not speak.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1651430"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C67"/>
+        <p>For all its fearsome appearances, whether it has claws, fangs, pincers, tentacles, or spines, a <a href="ch61s12.html#MonstersB-C66">chaos beast</a> does little physical harm. Regardless of form, the creature seems unable to manage more than two attacks per round. Its continual transmutations prevent the coordination needed to do more.</p>
+        <p>A <a href="ch61s12.html#MonstersB-C66">chaos beast's</a> claw attacks, as well as any weapons it wields, are treated as chaotic-aligned for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1651480"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C68"/>
+          <p><span class="strong"><strong>Corporeal Instability (Su):</strong></span> A blow from a <a href="ch61s12.html#MonstersB-C66">chaos beast</a> against a living creature can cause a terrible transformation. The creature must succeed on a DC 15 Fortitude save or become a spongy, amorphous mass. Unless the victim manages to control the effect (see below), its shape melts, flows, writhes, and boils. The save DC is Constitution-based.</p>
+          <p>An affected creature is unable to hold or use any item. Clothing, armor, rings, and helmets become useless. Large items worn or carried-armor, backpacks, even shirts-hamper more than help, reducing the victim's Dexterity score by 4. Soft or misshapen feet and legs reduce speed to 10 feet or one-quarter normal, whichever is less. Searing pain courses along the nerves, so strong that the victim cannot act coherently. The victim cannot cast spells or use magic items, and it attacks blindly, unable to distinguish friend from foe (-4 penalty on attack rolls and a 50% miss chance, regardless of the attack roll).</p>
+          <p>Each round the victim spends in an amorphous state causes 1 point of Wisdom drain from mental shock. If the victim's Wisdom score falls to 0, it becomes a <a href="ch61s12.html#MonstersB-C66">chaos beast</a>.</p>
+          <p>A victim can regain its own shape by taking a standard action to attempt a DC 15 Charisma check (this check DC does not vary for a <a href="ch61s12.html#MonstersB-C66">chaos beast</a> with different Hit Dice or ability scores). A success reestablishes the creature's normal form for 1 minute. On a failure, the victim can still repeat this check each round until successful.</p>
+          <p>Corporeal instability is not a disease or a curse and so is hard to remove. A <span class="emphasis"><em><a href="ch50.html#SpellsS26">shapechange</a></em></span> or <span class="emphasis"><em><a href="ch50.html#SpellsS70">stoneskin</a></em></span> spell does not cure an afflicted creature but fixes its form for the duration of the spell. A <span class="emphasis"><em><a href="ch49.html#SpellsP-R71">restoration</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span>, <span class="emphasis"><em/></span> or <span class="emphasis"><em><a href="ch49.html#SpellsP-R72">greater restoration</a></em></span> spell removes the affliction (a separate <span class="emphasis"><em><a href="ch49.html#SpellsP-R71">restoration</a></em></span> is necessary to restore any drained points of Wisdom).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1651641"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C69"/>
+          <p><span class="strong"><strong>Immunity to Transformation (Ex):</strong></span> No mortal magic can permanently affect or fix a <a href="ch61s12.html#MonstersB-C66">chaos beast's</a> form. Effects such as polymorphing or petrification force the creature into a new shape, but at the start of its next turn it immediately returns to its mutable form as a free action.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61s11.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch61.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch61s13.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Centaur </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Chimera</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

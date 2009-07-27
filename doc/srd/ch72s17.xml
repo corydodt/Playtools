@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Wraith</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s16.html" title="Worg"/>
+    <link rel="next" href="ch72s18.html" title="Wyvern"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Wraith</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s16.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s18.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2239720"/>Wraith</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s17.html#id2241311">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s17.html#id2241445">Wraith</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s17.html#id2241577">Dread Wraith</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z127"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2239738">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Wraith</strong></span></p></td>
+<td><p><span class="strong"><strong>Dread Wraith</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a> (<a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a> (<a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>5d12 (32 hp)</p></td>
+<td><p>16d12 (104 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+<td><p>+13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 60 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>) (12 squares)</p></td>
+<td><p>Fly 60 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>) (12 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+3 Dex, +2 deflection), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+<td><p>25 (-1 size, +9 Dex, +7 deflection), <a href="ch21s02.html#CombatI12">touch</a> 25, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/-</p></td>
+<td><p>+8/-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +5 melee (1d4 plus 1d6 Constitution drain)</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +16 melee (2d6 plus 1d8 Constitution drain)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +5 melee (1d4 plus 1d6 Constitution drain)</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +16 melee (2d6 plus 1d8 Constitution drain)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Constitution drain, create spawn</p></td>
+<td><p>Constitution drain, create spawn</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., daylight powerlessness, <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> traits, +2 <a href="ch04.html#TypesSubtypesAbilities75">turn resistance</a>, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, unnatural aura</p></td>
+<td><p>Darkvision 60 ft., daylight powerlessness, <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> traits, lifesense 60 ft., <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, unnatural aura</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +4, Will +6</p></td>
+<td><p>Fort +5, Ref +14, Will +14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex 16, Con -, Int 14, Wis 14, Cha 15</p></td>
+<td><p>Str -, Dex 28, Con -, Int 17, Wis 18, Cha 24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +11, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +12, <a href="ch16s03.html#CombinedSkills253">Search</a> +10, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2 (+4 following tracks)</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +9, <a href="ch16s03.html#CombinedSkills179">Hide</a> +24, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +26, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +22, <a href="ch16s03.html#CombinedSkills204">Listen</a> +25, <a href="ch16s03.html#CombinedSkills253">Search</a> +22, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +23, <a href="ch16s03.html#CombinedSkills294">Spot</a> +25, <a href="ch16s03.html#CombinedSkills303">Survival</a> +4 (+6 following tracks)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (<a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a>), <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, gang (2-5), or pack (6-11)</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+<td><p>11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>6-10 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>17-32 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch72s17.html#MonstersT-Z127">Wraiths</a> are incorporeal creatures born of evil and darkness. In some cases, the grim silhouette of a <a href="ch72s17.html#MonstersT-Z127">wraith</a> might appear armored or outfitted with weapons. This appearance does not affect the creature's AC or combat abilities but only reflects the shape it had in life.<a href="img/MonstersT-Z.Wraith.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Wraith.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch72s17.html#MonstersT-Z127">wraith</a> is about as tall as a human, while a <a href="ch72s17.html#MonstersT-Z134">dread wraith</a> is roughly the size of an <a href="ch70.html#MonstersO-R2">ogre</a>. Since both are incorporeal, they are weightless.</p>
+      <p><a href="ch72s17.html#MonstersT-Z127">Wraiths</a> speak Common and <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2241311"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z128"/>
+        <p>Both the <a href="ch72s17.html#MonstersT-Z127">wraith</a> and the <a href="ch72s17.html#MonstersT-Z134">dread wraith</a> share the following abilities.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241352"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z129"/>
+          <p><span class="strong"><strong>Unnatural Aura (Su):</strong></span> Animals, whether wild or domesticated, can sense the unnatural presence of a <a href="ch72s17.html#MonstersT-Z127">wraith</a> at a distance of 30 feet. They will not willingly approach nearer than that and panic if forced to do so; they remain panicked as long as they are within that range.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241393"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z130"/>
+          <p><span class="strong"><strong>Daylight Powerlessness (Ex):</strong></span> <a href="ch72s17.html#MonstersT-Z127">Wraiths</a> are utterly powerless in natural sunlight (not merely a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell) and flee from it.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2241445"/>Wraith</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z131"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241463"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z132"/>
+          <p><span class="strong"><strong>Constitution Drain (Su):</strong></span> Living creatures hit by a <a href="ch72s17.html#MonstersT-Z127">wraith's</a> incorporeal touch attack must succeed on a DC 14 Fortitude save or take 1d6 points of Constitution drain. The save DC is Charisma-based. On each such successful attack, the <a href="ch72s17.html#MonstersT-Z127">wraith</a> gains 5 temporary hit points.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241514"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z133"/>
+          <p><span class="strong"><strong>Create Spawn (Su):</strong></span> Any humanoid slain by a <a href="ch72s17.html#MonstersT-Z127">wraith</a> becomes a <a href="ch72s17.html#MonstersT-Z127">wraith</a> in 1d4 rounds. Its body remains intact and inanimate, but its spirit is torn free from its corpse and transformed. Spawn are under the command of the <a href="ch72s17.html#MonstersT-Z127">wraith</a> that created them and remain enslaved until its death. They do not possess any of the abilities they had in life.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2241577"/>Dread Wraith</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z134"/>
+        <p>The oldest and most malevolent <a href="ch72s17.html#MonstersT-Z127">wraiths</a> lurk in the depths of forgotten temples and other forsaken places. They can sense the approach of living creatures, and hunger for them. Despite its size, the <a href="ch72s17.html#MonstersT-Z134">dread wraith</a> possesses unearthly quickness, and makes use of its <a href="ch17s03.html#Feats349">Spring Attack</a> feat and natural reach to strike with deadly effect and melt back into the shadows-or the walls.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241700"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z135"/>
+          <p><span class="strong"><strong>Lifesense (Su):</strong></span> A <a href="ch72s17.html#MonstersT-Z134">dread wraith</a> notices and locates living creatures within 60 feet, just as if it possessed the blindsight ability. It also senses the strength of their life force automatically, as if it had cast <span class="emphasis"><em><a href="ch45.html#SpellsD-E10">deathwatch</a></em></span>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241751"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z136"/>
+          <p><span class="strong"><strong>Constitution Drain (Su):</strong></span> Living creatures hit by a <a href="ch72s17.html#MonstersT-Z134">dread wraith's</a> incorporeal touch attack must succeed on a DC 25 Fortitude save or take 1d8 points of Constitution drain. The save DC is Charisma-based. On each such successful attack, the <a href="ch72s17.html#MonstersT-Z134">dread wraith</a> gains 5 temporary hit points.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2241802"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z137"/>
+          <p><span class="strong"><strong>Create Spawn (Su):</strong></span> Any humanoid slain by a <a href="ch72s17.html#MonstersT-Z134">dread wraith</a> becomes a <a href="ch72s17.html#MonstersT-Z127">wraith</a> in 1d4 rounds. Its body remains intact and inanimate, but its spirit is torn free from its corpse and transformed. Spawn are under the command of the <a href="ch72s17.html#MonstersT-Z127">wraith</a> that created them and remain enslaved until its death. They do not possess any of the abilities they had in life.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s16.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s18.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Worg </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Wyvern</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

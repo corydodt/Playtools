@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Lycanthrope</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="template"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch68.html" title="Monsters (K-L)"/>
+    <link rel="prev" href="ch68s10.html" title="Locathah"/>
+    <link rel="next" href="ch69.html" title="Monsters (M-N)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Lycanthrope</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch68s10.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (K-L)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch69.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1998686"/>Lycanthrope</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch68s11.html#id1998758">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id1998938">Werebear</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2001951">Wereboar</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2005469">Wererat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2009433">Weretiger</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2012237">Werewolf</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect3">
+                  <a href="ch68s11.html#id2014881">Lycanthrope, Werewolf Lord</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect4">
+                      <a href="ch68s11.html#id2020635">Combat</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2021369">Hill Giant Dire Wereboar</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2023927">Creating A Lycanthrope</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect3">
+                  <a href="ch68s11.html#id2025979">Lycanthropy as an Affliction</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect4">
+                      <a href="ch68s11.html#id2026105">Changing Form</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect4">
+                      <a href="ch68s11.html#id2026128">Curing Lycanthropy</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2026235">Lycanthropes as Characters</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch68s11.html#id2026581">Control Shape (Wis)</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">template</div>
+      </div>
+      <a class="indexterm" name="MonstersK-L87"/>
+      <p>Lycanthropes are humanoids or <a href="ch66s06.html#MonstersG67">giants</a> who can transform themselves into animals. In its natural form, a lycanthrope looks like any other members of its kind, though natural lycanthropes and those who have been afflicted for a long time tend to have or acquire features reminiscent of their animal forms. In animal form, a lycanthrope resembles a powerful version of the normal animal, but on close inspection, its eyes (which often glow red in the dark) show a faint spark of unnatural intelligence.<a href="img/MonstersK-L.Lycanthrope.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersK-L.Lycanthrope.jpg" align="right"/></span></a></p>
+      <p>Lycanthropy can be spread like a disease. Sometimes a lycanthrope begins life as a normal humanoid or <a href="ch66s06.html#MonstersG67">giant</a> who subsequently contracts lycanthropy after being wounded by a lycanthrope. Such a creature is called an afflicted lycanthrope. Other lycanthropes are born as lycanthropes, and are known as natural lycanthropes.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1998758"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L88"/>
+        <p>A lycanthrope in its humanoid (or <a href="ch66s06.html#MonstersG67">giant</a>) form uses whatever tactics and weapons are favored by others of its kind, though it tends to be slightly more aggressive. A lycanthrope possesses the senses of its animal form, including scent and low-light vision, and it has a deep empathy for (and ability to communicate with) animals of its animal form. An afflicted lycanthrope damaged in combat may be overwhelmed by rage, causing it to change to its animal form involuntarily.</p>
+        <p>A lycanthrope in animal form fights like the animal it resembles, although its bite carries the disease of lycanthropy. It is preternaturally cunning and strong, and possesses damage reduction that is overcome only by silvered weapons.</p>
+        <p>Finally, a natural lycanthrope (or an afflicted lycanthrope that has become aware of its affliction) can assume a hybrid form that is a mix of its humanoid and animal forms. A hybrid has hands and can use weapons, but it can also attack with its teeth and claws. A hybrid can spread lycanthropy with its bite, and it has the same damage reduction that its animal form possesses.</p>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1998938"/>Werebear</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch68s11.html#id2001586">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L89"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1998956">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Werebear, Human Form</strong></span></p></td> <td><p><span class="strong"><strong>Werebear, Bear Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Werebear, Hybrid Form</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 plus 6d8+30 (62 hp)</p></td>
+<td><p>1d8+1 plus 6d8+30 (62 hp)</p></td>
+<td><p>1d8+1 plus 6d8+30 (62 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+1</p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+2 natural, +3 studded leather armor), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>17 (-1 size, +1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>17 (-1 size, +1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+6</p></td>
+<td><p>+5/+18</p></td>
+<td><p>+5/+18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Greataxe +6 melee (1d12+1/x3) or throwing axe +5 ranged (1d6+1)</p></td>
+<td><p>Claw +13 melee (1d8+9)</p></td>
+<td><p>Greataxe +11 melee (1d12+13/x3); or claw +13 melee (1d6+9)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Greataxe +6 melee (1d12+1/x3) or throwing axe +5 ranged (1d6+1)</p></td>
+<td><p>2 claws +13 melee (1d8+9) and bite +11 melee (2d6+4)</p></td>
+<td><p>Claw +13 melee (1d6+9) and greataxe +9 melee (1d12+4/x3) and bite +11 melee (1d8+4) or 2 claws +13 melee (1d6+9) and bite +11 melee (1d8+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, curse of lycanthropy</p></td>
+<td><p>Curse of lycanthropy</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, bear empathy, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, bear empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, bear empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +5, Will +4</p></td>
+<td><p>Fort +12, Ref +6, Will +4</p></td>
+<td><p>Fort +12, Ref +6, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 29, Dex 13, Con 20, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 29, Dex 13, Con 20, Int 10, Wis 11, Cha 8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4, <a href="ch16s03.html#CombinedSkills311">Swim</a> +1</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4, <a href="ch16s03.html#CombinedSkills311">Swim</a> +13</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +5, <a href="ch16s03.html#CombinedSkills311">Swim</a> +9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> forests</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> forests</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, family (3-4), or troupe (2-4 plus 1-4 <a href="ch73s06.html#MonstersAnimals18">brown bears</a>)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description6">lawful good</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description6">lawful good</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description6">lawful good</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch68s11.html#MonstersK-L89">Werebears</a> in humanoid form tend to be stout, well-muscled, and hairy. Their brown hair is thick, and males usually wear beards. They may have reddish, blond, ivory, or black hair, matching the color of the ursine form. They dress in simple cloth and leather garments that are easy to remove, repair, or replace</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2001586"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L90"/>
+          <p><a href="ch68s11.html#MonstersK-L89">Werebears</a> fight just as <a href="ch73s06.html#MonstersAnimals18">brown bears</a> do in animal form. In humanoid or hybrid form, they favor large, heavy weapons such as greataxes or greatswords. The <a href="ch68s11.html#MonstersK-L89">werebear's</a> greataxe is a Medium weapon, so it can wield the axe in one hand in hybrid form.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2001637"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L91"/>
+            <p><span class="strong"><strong>Alternate Form (Su)</strong></span>: A <a href="ch68s11.html#MonstersK-L89">werebear</a> can assume the form of a <a href="ch73s06.html#MonstersAnimals18">brown bear</a> or a bear-humanoid hybrid.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2001685"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L92"/>
+            <p><span class="strong"><strong>Bear Empathy (Ex):</strong></span> Communicate with bears and <a href="ch63s03.html#MonstersDi-Do39">dire bears</a>, and +4 racial bonus on Charisma-based checks against bears and <a href="ch63s03.html#MonstersDi-Do39">dire bears</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2001734"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L93"/>
+            <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a <a href="ch68s11.html#MonstersK-L89">werebear's</a> bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2001782"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L94"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch68s11.html#MonstersK-L89">werebear</a> must be in bear form and must hit with a claw attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2001819"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L95"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch68s11.html#MonstersK-L89">Werebears</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills311">Swim</a> checks in any bear form.</p>
+            <p>The <a href="ch68s11.html#MonstersK-L89">werebear</a> presented here is a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2001951"/>Wereboar</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch68s11.html#id2005136">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L96"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2001969">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Wereboar, Human Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Wereboar, Boar Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Wereboar, Hybrid Form</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+4 plus 3d8+12 (34 hp)</p></td>
+<td><p>1d8+4 plus 3d8+12 (34 hp)</p></td>
+<td><p>1d8+4 plus 3d8+12 (34 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. in scale mail (4 squares); base <a href="ch21s02.html#CombatI14">speed</a> 30 ft.</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+2 natural, +4 scale mail, +2 heavy shield), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+<td><p>18 (+8 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+<td><p>18 (+8 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+4</p></td>
+<td><p>+3/+6</p></td>
+<td><p>+3/+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Battleaxe +4 melee (1d8+1/x3) or javelin +3 ranged (1d6+1)</p></td>
+<td><p>Gore +6 melee (1d8+4)</p></td>
+<td><p>Battleaxe +6 melee (1d8+4/x3) or claw +6 melee (1d4+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Battleaxe +4 melee (1d8+1/x3) or javelin +3 ranged (1d6+1)</p></td>
+<td><p>Gore +6 melee (1d8+4)</p></td>
+<td><p>Battleaxe +6 melee (1d8+4/x3) and gore +1 melee (1d6+1); or 2 claws +6 melee (1d4+3) and gore +1 melee (1d6+1)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Curse of lycanthropy</p></td>
+<td><p>Curse of lycanthropy</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s09.html#MonstersAnimals29">boar</a> empathy, ferocity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s09.html#MonstersAnimals29">boar</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, ferocity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s09.html#MonstersAnimals29">boar</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, ferocity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +3, Will +3</p></td>
+<td><p>Fort +9, Ref +3, Will +3</p></td>
+<td><p>Fort +9, Ref +3, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 17, Dex 11, Con 18, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 17, Dex 11, Con 18, Int 10, Wis 11, Cha 8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +3, <a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, brood (3-4), or troupe (2-4 plus 1-4 <a href="ch73s09.html#MonstersAnimals29">boars</a>)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch68s11.html#MonstersK-L96">wereboar</a> in humanoid form tends to be a stocky, muscular individual of average height. It dresses in simple garments that are easy to remove, repair, or replace.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2005136"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L97"/>
+          <p>In any form, <a href="ch68s11.html#MonstersK-L96">wereboars</a> are as ferocious as normal <a href="ch73s09.html#MonstersAnimals29">boars</a>. When in hybrid form, they fight with a weapon and their dangerous gore attack.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2005178"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L98"/>
+            <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A <a href="ch68s11.html#MonstersK-L96">wereboar</a> can assume the form of a <a href="ch73s09.html#MonstersAnimals29">boar</a> or a boar-humanoid hybrid.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2005226"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L99"/>
+            <p><span class="strong"><strong>Boar Empathy (Ex):</strong></span> Communicate with <a href="ch73s09.html#MonstersAnimals29">boars</a> and <a href="ch63s03.html#MonstersDi-Do42">dire boars</a>, and +4 racial bonus on Charisma-based checks against <a href="ch73s09.html#MonstersAnimals29">boars</a> and <a href="ch63s03.html#MonstersDi-Do42">dire boars</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2005362"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L100"/>
+            <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by the <a href="ch68s11.html#MonstersK-L96">wereboar's</a> gore attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2005411"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L101"/>
+            <p><span class="strong"><strong>Ferocity (Ex):</strong></span> A <a href="ch68s11.html#MonstersK-L96">wereboar</a> is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.</p>
+            <p>The <a href="ch68s11.html#MonstersK-L96">wereboar</a> presented here is a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2005469"/>Wererat</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch68s11.html#id2008114">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L102"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2005488">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Wererat, Human Form</strong></span></p></td> <td><p><span class="strong"><strong>Wererat, Dire Rat Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Wererat, Hybrid Form</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 plus 1d8+2 (12 hp)</p></td>
+<td><p>1d8+1 plus 1d8+2 (12 hp)</p></td>
+<td><p>1d8+1 plus 1d8+2 (12 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>40 ft. (8 squares), climb 20 ft.</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+2 natural, +2 leather, +1 buckler), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>17 (+1 size, +3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>16 (+3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+2</p></td>
+<td><p>+1/-2</p></td>
+<td><p>+1/+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Rapier +2 melee (1d6+1/18-20) or light crossbow +1 ranged (1d8/19-20)</p></td>
+<td><p>Bite +6 melee (1d4+1 plus disease)</p></td>
+<td><p>Rapier +5 melee (1d6+1/18-20) or light crossbow +4 ranged (1d8/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Rapier +2 melee (1d6+1/18-20) or light crossbow +1 ranged (1d8/19-20)</p></td>
+<td><p>Bite +6 melee (1d4+1 plus disease)</p></td>
+<td><p>Rapier +4 melee (1d6+1/18-20) and bite -1 melee (1d6 plus disease); or light crossbow +4 ranged (1d8/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Curse of lycanthropy, disease</p></td>
+<td><p>Curse of lycanthropy, disease</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s36.html#MonstersAnimals133">rat</a> empathy, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s36.html#MonstersAnimals133">rat</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s36.html#MonstersAnimals133">rat</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +2, Will +4</p></td>
+<td><p>Fort +6, Ref +5, Will +4</p></td>
+<td><p>Fort +6, Ref +5, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 13, Dex 17, Con 14, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 13, Dex 17, Con 14, Int 10, Wis 11, Cha 8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +0, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +1, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +0, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4, <a href="ch16s03.html#CombinedSkills311">Swim</a> +9</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +11, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4, <a href="ch16s03.html#CombinedSkills311">Swim</a> +11</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +4, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +5, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4, <a href="ch16s03.html#CombinedSkills311">Swim</a> +9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, pack (6-10), or troupe (2-5 plus 5-8 <a href="ch63s03.html#MonstersDi-Do51">dire rats</a>)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch68s11.html#MonstersK-L102">wererat</a> in humanoid form tends to be a thin, wiry individual of shorter than average height. The eyes constantly dart around, and the nose and mouth may twitch if he or she is excited. Males often have thin, ragged mustaches.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2008114"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L103"/>
+          <p>In animal form, <a href="ch68s11.html#MonstersK-L102">wererats</a> avoid combat, preferring to use their <a href="ch63s03.html#MonstersDi-Do51">dire rat</a> shape for skulking and spying. In hybrid form, a <a href="ch68s11.html#MonstersK-L102">wererat</a> fights with a rapier and light crossbow.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2008302"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L104"/>
+            <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A <a href="ch68s11.html#MonstersK-L102">wererat</a> can assume a bipedal hybrid form or the form of a <a href="ch63s03.html#MonstersDi-Do51">dire rat</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2008418"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L105"/>
+            <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a <a href="ch68s11.html#MonstersK-L102">wererat's</a> bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2008468"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L106"/>
+            <p><span class="strong"><strong>Disease (Ex):</strong></span> Filth fever; bite, Fortitude DC 12, incubation period 1d3 days, damage 1d3 Dex and 1d3 Con. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2008498"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L107"/>
+            <p><span class="strong"><strong>Rat Empathy (Ex):</strong></span> Communicate with <a href="ch73s36.html#MonstersAnimals133">rats</a> and <a href="ch63s03.html#MonstersDi-Do51">dire rats</a>, and +4 racial bonus on Charisma-based checks against <a href="ch73s36.html#MonstersAnimals133">rats</a> and <a href="ch63s03.html#MonstersDi-Do51">dire rats</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2008565"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L108"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch68s11.html#MonstersK-L102">wererat</a> in <a href="ch73s36.html#MonstersAnimals133">rat</a> or hybrid form uses its Dexterity modifier for <a href="ch16s03.html#CombinedSkills71">Climb</a> or <a href="ch16s03.html#CombinedSkills311">Swim</a> checks. It has a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills71">Climb</a> check, even if rushed or threatened.</p>
+            <p><a href="ch68s11.html#MonstersK-L102">Wererats</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills311">Swim</a> checks from their <a href="ch63s03.html#MonstersDi-Do51">dire rat</a> form.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2009367"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L109"/>
+            <p><span class="strong"><strong>Feats:</strong></span> <a href="ch68s11.html#MonstersK-L102">Wererats</a> gain <a href="ch17s03.html#Feats386">Weapon Finesse</a> as a bonus feat.</p>
+            <p>The <a href="ch68s11.html#MonstersK-L102">wererat</a> presented here is based on a 1st-level human warrior who is a natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2009433"/>Weretiger</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch68s11.html#id2011786">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L110"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2009452">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Weretiger, Human Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Weretiger, Tiger Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Weretiger, Hybrid Form</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 plus 6d8+18 (50 hp)</p></td>
+<td><p>1d8+1 plus 6d8+18 (50 hp)</p></td>
+<td><p>1d8+1 plus 6d8+18 (50 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+<td><p>+6</p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. in breastplate (4 squares); base <a href="ch21s02.html#CombatI14">speed</a> 30 ft.</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+2 natural, +5 breastplate), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>16 (-1 size, +2 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>16 (-1 size, +2 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+6</p></td>
+<td><p>+5/+16</p></td>
+<td><p>+5/+16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Glaive +6 melee (1d10+1/x3) or composite longbow (+1 Str bonus) +5 ranged (1d8+1/x3)</p></td>
+<td/>
+<td/>
+
+</tr>
+            <tr><td/>
+<td><p>Claw +11 melee (1d8+7)</p></td>
+<td><p>Claw +11 melee (1d8+7)</p></td>
+<td/>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Glaive +6 melee (1d10+1/x3) or composite longbow (+1 Str bonus) +5 ranged (1d8+1/x3)</p></td>
+<td><p>2 claws +11 melee (1d8+7) and bite +6 melee (2d6+3)</p></td>
+<td><p>2 claws +11 melee (1d8+7) and bite +6 melee (2d6+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft. (10 ft. with glaive)</p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities53">Pounce</a>, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a>, curse of lycanthropy</p></td>
+<td><p>Curse of lycanthropy</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s43.html#MonstersAnimals167">tiger</a> empathy, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s43.html#MonstersAnimals167">tiger</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s43.html#MonstersAnimals167">tiger</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +5, Will +4</p></td>
+<td><p>Fort +10, Ref +7, Will +4</p></td>
+<td><p>Fort +10, Ref +7, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 25, Dex 15, Con 16, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 25, Dex 15, Con 16, Int 10, Wis 11, Cha 8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +0, <a href="ch16s03.html#CombinedSkills71">Climb</a> +1, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +0, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +0, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +6, <a href="ch16s03.html#CombinedSkills71">Climb</a> +12, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +2*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +6, <a href="ch16s03.html#CombinedSkills71">Climb</a> +12, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +2, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (bite, claw), <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup></p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm forests</p></td>
+<td><p>Warm forests</p></td>
+<td><p>Warm forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch68s11.html#MonstersK-L110">Weretigers</a> in humanoid form tend to be sleekly muscular, taller than average, and very agile.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2011786"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L111"/>
+          <p><a href="ch68s11.html#MonstersK-L110">Weretigers</a> can assume a hybrid form as well as an animal form. In <a href="ch73s43.html#MonstersAnimals167">tiger</a> form, they can pounce and grab just as normal <a href="ch73s43.html#MonstersAnimals167">tigers</a> do. In hybrid form, they rely on their deadly claws.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2011837"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L112"/>
+            <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A <a href="ch68s11.html#MonstersK-L110">weretiger</a> can assume a bipedal hybrid form or the form of a <a href="ch73s43.html#MonstersAnimals167">tiger</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2011885"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L113"/>
+            <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a <a href="ch68s11.html#MonstersK-L110">weretiger's</a> bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2011934"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L114"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch68s11.html#MonstersK-L110">weretiger</a> in <a href="ch73s43.html#MonstersAnimals167">tiger</a> form must hit with a claw or bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can rake.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2011986"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L115"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch68s11.html#MonstersK-L110">weretiger</a> in <a href="ch73s43.html#MonstersAnimals167">tiger</a> form charges an opponent, it can make a full attack, including two rake attacks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2012034"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L116"/>
+            <p><span class="strong"><strong>Rake (Ex):</strong></span> Attack bonus +9 melee, damage 1d8+3.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2012063"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L117"/>
+            <p><span class="strong"><strong>Tiger Empathy (Ex):</strong></span> Communicate with <a href="ch73s43.html#MonstersAnimals167">tigers</a> and <a href="ch63s03.html#MonstersDi-Do61">dire tigers</a>, and +4 racial bonus on Charisma-based checks against <a href="ch73s43.html#MonstersAnimals167">tigers</a> and <a href="ch63s03.html#MonstersDi-Do61">dire tigers</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2012130"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L118"/>
+            <p><span class="strong"><strong>Skills:</strong></span> In any form, <a href="ch68s11.html#MonstersK-L110">weretigers</a> have a +4 bonus on <a href="ch16s03.html#CombinedSkills55">Balance</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks. *In areas of tall grass or heavy undergrowth, the <a href="ch16s03.html#CombinedSkills179">Hide</a> bonus improves to +8 in the <a href="ch73s43.html#MonstersAnimals167">tiger</a> form.</p>
+            <p>The <a href="ch68s11.html#MonstersK-L110">weretiger</a> presented here is a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2012237"/>Werewolf</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch68s11.html#id2014251">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect3">
+                <a href="ch68s11.html#id2014881">Lycanthrope, Werewolf Lord</a>
+              </span>
+            </dt>
+            <dd>
+              <dl>
+                <dt>
+                  <span class="sect4">
+                    <a href="ch68s11.html#id2020635">Combat</a>
+                  </span>
+                </dt>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L119"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2012255">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Werewolf, Human Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Werewolf, Wolf Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Werewolf, Hybrid Form</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 plus 2d8+6 (20 hp)</p></td>
+<td><p>1d8+1 plus 2d8+6 (20 hp)</p></td>
+<td><p>1d8+1 plus 2d8+6 (20 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+<td><p>+6</p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>50 ft. (10 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+2 natural, +4 chain shirt, +1 light shield), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>16 (+2 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>16 (+2 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+3</p></td>
+<td><p>+2/+4</p></td>
+<td><p>+2/+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Longsword +3 melee (1d8+1/19-20) or light crossbow +2 ranged (1d8/19-20)</p></td>
+<td><p>Bite +5 melee (1d6+3)</p></td>
+<td><p>Claw +4 melee (1d4+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Longsword +3 melee (1d8+1/19-20) or light crossbow +2 ranged (1d8/19-20)</p></td>
+<td><p>Bite +5 melee (1d6+3)</p></td>
+<td><p>2 claws +4 melee (1d4+2) and bite +0 melee (1d6+1)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Curse of lycanthropy, <a href="ch22s03.html#CombatII100">trip</a></p></td>
+<td><p>Curse of lycanthropy</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a> empathy, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +3, Will +2</p></td>
+<td><p>Fort +8, Ref +5, Will +2</p></td>
+<td><p>Fort +8 Ref +5, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 15, Dex 15, Con 16, Int 10, Wis 11, Cha 8</p></td>
+<td><p>Str 15, Dex 15, Con 16, Int 10, Wis 11, Cha 8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +1, <a href="ch16s03.html#CombinedSkills179">Hide</a> +1, <a href="ch16s03.html#CombinedSkills204">Listen</a> +1, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +1, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +1, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +1, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +1, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2*</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +1, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +1, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +1, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2*</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch17s03.html#Feats353">Stealthy</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, pack (6-10), or troupe (2-5 plus 5-8 <a href="ch73s47.html#MonstersAnimals183">wolves</a>)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch68s11.html#MonstersK-L119">Werewolves</a> in humanoid form have no distinguishing traits.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2014251"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L120"/>
+          <p>In <a href="ch73s47.html#MonstersAnimals183">wolf</a> form, a <a href="ch68s11.html#MonstersK-L119">werewolf</a> can trip just as a normal <a href="ch73s47.html#MonstersAnimals183">wolf</a> does. A <a href="ch68s11.html#MonstersK-L119">werewolf</a> in hybrid form usually dispenses with weapon attacks, though it can wield a weapon and use its bite as a secondary natural attack.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2014381"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L121"/>
+            <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A <a href="ch68s11.html#MonstersK-L119">werewolf</a> can assume a bipedal hybrid form or the form of a <a href="ch73s47.html#MonstersAnimals183">wolf</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2014566"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L122"/>
+            <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a <a href="ch68s11.html#MonstersK-L119">werewolf's</a> bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2014616"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L123"/>
+            <p><span class="strong"><strong>Trip (Ex):</strong></span> A <a href="ch68s11.html#MonstersK-L119">werewolf</a> in animal form that hits with a bite attack can attempt to trip the opponent (+2 check modifier) as a free action without making a touch attack or provoking an attack of opportunity.</p>
+            <p>If the attempt fails, the opponent cannot react to trip the <a href="ch68s11.html#MonstersK-L119">werewolf</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2014669"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L124"/>
+            <p><span class="strong"><strong>Wolf Empathy (Ex):</strong></span> Communicate with <a href="ch73s47.html#MonstersAnimals183">wolves</a> and <a href="ch63s03.html#MonstersDi-Do71">dire wolves</a>, and +4 racial bonus on Charisma-based checks against <a href="ch73s47.html#MonstersAnimals183">wolves</a> and <a href="ch63s03.html#MonstersDi-Do71">dire wolves</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2014737"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L125"/>
+            <p><span class="strong"><strong>Skills:</strong></span> *A <a href="ch68s11.html#MonstersK-L119">werewolf</a> in hybrid or <a href="ch73s47.html#MonstersAnimals183">wolf</a> form gains a +4 racial bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> checks when tracking by scent.</p>
+            <p>The <a href="ch68s11.html#MonstersK-L119">werewolf</a> presented here is based on a 1st-level human warrior and natural lycanthrope, using the following base ability scores: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+            <p/>
+          </div>
+        </div>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id2014881"/>Lycanthrope, Werewolf Lord</h4>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch68s11.html#id2020635">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L126"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2014968">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Werewolf Lord, Human Form</strong></span> </p></td> <td><p><span class="strong"><strong>Werewolf Lord, Dire Wolf Form</strong></span> </p></td>
+<td><p><span class="strong"><strong>Werewolf Lord, Hybrid Form</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a></p></td>
+
+</tr>
+              <tr><td/>
+<td><p>(Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p>(Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p>(Human, <a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span> </p></td>
+<td><p>10d10+20 plus 6d8+30 (132 hp)</p></td>
+<td><p>10d10+20 plus 6d8+30 (132 hp)</p></td>
+<td><p>10d10+20 plus 6d8+30 (132 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span> </p></td>
+<td><p>+2</p></td>
+<td><p>+4</p></td>
+<td><p>+4</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span> </p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span> </p></td>
+<td><p>26 (+2 Dex, +3 natural, +6 <span class="emphasis"><em>+2 mithral chain shirt</em></span>, <span class="emphasis"><em/></span> +5 <span class="emphasis"><em>+3 heavy <a href="ch50.html#SpellsS28">shield</a></em></span>), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 24</p></td>
+<td><p>19 (-1 size, +4 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>19 (-1 size, +4 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span> </p></td>
+<td><p>+14/+18</p></td>
+<td><p>+14/+29</p></td>
+<td><p>+14/+27</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span> </p></td>
+<td><p><span class="emphasis"><em>+2 bastard sword</em></span> +21 melee (1d10+8/17-20) or masterwork composite longbow (+4 Str bonus) (2d8+15/17-20) +17 ranged (1d8+4/x3)</p></td>
+<td><p>Bite +25 melee (2d6+16/19-20)</p></td>
+<td><p>Claw +24 melee (1d6+11) or <span class="emphasis"><em>+2 bastard sword</em></span> +27 melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span> </p></td>
+<td><p><span class="emphasis"><em>+2 bastard sword</em></span> +21/+16/+11 melee (1d10+8/17-20) or masterwork composite longbow (+4 Str bonus) +17/+12/+7ranged (1d8+4/x3)</p></td>
+<td><p>Bite +25 melee (2d6+16/19-20)</p></td>
+<td><p>2 claws +24 melee (1d6+11) and bite +20 melee (2d6+5/19-20); or <span class="emphasis"><em>+2 bastard sword</em></span> +27/+22/+17 melee (2d8+15/17-20) and bite +20 melee (2d6+5/19-20)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span> </p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span> </p></td>
+<td><p>-</p></td>
+<td><p>Curse of lycanthropy, <a href="ch22s03.html#CombatII100">trip</a></p></td>
+<td><p>Curse of lycanthropy</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span> </p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a> empathy, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span> </p></td>
+<td><p>Fort +16, Ref +12, Will +13</p></td>
+<td><p>Fort +17, Ref +12, Will +11</p></td>
+<td><p>Fort +17, Ref +12, Will +11</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span> </p></td>
+<td><p>Str 18, Dex 14, Con 14, Int 10, Wis 12, Cha 12</p></td>
+<td><p>Str 32, Dex 18, Con 20, Int 10, Wis 12, Cha 12</p></td>
+<td><p>Str 32, Dex 18, Con 20, Int 10, Wis 12, Cha 12</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span> </p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +9, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills303">Survival</a> +5</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +9, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills303">Survival</a> +5*</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +9, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills303">Survival</a> +5*</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span> </p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats118">Exotic Weapon Proficiency</a> (bastard Sword), <a href="ch17s03.html#Feats170">Improved Critical</a> (bastard sword), <a href="ch17s03.html#Feats170">Improved Critical</a> (bite), <a href="ch20.html#MonsterFeats24">Improved Natural Armor</a>, <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (bite), <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats353">Stealthy</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bastard sword), <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite), <a href="ch17s03.html#Feats394">Weapon Specialization</a> (bastard sword)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span> </p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Temperate forests</p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span> </p></td>
+<td><p>Solitary, pair, or pack (1-2 <a href="ch68s11.html#MonstersK-L119">werewolf</a> lords plus 2-4 <a href="ch68s11.html#MonstersK-L119">werewolves</a> plus 5-8 <a href="ch73s47.html#MonstersAnimals183">wolves</a>)</p></td>
+<td><p>(same as human form)</p></td>
+<td><p>(same as human form)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span> </p></td>
+<td><p>14</p></td>
+<td><p>14</p></td>
+<td><p>14</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span> </p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span> </p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span> </p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span> </p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+          <p>Stronger, hardier, and more deadly than its lesser fellows, the <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord is a murderous beast that delights in wreaking havoc.<a href="img/MonstersK-L.Lycanthrope_Werewolf_Lord.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersK-L.Lycanthrope_Werewolf_Lord.jpg" align="right"/></span></a></p>
+          <p>The <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord presented here is a 10th-level human fighter and natural lycanthrope, using the following base ability scores: Str 16, Dex 14, Con 14, Int 10, Wis 10, Cha 12.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2020635"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L127"/>
+            <p><a href="ch68s11.html#MonstersK-L119">Werewolf</a> lords can assume a hybrid form as well as an animal form. In <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a> form, they can trip just as normal <a href="ch73s47.html#MonstersAnimals183">wolves</a> do. In hybrid form, they can wield weapons or fight with their claws.</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2020685"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersK-L128"/>
+              <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord can assume a bipedal hybrid form or the form of a <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2021006"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersK-L129"/>
+              <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord's bite attack in <a href="ch73s47.html#MonstersAnimals183">wolf</a> or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2021066"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersK-L130"/>
+              <p><span class="strong"><strong>Trip (Ex):</strong></span> A <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord in <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a> form that hits with a bite attack can attempt to trip the opponent (+15 check modifier) as a free action without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2021122"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersK-L131"/>
+              <p><span class="strong"><strong>Wolf Empathy (Ex):</strong></span> Communicate with <a href="ch73s47.html#MonstersAnimals183">wolves</a> and <a href="ch63s03.html#MonstersDi-Do71">dire wolves</a>, and +4 racial bonus on Charisma-based checks against <a href="ch73s47.html#MonstersAnimals183">wolves</a> and <a href="ch63s03.html#MonstersDi-Do71">dire wolves</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2021189"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersK-L132"/>
+              <p><span class="strong"><strong>Skills:</strong></span> *A <a href="ch68s11.html#MonstersK-L119">werewolf</a> lord in hybrid or <a href="ch73s47.html#MonstersAnimals183">wolf</a> form gains a +4 racial bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> checks when tracking by scent.</p>
+              <p><span class="emphasis"><em>Possessions: +2 mithral chain shirt</em></span>,  <span class="emphasis"><em>+3 heavy <a href="ch50.html#SpellsS28">shield</a></em></span>,  <span class="emphasis"><em>+2 bastard sword</em></span>,  <span class="emphasis"><em>gauntlets of ogre power</em></span>,  <span class="emphasis"><em>cloak of <a href="ch49.html#SpellsP-R69">resistance</a> +2</em></span>, <span class="emphasis"><em/></span> masterwork composite longbow (+4 Str bonus)<span class="emphasis"><em/></span>.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2021369"/>Hill Giant Dire Wereboar</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch68s11.html#id2023450">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L133"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2021388">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Hill Giant Dire Wereboar Giant Form</strong></span> </p></td> <td><p><span class="strong"><strong>Hill Giant Dire Wereboar Dire Boar Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Hill Giant Dire Wereboar Hybrid Boar Form</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a> (<a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a> (<a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a> (<a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d8+51 plus 7d8+49 (185 hp)</p></td>
+<td><p>12d8+51 plus 7d8+49 (185 hp)</p></td>
+<td><p>12d8+51 plus 7d8+49 (185 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. in hide armor (6 squares); base <a href="ch21s02.html#CombatI14">speed</a> 40 ft.</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (-1 size, -1 Dex, +11 natural, +3 hide armor), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 22</p></td>
+<td><p>16 (-1 size, -1 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>19 (-1 size, -1 Dex, +11 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+14/+25</p></td>
+<td><p>+14/+33</p></td>
+<td><p>+14/+33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Greatclub +21 melee (2d8+10) or slam +20 melee (1d4+7) or rock +12 ranged (2d6+7)</p></td>
+<td><p>Gore +28 melee (1d8+22)</p></td>
+<td><p>Greatclub +29 melee (2d8+22) or claw +28 melee (1d6+15)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Greatclub +21/+16 melee (2d8+10) or 2 slams +20 melee (1d4+7) or rock +12 ranged (2d6+7)</p></td>
+<td><p>Gore +28 melee (1d8+22)</p></td>
+<td><p>Greatclub +29 melee (2d8+22) and gore +23 melee (1d8+7); or 2 claws +28 melee (1d6+15) and gore +23 melee (1d8+7)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rock throwing</p></td>
+<td><p>Curse of lycanthropy</p></td>
+<td><p>Curse of lycanthropy</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s09.html#MonstersAnimals29">boar</a> empathy, ferocity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, rock catching, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s09.html#MonstersAnimals29">boar</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, ferocity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities4">Alternate form</a>, <a href="ch73s09.html#MonstersAnimals29">boar</a> empathy, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/silver, ferocity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +17, Ref +8, Will +12</p></td>
+<td><p>Fort +20, Ref +8, Will +12</p></td>
+<td><p>Fort +20, Ref +8, Will +12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 8, Con 19, Int 6, Wis 12, Cha 7</p></td>
+<td><p>Str 41, Dex 8, Con 25, Int 6, Wis 12, Cha 7</p></td>
+<td><p>Str 41, Dex 8, Con 25, Int 6, Wis 12, Cha 7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +10, <a href="ch16s03.html#CombinedSkills192">Jump</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +18, <a href="ch16s03.html#CombinedSkills192">Jump</a> +22, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +18, <a href="ch16s03.html#CombinedSkills192">Jump</a> +22, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a> <sup>B</sup>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (greatclub)</p></td>
+<td><p>(same as <a href="ch04.html#TypesSubtypesAbilities33">giant</a> form)</p></td>
+<td><p>(same as <a href="ch04.html#TypesSubtypesAbilities33">giant</a> form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate hills</p></td>
+<td><p>Temperate hills</p></td>
+<td><p>Temperate hills</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, brood (3-4), or troupe (2-4 plus 1-4 <a href="ch63s03.html#MonstersDi-Do42">dire boars</a>)</p></td>
+<td><p>(same as <a href="ch04.html#TypesSubtypesAbilities33">giant</a> form)</p></td>
+<td><p>(same as <a href="ch04.html#TypesSubtypesAbilities33">giant</a> form)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>11</p></td>
+<td><p>11</p></td>
+<td><p>11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+<td><p>+7</p></td>
+<td><p>+7</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Dire <a href="ch68s11.html#MonstersK-L96">wereboars</a> in <a href="ch66s06.html#MonstersG67">giant</a> form look much like normal <a href="ch66s06.html#MonstersG93">hill giants</a>, though slightly stockier, and with coarser, stiffer hair and stiff. The dire <a href="ch68s11.html#MonstersK-L96">wereboar</a> described here is based on a <a href="ch66s06.html#MonstersG93">hill giant</a> and natural lycanthrope with normal ability scores for a <a href="ch66s06.html#MonstersG93">hill giant</a>.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2023450"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L134"/>
+          <p>Dire <a href="ch68s11.html#MonstersK-L96">wereboars</a> anger quickly. They usually begin a battle in <a href="ch66s06.html#MonstersG67">giant</a> form, then switch to hybrid form to take advantage of their immense strength in that shape. They like to use their <a href="ch17s03.html#Feats163">Improved Bull Rush</a> and <a href="ch17s03.html#Feats209">Improved Sunder</a> feats to shove opponents around and smash their weapons and shields.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2023513"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L135"/>
+            <p><span class="strong"><strong>Alternate Form (Su):</strong></span> A dire <a href="ch68s11.html#MonstersK-L96">wereboar</a> can assume a bipedal hybrid form or the form of a <a href="ch63s03.html#MonstersDi-Do42">dire boar</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2023561"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L136"/>
+            <p><span class="strong"><strong>Boar Empathy (Ex):</strong></span> Communicate with <a href="ch73s09.html#MonstersAnimals29">boars</a> and <a href="ch63s03.html#MonstersDi-Do42">dire boars</a>, and +4 racial bonus on Charisma-based checks against <a href="ch73s09.html#MonstersAnimals29">boars</a> and <a href="ch63s03.html#MonstersDi-Do42">dire boars</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2023697"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L137"/>
+            <p><span class="strong"><strong>Curse of Lycanthropy (Su):</strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a dire <a href="ch68s11.html#MonstersK-L96">wereboar's</a> bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2023747"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L138"/>
+            <p><span class="strong"><strong>Ferocity (Ex):</strong></span> A dire <a href="ch68s11.html#MonstersK-L96">wereboar</a> is such a tenacious combatant that it continues to fight without penalty even while disabled or dying.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2023927"/>Creating A Lycanthrope</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect3">
+                <a href="ch68s11.html#id2025979">Lycanthropy as an Affliction</a>
+              </span>
+            </dt>
+            <dd>
+              <dl>
+                <dt>
+                  <span class="sect4">
+                    <a href="ch68s11.html#id2026105">Changing Form</a>
+                  </span>
+                </dt>
+                <dt>
+                  <span class="sect4">
+                    <a href="ch68s11.html#id2026128">Curing Lycanthropy</a>
+                  </span>
+                </dt>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L139"/>
+        <p>'Lycanthrope' is a template that can be added to any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> (referred to hereafter as the base creature). The lycanthrope template can be inherited (for natural lycanthropes) or acquired (for afflicted lycanthropes). Becoming a lycanthrope is very much like multiclassing as an animal and gaining the appropriate Hit Dice.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2023958"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L140"/>
+          <p><span class="strong"><strong>Size and Type:</strong></span> The base creature's type does not change, but the creature gains the shapechanger subtype. The lycanthrope takes on the characteristics of some type of carnivorous or omnivorous creature of the animal type (referred to hereafter as the base animal).</p>
+          <p>This animal can be any predator, scavenger, or omnivore whose size is within one size category of the base creature's size (Small, Medium, or Large for a Medium base creature). Lycanthropes can also adopt a hybrid shape that combines features of the base creature and the base animal. A lycanthrope's hybrid form is the same size as the base animal or the base creature, whichever is larger.</p>
+          <p>A lycanthrope uses either the base creature's or the base animal's statistics and special abilities in addition to those described here.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2023998"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L141"/>
+          <p><span class="strong"><strong>Hit Dice and Hit Points:</strong></span> Same as the base creature plus those of the base animal. To calculate total hit points, apply Constitution modifiers according to the score the lycanthrope has in each form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024029"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L142"/>
+          <p><span class="strong"><strong>Speed:</strong></span> Same as the base creature or base animal, depending on which form the lycanthrope is using. Hybrids use the base creature's speed.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024128"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L143"/>
+          <p><span class="strong"><strong>Armor Class:</strong></span> The base creature's natural armor bonus increases by +2 in all forms. In hybrid form, the lycanthrope's natural armor bonus is equal to the natural armor bonus of the base animal or the base creature, whichever is better.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024159"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L144"/>
+          <p><span class="strong"><strong>Base Attack/Grapple:</strong></span> Add the base attack bonus for the base animal to the base attack bonus for the base creature. The lycanthrope's grapple bonus uses its attack bonus and modifiers for Strength and size depending on the lycanthrope's form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024260"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L145"/>
+          <p><span class="strong"><strong>Attacks:</strong></span> Same as the base creature or base animal, depending on which form the lycanthrope is using. A lycanthrope in hybrid form gains two claw attacks and a bite attack as natural weapons.</p>
+          <p>These weapons deal damage based on the hybrid form's size. A hybrid may attack with a weapon and a bite, or may attack with its natural weapons. The bite attack of a hybrid is a secondary attack.</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2024292">
+            <tbody>
+              <tr><td><p><span class="strong"><strong>Hybrid Size</strong></span></p></td>
+<td><p><span class="strong"><strong>Claw</strong></span></p></td>
+<td><p><span class="strong"><strong>Bite</strong></span></p></td>
+
+</tr>
+              <tr><td><p>Small</p></td>
+<td><p>1d3</p></td>
+<td><p>1d4</p></td>
+
+</tr>
+              <tr><td><p>Medium</p></td>
+<td><p>1d4</p></td>
+<td><p>1d6</p></td>
+
+</tr>
+              <tr><td><p>Large</p></td>
+<td><p>1d6</p></td>
+<td><p>1d8</p></td>
+
+</tr>
+              <tr><td><p>Huge</p></td>
+<td><p>2d4</p></td>
+<td><p>2d6</p></td>
+
+</tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024430"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L146"/>
+          <p><span class="strong"><strong>Damage:</strong></span> Same as the base creature or base animal, depending on which form the lycanthrope is in.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024527"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L147"/>
+          <p><span class="strong"><strong>Special Attacks:</strong></span> A lycanthrope retains the special attacks of the base creature or base animal, depending on which form it is using, and also gains the special attacks described below.</p>
+          <p>A lycanthrope's hybrid form does not gain any special attacks of the base animal. A lycanthrope spellcaster cannot cast spells with verbal, somatic, or material components while in animal form, or spells with verbal components while in hybrid form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024565"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L148"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Curse of Lycanthropy (Su):</em></span></strong></span> Any humanoid or <a href="ch66s06.html#MonstersG67">giant</a> hit by a natural lycanthrope's bite attack in animal or hybrid form must succeed on a DC 15 Fortitude save or contract lycanthropy. If the victim's size is not within one size category of the lycanthrope the victim cannot contract lycanthropy from that lycanthrope. Afflicted lycanthropes cannot pass on the curse of lycanthropy.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024673"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L149"/>
+          <p><span class="strong"><strong>Special Qualities:</strong></span> A lycanthrope retains all the special qualities of the base creature and the base animal, and also gains those described below.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024704"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L150"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Alternate Form (Su):</em></span></strong></span> A lycanthrope can shift into animal form as though using the <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> spell on itself, though its gear is not affected, it does not regain hit points for changing form, and only the specific animal form indicated for the lycanthrope can be assumed. It does not assume the ability scores of the animal, but instead adds the animal's physical ability score modifiers to its own ability scores. A lycanthrope also can assume a bipedal hybrid form with prehensile hands and animalistic features.</p>
+          <p>Changing to or from animal or hybrid form is a standard action.</p>
+          <p>A slain lycanthrope reverts to its humanoid form, although it remains dead. Separated body parts retain their animal form, however.</p>
+          <p>Afflicted lycanthropes find this ability difficult to control (see Lycanthropy as an Affliction, below), but natural lycanthropes have full control over this power.</p>
+          <p><span class="strong"><strong><span class="emphasis"><em>Damage Reduction (Ex):</em></span> </strong></span>An afflicted lycanthrope in animal or hybrid form has damage reduction 5/silver. A natural lycanthrope in animal or hybrid form has damage reduction 10/silver.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024772"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L151"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Lycanthropic Empathy (Ex):</em></span></strong></span> In any form, lycanthropes can communicate and empathize with normal or <a href="ch63s03.html#MonstersDi-Do27">dire animals</a> of their animal form. This gives them a +4 racial bonus on checks when influencing the animal's attitude and allows the communication of simple concepts and (if the animal is friendly) commands, such as 'friend,' 'foe,' 'flee,' and 'attack.'</p>
+          <p><span class="strong"><strong><span class="emphasis"><em>Low-Light Vision (Ex):</em></span> </strong></span>A lycanthrope has low-light vision in any form.</p>
+          <p><span class="strong"><strong><span class="emphasis"><em>Scent (Ex):</em></span> </strong></span>A lycanthrope has the scent ability in any form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024840"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L152"/>
+          <p><span class="strong"><strong>Base Save Bonuses:</strong></span> Add the base save bonuses of the base animal to the base save bonuses of the base creature.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024938"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L153"/>
+          <p><span class="strong"><strong>Abilities:</strong></span> All lycanthropes gain +2 to Wisdom. In addition, when in animal form, a lycanthrope's physical ability scores improve according to its kind, as set out in the table below. These adjustments are equal to the animal's normal ability scores -10 or -11. A lycanthrope in hybrid form modifies its physical ability scores by the same amount.</p>
+          <p>In addition, a lycanthrope may also gain an additional ability score increase by virtue of its extra Hit Dice.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2024970"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L154"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A lycanthrope gains skill points equal to (2 + Int modifier, minimum 1) per Hit Die of its animal form, as if it had multiclassed into the animal type. (Animal is never its first Hit Die, though, and it does not gain quadruple skill points for any animal Hit Die.) Any skill given in the animal's description is a class skill for the lycanthrope's animal levels. In any form, a lycanthrope also has any racial skill bonuses of the base creature and of the base animal, although conditional skill bonuses only apply in the associated form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025007"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L155"/>
+          <p><span class="strong"><strong>Feats:</strong></span> Add the base animal's feats to the base creature's. If this results in a lycanthrope having the same feat twice, the lycanthrope gains no additional benefit unless the feat normally can be taken more once, in which case the duplicated feat works as noted in the feat description. This process may give the lycanthrope more feats than a character of its total Hit Dice would normally be entitled to; if this occurs, any 'extra' feats are denoted as bonus feats.</p>
+          <p>It's possible that a lycanthrope cannot meet the prerequisites for all its feats when in humanoid form. If this occurs, the lycanthrope still has the feats, but cannot use them when in humanoid form. A lycanthrope receives <a href="ch17s03.html#Feats233">Iron Will</a> as a bonus feat.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025059"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L156"/>
+          <p><span class="strong"><strong>Environment:</strong></span> Same as either the base creature or base animal.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025156"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L157"/>
+          <p><span class="strong"><strong>Organization:</strong></span> Solitary or pair, sometimes family (3-4), pack (6-10), or troupe (family plus related animals)</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025185"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L158"/>
+          <p><span class="strong"><strong>Challenge Rating:</strong></span> By class level or base creature, modified according to the HD of the base animal: 1 HD or 2 HD, +2; 3 HD to 5 HD, +3; 6 HD to 10 HD, +4; 11 HD to 20 HD, +5; 21 or more HD, +6.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025217"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L159"/>
+          <p><span class="strong"><strong>Treasure:</strong></span> Standard.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025245"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L160"/>
+          <p><span class="strong"><strong>Alignment:</strong></span> Any. Noble creatures such as bears, <a href="ch73s18.html#MonstersAnimals59">eagles</a>, and <a href="ch73s24.html#MonstersAnimals84">lions</a> tend to produce good-aligned lycanthropes. Sinister creatures such as <a href="ch73s36.html#MonstersAnimals133">rats</a>, <a href="ch73s40.html#MonstersAnimals145">snakes</a>, and <a href="ch73s47.html#MonstersAnimals183">wolves</a> tend to produce evil-aligned lycanthropes. This is a reflection of how these animals are perceived, not any innate quality of the animal itself, so the alignment of the animal form can be arbitrarily assigned.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025327"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L161"/>
+          <p><span class="strong"><strong>Advancement:</strong></span> By character class.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2025355"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L162"/>
+          <p><span class="strong"><strong>Level Adjustment:</strong></span> Same as the base creature +2 (afflicted) or +3 (natural). In addition, a lycanthrope's character level is increased by the number of racial Hit Dice the base animal has.</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2025385">
+            <tbody>
+              <tr><td colspan="4"><p><span class="strong"><strong>Common Lycanthropes</strong></span></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Name</strong></span></p></td>
+<td><p><span class="strong"><strong>Animal Form</strong></span></p></td>
+<td><p><span class="strong"><strong>Animal or Hybrid Form Ability Modifiers</strong></span></p></td>
+<td><p><span class="strong"><strong>Preferred Alignment</strong></span></p></td>
+
+</tr>
+              <tr><td><p><a href="ch68s11.html#MonstersK-L89">Werebear</a></p></td>
+<td><p><a href="ch73s06.html#MonstersAnimals18">Brown bear</a></p></td>
+<td><p>Str +16, Dex +2, Con +8</p></td>
+<td><p>Lawful good</p></td>
+
+</tr>
+              <tr><td><p><a href="ch68s11.html#MonstersK-L96">Wereboar</a></p></td>
+<td><p><a href="ch73s09.html#MonstersAnimals29">Boar</a></p></td>
+<td><p>Str +4, Con +6</p></td>
+<td><p>Neutral</p></td>
+
+</tr>
+              <tr><td><p><a href="ch68s11.html#MonstersK-L102">Wererat</a></p></td>
+<td><p><a href="ch63s03.html#MonstersDi-Do51">Dire rat</a></p></td>
+<td><p>Dex +6, Con +2</p></td>
+<td><p>Chaotic evil</p></td>
+
+</tr>
+              <tr><td><p><a href="ch68s11.html#MonstersK-L110">Weretiger</a></p></td>
+<td><p><a href="ch73s43.html#MonstersAnimals167">Tiger</a></p></td>
+<td><p>Str +12, Dex +4, Con +6</p></td>
+<td><p>Neutral</p></td>
+
+</tr>
+              <tr><td><p><a href="ch68s11.html#MonstersK-L119">Werewolf</a></p></td>
+<td><p><a href="ch73s47.html#MonstersAnimals183">Wolf</a></p></td>
+<td><p>Str +2, Dex +4, Con +4</p></td>
+<td><p>Chaotic evil</p></td>
+
+</tr>
+              <tr><td><p>Dire <a href="ch68s11.html#MonstersK-L96">wereboar</a></p></td>
+<td><p><a href="ch63s03.html#MonstersDi-Do42">Dire boar</a></p></td>
+<td><p>Str +16, Con +6</p></td>
+<td><p>Neutral</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+        </div>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id2025979"/>Lycanthropy as an Affliction</h4>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch68s11.html#id2026105">Changing Form</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect4">
+                  <a href="ch68s11.html#id2026128">Curing Lycanthropy</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L163"/>
+          <p>When a character contracts lycanthropy through a lycanthrope's bite (see above), no symptoms appear until the first night of the next full moon. On that night, the afflicted character involuntarily assumes animal form and forgets his or her own identity, temporarily becoming an NPC. The character remains in animal form, assuming the appropriate alignment, until the next dawn.</p>
+          <p>The character's actions during this first episode are dictated by the alignment of its animal form. The character remembers nothing about the entire episode (or subsequent episodes) unless he succeeds on a DC 15 Wisdom check, in which case he becomes aware of his lycanthropic condition.</p>
+          <p>Thereafter, the character is subject to involuntary transformation under the full moon and whenever damaged in combat. He or she feels an overwhelming rage building up and must succeed on a Control Shape check (see below) to resist changing into animal form. Any player character not yet aware of his or her lycanthropic condition temporarily becomes an NPC during an involuntary change, and acts according to the alignment of his or her animal form.</p>
+          <p>A character with awareness of his condition retains his identity and does not lose control of his actions if he changes. However, each time he changes to his animal form, he must make a Will save (DC 15 + number of times he has been in animal form) or permanently assume the alignment of his animal form in all shapes.</p>
+          <p>Once a character becomes aware of his affliction, he can now voluntarily attempt to change to animal or hybrid form, using the appropriate Control Shape check DC. An attempt is a standard action and can be made each round. Any voluntary change to animal or hybrid form immediately and permanently changes the character's alignment to that of the appropriate lycanthrope.</p>
+          <p/>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2026105"/>Changing Form</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L164"/>
+            <p>Changing form is a standard action. If the change is involuntary, the character performs the change on his next turn following the triggering event. Changing to animal or hybrid form ruins the character's armor and clothing (including any items worn) if the new form is larger than the character's natural form; carried items are simply dropped. Characters can hastily doff clothing while changing, but not armor. Magic armor survives the change if it succeeds on a DC 15 Fortitude save. An afflicted character who is not aware of his condition remains in animal form until the next dawn. An afflicted character who is aware of his or her condition (see above) can try to resume humanoid form following a change (voluntary or involuntary) with a Control Shape check, but if he fails his check, he remains in animal (or hybrid) form until the following dawn.</p>
+            <p/>
+          </div>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2026128"/>Curing Lycanthropy</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersK-L165"/>
+            <p>An afflicted character who eats a sprig of belladonna (also called wolfsbane) within 1 hour of a lycanthrope's attack can attempt a DC 20 Fortitude save to shake off the affliction. If a healer administers the herb, use the character's save bonus or the healer's <a href="ch16s03.html#CombinedSkills171">Heal</a> modifier, whichever is higher. The character gets only one chance, no matter how much belladonna is consumed. The belladonna must be reasonably fresh (picked within the last week).</p>
+            <p>However, fresh or not, belladonna is toxic. The character must succeed on a DC 13 Fortitude save or take 1d6 points of Strength damage. One minute later, the character must succeed on a second DC 13 save or take an additional 2d6 points of Strength damage.</p>
+            <p>A <span class="emphasis"><em><a href="ch49.html#SpellsP-R61">remove disease</a></em></span> or <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell cast by a cleric of 12th level or higher also cures the affliction, provided the character receives the spell within three days of the lycanthrope's attack.</p>
+            <p>The only other way to remove the affliction is to cast <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span> or <span class="emphasis"><em><a href="ch43.html#SpellsA-B50">break enchantment</a></em></span> on the character during one of the three days of the full moon. After receiving the spell, the character must succeed on a DC 20 Will save to break the curse (the caster knows if the spell works). If the save fails, the process must be repeated.</p>
+            <p>Characters undergoing this cure are often kept bound or confined in cages until the cure takes effect.</p>
+            <p>Only afflicted lycanthropes can be cured of lycanthropy.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2026235"/>Lycanthropes as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L166"/>
+        <p>Becoming a lycanthrope does not change a character's favored class but usually changes alignment (see above). This alignment change may cause characters of certain classes to lose some of their class features.</p>
+        <p>Lycanthrope characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+2 Wisdom. Physical abilities are increased by the animal form's ability modifiers when a lycanthrope changes to its hybrid or animal forms.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Size same as the base creature or the base animal form.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Low-light vision in any form.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Scent in any form.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Hit Dice: A lycanthrope adds the Hit Dice of its animal form to its base Hit Dice for race, level, and class. These additional Hit Dice modify the lycanthrope's base attack bonus and base saving throw bonuses accordingly.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: A lycanthrope adds skill points for its animal Hit Dice much as if it had multiclassed into the animal type. It gains skill points equal to (2 + Int modifier, minimum 1) per Hit Die of the animal form. Any skills that appear in the animal's description are treated as class skills for the lycanthrope's animal levels. The lycanthrope's maximum skill ranks are equal to its animal form Hit Dice + its racial Hit Dice (if any) + its class levels + 3. Any racial skill adjustments of the lycanthrope's base race and its animal form (but not conditional adjustments) are added to its skill modifiers in any form.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: Add the animal's Hit Dice to the base character's own Hit Dice to determine how many feats the character has. All lycanthropes gain <a href="ch17s03.html#Feats233">Iron Will</a> as a bonus feat.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>+2 natural armor bonus in any form.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Special Qualities (see above): Alternate form, lycanthropic empathy, curse of lycanthropy (in animal or hybrid form only).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Afflicted lycanthrope: damage reduction 5/silver (in animal or hybrid form only).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Natural lycanthrope: damage reduction 10/silver (in animal or hybrid form only).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: As base creature.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Same as the base creature.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level adjustment: Same as the base creature +2 (afflicted) or +3 (natural).</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2026581"/>Control Shape (Wis)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersK-L167"/>
+        <p>Any character who has contracted lycanthropy and is aware of his condition can learn Control Shape as a class skill. (An afflicted lycanthrope not yet aware of his condition can attempt Control Shape checks untrained.) This skill determines whether an afflicted lycanthrope can control his shape. A natural lycanthrope does not need this skill, since it has full control over its shape.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2026602"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L168"/>
+          <p><span class="strong"><strong>Check (Involuntary Change):</strong></span> An afflicted character must make a check at moonrise each night of the full moon to resist involuntarily assuming animal form. An injured character must also check for an involuntary change after accumulating enough damage to reduce his hit points by one-quarter and again after each additional one-quarter lost.</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2026633">
+            <tbody>
+              <tr><td><p><span class="strong"><strong>Involuntary Change</strong></span> </p></td> <td><p><span class="strong"><strong>Control Shape DC</strong></span></p></td>
+
+</tr>
+              <tr><td><p>Resist involuntary change</p></td>
+<td><p>25</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>On a failed check, the character must remain in animal form until the next dawn, when he automatically returns to his base form. A character aware of his condition may make one attempt to return to humanoid form (see below), but if he fails, he remains in animal form until the next dawn.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2026703"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L169"/>
+          <p><span class="strong"><strong>Retry (Involuntary Change):</strong></span> Check to resist an involuntary change once each time a triggering event occurs.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2026732"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L170"/>
+          <p><span class="strong"><strong>Check (Voluntary Change):</strong></span> In addition, an afflicted lycanthrope aware of his condition may attempt to use this skill voluntarily in order to change to animal form, assume hybrid form, or return to humanoid form, regardless of the state of the moon or whether he has been injured.</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2026763">
+            <tbody>
+              <tr><td><p><span class="strong"><strong>Involuntary Change</strong></span> </p></td> <td><p><span class="emphasis"><em>Control Shape DC</em></span></p></td>
+
+</tr>
+              <tr><td><p>Return to humanoid form (full moon*)</p></td>
+<td><p>25</p></td>
+
+</tr>
+              <tr><td><p>Return to humanoid form (not full moon)</p></td>
+<td><p>20</p></td>
+
+</tr>
+              <tr><td><p>Assume hybrid form</p></td>
+<td><p>15</p></td>
+
+</tr>
+              <tr><td><p>Voluntary change to animal form (full moon)</p></td>
+<td><p>15</p></td>
+
+</tr>
+              <tr><td><p>Voluntary change to animal form (not full moon)</p></td>
+<td><p>20</p></td>
+
+</tr>
+              <tr><td colspan="2"><p>* For game purposes, the full moon lasts three days every month.</p></td>
+
+</tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2027106"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L171"/>
+          <p><span class="strong"><strong>Retry (Voluntary Change):</strong></span> A character can retry voluntary changes to animal form or hybrid form as often as he likes. Each attempt is a standard action. However, on a failed check to return to humanoid form, the character must remain in animal or hybrid form until the next dawn, when he automatically returns to humanoid form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2027207"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersK-L172"/>
+          <p><span class="strong"><strong>Special:</strong></span> An afflicted lycanthrope cannot attempt a voluntary change until it becomes aware of its condition (see Lycanthropy as an Affliction).</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch68s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch68.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch69.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Locathah </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (M-N)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Gibbering Mouther</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch66.html" title="Monsters (G)"/>
+    <link rel="prev" href="ch66s06.html" title="Giant"/>
+    <link rel="next" href="ch66s08.html" title="Girallon"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Gibbering Mouther</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66s06.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (G)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66s08.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1802285"/>Gibbering Mouther</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch66s07.html#id1803134">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersG111"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1802304">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Gibbering Mouther</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+24 (42 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares), swim 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>19 (+1 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +4 melee (1) or spittle +4 ranged <a href="ch21s02.html#CombatI12">touch</a> (1d4 acid plus blindness)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>6 bites +4 melee (1) and spittle +4 ranged <a href="ch21s02.html#CombatI12">touch</a> (1d4 acid plus blindness)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Gibbering, spittle, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, blood drain, engulf, ground manipulation</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Amorphous, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/bludgeoning, darkvision 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +4, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 13, Con 22, Int 4, Wis 13, Cha 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +9, <a href="ch16s03.html#CombinedSkills311">Swim</a> +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-12 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch66s07.html#MonstersG111">gibbering mouther</a> is a horrible creature seemingly drawn from a lunatic's <a href="ch69s12.html#MonstersM-N131">nightmares</a>. Although not evil, it thirsts after bodily fluids and seems to prefer the blood of intelligent creatures.<a href="img/MonstersG.Gibbering_Mouther.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Gibbering_Mouther.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch66s07.html#MonstersG111">gibbering mouther</a> is about 3 feet across and 3 to 4 feet high. It weighs about 200 pounds.</p>
+      <p><a href="ch66s07.html#MonstersG111">Gibbering mouthers</a> can speak Common, but seldom say anything other than gibberish.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1803134"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG112"/>
+        <p>A <a href="ch66s07.html#MonstersG111">gibbering mouther</a> attacks by shooting out strings of protoplasmic flesh, each ending in one or more eyes and a mouth that bites at the enemy. A mouther can send out a total of six such members in any round.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803168"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG113"/>
+          <p><span class="strong"><strong>Gibbering (Su):</strong></span> As soon as a mouther spots something edible, it begins a constant gibbering as a free action. All creatures (other than mouthers) within a 60-foot spread must succeed on a DC 13 Will save or be affected as though by a <span class="emphasis"><em><a href="ch44.html#SpellsC33">confusion</a></em></span> spell for 1d2 rounds. This is a sonic mind-affecting compulsion effect. A creature that successfully saves cannot be affected by the same <a href="ch66s07.html#MonstersG111">gibbering mouther's</a> gibbering for 24 hours. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803223"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG114"/>
+          <p><span class="strong"><strong>Spittle (Ex):</strong></span> As a free action every round, a <a href="ch66s07.html#MonstersG111">gibbering mouther</a> fires a stream of spittle at one opponent within 30 feet. The mouther makes a ranged touch attack; if it hits, it deals 1d4 points of acid damage, and the target must succeed on a DC 18 Fortitude save or be blinded for 1d4 rounds. Eyeless creatures are immune to the blinding effect, but are still subject to the acid damage. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803267"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG115"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch66s07.html#MonstersG111">gibbering mouther</a> must hit with a bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803307"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG116"/>
+          <p><span class="strong"><strong>Blood Drain (Ex):</strong></span> On a successful grapple check after grabbing, that mouth attaches to the opponent. It automatically deals bite damage and drains blood, dealing 1 point of Constitution damage each round. A mouth can be ripped off (dealing 1 point of damage) with a DC 12 Strength check or severed by a successful sunder attempt (the mouth has 2 hit points).</p>
+          <p>A severed mouth continues to bite and drain blood for 1d4 rounds after such an attack. A creature whose Constitution is reduced to 0 is killed.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803346"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG117"/>
+          <p><span class="strong"><strong>Engulf (Ex):</strong></span> A <a href="ch66s07.html#MonstersG111">gibbering mouther</a> can try to engulf a Medium or smaller opponent grabbed by three or more mouths.</p>
+          <p>The opponent must succeed on a DC 14 Reflex save or fall and be engulfed. In the next round, the mouther makes twelve bite attacks instead of six (each with a +4 attack bonus). An engulfed creature cannot attack the mouther from within. The previously attached mouths are now free to attack others. The save DC is Strength-based and includes a +2 racial bonus.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803394"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG118"/>
+          <p><span class="strong"><strong>Ground Manipulation (Su):</strong></span> At will, as a standard action, a <a href="ch66s07.html#MonstersG111">gibbering mouther</a> can cause stone and earth in all adjacent squares to become a morass akin to quicksand. Softening earth, sand, or the like takes 1 round, while stone takes 2 rounds. Anyone other than the mouther in that area must take a move-equivalent action to avoid becoming mired (treat as being pinned).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803501"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG119"/>
+          <p><span class="strong"><strong>Amorphous (Ex):</strong></span> A <a href="ch66s07.html#MonstersG111">gibbering mouther</a> is not subject to critical hits. It cannot be flanked.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1803539"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG120"/>
+          <p><span class="strong"><strong>Skills:</strong></span> Thanks to their multiple eyes, <a href="ch66s07.html#MonstersG111">gibbering mouthers</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+          <p>A <a href="ch66s07.html#MonstersG111">gibbering mouther</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It always can choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66s06.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch66.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66s08.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Giant </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Girallon</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

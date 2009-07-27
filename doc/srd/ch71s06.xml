@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Shadow Mastiff</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch71.html" title="Monsters (S)"/>
+    <link rel="prev" href="ch71s05.html" title="Shadow"/>
+    <link rel="next" href="ch71s07.html" title="Shambling Mound"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Shadow Mastiff</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch71s05.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (S)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch71s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2169583"/>Shadow Mastiff</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch71s06.html#id2170605">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersS39"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2169600">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Shadow Mastiff</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+12 (30 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+1 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +7 melee (1d6+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +7 melee (1d6+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Bay, <a href="ch22s03.html#CombatII100">trip</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch71s05.html#MonstersS31">shadow</a> blend, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +5, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 13, Con 17, Int 4, Wis 12, Cha 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8, <a href="ch16s03.html#CombinedSkills303">Survival</a> +8*</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Plane of <a href="ch71s05.html#MonstersS31">Shadow</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or pack (5-12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-6 HD (<a href="ch22.html#CombatII28">Medium</a>); 7-12 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>This creature has the body of a large <a href="ch73s15.html#MonstersAnimals48">dog</a>, with a smooth black coat and a mouth full of sharp teeth.<a href="img/MonstersS.Shadow_Mastiff.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Shadow_Mastiff.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch71s06.html#MonstersS39">shadow mastiff</a> is slightly more than 2 feet high at the shoulder and weighs about 200 pounds.</p>
+      <p><a href="ch71s06.html#MonstersS39">Shadow mastiffs</a> cannot speak, but they understand Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2170605"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS40"/>
+        <p><a href="ch71s06.html#MonstersS39">Shadow mastiffs</a> prefer fighting in <a href="ch71s05.html#MonstersS31">shadows</a> or dark conditions, which gives them a great advantage.</p>
+        <p>If a magical light source negates the <a href="ch71s05.html#MonstersS31">shadows</a> around them, <a href="ch71s06.html#MonstersS39">shadow mastiffs</a> are cunning enough to either move out of the light or back off and break up the opposition with their baying. They have been known to seize and carry off items enspelled with <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spells.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2171499"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS41"/>
+          <p><span class="strong"><strong>Bay (Su):</strong></span> When a <a href="ch71s06.html#MonstersS39">shadow mastiff</a> howls or barks, all creatures except evil outsiders within a 300-foot spread must succeed on a DC 13 Will save or become panicked for 2d4 rounds. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same mastiff's bay for 24 hours. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2171542"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS42"/>
+          <p><span class="strong"><strong>Trip (Ex):</strong></span> A <a href="ch71s06.html#MonstersS39">shadow mastiff</a> that hits with its bite attack can attempt to trip the opponent as a free action (+3 check modifier) without making a touch attack or provoking an attack of opportunity. If the attempt fails, the opponent cannot react to trip the <a href="ch71s06.html#MonstersS39">shadow mastiff</a>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2171593"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS43"/>
+          <p><span class="strong"><strong>Shadow Blend (Su):</strong></span> In any condition of illumination other than full daylight, a <a href="ch71s06.html#MonstersS39">shadow mastiff</a> can disappear into the <a href="ch71s05.html#MonstersS31">shadows</a>, giving it total concealment. Artificial illumination, even a <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span> or <span class="emphasis"><em><a href="ch44.html#SpellsC40">continual flame</a></em></span> spell, does not negate this ability. A <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell, however, will.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2171674"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS44"/>
+          <p><span class="strong"><strong>Skills:</strong></span> *A <a href="ch71s06.html#MonstersS39">shadow mastiff</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> checks when tracking by scent.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch71s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch71.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch71s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Shadow </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Shambling Mound</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

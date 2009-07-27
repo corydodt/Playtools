@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Brain Mole</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s04.html" title="Blue"/>
+    <link rel="next" href="ch77s06.html" title="Caller in Darkness"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Brain Mole</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s04.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s06.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2467658"/>Brain Mole</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s05.html#id2468456">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters82"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2467677">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Brain Mole</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a> (Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d10-2 (3 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>15 ft. (3 squares), burrow 15 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+2 size, +2 Dex), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +5 melee (1d3-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +5 melee (1d3-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>2-1/2 ft./0 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Cascade flu, psi-like abilities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, power conversion, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +4, Will +2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 2, Dex 14, Con 7, Int 2, Wis 14, Cha 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +15, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +7, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forest</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Nest (3-8)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch77s05.html#PsionicMonsters82">Brain moles</a> are burrowing animals that use psionic powers to overcome large psionic prey. Small, furry, and nearly blind, <a href="ch77s05.html#PsionicMonsters82">brain moles</a> are almost indistinguishable from their common animal cousins.</p>
+      <p><a href="ch77s05.html#PsionicMonsters82">Brain moles</a> eat small insects when they can't get psionic energy.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2468456"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters83"/>
+        <p><a href="ch77s05.html#PsionicMonsters82">Brain moles</a> hunger for psionic energy. They hide in loose dirt and detritus on forest floors, watching for the approach of psionic creatures with their <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F18">detect psionics</a></em></span> power. When a suitable target comes in range, the <a href="ch77s05.html#PsionicMonsters82">brain moles</a> then attack with their <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P91">power leech</a></em></span> ability. The moles remain hidden as long as possible. If threatened, they use <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C22">aversion</a></em></span> and <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P61">mind thrust</a></em></span> to discourage attackers, using their bite only as a last resort.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2468544"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters84"/>
+          <p><span class="strong"><strong>Cascade Flu (Ex):</strong></span> Disease-bite; Fortitude DC 9, incubation period one day, damage psionic cascade (every time an afflicted character manifests a power, she must make a DC 16 <a href="ch16s03.html#CombinedSkills78">Concentration</a> check; on a failed check, a psionic cascade is triggered [see Psionic Maladies]). The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2468585"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters85"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F18">detect psionics</a></em></span>,  <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P91">power leech</a></em></span> (ML 5th, DC 14)<span class="emphasis"><em/></span>; 3/day-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C22">aversion</a></em></span> (DC 12)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P61">mind thrust</a></em></span> (DC 11)<span class="emphasis"><em/></span>. Manifester level 1st. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2468667"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters86"/>
+          <p><span class="strong"><strong>Hide Mind (Su):</strong></span> A <a href="ch77s05.html#PsionicMonsters82">brain mole</a> cannot be identified as psionic by divination spells or clairsentience powers.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2468706"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters87"/>
+          <p><span class="strong"><strong>Power Conversion (Su):</strong></span> When a <a href="ch77s05.html#PsionicMonsters82">brain mole</a> drains a power point by means of its <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P91">power leech</a></em></span> power, it immediately heals 1 hit point. If it is already at full normal hit points, it instead gains psionic sustenance sufficient to supply its need for nourishment for 24 hours.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2468756"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters88"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch77s05.html#PsionicMonsters82">Brain moles</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks and a -2 racial penalty on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s04.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s06.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Blue </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Caller in Darkness</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

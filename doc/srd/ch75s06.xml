@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Devastation Vermin</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch75.html" title="Epic Monsters (A-E)"/>
+    <link rel="prev" href="ch75s05.html" title="Demilich"/>
+    <link rel="next" href="ch75s07.html" title="Dragon, Advanced"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Devastation Vermin</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch75s05.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (A-E)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch75s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2391874"/>Devastation Vermin</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s06.html#id2393894">Devastation Centipede</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s06.html#id2394011">Devastation Spider</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s06.html#id2394258">Devastation Scorpion</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s06.html#id2394456">Devastation Beetle</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(A-E)174"/>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2391893"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)175"/>
+        <p><span class="strong"><strong>Vermin Traits:</strong></span> Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</p>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2391922">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Devastation Centipede</strong></span> </p></td> <td><p><span class="strong"><strong>Devastation Spider</strong></span> </p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>128d8+1,152 (1,728 hp)</p></td>
+<td><p>128d8+1,280 (1,856 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+13 (Dex)</p></td>
+<td><p>+14 (Dex)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>80 ft.</p></td>
+<td><p>60 ft., climb 40 ft. (80 ft., climb 40 ft.)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>55 (-8 size, +13 Dex, +40 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 42</p></td>
+<td><p>58 (-8 size, +14 Dex, +42 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 44</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+96/+128</p></td>
+<td><p>+96/+125</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +99 (20d10+16 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+<td><p>Bite +101 (18d10+19 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +99 (20d10+16 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+<td><p>Bite +101 (18d10+19 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>50 ft./40 ft.</p></td>
+<td><p>50 ft./40 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities52">Poison</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 300 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 50, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/-</p></td>
+<td><p>Darkvision 300 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 50, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +75, Ref +55, Will +42</p></td>
+<td><p>Fort +76, Ref +56, Will +42</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 33, Dex 37, Con 29, Int -, Wis 10, Cha 2</p></td>
+<td><p>Str 37, Dex 39, Con 30, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +19, <a href="ch16s03.html#CombinedSkills179">Hide</a> +1, <a href="ch16s03.html#CombinedSkills192">Jump</a> +31, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +21, <a href="ch16s03.html#CombinedSkills179">Hide</a> +2 (-2), <a href="ch16s03.html#CombinedSkills192">Jump</a> +25 (+39), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8 (+12)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any land</p></td>
+<td><p>Any land</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or cluster (2-5)</p></td>
+<td><p>Solitary or cluster (2-5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>39</p></td>
+<td><p>41</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2392887">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Devastation Scorpion</strong></span> </p></td>
+<td><p><span class="strong"><strong>Devastation Beetle</strong></span> </p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>128d8+1,408 (1,984 hp)</p></td>
+<td><p>128d8+2,304 (2,880 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+12 (Dex)</p></td>
+<td><p>+10 (Dex)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>100 ft.</p></td>
+<td><p>70 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>60 (-8 size, +12 Dex, +46 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 48</p></td>
+<td><p>72 (-8 size, +10 Dex, +60 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 62</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+96/+126</p></td>
+<td><p>+96/+128</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +102 (10d10+14) melee</p></td>
+<td><p>Bite +104 (25d10+24) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +102 (10d10+14) melee, sting +97 (8d10+7 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+<td><p>Bite +104 (25d10+24) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>50 ft./40 ft.</p></td>
+<td><p>50 ft./40 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, <a href="ch22.html#CombatII23">squeeze,</a> <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+<td><p><a href="ch17s03.html#Feats373">Trample</a> 30d10+24, acid cloud</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 300 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 50, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/-</p></td>
+<td><p>Darkvision 300 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 60, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 20/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +77, Ref +54, Will +42</p></td>
+<td><p>Fort +84, Ref +52, Will +42</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 38, Dex 35, Con 32, Int -, Wis 10, Cha 2</p></td>
+<td><p>Str 42, Dex 31, Con 46, Int -, Wis 10, Cha 9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +22, <a href="ch16s03.html#CombinedSkills179">Hide</a> +4, <a href="ch16s03.html#CombinedSkills192">Jump</a> +42, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +31, <a href="ch16s03.html#CombinedSkills204">Listen</a> +0, <a href="ch16s03.html#CombinedSkills294">Spot</a> +0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any land</p></td>
+<td><p>Any land</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or cluster (2-5)</p></td>
+<td><p>Solitary or cluster (2-5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>42</p></td>
+<td><p>50</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2393894"/>Devastation Centipede</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)176"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2393913"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)177"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Bite, Fort save (DC 93); initial and secondary damage 2d12 temporary Dex.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2393942"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)178"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch75s06.html#EpicMonsters(A-E)176">Devastation centipedes</a> receive a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2394011"/>Devastation Spider</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)179"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394030"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)180"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Bite, Fort save (DC 94); initial and secondary damage 2d12 temporary Con.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394060"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)181"/>
+          <p><span class="strong"><strong>Web (Ex):</strong></span> A single web strand is strong enough to support the spider and one creature of Gargantuan size. Web-spinning <a href="ch75s06.html#EpicMonsters(A-E)179">devastation spiders</a> can cast a web eight times per day. This is similar to an attack with a net but has a maximum range of 150 feet, with a range increment of 30 feet, and is effective against targets of up to Gargantuan size. The web anchors the target in place, allowing no movement. An entangled creature can escape with a successful <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> check (DC 38) or burst it with a Strength check (DC 44). Both are standard actions. Web-spinning spiders often create sheets of sticky webbing about 1,000 feet square. They usually position these sheets to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed at a <a href="ch16s03.html#CombinedSkills294">Spot</a> check (DC 20) to notice a web; otherwise, they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot section has 24 hit points, and sheet webs have damage reduction 20/fire. A <a href="ch75s06.html#EpicMonsters(A-E)179">devastation spider</a> can move across its own sheet web at its climb speed and can determine the exact location of any creature caught in the web.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394147"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)182"/>
+          <p><span class="strong"><strong>Skills:</strong></span> Web-spinning <a href="ch75s06.html#EpicMonsters(A-E)179">devastation spiders</a> receive a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks. Hunting spiders receive a +6 racial bonus on <a href="ch16s03.html#CombinedSkills192">Jump</a> checks and a +8 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks (using the modifiers given in parentheses). *All <a href="ch75s06.html#EpicMonsters(A-E)179">devastation spiders</a> gain a +8 competence bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks when using their webs.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2394258"/>Devastation Scorpion</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)183"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394277"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)184"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, the <a href="ch75s06.html#EpicMonsters(A-E)183">devastation scorpion</a> must hit with its claw attack. If it gets a hold, it hangs on and squeezes.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394317"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)185"/>
+          <p><span class="strong"><strong>Squeeze (Ex):</strong></span> A <a href="ch75s06.html#EpicMonsters(A-E)183">devastation scorpion</a> that gets a hold on a Gargantuan or smaller opponent automatically deals damage with both claws and its sting.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394357"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)186"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Sting, Fort save (DC 95); initial and secondary damage 2d12 temporary Str.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394386"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)187"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch75s06.html#EpicMonsters(A-E)183">Devastation scorpions</a> receive a +4 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2394456"/>Devastation Beetle</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)188"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394475"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)189"/>
+          <p><span class="strong"><strong>Trample (Ex):</strong></span> A <a href="ch75s06.html#EpicMonsters(A-E)188">devastation beetle</a> can trample Gargantuan and smaller creatures for 30d10+24 points of damage. Opponents who do not make attacks of opportunity against the <a href="ch75s06.html#EpicMonsters(A-E)188">devastation beetle</a> can attempt a Reflex save (DC 90) to halve the damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2394526"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)190"/>
+          <p><span class="strong"><strong>Acid Cloud (Ex):</strong></span> A <a href="ch75s06.html#EpicMonsters(A-E)188">devastation beetle</a> exudes a constant vapor that radiates outward in every direction for 60 feet. This vapor deals 6d6 points of acid damage each round to anyone caught in the cloud.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch75s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch75.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch75s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Demilich </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Dragon, Advanced</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

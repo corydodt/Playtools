@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Planetouched</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s11.html" title="Phasm"/>
+    <link rel="next" href="ch70s13.html" title="Pseudodragon"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Planetouched</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s11.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s13.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2132542"/>Planetouched</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s12.html#id2132640">Aasimar</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s12.html#id2134237">Tiefling</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R91"/>
+      <p><a href="ch70s12.html#MonstersO-R91">Planetouched</a> is a general word to describe someone who can trace his or her bloodline back to an outsider, usually a fiend or celestial.<a href="img/MonstersO-R.Planetouched.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Planetouched.jpg" align="right"/></span></a></p>
+      <p>The effects of having a supernatural being in one's heritage last for many generations. Although not as dramatically altered as a half-celestial or a half-fiend, <a href="ch70s12.html#MonstersO-R91">planetouched</a> still retain some special qualities.</p>
+      <p>The two <a href="ch70s12.html#MonstersO-R91">planetouched</a> varieties described here are the most common. <a href="ch70s12.html#MonstersO-R92">Aasimars</a> are humans with some trace of celestial blood in their veins, and <a href="ch70s12.html#MonstersO-R97">tieflings</a> have some fiendishness in their family tree.</p>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2132640"/>Aasimar</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s12.html#id2133700">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s12.html#id2133923">Aasimar as Characters</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R92"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2132727">
+          <tbody>
+            <tr><td/>
+<td><strong><a href="ch70s12.html#MonstersO-R92">Aasimar</a>, 1st-Level Warrior</strong></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities45">Native</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 (5 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. in scale mail (4 squares); base <a href="ch21s02.html#CombatI14">speed</a> 30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+4 scale mail, +2 heavy shield), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Longsword +2 melee (1d8+1/19-20) or light crossbow +1 ranged (1d8/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Longsword +2 melee (1d8+1/19-20) or light crossbow +1 ranged (1d8/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em><a href="ch45.html#SpellsD-E5">Daylight</a></em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 5, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 5, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +0, Will +0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 12, Int 10, Wis 11, Cha 10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills171">Heal</a> +4, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +1, <a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills243">Ride</a> +1, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or team (3-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch04.html#TypesSubtypesAbilities35">good</a> (any)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p><a href="ch70s12.html#MonstersO-R92">Aasimars</a> are usually tall, good-looking, and generally pleasant. Some have a minor physical trait suggesting their heritage, such as silver hair, golden eyes, or an unnaturally intense stare.<a href="img/MonstersO-R.Aasimar.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Aasimar.jpg" align="right"/></span></a></p>
+        <p>Most <a href="ch70s12.html#MonstersO-R92">aasimars</a> are decidedly good-aligned. They fight against evil causes and attempt to sway others to do the right thing. Occasionally they take on the vengeful, judgmental aspect of their celestial ancestor, but this is rare.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2133700"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R93"/>
+          <p><a href="ch70s12.html#MonstersO-R92">Aasimars</a> usually like a fair, straightforward contest. Against a particularly evil foe, however, they fight with utter conviction and to the death.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2133729"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R94"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>daylight</em></span> (Sp):</strong></span> An <a href="ch70s12.html#MonstersO-R92">aasimar</a> can use day<span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span> once per day as a 1st-level caster or a caster of his class levels, whichever is higher.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2133781"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R95"/>
+            <p><span class="strong"><strong>Skills:</strong></span> An <a href="ch70s12.html#MonstersO-R92">aasimar</a> has a +2 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> and <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+            <p>The <a href="ch70s12.html#MonstersO-R92">aasimar</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2133923"/>Aasimar as Characters</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R96"/>
+          <p><a href="ch70s12.html#MonstersO-R92">Aasimar</a> characters possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+2 Wisdom, +2 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>An <a href="ch70s12.html#MonstersO-R92">aasimar's</a> base land <a href="ch21s02.html#CombatI14">speed</a> is 30 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Darkvision: <a href="ch70s12.html#MonstersO-R92">Aasimars</a> can see in the dark up to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Skills: <a href="ch70s12.html#MonstersO-R92">Aasimars</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> and <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Feats: An <a href="ch70s12.html#MonstersO-R92">aasimar</a> gains feats according to its class levels.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">Daylight</a></em></span>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities60">Resistance to acid</a> 5, <a href="ch04.html#TypesSubtypesAbilities16">cold</a> 5, and electricity 5.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, Celestial. Bonus Languages: Draconic, Dwarven, Elven, <a href="ch66s10.html#MonstersG128">Gnome</a>, <a href="ch67s05.html#MonstersH-I71">Halfling</a>,</p>
+              </li>
+            </ul>
+          </div>
+          <p>Sylvan.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>Favored Class: Paladin.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Level adjustment +1.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2134237"/>Tiefling</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s12.html#id2135208">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s12.html#id2135363">Tieflings as Characters</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R97"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2134255">
+          <tbody>
+            <tr><td/>
+<td><strong><a href="ch70s12.html#MonstersO-R97">Tiefling</a>, 1st-Level Warrior</strong></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities45">Native</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 (5 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+1 Dex, +3 studded leather, +1 light shield), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Rapier +3 melee (1d6+1/18-20) or light crossbow +2 ranged (1d8/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Rapier +3 melee (1d6+1/18-20) or light crossbow +2 ranged (1d8/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em><a href="ch45.html#SpellsD-E3">Darkness</a></em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 5, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 5, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +1, Will -1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 13, Con 12, Int 12, Wis 9, Cha 6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +5, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +1, <a href="ch16s03.html#CombinedSkills271">Sleight of Hand</a> +1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats390">Weapon Focus</a> (rapier)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or gang (3-4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch04.html#TypesSubtypesAbilities24">evil</a> (any)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Many <a href="ch70s12.html#MonstersO-R97">tieflings</a> are indistinguishable from humans. Others have small horns, pointed teeth, red eyes, a whiff of brimstone about them, or even cloven feet. No two <a href="ch70s12.html#MonstersO-R97">tieflings</a> are the same.<a href="img/MonstersO-R.Tiefling.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Tiefling.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2135208"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R98"/>
+          <p><a href="ch70s12.html#MonstersO-R97">Tieflings</a> are sneaky, subtle, and generally conniving. They prefer to strike from ambush and usually avoid a fair fight if they can.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2135238"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R99"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>darkness</em></span> (Sp):</strong></span> A <a href="ch70s12.html#MonstersO-R97">tiefling</a> can use <span class="emphasis"><em><a href="ch45.html#SpellsD-E3">darkness</a></em></span> once per day (caster level equal to class levels).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2135290"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R100"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch70s12.html#MonstersO-R97">tiefling</a> has a +2 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills179">Hide</a> checks.</p>
+            <p>The <a href="ch70s12.html#MonstersO-R97">tiefling</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2135363"/>Tieflings as Characters</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R101"/>
+          <p><a href="ch70s12.html#MonstersO-R97">Tiefling</a> characters possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+2 Dexterity, +2 Intelligence, -2 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+              </li>
+            </ul>
+          </div>
+          <p>-A <a href="ch70s12.html#MonstersO-R97">tiefling's</a> base land speed is 30 feet.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>Darkvision out to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Skills: <a href="ch70s12.html#MonstersO-R97">Tieflings</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills179">Hide</a> checks.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Feats: A <a href="ch70s12.html#MonstersO-R97">tiefling</a> gains feats according to its class levels.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): <span class="emphasis"><em><a href="ch45.html#SpellsD-E3">Darkness</a></em></span>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Special Qualities (see above): Resistance to <a href="ch04.html#TypesSubtypesAbilities16">cold</a> 5, electricity 5, and <a href="ch04.html#TypesSubtypesAbilities29">fire</a> 5.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>. Bonus Languages: Draconic, Dwarven, Elven, <a href="ch66s10.html#MonstersG128">Gnome</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, <a href="ch67s05.html#MonstersH-I71">Halfling</a>, <a href="ch70s04.html#MonstersO-R48">Orc</a>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Rogue.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Level adjustment +1.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s11.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s13.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Phasm </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Pseudodragon</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Mimic</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch69.html" title="Monsters (M-N)"/>
+    <link rel="prev" href="ch69s05.html" title="Merfolk"/>
+    <link rel="next" href="ch69s07.html" title="Minotaur"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Mimic</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s05.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (M-N)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch69s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2076115"/>Mimic</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch69s06.html#id2077721">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersM-N78"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2076133">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Mimic</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (<a href="ch04.html#TypesSubtypesAbilities62">Shapechanger</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+21 (52 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (-1 size, +1 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+5/+13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +9 melee (1d8+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +9 melee (1d8+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Adhesive, crush</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to acid, <a href="ch69s06.html#MonstersM-N78">mimic</a> shape</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +5, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 12, Con 17, Int 10, Wis 13, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +9, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>1/10th coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>8-10 HD (<a href="ch22.html#CombatII28">Large</a>); 11-21 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch69s06.html#MonstersM-N78">mimic</a> can have almost any dimensions, but usually is not more than 10 feet long. A typical <a href="ch69s06.html#MonstersM-N78">mimic</a> has a volume of 150 cubic feet (5 feet by 5 feet by 6 feet) and weighs about 4,500 pounds.<a href="img/MonstersM-N.Mimic.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Mimic.jpg" align="right"/></span></a></p>
+      <p><a href="ch69s06.html#MonstersM-N78">Mimics</a> speak Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2077721"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N79"/>
+        <p>A <a href="ch69s06.html#MonstersM-N78">mimic</a> often surprises an unsuspecting adventurer, lashing out with a heavy pseudopod. The creature does not necessarily fight to the death if it can succeed in extorting treasure or food from a party.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2077752"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N80"/>
+          <p><span class="strong"><strong>Adhesive (Ex):</strong></span> A <a href="ch69s06.html#MonstersM-N78">mimic</a> exudes a thick slime that acts as a powerful adhesive, holding fast any creatures or items that touch it. An adhesive-covered <a href="ch69s06.html#MonstersM-N78">mimic</a> automatically grapples any creature it hits with its slam attack. Opponents so grappled cannot get free while the <a href="ch69s06.html#MonstersM-N78">mimic</a> is alive without removing the adhesive first.</p>
+          <p>A weapon that strikes an adhesive-coated <a href="ch69s06.html#MonstersM-N78">mimic</a> is stuck fast unless the wielder succeeds on a DC 16 Reflex save. A successful DC 16 Strength check is needed to pry it off.</p>
+          <p>Strong alcohol dissolves the adhesive, but the <a href="ch69s06.html#MonstersM-N78">mimic</a> still can grapple normally. A <a href="ch69s06.html#MonstersM-N78">mimic</a> can dissolve its adhesive at will, and the substance breaks down 5 rounds after the creature dies.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2077851"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N81"/>
+          <p><span class="strong"><strong>Crush (Ex):</strong></span> A <a href="ch69s06.html#MonstersM-N78">mimic</a> deals 1d8+4 points of damage with a successful grapple check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2077889"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N82"/>
+          <p><span class="strong"><strong>Mimic Shape (Ex):</strong></span> A <a href="ch69s06.html#MonstersM-N78">mimic</a> can assume the general shape of any object that fills roughly 150 cubic feet (5 feet by 5 feet by 6 feet), such as a massive chest, a stout bed, or a wide door frame. The creature cannot substantially alter its size, though. A <a href="ch69s06.html#MonstersM-N78">mimic's</a> body is hard and has a rough texture, no matter what appearance it might present. Anyone who examines the <a href="ch69s06.html#MonstersM-N78">mimic</a> can detect the ruse with a successful <a href="ch16s03.html#CombinedSkills294">Spot</a> check opposed by the <a href="ch69s06.html#MonstersM-N78">mimic's</a> <a href="ch16s03.html#CombinedSkills130">Disguise</a> check. Of course, by this time it is generally far too late.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2077982"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N83"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch69s06.html#MonstersM-N78">mimic</a> has a +8 racial bonus on <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch69.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch69s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Merfolk </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Minotaur</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

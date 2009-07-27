@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Inevitable</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch67.html" title="Monsters (H-I)"/>
+    <link rel="prev" href="ch67s12.html" title="Hydra"/>
+    <link rel="next" href="ch67s14.html" title="Invisible Stalker"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Inevitable</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch67s12.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (H-I)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch67s14.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1969949"/>Inevitable</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch67s13.html#id1970144">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch67s13.html#id1970264">Kolyarut</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch67s13.html#id1971587">Marut</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch67s13.html#id1973172">Zelekhut</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersH-I122"/>
+      <p><a href="ch67s13.html#MonstersH-I122">Inevitables</a> are constructs whose sole aim is to enforce the natural laws of the universe.<a href="img/MonstersH-I.Inevitable.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersH-I.Inevitable.jpg" align="right"/></span></a></p>
+      <p>Each type of <a href="ch67s13.html#MonstersH-I122">inevitable</a> is designed to find and punish a particular kind of transgression, hunting down a person or group that has violated a fundamental principle. When an <a href="ch67s13.html#MonstersH-I122">inevitable</a> is created, it receives its first mission, then finds the transgressors and metes out appropriate punishment. The sentence is usually death, although some <a href="ch67s13.html#MonstersH-I122">inevitables</a> insist on compensation to the wronged party instead, using <span class="emphasis"><em>geas</em></span> and <span class="emphasis"><em><a href="ch48.html#SpellsM-O27">mark of justice</a></em></span> to ensure compliance. From its first step, an <a href="ch67s13.html#MonstersH-I122">inevitable</a> focuses totally on its target. It continues its efforts no matter how cold the trail or hopeless the task. <a href="ch67s13.html#MonstersH-I122">Inevitables</a> are single-minded in pursuit of their quarry, but they are under orders to leave innocents alone. Accomplices to their prey are fair game, however, which sometimes creates conflicts within their programming.</p>
+      <p><a href="ch67s13.html#MonstersH-I122">Inevitables</a> gladly sacrifice themselves to complete a mission, but they aren't suicidal. Faced with impending defeat, they are likely to withdraw and seek a way to even the odds. They are determined but patient foes. They ally with others if that helps accomplish their mission, but they have a hard time keeping allies for long.</p>
+      <p><a href="ch67s13.html#MonstersH-I122">Inevitables</a> tend to stick out in a crowd while they're in observation mode, but they seem oblivious to the attention. Their forms vary, but all <a href="ch67s13.html#MonstersH-I122">inevitables</a> are gold-and-silver clockwork creatures, with gears and pistons where muscles would be on flesh-and-blood creatures. Their eyes glow with a golden radiance.</p>
+      <p>Note that unlike most constructs, <a href="ch67s13.html#MonstersH-I122">inevitables</a> have an Intelligence score and can think, learn, and remember.</p>
+      <p><a href="ch67s13.html#MonstersH-I122">Inevitables</a> speak Abyssal, Celestial, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, and the native language of their first target.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1970144"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I123"/>
+        <p>Unless their very existence is threatened, <a href="ch67s13.html#MonstersH-I122">inevitables</a> focus completely on the transgressor they've been assigned to, ignoring other combatants completely. An <a href="ch67s13.html#MonstersH-I122">inevitable</a> might attack anyone who hinders its progress, but it won't tarry beyond the point where it can reengage its quarry. <a href="ch67s13.html#MonstersH-I122">Inevitables</a> take self-defense very seriously; anyone who attacks an <a href="ch67s13.html#MonstersH-I122">inevitable</a> with what the creature perceives as deadly force is met with deadly force in return.</p>
+        <p>An <a href="ch67s13.html#MonstersH-I122">inevitable's</a> natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1970221"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I124"/>
+          <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> An <a href="ch67s13.html#MonstersH-I122">inevitable</a> heals a certain amount of damage each round (specified in each variety's description) as long as it has at least 1 hit point. However, damage dealt by chaotic weapons heals at the normal rate.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1970264"/>Kolyarut</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch67s13.html#id1971225">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I125"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1970282">
+          <tbody>
+            <tr><td/><td><strong>Kolyarut</strong></td></tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+            <tr><td><p><a href="ch21s02.html#CombatI13">Hit Dice</a>:</p></td>
+<td><p>13d10+20 (91 hp)</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s03.html#CombatI19">Initiative</a>:</p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s02.html#CombatI14">Speed</a>:</p></td>
+<td><p>20 ft. in banded mail (4 squares); base <a href="ch21s02.html#CombatI14">speed</a> 30 ft.</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s02.html#CombatI11">Armor Class</a>:</p></td>
+<td><p>27 (+1 Dex, +10 natural, +6 banded mail), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 26</p></td>
+
+</tr>
+            <tr><td><p>Base <a href="ch21s05.html#CombatI41">Attack</a>/<a href="ch22s03.html#CombatII66">Grapple</a>:</p></td>
+<td><p>+9/+11</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s05.html#CombatI41">Attack</a>:</p></td>
+<td><p>Vampiric <a href="ch21s02.html#CombatI12">touch</a> +11 melee <a href="ch21s02.html#CombatI12">touch</a> (5d6) or enervation <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +10 ranged <a href="ch21s02.html#CombatI12">touch</a> (as spell) or <span class="emphasis"><em>+2 longsword</em></span> +13 melee (1d8+5/19-20) or slam +11 melee (1d6+3)</p></td>
+
+</tr>
+            <tr><td><p><a href="ch21s05.html#CombatI81">Full Attack</a>:</p></td>
+<td><p>Vampiric <a href="ch21s02.html#CombatI12">touch</a> +11/+6 melee <a href="ch21s02.html#CombatI12">touch</a> (5d6) or enervation <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +10 ranged <a href="ch21s02.html#CombatI12">touch</a> (as spell) or <span class="emphasis"><em>+2 longsword</em></span> +13/+8 melee (1d8+5/19-20) or slam +11/+6 melee (1d6+3)</p></td>
+
+</tr>
+            <tr><td><p>Space/Reach:</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><a href="ch22s03.html#CombatII52">Special Attacks</a>:</p></td>
+<td><p>Enervation <a href="ch04.html#TypesSubtypesAbilities57">ray</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> vampiric <a href="ch21s02.html#CombatI12">touch</a></p></td>
+
+</tr>
+            <tr><td><p>Special Qualities:</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities15">chaotic</a>, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 5, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 22</p></td>
+
+</tr>
+            <tr><td><p>Saves:</p></td>
+<td><p>Fort +6, Ref +7, Will +7</p></td>
+
+</tr>
+            <tr><td><p>Abilities:</p></td>
+<td><p>Str 14, Dex 13, Con -, Int 10, Wis 17, Cha 16</p></td>
+
+</tr>
+            <tr><td><p>Skills:</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +5, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +12, <a href="ch16s03.html#CombinedSkills154">Gather Information</a> +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills253">Search</a> +5, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3 (+5 following tracks)</p></td>
+
+</tr>
+            <tr><td><p>Feats:</p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, Quickened <a href="ch21s05.html#CombatI64">Spell-Like Ability</a> (<span class="emphasis"><em><a href="ch50.html#SpellsS74">suggestion</a></em></span>)</p></td>
+
+</tr>
+            <tr><td><p>Environment:</p></td>
+<td><p>A lawful-aligned plane</p></td>
+
+</tr>
+            <tr><td><p>Organization:</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p>Challenge Rating:</p></td>
+<td><p>12</p></td>
+
+</tr>
+            <tr><td><p>Treasure:</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><a href="ch02.html#Description2">Alignment</a>:</p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+            <tr><td><p>Advancement:</p></td>
+<td><p>14-22 HD (<a href="ch22.html#CombatII28">Medium</a>); 23-39 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p>Level Adjustment:</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>Kolyaruts mete out punishment to those who break bargains and oaths.</p>
+        <p>Before beginning a mission against a deal-breaker, a kolyarut learns as much about the contract or oath as possible. It's not interested in those who break deals accidentally or against their will- only those who willingly break contracts violate the principle that kolyaruts are created to uphold. If a written contract was broken, the kolyarut typically carries a copy of the contract with it.</p>
+        <p>Kolyaruts are the most talkative of the <a href="ch67s13.html#MonstersH-I122">inevitables</a>, making credible attempts at social niceties such as proper greetings before getting down to the matter at hand. They can use <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span> to appear as almost any kind of humanoid-useful if they need to go undercover to catch their quarry.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1971225"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I126"/>
+          <p>Like all <a href="ch67s13.html#MonstersH-I122">inevitables</a>, a kolyarut is patient enough to study a target before striking. It has a good idea of the deal-breaker's abilities and defenses before it enters battle. When it fights, it tries to get the conflict over as soon as possible, minimizing excess bloodshed and mayhem. It doesn't let concern for innocents delay or endanger its mission, however.</p>
+          <p>A kolyarut's favorite tactic is to use <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> or <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span> to sneak close, then eliminate the quarry with its vampiric touch ability before it can react. A kolyarut has no compunctions about using its vampiric touch ability on allies to increase its own power, if doing so helps it complete its mission.</p>
+          <p>A kolyarut's natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1971295"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I127"/>
+            <p><span class="strong"><strong>Enervation Ray (Su):</strong></span> A kolyarut can fire a black enervation ray at targets within 200 feet. The effect is identical with the <span class="emphasis"><em><a href="ch45.html#SpellsD-E63">enervation</a></em></span> spell (caster level 13th).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1971336"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I128"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E35">discern lies</a></em></span> (DC 17)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E37">disguise self</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> (DC 17)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span> (DC 16)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L71">locate creature</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS74">suggestion</a></em></span> (DC 16)<span class="emphasis"><em/></span>; 1/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span> (DC 17)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O27">mark of justice</a></em></span>; 1/week- <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>. Caster level 13th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1971486"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I129"/>
+            <p><span class="strong"><strong>Vampiric Touch (Su):</strong></span> As a melee touch attack, a kolyarut can steal life force from its foe, as the <span class="emphasis"><em><a href="ch51.html#SpellsT-Z32">vampiric touch</a></em></span> spell (caster level 13th).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1971525"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I130"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A kolyarut has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills130">Disguise</a>, <a href="ch16s03.html#CombinedSkills154">Gather Information</a>, and <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> checks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1971587"/>Marut</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch67s13.html#id1972706">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I131"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1971605">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Marut</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>15d10+30 (112 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. in full plate armor (6 squares); base <a href="ch21s02.html#CombatI14">speed</a> 40 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>34 (-1 size, +1 Dex, +16 natural, +8 full plate armor), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+11/+27</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +22 melee (2d6+12 plus 3d6 sonic or 3d6 electricity)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Fists of thunder and lightning, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities15">chaotic</a>, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 10, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 25</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +6, Will +8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 35, Dex 13, Con -, Int 12, Wis 17, Cha 18</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +16, <a href="ch16s03.html#CombinedSkills253">Search</a> +10, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +16, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3 (+5 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats2">Ability Focus</a> (fists), <a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A lawful-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>16-28 HD (<a href="ch22.html#CombatII28">Large</a>); 29-45 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch67s13.html#MonstersH-I131">Maruts</a> confront those who would try to deny the grave itself.</p>
+        <p>Any who use unnatural means to extend their life span could be targeted by a <a href="ch67s13.html#MonstersH-I131">marut</a>. Those who take extraordinary measures to cheat death in some other way might be labeled transgressors as well. Those who use magic to reverse death aren't worthy of a <a href="ch67s13.html#MonstersH-I131">marut's</a> attention unless they do so repeatedly or on a massive scale.</p>
+        <p>When a <a href="ch67s13.html#MonstersH-I131">marut</a> has identified its target, it walks surely and implacably toward the foe, never resting.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1972706"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I132"/>
+          <p>Once it has found its target, a <a href="ch67s13.html#MonstersH-I131">marut</a> brings it the death it has been trying to avoid. Those who defile death through necromancy may instead receive a <span class="emphasis"><em>geas</em></span> and/or <span class="emphasis"><em><a href="ch48.html#SpellsM-O27">mark of justice</a></em></span> to enforce proper respect. It typically uses <span class="emphasis"><em><a href="ch51.html#SpellsT-Z39">wall of force</a></em></span> to shut off any escape routes, then opens up with <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> while it closes to melee range. Once there, it strikes with its massive fists, using <span class="emphasis"><em><a href="ch44.html#SpellsC18">circle of death</a></em></span> if beset by numbers of defenders. It hits spellcasting opponents with repeated uses of <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>, <span class="emphasis"><em/></span> and it uses <span class="emphasis"><em><a href="ch45.html#SpellsD-E31">dimension door</a></em></span> and <span class="emphasis"><em><a href="ch47.html#SpellsH-L71">locate creature</a></em></span> to track down foes who flee.</p>
+          <p>A <a href="ch67s13.html#MonstersH-I131">marut's</a> natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1972836"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I133"/>
+            <p><span class="strong"><strong>Fists of Thunder and Lightning (Su):</strong></span> A <a href="ch67s13.html#MonstersH-I131">marut's</a> left fist delivers a loud thunderclap whenever it hits something, dealing an extra 3d6 points of sonic damage and causing the target to be deafened for 2d6 rounds (Fortitude DC 31 negates the deafness). Its right fist delivers a shock for an extra 3d6 points of electricity damage, and the flash of lightning causes the target to be blinded for 2d6 rounds (Fortitude DC 31 negates the blindness). The save DCs are Strength-based and include the <a href="ch67s13.html#MonstersH-I131">marut's</a> <a href="ch20.html#MonsterFeats2">Ability Focus</a> feat.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1972893"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I134"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B6">air walk</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E31">dimension door</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> (DC 18)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC26">greater command</a></em></span> (DC 19)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L42">mass inflict light wounds</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch47.html#SpellsH-L71">locate creature</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span> (DC 20)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC18">circle of death</a></em></span> (DC 20)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O27">mark of justice</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z39">wall of force</a></em></span>; 1/week- <span class="emphasis"><em><a href="ch45.html#SpellsD-E59">earthquake</a></em></span> (DC 22)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G37">geas/quest</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span> (DC 21)<span class="emphasis"><em/></span>. Caster level 14th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1973100"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I135"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch67s13.html#MonstersH-I131">marut</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills78">Concentration</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1973172"/>Zelekhut</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch67s13.html#id1974357">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I136"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1973190">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Zelekhut</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d10+30 (74 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>35 ft. in plate barding (7 squares), fly 40 ft. (average) in plate barding (8 squares); base <a href="ch21s02.html#CombatI14">speed</a> 50 ft., fly 60 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>27 (-1 size, +10 natural, +8 plate barding), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 27</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Spiked chain +10 melee (2d6+5 plus 1d6 electricity)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 spiked chains +10 melee (2d6+5 plus 1d6 electricity)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities15">chaotic</a>, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 5, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 20</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +2, Will +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 11, Con -, Int 10, Wis 17, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +9, <a href="ch16s03.html#CombinedSkills253">Search</a> +9, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +9, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3 (+5 following tracks)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats302">Ride-by Attack</a>, <a href="ch17s03.html#Feats345">Spirited Charge</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A lawful-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Large</a>); 17-24 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch67s13.html#MonstersH-I136">Zelekhuts</a> are charged with hunting down those who would deny justice-especially those who flee to escape punishment. Expert trackers, they use a combination of natural skill and magic to find fugitives wherever they may hide.</p>
+        <p>A <a href="ch67s13.html#MonstersH-I136">zelekhut</a> may initially appear rather non-threatening-but when it is about to enter combat, it can cause two spiked chains to spring forth from its forearms as a free action. In similar fashion, it can cause a pair of golden metallic wings to emerge from its back. Retracting the chains or the wings is also a free action.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1974357"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I137"/>
+          <p>Once it has found its fugitive, a <a href="ch67s13.html#MonstersH-I136">zelekhut</a> uses its speed and its spell-like abilities to cover the most likely escape routes. Then it immobilizes any defenders while attempting to protect any innocent bystanders. Finally, it apprehends the fugitive with its spiked chains, tripping or disarming the foe as needed.</p>
+          <p>A <a href="ch67s13.html#MonstersH-I136">zelekhut's</a> natural weapons, as well as any weapons it wields, are treated as lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1974407"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I138"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch44.html#SpellsC19">clairaudience/clairvoyance</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E32">dimensional anchor</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> (DC 16)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span> (DC 15)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L71">locate creature</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span>; 3/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span> (DC 17)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O27">mark of justice</a></em></span>; 1/week- <span class="emphasis"><em><a href="ch46.html#SpellsF-G38">lesser geas</a></em></span> (DC 16)<span class="emphasis"><em/></span>. Caster level 8th. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1974692"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I139"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch67s13.html#MonstersH-I136">zelekhut</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills253">Search</a> and <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> checks.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1974750"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I140"/>
+            <p><span class="strong"><strong>Feats:</strong></span> Due to its centaur-like construction, a <a href="ch67s13.html#MonstersH-I136">zelekhut</a> qualifies for feats as if it had the <a href="ch17s03.html#Feats261">Mounted Combat</a> feat.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch67s12.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch67.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch67s14.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Hydra </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Invisible Stalker</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

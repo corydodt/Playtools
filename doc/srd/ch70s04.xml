@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Orc</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s03.html" title="Ooze"/>
+    <link rel="next" href="ch70s05.html" title="Otyugh"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Orc</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s03.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s05.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2120165"/>Orc</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch70s04.html#id2121780">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s04.html#id2121871">Orcs as Characters</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s04.html#id2122061">Half-Orcs</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R48"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2120183">
+        <tbody>
+          <tr><td/>
+<td><strong><a href="ch70s04.html#MonstersO-R48">Orc</a>, 1st-Level Warrior</strong></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (<a href="ch70s04.html#MonstersO-R48">Orc</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 (5 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (+3 studded leather armor), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Falchion +4 melee (2d4+4/18-20) or javelin +1 ranged (1d6+3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Falchion +4 melee (2d4+4/18-20) or javelin +1 ranged (1d6+3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., light sensitivity</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +0, Will -2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 11, Con 12, Int 8, Wis 7, Cha 6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +1, <a href="ch16s03.html#CombinedSkills294">Spot</a> +1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate hills</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Gang (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Often <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <p>An <a href="ch70s04.html#MonstersO-R48">orc's</a> hair usually is black. It has lupine ears and reddish eyes. <a href="ch70s04.html#MonstersO-R48">Orcs</a> prefer wearing vivid colors that many humans would consider unpleasant, such as blood red, mustard yellow, yellow-green, and deep purple. Their equipment is dirty and unkempt. An adult male <a href="ch70s04.html#MonstersO-R48">orc</a> is a little over 6 feet tall and weighs about 210 pounds.<a href="img/MonstersO-R.Orc.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Orc.jpg" align="right"/></span></a></p>
+      <p>Females are slightly smaller.</p>
+      <p>The language an <a href="ch70s04.html#MonstersO-R48">orc</a> speaks varies slightly from tribe to tribe, but any <a href="ch70s04.html#MonstersO-R48">orc</a> is understandable by someone else who speaks <a href="ch70s04.html#MonstersO-R48">Orc</a>. Some <a href="ch70s04.html#MonstersO-R48">orcs</a> know <a href="ch66s11.html#MonstersG136">Goblin</a> or <a href="ch66s06.html#MonstersG67">Giant</a> as well.</p>
+      <p>Most <a href="ch70s04.html#MonstersO-R48">orcs</a> encountered away from their homes are warriors; the information in the statistics block is for one of 1st level.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2121780"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R49"/>
+        <p><a href="ch70s04.html#MonstersO-R48">Orcs</a> are proficient with all simple weapons, preferring those that cause the most damage in the least time. Many <a href="ch70s04.html#MonstersO-R48">orcs</a> who take up the warrior or fighter class also gain proficiency with the falchion or the greataxe as a martial weapon. They enjoy attacking from concealment and setting ambushes, and they obey the rules of war (such as honoring a truce) only as long as it is convenient for them.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2121820"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R50"/>
+          <p><span class="strong"><strong>Light Sensitivity (Ex):</strong></span> <a href="ch70s04.html#MonstersO-R48">Orcs</a> are dazzled in bright sunlight or within the radius of a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2121871"/>Orcs as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R51"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2121890"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R52"/>
+          <p><span class="strong"><strong>Orc Traits (Ex):</strong></span> <a href="ch70s04.html#MonstersO-R48">Orcs</a> possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+4 Strength, -2 Intelligence, -2 Wisdom, -2 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>An <a href="ch70s04.html#MonstersO-R48">orc's</a> base land <a href="ch21s02.html#CombatI14">speed</a> is 30 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Darkvision out to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Light Sensitivity: <a href="ch70s04.html#MonstersO-R48">Orcs</a> are dazzled in bright sunlight or within the radius of a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, <a href="ch70s04.html#MonstersO-R48">Orc</a>. Bonus Languages: Dwarven, <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>, <a href="ch66s09.html#MonstersG125">Gnoll</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, Undercommon.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Barbarian.</p>
+              </li>
+            </ul>
+          </div>
+          <p>The <a href="ch70s04.html#MonstersO-R48">orc</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2122061"/>Half-Orcs</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R53"/>
+        <p>These orc-human crossbreeds can be found in either <a href="ch70s04.html#MonstersO-R48">orc</a> or human society (where their status varies according to local sentiments), or in communities of their own. Half-orcs usually inherit a good blend of the physical characteristics of their parents. They are as tall as humans and a little heavier, thanks to their muscle. They have greenish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and coarse body hair. Half-orcs who have lived among or near <a href="ch70s04.html#MonstersO-R48">orcs</a> have scars, in keeping with orcish tradition.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2122109"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R54"/>
+          <p><span class="strong"><strong>Half-Orc Traits (Ex):</strong></span> Half-orcs possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+2 Strength, -2 Intelligence, -2 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+              </li>
+            </ul>
+          </div>
+          <p>-A half-orc's base land speed is 30 feet.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>Darkvision: Half-orcs can see in the dark up to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch70s04.html#MonstersO-R48">Orc</a> Blood: For all effects related to race, a half-orc is considered an <a href="ch70s04.html#MonstersO-R48">orc</a>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, <a href="ch70s04.html#MonstersO-R48">Orc</a>. Bonus Languages: Draconic, <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>, <a href="ch66s09.html#MonstersG125">Gnoll</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, Abyssal.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Barbarian.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s03.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s05.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Ooze </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Otyugh</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

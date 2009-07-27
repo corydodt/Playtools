@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Elemental, Primal</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch75.html" title="Epic Monsters (A-E)"/>
+    <link rel="prev" href="ch75s08.html" title="Dragon, Epic"/>
+    <link rel="next" href="ch76.html" title="Epic Monsters (G-W)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Elemental, Primal</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch75s08.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (A-E)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2424563"/>Elemental, Primal</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s09.html#id2427502">Primal Air Elemental</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s09.html#id2427732">Primal Earth Elemental</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s09.html#id2427885">Primal Fire Elemental</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s09.html#id2428052">Primal Water Elemental</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(A-E)265"/>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id2424582"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)266"/>
+        <p><span class="strong"><strong>Elemental Traits:</strong></span> Immune to poison, sleep, paralysis, and stunning. Not subject to critical hits.</p>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2424611">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Air Elemental, Primal</strong></span> </p></td>
+<td><p><span class="strong"><strong>Earth Elemental, Primal</strong></span> </p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>64d8+576 (944 hp)</p></td>
+<td><p>64d8+640 (1,048 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+24 (+16 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+<td><p>-1 (Dex)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 100 ft. (perfect)</p></td>
+<td><p>20 ft., burrow 40 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>66 (-8 size, +16 Dex, +48 natural), <a href="ch21s02.html#CombatI12">touch</a> 18, <a href="ch21s03.html#CombatI21">flat-footed</a> 50</p></td>
+<td><p>49 (-8 size, -1 Dex, +48 natural), <a href="ch21s02.html#CombatI12">touch</a> 1, <a href="ch21s03.html#CombatI21">flat-footed</a> 49</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong>Base  <a href="ch60.html#MonstersIntro-A11">Attack</a>/Grapple:</strong></span></p></td>
+<td><p>+48/+75</p></td>
+<td><p>+48/+80</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +57 (4d8+16) melee</p></td>
+<td><p>Slam +57 (4d10+24/19-20) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 Slams +57 (4d8+16) melee</p></td>
+<td><p>2 slams +57 (4d10+24/19-20) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./30 ft.</p></td>
+<td><p>30 ft./30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities5">Air</a> mastery, whirlwind</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities21">Earth</a> mastery, push</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/-, <a href="ch04.html#TypesSubtypesAbilities66">SR</a> 42</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/-, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 42</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +42, Ref +52, Will +28</p></td>
+<td><p>Fort +46, Ref +21, Will +28</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 32, Dex 43, Con 28, Int 8, Wis 13, Cha 13</p></td>
+<td><p>Str 43, Dex 8, Con 31, Int 8, Wis 13, Cha 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +48, <a href="ch16s03.html#CombinedSkills294">Spot</a> +57</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +57, <a href="ch16s03.html#CombinedSkills294">Spot</a> +48</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (slam), <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x2), <a href="ch18s02.html#EpicFeats141">Epic Prowess</a> (x2), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x4), <a href="ch18s02.html#EpicFeats182">Epic Will</a>, <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+<td><p><a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (slam), <a href="ch18s02.html#EpicFeats141">Epic Prowess</a> (x3), Epix <a href="ch17s03.html#Feats361">Toughness</a> (x6), <a href="ch18s02.html#EpicFeats182">Epic Will</a>, <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (slam)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any land</p></td>
+<td><p>Any land</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>35</p></td>
+<td><p>35</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>65-288 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+<td><p>65-288 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2425954">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Fire Elemental, Primal</strong></span> </p></td>
+<td><p><span class="strong"><strong>Water Elemental, Primal</strong></span> </p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> (<a href="ch04.html#TypesSubtypesAbilities79">Water</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>64d8+576 (944 hp)</p></td>
+<td><p>64d8+640 (1,048 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+22 (+14 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+<td><p>+14 (Dex)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft.</p></td>
+<td><p>20 ft., swim 90 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>64 (-8 size, +14 Dex, +48 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 50</p></td>
+<td><p>64 (-8 size, +14 Dex, +48 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 50</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+48/+75</p></td>
+<td><p>+48/+80</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +55 (4d8+16 plus 4d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) melee</p></td>
+<td><p>Slam +57 (4d10+24/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +55 (4d8+16 plus 4d8 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>) melee</p></td>
+<td><p>2 slam +57 (4d10+24/19-20)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./30 ft.</p></td>
+<td><p>30 ft./30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Burn</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities79">Water</a> mastery, drench, vortex</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/-, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 42, <a href="ch04.html#TypesSubtypesAbilities29">fire</a> immunity, <a href="ch04.html#TypesSubtypesAbilities16">cold</a> vulnerability</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> traits, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/-, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 42</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +32, Ref +50, Will +28</p></td>
+<td><p>Fort +46, Ref +21, Will +28</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 32, Dex 39, Con 28, Int 8, Wis 13, Cha 13</p></td>
+<td><p>Str 42, Dex 38, Con 31, Int 8, Wis 13, Cha 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +19, <a href="ch16s03.html#CombinedSkills204">Listen</a> +48, <a href="ch16s03.html#CombinedSkills294">Spot</a> +57</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +7, <a href="ch16s03.html#CombinedSkills204">Listen</a> +57, <a href="ch16s03.html#CombinedSkills294">Spot</a> +48, <a href="ch16s03.html#CombinedSkills311">Swim</a> +19</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (slam), <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a>, <a href="ch18s02.html#EpicFeats93">Dire Charge</a>, <a href="ch18s02.html#EpicFeats141">Epic Prowess</a>, (x2), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x4), <a href="ch18s02.html#EpicFeats182">Epic Will</a>, <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+<td><p><a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (slam), <a href="ch18s02.html#EpicFeats141">Epic Prowess</a> (x2), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x6), <a href="ch18s02.html#EpicFeats182">Epic Will</a>, <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (slam)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any land</p></td>
+<td><p>Any land</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>35</p></td>
+<td><p>35</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>65-288 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+<td><p>65-288 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2427502"/>Primal Air Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s09.html#id2427551">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)267"/>
+        <p><a href="ch75s09.html#EpicMonsters(A-E)267">Primal air elementals</a> speak Auran.<a href="img/EpicMonsters(A-E).Primal_Air_Elemental.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Primal_Air_Elemental.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2427551"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)268"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2427570"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)269"/>
+            <p><span class="strong"><strong>Air Mastery (Ex):</strong></span> Airborne creatures take a -1 penalty on attack and damage rolls against an <a href="ch65s02.html#MonstersE-F9">air elemental</a>.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2427609"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)270"/>
+            <p><span class="strong"><strong>Whirlwind (Su):</strong></span> The <a href="ch65s02.html#MonstersE-F7">elemental</a> can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 1 round for every 2 HD it has. In this form, the <a href="ch65s02.html#MonstersE-F7">elemental</a> can move through the air or along a surface at its fly speed.  A primal air whirlwind is 10 feet wide at the base, 40 feet wide at the top, and up to 80 feet tall. The <a href="ch65s02.html#MonstersE-F7">elemental</a> controls its exact height, but it must be at least 10 feet. Gargantuan or smaller creatures might take damage when caught in the whirlwind and may be lifted into the air. An affected creature must succeed at a Reflex save (DC 53) when it comes into contact with the whirlwind or take 4d8 points of damage. It must also succeed at a second Reflex save (DC 53) or be picked up bodily and held suspended in the powerful winds, automatically taking 4d8 points of damage each round. A creature that can fly is allowed a Reflex save (DC 53) each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The <a href="ch65s02.html#MonstersE-F7">elemental</a> can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be. A summoned <a href="ch65s02.html#MonstersE-F7">elemental</a> always ejects trapped creatures before returning to its home plane. If the whirlwind's base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the <a href="ch65s02.html#MonstersE-F7">elemental</a> and has a diameter equal to half the whirlwind's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have one-half concealment, while those farther away have total concealment. Those caught in the cloud must succeed at a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 53) to cast a spell. The DC is Strength-based.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2427732"/>Primal Earth Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s09.html#id2427762">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)271"/>
+        <p><a href="ch65s02.html#MonstersE-F13">Earth elementals</a> speak Terran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2427762"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)272"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2427781"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)273"/>
+            <p><span class="strong"><strong>Earth Mastery (Ex):</strong></span> An <a href="ch65s02.html#MonstersE-F13">earth elemental</a> gains a +1 attack and damage bonus if both it and its foe touch the ground. If an opponent is airborne or water-borne, the <a href="ch65s02.html#MonstersE-F7">elemental</a> takes a -4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2427832"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)274"/>
+            <p><span class="strong"><strong>Push (Ex):</strong></span> An <a href="ch65s02.html#MonstersE-F13">earth elemental</a> can start a bull rush maneuver without provoking an attack of opportunity. The combat modifiers given for earth mastery, above, also apply to the <a href="ch65s02.html#MonstersE-F7">elemental's</a> opposed Strength checks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2427885"/>Primal Fire Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s09.html#id2427966">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)275"/>
+        <p>A <a href="ch75s09.html#EpicMonsters(A-E)275">primal fire elemental</a> cannot enter water or any other nonflammable liquid. Unlike lesser <a href="ch65s02.html#MonstersE-F18">fire elementals</a>, a <a href="ch75s09.html#EpicMonsters(A-E)275">primal fire elemental</a> may attempt to evaporate a lesser body of water if blocked. <a href="ch65s02.html#MonstersE-F18">Fire elementals</a> speak Ignan.<a href="img/EpicMonsters(A-E).Primal_Fire_Elemental.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Primal_Fire_Elemental.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2427966"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)276"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2427985"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)277"/>
+            <p><span class="strong"><strong>Burn (Ex):</strong></span> Those hit by a <a href="ch75s09.html#EpicMonsters(A-E)275">primal fire elemental's</a> slam attack must succeed at a Reflex save (DC 51) or catch fire. The flame burns for 1d4 rounds. A burning creature can take a move-equivalent action to put out the flame. Creatures hitting a <a href="ch65s02.html#MonstersE-F18">fire elemental</a> with natural weapons or unarmed attacks take fire damage as though hit by the <a href="ch65s02.html#MonstersE-F7">elemental's</a> attack, and also catch fire unless they succeed at a Reflex save. The DC is Constitution-based.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2428052"/>Primal Water Elemental</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s09.html#id2428114">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)278"/>
+        <p>A <a href="ch75s09.html#EpicMonsters(A-E)278">primal water elemental</a> can't venture more than 360 feet from the body of water from which it emerged. <a href="ch65s02.html#MonstersE-F21">Water elementals</a> speak Aquan.<a href="img/EpicMonsters(A-E).Primal_Water_Elemental.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Primal_Water_Elemental.jpg" align="right"/></span></a></p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2428114"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)279"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2428132"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)280"/>
+            <p><span class="strong"><strong>Water Mastery (Ex):</strong></span> A <a href="ch65s02.html#MonstersE-F21">water elemental</a> gains a +1 bonus on attack and damage rolls if both it and its opponent touch water. If the opponent or <a href="ch65s02.html#MonstersE-F7">elemental</a> is land-bound, the <a href="ch65s02.html#MonstersE-F7">elemental</a> takes a -4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.) A <a href="ch75s09.html#EpicMonsters(A-E)278">primal water elemental</a> can be a serious threat to a ship that crosses its path. It can easily overturn even large craft (ships of up to 5 feet in length per Hit Dice of the <a href="ch65s02.html#MonstersE-F7">elemental</a>) and stop massive vessels (ships of less than 10 feet in length per HD). Even ocean-going <a href="ch75s02.html#EpicMonsters(A-E)99">behemoths</a> (ships of less than 20 feet in length per HD) can be slowed to half speed.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2428226"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)281"/>
+            <p><span class="strong"><strong>Drench (Ex):</strong></span> The <a href="ch65s02.html#MonstersE-F7">elemental's</a> touch puts out torches, campfires, exposed lanterns, and other open flames of non-magical origin if these are Gargantuan or smaller. The creature can dispel magical fire it touches as <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span> cast by a caster whose level equals the <a href="ch65s02.html#MonstersE-F7">elemental's</a> HD total (64).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2428288"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)282"/>
+            <p><span class="strong"><strong>Vortex (Su):</strong></span> The <a href="ch65s02.html#MonstersE-F7">elemental</a> can transform itself into a whirlpool once every 10 minutes, provided it is underwater, and remain in that form for up to 1 round for every 2 HD it has (48 rounds). In vortex form, the <a href="ch65s02.html#MonstersE-F7">elemental</a> can move through the water or along the bottom at its swim speed. The vortex is 5 feet wide at the base, up to 50 feet wide at the top, and up to 80 feet tall. The <a href="ch65s02.html#MonstersE-F7">elemental</a> controls its exact height, but it must be at least 10 feet. Gargantuan and smaller creatures might take damage when caught in the vortex and may be swept up by it. An affected creature must succeed at a Reflex save (DC 58) when it comes into contact with the vortex or take 4d10 points of damage. It must also succeed at a second Reflex save (DC 68) or be picked up bodily and held suspended in the powerful currents, automatically taking 4d10 points of damage each round. A creature that can swim is allowed a Reflex save (DC 58) each round to escape the vortex. The creature still takes damage, but can leave if the save is successful. The <a href="ch65s02.html#MonstersE-F7">elemental</a> can eject any carried creatures whenever it wishes, depositing them wherever the vortex hap-pens to be. A summoned <a href="ch65s02.html#MonstersE-F7">elemental</a> always ejects trapped creatures before returning to its home plane. If the vortex's base touches the bottom, it creates a swirling cloud of debris. This cloud is centered on the <a href="ch65s02.html#MonstersE-F7">elemental</a> and has a diameter equal to half the vortex's height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have one-half concealment, while those farther away have total concealment. Those caught in the cloud must succeed at a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 58) to cast a spell.  The DC is Strength-based.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch75s08.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch75.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Dragon, Epic </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Epic Monsters (G-W)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

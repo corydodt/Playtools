@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Dromite</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s09.html" title="Crysmal"/>
+    <link rel="next" href="ch77s11.html" title="Duergar, Psionic"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Dromite</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s09.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s11.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2474641"/>Dromite</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s10.html#id2475464">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch77s10.html#id2475578">Dromites as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters117"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2474659">
+        <tbody>
+          <tr><td/>
+<td><strong><a href="ch77s10.html#PsionicMonsters117">Dromite</a>, 1st-Level Warrior</strong></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a> (Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+1 (5 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+1 size, +3 natural armor, +3 studded leather, +1 light shield), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Longsword +3 melee (1d6/19-20) or light crossbow +2 ranged (1d6/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Longsword +3 melee (1d6/19-20) or light crossbow +2 ranged (1d6/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Psi-like abilities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 5, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +0, Will -2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 11, Dex 11, Con 12, Int 10, Wis 7, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats390">Weapon Focus</a> (longsword), <a href="ch17s03.html#Feats53">Blind-Fight</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Squad (2-4), company (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 100% noncombatants plus 1 3rdlevel sergeant per 20 adults, 5 5th-level lieutenants, 3 7th-level captains, 6-10 <a href="ch04.html#TypesSubtypesAbilities33">giant</a> beetles, and 2-5 riding <a href="ch04.html#TypesSubtypesAbilities33">giant</a> beetles)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch77s10.html#PsionicMonsters117">Dromites</a> stand about 3 feet tall and usually weigh slightly more than 30 pounds. They have iridescent compound eyes. <a href="ch77s10.html#PsionicMonsters117">Dromites</a> wear heavy boots and light clothing, and are sometimes content with just a sturdy harness.</p>
+      <p><a href="ch77s10.html#PsionicMonsters117">Dromites</a> speak Common.</p>
+      <p>Most <a href="ch77s10.html#PsionicMonsters117">dromites</a> encountered outside their homes are warriors; the information in the statistics block is for a warrior of 1st level.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2475464"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters118"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2475482"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters119"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> 1/day: <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F93">energy ray</a></em></span> (fire, 1d6+1)<span class="emphasis"><em/></span>. Manifester level 1st. The save DC is Charisma-based. (Other <a href="ch77s10.html#PsionicMonsters117">dromites</a> may manifest electricity, cold, or sonic <span class="emphasis"><em>energy rays</em></span> instead; the <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F93">energy ray</a></em></span> always matches the type of energy the <a href="ch77s10.html#PsionicMonsters117">dromite</a> is resistant to.)</p>
+          <p>The <a href="ch77s10.html#PsionicMonsters117">dromite</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2475578"/>Dromites as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters120"/>
+        <p><a href="ch77s10.html#PsionicMonsters117">Dromite</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+2 Charisma, -2 Strength, -2 Wisdom.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Small</a> size: +1 bonus to <a href="ch21s02.html#CombatI11">Armor Class</a>, +1 bonus on <a href="ch21s02.html#CombatI4">attack rolls,</a> +4 bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks, -4 penalty on <a href="ch22s03.html#CombatII67">grapple checks,</a> lifting and carrying limits 3/4 of those of <a href="ch22.html#CombatII28">Medium</a> characters.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch77s10.html#PsionicMonsters117">Dromite</a> base land <a href="ch21s02.html#CombatI14">speed</a> is 20 feet.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>+3 natural armor bonus.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Naturally Psionic: <a href="ch77s10.html#PsionicMonsters117">Dromites</a> gain 1 bonus power point at 1st level.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): Psi-like abilities.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Special Qualities (see above): Resistance to <a href="ch04.html#TypesSubtypesAbilities29">fire</a> 5 (other <a href="ch77s10.html#PsionicMonsters117">dromites</a> may have <a href="ch04.html#TypesSubtypesAbilities60">resistance to cold</a>, electricity, or sonics instead of <a href="ch04.html#TypesSubtypesAbilities29">fire</a>), <a href="ch04.html#TypesSubtypesAbilities61">scent</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: <a href="ch77s10.html#PsionicMonsters117">Dromites</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks due to their compound eyes.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: <a href="ch77s10.html#PsionicMonsters117">Dromites</a> gain Blind-fight as a bonus feat.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: Common. Bonus Languages: Dwarven, <a href="ch66s10.html#MonstersG128">Gnome</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, Terran.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Wilder.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level Adjustment: +1.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s09.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s11.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Crysmal </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Duergar, Psionic</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

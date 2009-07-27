@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Hoary Hunter</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s06.html" title="Hagunemnon (Protean)"/>
+    <link rel="next" href="ch76s08.html" title="Hoary Steed"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Hoary Hunter</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s06.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s08.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2353568"/>Hoary Hunter</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s07.html#id2355275">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)50"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2353587">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Hoary Hunter</strong></span> </p></td>
+<td><p><span class="strong"><strong>Hoary Steed</strong></span> </p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities28">Fey</a> (<a href="ch04.html#TypesSubtypesAbilities16">Cold</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a> (<a href="ch04.html#TypesSubtypesAbilities16">Cold</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>46d6+598 (759 hp)</p></td>
+<td><p>12d10+36 (102 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+19 (+11 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+<td><p>+8 (+4 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft.</p></td>
+<td><p>40 ft., fly 90 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>46 (+11 Dex, +15 insight, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 36, <a href="ch21s03.html#CombatI21">flat-footed</a> 35</p></td>
+<td><p>23 (-1 size, +4 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Base <a href="ch60.html#MonstersIntro-A11">Attack</a>/</strong></span></p>
+<p><span class="strong"><strong>Grapple:</strong></span></p></td> <td><p>+23/+37</p></td>
+<td><p>+12/+22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>+6 keen longsword of <a href="ch43.html#SpellsA-B39">binding</a></em></span> +46 (1d8+27/17-20 plus 1d6 plus <span class="emphasis"><em><a href="ch43.html#SpellsA-B39">binding</a></em></span>) melee</p></td>
+<td><p>Hoof +17 (3d6+6) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><span class="emphasis"><em>+6 keen longsword of <a href="ch43.html#SpellsA-B39">binding</a></em></span> +46/+41/+36/+31 (1d8+27/17-20 plus 1d6 plus <span class="emphasis"><em><a href="ch43.html#SpellsA-B39">binding</a></em></span>) melee</p></td>
+<td><p>2 hooves +17 (3d6+6) melee, bite +15 (5d8+3) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities</a></p></td>
+<td/>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> immunity, <a href="ch04.html#TypesSubtypesAbilities29">fire</a> vulnerability, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 36, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/epic and <a href="ch24.html#SpecialMaterials6">cold iron</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> immunity, <a href="ch04.html#TypesSubtypesAbilities29">fire</a> vulnerability, <a href="ch04.html#TypesSubtypesAbilities5">air</a> walk, astral projection and etherealness, magic circle against <a href="ch04.html#TypesSubtypesAbilities35">good</a>, misty breath, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 20, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/magic and <a href="ch24.html#SpecialMaterials6">cold iron</a>, immunities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +28, Ref +36, Will +31</p></td>
+<td><p>Fort +11, Ref +12, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 38, Dex 33, Con 36, Int 21, Wis 23, Cha 26</p></td>
+<td><p>Str 22, Dex 18, Con 17, Int 6, Wis 13, Cha 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +14, <a href="ch16s03.html#CombinedSkills179">Hide</a> +60, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +57, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (geography, nature) +54, <a href="ch16s03.html#CombinedSkills204">Listen</a> +55, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +60, <a href="ch16s03.html#CombinedSkills243">Ride</a> +60, <a href="ch16s03.html#CombinedSkills253">Search</a> +54, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +55, <a href="ch16s03.html#CombinedSkills294">Spot</a> +55, <a href="ch16s03.html#CombinedSkills303">Survival</a> +55</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span> </p></td>
+<td><p><a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (longsword), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats261">Mounted Combat</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats302">Ride-by Attack</a>, <a href="ch17s03.html#Feats345">Spirited Charge</a>, <a href="ch17s03.html#Feats369">Track</a>, <a href="ch17s03.html#Feats373">Trample</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (longsword)</p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span> </p></td>
+<td><p><a href="ch18s02.html#EpicFeats93">Dire Charge</a>, <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (longsword), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (longsword), <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+<td/>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+<td><p>Any <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or company (2-5)</p></td>
+<td><p>Solitary (with rider)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>25</p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span> </p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>47+ HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>13-24 HD (<a href="ch22.html#CombatII28">Large</a>); 25-36 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch76s07.html#EpicMonsters(G-W)50">hoary hunter's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.<a href="img/EpicMonsters(G-W).Hoary_Hunter.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Hoary_Hunter.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2355275"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)51"/>
+        <p>A critical hit (or the blow that would kill or render a foe unconscious) from the <a href="ch76s07.html#EpicMonsters(G-W)50">hoary hunter's</a> blade does not wound the hunter's prey. Instead, the victim is bodily transported as per a <span class="emphasis"><em>soul <a href="ch43.html#SpellsA-B39">binding</a></em></span> spell heightened to 16th level (DC 30) into a diamond at the end of the sword's hilt.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2355323"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)52"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E36">discern location</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z25">true strike</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G25">fog cloud</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>; 3/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E32">dimensional anchor</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E53">dominate monster</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>; 1/day-mage's <span class="emphasis"><em><a href="ch48.html#SpellsM-O4">disjunction</a></em></span>,  <span class="emphasis"><em>contingent recall and <a href="ch49.html#SpellsP-R74">resurrection</a>*</em></span>. Caster level 23rd; save DC 18 + spell level. <span class="emphasis"><em>*Contingent recall and <a href="ch49.html#SpellsP-R74">resurrection</a></em></span> is a variation on an epic spell. When slain, the <a href="ch76s07.html#EpicMonsters(G-W)50">hoary hunter</a> is actually transported, with its mount, back to the fey realm, where it is resurrected. The only way to truly slay the <a href="ch76s07.html#EpicMonsters(G-W)50">hoary hunter</a> is to defeat it in its home realm after this epic spell has been exhausted for the day.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s06.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s08.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Hagunemnon (Protean) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Hoary Steed</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

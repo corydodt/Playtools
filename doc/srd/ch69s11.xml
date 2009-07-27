@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Night Hag</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch69.html" title="Monsters (M-N)"/>
+    <link rel="prev" href="ch69s10.html" title="Naga"/>
+    <link rel="next" href="ch69s12.html" title="Nightmare"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Night Hag</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s10.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (M-N)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch69s12.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2096365"/>Night Hag</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch69s11.html#id2097903">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s11.html#id2098290">Heartstone</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersM-N125"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2096383">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Night Hag</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+32 (68 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>22 (+1 Dex, +11 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+8/+12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +12 melee (2d6+6 plus disease)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +12 melee (2d6+6 plus disease)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> dream haunting</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch24.html#SpecialMaterials6">cold iron</a> and magic, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, charm, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> and <a href="ch04.html#TypesSubtypesAbilities27">fear</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12*, Ref +9*, Will +10*</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 12, Con 18, Int 11, Wis 15, Cha 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +12, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +15, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +5, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +1 (+3 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +15, <a href="ch16s03.html#CombinedSkills243">Ride</a> +12, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +13, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats261">Mounted Combat</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A evil-aligned plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, mounted (1, on <a href="ch69s12.html#MonstersM-N131">nightmare</a>), or covey (3, on <a href="ch69s12.html#MonstersM-N131">nightmares</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch69s11.html#MonstersM-N125">night hag</a> is about the same height and weight as a female human.<a href="img/MonstersM-N.Night_Hag.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Night_Hag.jpg" align="right"/></span></a></p>
+      <p><a href="ch69s11.html#MonstersM-N125">Night hags</a> speak Abyssal, Celestial, Common, and <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2097903"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N126"/>
+        <p><a href="ch69s11.html#MonstersM-N125">Night hags</a> attack good creatures on sight if the odds of success seem favorable.</p>
+        <p>These creatures rip through armor and flesh with their deadly teeth. They love to use <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span> and then strangle those who are overcome by it.</p>
+        <p>A <a href="ch69s11.html#MonstersM-N125">night hag's</a> natural weapons, as well as any weapons it wields, are treated as evil-aligned for the purpose of overcoming damage reduction. Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2097964"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N127"/>
+          <p><span class="strong"><strong>Disease (Ex):</strong></span> <a href="ch62s03.html#MonstersD-De13">Demon</a> fever-bite, Fortitude DC 18, incubation period 1 day, damage 1d6 Con. Each day after the first, on a failed save, an afflicted creature must immediately succeed on another DC 18 Fortitude save or take 1 point of Constitution drain. The save DC is Constitution based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2098001"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N128"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E19">detect chaos</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E20">detect evil</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E21">detect good</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E22">detect law</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> (self only), <span class="emphasis"><em><a href="ch49.html#SpellsP-R49">ray of enfeeblement</a></em></span> (DC 12)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span> (DC 12)<span class="emphasis"><em/></span>. Caster level 8th. A <a href="ch69s11.html#MonstersM-N125">night hag</a> can use <span class="emphasis"><em><a href="ch45.html#SpellsD-E71">etherealness</a></em></span> at will (caster level 16th) so long as it possesses its <span class="emphasis"><em>heartstone</em></span> (see below). The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2098226"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N129"/>
+          <p><span class="strong"><strong>Dream Haunting (Su):</strong></span> <a href="ch69s11.html#MonstersM-N125">Night hags</a> can visit the dreams of chaotic or evil individuals by using a special periapt known as a <span class="emphasis"><em>heartstone</em></span> to become ethereal, then hovering over the creature. Once a <a href="ch67.html#MonstersH-I2">hag</a> invades someone's dreams, it rides on the victim's back until dawn. The sleeper suffers from tormenting dreams and takes 1 point of Constitution drain upon awakening. Only another ethereal being can stop these nocturnal intrusions, by confronting and defeating the <a href="ch69s11.html#MonstersM-N125">night hag</a>.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2098290"/>Heartstone</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N130"/>
+        <p>All <a href="ch69s11.html#MonstersM-N125">night hags</a> carry a periapt known as a <span class="emphasis"><em>heartstone</em></span>, <span class="emphasis"><em/></span> which instantly cures any disease contracted by the holder. In addition, a <span class="emphasis"><em>heartstone</em></span> provides a +2 resistance bonus on all saving throws (this bonus is included in the statistics block). A <a href="ch69s11.html#MonstersM-N125">night hag</a> that loses this charm can no longer use <span class="emphasis"><em><a href="ch45.html#SpellsD-E71">etherealness</a></em></span> until it can manufacture another (which takes one month). Creatures other than the <a href="ch67.html#MonstersH-I2">hag</a> can benefit from the <span class="emphasis"><em>heartstone</em></span>'s powers, but the periapt shatters after ten uses (any disease cured or saving throw affected counts as a use) and it does not bestow <span class="emphasis"><em><a href="ch45.html#SpellsD-E71">etherealness</a></em></span> to a bearer that is not a <a href="ch69s11.html#MonstersM-N125">night hag</a>. If sold, an intact <span class="emphasis"><em>heartstone</em></span> brings 1,800 gp.</p>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch69.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch69s12.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Naga </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Nightmare</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

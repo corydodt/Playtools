@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Mephit</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch69.html" title="Monsters (M-N)"/>
+    <link rel="prev" href="ch69s03.html" title="Medusa"/>
+    <link rel="next" href="ch69s05.html" title="Merfolk"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Mephit</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s03.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (M-N)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch69s05.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2057895"/>Mephit</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch69s04.html#id2057973">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2058207">Air Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2059670">Dust Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2061469">Earth Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2062805">Fire Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2064551">Ice Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2065833">Magma Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2067567">Ooze Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2069282">Salt Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2070919">Steam Mephit</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch69s04.html#id2072762">Water Mephit</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersM-N15"/>
+      <p><a href="ch69s04.html#MonstersM-N15">Mephits</a> are minor creatures from the <a href="ch65s02.html#MonstersE-F7">elemental</a> planes.<a href="img/MonstersM-N.Mephit.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Mephit.jpg" align="right"/></span></a></p>
+      <p>All <a href="ch69s04.html#MonstersM-N15">mephits</a> appear as small, winged creatures with more or less humanoid features. While they are often described as impish, their <a href="ch65s02.html#MonstersE-F7">elemental</a> origins are apparent at first glance.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2057973"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N16"/>
+        <p>All <a href="ch69s04.html#MonstersM-N15">mephits</a> fight by biting and clawing or by using a breath weapon, the nature and effects of which vary from creature to creature.</p>
+        <p>A <a href="ch69s04.html#MonstersM-N15">mephit's</a> natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2058019"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N17"/>
+          <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> A <a href="ch69s04.html#MonstersM-N15">mephit</a> can use its breath weapon once every 1d4 rounds as a standard action. See the individual descriptions for details.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2058059"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N18"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> All <a href="ch69s04.html#MonstersM-N15">mephits</a> have one or more spell-like abilities (save DC 12 + spell level). See the individual descriptions for details.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2058099"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N19"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Summon Mephit</em></span> (Sp):</strong></span> Once per day, a <a href="ch69s04.html#MonstersM-N15">mephit</a> can attempt to summon another <a href="ch69s04.html#MonstersM-N15">mephit</a> of the same variety, much as though casting a <span class="emphasis"><em>summon monster</em></span> spell, but with only a 25% chance of success. Roll d%: On a failure, no creature answers the summons that day. A <a href="ch69s04.html#MonstersM-N15">mephit</a> that has just been summoned cannot use its own summon ability for 1 hour. This ability is the equivalent of a 2nd-level spell.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2058167"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N20"/>
+          <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> <a href="ch69s04.html#MonstersM-N15">Mephits</a> heal 2 points of damage each round, provided they are still alive and certain other conditions are met. See the individual descriptions for details.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2058207"/>Air Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2059506">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N21"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2058226">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Air Mephit</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 60 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, +3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +6, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 10, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +9, <a href="ch16s03.html#CombinedSkills179">Hide</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +3 (+5 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N21">Air mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Air. An <a href="ch69s04.html#MonstersM-N21">air mephit</a> is about 4 feet tall and weighs about 1 pound.</p>
+        <p><a href="ch69s04.html#MonstersM-N21">Air mephits</a> speak Common and Auran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2059506"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N22"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2059524"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N23"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 15-foot cone of dust and grit, damage 1d8, Reflex DC 12 half. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2059555"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N24"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour an <a href="ch69s04.html#MonstersM-N21">air mephit</a> can surround itself with vapor, duplicating the effect of a <span class="emphasis"><em><a href="ch43.html#SpellsA-B49">blur</a></em></span> spell (caster level 3rd). Once per day it can use <span class="emphasis"><em><a href="ch46.html#SpellsF-G56">gust of wind</a></em></span> (DC 14, caster level 6th) . The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2059617"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N25"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> An <a href="ch69s04.html#MonstersM-N21">air mephit</a> heals only if exposed to moving air, be it a breeze, a draft, a spell effect, or even the <a href="ch69s04.html#MonstersM-N15">mephit</a> fanning itself.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2059670"/>Dust Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2061177">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N26"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2059894">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Dust Mephit</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+1 size, +3 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +6, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 10, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +9, <a href="ch16s03.html#CombinedSkills179">Hide</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +3 (+5 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N26">Dust mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Air.</p>
+        <p>A <a href="ch69s04.html#MonstersM-N26">dust mephit</a> is about 4 feet tall and weighs about 2 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N26">Dust mephits</a> speak Common and Auran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2061177"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N27"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2061195"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N28"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cone of irritating particles, damage 1d4, Reflex DC 12 half. Living creatures that fail their saves are tormented by itching skin and burning eyes. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2061228"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N29"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour, a <a href="ch69s04.html#MonstersM-N26">dust mephit</a> can surround itself with a plume of dust, duplicating the effect of a <span class="emphasis"><em><a href="ch43.html#SpellsA-B49">blur</a></em></span> spell (caster level 3rd). Once per day it can create a mass of roiling dust that duplicates the effect of <span class="emphasis"><em><a href="ch51.html#SpellsT-Z54">wind wall</a></em></span> (DC 15, caster level 6th). The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2061290"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N30"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch69s04.html#MonstersM-N26">dust mephit</a> heals only if in an arid, dusty environment.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2061469"/>Earth Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2062636">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N31"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2061488">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Earth Mephit</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 40 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, -1 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +7 melee (1d3+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +7 melee (1d3+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Change size, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +2, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 8, Con 13, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +5, <a href="ch16s03.html#CombinedSkills179">Hide</a> +9, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> -1 (+1 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N31">Earth mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Earth.</p>
+        <p>An <a href="ch69s04.html#MonstersM-N31">earth mephit</a> is about 4 feet tall and weighs about 80 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N31">Earth mephits</a> speak Common and Terran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2062636"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N32"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2062655"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N33"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 15-foot cone of rock shards and pebbles, damage 1d8, Reflex DC 13 half. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+            <p>Spell-Like Abilities: 1/day-<span class="emphasis"><em><a href="ch50.html#SpellsS45">soften earth and stone</a></em></span>. Caster level 6th.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2062699"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N34"/>
+            <p><span class="strong"><strong><span class="emphasis"><em>Change Size</em></span> (Sp):</strong></span> Once per hour, an <a href="ch69s04.html#MonstersM-N31">earth mephit</a> can magically change its size. This works just like an <span class="emphasis"><em><a href="ch45.html#SpellsD-E64">enlarge person</a></em></span> spell, except that the power works only on the <a href="ch69s04.html#MonstersM-N31">earth mephit</a>. This is the equivalent of a 2nd-level spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2062762"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N35"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> An <a href="ch69s04.html#MonstersM-N31">earth mephit</a> heals only if it is underground or buried up to its waist in earth.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2062805"/>Fire Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2064271">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N36"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2062824">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Fire Mephit</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d3 and 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d3 and 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +4, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 13, Con 10, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +7, <a href="ch16s03.html#CombinedSkills179">Hide</a> +11, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +1 (+3 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N36">Fire mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Fire.</p>
+        <p>A <a href="ch69s04.html#MonstersM-N36">fire mephit</a> is about 4 feet tall and weighs about 1 pound.</p>
+        <p><a href="ch69s04.html#MonstersM-N36">Fire mephits</a> speak Common and Ignan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2064271"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N37"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2064290"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N38"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 15-foot cone, damage 1d8 fire, Reflex half DC 12. The save DC is Constitution-based and includes a +1 racial adjustment.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2064320"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N39"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 1/hour-<span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span> (DC 14) as the spell cast by a 3rd-level sorcerer; 1/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L10">heat metal</a></em></span> (DC 14). Caster level 6th. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2064371"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N40"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch69s04.html#MonstersM-N36">fire mephit</a> heals only if it is touching a flame at least as large as a torch.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2064551"/>Ice Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2065685">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N41"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2064570">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Ice Mephit</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities16">Cold</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (perfect)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+1 size, +3 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d3 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities16">cold</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d3 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities16">cold</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2, immunity to <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities29">fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +6, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 10, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +9, <a href="ch16s03.html#CombinedSkills179">Hide</a> +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +3 (+5 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N41">Ice mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Air.</p>
+        <p><a href="ch69s04.html#MonstersM-N41">Ice mephits</a> have a cold, aloof demeanor. Each one is about 4 feet tall and weighs about 30 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N41">Ice mephits</a> speak Common and Auran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2065685"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N42"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2065703"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N43"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cone of ice shards, damage 1d4 cold, Reflex DC 12 half. Living creatures that fail their saves are tormented by frostbitten skin and frozen eyes unless they have immunity to cold or are otherwise protected. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2065737"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N44"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 1/hour-<span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span> (caster level 3rd); 1/day-<span class="emphasis"><em><a href="ch44.html#SpellsC16">chill metal</a></em></span> (DC 14, caster level 6th). The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2065789"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N45"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> An <a href="ch69s04.html#MonstersM-N41">ice mephit</a> heals only if it is touching a piece of ice of at least Tiny size or if the ambient temperature is 32°F. or below.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2065833"/>Magma Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2067229">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N46"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2065851">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Magma Mephit</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d3 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d3 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +4, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 13, Con 10, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +7, <a href="ch16s03.html#CombinedSkills179">Hide</a> +11, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +1 (+3 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N46">Magma mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Fire. <a href="ch69s04.html#MonstersM-N46">Magma mephits</a> are slow-witted and brutish. Each one is about 4 feet tall and weighs about 60 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N46">Magma mephits</a> speak Common and Ignan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2067229"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N47"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2067247"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N48"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cone of magma, damage 1d4 fire, Reflex DC 12 half. Living creatures that fail their saves are tormented by burned skin and seared eyes unless they have immunity to fire or are otherwise protected. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is  onstitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2067418"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N49"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour, a <a href="ch69s04.html#MonstersM-N46">magma mephit</a> can use <span class="emphasis"><em><a href="ch50.html#SpellsS26">shapechange</a></em></span> to take the form of a pool of lava 3 feet in diameter and 6 inches deep. The <a href="ch69s04.html#MonstersM-N15">mephit's</a> damage reduction improves to 20/magic when in this form. The <a href="ch69s04.html#MonstersM-N15">mephit</a> can't attack while in lava form but can use other spell-like abilities. It can move at a speed of 10 feet, but it can't run. In this form the <a href="ch69s04.html#MonstersM-N15">mephit</a> can pass through small holes or narrow openings, even mere cracks. The pool's touch ignites flammable materials such as paper, straw, or dry wood.</p>
+            <p>Once per day a <a href="ch69s04.html#MonstersM-N46">magma mephit</a> can use <span class="emphasis"><em><a href="ch49.html#SpellsP-R44">pyrotechnics</a></em></span> (DC 14). It can use itself as the fire source without harm. Caster level 6th. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2067523"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N50"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch69s04.html#MonstersM-N46">magma mephit</a> heals only if it is touching magma, lava, or a flame at least as large as a torch.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2067567"/>Ooze Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2068934">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N51"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2067585">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Ooze Mephit</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities79">Water</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 40 ft. (average), swim 30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +6 melee (1d3+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +6 melee (1d3+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +3, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 10, Con 13, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills311">Swim</a> +10, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +0 (+2 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N51">Ooze mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Water. An <a href="ch69s04.html#MonstersM-N51">ooze mephit</a> is about 4 feet tall and weighs about 30 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N51">Ooze mephits</a> speak Common and Aquan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2068934"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N52"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2068952"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N53"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cone of caustic liquid, damage 1d4 acid, Reflex DC 13 half. Living creatures that fail their saves are tormented by itching skin and burning eyes unless they have immunity to acid or are otherwise protected. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2068980"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N54"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour an <a href="ch69s04.html#MonstersM-N51">ooze mephit</a> can hurl an acidic blob that functions like <span class="emphasis"><em><a href="ch43.html#SpellsA-B2">acid arrow</a></em></span> (caster level 3rd). Once per day it can create a mass of smelly fog that duplicates the effect of <span class="emphasis"><em><a href="ch50.html#SpellsS68">stinking cloud</a></em></span> (DC 15, caster level 6th). The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2069111"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N55"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> An <a href="ch69s04.html#MonstersM-N51">ooze mephit</a> heals only if in a wet or muddy environment.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2069149"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N56"/>
+            <p><span class="strong"><strong>Skills:</strong></span> An <a href="ch69s04.html#MonstersM-N51">ooze mephit</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2069282"/>Salt Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2070778">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N57"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2069300">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Salt Mephit</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 40 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, -1 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +7 melee (1d3+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +7 melee (1d3+3)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +2, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 8, Con 13, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +5, <a href="ch16s03.html#CombinedSkills179">Hide</a> +9, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> -1 (+1 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N57">Salt mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Earth.</p>
+        <p><a href="ch69s04.html#MonstersM-N57">Salt mephits</a> are sarcastic creatures who loathe water and moisture of any kind. Each one is about 4 feet tall and weighs about 80 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N57">Salt mephits</a> speak Common and Terran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2070778"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N58"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2070796"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N59"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cone of salt crystals, damage 1d4, Reflex DC 13 half. Living creatures that fail their saves are tormented by itching skin and burning eyes. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2070824"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N60"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour a <a href="ch69s04.html#MonstersM-N57">salt mephit</a> can use <span class="emphasis"><em><a href="ch46.html#SpellsF-G44">glitterdust</a></em></span> (DC 14, caster level 3rd).</p>
+            <p>Once per day it can draw the moisture from an area in a 20-foot radius centered on itself. Living creatures within range take 2d8 points of damage (Fortitude DC 14 half; caster level 6th). This effect is especially devastating to plant creatures and aquatic creatures, which take a -2 penalty on their saving throws. This ability is the equivalent of a 2nd-level spell. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2070876"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N61"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch69s04.html#MonstersM-N57">salt mephit</a> heals only if in an arid environment.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2070919"/>Steam Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2072384">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N62"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2070937">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Steam Mephit</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 50 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +4 melee (1d3 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +4 melee (1d3 plus 1d4 <a href="ch04.html#TypesSubtypesAbilities29">fire</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +4, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 13, Con 10, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +7, <a href="ch16s03.html#CombinedSkills179">Hide</a> +11, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +1 (+3 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities29">Fire</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N62">Steam mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Fire.</p>
+        <p><a href="ch69s04.html#MonstersM-N62">Steam mephits</a> are bossy creatures who consider themselves the lords of all their kind. Each one is about 4 feet tall and weighs about 2 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N62">Steam mephits</a> speak Common and Ignan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2072384"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N63"/>
+          <p>Unlike other <a href="ch69s04.html#MonstersM-N15">mephits</a>, <a href="ch69s04.html#MonstersM-N62">steam mephits</a> rush into combat eagerly, driven by an oversized ego.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2072424"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N64"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 10-foot cone of steam, damage 1d4 fire, Reflex DC 12 half. Living creatures that fail their saves are tormented by burned skin and seared eyes unless they have immunity to fire or are otherwise protected. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2072527"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N65"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour a <a href="ch69s04.html#MonstersM-N62">steam mephit</a> can surround itself with a plume of vapor, duplicating the effect of a <span class="emphasis"><em><a href="ch43.html#SpellsA-B49">blur</a></em></span> spell (caster level 3rd). Once per day it can create a rainstorm of boiling water that affects a 20-foot-square area. Living creatures caught in the storm take 2d6 points of fire damage (Reflex DC 14 half; caster level 6th). This ability is the equivalent of a 2nd-level spell. The save DCs are Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2072719"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N66"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch69s04.html#MonstersM-N62">steam mephit</a> heals only if it is touching boiling water or is in a hot, humid area.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2072762"/>Water Mephit</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch69s04.html#id2074128">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N67"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2072780">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Water Mephit</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities79">Water</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+6 (19 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), fly 40 ft. (average), swim 30 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +6 melee (1d3+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +6 melee (1d3+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>summon mephit</em></span></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +3, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 14, Dex 10, Con 13, Int 6, Wis 11, Cha 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +8, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6, <a href="ch16s03.html#CombinedSkills311">Swim</a> +10, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +0 (+2 with bindings)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities79">Water</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary (1), gang (2-4 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types), or mob (5-12 <a href="ch69s04.html#MonstersM-N15">mephits</a> of mixed types)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>); 7-9 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch69s04.html#MonstersM-N67">Water mephits</a> come from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Water.</p>
+        <p><a href="ch69s04.html#MonstersM-N67">Water mephits</a> are jaunty creatures with an unflagging sense of humor who quickly get on the nerves of everyone around them. Each one is about 4 feet tall and weighs about 30 pounds.</p>
+        <p><a href="ch69s04.html#MonstersM-N67">Water mephits</a> speak Common and Aquan.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2074128"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N68"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2074146"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N69"/>
+            <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> 15-foot cone of caustic liquid, damage 1d8 acid, Reflex DC 13 half. The save DC is Constitution-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2074177"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N70"/>
+            <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> Once per hour a <a href="ch69s04.html#MonstersM-N67">water mephit</a> can hurl an acidic blob that functions like <span class="emphasis"><em><a href="ch43.html#SpellsA-B2">acid arrow</a></em></span> (caster level 3rd). Once per day it can create a mass of smelly fog that duplicates the effect of a <span class="emphasis"><em><a href="ch50.html#SpellsS68">stinking cloud</a></em></span> spell (DC 15, caster level 6th). The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2074240"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N71"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch69s04.html#MonstersM-N67">water mephit</a> heals only if it is exposed to rain or submerged up to its waist in water.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2074278"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersM-N72"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch69s04.html#MonstersM-N67">water mephit</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered.</p>
+            <p>It can use the run action while swimming, provided it swims in a straight line.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s03.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch69.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch69s05.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Medusa </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Merfolk</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Dwarf</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch64.html" title="Monsters (Dr-Dw)"/>
+    <link rel="prev" href="ch64s05.html" title="Dryad"/>
+    <link rel="next" href="ch65.html" title="Monsters (E-F)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Dwarf</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch64s05.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Dr-Dw)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch65.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1959968"/>Dwarf</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch64s06.html#id1961264">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch64s06.html#id1961821">Subraces</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersDr-Dw218"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1959986">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Dwarf, 1st-Level <a href="ch65s09.html#MonstersE-F78">Warrior</a></strong></span></p></td> <td><p><span class="strong"><strong><a href="ch77s11.html#PsionicMonsters122">Duergar, 1st-Level Warrior</a></strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (<a href="ch64s06.html#MonstersDr-Dw218">Dwarf</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (<a href="ch64s06.html#MonstersDr-Dw218">Dwarf</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+2 (6 hp)</p></td>
+<td><p>1d8+5 (9 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. in scale mail (4 squares); base <a href="ch21s02.html#CombatI14">speed</a> 20 ft.</p></td>
+<td><p>20 ft. in chainmail (4 squares); base <a href="ch21s02.html#CombatI14">speed</a> 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+4 scale mail, +2 heavy shield), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>17 (+5 chainmail, +2 heavy shield), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+2</p></td>
+<td><p>+1/+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Dwarven waraxe +3 melee (1d10+1/x3) or shortbow +1 ranged (1d6/x3)</p></td>
+<td><p>Warhammer +2 melee (1d8+1/x3) or light crossbow +1 ranged (1d8/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Dwarven waraxe +3 melee (1d10+1/x3) or shortbow +1 ranged (1d6/x3)</p></td>
+<td><p>Warhammer +2 melee (1d8+1/x3) or light crossbow +1 ranged (1d8/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch64s06.html#MonstersDr-Dw218">Dwarf</a> traits</p></td>
+<td><p><a href="ch64s06.html#MonstersDr-Dw218">Duergar</a> traits, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> traits</p></td>
+<td><p>Darkvision 60 ft., <a href="ch64s06.html#MonstersDr-Dw218">duergar</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4*, Ref +0*, Will -1*</p></td>
+<td><p>Fort +4*, Ref +0*, Will -1*</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 11, Con 14, Int 10, Wis 9, Cha 6</p></td>
+<td><p>Str 13, Dex 11, Con 14, Int 10, Wis 9, Cha 4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills39">Appraise</a> +2, <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) +2, <a href="ch16s03.html#CombinedSkills91">Craft</a> (stonemasonry) +2, <a href="ch16s03.html#CombinedSkills204">Listen</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +2</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills39">Appraise</a> +2, <a href="ch16s03.html#CombinedSkills91">Craft</a> (blacksmithing) +2, <a href="ch16s03.html#CombinedSkills91">Craft</a> (stonemasonry) +2, <a href="ch16s03.html#CombinedSkills204">Listen</a> +3, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> -4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats390">Weapon Focus</a> (dwarven waraxe)</p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate mountains</p>
+<p>(Deep: Underground)</p></td> <td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Team (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or clan (30-100 plus 30% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains)</p></td>
+<td><p>Team (2-4), squad (9-16 plus 3 3rd-level sergeants and 1 leader of 3rd-8th level) or clan (20-80 plus 25% noncombatants plus 1 3rd-level sergeant per 5 adults, 3-6 6th-level lieutenants, and 1-4 9th-level captains)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>"</p></td>
+<td><p>1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+<td><p>Standard coins, double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>, standard items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Often <a href="ch02s02.html#Description6">lawful good</a></p>
+<p>(Deep: Usually <a href="ch02s02.html#Description9">lawful neutral</a> or <a href="ch02s02.html#Description10">neutral</a>)</p></td> <td><p>Often <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+1</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> favor earth tones in their clothing and prefer simple and functional garb. The skin can be very dark, but it is always some shade of tan or brown. Hair color can be black, gray, or brown. <a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> average 4 feet tall and weigh as much as adult humans.<a href="img/MonstersDr-Dw.Dwarf.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersDr-Dw.Dwarf.jpg" align="right"/></span></a></p>
+      <p><a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> speak Dwarven. Most who travel outside dwarven lands (as traders, mercenaries, or adventurers) know the Common tongue, while warriors in the dwarven cities usually learn <a href="ch66s11.html#MonstersG136">Goblin</a> to better interrogate and spy on those evil denizens of the deep caves.</p>
+      <p>Most <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> encountered outside their home are warriors.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1961264"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersDr-Dw219"/>
+        <p><a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> are experts in combat, effectively using their environment and executing well-planned group attacks. They rarely use magic in fights, since they have few wizards or sorcerers (but dwarven clerics throw themselves into battle as heartily as their fellow warriors). If they have time to prepare, they may build deadfalls or other traps involving stone. In addition to the dwarven waraxe and thrown hammer, <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> also use warhammers, picks, shortbows, heavy crossbows, and maces.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1961304"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw220"/>
+          <p><span class="strong"><strong>Dwarf Traits (Ex):</strong></span> <a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+2 Constitution, -2 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+              </li>
+            </ul>
+          </div>
+          <p>-A <a href="ch64s06.html#MonstersDr-Dw218">dwarf's</a> base land speed is 20 feet. However, <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>Darkvision out to to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Stonecunning: This ability grants a <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> a +2 racial bonus on <a href="ch16s03.html#CombinedSkills253">Search</a> checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn't stone but that is disguised as stone also counts as unusual stonework. A <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> who merely comes within 10 feet of unusual stonework can make a <a href="ch16s03.html#CombinedSkills253">Search</a> check as if he were actively searching, and a <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> can use the <a href="ch16s03.html#CombinedSkills253">Search</a> skill to find stonework traps as a rogue can. A <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up. <a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> have a sixth sense about stonework, an innate ability that they get plenty of opportunity to practice and hone in their underground homes.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Weapon Familiarity: <a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> treat dwarven waraxes and dwarven urgroshes as martial weapons, rather than exotic weapons.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Stability: <a href="ch64s06.html#MonstersDr-Dw218">Dwarves</a> are exceptionally stable on their feet. A <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> has a +4 bonus on ability checks made to resist being <a href="ch22s03.html#CombatII54">bull rushed</a> or <a href="ch22s03.html#CombatII100">tripped</a> when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+2 racial bonus on <a href="ch21s02.html#CombatI15">saving throws</a> against <a href="ch04.html#TypesSubtypesAbilities52">poison</a>. *Not reflected in the saving throw numbers given here.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+2 racial bonus on <a href="ch21s02.html#CombatI15">saving throws</a> against spells and spell-like effects. *Not reflected in the saving throw numbers given here.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+1 racial bonus on <a href="ch21s02.html#CombatI4">attack rolls</a> against <a href="ch70s04.html#MonstersO-R48">orcs</a> (including halforcs) and <a href="ch04.html#TypesSubtypesAbilities34">goblinoids</a> (including <a href="ch66s11.html#MonstersG136">goblins</a>, <a href="ch67s09.html#MonstersH-I99">hobgoblins</a>, and <a href="ch61s08.html#MonstersB-C46">bugbears</a>).</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+4 dodge bonus to <a href="ch21s02.html#CombatI11">Armor Class</a> against creatures of the <a href="ch04.html#TypesSubtypesAbilities33">giant type</a> (such as <a href="ch70.html#MonstersO-R2">ogres</a>, <a href="ch72s09.html#MonstersT-Z44">trolls</a>, and hill <a href="ch04.html#TypesSubtypesAbilities33">giants</a>).</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+2 racial bonus on <a href="ch16s03.html#CombinedSkills39">Appraise</a> checks that are related to stone or metal items.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+2 racial bonus on <a href="ch16s03.html#CombinedSkills91">Craft</a> checks that are related to stone or metal.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, Dwarven. Bonus Languages: <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>, <a href="ch66s10.html#MonstersG128">Gnome</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, <a href="ch70s04.html#MonstersO-R48">Orc</a>, Terran, Undercommon.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Fighter.</p>
+              </li>
+            </ul>
+          </div>
+          <p>The <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1961821"/>Subraces</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch64s06.html#id1961867">
+                  <span class="strong">
+                    <strong>Deep Dwarf</strong>
+                  </span>
+                </a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch64s06.html#id1962084">
+                  <span class="strong">
+                    <strong>Duergar</strong>
+                  </span>
+                </a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch64s06.html#id1962633">
+                  <span class="strong">
+                    <strong>Mountain Dwarf</strong>
+                  </span>
+                </a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersDr-Dw221"/>
+        <p>The information above is for hill <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>, the most common variety.</p>
+        <p>There are three other major dwarven subraces, which differ from hill <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> as follows.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title">
+                  <a name="id1961867"/>
+                  <span class="strong">
+                    <strong>Deep Dwarf</strong>
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw222"/>
+          <p>These <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> live far underground and tend to be more standoffish with non-dwarves.</p>
+          <p>Deep <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> are the same height as other <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>, but leaner.  Their skin sometimes has a reddish tinge, and their large eyes lack the brightness of those of their kindred, being a washed-out blue. Their hair color ranges from bright red to straw blond. They have little contact with surface dwellers, relying on hill <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> or mountain <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> to trade goods for them.</p>
+          <p>Deep <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> speak Dwarven and <a href="ch66s11.html#MonstersG136">Goblin</a>, and occasionally Draconic or Undercommon.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1961972"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDr-Dw223"/>
+            <p><span class="strong"><strong>Deep Dwarf Traits (Ex):</strong></span> These traits are in addition to the hill <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> traits, except where noted.</p>
+            <div class="itemizedlist">
+              <ul type="bullet">
+                <li style="list-style-type: disc">
+                  <p>Racial bonus on saves against spells and <a href="ch21s05.html#CombatI64">spell-like abilities</a> increases to +3.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Racial bonus on Fortitude saves against <a href="ch04.html#TypesSubtypesAbilities52">poisons</a> increases to +3.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Darkvision out to 90 feet.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Light Sensitivity: Deep <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> are dazzled in bright sunlight or within the radius of a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title">
+                  <a name="id1962084"/>
+                  <span class="strong">
+                    <strong>Duergar</strong>
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw224"/>
+          <p>Sometimes called gray <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>, these evil beings dwell in the underground.</p>
+          <p>Most <a href="ch64s06.html#MonstersDr-Dw218">duergar</a> are bald (even the females), and they dress in drab clothing that is designed to blend into stone. In their lairs they may wear jewelry, but it is always kept dull. They war with other <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>, even allying with other underground creatures from time to time.</p>
+          <p><a href="ch64s06.html#MonstersDr-Dw218">Duergar</a> speak Dwarven and Undercommon.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1962157"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDr-Dw225"/>
+            <p><span class="strong"><strong>Duergar Traits (Ex):</strong></span> These traits are in addition to the hill <a href="ch64s06.html#MonstersDr-Dw218">dwarf</a> traits, except where noted.</p>
+            <div class="itemizedlist">
+              <ul type="bullet">
+                <li style="list-style-type: disc">
+                  <p>-4 Charisma instead of -2.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Darkvision out to 120 feet.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Immunity to <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>, phantasms, and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>. This trait replaces the hill <a href="ch64s06.html#MonstersDr-Dw218">dwarf's</a> +2 racial bonus on <a href="ch21s02.html#CombatI15">saving throws</a> against <a href="ch04.html#TypesSubtypesAbilities52">poison</a>.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>+2 racial bonus on saves against spells and <a href="ch21s05.html#CombatI64">spell-like abilities.</a></p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p><a href="ch21s05.html#CombatI64">Spell-Like Abilities</a>: 1/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E64">enlarge person</a></em></span> and <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span> as a wizard of twice the <a href="ch64s06.html#MonstersDr-Dw218">duergar's</a> class level (minimum caster level 3rd); these abilities affect only the <a href="ch64s06.html#MonstersDr-Dw218">duergar</a> and whatever it carries.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Light Sensitivity: <a href="ch64s06.html#MonstersDr-Dw218">Duergar</a> are dazzled in bright sunlight or within the radius of a <span class="emphasis"><em><a href="ch45.html#SpellsD-E5">daylight</a></em></span> spell.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>+4 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>+1 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Automatic Languages: Common, Dwarven, Undercommon.</p>
+                </li>
+              </ul>
+            </div>
+            <p>Bonus Languages: Draconic, <a href="ch66s06.html#MonstersG67">Giant</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, <a href="ch70s04.html#MonstersO-R48">Orc</a>, Terran. This trait replaces the hill <a href="ch64s06.html#MonstersDr-Dw218">dwarf's</a> automatic and bonus languages.</p>
+            <div class="itemizedlist">
+              <ul type="bullet">
+                <li style="list-style-type: disc">
+                  <p>Favored Class: Fighter.</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Level adjustment +1</p>
+                </li>
+                <li style="list-style-type: disc">
+                  <p>Unlike other <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>, <a href="ch64s06.html#MonstersDr-Dw218">duergar</a> do not have weapon familiarity with the dwarven waraxe and dwarven urgrosh.</p>
+                </li>
+              </ul>
+            </div>
+            <p>The <a href="ch64s06.html#MonstersDr-Dw218">duergar</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1962581"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersDr-Dw226"/>
+            <p><span class="strong"><strong>Challenge Rating:</strong></span> <a href="ch64s06.html#MonstersDr-Dw218">Duergar</a> with levels in NPC classes have a CR equal to their character level. <a href="ch64s06.html#MonstersDr-Dw218">Duergar</a> with levels in PC classes have a CR equal to their character level +1.</p>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title">
+                  <a name="id1962633"/>
+                  <span class="strong">
+                    <strong>Mountain Dwarf</strong>
+                  </span>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw227"/>
+          <p>Mountain <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> live deeper under the mountains than hill <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a> but generally not as far underground as deep <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>. They average about 4-1/2 feet tall and have lighter skin and hair than hill <a href="ch64s06.html#MonstersDr-Dw218">dwarves</a>, but the same general appearance.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch64s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch64.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch65.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Dryad </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (E-F)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

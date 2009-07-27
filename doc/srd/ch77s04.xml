@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Blue</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s03.html" title="Astral Construct"/>
+    <link rel="next" href="ch77s05.html" title="Brain Mole"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Blue</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s03.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s05.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2466364"/>Blue</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s04.html#id2467262">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch77s04.html#id2467446">Blues as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters77"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2466383">
+        <tbody>
+          <tr><td/>
+<td><strong>Blue, 1st-Level Psion (Telepath)</strong></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities36">Humanoid</a> (<a href="ch04.html#TypesSubtypesAbilities34">Goblinoid</a>, Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d4+1 plus 4 (10 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+1 size, +1 Dex, +4 inertial armor), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Quarterstaff -2 melee (1d4-2) or light crossbow +1 ranged (1d6/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Quarterstaff -2 melee (1d4-2) or light crossbow +1 ranged (1d6/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Psionic powers</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +2, Ref +0, Will +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 6, Dex 13, Con 14, Int 17, Wis 12, Cha 8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +6, <a href="ch16s03.html#CombinedSkills179">Hide</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +5, <a href="ch16s03.html#CombinedSkills236">Psicraft</a> +7, <a href="ch16s03.html#CombinedSkills243">Ride</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch19s03.html#PsionicsFeats174">Psionic Body</a>, <a href="ch19s03.html#PsionicsFeats179">Psionic Dodge</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, gang (1 plus 4-9 <a href="ch66s11.html#MonstersG136">goblin</a> warriors), band (2d10 plus 10-100 <a href="ch66s11.html#MonstersG136">goblin</a> warriors plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults and 1 leader of 4th-6th level), warband (2d4 plus 10-24 <a href="ch66s11.html#MonstersG136">goblin</a> warriors with <a href="ch72s16.html#MonstersT-Z123">worg</a> mounts), or tribe (4d10 plus 40-400 <a href="ch66s11.html#MonstersG136">goblin</a> warriors plus 100% noncombatants plus 1 3rd-level sergeant per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 10-24 <a href="ch72s16.html#MonstersT-Z123">worgs</a>, and 2-4 <a href="ch63s03.html#MonstersDi-Do71">dire wolves</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class (usually psion)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>Blues are a subrace of <a href="ch66s11.html#MonstersG136">goblins</a> with an innate knack for psionics. A blue is often smaller than an average <a href="ch66s11.html#MonstersG136">goblin</a>, standing just about 3 feet tall and weighing about 40 pounds. Blues have noticeably blue-tinged skin, and their eyes are less dull than those of a common <a href="ch66s11.html#MonstersG136">goblin</a>. Otherwise, they resemble their kin. They generally dress in short leather robes, dyed black.</p>
+      <p>Blues speak <a href="ch66s11.html#MonstersG136">Goblin</a> and Common.</p>
+      <p>Most blues encountered outside their homes are psions; the information in the statistics block is for a psion of 1st level.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2467262"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters78"/>
+        <p>Blues support <a href="ch66s11.html#MonstersG136">goblin</a> warriors in combat and are often called upon to lead a gang of <a href="ch66s11.html#MonstersG136">goblins</a> (from the rear) into battle.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2467303"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters79"/>
+          <p><span class="strong"><strong>Psionic Powers:</strong></span> The blue described here is a 1st-level psion.</p>
+          <p><span class="emphasis"><em>Typical Psion Powers Known</em></span> (power points 3*; save DC 13 + power level): 1st-<span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P19">inertial armor</a></em></span>,  <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P61">mind thrust</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C54">psionic charm</a></em></span> (DC 14). Manifester level 1st. The save DCs are Intelligence-based.</p>
+          <p>Manifester level 1st. The save DCs are Intelligence-based.</p>
+          <p>*The blue shown here has already manifested <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P19">inertial armor</a></em></span>; its reserve is normally 4 power points.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2467391"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters80"/>
+          <p><span class="strong"><strong>Skills:</strong></span> Blues have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks and <a href="ch16s03.html#CombinedSkills243">Ride</a> checks.</p>
+          <p>The blue psion presented here had the following ability scores before racial adjustments: Str 8, Dex 11, Con 12, Int 13, Wis 10, Cha 9.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2467446"/>Blues as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters81"/>
+        <p>Blues tend to be psions, although blues raised in communities where their kind are rare may choose the path of the wilder.</p>
+        <p>Blue characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>-2 Strength, +2 Intelligence, -2 Charisma.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Small</a> size: +1 bonus to <a href="ch21s02.html#CombatI11">Armor Class</a>, +1 bonus on <a href="ch21s02.html#CombatI4">attack rolls,</a> +4 bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks, -4 penalty on <a href="ch22s03.html#CombatII67">grapple checks,</a> lifting and carrying limits 3/4 of those of <a href="ch22.html#CombatII28">Medium</a> characters.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Blue base land <a href="ch21s02.html#CombatI14">speed</a> is 30 feet.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Darkvision out to 60 feet.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Naturally Psionic: Blues gain 1 bonus power point at 1st level.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: A blue character has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks and <a href="ch16s03.html#CombinedSkills243">Ride</a> checks.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: Common, <a href="ch66s11.html#MonstersG136">Goblin</a>. Bonus Languages: Draconic, Elven, <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>, <a href="ch66s09.html#MonstersG125">Gnoll</a>, <a href="ch70s04.html#MonstersO-R48">Orc</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Psion.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level Adjustment: +1.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s03.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s05.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Astral Construct </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Brain Mole</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

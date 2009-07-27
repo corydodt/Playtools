@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (G)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch65s11.html" title="Fungus"/>
+    <link rel="next" href="ch66s02.html" title="Genie"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (G)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch65s11.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id948453"/>Monsters (G)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch66.html#id1780644">Gargoyle</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66.html#id1780708">Kapoacinth</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66.html#id1780742">Gargoyles as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s02.html">Genie</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s02.html#id1781227">Djinni</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s02.html#id1783217">Efreeti</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s02.html#id1784837">Janni</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s03.html">Ghaele</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s04.html">Ghost</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s04.html#id1789280">Creating A Ghost</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s05.html">Ghoul</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s05.html#id1791491">Lacedon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s05.html#id1791595">Ghast</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s06.html">Giant</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s06.html#id1792230">Cloud Giant</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s06.html#id1793586">Cloud Giant Characters</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s06.html#id1793627">Fire Giant</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s06.html#id1794984">Frost Giant</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s06.html#id1796758">Frost Giant Jarl</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s06.html#id1797153">Frost Giant Characters</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s06.html#id1797269">Hill Giant</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s06.html#id1798430">Hill Giants as Characters</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s06.html#id1798996">Stone Giant</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s06.html#id1800279">Stone Giant Elders</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s06.html#id1800371">Stone Giants as Characters</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s06.html#id1800772">Storm Giant</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s07.html">Gibbering Mouther</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s08.html">Girallon</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s09.html">Gnoll</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s09.html#id1805591">Gnolls as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s10.html">Gnome</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s10.html#id1807720">Subraces</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s11.html">Goblin</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s11.html#id1809861">Goblins as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s12.html">Golem</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s12.html#id1810622">Clay Golem</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s12.html#id1812253">Flesh Golem</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s12.html#id1813664">Iron Golem</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s12.html#id1814893">Stone Golem</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch66s12.html#id1816152">Construction</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s12.html#id1816258">Greater Stone Golem</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s13.html">Gorgon</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s14.html">Gray Render</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s15.html">Grick</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s16.html">Griffon</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s16.html#id1820892">Training A Griffon</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch66s17.html">Grimlock</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch66s17.html#id1822678">Grimlocks as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersG1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id1780644"/>Gargoyle</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66.html#id1772487">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch66.html#id1780708">Kapoacinth</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch66.html#id1780742">Gargoyles as Characters</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG2"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1780661">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Gargoyle</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a> (<a href="ch04.html#TypesSubtypesAbilities21">Earth</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+19 (37 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares), fly 60 ft. (average)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+2 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +6 melee (1d4+2)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +6 melee (1d4+2) and bite +4 melee (1d6+1) and gore +4 melee (1d6+1)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/magic, darkvision 60 ft., freeze</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +6, Will +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 14, Con 18, Int 6, Wis 11, Cha 7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +7*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or wing (5-16)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-6 HD (<a href="ch22.html#CombatII28">Medium</a>); 7-12 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch66.html#MonstersG2">Gargoyles</a> often appear to be winged stone statues, for they can perch indefinitely without moving and use this disguise to surprise their foes. They require no food, water, or air, but often eat their fallen foes out of fondness for inflicting pain.<a href="img/MonstersG.Gargoyle.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Gargoyle.jpg" align="right"/></span></a></p>
+        <p><a href="ch66.html#MonstersG2">Gargoyles</a> speak Common and Terran.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1772487"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG3"/>
+          <p><a href="ch66.html#MonstersG2">Gargoyles</a> either remain still, then suddenly attack, or dive onto their prey.</p>
+          <p>A <a href="ch66.html#MonstersG2">gargoyle's</a> natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1772529"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG4"/>
+            <p><span class="strong"><strong>Freeze (Ex):</strong></span> A <a href="ch66.html#MonstersG2">gargoyle</a> can hold itself so still it appears to be a statue. An observer must succeed on a DC 20 <a href="ch16s03.html#CombinedSkills294">Spot</a> check to notice the <a href="ch66.html#MonstersG2">gargoyle</a> is really alive.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1772587"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG5"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch66.html#MonstersG2">Gargoyles</a> have a +2 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks. *The <a href="ch16s03.html#CombinedSkills179">Hide</a> bonus increases by +8 when a <a href="ch66.html#MonstersG2">gargoyle</a> is concealed against a background of stone.</p>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1780708"/>Kapoacinth</h3>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG6"/>
+          <p>These cousins of the <a href="ch66.html#MonstersG2">gargoyle</a> have the aquatic subtype. They have a base land speed of 40 feet and a swim speed of 60 feet (no fly speed) and are found only in aquatic environments.</p>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id1780742"/>Gargoyles as Characters</h3>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG7"/>
+          <p><a href="ch66.html#MonstersG2">Gargoyle</a> characters possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+4 Strength, +4 Dexterity, +8 Constitution, -4 Intelligence, -4 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+              </li>
+            </ul>
+          </div>
+          <p>-A <a href="ch66.html#MonstersG2">gargoyle's</a> base land speed is 40 feet. It also has a fly speed of 60 feet (average).</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>Darkvision out to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: A <a href="ch66.html#MonstersG2">gargoyle</a> begins with four levels of <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a>, which provide 4d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Skills: A <a href="ch66.html#MonstersG2">gargoyle's</a> <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a> levels give it skill points equal to 7 x ?(2 + Int modifier). Its class skills are <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>. A <a href="ch66.html#MonstersG2">gargoyle</a> has a +2 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks, and an additional +8 bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks when it is <a href="ch22s02.html#CombatII42">concealed</a> against a background of stone.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Feats: A <a href="ch66.html#MonstersG2">gargoyle's</a> <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a> levels give it two feats.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+4 natural armor bonus.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/magic, freeze.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common. Bonus Languages: Auran, Dwarven, Elven, <a href="ch66s10.html#MonstersG128">Gnome</a>, <a href="ch67s05.html#MonstersH-I71">Halfling</a>, <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>, Terran.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Fighter.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Level adjustment +5.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch65s11.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Fungus </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Genie</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

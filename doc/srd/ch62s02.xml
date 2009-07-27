@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Delver</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch62.html" title="Monsters (D-De)"/>
+    <link rel="prev" href="ch62.html" title="Monsters (D-De)"/>
+    <link rel="next" href="ch62s03.html" title="Demon"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Delver</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch62.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (D-De)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch62s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1678216"/>Delver</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch62s02.html#id1679087">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersD-De9"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1678235">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Delver</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>15d8+78 (145 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), burrow 10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>24 (-2 size, +1 Dex, +15 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+11/+27</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +17 melee (1d6+8 plus 2d6 acid)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 slams +17 melee (1d6+8 plus 2d6 acid)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Corrosive slime</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to acid, stone shape, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12, Ref +6, Will +11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 27, Dex 13, Con 21, Int 14, Wis 14, Cha 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills197">Knowledge</a> (dungeoneering) +14, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +4, <a href="ch16s03.html#CombinedSkills204">Listen</a> +20, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +17, <a href="ch16s03.html#CombinedSkills294">Spot</a> +20, <a href="ch16s03.html#CombinedSkills303">Survival</a> +14 (+16 underground)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>16-30 HD (<a href="ch22.html#CombatII28">Huge</a>); 31-45 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch62s02.html#MonstersD-De9">delver</a> is about 15 feet long and 10 feet wide. It weighs about 6,000 pounds.<a href="img/MonstersD-De.Delver.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersD-De.Delver.jpg" align="right"/></span></a></p>
+      <p><a href="ch62s02.html#MonstersD-De9">Delvers</a> speak Terran and Undercommon.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1679087"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersD-De10"/>
+        <p>A <a href="ch62s02.html#MonstersD-De9">delver</a> prefers to fight from its tunnel, which it uses to protect its flanks while lashing out with its flippers.</p>
+        <p>A <a href="ch62s02.html#MonstersD-De9">delver</a> expecting trouble may honeycomb an area with tunnels, leaving most closed with layers of stone 1 or 2 inches thick.</p>
+        <p>The <a href="ch62s02.html#MonstersD-De9">delver</a> can quickly dissolve the stone cover and pop up to attack unexpectedly.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1679147"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De11"/>
+          <p><span class="strong"><strong>Corrosive Slime (Ex):</strong></span> A <a href="ch62s02.html#MonstersD-De9">delver</a> produces a mucuslike slime that contains a highly corrosive substance. The slime is particularly effective against stone. A <a href="ch62s02.html#MonstersD-De9">delver's</a> mere touch deals 2d6 points of acid damage to organic creatures or objects. Against metallic creatures or objects, a <a href="ch62s02.html#MonstersD-De9">delver's</a> slime deals 4d8 points of damage, and against stony creatures (including <a href="ch65s02.html#MonstersE-F13">earth elementals</a>) or objects it deals 8d10 points of damage. A slam attack by a <a href="ch62s02.html#MonstersD-De9">delver</a> leaves a patch of slime that deals 2d6 points of damage on contact and another 2d6 points of damage in each of the next 2 rounds. A large quantity (at least a quart) of water or weak acid, such as vinegar, washes off the slime. An opponent's armor and clothing dissolve and become useless immediately unless the wearer succeeds on a DC 22 Reflex save. Weapons that strike a <a href="ch62s02.html#MonstersD-De9">delver</a> also dissolve immediately unless the wielder succeeds on a DC 22 Reflex save. A creature attacking a <a href="ch62s02.html#MonstersD-De9">delver</a> with natural weapons takes damage from its slime each time an attack hits unless the creature succeeds on a DC 22 Reflex save. These save DCs are Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1679248"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersD-De12"/>
+          <p><span class="strong"><strong>Stone Shape (Ex):</strong></span> A <a href="ch62s02.html#MonstersD-De9">delver</a> can alter its slime to temporarily soften stone instead of dissolving it. Once every 10 minutes, a <a href="ch62s02.html#MonstersD-De9">delver</a> can soften and shape up to 25 cubic feet of stone, as a <span class="emphasis"><em><a href="ch50.html#SpellsS69">stone shape</a></em></span> spell (caster level 15th).</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch62.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch62.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch62s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (D-De) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Demon</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

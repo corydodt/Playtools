@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Aboleth</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch60.html" title="Monsters (Intro-A)"/>
+    <link rel="prev" href="ch60.html" title="Monsters (Intro-A)"/>
+    <link rel="next" href="ch60s03.html" title="Achaierai"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Aboleth</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch60.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Intro-A)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch60s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1604320"/>Aboleth</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch60s02.html#id1614705">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch60s02.html#id1615116">Aboleth Mage</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersIntro-A31"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1613349">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Aboleth</strong></span></p></td> <td><p><span class="strong"><strong><a href="ch60s02.html#MonstersIntro-A38">Aboleth Mage</a>, 10th-Level Wizard</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>8d8+40 (76 hp)</p></td>
+<td><p>8d8+56 plus 10d4+70 (177 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares), swim 60 ft.</p></td>
+<td><p>10 ft. (2 squares), swim 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-2 size, +1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>18 (-2 size, +3 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+22</p></td>
+<td><p>+11/+28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Tentacle +12 melee (1d6+8 plus slime)</p></td>
+<td><p>Tentacle +18 melee (1d6+9 plus slime)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>4 tentacles +12 melee (1d6+8 plus slime)</p></td>
+<td><p>4 tentacles +18 melee (1d6+9 plus slime)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Enslave, <a href="ch04.html#TypesSubtypesAbilities55">psionics</a>, slime</p></td>
+<td><p>Enslave, <a href="ch04.html#TypesSubtypesAbilities55">psionics</a>, slime, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a> subtype, darkvision 60 ft., mucus cloud</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a> subtype, darkvision 60 ft., mucus cloud, <a href="ch04.html#TypesSubtypesAbilities68">summon</a> familiar</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +3, Will +11</p></td>
+<td><p>Fort +15, Ref +10, Will +15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 26, Dex 12, Con 20, Int 15, Wis 17, Cha 17</p></td>
+<td><p>Str 28, Dex 16, Con 24, Int 20, Wis 16, Cha 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +16, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any one) +13, <a href="ch16s03.html#CombinedSkills204">Listen</a> +16, <a href="ch16s03.html#CombinedSkills294">Spot</a> +16, <a href="ch16s03.html#CombinedSkills311">Swim</a> +8</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +13, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +25, <a href="ch16s03.html#CombinedSkills102">Decipher Script</a> +15, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +2 (+4 acting), <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +4, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana) +15, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (dungeoneering) +25, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (history) +15, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +15, <a href="ch16s03.html#CombinedSkills204">Listen</a> +15, <a href="ch16s03.html#CombinedSkills253">Search</a> +10, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +15, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +20, <a href="ch16s03.html#CombinedSkills294">Spot</a> +17, <a href="ch16s03.html#CombinedSkills303">Survival</a> +3 (+5 following tracks, on other planes, and underground), <a href="ch16s03.html#CombinedSkills311">Swim</a> +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span> </p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats233">Iron Will</a></p></td>
+<td><p><a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats108">Empower Spell</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats309">Scribe Scroll</a>, <a href="ch17s03.html#Feats336">Spell Focus</a> (illusion), <a href="ch17s03.html#Feats336">Spell Focus</a> (enchantment), <a href="ch17s03.html#Feats343">Spell Penetration</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a></strong></span></p></td>
+<td><p>Underground</p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, brood (2-4), or slaver brood (1d3+1 plus 7-12 <a href="ch71s11.html#MonstersS85">skum</a>)</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+<td><p>17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Double standard</p></td>
+<td><p>Double standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>9-16 HD (<a href="ch22.html#CombatII28">Huge</a>); 17-24 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>The <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> is a revolting fishlike amphibian found primarily in subterranean lakes and rivers. An <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> has a pink belly. Four pulsating blueblack orifices line the bottom of its body and secrete gray slime that smells like rancid grease. It uses its tail for propulsion in the water and drags itself along with its tentacles on land. An <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> weighs about 6,500 pounds.<a href="img/MonstersIntro-A.Aboleth.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersIntro-A.Aboleth.jpg" align="right"/></span></a></p>
+      <p><a href="ch60s02.html#MonstersIntro-A31">Aboleths</a> speak their own language, as well as Undercommon and Aquan.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1614705"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersIntro-A32"/>
+        <p>An <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> attacks by flailing with its long, slimy tentacles, though it prefers to fight from a distance using its illusion powers.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1614738"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A33"/>
+          <p><span class="strong"><strong>Enslave (Su):</strong></span> Three times per day, an <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> can attempt to enslave any one living creature within 30 feet. The target must succeed on a DC 17 Will save or be affected as though by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E54">dominate person</a></em></span> spell (caster level 16th). An enslaved creature obeys the <a href="ch60s02.html#MonstersIntro-A31">aboleth's</a> telepathic commands until freed by <span class="emphasis"><em><a href="ch49.html#SpellsP-R60">remove curse</a></em></span>, <span class="emphasis"><em/></span> and can attempt a new Will save every 24 hours to break free. The control is also broken if the <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> dies or travels more than 1 mile from its slave. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1614826"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A34"/>
+          <p><span class="strong"><strong>Psionics (Sp):</strong></span> At will-<span class="emphasis"><em><a href="ch47.html#SpellsH-L29">hypnotic pattern</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch47.html#SpellsH-L34">illusory wall</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch48.html#SpellsM-O39">mirage arcana</a></em></span> (DC 18), <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 18), <span class="emphasis"><em><a href="ch49.html#SpellsP-R32">programmed image</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch49.html#SpellsP-R33">project image</a></em></span> (DC 20), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z33">veil</a></em></span> (DC 19). Effective caster level 16th. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1614931"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A35"/>
+          <p><span class="strong"><strong>Slime (Ex):</strong></span> A blow from an <a href="ch60s02.html#MonstersIntro-A31">aboleth's</a> tentacle can cause a terrible affliction. A creature hit by a tentacle must succeed on a DC 19 Fortitude save or begin to transform over the next 1d4+1 minutes, the skin gradually becoming a clear, slimy membrane. An afflicted creature must remain moistened with cool, fresh water or take 1d12 points of damage every 10 minutes. The slime reduces the creature's natural armor bonus by 1 (but never to less than 0). The save DC is Constitution-based.</p>
+          <p>A <span class="emphasis"><em><a href="ch49.html#SpellsP-R61">remove disease</a></em></span> spell cast before the transformation is complete will restore an afflicted creature to normal. Afterward, however, only a <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> or <span class="emphasis"><em><a href="ch47.html#SpellsH-L8">mass heal</a></em></span> spell can reverse the affliction.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1615006"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A36"/>
+          <p><span class="strong"><strong>Mucus Cloud (Ex):</strong></span> An <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> underwater surrounds itself with a viscous cloud of mucus roughly 1 foot thick. Any creature coming into contact with and inhaling this substance must succeed on a DC 19 Fortitude save or lose the ability to breathe air for the next 3 hours. An affected creature suffocates in 2d6 minutes if removed from the water. Renewed contact with the mucus cloud and failing another Fortitude save continues the effect for another 3 hours. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1615052"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A37"/>
+          <p><span class="strong"><strong>Skills:</strong></span> An <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1615116"/>Aboleth Mage</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch60s02.html#id1615135">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersIntro-A38"/>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1615135"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A39"/>
+          <p>The save DC for the <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> mage's transformation tentacle attack (DC 21) and its mucus cloud (DC 21) are adjusted for its higher Constitution score. The save DC for its enslave ability (DC 16) is adjusted for its lower Charisma score, as are the save DCs for its psionic abilities: <span class="emphasis"><em><a href="ch47.html#SpellsH-L29">hypnotic pattern</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch47.html#SpellsH-L34">illusory wall</a></em></span> (DC 16), <span class="emphasis"><em><a href="ch48.html#SpellsM-O39">mirage arcana</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch49.html#SpellsP-R6">persistent image</a></em></span> (DC 17), <span class="emphasis"><em><a href="ch49.html#SpellsP-R32">programmed image</a></em></span> (DC 18), <span class="emphasis"><em><a href="ch49.html#SpellsP-R33">project image</a></em></span> (DC 19), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z33">veil</a></em></span> (DC 18). Effective caster level 16th.</p>
+          <p>The <a href="ch60s02.html#MonstersIntro-A31">aboleth</a> mage uses a number of spells, such as <span class="emphasis"><em><a href="ch45.html#SpellsD-E46">displacement</a></em></span>, <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>, and <span class="emphasis"><em><a href="ch51.html#SpellsT-Z39">wall of force</a></em></span>, <span class="emphasis"><em/></span> to protect itself while seizing control of its foes with spells and innate abilities.</p>
+          <p><span class="emphasis"><em>Typical Wizard Spells Prepared</em></span> (4/6/5/4/4/3; save DC 15 + spell level): 0-<span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span> (2), <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>; 1st-<span class="emphasis"><em><a href="ch43.html#SpellsA-B7">alarm</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC15">charm person</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC24">color spray</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O2">mage armor</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span> (2)<span class="emphasis"><em/></span>; 2nd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B49">blur</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B51">bull's strength</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E3">darkness</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G30">fox's cunning</a></em></span>,  <span class="emphasis"><em>see invisibilty</em></span>; 3rd-<span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E46">displacement</a></em></span> <span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span>; 4th-<span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>, <span class="emphasis"><em><a href="ch49.html#SpellsP-R7">phantasmal killer</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS7">scrying</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS70">stoneskin</a></em></span>; 5th-<span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span>, <span class="emphasis"><em/></span> empowered <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z39">wall of force</a></em></span>.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch60.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch60.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch60s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (Intro-A) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Achaierai</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

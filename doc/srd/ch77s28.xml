@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Unbodied</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s27.html" title="Udoroot"/>
+    <link rel="next" href="ch77s29.html" title="Xeph"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Unbodied</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s27.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s29.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2496407"/>Unbodied</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s28.html#id2497261">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch77s28.html#id2498000">Unbodied as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters222"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2496426">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Unbodied</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a> (<a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a>, Psionic)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+4 (22 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 30 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>) (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (+1 Dex, +2 deflection), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +5 melee (1d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +5 melee (1d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Psionic powers, telekinetic force</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Assume likeness, <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> traits, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 100 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +2, Ref +5, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex 13, Con 12, Int 15, Wis 14, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +10*, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +10*, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch19s03.html#PsionicsFeats158">Overchannel</a>, <a href="ch19s03.html#PsionicsFeats249">Wild Talent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or illumination (3-6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Half standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> uses telepathy to communicate with others.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2497261"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters223"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2497416"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters224"/>
+          <p><span class="strong"><strong>Psionic Powers:</strong></span> An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> manifests powers as a 4th-level psion (telepath). The save DCs are Intelligence-based.</p>
+          <p><span class="emphasis"><em>Typical Psion Powers Known</em></span> (power points 21, base save DC 12 + power level): 1st- <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F18">detect psionics</a></em></span>,  <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F72">empty mind</a></em></span>,  <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P61">mind thrust</a></em></span> (DC 13*), <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C54">psionic charm</a></em></span> (DC 13*); 2nd-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C41">brain lock</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C63">cloud mind</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F91">energy push</a></em></span> (DC 14), <span class="emphasis"><em><a href="ch59.html#PsionicPowersQ-W3">read thoughts</a></em></span> (DC 14).</p>
+          <p>*Power can be augmented.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2497689"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters225"/>
+          <p><span class="strong"><strong>Telekinetic Force (Su):</strong></span> An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> can use <span class="emphasis"><em><a href="ch59.html#PsionicPowersQ-W42">telekinetic force</a></em></span> (DC 15) as a standard action that does not provoke attacks of opportunity. Manifester level 4th. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2497741"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters226"/>
+          <p><span class="strong"><strong>Assume Likeness (Su):</strong></span> An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> can assume the likeness of any Small, Medium, or Large creature as a standard action that does not provoke attacks of opportunity. Its abilities do not change, but it appears to be that creature, relying on its <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> skills to deflect suspicion.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2497802"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters227"/>
+          <p><span class="strong"><strong>Hide Mind (Su):</strong></span> An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> cannot be identified as psionic by divination spells or clairsentience powers.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2497841"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters228"/>
+          <p><span class="strong"><strong>Incorporeal Traits:</strong></span> An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> is harmed only by other incorporeal creatures, magic weapons, powers, spells, spell-like abilities, and supernatural abilities. It has a 50% chance to ignore any damage from a corporeal source, except for force effects or attacks made with ghost touch weapons. It can pass through solid objects, but not force effects, at will. Its attacks ignore natural armor, armor, and shields, but deflection bonuses and force effects work normally against them. An incorporeal creature always moves silently and cannot be heard with <a href="ch16s03.html#CombinedSkills204">Listen</a> checks if it doesn't wish to be.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2497899"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters229"/>
+          <p><span class="strong"><strong>Skills:</strong></span> An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks. *When using its assume likeness ability, an <a href="ch77s28.html#PsionicMonsters222">unbodied</a> gets an additional +10 circumstance bonus on <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks. If it can read an opponent's mind, it gets a further +4 circumstance bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2498000"/>Unbodied as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters230"/>
+        <p><a href="ch77s28.html#PsionicMonsters222">Unbodied</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+2 Dexterity, +2 Constitution, +4 Intelligence, +4 Wisdom, +4 Charisma. As an <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> creature, an <a href="ch77s28.html#PsionicMonsters222">unbodied</a> has no Strength score.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> has a fly <a href="ch21s02.html#CombatI14">speed</a> of 30 feet (<a href="ch04.html#TypesSubtypesAbilities35">good</a> maneuverability).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Darkvision out to 60 feet.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Deflection bonus to <a href="ch21s02.html#CombatI11">Armor Class</a> equal to character's Charisma modifier (minimum +1).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Natural <a href="ch21s05.html#CombatI41">Attack</a>: An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> can make a melee <a href="ch21s02.html#CombatI12">touch attack</a> to deal 1d6 points of <a href="ch21s02.html#CombatI7">damage.</a></p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): Psionic powers, telekinetic force. An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> who takes levels in psion (telepath) adds its racial manifesting ability and psion levels together to determine its power point reserve, manifester level, and powers known.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Special Qualities (see above): Assume likeness, <a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> traits.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: An <a href="ch77s28.html#PsionicMonsters222">unbodied</a> begins with four levels of <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a>, which provide 4d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: An <a href="ch77s28.html#PsionicMonsters222">unbodied's</a> <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a> levels give it skill points equal to 7 x (2 + Int modifier). Its class skills are <a href="ch16s03.html#CombinedSkills61">Bluff</a>, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a>, <a href="ch16s03.html#CombinedSkills130">Disguise</a>, <a href="ch16s03.html#CombinedSkills185">Intimidate</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>. <a href="ch77s28.html#PsionicMonsters222">Unbodied</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> checks and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks. When using its assume likeness ability, an <a href="ch77s28.html#PsionicMonsters222">unbodied</a> gets an additional +10 circumstance bonus on <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks. If it can read an <a href="ch22.html#CombatII14">opponent's</a> mind, it gets a further +4 circumstance bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: An <a href="ch77s28.html#PsionicMonsters222">unbodied's</a> <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a> levels give it two feats.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Psion (telepath).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level Adjustment: +4.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s27.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s29.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Udoroot </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Xeph</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

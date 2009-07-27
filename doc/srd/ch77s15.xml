@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Half-Giant</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s14.html" title="Gray Glutton"/>
+    <link rel="next" href="ch77s16.html" title="Intellect Devourer"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Half-Giant</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s14.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s16.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2479429"/>Half-Giant</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s15.html#id2480319">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch77s15.html#id2480547">Half-Giants as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters140"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2479448">
+        <tbody>
+          <tr><td/>
+<td><strong><a href="ch77s15.html#PsionicMonsters140">Half-Giant</a>, 1st-Level Warrior</strong></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a> (Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1d8+2 (6 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (-1 Dex, +4 scale mail), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> greatsword +4 melee (3d6+3/19-20) or <a href="ch22.html#CombatII28">Large</a> javelin +0 ranged (1d8+2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> greatsword +4 melee (3d6+3/19-20) or <a href="ch22.html#CombatII28">Large</a> javelin +0 ranged (1d8+2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Psi-like abilities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities29">Fire</a> acclimated, <a href="ch04.html#TypesSubtypesAbilities33">giant's</a> stature, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref -1, Will -1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 9, Con 14, Int 10, Wis 9, Cha 8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +1, <a href="ch16s03.html#CombinedSkills294">Spot</a> +1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats390">Weapon Focus</a> (greatsword)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm desert</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Team (2-4), squad (11-20 plus 2 3rd-level sergeants and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 3rd-level sergeant per 10 adults, 5 5th-level lieutenants, and 3 7th-level captains)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description7">neutral good</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch77s15.html#PsionicMonsters140">Half-giants</a> typically stand from 7 feet to nearly 8 feet tall and weigh from 250 to 400 pounds, with men noticeably taller and heavier than women.</p>
+      <p><a href="ch77s15.html#PsionicMonsters140">Half-giants</a> speak Common. Many also learn <a href="ch66s06.html#MonstersG67">Giant</a>.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2480319"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters141"/>
+        <p>Because of their <a href="ch66s06.html#MonstersG67">giant</a> ancestry, <a href="ch77s15.html#PsionicMonsters140">half-giants</a> are able to use weapons sized for creatures larger than normal humans. They gain considerable satisfaction in using these large weapons in combat against their foes.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2480362"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters142"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> 1/day: <span class="emphasis"><em><a href="ch59.html#PsionicPowersQ-W31">stomp</a></em></span> (DC 10)<span class="emphasis"><em/></span>. Manifester level equal to 1/2 HD (minimum 1st). The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2480406"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters143"/>
+          <p><span class="strong"><strong>Fire Acclimated (Ex):</strong></span> <a href="ch77s15.html#PsionicMonsters140">Half-giants</a> have a +2 racial bonus on saving throws against all fire spells and effects.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2480446"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters144"/>
+          <p><span class="strong"><strong>Powerful Build (Ex):</strong></span> The physical stature of <a href="ch77s15.html#PsionicMonsters140">half-giants</a> lets them function in many ways as if they were one size category larger. Whenever a <a href="ch77s15.html#PsionicMonsters140">half-giant</a> is subject to a size modifier or special size modifier for an opposed check (such as during grapple checks, bull rush attempts, and trip attempts), the <a href="ch77s15.html#PsionicMonsters140">half-giant</a> is treated as one size larger if doing so is advantageous to him. A <a href="ch77s15.html#PsionicMonsters140">half-giant</a> is also considered to be one size larger when determining whether a creature's special attacks based on size (such as improved grab or swallow whole) can affect him. A <a href="ch77s15.html#PsionicMonsters140">half-giant</a> can use weapons designed for a creature one size larger without penalty. However, his space and reach remain those of a creature of his actual size. The benefits of this racial trait stack with the effects of powers, abilities, and spells that change the subject's size category.</p>
+          <p>The <a href="ch77s15.html#PsionicMonsters140">half-giant</a> warrior presented here had the following ability scores before racial adjustments: Str 13, Dex 11, Con 12, Int 10, Wis 9, Cha 8.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2480547"/>Half-Giants as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters145"/>
+        <p><a href="ch77s15.html#PsionicMonsters140">Half-giant</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+2 Constitution, +2 Strength, -2 Dexterity.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch77s15.html#PsionicMonsters140">Half-giant</a> base land <a href="ch21s02.html#CombatI14">speed</a> is 30 feet.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Naturally Psionic: <a href="ch77s15.html#PsionicMonsters140">Half-giants</a> gain 2 bonus power points at 1st level, regardless of whether they choose a psionic class.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch04.html#TypesSubtypesAbilities29">Fire</a> Acclimated: <a href="ch77s15.html#PsionicMonsters140">Half-giants</a> have a +2 racial bonus on <a href="ch21s02.html#CombatI15">saving throws</a> against all <a href="ch04.html#TypesSubtypesAbilities29">fire</a> spells and effects.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Powerful build (see above).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): Psi-like abilities.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Language: Common. Bonus Language: Draconic, <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>, <a href="ch66s09.html#MonstersG125">Gnoll</a>, Ignan.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Psychic warrior.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level adjustment: +1.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s14.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s16.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Gray Glutton </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Intellect Devourer</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

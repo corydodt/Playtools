@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Satyr</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch71.html" title="Monsters (S)"/>
+    <link rel="prev" href="ch71s02.html" title="Salamander"/>
+    <link rel="next" href="ch71s04.html" title="Sea Cat"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Satyr</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch71s02.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (S)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch71s04.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2164297"/>Satyr</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch71s03.html#id2165349">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s03.html#id2165610">Satyrs as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersS21"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2164316">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Satyr</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities28">Fey</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>5d6+5 (22 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Head butt +2 melee (1d6) or shortbow +3 ranged (1d6/x3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Head butt +2 melee (1d6) and dagger -3 melee (1d4/19-20); or shortbow +3 ranged (1d6/x3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Pipes</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/<a href="ch24.html#SpecialMaterials6">cold iron</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +2, Ref +5, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 13, Con 12, Int 12, Wis 13, Cha 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +9, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +1 (+3 acting), <a href="ch16s03.html#CombinedSkills179">Hide</a> +13, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +3, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +9, <a href="ch16s03.html#CombinedSkills204">Listen</a> +15, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +13, <a href="ch16s03.html#CombinedSkills222">Perform</a> (wind instruments) +9, <a href="ch16s03.html#CombinedSkills294">Spot</a> +15, <a href="ch16s03.html#CombinedSkills303">Survival</a> +1 (+3 aboveground)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats253">Mobility</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, band (3-5), or troop (6-11)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2 (without pipes) or 4 (with pipes)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description11">chaotic neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>6-10 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch71s03.html#MonstersS21">satyr's</a> hair is red or chestnut brown, while its hooves and horns are jet black. A <a href="ch71s03.html#MonstersS21">satyr</a> is about as tall and heavy as a half-elf.<a href="img/MonstersS.Satyr.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Satyr.jpg" align="right"/></span></a></p>
+      <p><a href="ch71s03.html#MonstersS21">Satyrs</a> speak Sylvan, and most also speak Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2165349"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS22"/>
+        <p>The keen senses of a <a href="ch71s03.html#MonstersS21">satyr</a> make it almost impossible to surprise one in the wild. Conversely, with their own natural grace and agility, <a href="ch71s03.html#MonstersS21">satyrs</a> can sneak up on travelers who are not carefully watching the surrounding wilderness. Once engaged in battle, an unarmed <a href="ch71s03.html#MonstersS21">satyr</a> attacks with a powerful head butt. A <a href="ch71s03.html#MonstersS21">satyr</a> expecting trouble is likely to be armed with a bow and a dagger and typically looses arrows from hiding, weakening an enemy before closing.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2165414"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS23"/>
+          <p><span class="strong"><strong>Pipes (Su):</strong></span> <a href="ch71s03.html#MonstersS21">Satyrs</a> can play a variety of magical tunes on their pan pipes. Usually, only one <a href="ch71s03.html#MonstersS21">satyr</a> in a group carries pipes. When it plays, all creatures within a 60-foot spread (except <a href="ch71s03.html#MonstersS21">satyrs</a>) must succeed on a DC 13 Will save or be affected by <span class="emphasis"><em><a href="ch44.html#SpellsC15">Charm person</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> or <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span> (caster level 10th; the <a href="ch71s03.html#MonstersS21">satyr</a> chooses the tune and its effect).</p>
+          <p>In the hands of other beings, these pipes have no special powers. A creature that successfully saves against any of the pipe's effects cannot be affected by the same set of pipes for 24 hours. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2165522"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS24"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch71s03.html#MonstersS21">Satyrs</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills222">Perform</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2165610"/>Satyrs as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS25"/>
+        <p><a href="ch71s03.html#MonstersS21">Satyr</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+2 Dexterity, +2 Constitution, +2 Intelligence, +2 Wisdom, +2 Charisma.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-A <a href="ch71s03.html#MonstersS21">satyr's</a> base land speed is 40 feet.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: A <a href="ch71s03.html#MonstersS21">satyr</a> begins with five levels of <a href="ch04.html#TypesSubtypesAbilities28">fey</a>, which provide 5d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +2, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: A <a href="ch71s03.html#MonstersS21">satyr's</a> <a href="ch04.html#TypesSubtypesAbilities28">fey</a> levels give it skill points equal to 8 x?(6 + Int modifier). Its class skills are <a href="ch16s03.html#CombinedSkills61">Bluff</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature), <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills222">Perform</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>. <a href="ch71s03.html#MonstersS21">Satyrs</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills222">Perform</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: A <a href="ch71s03.html#MonstersS21">satyr's</a> <a href="ch04.html#TypesSubtypesAbilities28">fey</a> levels give it two feats. A <a href="ch71s03.html#MonstersS21">satyr</a> receives <a href="ch17s03.html#Feats29">Alertness</a> as a bonus feat.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>+4 natural armor bonus.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Natural Weapons: Head butt (1d6).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22s03.html#CombatII52">Special Attacks</a> (see above): Pipes.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 5/<a href="ch24.html#SpecialMaterials6">cold iron</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: Sylvan. Bonus Languages: Common, Elven, <a href="ch66s10.html#MonstersG128">Gnome</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Bard.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level adjustment +2.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch71s02.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch71.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch71s04.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Salamander </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Sea Cat</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

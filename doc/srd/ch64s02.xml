@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Dragon Turtle</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch64.html" title="Monsters (Dr-Dw)"/>
+    <link rel="prev" href="ch64.html" title="Monsters (Dr-Dw)"/>
+    <link rel="next" href="ch64s03.html" title="Dragonne"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Dragon Turtle</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch64.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Dr-Dw)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch64s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1954983"/>Dragon Turtle</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch64s02.html#id1956007">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersDr-Dw196"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1955002">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Dragon Turtle</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities20">Dragon</a> (<a href="ch04.html#TypesSubtypesAbilities8">Aquatic</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d12+60 (138 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), swim 30 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>25 (-2 size, +17 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +18 melee (4d6+8)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +18 melee (4d6+8) and 2 claws +13 melee (2d8+4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities13">Breath weapon</a>, snatch, capsize</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> and <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +13, Ref +8, Will +9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 27, Dex 10, Con 21, Int 12, Wis 13, Cha 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills179">Hide</a> +7*, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +16, <a href="ch16s03.html#CombinedSkills204">Listen</a> +16, <a href="ch16s03.html#CombinedSkills253">Search</a> +16, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +16, <a href="ch16s03.html#CombinedSkills294">Spot</a> +16, <a href="ch16s03.html#CombinedSkills303">Survival</a> +16 (+18 following tracks), <a href="ch16s03.html#CombinedSkills311">Swim</a> +21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch20.html#MonsterFeats45">Snatch</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p><a href="ch22s03.html#CombatII100">Triple</a> standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>13-24 HD (<a href="ch22.html#CombatII28">Huge</a>); 25-36 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>Its rough, deep green shell is much the same color as the deep water the monster favors, and the silver highlights that line the shell resemble light dancing on open water. The turtle's legs, tail, and head are a lighter green, flecked with golden highlights. An adult <a href="ch64s02.html#MonstersDr-Dw196">dragon turtle</a> can measure from 20 to 30 feet from snout to tail, with a shell from 15 to 25 feet in diameter, and can weigh 8,000 to 32,000 pounds.</p>
+      <p><a href="ch64s02.html#MonstersDr-Dw196">Dragon turtles</a> speak Aquan, Draconic, and Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1956007"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersDr-Dw197"/>
+        <p><a href="ch64s02.html#MonstersDr-Dw196">Dragon turtles</a> are fierce fighters and generally attack any creature that threatens their territory or looks like a potential meal.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1956039"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw198"/>
+          <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> Cloud of superheated steam 20 feet high, 25 feet wide, and 50 feet long, once every 1d4 rounds, damage 12d6 fire, Reflex DC 21 half; effective both on the surface and underwater. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1956071"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw199"/>
+          <p><span class="strong"><strong>Capsize (Ex):</strong></span> A submerged <a href="ch64s02.html#MonstersDr-Dw196">dragon turtle</a> that surfaces under a boat or ship less than 20 feet long capsizes the vessel 95% of the time. It has a 50% chance to capsize a vessel from 20 to 60 feet long and a 20% chance to capsize one over 60 feet long.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1956112"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersDr-Dw200"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch64s02.html#MonstersDr-Dw196">dragon turtle</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered.</p>
+          <p>It can use the run action while swimming, provided it swims in a straight line.</p>
+          <p>*<a href="ch64s02.html#MonstersDr-Dw196">Dragon turtles</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks when submerged.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch64.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch64.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch64s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (Dr-Dw) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Dragonne</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Vermiurge</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s29.html" title="Uvuudaum"/>
+    <link rel="next" href="ch76s31.html" title="Winterwight"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Vermiurge</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s29.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s31.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2454327"/>Vermiurge</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s30.html#id2455478">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)244"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2454346">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Vermiurge</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>42d8+546 (735 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+11 (+7 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft., fly 90 ft. (perfect)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>40 (+3 Dex, -1 size, +24 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 37</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+31/+47</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Sting +43 (1d6+12/19-20 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Sting +43 (1d6+12/19-20 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee, 4 pincers +41 (2d8+6/19-20) melee, bite +40 (3d6+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Aura of doom, <a href="ch22s02.html#CombatII42">concealing</a> aura, <a href="ch04.html#TypesSubtypesAbilities31">frightful presence</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/epic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 10, immune to all mind-affecting effects, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 34; <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +29, Ref +21, Will +38</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 34, Dex 25, Con 36, Int 14, Wis 40, Cha 44</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills171">Heal</a> +24, <a href="ch16s03.html#CombinedSkills179">Hide</a> +33, <a href="ch16s03.html#CombinedSkills192">Jump</a> +45, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (nature) +34, <a href="ch16s03.html#CombinedSkills204">Listen</a> +47, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +33, <a href="ch16s03.html#CombinedSkills294">Spot</a> +47</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (pincers), <a href="ch17s03.html#Feats170">Improved Critical</a> (sting), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (pincers), <a href="ch17s03.html#Feats390">Weapon Focus</a> (sting)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>43-52 HD (<a href="ch22.html#CombatII28">Large</a>); 53-70 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch76s30.html#EpicMonsters(G-W)244">Vermiurges</a> speak Terran.<a href="img/EpicMonsters(G-W).Vermiurge.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Vermiurge.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch76s30.html#EpicMonsters(G-W)244">vermiurge's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2455478"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)245"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2455496"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)246"/>
+          <p><span class="strong"><strong>Aura of Doom (Su):</strong></span> A <a href="ch76s30.html#EpicMonsters(G-W)244">vermiurge</a> is constantly affected as if by a <span class="emphasis"><em><a href="ch52s02.html#EpicSpells28">crown of vermin</a></em></span> spell (epic spell) cast by a 42nd-level caster. As per the spell, a <a href="ch76s30.html#EpicMonsters(G-W)244">vermiurge</a> may completely suppress the aura of insects as desired. A <a href="ch76s30.html#EpicMonsters(G-W)244">vermiurge's</a> aura of doom constantly replenishes itself at a rate of 200 vermin per round (unlimited duration). When vermin die off either by being slain or by dealing Damage to another creature, the aura does not permanently collapse, even if all the vermin are slain or if all 1,000 vermin deal their Damage in 1 round. As soon as any vermin are replenished, they participate normally in the <span class="emphasis"><em><a href="ch52s02.html#EpicSpells28">crown of vermin</a></em></span> effect.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2455584"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)247"/>
+          <p><span class="strong"><strong>Concealing Aura (Ex):</strong></span> Its aura of doom constantly provides a <a href="ch76s30.html#EpicMonsters(G-W)244">vermiurge</a> with nine-tenths concealment, so all attacks made against it have a 40% miss chance.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2455624"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)248"/>
+          <p><span class="strong"><strong>Frightful Presence (Su):</strong></span> This ability takes effect automatically when the <a href="ch76s30.html#EpicMonsters(G-W)244">vermiurge</a> first engages its aura of doom. It affects only opponents with fewer Hit Dice or levels than the creature has. The affected creature must make a successful Will save (DC 48) or become shaken. Success indicates that the target is immune to that creature's frightful presence for one day. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2455664"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)249"/>
+          <p><span class="strong"><strong>Poison (Ex):</strong></span> Sting or bite, Fort save (DC 44); initial Damage 1d6 temporary Con, secondary Damage 2d6 temporary Con. The save DC is Constitution-based.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s29.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s31.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Uvuudaum </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Winterwight</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

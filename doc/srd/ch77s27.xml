@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Udoroot</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s26.html" title="Thought Slayer"/>
+    <link rel="next" href="ch77s28.html" title="Unbodied"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Udoroot</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s26.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s28.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2495050"/>Udoroot</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s27.html#id2496036">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters216"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2495068">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Udoroot</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities51">Plant</a> (Psionic)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+18 (45 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>0 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>11 (-2 size, -5 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 3, <a href="ch21s03.html#CombatI21">flat-footed</a> 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./0 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Double manifest, psi-like abilities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 60 ft., immunity to electricity, <a href="ch04.html#TypesSubtypesAbilities51">plant</a> traits, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +4, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex -, Con 16, Int 4, Wis 13, Cha 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forest</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or patch (2-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>1/5 coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-16 HD (<a href="ch22.html#CombatII28">Huge</a>); 17-18 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2496036"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters217"/>
+        <p>An <a href="ch77s27.html#PsionicMonsters216">udoroot</a> can be killed only if its root is dug up or exposed, then burned, hacked apart, or otherwise destroyed. Severing or destroying all six crowns puts the plant out of commission, allowing excavation of the helpless root. The crowns are Medium objects with a hardness of 5 and 7 hit points. To sever a crown, an opponent must use the sunder action. The crowns can also be affected by spells or effects that affect an area or targeted by spells that affect an individual target.</p>
+        <p>An <a href="ch77s27.html#PsionicMonsters216">udoroot</a> takes no damage from having a crown severed or destroyed. A severed crown dies and can no longer be used to attack, but the <a href="ch77s27.html#PsionicMonsters216">udoroot</a> takes no other penalties.  As long as the root system remains intact, the crown regrows in about a month.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2496100"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters218"/>
+          <p><span class="strong"><strong>Double Manifest (Ex):</strong></span> An <a href="ch77s27.html#PsionicMonsters216">udoroot</a> senses its surroundings and manifests its psi-like abilities through its crowns. It can manifest two psi-like abilities per round, as long as it has at least two crowns remaining.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2496138"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters219"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F97">energy stun</a></em></span> (electricity, 2d6, DC 15*), <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F117">false sensory input</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P13">id insinuation</a></em></span> (two targets, DC 15*), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P61">mind thrust</a></em></span> (ML 4th, 4d10, DC 14*), <span class="emphasis"><em><a href="ch59.html#PsionicPowersQ-W42">telekinetic force</a></em></span> (275 lb., DC 15*), <span class="emphasis"><em>thought <a href="ch50.html#SpellsS28">shield</a></em></span> (power resistance 16*); 3/day-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C12">astral construct</a></em></span> (3rd level*), <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C34">body adjustment</a></em></span>,  <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P39">mental barrier</a></em></span>. </p>
+          <p>Manifester level 6th. The save DCs are Charisma-based.</p>
+          <p>An <a href="ch77s27.html#PsionicMonsters216">udoroot</a> can use its <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C34">body adjustment</a></em></span> power to repair damage to one of its crowns, as long as the crown has not been severed or destroyed.</p>
+          <p>*Includes augmentation for the <a href="ch77s27.html#PsionicMonsters216">udoroot's</a> manifester level.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2496311"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters220"/>
+          <p><span class="strong"><strong>Blindsight (Ex):</strong></span> An <a href="ch77s27.html#PsionicMonsters216">udoroot</a> can ascertain all foes by nonvisual means within 60 feet. If its crowns are destroyed, it can no longer perceive its surroundings.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2496351"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters221"/>
+          <p><span class="strong"><strong>Plant Traits:</strong></span> An <a href="ch77s27.html#PsionicMonsters216">udoroot</a> is immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, paralysis, stunning, polymorphing, and mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). It is not subject to critical hits.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s26.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s28.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Thought Slayer </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Unbodied</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

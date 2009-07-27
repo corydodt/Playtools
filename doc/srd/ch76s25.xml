@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Thorciasid</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s24.html" title="Tayellah"/>
+    <link rel="next" href="ch76s26.html" title="Titan, Elder"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Thorciasid</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s24.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s26.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2446958"/>Thorciasid</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s25.html#id2447992">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)214"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2446977">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Thorciasid</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>29d8+348 (478 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+22 (+14 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>70 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>42 (+14 Dex, +18 natural), <a href="ch21s02.html#CombatI12">touch</a> 24, <a href="ch21s03.html#CombatI21">flat-footed</a> 28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+21/+27</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Forelimb +36 (0 plus ability drain) melee <a href="ch21s02.html#CombatI12">touch</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 forelimbs +36 (0 plus ability drain) melee <a href="ch21s02.html#CombatI12">touch</a>, 2 antennae +30 (antenna 0 plus <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a>) melee <a href="ch21s02.html#CombatI12">touch</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Ability drain, <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a>, cocoon</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/epic, darkvision 240 ft., <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 34, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 30</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +21, Ref +25, Will +25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 22, Dex 38, Con 34, Int 25, Wis 29, Cha 31</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +42, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +44, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +38, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +46, <a href="ch16s03.html#CombinedSkills179">Hide</a> +46, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +38, <a href="ch16s03.html#CombinedSkills192">Jump</a> +22, <a href="ch16s03.html#CombinedSkills204">Listen</a> +41, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +46, <a href="ch16s03.html#CombinedSkills294">Spot</a> +41, <a href="ch16s03.html#CombinedSkills303">Survival</a> +25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats66">Combat Expertise</a>, <a href="ch17s03.html#Feats174">Improved Disarm</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (forelimb)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a>, <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or infestation (4-7)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>30-36 HD (<a href="ch22.html#CombatII28">Medium-size</a>); 37-42 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch76s25.html#EpicMonsters(G-W)214">Thorciasids</a> speak Common, Elven, Dwarven, and <a href="ch66s06.html#MonstersG67">Giant</a>.</p>
+      <p>A <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2447992"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)215"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2448011"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)216"/>
+          <p><span class="strong"><strong>Cocoon (Ex):</strong></span> A <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> can eject a stream of noxious goo that hardens on contact, potentially fixing a subject in place and hindering its movement and actions. Using a standard action, the <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> makes a ranged touch attack against any foe it can see up to 60 feet away. If it succeeds at the ranged touch attack, the subject makes a grapple check against the cocoon. This is accomplished as if the <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> itself were making the grapple check with a competence bonus of +10, for a total check modifier of +37. On a failed check for the subject, the goo hardens into a partial cocoon, and the victim is treated as if grappled (even though the <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> is free to do as it desires). The subject can attempt to break the grapple of the cocoon (or use <a href="ch16s03.html#CombinedSkills137">Escape Artist</a>) each round, making an opposed grapple check against the cocoon (check modifier +37 for the cocoon). A <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> can reinforce a partial cocoon by spending a standard action secreting additional goo. Each action so spent provides an additional +5 to the cocoon's grapple check modifier. Visually, the victim becomes more and more covered and is finally com-pletely encased in a cocoon. Even fully encased victims can still breathe, and a <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> can drain a victim's life force at its leisure.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2448126"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)217"/>
+          <p><span class="strong"><strong>Ability Drain (Su):</strong></span> On a successful melee touch attack with a forelimb, the <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> permanently drains 1d4+1 points of Strength, 1d4+1 points of Dexterity, and 1 point of Constitution from the victim. The <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> regains 20 lost hit points with each successful ability drain.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2448178"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)218"/>
+          <p><span class="strong"><strong>Energy Drain (Su):</strong></span> On a successful melee touch attack with an antenna, the <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> gives the victim one negative level. Each negative level bestowed upon a victim gives the <a href="ch76s25.html#EpicMonsters(G-W)214">thorciasid</a> +1 bonus to its Constitution that lasts for 24 hours. The negative levels similarly last for 24 hours, at which time the victim must make a Fortitude saving throw (DC 34) to avoid level loss. The save DC is Charisma-based.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s24.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s26.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Tayellah </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Titan, Elder</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

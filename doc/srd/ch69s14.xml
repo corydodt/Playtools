@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Nymph</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch69.html" title="Monsters (M-N)"/>
+    <link rel="prev" href="ch69s13.html" title="Nightshade"/>
+    <link rel="next" href="ch70.html" title="Monsters (O-R)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Nymph</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s13.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (M-N)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2112615"/>Nymph</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch69s14.html#id2113963">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersM-N166"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2112633">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Nymph</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities28">Fey</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d6+6 (27 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), swim 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+3 Dex, +4 deflection), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Dagger +6 melee (1d4/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Dagger +6 melee (1d4/19-20)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Blinding beauty, spells, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> stunning glance</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/<a href="ch24.html#SpecialMaterials6">cold iron</a>, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, unearthly grace, wild empathy</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +12, Will +12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 17, Con 12, Int 16, Wis 17, Cha 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +10, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +6, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +12, <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> +13, <a href="ch16s03.html#CombinedSkills171">Heal</a> +12, <a href="ch16s03.html#CombinedSkills179">Hide</a> +12, <a href="ch16s03.html#CombinedSkills204">Listen</a> +12, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills243">Ride</a> +5, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12, <a href="ch16s03.html#CombinedSkills311">Swim</a> +8, <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +3 (+5 with bindings)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate forests</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description8">chaotic good</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-12 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch69s14.html#MonstersM-N166">nymph</a> is about the height and weight of a female <a href="ch65s03.html#MonstersE-F26">elf</a>.<a href="img/MonstersM-N.Nymph.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersM-N.Nymph.jpg" align="right"/></span></a></p>
+      <p><a href="ch69s14.html#MonstersM-N166">Nymphs</a> speak Sylvan and Common.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2113963"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersM-N167"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2113981"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N168"/>
+          <p><span class="strong"><strong>Blinding Beauty (Su):</strong></span> This ability affects all humanoids within 30 feet of a <a href="ch69s14.html#MonstersM-N166">nymph</a>. Those who look directly at a <a href="ch69s14.html#MonstersM-N166">nymph</a> must succeed on a DC 17 Fortitude save or be blinded permanently as though by the <span class="emphasis"><em>blindness</em></span> spell. A <a href="ch69s14.html#MonstersM-N166">nymph</a> can suppress or resume this ability as a free action.</p>
+          <p>The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2115345"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N169"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 1/day-<span class="emphasis"><em><a href="ch45.html#SpellsD-E31">dimension door</a></em></span>. Caster level 7th.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2115385"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N170"/>
+          <p><span class="strong"><strong>Spells:</strong></span> A <a href="ch69s14.html#MonstersM-N166">nymph</a> casts divine spells as a 7th-level druid.</p>
+          <p><span class="emphasis"><em>Typical Druid Spells Prepared</em></span> (6/5/4/3/1, save DC 13 + spell level): 0-<span class="emphasis"><em><a href="ch44.html#SpellsC58">cure minor wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G21">flare</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G55">guidance</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>; 1st-<span class="emphasis"><em>calm animal</em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC56">cure light wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E66">entangle</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L73">longstrider</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS50">speak with animals</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B35">barkskin</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L10">heat metal</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R73">lesser restoration</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z21">tree shape</a></em></span>; 3rd- <span class="emphasis"><em><a href="ch44.html#SpellsC2">call lightning</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC59">cure moderate wounds</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R36">protection from energy</a></em></span>; 4th-<span class="emphasis"><em><a href="ch49.html#SpellsP-R78">rusting grasp</a></em></span>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2115628"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N171"/>
+          <p><span class="strong"><strong>Stunning Glance (Su):</strong></span> As a standard action, a wrathful <a href="ch69s14.html#MonstersM-N166">nymph</a> can stun a creature within 30 feet with a look. The target creature must succeed on a DC 17 Fortitude save or be stunned for 2d4 rounds. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2115665"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N172"/>
+          <p><span class="strong"><strong>Unearthly Grace (Su):</strong></span> A <a href="ch69s14.html#MonstersM-N166">nymph</a> adds her Charisma modifier as a bonus on all her saving throws, and as a deflection bonus to her Armor Class. (The statistics block already reflects these bonuses).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2115703"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N173"/>
+          <p><span class="strong"><strong>Wild Empathy (Ex):</strong></span> This power works like the druid's wild empathy class feature, except that a <a href="ch69s14.html#MonstersM-N166">nymph</a> has a +6 racial bonus on the check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2115879"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersM-N174"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch69s14.html#MonstersM-N166">nymph</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. She can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. She can use the run action while swimming, provided she swims in a straight line.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s13.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch69.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Nightshade </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (O-R)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

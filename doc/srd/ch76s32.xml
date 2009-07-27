@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Worm that Walks</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="template"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s31.html" title="Winterwight"/>
+    <link rel="next" href="ch77.html" title="Psionic Monsters"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Worm that Walks</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s31.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2457038"/>Worm that Walks</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s32.html#id2457726">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch76s32.html#id2458332">Creating A Worm that Walks</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect3">
+                  <a href="ch76s32.html#id2459218">Worm that Walks Characters</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect4">
+                      <a href="ch76s32.html#id2459301">Gathering of Maggots</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">template</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)258"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2457056">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Worm that Walks</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p>Medium Aberration</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Hit Dice:</strong></span></p></td>
+<td><p>23d8+49 (152 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Initiative:</strong></span></p></td>
+<td><p>+8 (+4 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Speed:</strong></span></p></td>
+<td><p>30 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Armor Class:</strong></span></p></td>
+<td><p>47 (+4 Dex, +8 bracers, +3 ring, +2 amulet, +20 insight), touch 39, flat-footed 43</p></td>
+
+</tr>
+          <tr>
+            <td>
+              <p>
+                <span class="strong">
+                  <strong>Base Attack/Grapple:</strong>
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>+11/+11</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span class="strong">
+                  <strong>Attack:</strong>
+                </span>
+              </p>
+            </td>
+            <td>
+              <p><span class="emphasis"><em>+4 staff</em></span> +15 (1d6+4) melee</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <span class="strong">
+                  <strong>Full Attack</strong>
+                </span>
+              </p>
+            </td>
+            <td>
+              <p><span class="emphasis"><em>+4 staff</em></span> +15/+10 (1d6+4) melee</p>
+            </td>
+          </tr>
+          <tr><td><p><span class="strong"><strong>Space/Reach:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Special Attacks:</strong></span></p></td>
+<td><p>Spell-like abilities, engulf, frightful presence</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Special Qualities:</strong></span></p></td>
+<td><p>Blindsight 300 ft., spell resistance 36, discorporate, immunities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Saves:</strong></span></p></td>
+<td><p>Fort +11, Ref +14, Will +17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Abilities:</strong></span></p></td>
+<td><p>Str 10, Dex 14 (18 with <span class="emphasis"><em>gloves</em></span>), Con 13 (15 with <span class="emphasis"><em>Ioun stone</em></span>), Int 20 (26 with <span class="emphasis"><em>headband</em></span>), Wis 12, Cha 8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Skills:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +22, <a href="ch16s03.html#CombinedSkills91">Craft</a> (alchemy) +28, <a href="ch16s03.html#CombinedSkills204">Listen</a> +24, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana, local, nature, religion) +28, <a href="ch16s03.html#CombinedSkills204">Listen</a> +21, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +24, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Feats:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats57">Brew Potion</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats81">Craft Staff</a>, <a href="ch17s03.html#Feats87">Craft Wondrous Item</a>, <a href="ch17s03.html#Feats161">Heighten Spell</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats251">Maximize Spell</a>, <a href="ch17s03.html#Feats290">Quicken Spell</a>, <a href="ch17s03.html#Feats309">Scribe Scroll</a>, <a href="ch17s03.html#Feats343">Spell Penetration</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic Feats:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats311">Improved Spell Capacity</a> (10th), <a href="ch18s02.html#EpicFeats311">Improved Spell Capacity</a> (11th)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Environment:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Organization:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Challenge Rating:</strong></span></p></td>
+<td><p>26</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Treasure:</strong></span></p></td>
+<td><p>As character</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Alignment:</strong></span></p></td>
+<td><p>Any evil</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Advancement:</strong></span></p></td>
+<td><p>As character</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A worm that walks rarely speaks, although it retains knowledge of all languages it knew in life, as well as any it has learned since.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2457726"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)259"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2457744"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)260"/>
+          <p><span class="strong"><strong>Spells:</strong></span> A worm that walks can cast any spells it could cast as a character. This sample worm was a 23rd-level wizard (spells per day: 4/12/6/6/6/5/5/5/5/4/1/1). The last spell slots are 10th-level and 11th-level slots, respectively, and are available for 0-9th level meta-magic spells.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2457777"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)261"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 1/day-<span class="emphasis"><em><a href="ch43.html#SpellsA-B11">animal growth</a></em></span> (vermin), <span class="emphasis"><em><a href="ch43.html#SpellsA-B12">animal messenger</a></em></span> (vermin), <span class="emphasis"><em><a href="ch43.html#SpellsA-B13">animal shapes</a></em></span> (vermin), <span class="emphasis"><em><a href="ch43.html#SpellsA-B14">animal trance</a></em></span> (vermin), <span class="emphasis"><em>colossal vermin</em></span> (as <span class="emphasis"><em><a href="ch46.html#SpellsF-G42">giant vermin</a></em></span>, but it can increase the creature's size from Large to Gargantuan and from Huge to Colossal), <span class="emphasis"><em><a href="ch44.html#SpellsC51">creeping doom</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G42">giant vermin</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS95">summon swarm</a></em></span> (vermin), <span class="emphasis"><em>summon vermin</em></span> (as <span class="emphasis"><em>summon nature's ally</em></span>, <span class="emphasis"><em/></span> except it summons 10 HD of vermin per level), and <span class="emphasis"><em>vermin plague</em></span> (as <span class="emphasis"><em><a href="ch47.html#SpellsH-L49">insect plague</a></em></span>). Caster level 20th; save DC 9 + spell level. The save DCs are Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2457927"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)262"/>
+          <p><span class="strong"><strong>Engulf (Ex):</strong></span> A worm that walks can choose to engulf an opponent who is no more than one size category larger than itself. The worm attempts to embrace its victim, and with a successful melee touch attack, the victim is immediately swallowed up and surrounded by a mass of vermin, taking 100 points of damage. A victim who spends a full-round action can break free of the embrace and move up to half its speed away from the worm if desired, but can do nothing else. Otherwise, each round a victim remains embraced, it takes another 100 points of Damage. Constructs are immune to this attack.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2457964"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)263"/>
+          <p><span class="strong"><strong>Spells:</strong></span> The worm that walks can cast any spells it could cast when a living character. It also gains several related abilities.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2457995"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)264"/>
+          <p><span class="strong"><strong>Frightful Presence (Su):</strong></span> When a worm that walks engulfs a victim, witnesses must make a Will save (DC 10 + 1/2 the worm's HD + the worm's Cha modifier). Those who make the save are shaken. Those who fail by 5 or fewer points are frightened. Those who fail by 6 to<sup><span class="strong"><strong>10</strong></span></sup> points are panicked. Those who fail by 11 or more points are cowering. All these conditions last for 1d4 rounds. Those who have seen a worm use this attack before gain a +5 bonus on their saving throws. The victim of the worm's engulf attack has a -5 penalty on his or her saving throw.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458040"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)265"/>
+          <p><span class="strong"><strong>Discorporate (Ex):</strong></span> If gravely threatened, a worm can discorporate as a free action, simply falling into a pile of individual vermin that slither quickly away. So long as any of the component vermin survive, they can breed and create a new body to house the wizard's intelligence and personality. Discorporating is a dangerous tactic, because once separated, the vermin are treated no differently than other vermin. Also, the worm stands a good chance of losing all its equipment. However, discorporation almost assures that at least one maggot (if not dozens) will manage to crawl away, and so provide for the worm's continued existence.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458079"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)266"/>
+          <p><span class="strong"><strong>Immunities (Ex):</strong></span> A worm that walks has no discernable anatomy, so it is not subject to critical hits or flanking.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458109"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)267"/>
+          <p><span class="strong"><strong>Possessions:</strong></span> Scrolls of <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span> (10th-level caster), greater <span class="emphasis"><em><a href="ch51.html#SpellsT-Z5">teleport</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B3">acid fog</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L38">incendiary cloud</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS26">shapechange</a></em></span>,  <span class="emphasis"><em>wail of the</em></span> <span class="emphasis"><em>banshee</em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC20">clenched fist</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L28">horrid wilting</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O29">maze</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS85">summon monster IX</a></em></span>; <span class="emphasis"><em>potions of <a href="ch44.html#SpellsC61">cure serious wounds</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B9">alter self</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>. Other magic gear: <span class="emphasis"><em>amulet of natural armor +2</em></span>,  <span class="emphasis"><em>bracers of armor +8</em></span>,  <span class="emphasis"><em>ring of protection +3</em></span>,  <span class="emphasis"><em>+4 staff</em></span>, <span class="emphasis"><em>rod of absorption</em></span>,  <span class="emphasis"><em>gloves of Dexterity +4</em></span>,  <span class="emphasis"><em>headband of intellect +6</em></span>,  <span class="emphasis"><em>pink Ioun stone</em></span>,  <span class="emphasis"><em>wings of flying</em></span>.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2458332"/>Creating A Worm that Walks</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect3">
+                <a href="ch76s32.html#id2459218">Worm that Walks Characters</a>
+              </span>
+            </dt>
+            <dd>
+              <dl>
+                <dt>
+                  <span class="sect4">
+                    <a href="ch76s32.html#id2459301">Gathering of Maggots</a>
+                  </span>
+                </dt>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)268"/>
+        <p>'Worm that walks' is a template that can be added to any evil wizard or sorcerer. It uses all the original character's statistics, special abilities, and equipment, except as noted here.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458356"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)269"/>
+          <p><span class="strong"><strong>Type:</strong></span> The character's type changes to aberration (it is a creature composed of hundreds of discrete crawling worms).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458386"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)270"/>
+          <p><span class="strong"><strong>Hit Dice:</strong></span> Increase to d8.</p>
+          <p><span class="strong"><strong>AC:</strong></span> The mass of worms that make up this creature, each looking out for danger, in sum provide a +20 insight bonus to AC.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458425"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)271"/>
+          <p><span class="strong"><strong>Special Attack:</strong></span> A worm that walks retains all the character's special attacks. It also gains one special attack, engulf.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458455"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)272"/>
+          <p><span class="strong"><strong>Engulf (Ex)</strong></span>: A worm that walks can choose to engulf an opponent who is no more than one size category larger than itself. The worm attempts to embrace its victim, and with a successful melee touch attack, the victim is immediately swallowed up and surrounded by a mass of vermin, taking 100 points of Damage as the biting vermin nibble away. A victim who spends a full-round action can break free of the embrace and move up to half its speed away from the worm if desired, but can do nothing else. Otherwise, each round a victim remains embraced, it takes another 100 points of Damage. Constructs are immune to this attack.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458493"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)273"/>
+          <p><span class="strong"><strong>Spells:</strong></span> A worm that walks can cast any spells it could cast as a living character.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458522"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)274"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> 1/day- <span class="emphasis"><em><a href="ch43.html#SpellsA-B11">animal growth</a></em></span> (vermin), <span class="emphasis"><em><a href="ch43.html#SpellsA-B12">animal messenger</a></em></span> (vermin), <span class="emphasis"><em><a href="ch43.html#SpellsA-B13">animal shapes</a></em></span> (vermin), <span class="emphasis"><em><a href="ch43.html#SpellsA-B14">animal trance</a></em></span> (vermin), <span class="emphasis"><em>colossal vermin</em></span> (as <span class="emphasis"><em><a href="ch46.html#SpellsF-G42">giant vermin</a></em></span>, but it can increase the creature's size from Large to Gargantuan and from Huge to Colossal), <span class="emphasis"><em><a href="ch44.html#SpellsC51">creeping doom</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G42">giant vermin</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS95">summon swarm</a></em></span> (vermin), <span class="emphasis"><em>summon vermin</em></span> (as <span class="emphasis"><em>summon nature's ally</em></span>, <span class="emphasis"><em/></span> except it summons 10 HD of vermin per level), and <span class="emphasis"><em>vermin plague</em></span> (as <span class="emphasis"><em><a href="ch47.html#SpellsH-L49">insect plague</a></em></span>). Caster level 20th.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458671"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)275"/>
+          <p><span class="strong"><strong>Special Qualities:</strong></span> A worm that walks retains any special abilities it had in life and gains those mentioned below.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458701"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)276"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Blindsight (Ex):</em></span></strong></span> Worms that walk have blindsight 300 ft.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458732"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)277"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Spell Resistance (Ex):</em></span></strong></span> A worm that walks has spell resistance equal to its Challenge Rating +10.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458763"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)278"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Frightful Presence (Su):</em></span></strong></span> When a worm that walks engulfs a victim, witnesses must make a Will save (DC 10 + 1/2 the worm's HD + the worm's Cha modifier). Those who make the save are shaken. Those who fail by 5 or fewer points are frightened. Those who fail by 6 to 10 points are panicked. Those who fail by 11 or more points are cowering. All these conditions last for 1d4 rounds. Those who have seen a worm use this attack before gain a +5 bonus on their saving throws. The victim of the worm's engulf attack has a -5 penalty on his or her saving throw.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458802"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)279"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Discorporate (Ex):</em></span></strong></span> If gravely threatened, a worm can discorporate as a free action, simply falling into a pile of individual vermin that slither quickly away. So long as any of the component vermin survive, they can breed and create a new body to house the wizard's intelligence and personality. Discorporating is a dangerous tactic, because once separated, the vermin are treated no differently than other vermin. Also, the worm stands a good chance of losing all its equipment. However, discorporation almost assures that at least one maggot (if not dozens) will manage to crawl away, and so provide for the worm's continued existence.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458842"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)280"/>
+          <p><span class="strong"><strong>Immunities (Ex):</strong></span> A worm that walks has no discernable anatomy, so it is not subject to critical hits or flanking.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458872"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)281"/>
+          <p><span class="strong"><strong>Saves:</strong></span> Same as the character.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458901"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)282"/>
+          <p><span class="strong"><strong>Abilities:</strong></span> Same as the character.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458929"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)283"/>
+          <p><span class="strong"><strong>Skills:</strong></span> Same as the character, except that a worm that walks receives a +20 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a>, Intuit Direction, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2458988"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)284"/>
+          <p><span class="strong"><strong>Feats:</strong></span> Same as the character.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459017"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)285"/>
+          <p><span class="strong"><strong>Epic Feats:</strong></span> Same as the character.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459045"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)286"/>
+          <p><span class="strong"><strong>Environment:</strong></span> Any.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459074"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)287"/>
+          <p><span class="strong"><strong>Organization:</strong></span> Solitary, occasionally with minions or master.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459102"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)288"/>
+          <p><span class="strong"><strong>Challenge Rating:</strong></span> Same as the character + 3.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459132"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)289"/>
+          <p><span class="strong"><strong>Treasure:</strong></span> Same as the character.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459160"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)290"/>
+          <p><span class="strong"><strong>Alignment:</strong></span> Any evil.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2459189"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)291"/>
+          <p><span class="strong"><strong>Advancement:</strong></span> By character class.</p>
+          <p/>
+        </div>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id2459218"/>Worm that Walks Characters</h4>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch76s32.html#id2459301">Gathering of Maggots</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)292"/>
+          <p>By making eldritch preparations on a burial plot, a powerful spellcaster can improve the likelihood of a worm that walks emerging from the ground. The body is buried in an elaborate ritual that, the spellcaster hopes, will attract a critical mass of worms or maggots. The spellcaster performing the ritual must spend 10,000 gp in rare reagents for the ceremony. Furthermore, the ritual drains 2,000 XP from the spell-caster and requires the following spells: <span class="emphasis"><em><a href="ch47.html#SpellsH-L69">limited wish</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R22">polymorph any object</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS95">summon swarm</a></em></span> (heightened to 7th level), and <span class="emphasis"><em><a href="ch50.html#SpellsS107">sympathy</a></em></span>. Even if the ritual is performed correctly, there is only a chance that the deceased spellcaster will arise as a worm that walks. For each prepared but uncast arcane spell the deceased had at the moment of death (or unused spell slots if a spontaneous caster), there's a 1% chance that a worm that walks will slither from the grave soil in 1d4 days. Some worms that walk arise spontaneously from ordinary burial plots, but such an event is exceedingly rare. And an epic spell can create worms that walk every time without fail.</p>
+          <p/>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2459301"/>Gathering of Maggots</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">spell</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)293"/>
+            <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2459320">
+              <tbody>
+                <tr>
+                  <td width="25%"/>
+                  <td>
+                    <p><a href="ch40s02.html#MagicOverview33">Conjuration</a> (<a href="ch40s02.html#MagicOverview36">Healing</a>)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong>Spellcraft DC:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>49</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong><a href="ch40s02.html#MagicOverview56">Components</a>:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>V, S, D F</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong><a href="ch40s02.html#MagicOverview63">Casting Time</a>:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>7 days</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong><a href="ch40s02.html#MagicOverview73">Target</a>:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>Dead creature touched</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong><a href="ch40s02.html#MagicOverview77">Duration</a>:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <a href="ch40s02.html#MagicOverview80">Permanent</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong><a href="ch40s02.html#MagicOverview85">Saving Throw</a>:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>Fortitude negates (harmless)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong><a href="ch40s02.html#MagicOverview96">Spell Resistance</a>:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>Yes (harmless)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="25%">
+                    <p>
+                      <span class="strong">
+                        <strong>To Develop:</strong>
+                      </span>
+                    </p>
+                  </td>
+                  <td>
+                    <p>441,000 gp; 9 days; 17,640 XP. Seeds: life (DC 27), transform (DC 21). Factors: change creature type to aberration (+5 DC); add worm that walks' spell-like, extraordinary, and <a href="ch40s05.html#MagicOverview135">supernatural abilities</a> (+40 DC). Mitigating factors: increase <a href="ch40s02.html#MagicOverview63">casting time</a> by 10 minutes (-20 DC); increase <a href="ch40s02.html#MagicOverview63">casting time</a> by 7 days (-14 DC).</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>When this spell is cast, worms or maggots slither and crawl their way inexorably toward the corpse touched. Over the course of the next week, they consume the flesh of the corpse, and when the last bit of the corpse is devoured, the creature is returned to a semblance of life as a worm that walks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s31.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Winterwight </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Psionic Monsters</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

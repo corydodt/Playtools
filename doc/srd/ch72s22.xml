@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Yrthak</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s21.html" title="Yeth Hound"/>
+    <link rel="next" href="ch72s23.html" title="Zombie"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Yrthak</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s21.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s23.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2248507"/>Yrthak</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s22.html#id2249368">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z159"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2248525">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Yrthak</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d10+36 (102 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 60 ft. (average)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-2 size, +2 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/+25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +15 melee (2d8+5) or sonic lance +12 ranged <a href="ch21s02.html#CombatI12">touch</a> (6d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +15 melee (2d8+5) and 2 claws +13 melee (1d6+2); or sonic lance +12 ranged <a href="ch21s02.html#CombatI12">touch</a> (6d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Sonic lance, explosion</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 120 ft., immunities, vulnerability to sonic</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +11, Ref +10, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 20, Dex 14, Con 17, Int 7, Wis 13, Cha 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +12, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch20.html#MonsterFeats45">Snatch</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate mountains</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or clutch (2-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Often <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>13-16 HD (<a href="ch22.html#CombatII28">Huge</a>); 17-36 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch72s22.html#MonstersT-Z159">yrthak</a> is blind. It senses sound and movement by means of a special organ on its long tongue. It emits powerfully focused beams of sound from the protrusion on its head. The creature is a yellowish-green color, with the wings and fin being more yellow and the head and body more green. The teeth are yellow.<a href="img/MonstersT-Z.Yrthak.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Yrthak.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch72s22.html#MonstersT-Z159">yrthak</a> is about 20 feet long, with a wingspan of 40 feet. It weighs about 5,000 pounds.</p>
+      <p>Despite their intelligence, <a href="ch72s22.html#MonstersT-Z159">yrthaks</a> do not speak.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2249368"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z160"/>
+        <p>A <a href="ch72s22.html#MonstersT-Z159">yrthak</a> prefers to attack from the air, strafing the ground with sonic attacks or snatching up and dropping prey.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249400"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z161"/>
+          <p><span class="strong"><strong>Sonic Lance (Su):</strong></span> Once every 2 rounds, a <a href="ch72s22.html#MonstersT-Z159">yrthak</a> can focus sonic energy in a ray up to 60 feet long. This is a ranged touch attack that deals 6d6 points of damage to a single target.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249440"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z162"/>
+          <p><span class="strong"><strong>Explosion (Su):</strong></span> A <a href="ch72s22.html#MonstersT-Z159">yrthak</a> can fire its sonic lance at the ground, a large rock, a stone wall, or the like to create an explosion of shattered stone. This attack deals 2d6 points of piercing damage to all within 10 feet of the effect's center. This counts as a use of the sonic lance attack and thus is usable only once every 2 rounds, and never on the round following a sonic lance attack.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249477"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z163"/>
+          <p><span class="strong"><strong>Blindsight (Ex):</strong></span> A <a href="ch72s22.html#MonstersT-Z159">yrthak</a> can ascertain all foes within 120 feet. Beyond that range it is considered blinded. <a href="ch72s22.html#MonstersT-Z159">Yrthaks</a> are invulnerable to gaze attacks, visual effects of spells such as illusions, and other attack forms that rely on sight. A <a href="ch72s22.html#MonstersT-Z159">yrthak</a> whose sense of hearing is impaired is effectively blinded, treating all targets as having total concealment.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249539"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z164"/>
+          <p><span class="strong"><strong>Immunities:</strong></span> <a href="ch72s22.html#MonstersT-Z159">Yrthaks</a> have immunity to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2249578"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z165"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch72s22.html#MonstersT-Z159">Yrthaks</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s21.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s23.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Yeth Hound </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Zombie</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

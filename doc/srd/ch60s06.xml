@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Animated Object</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch60.html" title="Monsters (Intro-A)"/>
+    <link rel="prev" href="ch60s05.html" title="Angel"/>
+    <link rel="next" href="ch60s07.html" title="Ankheg"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Animated Object</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch60s05.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Intro-A)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch60s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1623639"/>Animated Object</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch60s06.html#id1626594">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersIntro-A66"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1623658">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Animated Object, Tiny</strong></span></p></td>
+<td><p><span class="strong"><strong>Animated Object, Small</strong></span></p></td>
+<td><p><span class="strong"><strong>Animated Object, Medium</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>1/2 d10 (2 hp)</p></td>
+<td><p>1d10+10 (15 hp)</p></td>
+<td><p>2d10+20 (31 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares); 50 ft. legs, 60 ft. multiple legs; 80 ft. wheels</p></td>
+<td><p>30 ft. (6 squares); 40 ft. legs, 50 ft. multiple legs, 70 ft. wheels</p></td>
+<td><p>30 ft. (6 squares); 40 ft. legs, 50 ft. multiple legs, 70 ft. wheels</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+2 size, +2 Dex), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+<td><p>14 (+1 size, +1 Dex, +2 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+<td><p>14 (+4 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+0/-9</p></td>
+<td><p>+0/-4</p></td>
+<td><p>+1/+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +1 melee (1d3-1)</p></td>
+<td><p>Slam +1 melee (1d4)</p></td>
+<td><p>Slam +2 melee (1d6+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +1 melee (1d3-1)</p></td>
+<td><p>Slam +1 melee (1d4)</p></td>
+<td><p>Slam +2 melee (1d6+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>2-1/2 ft./0 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>See text</p></td>
+<td><p>See text</p></td>
+<td><p>See text</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +2, Will -5</p></td>
+<td><p>Fort +0, Ref +1, Will -5</p></td>
+<td><p>Fort +0, Ref +0, Will -5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 8, Dex 14, Con -, Int -, Wis 1, Cha 1</p></td>
+<td><p>Str 10, Dex 12, Con -, Int -, Wis 1, Cha 1</p></td>
+<td><p>Str 12, Dex 10, Con -, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Group (4)</p></td>
+<td><p>Pair</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1/2</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1624812">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Animated Object, Large</strong></span></p></td>
+<td><p><span class="strong"><strong>Animated Object, Huge</strong></span></p></td>
+<td><p><span class="strong"><strong>Animated Object, Gargantuan</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d10+30 (52 hp)</p></td>
+<td><p>8d10+40 (84 hp)</p></td>
+<td><p>16d10+60 (148 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>-1</p></td>
+<td><p>-2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares); 30 ft. legs, 40 ft. multiple legs, 60 ft. wheels</p></td>
+<td><p>20 ft. (4 squares); 30 ft. legs, 40 ft. multiple legs, 60 ft. wheels</p></td>
+<td><p>10 ft. (2 squares); 20 ft. legs, 30 ft. multiple legs, 50 ft. wheels</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (-1 size, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+<td><p>13 (-2 size, -1 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 7, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+<td><p>12 (-4 size, -2 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 4, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+10</p></td>
+<td><p>+6/+19</p></td>
+<td><p>+12/+31</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d8+4)</p></td>
+<td><p>Slam +9 melee (2d6+7)</p></td>
+<td><p>Slam +15 melee (2d8+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d8+4)</p></td>
+<td><p>Slam +9 melee (2d6+7)</p></td>
+<td><p>Slam +15 melee (2d8+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span> </p></td>
+<td><p>10 ft./5 ft. (long)</p>
+<p>10 ft./10 ft. (tall)</p></td> <td><p>15 ft./10 ft. (long)</p>
+<p>15 ft./15 ft. (tall)</p></td> <td><p>20 ft./15 ft. (long)</p>
+<p>20 ft./20 ft. (tall)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>See text</p></td>
+<td><p>See text</p></td>
+<td><p>See text</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+
+</tr>
+          <tr><td><p>Saves:</p></td>
+<td><p>Fort +1, Ref +1, Will -4</p></td>
+<td><p>Fort +2, Ref +1, Will -3</p></td>
+<td><p>Fort +5, Ref +3, Will +0</p></td>
+
+</tr>
+          <tr><td><p>Abilities:</p></td>
+<td><p>Str 16, Dex 10, Con -, Int -, Wis 1, Cha 1</p></td>
+<td><p>Str 20, Dex 8, Con -, Int -, Wis 1, Cha 1</p></td>
+<td><p>Str 24, Dex 6, Con -, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+          <tr><td><p>Skills:</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p>Feats:</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p>Environment:</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p>Organization:</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p>Challenge Rating:</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+
+</tr>
+          <tr><td><p>Treasure:</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><a href="ch02.html#Description2">Alignment</a>:</p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p>Advancement:</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p>Level Adjustment:</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1625792">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Animated Object, Colossal</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>32d10+80 (256 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares); 20 ft. legs, 30 ft. multiple legs, 50 ft. wheels</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>11 (-8 size, -3 Dex, +12 natural), <a href="ch21s02.html#CombatI12">touch</a> -1, <a href="ch21s03.html#CombatI21">flat-footed</a> 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+24/+49</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +25 melee (4d6+13)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +25 melee (4d6+13)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./20 ft. (long) 30 ft./30 ft. (tall)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>See text</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities18">Construct</a> traits, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>; also see text</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +10, Ref +7, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 28, Dex 4, Con -, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch60s06.html#MonstersIntro-A66">Animated objects</a> come in all sizes, shapes, and colors. They owe their existence as creatures to spells such as <span class="emphasis"><em><a href="ch43.html#SpellsA-B16">animate objects</a></em></span> or similar supernatural abilities.<a href="img/MonstersIntro-A.Animated_Object.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersIntro-A.Animated_Object.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1626594"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersIntro-A67"/>
+        <p><a href="ch60s06.html#MonstersIntro-A66">Animated objects</a> fight only as directed by the animator. They follow orders without question and to the best of their abilities. Since they do not need to breathe and never tire, they can be extremely capable minions.</p>
+        <p>An <a href="ch60s06.html#MonstersIntro-A66">animated object</a> can have one or more of the following special abilities, depending on its form.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1626641"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A68"/>
+          <p><span class="strong"><strong>Blind (Ex):</strong></span> A sheetlike <a href="ch60s06.html#MonstersIntro-A66">animated object</a> such as a carpet or tapestry can grapple an opponent up to three sizes larger than itself. The object makes a normal grapple check. If it wins, it wraps itself around the opponent's head, causing that creature to be blinded until removed.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1626683"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A69"/>
+          <p><span class="strong"><strong>Constrict (Ex):</strong></span> A flexible <a href="ch60s06.html#MonstersIntro-A66">animated object</a> such as a rope, vine, or rug deals damage equal to its slam damage value plus 1- 1/2 times its Strength bonus with a successful grapple check against a creature up to one size larger than itself.</p>
+          <p>An object of at least Large size can make constriction attacks against multiple creatures at once, if they all are at least two sizes smaller than the object and can fit under it.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1626726"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A70"/>
+          <p><span class="strong"><strong>Hardness (Ex):</strong></span> An <a href="ch60s06.html#MonstersIntro-A66">animated object</a> has the same hardness it had before it was animated.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1626765"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A71"/>
+          <p><span class="strong"><strong>Improved Speed (Ex):</strong></span> The base land speed given in the statistics block assume that an <a href="ch60s06.html#MonstersIntro-A66">animated object</a> lurches, rocks, or slithers along.</p>
+          <p>Objects with two legs (statues, ladders) or a similar shape that allows faster movement have a +10 foot bonus to speed. Objects with multiple legs (tables, chairs) have a +20 foot bonus to speed. Wheeled objects have a +40 foot bonus to speed.</p>
+          <p>Objects might have additional modes of movement. A wooden object can float and has a swim speed equal to half its land speed. A rope or similar sinuous object has a climb speed equal to half its land speed. A sheetlike object can fly (clumsy maneuverability) at half its normal speed.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1626810"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A72"/>
+          <p><span class="strong"><strong>Trample (Ex):</strong></span> An <a href="ch60s06.html#MonstersIntro-A66">animated object</a> of at least Large size and with a hardness of at least 10 can trample creatures two or more sizes smaller than itself, dealing damage equal to the object's slam damage + 1-1/2 times its Strength bonus. Opponents who do not make attacks of opportunity against the object can attempt Reflex saves (DC 10 + 1/2 object's HD + object's Str modifier) to halve the damage.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch60s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch60.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch60s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Angel </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Ankheg</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Thought Slayer</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s25.html" title="Thought Eater"/>
+    <link rel="next" href="ch77s27.html" title="Udoroot"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Thought Slayer</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s25.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s27.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2493655"/>Thought Slayer</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s26.html#id2494733">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters211"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2493673">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Thought Slayer</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a> (Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>14d8+70 (133 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>23 (-2 size, +1 Dex, +14 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/+26</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +17 melee (3d6+12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +17 melee (3d6+12)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Mind-consuming <a href="ch04.html#TypesSubtypesAbilities32">gaze</a>, psi-like abilities</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., ethereal jaunt, power resistance 21</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +11, Ref +5, Will +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 26, Dex 13, Con 21, Int 7, Wis 12, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +12, <a href="ch16s03.html#CombinedSkills192">Jump</a> +20, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Ethereal Plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pack (2-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Often <a href="ch02s02.html#Description11">chaotic neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>15-28 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch77s26.html#PsionicMonsters211">Thought slayers</a> do not speak.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2494733"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters212"/>
+        <p>A <a href="ch77s26.html#PsionicMonsters211">thought slayer</a> can spend a maximum of 10 continuous minutes on the Material Plane before its wispy flesh finally dissipates and it falls dead. If badly wounded, it escapes to the Ethereal Plane rather than continuing the fight.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2494767"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters213"/>
+          <p><span class="strong"><strong>Mind-Consuming Gaze (Su):</strong></span> Instantly kill (by draining the mind away), range 30 feet, Fortitude DC 19 negates. The save DC is Charisma-based. This is considered a mind-affecting death effect. If a <a href="ch77s26.html#PsionicMonsters211">thought slayer's</a> gaze is met indirectly (such as through a mirror or a reflection in water), the opponent does not die on a failed save but instead is dazed for 14 rounds. This otherwise is a gaze effect<span class="emphasis"><em/></span>.</p>
+          <p>The gaze cannot affect creatures on the Material Plane while the <a href="ch77s26.html#PsionicMonsters211">thought slayer</a> remains ethereal, but it can affect ethereal creatures while the <a href="ch77s26.html#PsionicMonsters211">thought slayer</a> is on the Material Plane.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2494836"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters214"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C41">brain lock</a></em></span> (any nonmindless, DC 14*), <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C53">chameleon</a></em></span>, <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F18">detect psionics</a></em></span>, <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F45">distract</a></em></span> (DC 13); 3/day-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C34">body adjustment</a></em></span> (5d12*), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P39">mental barrier</a></em></span> (+6 AC, 2 rounds*)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P63">mind trap</a></em></span> (10 rounds*), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P93">precognition</a></em></span>, <span class="emphasis"><em><a href="ch59.html#PsionicPowersQ-W87">wall walker</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F106">escape detection</a></em></span>. Manifester level 14th. The save DCs are Charisma-based.</p>
+          <p>*Includes augmentation for the <a href="ch77s26.html#PsionicMonsters211">thought slayer's</a> manifester level.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2494992"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters215"/>
+          <p><span class="strong"><strong>Ethereal Jaunt (Su):</strong></span> A <a href="ch77s26.html#PsionicMonsters211">thought slayer</a> can shift from the Ethereal Plane to the Material Plane as part of any move action, and then shift back again as a free action. The ability is otherwise identical to the <span class="emphasis"><em>psionic <a href="ch45.html#SpellsD-E70">ethereal jaunt</a></em></span> power.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s25.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s27.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Thought Eater </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Udoroot</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

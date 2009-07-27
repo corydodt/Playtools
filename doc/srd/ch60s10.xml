@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Arrowhawk</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch60.html" title="Monsters (Intro-A)"/>
+    <link rel="prev" href="ch60s09.html" title="Archon"/>
+    <link rel="next" href="ch60s11.html" title="Assassin Vine"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Arrowhawk</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch60s09.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Intro-A)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch60s11.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1637632"/>Arrowhawk</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch60s10.html#id1639569">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersIntro-A114"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1637651">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Juvenile Arrowhawk</strong></span></p></td>
+<td><p><span class="strong"><strong>Adult Arrowhawk</strong></span></p></td>
+<td><p><span class="strong"><strong>Elder Arrowhawk</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+3 (16 hp)</p></td>
+<td><p>7d8+7 (38 hp)</p></td>
+<td><p>15d8+45 (112 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+<td><p>+5</p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>Fly 60 ft. (perfect) (12 squares)</p></td>
+<td><p>Fly 60 ft. (perfect) (12 squares)</p></td>
+<td><p>Fly 60 ft. (perfect) (12 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (+1 size, +5 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 15</p></td>
+<td><p>21 (+5 Dex, +6 natural), <a href="ch21s02.html#CombatI12">touch</a> 15, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>22 (-1 size, +5 Dex, +8 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+0</p></td>
+<td><p>+7/+9</p></td>
+<td><p>+15/+25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +9 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d6) or bite +9 melee (1d6+1)</p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +12 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d8) or bite +12 melee (1d8+3)</p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +19 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d8) or bite +21 melee (2d6+9)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +9 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d6) or bite +9 melee (1d6+1)</p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +12 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d8) or bite +12 melee (1d8+3)</p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +19 ranged <a href="ch21s02.html#CombatI12">touch</a> (2d8) or bite +20 melee (2d6+9)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a></p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a></p></td>
+<td><p>Electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to acid, electricity, and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10</p></td>
+<td><p>Darkvision 60 ft., immunity to acid, electricity, and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10</p></td>
+<td><p>Darkvision 60 ft., immunity to acid, electricity, and <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +8, Will +4</p></td>
+<td><p>Fort +6, Ref +10, Will +6</p></td>
+<td><p>Fort +12, Ref +14, Will +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 12, Dex 21, Con 12, Int 10, Wis 13, Cha 13</p></td>
+<td><p>Str 14, Dex 21, Con 12, Int 10, Wis 13, Cha 13</p></td>
+<td><p>Str 22, Dex 21, Con 16, Int 10, Wis 13, Cha 13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +11, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +11, <a href="ch16s03.html#CombinedSkills253">Search</a> +6, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills303">Survival</a> +7 (+9 following tracks, +9 Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a>), <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +5 (+7 with bindings)</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +15, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +15, <a href="ch16s03.html#CombinedSkills253">Search</a> +10, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11, <a href="ch16s03.html#CombinedSkills303">Survival</a> +11 (+13 following tracks, +13 Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a>), <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +5 (+7 with bindings)</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +3, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +23, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +18, <a href="ch16s03.html#CombinedSkills204">Listen</a> +21, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +23, <a href="ch16s03.html#CombinedSkills253">Search</a> +18, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +19, <a href="ch16s03.html#CombinedSkills294">Spot</a> +21, <a href="ch16s03.html#CombinedSkills303">Survival</a> +19 (+21 following tracks, +21 Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a>), <a href="ch16s03.html#CombinedSkills343">Use Rope</a> +5 (+7 involving bindings)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)B</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a></strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities5">Air</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or clutch (2-4)</p></td>
+<td><p>Solitary or clutch (2-4)</p></td>
+<td><p>Solitary or clutch (2-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>8-14 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>16-24 HD (<a href="ch22.html#CombatII28">Large</a>); 25-32 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>An <a href="ch60s10.html#MonstersIntro-A114">arrowhawk</a> is a predator and scavenger from the <a href="ch65s02.html#MonstersE-F7">Elemental</a> Plane of Air.  By twisting its body and varying the cadence of its wingbeats, an <a href="ch60s10.html#MonstersIntro-A114">arrowhawk</a> can fly at top speed in any direction. A juvenile <a href="ch60s10.html#MonstersIntro-A114">arrowhawk</a> (1 to 10 years old) is about 5 feet long from beak to tail, with the body accounting for about one-third of that length. Its wingspan is about 7 feet, and it weighs about 20 pounds. An adult (11 to 40 years old) is about 10 feet long from beak to tail, with a wingspan of about 15 feet and a weight of about 100 pounds. An elder <a href="ch60s10.html#MonstersIntro-A114">arrowhawk</a> (41 to 75 years old) is about 20 feet long with a wingspan of 30 feet and a weight of about 800 pounds.<a href="img/MonstersIntro-A.Arrowhawk.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersIntro-A.Arrowhawk.jpg" align="right"/></span></a></p>
+      <p><a href="ch60s10.html#MonstersIntro-A114">Arrowhawks</a> speak Auran, but they are not usually talkative creatures.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1639569"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersIntro-A115"/>
+        <p><a href="ch60s10.html#MonstersIntro-A114">Arrowhawks</a> are extremely territorial and always hungry. They attack almost any other creature they meet, seeking a meal or trying to drive away a rival. The primary mode of attack is an electricity ray, fired from the tail. The creature also bites, but it prefers to stay out of reach.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1639603"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A116"/>
+          <p><span class="strong"><strong>Electricity Ray (Su):</strong></span> An <a href="ch60s10.html#MonstersIntro-A114">arrowhawk</a> can fire this ray once per round, with a range of 50 feet.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch60s09.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch60.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch60s11.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Archon </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Assassin Vine</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

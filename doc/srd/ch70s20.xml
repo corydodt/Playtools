@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Roper</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s19.html" title="Roc"/>
+    <link rel="next" href="ch70s21.html" title="Rust Monster"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Roper</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s19.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s21.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2146444"/>Roper</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch70s20.html#id2147895">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R140"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2146462">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Roper</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d10+30 (85 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>24 (-1 size, +1 Dex, +14 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+10/+18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Strand +11 ranged <a href="ch21s02.html#CombatI12">touch</a> (drag) or bite +13 melee (2d6+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>6 strands +11 ranged <a href="ch21s02.html#CombatI12">touch</a> (drag) and bite +13 melee (2d6+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft. (50 ft. with strand)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Drag, strands, weakness</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immunity to electricity, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 30, vulnerability to <a href="ch04.html#TypesSubtypesAbilities29">fire</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +10, Ref +8, Will +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 19, Dex 13, Con 17, Int 12, Wis 16, Cha 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +12, <a href="ch16s03.html#CombinedSkills179">Hide</a> +10*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (strand)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or cluster (3-6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>No coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a> (stone only); no items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>11-15 HD (<a href="ch22.html#CombatII28">Large</a>); 16-30 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch70s20.html#MonstersO-R140">roper</a> stands some 9 feet tall and tapers from 3 or 4 feet in diameter at the base to 1 foot across at the top. It weighs 2,200 pounds. A <a href="ch70s20.html#MonstersO-R140">roper's</a> coloration and temperature change to match the features of the surrounding cave.<a href="img/MonstersO-R.Roper.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Roper.jpg" align="right"/></span></a></p>
+      <p><a href="ch70s20.html#MonstersO-R140">Ropers</a> speak Terran and Undercommon.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2147895"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R141"/>
+        <p>A <a href="ch70s20.html#MonstersO-R140">roper</a> hunts by standing very still and imitating a bit of rock. This tactic often allows it to attack with surprise. When prey comes within reach, it lashes out with its strands. In melee, it bites adjacent opponents with its powerful maw.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2147930"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R142"/>
+          <p><span class="strong"><strong>Drag (Ex):</strong></span> If a <a href="ch70s20.html#MonstersO-R140">roper</a> hits with a strand attack, the strand latches onto the opponent's body. This deals no damage but drags the stuck opponent 10 feet closer each subsequent round (provoking no attack of opportunity) unless that creature breaks free, which requires a DC 23 <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> check or a DC 19 Strength check. The check DCs are Strength-based, and the <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> DC includes a +4 racial bonus. A <a href="ch70s20.html#MonstersO-R140">roper</a> can draw in a creature within 10 feet of itself and bite with a +4 attack bonus in the same round. A strand has 10 hit points and can be attacked by making a successful sunder attempt. However, attacking a <a href="ch70s20.html#MonstersO-R140">roper's</a> strand does not provoke an attack of opportunity. If the strand is currently attached to a target, the <a href="ch70s20.html#MonstersO-R140">roper</a> takes a -4 penalty on its opposed attack roll to resist the sunder attempt. Severing a strand deals no damage to a <a href="ch70s20.html#MonstersO-R140">roper</a>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2148037"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R143"/>
+          <p><span class="strong"><strong>Strands (Ex):</strong></span> Most encounters with a <a href="ch70s20.html#MonstersO-R140">roper</a> begin when it fires strong, sticky strands. The creature can have up to six strands at once, and they can strike up to 50 feet away (no range increment). If a strand is severed, the <a href="ch70s20.html#MonstersO-R140">roper</a> can extrude a new one on its next turn as a free action.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2148088"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R144"/>
+          <p><span class="strong"><strong>Weakness (Ex):</strong></span> A <a href="ch70s20.html#MonstersO-R140">roper's</a> strands can sap an opponent's strength. Anyone grabbed by a strand must succeed on a DC 18 Fortitude save or take 2d8 points of Strength damage. The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2148128"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R145"/>
+          <p><span class="strong"><strong>Skills:</strong></span> *<a href="ch70s20.html#MonstersO-R140">Ropers</a> have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks in stony or icy areas.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s19.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s21.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Roc </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Rust Monster</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

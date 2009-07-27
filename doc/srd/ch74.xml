@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (Vermin)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch73s48.html" title="Wolverine"/>
+    <link rel="next" href="ch74s02.html" title="Giant Bee"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (Vermin)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch73s48.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch74s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1219297"/>Monsters (Vermin)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch74.html#id1780631">Giant Ant</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s02.html">Giant Bee</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s03.html">Giant Bombardier Beetle</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s04.html">Giant Fire Beetle</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s05.html">Giant Stag Beetle</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s06.html">Giant Praying Mantis</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s07.html">Giant Wasp</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s08.html">Monstrous Centipede</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s09.html">Monstrous Scorpion</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch74s10.html">Monstrous Spider</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersVermin1"/>
+      <p>These creatures operate on instinct, driven by simple needs such as food and reproduction. Except where noted, vermin attack only when hungry or threatened.</p>
+      <div class="simplesect" lang="en">
+        <div class="titlepage"/>
+        <a name="id1752962"/>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">other</div>
+        </div>
+        <a class="indexterm" name="MonstersVermin2"/>
+        <p><span class="strong"><strong>Vermin Traits:</strong></span> Vermin possess the following traits (unless otherwise noted in a creature's entry).</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Mindless: No Intelligence score, and immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Darkvision out to 60 feet.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-<span class="emphasis"><em>Alignment:</em></span> Always neutral. Vermin are not governed by a human sense of morality.</p>
+        <p>-<span class="emphasis"><em>Treasure:</em></span> Vermin generally possess no treasure. For those that do, this treasure consists of possessions formerly owned by a creature that the monster has killed.</p>
+        <p/>
+      </div>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id1780631"/>Giant Ant</h2>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersVermin3"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1181929">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Giant Ant, <a href="ch65s09.html#MonstersE-F74">Worker</a></strong></span></p></td>
+<td><p><span class="strong"><strong>Giant Ant, Soldier</strong></span></p></td>
+<td><p><span class="strong"><strong>Giant Ant, <a href="ch65s09.html#MonstersE-F90">Queen</a></strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8 (9 hp)</p></td>
+<td><p>2d8+2 (11 hp)</p></td>
+<td><p>4d8+4 (22 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+<td><p>-1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft. (10 squares), climb 20 ft.</p></td>
+<td><p>50 ft. (10 squares), climb 20 ft.</p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>17 (+7 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+<td><p>17 (-1 size, -1 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+1</p></td>
+<td><p>+1/+3</p></td>
+<td><p>+3/+10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +1 melee (1d6)</p></td>
+<td><p>Bite +3 melee (2d4+3)</p></td>
+<td><p>Bite +5 melee (2d6+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +1 melee (1d6)</p></td>
+<td><p>Bite +3 melee (2d4+3)</p></td>
+<td><p>Bite +5 melee (2d6+4)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, acid sting</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities61">Scent</a>, <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities61">Scent</a>, <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities61">Scent</a>, <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +0, Will +0</p></td>
+<td><p>Fort +4, Ref +0, Will +1</p></td>
+<td><p>Fort +5, Ref +0, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 10, Con 10, Int -, Wis 11, Cha 9</p></td>
+<td><p>Str 14, Dex 10, Con 13, Int -, Wis 13, Cha 11</p></td>
+<td><p>Str 16, Dex 9, Con 13, Int -, Wis 13, Cha 11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +8</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +10</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+<td><p><a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+<td><p>Temperate plains</p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Gang (2-6) or crew (6-11 plus 1 <a href="ch04.html#TypesSubtypesAbilities33">giant</a> ant soldier)</p></td>
+<td><p>Solitary or gang (2-4)</p></td>
+<td><p>Hive (1 plus 10-100 workers and 5-20 soldiers)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>1/10 coins; 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; 50% items</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3-4 HD (<a href="ch22.html#CombatII28">Medium</a>); 5-6 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>3-4 HD (<a href="ch22.html#CombatII28">Medium</a>); 5-6 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>5-6 HD (<a href="ch22.html#CombatII28">Large</a>); 7-8 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch74.html#MonstersVermin3">Giant ants</a> are among the hardiest and most adaptable vermin. Soldiers and workers are about 6 feet long, while queens can grow to a length of 9 feet.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1612932"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersVermin4"/>
+          <p><span class="strong"><strong>Acid Sting (Ex):</strong></span> A <a href="ch66s06.html#MonstersG67">giant</a> soldier ant has a stinger and an acid-producing gland in its abdomen. If it successfully grabs an opponent, it can attempt to sting each round (+3 attack bonus). A hit with the sting attack deals 1d4+1 points of piercing damage and 1d4 points of acid damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1828096"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersVermin5"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch74.html#MonstersVermin3">giant ant</a> must hit with its bite attack. A <a href="ch66s06.html#MonstersG67">giant</a> soldier ant that wins the ensuing grapple check establishes a hold and can sting.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2030488"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersVermin6"/>
+          <p><span class="strong"><strong>Skills:</strong></span> *<a href="ch74.html#MonstersVermin3">Giant ants</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills303">Survival</a> checks when tracking by scent and a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks. A <a href="ch74.html#MonstersVermin3">giant ant</a> can always choose to take 10 on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, even if rushed or threatened.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch73s48.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch74s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Wolverine </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Giant Bee</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

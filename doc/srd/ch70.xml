@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Monsters (O-R)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch69s14.html" title="Nymph"/>
+    <link rel="next" href="ch70s02.html" title="Ogre Mage"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Monsters (O-R)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch69s14.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1721954"/>Monsters (O-R)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch70.html#id1978248">Ogre</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70.html#id2028962">Ogre Barbarian</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70.html#id2029338">Merrow</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70.html#id2029456">Ogres as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s02.html">Ogre Mage</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s02.html#id2038009">Ogre Mages as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s03.html">Ooze</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s03.html#id2042844">Black Pudding</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect3">
+                      <a href="ch70s03.html#id2047519">Elder Black Pudding</a>
+                    </span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="sect4">
+                          <a href="ch70s03.html#id2048574">Combat</a>
+                        </span>
+                      </dt>
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s03.html#id2048611">Gelatinous Cube</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s03.html#id2051197">Gray Ooze</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s03.html#id2117575">Ochre Jelly</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s04.html">Orc</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s04.html#id2121871">Orcs as Characters</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s04.html#id2122061">Half-Orcs</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s05.html">Otyugh</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s06.html">Owl, Giant</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s06.html#id2125702">Training A Giant Owl</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s07.html">Owlbear</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s08.html">Pegasus</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s08.html#id2128641">Training A Pegasus</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s09.html">Phantom Fungus</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s10.html">Phase Spider</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s11.html">Phasm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s12.html">Planetouched</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s12.html#id2132640">Aasimar</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s12.html#id2134237">Tiefling</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s13.html">Pseudodragon</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s14.html">Purple Worm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s15.html">Rakshasa</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch70s15.html#id2140416">Rakshasas as Characters</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s16.html">Rast</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s17.html">Ravid</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s18.html">Remorhaz</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s19.html">Roc</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s20.html">Roper</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch70s21.html">Rust Monster</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="MonstersO-R1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id1978248"/>Ogre</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70.html#id2028920">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch70.html#id2028962">Ogre Barbarian</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch70.html#id2029338">Merrow</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch70.html#id2029456">Ogres as Characters</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R2"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1978264">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Ogre</strong></span></p></td>
+<td><p><span class="strong"><strong>Ogre, 4th-Level Barbarian</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8+11 (29 hp)</p></td>
+<td><p>4d8+19 plus 4d12+16 (79 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+<td><p>+0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. in hide armor (6 squares); base <a href="ch21s02.html#CombatI14">speed</a> 40 ft.</p></td>
+<td><p>40 ft. in hide armor (8 squares); base <a href="ch21s02.html#CombatI14">speed</a> 50 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 size, -1 Dex, +5 natural, +3 hide armor), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>19 (-1 size, +5 natural, +4 <span class="emphasis"><em>+1 hide armor</em></span>,  <span class="emphasis"><em>ring of protection +1</em></span>), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+12</p></td>
+<td><p>+7/+19</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Greatclub +8 melee (2d8+7) or javelin +1 ranged (1d8+5)</p></td>
+<td><p><span class="emphasis"><em>+1 greatclub</em></span> +16 melee (2d8+13) or javelin +6 ranged (1d8+8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Greatclub +8 melee (2d8+7) or javelin +1 ranged (1d8+5)</p></td>
+<td><p><span class="emphasis"><em>+1 greatclub</em></span> +16/+11 melee (2d8+13) or javelin +6 ranged (1d8+8)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Rage 2/day</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, trap sense +1, uncanny dodge</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +0, Will +1</p></td>
+<td><p>Fort +12, Ref +2, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 8, Con 15, Int 6, Wis 10, Cha 7</p></td>
+<td><p>Str 26, Dex 11, Con 18, Int 8, Wis 10, Cha 4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +5, <a href="ch16s03.html#CombinedSkills204">Listen</a> +2, <a href="ch16s03.html#CombinedSkills294">Spot</a> +2</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +13, <a href="ch16s03.html#CombinedSkills179">Hide</a> -6, <a href="ch16s03.html#CombinedSkills192">Jump</a> +17, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats361">Toughness</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (greatclub)</p></td>
+<td><p><a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (greatclub)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate hills (Merrow: Temperate <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a>)</p></td>
+<td><p>Temperate hills</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, gang (3-4), or band (5-8)</p></td>
+<td><p>Solitary, pair, gang (1 plus 1-3 <a href="ch70.html#MonstersO-R2">ogres</a>), or band (1 plus 4-7 <a href="ch70.html#MonstersO-R2">ogres</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard (including <span class="emphasis"><em>+1 hide armor</em></span>,  <span class="emphasis"><em>+1 greatclub</em></span> and <span class="emphasis"><em>ring of protection +1</em></span>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p>Adult <a href="ch70.html#MonstersO-R2">ogres</a> stand 9 to 10 feet tall and weigh 600 to 650 pounds. Their skin color ranges from dull yellow to dull brown. Their clothing consists of poorly cured furs and hides, which add to their naturally repellent odor.<a href="img/MonstersO-R.Ogre.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Ogre.jpg" align="right"/></span></a></p>
+        <p><a href="ch70.html#MonstersO-R2">Ogres</a> speak <a href="ch66s06.html#MonstersG67">Giant</a>, and those specimens who boast Intelligence scores of at least 10 also speak Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2028920"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R3"/>
+          <p><a href="ch70.html#MonstersO-R2">Ogres</a> favor overwhelming odds, sneak attacks, and ambushes over a fair fight. They are intelligent enough to fire ranged weapons first to soften up their foes before closing, but <a href="ch70.html#MonstersO-R2">ogre</a> gangs and bands fight as unorganized individuals.</p>
+          <p/>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2028962"/>Ogre Barbarian</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch70.html#id2029011">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R4"/>
+          <p>Their inherent bent toward chaos combines with their size and strength to make <a href="ch70.html#MonstersO-R2">ogres</a> natural barbarians. Indeed, their leaders are almost always barbarians of low to middle level, monstrous brutes whose fury in battle is truly fearsome. A raging <a href="ch70.html#MonstersO-R2">ogre</a> barbarian is an inspiration to other <a href="ch70.html#MonstersO-R2">ogres</a>.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2029011"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R5"/>
+            <p>Marginally more intelligent than his brutish fellows, an <a href="ch70.html#MonstersO-R2">ogre</a> barbarian is slightly more likely to enter a fair fight, but in general prefers the brutish tactics common to all its kind.</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2029042"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersO-R6"/>
+              <p><span class="strong"><strong>Rage (Ex):</strong></span> Twice per day, an <a href="ch70.html#MonstersO-R2">ogre</a> barbarian can enter a state of fierce rage that last for 9 rounds. The following changes are in effect as long as he rages: AC 17 (touch 8, flat-footed 17); hp 95; Atk +18/+13 melee (2d6+16, <span class="emphasis"><em>+1 greatclub</em></span>); SV Fort +14, Will +4; Str 30, Con 22; <a href="ch16s03.html#CombinedSkills71">Climb</a> +15, <a href="ch16s03.html#CombinedSkills192">Jump</a> +16. At the end of his rage, the <a href="ch70.html#MonstersO-R2">ogre</a> barbarian is fatigued for the duration of the encounter.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2029255"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersO-R7"/>
+              <p><span class="strong"><strong>Trap Sense (Ex):</strong></span> An <a href="ch70.html#MonstersO-R2">ogre</a> barbarian has a +1 bonus on Reflex saves made to avoid traps. He also has a +1 bonus to his AC against attacks by traps.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2029292"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="MonstersO-R8"/>
+              <p><span class="strong"><strong>Uncanny Dodge (Ex):</strong></span> An <a href="ch70.html#MonstersO-R2">ogre</a> barbarian retains his Dex bonus to AC regardless of being caught flat-footed or attacked by an invisible opponent. His Dex bonus to AC is +0, but this means that he is not subject to a rogue's sneak attack in these circumstances.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2029338"/>Merrow</h3>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R9"/>
+          <p>These cousins of the <a href="ch70.html#MonstersO-R2">ogre</a> have the aquatic subtype.</p>
+          <p>They dwell in freshwater lakes and rivers. They have a base land speed of 30 feet and a swim speed of 40 feet and are found only in aquatic environments.</p>
+          <p>Instead of the typical <a href="ch70.html#MonstersO-R2">ogre's</a> greatclub, they prefer to use longspears in melee (attack +8 melee, damage 1d8+7).</p>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2029456"/>Ogres as Characters</h3>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R10"/>
+          <p><a href="ch70.html#MonstersO-R2">Ogre</a> characters possess the following racial traits.</p>
+          <div class="itemizedlist">
+            <ul type="bullet">
+              <li style="list-style-type: disc">
+                <p>+10 Strength, -2 Dexterity, +4 Constitution, -4 Intelligence, -4 Charisma.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p><a href="ch22.html#CombatII28">Large</a> size. -1 penalty to <a href="ch21s02.html#CombatI11">Armor Class</a>, -1 penalty on <a href="ch21s02.html#CombatI4">attack rolls,</a> -4 penalty on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks, +4 bonus on <a href="ch22s03.html#CombatII67">grapple checks,</a> lifting and carrying limits double those of <a href="ch22.html#CombatII28">Medium</a> characters.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Space/Reach: 10 feet/10 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>An <a href="ch70.html#MonstersO-R2">ogre's</a> base land <a href="ch21s02.html#CombatI14">speed</a> is 40 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Darkvision out to 60 feet.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: An <a href="ch70.html#MonstersO-R2">ogre</a> begins with four levels of <a href="ch04.html#TypesSubtypesAbilities33">giant</a>, which provide 4d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +3, and base saving throw bonuses of Fort +4, Ref +1, and Will +1.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Skills: An <a href="ch70.html#MonstersO-R2">ogre's</a> <a href="ch04.html#TypesSubtypesAbilities33">giant</a> levels give it skill points equal to 7 x (2 + Int modifier, minimum 1). Its class skills are <a href="ch16s03.html#CombinedSkills71">Climb</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Racial Feats: An <a href="ch70.html#MonstersO-R2">ogre's</a> <a href="ch04.html#TypesSubtypesAbilities33">giant</a> levels give it two feats.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Weapon and <a href="ch17s03.html#Feats34">Armor Proficiency</a>: An <a href="ch70.html#MonstersO-R2">ogre</a> is automatically proficient with simple weapons, martial weapons, light and <a href="ch22.html#CombatII28">medium</a> armor, and shields.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>+5 natural armor bonus.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Automatic Languages: Common, <a href="ch04.html#TypesSubtypesAbilities33">Giant</a>. Bonus Languages: Dwarven, <a href="ch70s04.html#MonstersO-R48">Orc</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, Terran.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Favored Class: Barbarian.</p>
+              </li>
+              <li style="list-style-type: disc">
+                <p>Level adjustment +2.</p>
+              </li>
+            </ul>
+          </div>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch69s14.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Nymph </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Ogre Mage</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

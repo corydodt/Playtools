@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Sirrush</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s22.html" title="Shape of Fire"/>
+    <link rel="next" href="ch76s24.html" title="Tayellah"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Sirrush</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s22.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s24.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2443408"/>Sirrush</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch76s23.html#id2444459">Three-Headed Sirrush</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)202"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2443426">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Sirrush</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>40d10+680 (900 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+23 (+15 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>90 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>44 (+15 Dex, -1 size, +20 natural), <a href="ch21s02.html#CombatI12">touch</a> 24, <a href="ch21s03.html#CombatI21">flat-footed</a> 29</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+40/+60</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +56 (2d6+16/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit))</a> melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>4 claws +56 (2d6+16/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit))</a> melee, bite +54 (4d6+8) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities53">Pounce</a>, stunning roar</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 300 ft., <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/epic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 20, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 39, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>; <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +39, Ref +37, Will +27</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 42, Dex 40, Con 44, Int 21, Wis 38, Cha 28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +59, <a href="ch16s03.html#CombinedSkills179">Hide</a> +58, <a href="ch16s03.html#CombinedSkills192">Jump</a> +83, <a href="ch16s03.html#CombinedSkills204">Listen</a> +57, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +58, <a href="ch16s03.html#CombinedSkills294">Spot</a> +57, <a href="ch16s03.html#CombinedSkills303">Survival</a> +57</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (claw), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite), <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x4), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (claw), <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or pack (4-9 <a href="ch76s23.html#EpicMonsters(G-W)202">sirrushes</a> and 1-2 <a href="ch76s23.html#EpicMonsters(G-W)203">three-headed sirrushes</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description11">chaotic neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>41-50 HD (<a href="ch22.html#CombatII28">Large</a>), 51-60 HD (<a href="ch22.html#CombatII28">Huge</a>), 61+ HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p/>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2444459"/>Three-Headed Sirrush</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch76s23.html#id2445602">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)203"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2444478">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Three-Headed Sirrush</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>45d10+855 (1,102 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+25 (+17 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>120 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>50 (+17 Dex, -1 size, +24 natural), <a href="ch21s02.html#CombatI12">touch</a> 26, <a href="ch21s03.html#CombatI21">flat-footed</a> 33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+45/+67</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +63 (3d6+18/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit))</a> melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>4 claws +63 (3d6+18/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit))</a> melee, 3 bites +61 (4d6+9) melee</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities53">Pounce</a>, stunning roar</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 350 ft., <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/epic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 25, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 42, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>; <a href="ch04.html#TypesSubtypesAbilities60">acid resistance</a> 15, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 15, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 15, <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 15, <a href="ch04.html#TypesSubtypesAbilities60">sonic resistance</a> 15</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +45, Ref +43, Will +33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 47, Dex 45, Con 49, Int 26, Wis 43, Cha 33</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +65, <a href="ch16s03.html#CombinedSkills71">Climb</a> +66, <a href="ch16s03.html#CombinedSkills179">Hide</a> +65, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +59, <a href="ch16s03.html#CombinedSkills192">Jump</a> +102, <a href="ch16s03.html#CombinedSkills204">Listen</a> +64, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +65, <a href="ch16s03.html#CombinedSkills253">Search</a> +56, <a href="ch16s03.html#CombinedSkills294">Spot</a> +64, <a href="ch16s03.html#CombinedSkills303">Survival</a> +64</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (claw), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite), <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x6), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (claw), <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or pack (1-2 <a href="ch76s23.html#EpicMonsters(G-W)203">three-headed sirrushes</a> and 4-9 <a href="ch76s23.html#EpicMonsters(G-W)202">sirrushes</a>).</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>28</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description11">chaotic neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>46-55 HD (<a href="ch22.html#CombatII28">Large</a>); 56-65 HD (<a href="ch22.html#CombatII28">Huge</a>); 66+ HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch76s23.html#EpicMonsters(G-W)202">Sirrushes</a> speak Sylvan and Draconic.<a href="img/EpicMonsters(G-W).Sirrush.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Sirrush.jpg" align="right"/></span></a><a href="img/EpicMonsters(G-W).Three_Headed_Sirrush.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Three_Headed_Sirrush.jpg" align="right"/></span></a></p>
+        <p>A <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2445602"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)204"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2445620"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)205"/>
+            <p><span class="strong"><strong>Stunning Roar (Ex):</strong></span> Every 1d4 rounds, a <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush</a> can loose a sonic attack of such volume that it stuns all creatures in a 60-foot spread for 1d4 rounds if they fail a Fortitude saving throw (DC 47, or DC 51 for a <a href="ch76s23.html#EpicMonsters(G-W)203">three-headed sirrush</a>). The DC is</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2445671"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)206"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush</a> charges or leaps upon a foe during its first round of combat, it can make a full attack even if it has already taken a move action.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2445709"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)207"/>
+            <p><span class="strong"><strong>Headloss Resistance (Ex):</strong></span> A <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush's</a> thick bony plate protects its neck like a shield and provides resistance from effects that could normally behead it, such as a vorpal weapon. When a <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush</a> or three-headed sir-rush would otherwise lose its head, it instead makes a Fortitude saving throw (DC 10 + 1/2 HD of attacker + attacker's Str modifier). On a failed save, the <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush's</a> head leaves its shoulders normally, but on a successful save, the <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush</a> is unaffected by the beheading. A <a href="ch76s23.html#EpicMonsters(G-W)202">sirrush</a> dies when beheaded; a <a href="ch76s23.html#EpicMonsters(G-W)203">three-headed sirrush</a> goes on fighting until all its heads are lost (the only penalty it incurs is one or two fewer bite attacks when it makes a full attack).</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s22.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s24.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Shape of Fire </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Tayellah</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

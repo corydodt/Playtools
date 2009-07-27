@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Lavawight</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s09.html" title="Hunefer"/>
+    <link rel="next" href="ch76s11.html" title="Legendary Animal"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Lavawight</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s09.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s11.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2358945"/>Lavawight</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s10.html#id2360185">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)66"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2358964">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Lavawight</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a> (<a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>32d12 (208 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+12 (+8 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>46 (+8 Dex, +28 natural), <a href="ch21s02.html#CombatI12">touch</a> 18, <a href="ch21s03.html#CombatI21">flat-footed</a> 38</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+16/+37</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +40 (3d8+21/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit)</a> plus blazefire) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +40 (3d8+21/19-20 (+1d6 on <a href="ch21s05.html#CombatI51">critical hit)</a> plus blazefire) melee, 1 skull butt +32 (2d6+10 plus blazefire) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rend 6d8+31, blazefire, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities76">Undead</a> traits, <a href="ch04.html#TypesSubtypesAbilities29">fire subtype</a>, heat aura, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 34, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/-, fiery hardness</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills192">Jump</a> +33, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +33, <a href="ch16s03.html#CombinedSkills204">Listen</a> +41, <a href="ch16s03.html#CombinedSkills253">Search</a> +35, <a href="ch16s03.html#CombinedSkills294">Spot</a> +41</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (claw), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x2), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (claw), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (claw)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12, Ref +18, Will +24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 52, Dex 27, Con -, Int 10, Wis 22, Cha 28</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a> <a href="ch04.html#TypesSubtypesAbilities24">evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>33-42 HD (<a href="ch22.html#CombatII28">Medium-size</a>); 43-55 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch76s10.html#EpicMonsters(G-W)66">Lavawights</a> speak Common and <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2360185"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)67"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360203"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)68"/>
+          <p><span class="strong"><strong>Rend (Ex):</strong></span> If the <a href="ch76s10.html#EpicMonsters(G-W)66">lavawight</a> hits with both of its claws, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 6d8+31 points of Damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360244"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)69"/>
+          <p><span class="strong"><strong>Blazefire (Su):</strong></span> Living creatures taking Damage from a <a href="ch76s10.html#EpicMonsters(G-W)66">lavawight's</a> attack find themselves ignited with blaze-fire; they must succeed at a Fortitude save (DC 35) or permanently lose 4 hit points. The DC is Charisma-based. The opponent must continue to save every round for the next 6 rounds (7 rounds total) to avoid being permanently drained of 4 more hit points each round. The <a href="ch76s10.html#EpicMonsters(G-W)66">lavawight</a> heals the same amount of Damage whenever a creature is drained of hit points, gaining any excess as temporary hit points. Tehse temporary hit points last a maximum of 1 hour. If an opponent is slain by blazefire, only blackened ash remains of the victim. Hit points lost to the blazefire never heal naturally and cannot be magically restored-they are gone for good.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360366"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)70"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will- <span class="emphasis"><em><a href="ch45.html#SpellsD-E31">dimension door</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G17">flame arrow</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS54">spell immunity</a> (<a href="ch50.html#SpellsS42">sleet storm</a></em></span>), <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z38">wall of fire</a></em></span>. Caster level 22nd; save DC 19 + spell level. The DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360459"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)71"/>
+          <p><span class="strong"><strong>Undead Traits:</strong></span> Immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual Damage, ability Damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive Damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360508"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)72"/>
+          <p><span class="strong"><strong>Heat Aura (Su):</strong></span> A 10-foot-radius spread heat aura surrounds a <a href="ch76s10.html#EpicMonsters(G-W)66">lavawight</a>. All creatures of the fire subtype in the field (including the <a href="ch76s10.html#EpicMonsters(G-W)66">lavawight</a>) are treated as if having turn resistance +6 (if undead) and fast healing 10. Creatures subject to fire Damage take 2d10 points of fire Damage each round they remain within the heat aura.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360697"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)73"/>
+          <p><span class="strong"><strong>Fire Subtype:</strong></span> Fire immunity, cold vulnerability..</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2360726"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)74"/>
+          <p><span class="strong"><strong>Fiery Hardness (Ex):</strong></span> The <a href="ch76s10.html#EpicMonsters(G-W)66">lavawight's</a> molten skin provides it with Damage reduction of 10/-.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s09.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s11.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Hunefer </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Legendary Animal</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

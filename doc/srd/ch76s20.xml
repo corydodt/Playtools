@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ruin Swarm</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s19.html" title="Pseudonatural Troll"/>
+    <link rel="next" href="ch76s21.html" title="Shadow of the Void"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ruin Swarm</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s19.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s21.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2439268"/>Ruin Swarm</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s20.html#id2440013">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)177"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2439286">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Ruin Swarm</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a> (<a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>50d8+500 (725 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft., climb 20 ft., fly 90 ft. (perfect)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>30 (+2 size, +16 Dex, +2 natural), <a href="ch21s02.html#CombatI12">touch</a> 28, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+37/-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (5d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (5d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Blinding, distraction (DC 45)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities11">Blindsense</a>, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 15, <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits, <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +37, Ref +34, Will +22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 3, Dex 42, Con 30, Int-, Wis 23, Cha 32</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, cloud (2-4 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or plague (5-8 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2440013"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)178"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2440032"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)179"/>
+          <p><span class="strong"><strong>Blinding (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch76s20.html#EpicMonsters(G-W)177">ruin swarm</a> in its space must make a Fortitude save (DC 51) or be blinded for one round. The save DC is Dexterity-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2440072"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)180"/>
+          <p><span class="strong"><strong>Blindsense (Ex):</strong></span> The <a href="ch76s20.html#EpicMonsters(G-W)177">ruin swarm</a> notices and locates creatures within 200 ft. Opponents still have 100% concealment against the <a href="ch71s17.html#MonstersS147">swarm</a> (but <a href="ch71s17.html#MonstersS147">swarm</a> attacks ignore concealment).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2440132"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)181"/>
+          <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature vulnerable to the <a href="ch71s17.html#MonstersS147">swarm's</a> damage that begins its turn with a <a href="ch71s17.html#MonstersS147">swarm</a> in its square is nauseated for 1 round; a DC 45 Fortitude save negates the effect. Even with a successful save, spellcasting or concentrating on spells within the area of a <a href="ch71s17.html#MonstersS147">swarm</a> requires a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 20 + spell level). Using skills requiring patience and concentration requires a <a href="ch16s03.html#CombinedSkills78">Concentration</a> check (DC 20). The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2440214"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)182"/>
+          <p><span class="strong"><strong>Swarm Traits:</strong></span> A <a href="ch71s17.html#MonstersS147">swarm</a> has no clear front or back and no discernable anatomy, so it is not subject to critical hits or flanking. A <a href="ch71s17.html#MonstersS147">swarm</a> made up of Tiny creatures takes half damage from slashing and piercing weapons.</p>
+          <p>Reducing a <a href="ch71s17.html#MonstersS147">swarm</a> to 0 hit points or fewer causes the <a href="ch71s17.html#MonstersS147">swarm</a> to break up, though damage taken until that point does not degrade its ability to attack or resist attack. <a href="ch71s17.html#MonstersS147">Swarms</a> are never staggered or reduced to a dying state by damage. Also, they cannot be tripped, grappled, or bull rushed, and they cannot grapple another.</p>
+          <p>A <a href="ch71s17.html#MonstersS147">swarm</a> is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as <span class="emphasis"><em><a href="ch45.html#SpellsD-E38">disintegrate</a></em></span>), with the exception of mind-affecting effects if the <a href="ch71s17.html#MonstersS147">swarm</a> has an intelligence score and a hive mind. A <a href="ch71s17.html#MonstersS147">swarm</a> takes a -10 penalty on saving throws against spells or effects that affect an area, such as many evocation spells or grenadelike weapons. If the area effect attack does not allow a saving throw, the <a href="ch71s17.html#MonstersS147">swarm</a> takes double damage instead.</p>
+          <p>A <a href="ch71s17.html#MonstersS147">swarm</a> rendered unconscious by means of subdual damage becomes disorganized and dispersed, and does not re-form until its hit points exceed its subdual damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2440372"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)183"/>
+          <p><span class="strong"><strong>Vermin Traits:</strong></span> A <a href="ch76s20.html#EpicMonsters(G-W)177">ruin swarm</a> is immune to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). It also has darkvision (60-foot range).</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s19.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s21.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Pseudonatural Troll </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Shadow of the Void</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

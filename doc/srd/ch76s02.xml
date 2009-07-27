@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Gibbering Orb</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="next" href="ch76s03.html" title="Gloom"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Gibbering Orb</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2345222"/>Gibbering Orb</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch76s02.html#id2346457">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)8"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2345241">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Gibbering Orb</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities2">Aberration</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>27d8+216 (337 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+20 (+12 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>5 ft., fly 20 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>48 (+12 Dex, -2 size, +16 natural armor, +12 insight), <a href="ch21s02.html#CombatI12">touch</a> 32, <a href="ch21s03.html#CombatI21">flat-footed</a> 36</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+20/+39</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>24 eye rays +31 ranged <a href="ch21s02.html#CombatI12">touch</a>, 12 bites +28 (2d8+5/19-20) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>24 eye rays +31 ranged <a href="ch21s02.html#CombatI12">touch</a>, 12 bites +28 (2d8+5/19-20) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Gibbering, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities69">swallow whole</a>, eye rays, <a href="ch21s05.html#CombatI64">spell-like abilities</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>All-around vision, <a href="ch04.html#TypesSubtypesAbilities30">flight</a>, amorphous, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 37, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/epic</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +21, Ref +21, Will +24</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 32, Dex 35, Con 27, Int 40, Wis 24, Cha 22</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +38, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +42, <a href="ch16s03.html#CombinedSkills192">Jump</a> -4, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana) +37, <a href="ch16s03.html#CombinedSkills179">Hide</a> +34, <a href="ch16s03.html#CombinedSkills204">Listen</a> +37, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +34, <a href="ch16s03.html#CombinedSkills253">Search</a> +37, <a href="ch16s03.html#CombinedSkills279">Speak Language</a> (any five), <a href="ch16s03.html#CombinedSkills294">Spot</a> +37</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (bite), <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (eye <a href="ch04.html#TypesSubtypesAbilities57">ray</a>), <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats126">Epic Fortitude</a>, <a href="ch18s02.html#EpicFeats445">Polyglot</a>, <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any land and underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>27</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>27-54 HD (<a href="ch22.html#CombatII28">Huge</a>); 55-108 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> can speak all languages.</p>
+      <p>A <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb's</a> natural weapons are treated as epic for the purpose of overcoming damage reduction.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2346457"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)9"/>
+        <p>The <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> has the ability to bite its foes by extending a pseudopod with one of its mouths protruding from the end. The orb can extend four of these at any one foe, or a total of twelve in any given round. At the same time, the legions of eyes have the ability to cast a host of spells at a rapid rate.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2346629"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)10"/>
+          <p><span class="strong"><strong>Gibbering (Su):</strong></span> The cacophony of speech emanating from the scores of mouths that make up the orb forces all within 60 feet of the creature to succeed at a Will save each round (DC 40) or suffer the effects of an <span class="emphasis"><em><a href="ch47.html#SpellsH-L48">insanity</a></em></span> spell.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2346671"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)11"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, the <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> must hit with a bite attack. If it gets a hold, the orb automatically deals bite Damage and can attempt to swallow whole.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2346710"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)12"/>
+          <p><span class="strong"><strong>Swallow Whole (Ex):</strong></span> A <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> can attempt to swallow a Large or smaller opponent by making a successful grapple check. Once inside, the opponent takes 4d8 points of constriction Damage plus 3d10 points of acid Damage per round. A swallowed creature can cut its way out by using claws or a light slashing weapon to deal 20 points of Damage in a single blow (AC 16, damage reduction 10/epic still applies). Once the creature exits, the fluidlike body structure of the orb closes the wound; other swallowed opponents must cut their own way out. When a creature dies by being swallowed whole (or when a creature killed by the <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> in some other fashion is eaten by it), the <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> absorbs the creature's known spells, prepared spells, and spell-like abilities. The orb can use any two of those abilities per round as a free action. Each originates from an eye that is not producing an eye ray (see below) that round. Stolen spells and spell-like abilities are lost after 24 hours.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2346987"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)13"/>
+          <p><span class="strong"><strong>Eye Rays (Su):</strong></span> Two dozen of the eyes can each produce a magical ray each round, with each eye emulating a spell from among the list of spells below as if cast by a 27th-level caster. The save DCs, where applicable, are 16 + spell level. A <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> has no directional limitations on where it can point its eye rays, because the eyes orbiting around its body drift and float wherever needed. However, a <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> can never aim more than five rays at any single target, due to limitations of aiming. All rays have a range of 150 feet. Each of these effects functions as a ray, regardless of the normal parameters of the spell it resembles. That is, each is usable against a single target and requires a ranged touch attack. The eye rays are: <span class="emphasis"><em><a href="ch44.html#SpellsC32">cone of cold</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E38">disintegrate</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E53">dominate monster</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E62">energy drain</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G8">feeblemind</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G11">finger of death</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G22">flesh to stone</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L5">harm</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L19">hold monster</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L28">horrid wilting</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L36">implosion</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L39">inflict critical wounds</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O4">mage's disjunction</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L59">irresistible dance</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R22">polymorph any object</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R23">power word blind</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R24">power word kill</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R25">power word stun</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R29">prismatic spray</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS40">slay living</a></em></span>, <span class="emphasis"><em/></span> and <span class="emphasis"><em><a href="ch51.html#SpellsT-Z9">temporal stasis</a></em></span>. </p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2347373"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)14"/>
+          <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-Two stolen spells or spell-like abilities per round. Caster level 27th, save DC 16 + spell level.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2347402"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)15"/>
+          <p><span class="strong"><strong>All-Around Vision (Ex):</strong></span> The <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb's</a> many eyes give it a +4 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> and <a href="ch16s03.html#CombinedSkills253">Search</a> checks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2347460"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)16"/>
+          <p><span class="strong"><strong>Flight (Ex):</strong></span> The <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb's</a> body is naturally buoyant. This buoyancy allows it to fly as the spell, as a free action, at a speed of 20 feet. This buoyancy also grants it a permanent <span class="emphasis"><em><a href="ch46.html#SpellsF-G7">feather fall</a></em></span> effect with personal range.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2347509"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)17"/>
+          <p><span class="strong"><strong>Amorphous (Ex):</strong></span> A <a href="ch76s02.html#EpicMonsters(G-W)8">gibbering orb</a> is not subject to critical hits. It has no clear front or back, so it cannot be flanked.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Epic Monsters (G-W) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Gloom</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

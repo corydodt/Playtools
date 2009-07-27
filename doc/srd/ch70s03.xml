@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ooze</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s02.html" title="Ogre Mage"/>
+    <link rel="next" href="ch70s04.html" title="Orc"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ooze</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s02.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s04.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2042670"/>Ooze</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch70s03.html#id2042770">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s03.html#id2042844">Black Pudding</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect3">
+                  <a href="ch70s03.html#id2047519">Elder Black Pudding</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect4">
+                      <a href="ch70s03.html#id2048574">Combat</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s03.html#id2048611">Gelatinous Cube</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s03.html#id2051197">Gray Ooze</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s03.html#id2117575">Ochre Jelly</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R17"/>
+      <p><a href="ch70s03.html#MonstersO-R17">Oozes</a> are amorphous creatures that live only to eat. They inhabit underground areas throughout the world, scouring caverns, ruins, and dungeons in search of organic matter-living or dead.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2042770"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R18"/>
+        <p><a href="ch70s03.html#MonstersO-R17">Oozes</a> attack any creatures they encounter. They lash out with pseudopods or simply engulf opponents with their bodies, which secrete acids that help them catch or digest their prey.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2042802"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R19"/>
+          <p><span class="strong"><strong>Blindsight (Ex):</strong></span> An <a href="ch70s03.html#MonstersO-R17">ooze's</a> entire body is a primitive sensory organ that can ascertain prey by scent and vibration within 60 feet.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2042844"/>Black Pudding</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s03.html#id2046497">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect3">
+                <a href="ch70s03.html#id2047519">Elder Black Pudding</a>
+              </span>
+            </dt>
+            <dd>
+              <dl>
+                <dt>
+                  <span class="sect4">
+                    <a href="ch70s03.html#id2048574">Combat</a>
+                  </span>
+                </dt>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R20"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2042862">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Black Pudding</strong></span></p></td> <td><p><span class="strong"><strong>Elder Black Pudding</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities48">Ooze</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <a href="ch04.html#TypesSubtypesAbilities48">Ooze</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d10+60 (115 hp)</p></td>
+<td><p>20d10+180 (290 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-5</p></td>
+<td><p>-5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), climb 20 ft.</p></td>
+<td><p>20 ft. (4 squares), climb 20 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>3 (-2 size, -5 Dex), <a href="ch21s02.html#CombatI12">touch</a> 3, <a href="ch21s03.html#CombatI21">flat-footed</a> 3</p></td>
+<td><p>1 (-4 size, -5 Dex), <a href="ch21s02.html#CombatI12">touch</a> 1, <a href="ch21s03.html#CombatI21">flat-footed</a> 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+18</p></td>
+<td><p>+15/+35</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +8 melee (2d6+4 plus 2d6 acid)</p></td>
+<td><p>Slam +19 melee (3d6+12 plus 3d6 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +8 melee (2d6+4 plus 2d6 acid)</p></td>
+<td><p>Slam +19 melee (3d6+12 plus 3d6 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+<td><p>20 ft./20 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Acid, <a href="ch04.html#TypesSubtypesAbilities17">constrict</a> 2d6+4 plus 2d6 acid, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+<td><p>Acid, <a href="ch04.html#TypesSubtypesAbilities17">constrict</a> 2d8+12 plus 2d6 acid, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 60 ft., split, <a href="ch04.html#TypesSubtypesAbilities48">ooze</a> traits</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 60 ft., split, <a href="ch04.html#TypesSubtypesAbilities48">ooze</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref -2, Will -2</p></td>
+<td><p>Fort +15, Ref +1, Will +1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 17, Dex 1, Con 22, Int -, Wis 1, Cha 1</p></td>
+<td><p>Str 26, Dex 1, Con 28, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +11</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +16</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+<td><p>Underground</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>7</p></td>
+<td><p>12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>11-15 HD (<a href="ch22.html#CombatII28">Huge</a>); 16-30 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p/>
+        <p>The typical <a href="ch70s03.html#MonstersO-R20">black pudding</a> measures 15 feet across and 2 feet thick. It weighs about 18,000 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2046497"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R21"/>
+          <p>A <a href="ch70s03.html#MonstersO-R20">black pudding</a> attacks by grabbing and squeezing their prey.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2046528"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R22"/>
+            <p><span class="strong"><strong>Acid (Ex):</strong></span> The creature secretes a digestive acid that dissolves organic material and metal quickly, but does not affect stone. Any melee hit or constrict attack deals acid damage, and the opponent's armor and clothing dissolve and become useless immediately unless they succeed on DC 21 Reflex saves. A metal or wooden weapon that strikes a <a href="ch70s03.html#MonstersO-R20">black pudding</a> also dissolves immediately unless it succeeds on a DC 21 Reflex save. The save DCs are Constitution-based.</p>
+            <p>The pudding's acidic touch deals 21 points of damage per round to wooden or metal objects, but the <a href="ch70s03.html#MonstersO-R17">ooze</a> must remain in contact with the object for 1 full round to deal this damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2047270"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R23"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch70s03.html#MonstersO-R20">black pudding</a> deals automatic slam and acid damage with a successful grapple check. The opponent's clothing and armor take a -4 penalty on Reflex saves against the acid.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2047310"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R24"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch70s03.html#MonstersO-R20">black pudding</a> must hit with its slam attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2047420"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R25"/>
+            <p><span class="strong"><strong>Split (Ex):</strong></span> Slashing and piercing weapons deal no damage to a <a href="ch70s03.html#MonstersO-R20">black pudding</a>. Instead the creature splits into two identical puddings, each with half of the original's current hit points (round down). A pudding with 10 hit points or less cannot be further split and dies if reduced to 0 hit points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2047458"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R26"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch70s03.html#MonstersO-R20">black pudding</a> has a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills71">Climb</a> check, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id2047519"/>Elder Black Pudding</h4>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch70s03.html#id2048574">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R27"/>
+          <p>The most ancient <a href="ch70s03.html#MonstersO-R20">black puddings</a> are vast pools of inky death.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2048574"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R28"/>
+            <p>The save DC for the <a href="ch70s03.html#MonstersO-R27">elder black pudding's</a> acid attack (DC 29) is adjusted for its additional Hit Dice and higher Constitution score.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2048611"/>Gelatinous Cube</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s03.html#id2050974">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R29"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2048629">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Gelatinous Cube</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities48">Ooze</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d10+32 (54 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>15 ft. (3 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>3 (-2 size, -5 Dex), <a href="ch21s02.html#CombatI12">touch</a> 3, <a href="ch21s03.html#CombatI21">flat-footed</a> 3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +1 melee (1d6 plus 1d6 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +1 melee (1d6 plus 1d6 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Acid, engulf, <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 60 ft., immunity to electricity, <a href="ch04.html#TypesSubtypesAbilities48">ooze</a> traits, transparent</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref -4, Will -4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 1, Con 26, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>1/10th coins, 50% <a href="ch04.html#TypesSubtypesAbilities35">goods</a> (no nonmetal or nonstone), 50% items (no nonmetal or nonstone)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>5-12 HD (<a href="ch22.html#CombatII28">Huge</a>); 13-24 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>The nearly transparent <a href="ch70s03.html#MonstersO-R29">gelatinous cube</a> travels slowly along dungeon corridors and cave floors, absorbing carrion, creatures, and trash. Inorganic material remains trapped and visible inside the cube's body.<a href="img/MonstersO-R.Gelatinous_Cube.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Gelatinous_Cube.jpg" align="right"/></span></a></p>
+        <p>A typical <a href="ch70s03.html#MonstersO-R29">gelatinous cube</a> is 15 feet on a side and weighs about 50,000 pounds, though much larger specimens are not unknown.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2050974"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R30"/>
+          <p>A <a href="ch70s03.html#MonstersO-R29">gelatinous cube</a> attacks by slamming its body into its prey. It is capable of lashing out with a pseudopod, but usually engulfs foes.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2051006"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R31"/>
+            <p><span class="strong"><strong>Acid (Ex):</strong></span> A <a href="ch70s03.html#MonstersO-R29">gelatinous cube's</a> acid does not harm metal or stone.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2051044"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R32"/>
+            <p><span class="strong"><strong>Engulf (Ex):</strong></span> Although it moves slowly, a <a href="ch70s03.html#MonstersO-R29">gelatinous cube</a> can simply mow down Large or smaller creatures as a standard action. It cannot make a slam attack during a round in which it engulfs. The <a href="ch70s03.html#MonstersO-R29">gelatinous cube</a> merely has to move over the opponents, affecting as many as it can cover. Opponents can make opportunity attacks against the cube, but if they do so they are not entitled to a saving throw. Those who do not attempt attacks of opportunity must succeed on a DC 13 Reflex save or be engulfed; on a success, they are pushed back or aside (opponent's choice) as the cube moves forward. Engulfed creatures are subject to the cube's paralysis and acid, and are considered to be grappled and trapped within its body. The save DC is Strength-based and includes a +1 racial bonus.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2051101"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R33"/>
+            <p><span class="strong"><strong>Paralysis (Ex):</strong></span> A <a href="ch70s03.html#MonstersO-R29">gelatinous cube</a> secretes an anesthetizing slime. A target hit by a cube's melee or engulf attack must succeed on a DC 20 Fortitude save or be paralyzed for 3d6 rounds. The cube can automatically engulf a paralyzed opponent. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2051142"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R34"/>
+            <p><span class="strong"><strong>Transparent (Ex):</strong></span> <a href="ch70s03.html#MonstersO-R29">Gelatinous cubes</a> are hard to see, even under ideal conditions, and it takes a DC 15 <a href="ch16s03.html#CombinedSkills294">Spot</a> check to notice one. Creatures who fail to notice a cube and walk into it are automatically engulfed.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2051197"/>Gray Ooze</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s03.html#id2117041">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R35"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2051284">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Gray Ooze</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities48">Ooze</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d10+15 (31 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>5 (-5 Dex), <a href="ch21s02.html#CombatI12">touch</a> 5, <a href="ch21s03.html#CombatI21">flat-footed</a> 5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d6+1 plus 1d6 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +3 melee (1d6+1 plus 1d6 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Acid, <a href="ch04.html#TypesSubtypesAbilities17">constrict</a> 1d6+1 plus 1d6 acid, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities16">cold</a> and <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <a href="ch04.html#TypesSubtypesAbilities48">ooze</a> traits, transparent</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref -4, Will -4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 12, Dex 1, Con 21, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> marshes</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Medium</a>); 7-9 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch70s03.html#MonstersO-R35">gray ooze</a> can grow to a diameter of up to 10 feet and a thickness of about 6 inches. A typical specimen weighs about 700 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2117041"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R36"/>
+          <p>A <a href="ch70s03.html#MonstersO-R35">gray ooze</a> strikes like a <a href="ch73s40.html#MonstersAnimals145">snake</a>, slamming opponents with its body.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2117082"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R37"/>
+            <p><span class="strong"><strong>Acid (Ex):</strong></span> A <a href="ch70s03.html#MonstersO-R35">gray ooze</a> secretes a digestive acid that quickly dissolves organic material and metal, but not stone. Any melee hit or constrict attack deals acid damage. Armor or clothing dissolves and becomes useless immediately unless it succeeds on a DC 16 Reflex save. A metal or wooden weapon that strikes a <a href="ch70s03.html#MonstersO-R35">gray ooze</a> also dissolves immediately unless it succeeds on a DC 16 Reflex save. The save DCs are Constitution-based.</p>
+            <p>The <a href="ch70s03.html#MonstersO-R17">ooze's</a> acidic touch deals 16 points of damage per round to wooden or metal objects, but the <a href="ch70s03.html#MonstersO-R17">ooze</a> must remain in contact with the object for 1 full round to deal this damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2117363"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R38"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch70s03.html#MonstersO-R35">gray ooze</a> deals automatic slam and acid damage with a successful grapple check. The opponent's clothing and armor take a -4 penalty on Reflex saves against the acid.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2117403"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R39"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch70s03.html#MonstersO-R35">gray ooze</a> must hit with its slam attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2117444"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R40"/>
+            <p><span class="strong"><strong>Transparent (Ex):</strong></span> A <a href="ch70s03.html#MonstersO-R35">gray ooze</a> is hard to identify, even under ideal conditions, and it takes a DC 15 <a href="ch16s03.html#CombinedSkills294">Spot</a> check to notice one. Creatures who fail to notice a <a href="ch70s03.html#MonstersO-R35">gray ooze</a> and walk into it are automatically hit with a melee attack for slam and acid damage.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2117575"/>Ochre Jelly</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch70s03.html#id2119572">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R41"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2117593">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Ochre Jelly</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities48">Ooze</a></p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d10+36 (69 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares), climb 10 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>4 (-1 size, -5 Dex), <a href="ch21s02.html#CombatI12">touch</a> 4, <a href="ch21s03.html#CombatI21">flat-footed</a> 4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/+10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (2d4+3 plus 1d4 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (2d4+3 plus 1d4 acid)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Acid, <a href="ch04.html#TypesSubtypesAbilities17">constrict</a> 2d4+3 plus 1d4 acid, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 60 ft., split, <a href="ch04.html#TypesSubtypesAbilities48">ooze</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref -3, Will -3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 1, Con 22, Int -, Wis 1, Cha 1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate marshes</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-9 HD (<a href="ch22.html#CombatII28">Large</a>); 10-18 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>An <a href="ch70s03.html#MonstersO-R41">ochre jelly</a> can grow to a diameter of about 15 feet and a thickness of about 6 inches, but can compress its body to fit into cracks as small as 1 inch wide. A typical specimen weighs about 5,600 pounds.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2119572"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R42"/>
+          <p>An <a href="ch70s03.html#MonstersO-R41">ochre jelly</a> attempts to envelop and squeeze its prey.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2119603"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R43"/>
+            <p><span class="strong"><strong>Acid (Ex):</strong></span> An <a href="ch70s03.html#MonstersO-R41">ochre jelly</a> secretes a digestive acid that dissolves only flesh. Any melee hit or constrict attack deals acid damage.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2119778"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R44"/>
+            <p><span class="strong"><strong>Constrict (Ex):</strong></span> An <a href="ch70s03.html#MonstersO-R41">ochre jelly</a> deals automatic slam and acid damage with a successful grapple check.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2119817"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R45"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, an <a href="ch70s03.html#MonstersO-R41">ochre jelly</a> must hit with its slam attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2119858"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R46"/>
+            <p><span class="strong"><strong>Split (Ex):</strong></span> Slashing and piercing weapons and electricity attacks deal no damage to an <a href="ch70s03.html#MonstersO-R41">ochre jelly</a>. Instead the creature splits into two identical jellies, each with half of the original's current hit points (round down). A jelly with 10 hit points or less cannot be further split and dies if reduced to 0 it points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2119896"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersO-R47"/>
+            <p><span class="strong"><strong>Skills:</strong></span> An <a href="ch70s03.html#MonstersO-R41">ochre jelly</a> has a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills71">Climb</a> check, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s02.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s04.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Ogre Mage </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Orc</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

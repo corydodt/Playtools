@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Harpy</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch67.html" title="Monsters (H-I)"/>
+    <link rel="prev" href="ch67s05.html" title="Halfling"/>
+    <link rel="next" href="ch67s07.html" title="Hell Hound"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Harpy</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch67s05.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (H-I)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch67s07.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1778057"/>Harpy</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch67s06.html#id1779716">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch67s06.html#id1779996">Harpy Archer</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersH-I79"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1778076">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Harpy</strong></span></p></td> <td><p><span class="strong"><strong><a href="ch67s06.html#MonstersH-I83">Harpy Archer</a>, 7th-Level Fighter</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8 (31 hp)</p></td>
+<td><p>7d8 + 7d10 + 28 (103 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+<td><p>+9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 80 ft. (average)</p></td>
+<td><p>20 ft. (4 squares), fly 80 ft. (average)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>13 (+2 Dex, +1 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 11</p></td>
+<td><p><a href="ch21s02.html#CombatI11">AC</a> 23 (+5 Dex, +1 natural, +6 <span class="emphasis"><em>+3 studded leather</em></span>, <span class="emphasis"><em/></span> +1 <span class="emphasis"><em>ring of protection +1</em></span>), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+7</p></td>
+<td><p>+14/+15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Club +7 melee (1d6)</p></td>
+<td><p><span class="emphasis"><em>+1 frost composite longbow</em></span> (+1 Str bonus) +22 ranged (1d8+4/19-20/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities16">cold</a>) or claw +15 melee (1d3+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Club +7/+2 melee (1d6) and 2 claws +2 melee (1d3)</p></td>
+<td><p><span class="emphasis"><em>+1 frost composite longbow</em></span> (+1 Str bonus) +22/+17/+12 ranged (1d8+4/19-20/x3 plus 1d6 <a href="ch04.html#TypesSubtypesAbilities16">cold</a>) or 2 claws +15 melee (1d3+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Captivating song</p></td>
+<td><p>Captivating song</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft.</p></td>
+<td><p>Darkvision 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +2, Ref +7, Will +6</p></td>
+<td><p>Fort +11, Ref +14, Will +11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 10, Dex 15, Con 10, Int 7, Wis 12, Cha 17</p></td>
+<td><p>Str 12, Dex 20, Con 14, Int 6, Wis 11, Cha 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +11, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +7, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills222">Perform</a> (oratory) +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +11, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +5, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills222">Perform</a> (oratory) +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats272">Persuasive</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (composite longbow), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats243">Manyshot</a>, <a href="ch17s03.html#Feats274">Point Blank Shot</a>, <a href="ch17s03.html#Feats298">Rapid Shot</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (composite longbow), <a href="ch17s03.html#Feats394">Weapon Specialization</a> (composite longbow)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate marshes</p></td>
+<td><p>Temperate marshes</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or <a href="ch04.html#TypesSubtypesAbilities30">flight</a> (7-12)</p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+<td><p>11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+<td><p>Standard (including equipment)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch67s06.html#MonstersH-I79">Harpies</a> like to entrance hapless travelers with their magical songs and lead them to unspeakable torments. Only when a <a href="ch67s06.html#MonstersH-I79">harpy</a> has finished playing with its new 'toys' will it release them from suffering by killing and consuming them.<a href="img/MonstersH-I.Harpy.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersH-I.Harpy.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1779716"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I80"/>
+        <p>When a <a href="ch67s06.html#MonstersH-I79">harpy</a> engages in battle, it prefers to use <a href="ch20.html#MonsterFeats16">Flyby Attack</a> and strike with a melee weapon.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1779757"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I81"/>
+          <p><span class="strong"><strong>Captivating Song (Su):</strong></span> The most insidious ability of the <a href="ch67s06.html#MonstersH-I79">harpy</a> is its song. When a <a href="ch67s06.html#MonstersH-I79">harpy</a> sings, all creatures (other than <a href="ch67s06.html#MonstersH-I79">harpies</a>) within a 300-foot spread must succeed on a DC 16 Will save or become captivated. This is a sonic mind-affecting charm effect. A creature that successfully saves cannot be affected again by the same <a href="ch67s06.html#MonstersH-I79">harpy's</a> song for 24 hours. The save DC is Charisma-based.</p>
+          <p>A captivated victim walks toward the <a href="ch67s06.html#MonstersH-I79">harpy</a>, taking the most direct route available. If the path leads into a dangerous area (through flame, off a cliff, or the like), that creature gets a second saving throw. Captivated creatures can take no actions other than to defend themselves. (Thus, a fighter cannot run away or attack but takes no defensive penalties.) A victim within 5 feet of the <a href="ch67s06.html#MonstersH-I79">harpy</a> stands there and offers no resistance to the monster's attacks. The effect continues for as long as the <a href="ch67s06.html#MonstersH-I79">harpy</a> sings and for 1 round thereafter. A bard's countersong ability allows the captivated creature to attempt a new Will save.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1779868"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I82"/>
+          <p><span class="strong"><strong>Skills:</strong></span> <a href="ch67s06.html#MonstersH-I79">Harpies</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills204">Listen</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1779996"/>Harpy Archer</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch67s06.html#id1780036">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I83"/>
+        <p>A cruel hunter and roaming brigand, the <a href="ch67s06.html#MonstersH-I79">harpy</a> archer has trained as a fighter specializing in ranged combat. <a href="ch67s06.html#MonstersH-I79">Harpy</a> archers often become mercenaries, selling their services to the highest bidder. When not employed, they make ends meet as highway robbers, forcing merchant caravans to pay protection money.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1780036"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I84"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1780054"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersH-I85"/>
+            <p><span class="strong"><strong>Captivating Song (Su):</strong></span> Will DC 17 negates.</p>
+            <p><span class="emphasis"><em>Possessions: +3 studded leather</em></span>,  <span class="emphasis"><em>+1 frost composite longbow</em></span> (+1 Str bonus), 10 cold iron arrows, 10 silvered arrows, 5 <span class="emphasis"><em>+2 arrows</em></span>,  <span class="emphasis"><em>lesser</em></span> <span class="emphasis"><em>bracers of archery</em></span>,  <span class="emphasis"><em>potion of cure moderate</em></span> <span class="emphasis"><em>wounds</em></span>,  <span class="emphasis"><em>potion of <a href="ch44.html#SpellsC6">cat's grace</a></em></span>,  <span class="emphasis"><em>cloak of <a href="ch49.html#SpellsP-R69">resistance</a></em></span> <span class="emphasis"><em>+2</em></span>,  <span class="emphasis"><em>ring of protection +1</em></span>. (Different <a href="ch67s06.html#MonstersH-I79">harpy</a> archers may have different possessions.)</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch67s05.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch67.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch67s07.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Halfling </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Hell Hound</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

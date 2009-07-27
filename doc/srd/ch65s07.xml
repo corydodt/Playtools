@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ettin</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch65.html" title="Monsters (E-F)"/>
+    <link rel="prev" href="ch65s06.html" title="Ettercap"/>
+    <link rel="next" href="ch65s08.html" title="Fiendish Creature"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ettin</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch65s06.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (E-F)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch65s08.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1752440"/>Ettin</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch65s07.html#id1753459">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersE-F57"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1752458">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Ettin</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities33">Giant</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>10d8+20 (65 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. in hide armor (6 squares); base <a href="ch21s02.html#CombatI14">speed</a> 40 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, -1 Dex, +7 natural, +3 hide), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Morningstar +12 melee (2d6+6) or javelin +5 ranged (1d8+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 morningstars +12/+7 melee (2d6+6) or 2 javelins +5 ranged (1d8+6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities40">Low-light vision</a>, superior <a href="ch22s03.html#CombatII120">two-weapon fighting</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +2, Will +5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 23, Dex 8, Con 15, Int 6, Wis 10, Cha 11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills253">Search</a> +1, <a href="ch16s03.html#CombinedSkills294">Spot</a> +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities16">Cold</a> hills</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, gang (2-4), troupe (1-2 plus 1-2 <a href="ch73s06.html#MonstersAnimals18">brown bears</a>), band (3-5 plus 1-2 <a href="ch73s06.html#MonstersAnimals18">brown bears</a>), or colony (3-5 plus 1-2 <a href="ch73s06.html#MonstersAnimals18">brown bears</a> and 7-12 <a href="ch70s04.html#MonstersO-R48">orcs</a> or 9-16 <a href="ch66s11.html#MonstersG136">goblins</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+5</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch65s07.html#MonstersE-F57">Ettins</a>, or two-headed <a href="ch66s06.html#MonstersG67">giants</a>, are vicious and unpredictable hunters that stalk the night.<a href="img/MonstersE-F.Ettin.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersE-F.Ettin.jpg" align="right"/></span></a></p>
+      <p>An <a href="ch65s07.html#MonstersE-F57">ettin</a> never bathes if it can help it, which usually leaves it so grimy and dirty its skin resembles thick, gray hide. Adult <a href="ch65s07.html#MonstersE-F57">ettins</a> are about 13 feet tall and weigh 5,200 pounds. They live about 75 years.</p>
+      <p><a href="ch65s07.html#MonstersE-F57">Ettins</a> have no language of their own but speak a pidgin of <a href="ch70s04.html#MonstersO-R48">Orc</a>, <a href="ch66s11.html#MonstersG136">Goblin</a>, and <a href="ch66s06.html#MonstersG67">Giant</a>. Creatures that can speak any of these languages must succeed on a DC 15 Intelligence check to communicate with an <a href="ch65s07.html#MonstersE-F57">ettin</a>. Check once for each bit of information: If the other creature speaks two of these languages, the DC is 10, and for someone who speaks all three, the DC is 5.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1753459"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersE-F58"/>
+        <p>Though <a href="ch65s07.html#MonstersE-F57">ettins</a> aren't very intelligent, they are cunning fighters.</p>
+        <p>They prefer to ambush their victims rather than charge into a straight fight, but once the battle has started, an <a href="ch65s07.html#MonstersE-F57">ettin</a> usually fights furiously until all enemies are dead.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1753505"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersE-F59"/>
+          <p><span class="strong"><strong>Superior Two-Weapon Fighting (Ex):</strong></span> An <a href="ch65s07.html#MonstersE-F57">ettin</a> fights with a morningstar or javelin in each hand. Because each of its two heads controls an arm, the <a href="ch65s07.html#MonstersE-F57">ettin</a> does not take a penalty on attack or damage rolls for attacking with two weapons.</p>
+          <p>Skills: An <a href="ch65s07.html#MonstersE-F57">ettin's</a> two heads give it a +2 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills294">Spot</a>, and <a href="ch16s03.html#CombinedSkills253">Search</a> checks.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch65s06.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch65.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch65s08.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Ettercap </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Fiendish Creature</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Basilisk</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="prev" href="ch61.html" title="Monsters (B-C)"/>
+    <link rel="next" href="ch61s03.html" title="Behir"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Basilisk</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch61.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (B-C)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch61s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1607184"/>Basilisk</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch61s02.html#id1606315">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch61s02.html#id1609807">Abyssal Greater Basilisk</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersB-C12"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1606391">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Basilisk</strong></span></p></td> <td><p><span class="strong"><strong>Abyssal Greater Basilisk</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities10">Augmented</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d10+12 (45 hp)</p></td>
+<td><p>18d10+90 (189 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares)</p></td>
+<td><p>20 ft. (4 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (-1 Dex, +7 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 16</p></td>
+<td><p>17 (-1 Dex, -1 size, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 8, <a href="ch21s03.html#CombatI21">flat-footed</a> 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+8</p></td>
+<td><p>+18/+29</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +8 melee (1d8+3)</p></td>
+<td><p>Bite +25 melee (2d8+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +8 melee (1d8+3)</p></td>
+<td><p>Bite +25 melee (2d8+10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Petrifying <a href="ch04.html#TypesSubtypesAbilities32">gaze</a></p></td>
+<td><p>Petrifying <a href="ch04.html#TypesSubtypesAbilities32">gaze</a>, smite <a href="ch04.html#TypesSubtypesAbilities35">good</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a></p></td>
+<td><p>Resistance to <a href="ch04.html#TypesSubtypesAbilities16">cold</a> 10 and <a href="ch04.html#TypesSubtypesAbilities29">fire</a> 10, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/magic, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 23</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +9, Ref +4, Will +3</p></td>
+<td><p>Fort +18, Ref +12, Will +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 8, Con 15, Int 2, Wis 12, Cha 11</p></td>
+<td><p>Str 24, Dex 8, Con 21, Int 3, Wis 10, Cha 15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +0*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +0*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch20.html#MonsterFeats28">Improved Natural Attack</a> (bite), <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm deserts</p></td>
+<td><p>A <a href="ch02s02.html#Description14">chaotic evil</a> plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or colony (3-6)</p></td>
+<td><p>Solitary or colony (3-6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>5</p></td>
+<td><p>12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-10 HD (<a href="ch22.html#CombatII28">Medium</a>); 11-18 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch61s02.html#MonstersB-C12">basilisk</a> is a reptilian monster that petrifies living creatures with a mere gaze. A <a href="ch61s02.html#MonstersB-C12">basilisk</a> usually has a dull brown body with a yellowish underbelly. Some specimens sport a short, curved horn atop the nose. An adult <a href="ch61s02.html#MonstersB-C12">basilisk's</a> body grows to about 6 feet long, not including its tail, which can reach an additional length of 5 to 7 feet. The creature weighs about 300 pounds.<a href="img/MonstersB-C.Basilisk.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Basilisk.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1606315"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C13"/>
+        <p>A <a href="ch61s02.html#MonstersB-C12">basilisk</a> relies on its gaze attack, biting only when opponents come within reach. Though it has eight legs, its slow metabolism renders it relatively sluggish, so it does not expend energy unnecessarily. Intruders who flee a <a href="ch61s02.html#MonstersB-C12">basilisk</a> rather than fight can expect, at best, a halfhearted pursuit. These creatures tend to spend most of their time lying in wait for prey, which includes small mammals, birds, reptiles, and similar creatures.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1606355"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C14"/>
+          <p><span class="strong"><strong>Petrifying Gaze (Su):</strong></span> Turn to stone permanently, range 30 feet; Fortitude DC 13 negates. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1606384"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C15"/>
+          <p><span class="strong"><strong>Skills:</strong></span> *The <a href="ch61s02.html#MonstersB-C12">basilisk's</a> dull coloration and its ability to remain motionless for long periods of time grant it a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks in natural settings.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1609807"/>Abyssal Greater Basilisk</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch61s02.html#id1609826">Combat<span class="inlinemediaobject"><img src="thumb/MonstersB-C.Abyssal_Greater_Basilisk.jpg" align="right"/></span></a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersB-C16"/>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1609826"/>Combat<a href="img/MonstersB-C.Abyssal_Greater_Basilisk.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersB-C.Abyssal_Greater_Basilisk.jpg" align="right"/></span></a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersB-C17"/>
+          <p>The save DC for the <a href="ch61s02.html#MonstersB-C16">abyssal greater basilisk's</a> petrifying gaze (DC 21) is adjusted for its greater Hit Dice and higher Charisma score.</p>
+          <p>An <a href="ch61s02.html#MonstersB-C16">abyssal greater basilisk's</a> natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1609889"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersB-C18"/>
+            <p><span class="strong"><strong>Smite Good (Su):</strong></span> Once per day an <a href="ch61s02.html#MonstersB-C16">abyssal greater basilisk</a> can make a normal melee attack to deal an extra 18 points of damage against a good foe.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch61.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch61.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch61s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monsters (B-C) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Behir</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

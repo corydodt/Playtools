@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Swarm</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch71.html" title="Monsters (S)"/>
+    <link rel="prev" href="ch71s16.html" title="Stirge"/>
+    <link rel="next" href="ch72.html" title="Monsters (T-Z)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Swarm</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch71s16.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (S)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2204449"/>Swarm</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch71s17.html#id2204857">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect4">
+              <a href="ch71s17.html#id2204915">Vulnerabilities of Swarms</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s17.html#id2204995">Bat Swarm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s17.html#id2206504">Centipede Swarm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s17.html#id2208368">Hellwasp Swarm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s17.html#id2211099">Locust Swarm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s17.html#id2212790">Rat Swarm</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch71s17.html#id2213993">Spider Swarm</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersS147"/>
+      <p><a href="ch71s17.html#MonstersS147">Swarms</a> are dense masses of Fine, Diminutive, or Tiny creatures that would not be particularly dangerous in small groups, but can be terrible foes when gathered in sufficient numbers. For game purposes a <a href="ch71s17.html#MonstersS147">swarm</a> is defined as a single creature with a space of 10 feet-gigantic hordes are actually composed of dozens of <a href="ch71s17.html#MonstersS147">swarms</a> in close proximity. A <a href="ch71s17.html#MonstersS147">swarm</a> has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. It makes saving throws as a single creature.<a href="img/MonstersS.Swarm.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersS.Swarm.jpg" align="right"/></span></a></p>
+      <p>Many different creatures can mass as <a href="ch71s17.html#MonstersS147">swarms</a>; <a href="ch71s17.html#MonstersS151">bat swarms</a>, <a href="ch71s17.html#MonstersS157">centipede swarms</a>, <a href="ch71s17.html#MonstersS162">hellwasp swarms</a>, <a href="ch71s17.html#MonstersS168">locust swarms</a>, <a href="ch71s17.html#MonstersS172">rat swarms</a>, and <a href="ch71s17.html#MonstersS177">spider swarms</a> are described here. The <a href="ch71s17.html#MonstersS147">swarm's</a> type varies with the nature of the component creature (most are animals or vermin), but all <a href="ch71s17.html#MonstersS147">swarms</a> have the <a href="ch71s17.html#MonstersS147">swarm</a> subtype.</p>
+      <p>A <a href="ch71s17.html#MonstersS147">swarm</a> of Tiny creatures consists of 300 nonflying creatures or 1,000 flying creatures. A <a href="ch71s17.html#MonstersS147">swarm</a> of Diminutive creatures consists of 1,500 nonflying creatures or 5,000 flying creatures. A <a href="ch71s17.html#MonstersS147">swarm</a> of Fine creatures consists of 10,000 creatures, whether they are flying or not. <a href="ch71s17.html#MonstersS147">Swarms</a> of nonflying creatures include many more creatures than could normally fit in a 10-foot square based on their normal space, because creatures in a <a href="ch71s17.html#MonstersS147">swarm</a> are packed tightly together and generally crawl over each other and their prey when moving or attacking. Larger <a href="ch71s17.html#MonstersS147">swarms</a> are represented by multiples of single <a href="ch71s17.html#MonstersS147">swarms</a>. A large <a href="ch71s17.html#MonstersS147">swarm</a> is completely shapeable, though it usually remains contiguous.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2204857"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS148"/>
+        <p>In order to attack, a single <a href="ch71s17.html#MonstersS147">swarm</a> moves into opponents' spaces, which provokes an attack of opportunity. It can occupy the same space as a creature of any size, since it crawls all over its prey, but remains a creature with a 10-foot space. <a href="ch71s17.html#MonstersS147">Swarms</a> never make attacks of opportunity, but they can provoke attacks of opportunity.</p>
+        <p>Unlike other creatures with a 10-foot space, a <a href="ch71s17.html#MonstersS147">swarm</a> is shapeable. It can occupy any four contiguous squares, and it can squeeze through any space large enough to contain one of its component creatures.</p>
+      </div>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2204915"/>Vulnerabilities of Swarms</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersS149"/>
+        <p><a href="ch71s17.html#MonstersS147">Swarms</a> are extremely difficult to fight with physical attacks. However, they have a few special vulnerabilities,</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2204946"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersS150"/>
+          <p>as follows:</p>
+          <p>A lit torch swung as an improvised weapon deals 1d3 points of fire damage per hit.</p>
+          <p>A weapon with a special ability such as flaming or frost deals its full energy damage with each hit, even if the weapon's normal damage can't affect the <a href="ch71s17.html#MonstersS147">swarm</a>.</p>
+          <p>A lit lantern can be used as a thrown weapon, dealing 1d4 points of fire damage to all creatures in squares adjacent to where it breaks.</p>
+          <p/>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2204995"/>Bat Swarm</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s17.html#id2206039">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS151"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2205014">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Bat Swarm</strong></span></p></td> 
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Diminutive</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a> (<a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td> 
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>5 ft. (1 square), fly 40 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>16 (+4 size, +2 Dex), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (1d6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (1d6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Distraction, wounding</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities11">Blindsense</a> 20 ft., half <a href="ch21s02.html#CombatI7">damage</a> from slashing and piercing, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +7, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 3, Dex 15, Con 10, Int 2, Wis 14, Cha 4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate deserts</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, <a href="ch04.html#TypesSubtypesAbilities30">flight</a> (2-4 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or colony (11-20 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch71s17.html#MonstersS151">bat swarm</a> is nocturnal, and is never found aboveground in daylight.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2206039"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS152"/>
+          <p>A <a href="ch71s17.html#MonstersS151">bat swarm</a> seeks to surround and attack any warm-blooded prey it encounters. The <a href="ch71s17.html#MonstersS147">swarm</a> deals 1d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2206082"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS153"/>
+            <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch71s17.html#MonstersS147">swarm</a> in its space must succeed on a DC 11 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2206122"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS154"/>
+            <p><span class="strong"><strong>Wounding (Ex):</strong></span> Any living creature damaged by a <a href="ch71s17.html#MonstersS151">bat swarm</a> continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 <a href="ch16s03.html#CombinedSkills171">Heal</a> check or the application of a <span class="emphasis"><em>cure</em></span> spell or some other healing magic.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2206314"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS155"/>
+            <p><span class="strong"><strong>Blindsense (Ex):</strong></span> A <a href="ch71s17.html#MonstersS151">bat swarm</a> notices and locates creatures within 20 feet. Opponents still have total concealment against the <a href="ch71s17.html#MonstersS151">bat swarm</a> (but <a href="ch71s17.html#MonstersS147">swarm</a> attacks ignore concealment).</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2206373"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS156"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71s17.html#MonstersS151">bat swarm</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks. These bonuses are lost if its blindsense is negated.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2206504"/>Centipede Swarm</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s17.html#id2207744">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS157"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2206522">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Centipede Swarm</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Diminutive</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a> (<a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d8-9 (31 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), climb 20 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+4 size, +4 Dex), <a href="ch21s02.html#CombatI12">touch</a> 18, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (2d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (2d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Distraction, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immune to weapon <a href="ch21s02.html#CombatI7">damage,</a> <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 30 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +7, Will +3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 1, Dex 19, Con 8, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +12, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats386">Weapon Finesse</a> <sup>B</sup></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, tangle (2-4 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or colony (7-12 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2207744"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS158"/>
+          <p>A <a href="ch71s17.html#MonstersS157">centipede swarm</a> seeks to surround and attack any living prey it encounters. A <a href="ch71s17.html#MonstersS147">swarm</a> deals 2d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2207786"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS159"/>
+            <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch71s17.html#MonstersS157">centipede swarm</a> in its space must succeed on a DC 13 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2208031"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS160"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 13, initial and secondary damage 1d4 Dex. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2208060"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS161"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71s17.html#MonstersS157">centipede swarm</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks and a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, and uses its Dexterity modifier instead of its Strength modifier for <a href="ch16s03.html#CombinedSkills71">Climb</a> checks. A <a href="ch71s17.html#MonstersS157">centipede swarm</a> has a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks and can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills71">Climb</a> check, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2208368"/>Hellwasp Swarm</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s17.html#id2209922">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS162"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2208386">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Hellwasp Swarm</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Diminutive</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>12d10+27 (93 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>5 ft. (1 square), fly 40 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>20 (+4 size, +6 Dex), <a href="ch21s02.html#CombatI12">touch</a> 20, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+12/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (3d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (3d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Distraction, inhabit, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities19">Damage reduction</a> 10/magic, darkvision 60 ft., hive mind, immune to weapon <a href="ch21s02.html#CombatI7">damage,</a> <a href="ch04.html#TypesSubtypesAbilities60">fire resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +10, Ref +14, Will +7</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 1, Dex 22, Con 14, Int 6, Wis 13, Cha 9</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +19, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats2">Ability Focus</a> (<a href="ch04.html#TypesSubtypesAbilities52">poison</a>), <a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A evil-aligned plane</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, fright (2-4 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or terror (5-8 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>8</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A single hellwasp resembles a thumb-sized normal wasp, except its carapace is gleaming black with ruby-red stripes, and its compound eyes are an iridescent green. In <a href="ch71s17.html#MonstersS147">swarms</a>, hellwasps form a collective hive mind intelligence with <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> cunning and bloodlust.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2209922"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS163"/>
+          <p>Like any <a href="ch71s17.html#MonstersS147">swarm</a>, a <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> seeks to surround and attack any living prey it encounters. A <a href="ch71s17.html#MonstersS147">swarm</a> deals 3d6 points of damage to any creature whose space it occupies at the end of its move. The <a href="ch71s17.html#MonstersS147">swarm</a> can take over the bodies of its prey and infest both the living and the dead, using them as horrible living (or unliving) puppets to accomplish acts of wickedness that a <a href="ch71s17.html#MonstersS147">swarm</a> of insects could never attempt.</p>
+          <p>A <a href="ch71s17.html#MonstersS162">hellwasp swarm's</a> attack is treated as an evil-aligned weapon and a magic weapon for the purpose of overcoming damage reduction.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2210010"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS164"/>
+            <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> in its space must succeed on a DC 18 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2210050"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS165"/>
+            <p><span class="strong"><strong>Inhabit (Ex):</strong></span> A <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> can enter the body of a helpless or dead creature by crawling into its mouth and other orifices. Inhabiting requires 1 minute, and the victim must be Small, Medium, or Large (although four <a href="ch71s17.html#MonstersS147">swarms</a> working together can  inhabit a Huge creature). The <a href="ch71s17.html#MonstersS147">swarm</a> can abandon the body at any time, although doing this takes 1 full round. Any attack against the host deals half damage to the <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> as well, although the <a href="ch71s17.html#MonstersS147">swarm's</a> resistances and immunities may negate some or all of this damage.</p>
+            <p>If a <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> inhabits a dead body, it can restore animation to the creature and control its movements, effectively transforming it into a zombie of the appropriate size for as long as the <a href="ch71s17.html#MonstersS147">swarm</a> remains inside. If a <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> inhabits a living victim, it can neutralize the effects of its own poison and control the victim's movement and actions as if using <span class="emphasis"><em><a href="ch45.html#SpellsD-E53">dominate monster</a></em></span> on the victim. The hellwasps quickly consume a living victim, dealing 2d4 points of Constitution damage per hour they inhabit a body. A body reduced to Constitution 0 is dead.</p>
+            <p>A hellwasp-inhabited creature is relatively easy to spot, since its skin crawls with the forms of insects inside. The <a href="ch71s17.html#MonstersS147">swarm</a> is intelligent enough to attempt to hide beneath loose clothing or a large cloak to keep its presence from being detected. The <a href="ch71s17.html#MonstersS147">swarm</a> can attempt a <a href="ch16s03.html#CombinedSkills130">Disguise</a> check to conceal its inhabitation of a host, with a -4 penalty if currently inhabiting a Small host.</p>
+            <p>A <span class="emphasis"><em><a href="ch49.html#SpellsP-R61">remove disease</a></em></span> or <span class="emphasis"><em><a href="ch47.html#SpellsH-L7">heal</a></em></span> spell cast on an inhabited victim forces the <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> to abandon its host.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2211006"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS166"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 18, initial and secondary damage 1d6 Dex. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2211035"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS167"/>
+            <p><span class="strong"><strong>Hive Mind (Ex):</strong></span> Any <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> with at least 1 hit point per Hit Die (or 12 hit points, for a standard <a href="ch71s17.html#MonstersS162">hellwasp swarm</a>) forms a hive mind, giving it an Intelligence of 6. When a <a href="ch71s17.html#MonstersS162">hellwasp swarm</a> is reduced below this hit point threshold, it becomes mindless.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2211099"/>Locust Swarm</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s17.html#id2212646">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS168"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2211117">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Locust Swarm</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Diminutive</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a> (<a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8-6 (21 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>10 ft. (2 squares), fly 30 ft. (poor)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (+4 size, +4 Dex), <a href="ch21s02.html#CombatI12">touch</a> 18, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+4/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (2d6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (2d6)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Distraction</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., immune to weapon <a href="ch21s02.html#CombatI7">damage,</a> <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits, <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +6, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 1, Dex 19, Con 8, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Temperate plains</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, cloud (2-7 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or plague (11-20 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p>A <a href="ch71s17.html#MonstersS168">locust swarm</a> is a cloud of thousands of winged vermin that devours any organic material in its path.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2212646"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS169"/>
+          <p>A <a href="ch71s17.html#MonstersS168">locust swarm</a> surrounds and attacks any living prey it encounters. A <a href="ch71s17.html#MonstersS147">swarm</a> deals 2d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2212688"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS170"/>
+            <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch71s17.html#MonstersS168">locust swarm</a> in its space must succeed on a DC 12 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2212728"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS171"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71s17.html#MonstersS168">locust swarm</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2212790"/>Rat Swarm</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s17.html#id2213638">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS172"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2212808">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Rat Swarm</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Tiny</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a> (<a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d8 (13 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>15 ft. (3 squares), climb 15 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+2 size, +2 Dex), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (1d6 plus disease)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (1d6 plus disease)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Disease, distraction</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Half <a href="ch21s02.html#CombatI7">damage</a> from slashing and piercing, <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>, <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +4, Ref +6, Will +2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 2, Dex 15, Con 10, Int 2, Wis 12, Cha 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +10, <a href="ch16s03.html#CombinedSkills71">Climb</a> +10, <a href="ch16s03.html#CombinedSkills179">Hide</a> +14, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7, <a href="ch16s03.html#CombinedSkills311">Swim</a> +10</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pack (2-4 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or infestation (7-12 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2213638"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS173"/>
+          <p>A <a href="ch71s17.html#MonstersS172">rat swarm</a> seeks to surround and attack any warm-blooded prey it encounters. A <a href="ch71s17.html#MonstersS147">swarm</a> deals 1d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2213680"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS174"/>
+            <p><span class="strong"><strong>Disease (Ex):</strong></span> Filth fever-swarm attack, Fortitude DC 12, incubation period 1d3 days, damage 1d3 Dex and 1d3 Con. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2213710"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS175"/>
+            <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch71s17.html#MonstersS147">swarm</a> in its square must succeed on a DC 12 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2213819"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS176"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71s17.html#MonstersS172">rat swarm</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks, and a +8 racial bonus on <a href="ch16s03.html#CombinedSkills55">Balance</a>, <a href="ch16s03.html#CombinedSkills71">Climb</a>, and <a href="ch16s03.html#CombinedSkills311">Swim</a> checks. A <a href="ch71s17.html#MonstersS172">rat swarm</a> can always choose to take 10 on all <a href="ch16s03.html#CombinedSkills71">Climb</a> checks, even if rushed or threatened. A <a href="ch71s17.html#MonstersS172">rat swarm</a> uses its Dexterity modifier instead of its Strength modifier for <a href="ch16s03.html#CombinedSkills71">Climb</a> and <a href="ch16s03.html#CombinedSkills311">Swim</a> checks. A <a href="ch71s17.html#MonstersS172">rat swarm</a> has a +8 racial bonus on any <a href="ch16s03.html#CombinedSkills311">Swim</a> check to perform some special action or avoid a hazard. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills311">Swim</a> check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2213993"/>Spider Swarm</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch71s17.html#id2214785">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersS177"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2214011">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Spider Swarm</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Diminutive</a> <a href="ch04.html#TypesSubtypesAbilities77">Vermin</a> (<a href="ch04.html#TypesSubtypesAbilities70">Swarm</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8 (9 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), climb 20 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (+4 size, +3 Dex), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (1d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities70">Swarm</a> (1d6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./0 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Distraction, <a href="ch04.html#TypesSubtypesAbilities52">poison</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities70">swarm</a> traits, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 30 ft., <a href="ch04.html#TypesSubtypesAbilities77">vermin</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +3, Ref +3, Will +0</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 1, Dex 17, Con 10, Int -, Wis 10, Cha 2</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +11, <a href="ch16s03.html#CombinedSkills204">Listen</a> +4, <a href="ch16s03.html#CombinedSkills294">Spot</a> +4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm forests</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, tangle (2-4 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>), or colony (7-12 <a href="ch04.html#TypesSubtypesAbilities70">swarms</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2214785"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersS178"/>
+          <p>A <a href="ch71s17.html#MonstersS177">spider swarm</a> seeks to surround and attack any living prey it encounters. A <a href="ch71s17.html#MonstersS147">swarm</a> deals 1d6 points of damage to any creature whose space it occupies at the end of its move.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2214827"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS179"/>
+            <p><span class="strong"><strong>Distraction (Ex):</strong></span> Any living creature that begins its turn with a <a href="ch71s17.html#MonstersS177">spider swarm</a> in its space must succeed on a DC 11 Fortitude save or be nauseated for 1 round. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2214936"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS180"/>
+            <p><span class="strong"><strong>Poison (Ex):</strong></span> Injury, Fortitude DC 11, initial and secondary damage 1d3 Str. The save DC is Constitution-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2214966"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersS181"/>
+            <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch71s17.html#MonstersS177">spider swarm</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks and a +8 racial bonus on <a href="ch16s03.html#CombinedSkills71">Climb</a> checks. It uses its Dexterity modifier instead of its Strength modifier for <a href="ch16s03.html#CombinedSkills71">Climb</a> checks. It can always choose to take 10 on a <a href="ch16s03.html#CombinedSkills71">Climb</a> check, even if rushed or threatened.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch71s16.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch71.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Stirge </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (T-Z)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

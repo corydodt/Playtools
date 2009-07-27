@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ghoul</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch66.html" title="Monsters (G)"/>
+    <link rel="prev" href="ch66s04.html" title="Ghost"/>
+    <link rel="next" href="ch66s06.html" title="Giant"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ghoul</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66s04.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (G)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch66s06.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1790111"/>Ghoul</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch66s05.html#id1791306">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s05.html#id1791491">Lacedon</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s05.html#id1791595">Ghast</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersG57"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1790129">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Ghoul</strong></span></p></td>
+<td><p><span class="strong"><strong>Ghast</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d12 (13 hp)</p></td>
+<td><p>4d12+3 (29 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>14 (+2 Dex, +2 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+<td><p>17 (+3 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+1/+2</p></td>
+<td><p>+2/+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +2 melee (1d6+1 plus <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>)</p></td>
+<td><p>Bite +5 melee (1d8+3 plus <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +2 melee (1d6+1 plus <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>) and 2 claws +0 melee (1d3 plus <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>)</p></td>
+<td><p>Bite +5 melee (1d8+3 plus <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>) and 2 claws +3 melee (1d4+1 plus <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch66s05.html#MonstersG57">Ghoul</a> fever, <a href="ch04.html#TypesSubtypesAbilities50">paralysis</a></p></td>
+<td><p><a href="ch66s05.html#MonstersG57">Ghoul</a> fever, paralyis, stench</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, +2 <a href="ch04.html#TypesSubtypesAbilities75">turn resistance</a></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, +2 <a href="ch04.html#TypesSubtypesAbilities75">turn resistance</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +0, Ref +2, Will +5</p></td>
+<td><p>Fort +1, Ref +4, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 13, Dex 15, Con -, Int 13, Wis 14, Cha 12</p></td>
+<td><p>Str 17, Dex 17, Con -, Int 13, Wis 14, Cha 16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +6, <a href="ch16s03.html#CombinedSkills71">Climb</a> +5, <a href="ch16s03.html#CombinedSkills179">Hide</a> +6, <a href="ch16s03.html#CombinedSkills192">Jump</a> +5, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +7</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +7, <a href="ch16s03.html#CombinedSkills71">Climb</a> +9, <a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills192">Jump</a> +9, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +8, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats31">Multiattack</a></p></td>
+<td><p><a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p>
+<p>(Lacedon: Any <a href="ch04.html#TypesSubtypesAbilities8">aquatic</a>)</p></td> <td><p>Any</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, gang (2-4), or pack (7-12)</p></td>
+<td><p>Solitary, gang (2-4), or pack (2-4 plus 7-12 <a href="ch66s05.html#MonstersG57">ghouls</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+<td><p>3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>3 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>5-8 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch66s05.html#MonstersG57">Ghouls</a> speak the languages they spoke in life (usually Common).<a href="img/MonstersG.Ghoul.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Ghoul.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1791306"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG58"/>
+        <p><a href="ch66s05.html#MonstersG57">Ghouls</a> try to attack with surprise whenever possible. They strike from behind tombstones and burst from shallow graves.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1791337"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG59"/>
+          <p><span class="strong"><strong>Ghoul Fever (Su):</strong></span> Disease-bite, Fortitude DC 12, incubation period 1 day, damage 1d3 Con and 1d3 Dex. The save DC is Charisma-based.</p>
+          <p>An afflicted humanoid who dies of <a href="ch66s05.html#MonstersG57">ghoul</a> fever rises as a <a href="ch66s05.html#MonstersG57">ghoul</a> at the next midnight. A humanoid who becomes a <a href="ch66s05.html#MonstersG57">ghoul</a> in this way retains none of the abilities it possessed in life. It is not under the control of any other <a href="ch66s05.html#MonstersG57">ghouls</a>, but it hungers for the flesh of the living and behaves like a normal <a href="ch66s05.html#MonstersG57">ghoul</a> in all respects. A humanoid of 4 Hit Dice or more rises as a <a href="ch66s05.html#MonstersG62">ghast</a>, not a <a href="ch66s05.html#MonstersG57">ghoul</a>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1791440"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG60"/>
+          <p><span class="strong"><strong>Paralysis (Ex):</strong></span> Those hit by a <a href="ch66s05.html#MonstersG57">ghoul's</a> bite or claw attack must succeed on a DC 12 Fortitude save or be paralyzed for 1d4+1 rounds. <a href="ch65s03.html#MonstersE-F26">Elves</a> have immunity to this paralysis. The save DC is Charisma-based.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1791491"/>Lacedon</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG61"/>
+        <p>These cousins of the <a href="ch66s05.html#MonstersG57">ghoul</a> have the aquatic subtype. They lurk near hidden reefs or other places where ships are likely to meet their end. They have a base land speed of 30 feet and a swim speed of 30 feet and are found only in aquatic environments.</p>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1791595"/>Ghast</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch66s05.html#id1791618">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersG62"/>
+        <p>Although these creatures look just like their lesser kin, they are far more deadly and cunning.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id1791618"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersG63"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1791636"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG64"/>
+            <p><span class="strong"><strong>Ghoul Fever (Su):</strong></span> Disease-bite, Fortitude DC 15, incubation period 1 day, damage 1d3 Con and 1d3 Dex. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1791871"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG65"/>
+            <p><span class="strong"><strong>Paralysis (Ex):</strong></span> Those hit by a <a href="ch66s05.html#MonstersG62">ghast's</a> bite or claw attack must succeed on a DC 15 Fortitude save or be paralyzed for 1d4+1 rounds. Even <a href="ch65s03.html#MonstersE-F26">elves</a> can be affected by this paralysis. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id1791919"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersG66"/>
+            <p><span class="strong"><strong>Stench (Ex):</strong></span> The stink of death and corruption surrounding these creatures is overwhelming. Living creatures within 10 feet must succeed on a DC 15 Fortitude save or be sickened for 1d6+4 minutes. A creature that successfully saves cannot be affected again by the same <a href="ch66s05.html#MonstersG62">ghast's</a> stench for 24 hours. A <span class="emphasis"><em><a href="ch45.html#SpellsD-E13">delay poison</a></em></span> or <span class="emphasis"><em><a href="ch48.html#SpellsM-O48">neutralize poison</a></em></span> spell removes the effect from a sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws. The save DC is Charisma-based.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66s04.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch66.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch66s06.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Ghost </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Giant</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Grimlock</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch66.html" title="Monsters (G)"/>
+    <link rel="prev" href="ch66s16.html" title="Griffon"/>
+    <link rel="next" href="ch67.html" title="Monsters (H-I)"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Grimlock</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch66s16.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (G)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch67.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1821103"/>Grimlock</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch66s17.html#id1821877">Combat<span class="inlinemediaobject"><img src="thumb/MonstersG.Grimlock.jpg" align="right"/></span></a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch66s17.html#id1822678">Grimlocks as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersG186"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1821122">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Grimlock</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities43">Monstrous Humanoid</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>2d8+2 (11 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+1 Dex, +4 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+4</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Battleaxe +4 melee (1d8+3/3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Battleaxe +4 melee (1d8+3/3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 40 ft., immunities, <a href="ch04.html#TypesSubtypesAbilities61">scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +4, Will +2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 13, Con 13, Int 10, Wis 8, Cha 6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +3*, <a href="ch16s03.html#CombinedSkills204">Listen</a> +5, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats369">Track</a> <sup>B</sup></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Gang (2-4), pack (10-20), tribe (10-60 plus 1 leader of 3rd-5th level per 10 adults).</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>1</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; standard <a href="ch04.html#TypesSubtypesAbilities35">goods</a> (gems only); standard items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Often <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1821877"/>Combat<a href="img/MonstersG.Grimlock.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersG.Grimlock.jpg" align="right"/></span></a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG187"/>
+        <p><a href="ch66s17.html#MonstersG186">Grimlocks</a> are blind, but their exceptional senses of smell and hearing allow them to notice foes nearby. As a result, they usually shun ranged weapons and rush to the attack, brandishing their stone battleaxes.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1822064"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG188"/>
+          <p><span class="strong"><strong>Blindsight (Ex):</strong></span> <a href="ch66s17.html#MonstersG186">Grimlocks</a> can sense all foes within 40 feet as a sighted creature would. Beyond that range, they treat all targets as having total concealment.</p>
+          <p><a href="ch66s17.html#MonstersG186">Grimlocks</a> are susceptible to sound- and scent-based attacks, however, and are affected normally by loud noises and sonic spells (such as <span class="emphasis"><em><a href="ch46.html#SpellsF-G40">ghost sound</a></em></span> or <span class="emphasis"><em><a href="ch50.html#SpellsS37">silence</a></em></span>) and overpowering odors (such as <span class="emphasis"><em><a href="ch50.html#SpellsS68">stinking cloud</a></em></span> or incense-heavy air). Negating a <a href="ch66s17.html#MonstersG186">grimlock's</a> sense of smell or hearing reduces this ability to normal <a href="ch17s03.html#Feats53">Blind-Fight</a> (as the feat). If both these senses are negated, a <a href="ch66s17.html#MonstersG186">grimlock</a> is effectively blinded.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1822590"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG189"/>
+          <p><span class="strong"><strong>Immunities:</strong></span> <a href="ch66s17.html#MonstersG186">Grimlocks</a> are immune to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1822627"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersG190"/>
+          <p><span class="strong"><strong>Skills:</strong></span> *A <a href="ch66s17.html#MonstersG186">grimlock's</a> dull gray skin helps it hide in its native terrain, conferring a +10 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks when in mountains or underground.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1822678"/>Grimlocks as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersG191"/>
+        <p><a href="ch66s17.html#MonstersG186">Grimlock</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+4 Strength, +2 Dexterity, +2 Constitution, -2 Wisdom, -4 Charisma.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-A <a href="ch66s17.html#MonstersG186">grimlock's</a> base land speed is 30 feet.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: A <a href="ch66s17.html#MonstersG186">grimlock</a> begins with two levels of <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a>, which provide 2d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: A <a href="ch66s17.html#MonstersG186">grimlock's</a> <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a> levels give it skill points equal to 5 x (2 + Int modifier, minimum 1). Its class skills are <a href="ch16s03.html#CombinedSkills71">Climb</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>. <a href="ch66s17.html#MonstersG186">Grimlocks</a> gain a +10 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> checks in mountain or underground settings.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: A <a href="ch66s17.html#MonstersG186">grimlock's</a> <a href="ch04.html#TypesSubtypesAbilities43">monstrous humanoid</a> levels give it one feat.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Weapon Proficiency: A <a href="ch66s17.html#MonstersG186">grimlock</a> is automatically proficient with the battleaxe.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>+4 natural armor bonus.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities12">Blindsight</a> 40 ft., immunities, <a href="ch04.html#TypesSubtypesAbilities61">scent</a>.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: Common, <a href="ch66s17.html#MonstersG186">Grimlock</a>. Bonus Languages: Draconic, Dwarven, <a href="ch66s10.html#MonstersG128">Gnome</a>, Terran, Undercommon.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Barbarian.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level adjustment +2.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch66s16.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch66.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch67.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Griffon </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Monsters (H-I)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

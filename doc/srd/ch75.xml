@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Epic Monsters (A-E)</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="pt11.html" title="Part XI. Monsters"/>
+    <link rel="prev" href="ch74s10.html" title="Monstrous Spider"/>
+    <link rel="next" href="ch75s02.html" title="Behemoth"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Epic Monsters (A-E)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch74s10.html">Prev</a> </td>
+          <th width="60%" align="center">Part XI. Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch75s02.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="chapter" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a name="id1764124"/>Epic Monsters (A-E)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <b>Table of Contents</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="sect1">
+              <a href="ch75.html#id2363988">Abomination</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2364674">Anaxim</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2367104">Atropal</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2369656">Chichimec</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2371470">Dream Larva</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2373098">Hecatoncheires</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2374550">Infernal</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2376671">Phaethon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2378342">Phane</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75.html#id2380352">Xixecal</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s02.html">Behemoth</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s02.html#id2383478">Behemoth Eagle</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s02.html#id2383586">Behemoth Gorilla</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s03.html">Brachyurus</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s04.html">Colossus</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s04.html#id2386650">Stone Colossus</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s04.html#id2386986">Flesh Colossus</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s04.html#id2387623">Iron Colossus</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s05.html">Demilich</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s05.html#id2389964">Creating A Demilich</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s05.html#id2391702">Demilich Characters</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s05.html#id2391748">Creating Soul Gems</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s06.html">Devastation Vermin</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s06.html#id2393894">Devastation Centipede</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s06.html#id2394011">Devastation Spider</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s06.html#id2394258">Devastation Scorpion</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s06.html#id2394456">Devastation Beetle</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s07.html">Dragon, Advanced</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s08.html">Dragon, Epic</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s08.html#id2399267">Force Dragon</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s08.html#id2411799">Prismatic Dragon</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="ch75s09.html">Elemental, Primal</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s09.html#id2427502">Primal Air Elemental</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s09.html#id2427732">Primal Earth Elemental</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s09.html#id2427885">Primal Fire Elemental</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="ch75s09.html#id2428052">Primal Water Elemental</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <p>This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.</p>
+      <a class="indexterm" name="EpicMonsters(A-E)1"/>
+      <p/>
+      <div class="sect1" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a name="id2363988"/>Abomination</h2>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect3">
+                <a href="ch75.html#id2253415">Building Abominations</a>
+              </span>
+            </dt>
+            <dd>
+              <dl>
+                <dt>
+                  <span class="sect4">
+                    <a href="ch75.html#id2253676">
+                      <span class="strong">
+                        <strong>Abomination Traits</strong>
+                      </span>
+                    </a>
+                  </span>
+                </dt>
+              </dl>
+            </dd>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2364674">Anaxim</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2367104">Atropal</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2369656">Chichimec</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2371470">Dream Larva</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2373098">Hecatoncheires</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2374550">Infernal</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2376671">Phaethon</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2378342">Phane</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect2">
+                <a href="ch75.html#id2380352">Xixecal</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)2"/>
+        <p/>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id2253415"/>Building Abominations</h4>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2253676">
+                    <span class="strong">
+                      <strong>Abomination Traits</strong>
+                    </span>
+                  </a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)3"/>
+          <p><a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> are a grouping of the outsider type in the same way that <a href="ch62s03.html#MonstersD-De13">demons</a> are a grouping of the outsider type. The accompanying table indicates the average values an <a href="ch75.html#EpicMonsters(A-E)2">abomination</a> of a given size might have for its basic physical scores. <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> also share several other characteristics.</p>
+          <p/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2253477">
+            <tbody>
+              <tr><td><p><span class="strong"><strong>Size</strong></span></p></td>
+<td><p><span class="strong"><strong>Str</strong></span></p></td>
+<td><p><span class="strong"><strong>Dex</strong></span></p></td>
+<td><p><span class="strong"><strong>Con</strong></span></p></td>
+<td><p><span class="strong"><strong># of HD</strong></span></p></td>
+<td><p><span class="strong"><strong>Slam</strong></span></p></td>
+<td><p><span class="strong"><strong>Bite</strong></span></p></td>
+<td><p><span class="strong"><strong>Claw</strong></span></p></td>
+<td><p><span class="strong"><strong>Gore</strong></span></p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Fine</a></p></td>
+<td><p>12-13</p></td>
+<td><p>26-27</p></td>
+<td><p>12-13</p></td>
+<td><p>4d8-9d8</p></td>
+<td><p>-</p></td>
+<td><p>1d6</p></td>
+<td><p>1d4</p></td>
+<td><p>1d4</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Diminutive</a></p></td>
+<td><p>14-15</p></td>
+<td><p>24-25</p></td>
+<td><p>14-15</p></td>
+<td><p>7d8-13d8</p></td>
+<td><p>1d4</p></td>
+<td><p>1d8</p></td>
+<td><p>1d6</p></td>
+<td><p>1d6</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Tiny</a></p></td>
+<td><p>18-19</p></td>
+<td><p>22-23</p></td>
+<td><p>16-17</p></td>
+<td><p>10d8-21d8</p></td>
+<td><p>1d6</p></td>
+<td><p>2d6</p></td>
+<td><p>1d8</p></td>
+<td><p>1d8</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Small</a></p></td>
+<td><p>26-27</p></td>
+<td><p>20-21</p></td>
+<td><p>20-21</p></td>
+<td><p>19d8-33d8</p></td>
+<td><p>1d8</p></td>
+<td><p>2d8</p></td>
+<td><p>2d6</p></td>
+<td><p>2d6</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Medium-size</a></p></td>
+<td><p>34-35</p></td>
+<td><p>18-19</p></td>
+<td><p>24-25</p></td>
+<td><p>27d8-38d8</p></td>
+<td><p>2d6</p></td>
+<td><p>4d6</p></td>
+<td><p>2d8</p></td>
+<td><p>2d8</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Large</a></p></td>
+<td><p>42-43</p></td>
+<td><p>16-17</p></td>
+<td><p>28-29</p></td>
+<td><p>36d8-50d8+</p></td>
+<td><p>2d8</p></td>
+<td><p>4d8</p></td>
+<td><p>4d6</p></td>
+<td><p>4d6</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Huge</a></p></td>
+<td><p>50-51</p></td>
+<td><p>14-15</p></td>
+<td><p>32-33</p></td>
+<td><p>47d8-58d8+</p></td>
+<td><p>4d6</p></td>
+<td><p>8d6</p></td>
+<td><p>4d8</p></td>
+<td><p>4d8</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Gargantuan</a></p></td>
+<td><p>58-59</p></td>
+<td><p>12-13</p></td>
+<td><p>36-37</p></td>
+<td><p>56d8-70d8+</p></td>
+<td><p>4d8</p></td>
+<td><p>8d8</p></td>
+<td><p>8d6</p></td>
+<td><p>8d6</p></td>
+
+</tr>
+              <tr><td><p><a href="ch22.html#CombatII28">Colossal</a></p></td>
+<td><p>66-67</p></td>
+<td><p>10-11</p></td>
+<td><p>40-41</p></td>
+<td><p>71d8+</p></td>
+<td><p>8d6</p></td>
+<td><p>16d6</p></td>
+<td><p>8d8</p></td>
+<td><p>8d8</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p/>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title">
+                    <a name="id2253676"/>
+                    <span class="strong">
+                      <strong>Abomination Traits</strong>
+                    </span>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)4"/>
+            <p>All <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> are born directly (or indirectly) from a god and some lesser creature (or idea), but none are favored, wanted, or loved. Still, they all share a tiny spark of deific energy, which grants them the qualities described in below. (Note: deity rules are used<span class="emphasis"><em/></span>, <span class="emphasis"><em/></span> <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> are rank 0 deities.)</p>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2253731"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)5"/>
+              <p><span class="strong"><strong>Immunities (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> are immune to polymorphing, petrification, or any form-altering attack. They are not subject to energy drain, ability drain, or ability damage. They are immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and are immune to one of five energy types (specific to the <a href="ch75.html#EpicMonsters(A-E)2">abomination</a>).</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2253784"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)6"/>
+              <p><span class="strong"><strong>Resistances (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> have fire resistance 20, cold resistance 20, and damage reduction of at least 10/epic (certain <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have higher damage reduction). <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> all have significant spell resistance. <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> resist detection, and are all treated as if affected by a <span class="emphasis"><em><a href="ch48.html#SpellsM-O50">nondetection</a></em></span> spell of a caster level equal to the <a href="ch75.html#EpicMonsters(A-E)2">abomination's</a> HD.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2253876"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)7"/>
+              <p><span class="strong"><strong>Special Qualities (Ex):</strong></span> All <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have the spell-like ability to use <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span> at will. <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> are not subject to death from massive damage, and they have maximum hit points per Hit Die. <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> have the blindsight extraordinary ability to a range of 500 feet. <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> can choose both nonepic and epic feats as part of their feat selection.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364076"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)8"/>
+              <p><span class="strong"><strong>Telepathy (Su):</strong></span> <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> can communicate telepathically with any creature within 1,000 feet that has a language.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364116"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)9"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Creature</em></span> (Sp):</strong></span> <a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> can summon creatures associated either with the portfolio of their godly progenitor or with their imprisonment. Summoned creatures serve the <a href="ch75.html#EpicMonsters(A-E)2">abomination</a> without question. Summoned creatures automatically return whence they came after 1 hour, or sooner if slain. See specific <a href="ch75.html#EpicMonsters(A-E)2">abomination</a> entries for additional details on summoning.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364315"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)10"/>
+              <p><span class="strong"><strong>Fast Healing and Regeneration:</strong></span> Most <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have some measure of fast healing and regeneration, ranging from 5 to 55 for both abilities. Usually, higher HD <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have higher values for fast healing and regeneration, though this not always the case. If an <a href="ch75.html#EpicMonsters(A-E)2">abomination</a> has regeneration, it is usually subject to normal damage from at least two sources, one of which is the antithesis for their subtype, and the other of which is somehow tied to some unique feature of the <a href="ch75.html#EpicMonsters(A-E)2">abomination</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364458"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)11"/>
+              <p><span class="strong"><strong>Natural Armor:</strong></span> All <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have some degree of natural armor bonus ranging from +10 to +100. Usually, higher HD <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have higher natural armor bonuses, but this is not always the case.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364506"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)12"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> All <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have access to a variety of spells in the form of spell-like abilities, which they can use as 20th- or higher-level casters, depending on the <a href="ch75.html#EpicMonsters(A-E)2">abomination</a>. No rule governs how many or how few spell-like abilities an <a href="ch75.html#EpicMonsters(A-E)2">abomination</a> may claim.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364568"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)13"/>
+              <p><span class="strong"><strong>Unique Abilities:</strong></span> All <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have at least one or more unique abilities tied to their godly parent's portfolio, or to the manner of their incarceration.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2364608"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)14"/>
+              <p><span class="strong"><strong>Spell Resistance:</strong></span> As a general rule of thumb, <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have spell resistance equal to their CR +12.</p>
+              <p/>
+              <p><a href="ch75.html#EpicMonsters(A-E)2">Abominations</a> speak Abyssal, Celestial, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, and often a language associated with their imprisonment.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2364674"/>Anaxim</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2366712">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)15"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2364692">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Anaxim</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities18">Construct</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>38d10 (420 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7 (Dex)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft., fly 200 ft. (perfect)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>37 (+7 Dex, +20 natural), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 30</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+28/+40</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Spinning blade +43 (2d6+12/19-20 (plus 1d6 on critical)) or electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +35 ranged <a href="ch21s02.html#CombatI12">touch</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 spinning blades +43 (2d6+12/19-20(plus 1d6 on critical)) melee, 2 slams +35 melee (2d6+6), shocking <a href="ch21s02.html#CombatI12">touch</a> +35 melee <a href="ch21s02.html#CombatI12">touch</a> (2d6+6); or electricity <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +35 ranged <a href="ch21s02.html#CombatI12">touch</a> (10d6 electricity), 6 spikes +30 ranged (2d6+12) (120 ft. <a href="ch22s03.html#CombatII107">range</a> increment)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rend 4d6+18, sonic blast, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities68">summon</a> <a href="ch66s12.html#MonstersG157">iron golem</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, magic immunity, <a href="ch04.html#TypesSubtypesAbilities18">construct</a> traits, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 15, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 34, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities15">chaotic</a> and epic and <a href="ch24.html#SpecialMaterials3">adamantine</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +53, <a href="ch16s03.html#CombinedSkills192">Jump</a> +65</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats53">Blind-Fight</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (blade), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (blade)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (blade), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a>, <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (blade), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (blade)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +12, Ref +19, Will +17</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 35, Dex 25, Con -, Int 10, Wis 20, Cha 20</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, binary (pair), or command line (2-5 <a href="ch75.html#EpicMonsters(A-E)15">anaxims</a> and 5-12 <a href="ch66s12.html#MonstersG157">iron golems</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>22</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description9">lawful neutral</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>39-48 HD (<a href="ch22.html#CombatII28">Large</a>); 49-55 HD (<a href="ch22.html#CombatII28">Huge</a>); 56-70 HD (<a href="ch22.html#CombatII28">Gargantuan</a>); 71-140 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>An <a href="ch75.html#EpicMonsters(A-E)15">anaxim's</a> natural weapons are treated as epic and lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2366712"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)16"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2366730"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)17"/>
+              <p><span class="strong"><strong>Sonic Blast (Ex):</strong></span> As a standard action, an <a href="ch75.html#EpicMonsters(A-E)15">anaxim</a> can emit a 60-foot cone of sonic energy that deals 20d6 points of sonic damage to all creatures that fail a Reflex save (DC 29); those that succeed take half damage.</p>
+              <p>The save DC is Constitution-based</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2366775"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)18"/>
+              <p><span class="strong"><strong>Rend (Ex):</strong></span> If the <a href="ch75.html#EpicMonsters(A-E)15">anaxim</a> hits with both spinning blades, it slices particularly well. This attack automatically deals an additional 4d6+18 points of damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2366815"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)19"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E46">displacement</a></em></span> (DC 18)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span> (DC 19)<span class="emphasis"><em/></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E70">ethereal jaunt</a></em></span>. Caster level 22nd. The save DCs are Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2366894"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)20"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Iron Golem</em></span> (Sp):</strong></span> An <a href="ch75.html#EpicMonsters(A-E)15">anaxim</a> can summon an <a href="ch66s12.html#MonstersG157">iron golem</a> up to four times per day.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2367014"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)21"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2367048"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)22"/>
+              <p><span class="strong"><strong>Construct Traits:</strong></span> Immune to mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects), and to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death effects, necromantic effects, and any effect that requires a Fortitude save unless it also works on objects. Cannot heal damage (though regeneration and fast healing still apply, if present). Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Not at risk of death from massive damage, but destroyed when reduced to 0 hit points or less; cannot be raised or resurrected. Darkvision 60 ft.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2367104"/>Atropal</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2368780">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)23"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2367123">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Atropal</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>66d12 (792 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6 (+2 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>5 ft., fly 240 ft. (perfect)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>51 (-1 size, +2 Dex, +40 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 49</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+33/+53</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch21s02.html#CombatI12">Touch</a> +49 (2d6 Con drain/19-20) melee <a href="ch21s02.html#CombatI12">touch</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 <a href="ch21s02.html#CombatI12">touches</a> +49 (2d6 Con drain/19-20) melee <a href="ch21s02.html#CombatI12">touch</a>, eye <a href="ch04.html#TypesSubtypesAbilities57">ray</a> +30 (negative level <a href="ch21s02.html#CombatI7">damage/19-20)</a> ranged <a href="ch21s02.html#CombatI12">touch</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft/10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Constitution drain, <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a> (2d4 negative levels, Fort DC 59), <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <span class="emphasis"><em>Summon Nightcrawler</em></span> </p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits, <a href="ch22s03.html#CombatII113">rebuke/command</a> <a href="ch04.html#TypesSubtypesAbilities76">undead</a>, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 20, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 42, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and epic and silver, negative energy aura</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +22, Ref +26, Will +43</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 43, Dex 15, Con -, Int 28, Wis 22, Cha 42</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +85, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +85, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +97, <a href="ch16s03.html#CombinedSkills179">Hide</a> -2, <a href="ch16s03.html#CombinedSkills192">Jump</a> +1, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +91, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana, history, religion, the planes) +78, <a href="ch16s03.html#CombinedSkills204">Listen</a> +77, <a href="ch16s03.html#CombinedSkills253">Search</a> +78, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +75, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +84, <a href="ch16s03.html#CombinedSkills294">Spot</a> +77</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats66">Combat Expertise</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (<a href="ch21s02.html#CombatI12">touch</a>), <a href="ch17s03.html#Feats170">Improved Critical</a> (eye <a href="ch04.html#TypesSubtypesAbilities57">ray</a>), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch20.html#MonsterFeats40">Quicken Spell-Like Ability</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats349">Spring Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (<a href="ch21s02.html#CombatI12">touch</a>), <a href="ch17s03.html#Feats390">Weapon Focus</a> (eye <a href="ch04.html#TypesSubtypesAbilities57">ray</a>), <a href="ch17s03.html#Feats398">Whirlwind Attack</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (<a href="ch21s02.html#CombatI12">touch</a>), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (<a href="ch21s02.html#CombatI12">touch</a>), <a href="ch18s02.html#EpicFeats549">Undead Mastery</a>, <a href="ch18s02.html#EpicFeats567">Zone of Animation</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>30</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>67-80 HD (<a href="ch22.html#CombatII28">Large</a>); 81-100 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>An <a href="ch75.html#EpicMonsters(A-E)23">atropal's</a> natural weapons are treated as epic, evil, and lawful-aligned for the purpose of overcoming damage reduction.<a href="img/EpicMonsters(A-E).Atropal.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Atropal.jpg" align="right"/></span></a></p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2368780"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)24"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2368799"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)25"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B15">animate dead</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B42">blasphemy</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC48">create greater undead</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC49">create undead</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC32">cone of cold</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E16">desecrate</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G11">finger of death</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R17">plane shift</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS40">slay living</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS51">speak with dead</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS53">spectral hand</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span>; 5/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R33">project image</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z50">weird</a></em></span>. Caster level 30th; save DC 26 + spell level.</p>
+              <p>The save DCs are Charisma-based</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369161"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)26"/>
+              <p><span class="strong"><strong>Rebuke/Command Undead (Su):</strong></span> <a href="ch75.html#EpicMonsters(A-E)23">Atropals</a> can rebuke or command undead as a cleric with a level equal to the <a href="ch75.html#EpicMonsters(A-E)23">atropal's</a> HD + 6.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369210"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)27"/>
+              <p><span class="strong"><strong>Negative Energy Aura (Su):</strong></span> A 30-foot-radius spread negative energy aura spreads from each <a href="ch75.html#EpicMonsters(A-E)23">atropal</a>. All undead in the field (including the <a href="ch75.html#EpicMonsters(A-E)23">atropal</a>) are treated as if having turn resistance +20 and a negative energy version of fast healing 20. Living creatures in the aura are treated as having ten negative levels unless they have some sort of negative energy protection or protection from evil. Creatures with 10 or fewer HD or levels perish (and, at the <a href="ch75.html#EpicMonsters(A-E)23">atropal's</a> option, rise as <a href="ch71s12.html#MonstersS89">spectres</a> under the <a href="ch75.html#EpicMonsters(A-E)23">atropal's</a> command 1 minute later).</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369295"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)28"/>
+              <p><span class="strong"><strong>Constitution Drain (Su):</strong></span> When the <a href="ch75.html#EpicMonsters(A-E)23">atropal</a> hits a living opponent with a touch attack, the opponent takes 5 points of permanent Constitution drain, or 10 points on a critical hit. The <a href="ch75.html#EpicMonsters(A-E)23">atropal</a> heals 20 points of damage, or 40 points on a critical hit, whenever it drains Constitution, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. The attack allows a Fortitude save (DC 59). The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369350"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)29"/>
+              <p><span class="strong"><strong>Energy Drain (Su):</strong></span> When the <a href="ch75.html#EpicMonsters(A-E)23">atropal</a> hits with a ranged touch attack (a ray of darkness that it shoots from one eye to a range of 400 feet), the resultant energy drain bestows four negative levels, or eight negative levels on a critical hit. For each negative level bestowed on an opponent, the <a href="ch75.html#EpicMonsters(A-E)23">atropal</a> heals 10 points of damage, or 20 on a critical hit, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. After 24 hours have passed, the afflicted opponent must attempt a Fortitude save (DC 59) for each negative level. If successful, the negative level goes away with no harm to the creature; otherwise, the creature's level decreases by one. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369477"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)30"/>
+              <p><span class="strong"><strong>Regeneration (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)23">Atropals</a> take normal damage from good weapons or sentient weapons (or otherwise living weapons).</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369517"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)31"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Nightcrawler</em></span> (Sp):</strong></span> Five times per day an <a href="ch75.html#EpicMonsters(A-E)23">atropal</a> can summon a <a href="ch69s13.html#MonstersM-N144">nightcrawler</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369568"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)32"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2369602"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)33"/>
+              <p><span class="strong"><strong>Undead Traits:</strong></span> Immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, disease, death, effects, necromantic effects, mind-affecting effects, and any effect requiring a Fortitude save unless it also works on objects. Not subject to critical hits, subdual damage, ability damage, ability drain, or energy drain. Negative energy heals. Not at risk of death from massive damage, but destroyed at 0 hit points or less. Darkvision 60 ft. Cannot be raised; resurrection works only if creature is willing.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2369656"/>Chichimec</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2371112">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)34"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2369675">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Chichimec</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities5">Air</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>27d8+189 (425 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>5 ft., fly 200 ft. (perfect)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>39 (+7 Dex, +22 natural), <a href="ch21s02.html#CombatI12">touch</a> 17, <a href="ch21s03.html#CombatI21">flat-footed</a> 32</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+27/+39</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Primary wing buffet +39 (2d6+12) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 primary wing buffets +39 (2d6+12) melee, 6 secondary wing buffets +37 (1d6+6) melee, tail slam +37 (1d6+6 plus Cha drain) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities68">summon</a> <a href="ch04.html#TypesSubtypesAbilities5">air</a> <a href="ch04.html#TypesSubtypesAbilities22">elemental</a>, Charisma drain</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 10, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 33, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 10/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and epic, electricity immunity</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +22, Ref +22, Will +17</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 34, Dex 25, Con 24, Int 12, Wis 14, Cha 30</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +14, <a href="ch16s03.html#CombinedSkills179">Hide</a> +37, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +40, <a href="ch16s03.html#CombinedSkills192">Jump</a> -3, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (religion) +31, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +31, <a href="ch16s03.html#CombinedSkills204">Listen</a> +34, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +37, <a href="ch16s03.html#CombinedSkills253">Search</a> +31, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +32, <a href="ch16s03.html#CombinedSkills294">Spot</a> +34</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x 2), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or flock (6-9)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>21</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description13">neutral evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>28-38 HD (<a href="ch22.html#CombatII28">Medium-size</a>); 39-50 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>An <a href="ch75.html#EpicMonsters(A-E)34">chichimec's</a> natural weapons are treated as epic and evil-aligned for the purpose of overcoming damage reduction.<a href="img/EpicMonsters(A-E).Chichimec.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Chichimec.jpg" align="right"/></span></a></p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2371112"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)35"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2371130"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)36"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E3">darkness</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z2">telekinesis</a></em></span>; 3/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC44">control weather</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC2">call lightning</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L68">lightning bolt</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC9">chain lightning</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z37">wail of the banshee</a></em></span>. Caster level 20th; save DC 20 + spell level. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2371314"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)37"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Air Elemental</em></span> (Sp):</strong></span> Three times per day a <a href="ch75.html#EpicMonsters(A-E)34">chichimec</a> can summon an elder <a href="ch65s02.html#MonstersE-F9">air elemental</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2371366"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)38"/>
+              <p><span class="strong"><strong>Charisma Drain (Su):</strong></span> This effect permanently reduces a living opponent's Charisma score by 2 points when the <a href="ch75.html#EpicMonsters(A-E)34">chichimec</a> hits with a tail slam, or 4 points on a critical hit. The <a href="ch75.html#EpicMonsters(A-E)34">chichimec</a> heals 10 points of damage, or 20 on a critical hit, whenever it drains Charisma, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. The attack allows a Fortitude save (DC 33)-on a successful save, only 1 point of Charisma is drained and the <a href="ch75.html#EpicMonsters(A-E)34">chichimec</a> heals 5 points of damage. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2371431"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)39"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2371470"/>Dream Larva</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2372594">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)40"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2371489">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Dream Larva</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>40d8+360 (700 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+3 (Dex)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>80 ft.; fly 240 ft. (perfect)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>52 (-1 size, +3 Dex, +40 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 49</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+40/+60</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +56 (4d8+16)melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +56 (4d8+16) melee, 1 gore +51 (4d6+8) melee, 4 pincers +53 (4d6+8) melee, 4 claws +53 (4d6+8) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Worst <a href="ch69s12.html#MonstersM-N131">nightmare</a>, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, sending, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities68">summon</a> <a href="ch69s13.html#MonstersM-N152">nightwalker</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, sonic immunity, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 15, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 15, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 44, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities35">Good</a> and Epic or <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a> and Epic</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +31, Ref +25, Will +29</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 42, Dex 17, Con 29, Int 16, Wis 24, Cha 36</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +52, <a href="ch16s03.html#CombinedSkills91">Craft</a> (dreamweaving) +46, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +60, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +46, <a href="ch16s03.html#CombinedSkills179">Hide</a> +46, <a href="ch16s03.html#CombinedSkills192">Jump</a> +36, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana) +46, <a href="ch16s03.html#CombinedSkills204">Listen</a> +50, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +46, <a href="ch16s03.html#CombinedSkills253">Search</a> +46, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +50, <a href="ch16s03.html#CombinedSkills294">Spot</a> +50</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch20.html#MonsterFeats40">Quicken Spell-Like Ability</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (pincers), <a href="ch17s03.html#Feats390">Weapon Focus</a> (gore), <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite), <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats171">Epic Toughness</a>, <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (pincers), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (claw)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or solitary plus 1-4 <a href="ch69s13.html#MonstersM-N152">nightwalkers</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>31</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>41-65 HD (<a href="ch22.html#CombatII28">Large</a>); 66-84 HD (<a href="ch22.html#CombatII28">Huge</a>); 85-110 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>A dream larvas's natural weapons are treated as epic, evil, and chaotic-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2372594"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)41"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2372612"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)42"/>
+              <p><span class="strong"><strong>Worst Nightmare (Su):</strong></span> Each time a living creature first views a specific <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> from a distance of 30 feet or less (or from a scrying effect), the subject sees the image of the most fearsome creature imaginable. This is not an illusion or phantasm; the <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> truly becomes, for just that instant, the subject's worst <a href="ch69s12.html#MonstersM-N131">nightmare</a>. Even if simultaneously viewed by dozens of different creatures, the <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> appears differently to each one of them. Creatures immune to fear or mind-affecting effects (or warded by <span class="emphasis"><em><a href="ch49.html#SpellsP-R37">protection from evil</a></em></span> or <span class="emphasis"><em><a href="ch45.html#SpellsD-E9">death ward</a></em></span> spells) are immune to worst <a href="ch69s12.html#MonstersM-N131">nightmare</a>; all others must make a Will save (DC 43) or die from the supernatural horror revealed. Survivors (and those resurrected) are immune to the effect from that individual <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> in the future. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2372730"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)43"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O49">nightmare</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R29">prismatic spray</a></em></span>; 2/day-<span class="emphasis"><em><a href="ch52s02.html#EpicSpells34">dreamscape</a></em></span>(epic spell)<span class="emphasis"><em/></span>. Caster level 31st; save DC 23 + spell level. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2372817"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)44"/>
+              <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> If the <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> hits with a claw or pincer, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. Dream larvae can use improved grab on a creature of any size. The <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> has the option to conduct the grapple normally, simply use the claw or pincer to hold the opponent, or use sending (see below) on the opponent. Each successful grapple check it makes during successive rounds automatically deals the damage listed for the attack that established the hold, unless it used sending on the victim.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2372870"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)45"/>
+              <p><span class="strong"><strong>Sending (Su):</strong></span> Grappled victims may be physically sent into a <a href="ch69s12.html#MonstersM-N131">nightmare</a>, at the <a href="ch75.html#EpicMonsters(A-E)40">dream larva's</a> option, on the <a href="ch75.html#EpicMonsters(A-E)40">dream larva's</a> next action after establishing the grapple. Victims must make a Will save (DC 43) or be apparently swarmed by thousands of worms making up the <a href="ch75.html#EpicMonsters(A-E)40">dream larva's</a> body. The victim is actually cast into a shrieking maelstrom of dream where it can take no actions but observe. The victim physically returns 2d4 rounds later, apparently ejected from the <a href="ch75.html#EpicMonsters(A-E)40">dream larva's</a> body (but appearing even if if the <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> has left or is otherwise absent). The victim of the <a href="ch69s12.html#MonstersM-N131">nightmare</a> has taken 4d6 points of temporary Wisdom damage, but is otherwise free to act on the round it returns. If the victim takes more Wisdom damage than it has points of Wisdom, the extra points are instead treated as temporary Constitution damage. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2372978"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)46"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Nightwalker</em></span> (Sp):</strong></span> Five times per day, a <a href="ch75.html#EpicMonsters(A-E)40">dream larva</a> can summon a <a href="ch69s13.html#MonstersM-N152">nightwalker</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2373029"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)47"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2373063"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)48"/>
+              <p><span class="strong"><strong>Regeneration (Ex):</strong></span> Dream larvae take normal damage from good or lawful weapons or weapons forged by a sleepwalking weaponsmith.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2373098"/>Hecatoncheires</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2374211">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)49"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2373116">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Hecatoncheires</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>52d8+572 (1028 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+10 (+2 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>100 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>70 (-2 size, +30 natural, +20 insight, +12 armor [+5 half plate]), <a href="ch21s02.html#CombatI12">touch</a> 28, <a href="ch21s03.html#CombatI21">flat-footed</a> 70</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p> <span class="strong"><strong>+</strong></span>52/+80</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Greatsword +73 (2d6+20/17-20) melee; or boulder +55 (2d8+20/19-20) ranged</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>100 greatswords +73 (2d6+20/17-20) melee; or 100 boulders +55 (2d8+20/19-20) ranged</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>15 ft./15 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Superior multiweapon fighting, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities68">summon</a> <a href="ch75.html#EpicMonsters(A-E)49">hecatoncheires</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, electricity immunity, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 40, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 50, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 70, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 20/<a href="ch04.html#TypesSubtypesAbilities35">Good</a> and Epic and <a href="ch04.html#TypesSubtypesAbilities16">Cold</a> Iron</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +39, Ref +30, Will +27</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 50, Dex 15, Con 32, Int 10, Wis 8, Cha 24</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +75, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +13, <a href="ch16s03.html#CombinedSkills179">Hide</a> -12, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +40, <a href="ch16s03.html#CombinedSkills192">Jump</a> +89, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (history) +33, <a href="ch16s03.html#CombinedSkills204">Listen</a> +104, <a href="ch16s03.html#CombinedSkills253">Search</a> +105, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +49, <a href="ch16s03.html#CombinedSkills294">Spot</a> +104, <a href="ch16s03.html#CombinedSkills303">Survival</a> +54</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (greatsword), <a href="ch17s03.html#Feats170">Improved Critical</a> (boulder), <a href="ch17s03.html#Feats191">Improved Initiative</a>, Multidexterity, <a href="ch20.html#MonsterFeats35">Multiweapon Fighting</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch22s03.html#CombatII98">Sunder</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (greatsword), <a href="ch17s03.html#Feats390">Weapon Focus</a> (boulder)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x2), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (greatsword), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (boulder), <a href="ch18s02.html#EpicFeats406">Multiweapon Rend</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>57</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>53-58 HD (<a href="ch22.html#CombatII28">Huge</a>); 59-70 HD (<a href="ch22.html#CombatII28">Gargantuan</a>); 71-140 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>A hecatoncheires' natural weapons are treated as epic, evil, and chaotic-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2374211"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)50"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2374230"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)51"/>
+              <p><span class="strong"><strong>Superior Multiweapon Fighting (Ex):</strong></span> A <a href="ch75.html#EpicMonsters(A-E)49">hecatoncheires</a> fights with a greatsword or a boulder in each hand. The <a href="ch75.html#EpicMonsters(A-E)49">hecatoncheires</a> does not suffer an attack or damage penalty for attacking with one hundred weapons. However, the press of limbs prevents the creature from making iterative attacks with any of its arms, nor can it make more than ten attacks against a Small or smaller creature, fifteen attacks against a Medium-size creature, or twenty attacks against a Large creature in the same action (it can make all its attacks against a Huge or larger creature in one action).</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2374287"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)52"/>
+              <p><span class="strong"><strong>Skills:</strong></span> A hecatoncheires' fifty heads give it a +50 racial bonus on <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills294">Spot</a>, and <a href="ch16s03.html#CombinedSkills253">Search</a> checks.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2374345"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)53"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will- <span class="emphasis"><em><a href="ch48.html#SpellsM-O23">greater magic weapon</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G23">fly</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS28">shield</a></em></span>. Caster level 50th; save DC 17 + spell level. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2374408"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)54"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Hecatoncheires</em></span> (Sp):</strong></span> A <a href="ch75.html#EpicMonsters(A-E)49">hecatoncheires</a> can summon one other <a href="ch75.html#EpicMonsters(A-E)49">hecatoncheires</a> once per day, though is loath to do so because then it will be similarly obligated to answer its sibling's summoning. A summoned <a href="ch75.html#EpicMonsters(A-E)49">hecatoncheires</a> cannot use its summoning power while 'summoned.'</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2374472"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)55"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2374506"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)56"/>
+              <p><span class="strong"><strong>Regeneration (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)49">Hecatoncheires</a> take normal damage from good weapons or weapons tempered with the blood of a deity.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2374550"/>Infernal</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2375823">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)57"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2374569">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Infernal</strong></span></p></td> 
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>) (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a> or <a href="ch04.html#TypesSubtypesAbilities39">Lawful</a>)</p></td> 
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>40d8+360 (680 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+11 (+7 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>80 ft., fly 240 ft. (perfect)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>50 (+7 Dex, -1 size, +34 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 43</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+40/+60</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>+58 claw (4d6+16) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +58 (4d6+16) melee, 1 bite +52 (4d8+8 +spell suck) melee, 2 wings +50 (2d6+8) melee, 1 tail slam +50 (4d8+8) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, spell suck, learned <a href="ch04.html#TypesSubtypesAbilities65">spell immunity</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities68">summon</a> fiend</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 15, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 15, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 38, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 35/+7</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +50, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +52, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +52, <a href="ch16s03.html#CombinedSkills137">Escape Artist</a> +50, <a href="ch16s03.html#CombinedSkills179">Hide</a> +50, <a href="ch16s03.html#CombinedSkills192">Jump</a> +36, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana) +49, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (the planes) +49, <a href="ch16s03.html#CombinedSkills204">Listen</a> +53, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +50, <a href="ch16s03.html#CombinedSkills253">Search</a> +49, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +51, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +49, <a href="ch16s03.html#CombinedSkills294">Spot</a> +53, <a href="ch16s03.html#CombinedSkills318">Tumble</a> +50</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch22s03.html#CombatII98">Sunder</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x2), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a>, <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (bite), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (claw), <a href="ch18s02.html#EpicFeats531">Tenacious Magic</a> (<span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>), <a href="ch18s02.html#EpicFeats531">Tenacious Magic</a> (<span class="emphasis"><em><a href="ch43.html#SpellsA-B49">blur</a></em></span>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +31, Ref +29, Will +30</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 43, Dex 25, Con 28, Int 22, Wis 26, Cha 29</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or hell brigade (1 <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> and 1d4 <a href="ch62s03.html#MonstersD-De21">balors</a>, or 1 <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> and 1d4 <a href="ch62s06.html#MonstersD-De179">pit fiends</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>26</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities39">Lawful</a> <a href="ch04.html#TypesSubtypesAbilities24">evil</a> or <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>41-50 HD (<a href="ch22.html#CombatII28">Large</a>); 51-56 HD (<a href="ch22.html#CombatII28">Huge</a>); 57-72 HD (<a href="ch22.html#CombatII28">Gargantuan</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>An <a href="ch75.html#EpicMonsters(A-E)57">infernal's</a> natural weapons are treated as epic, evil, and chaotic-aligned or lawful-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2375823"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)58"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2375841"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)59"/>
+              <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> If an <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> hits with a claw, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. <a href="ch75.html#EpicMonsters(A-E)57">Infernals</a> can use this ability on Large and smaller creatures. The <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> has the option to conduct the grapple normally, or simply use its claw to hold the opponent. Each successful grapple check it makes during successive rounds automatically deals standard claw damage, in addition to automatic spell suck damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2375906"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)60"/>
+              <p><span class="strong"><strong>Spell Suck (Su):</strong></span> If an <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> bites a foe, the foe loses one of its highest-level prepared spells or one of the spell slots for this day that it has not used. The victim chooses the prepared spell to lose. If the victim has no prepared spells or unused spell slots (either because it has exhausted its spellcasting for the day or because the victim is not a spellcaster), the bite instead deals 2 points of temporary Intelligence damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2375951"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)61"/>
+              <p><span class="strong"><strong>Learned Spell Immunity (Su):</strong></span> If an <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> is affected by a spell cast by a particular spellcaster, the <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> thereafter becomes immune to that spell when cast by that spellcaster.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2376001"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)62"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B15">animate dead</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B42">blasphemy</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B49">blur</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC15">charm person</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC49">create undead</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E3">darkness</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E12">deeper darkness</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E16">desecrate</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E19">detect chaos</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E21">detect good</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E22">detect law</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G6">fear</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O13">magic circle against good</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O25">major image</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R31">produce flame</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R44">pyrotechnics</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS7">scrying</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS74">suggestion</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS98">symbol of death</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z2">telekinesis</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span> (self plus 1,000 pounds), <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z30">unholy blight</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z28">unhallow</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z38">wall of fire</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch46.html#SpellsF-G14">fire storm</a></em></span>,  <span class="emphasis"><em><a href="ch52s02.html#EpicSpells45">hellball</a></em></span> (epic spell), <span class="emphasis"><em><a href="ch47.html#SpellsH-L36">implosion</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O33">meteor swarm</a></em></span>. Caster level 26th; save DC 19 + spell level. The DCs are Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2376417"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)63"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon Fiend</em></span> (Sp):</strong></span> An <a href="ch75.html#EpicMonsters(A-E)57">infernal</a> can summon four <a href="ch62s03.html#MonstersD-De21">balors</a> or four <a href="ch62s06.html#MonstersD-De179">pit fiends</a> per day (lawful <a href="ch75.html#EpicMonsters(A-E)57">infernals</a> summon <a href="ch62s06.html#MonstersD-De179">pit fiends</a>, and chaotic <a href="ch75.html#EpicMonsters(A-E)57">infernals</a> summon <a href="ch62s03.html#MonstersD-De21">balors</a>).</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2376584"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)64"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection ; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2376618"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)65"/>
+              <p><span class="strong"><strong>Regeneration (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)57">Infernals</a> take normal damage from good weapons. Lawful <a href="ch75.html#EpicMonsters(A-E)57">infernals</a> also take normal damage from chaotic weapons, and vice versa.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2376671"/>Phaethon</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2377848">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)66"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2376690">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Phaethon</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Gargantuan</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities29">Fire</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>62d8+806 (1,362 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+15 (+7 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>120 ft., burrow 120 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>47 (-4 size, +7 Dex, +34 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 40</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+62/+98</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>pseudopod slam +85 (4d8+24 plus <a href="ch04.html#TypesSubtypesAbilities29">fire</a> <a href="ch21s02.html#CombatI7">damage)</a> melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>8 pseudopod slams +85 (4d8+24 plus <a href="ch04.html#TypesSubtypesAbilities29">fire</a> <a href="ch21s02.html#CombatI7">damage)</a> melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>20 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Fiery <a href="ch21s02.html#CombatI12">touch</a>, fiery <a href="ch22.html#CombatII16">overrun,</a> <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities69">swallow whole</a>, <span class="emphasis"><em>summon elder fire elemental</em></span> </p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, immunity to <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, vulnerability to <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, oozelike immunities, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 25, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 25, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 46, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/epic <a href="ch04.html#TypesSubtypesAbilities39">lawful</a> and epic</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +48, Ref +42, Will +43</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 58, Dex 25, Con 36, Int 8, Wis 18, Cha 39</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +89, <a href="ch16s03.html#CombinedSkills91">Craft</a> (metalworking, stoneworking) +29, <a href="ch16s03.html#CombinedSkills179">Hide</a> +12, <a href="ch16s03.html#CombinedSkills192">Jump</a> +69, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (geography) +64, <a href="ch16s03.html#CombinedSkills204">Listen</a> +71, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +72, <a href="ch16s03.html#CombinedSkills253">Search</a> +64, <a href="ch16s03.html#CombinedSkills294">Spot</a> +71</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch22s03.html#CombatII98">Sunder</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (slam)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x5), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x3), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (slam), <a href="ch18s02.html#EpicFeats182">Epic Will</a>, <a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, or in company of 1-10 elder <a href="ch04.html#TypesSubtypesAbilities29">fire</a> <a href="ch04.html#TypesSubtypesAbilities22">elementals</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>34</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>63-80 HD (<a href="ch22.html#CombatII28">Gargantuan</a>); 81-186 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>A <a href="ch75.html#EpicMonsters(A-E)66">phaethon's</a> natural weapons are treated as epic and evil for the purpose of overcoming damage reduction.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2377848"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)67"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2377867"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)68"/>
+              <p><span class="strong"><strong>Fiery Touch (Ex):</strong></span> Touching or being touched by a <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a> deals 2d6 points of fire damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2377906"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)69"/>
+              <p><span class="strong"><strong>Fiery Overrun (Ex):</strong></span> A foe who is successfully overrun by a <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a> is treated as if swallowed whole.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2377945"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)70"/>
+              <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> If the <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a> hits with a pseudopod, it deals normal damage and attempts to start a grapple as a free action without provoking an attack of opportunity. <a href="ch75.html#EpicMonsters(A-E)66">Phaethons</a> can use improved grab on a Huge or smaller creature. The <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a> has the option to conduct the grapple normally, simply maintaining a pseudopod hold, or attempting to absorb the opponent by swallowing the foe whole. Each successful grapple check it makes during successive rounds automatically deals the damage listed for the pseudopod.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2378010"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)71"/>
+              <p><span class="strong"><strong>Swallow Whole (Ex):</strong></span> The <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a> can absorb opponents it holds with a second successful grapple check after a grab. The opponent must be Huge or smaller. Absorbed creatures take 20d6 points of fire damage and 10d6 points of bludgeoning damage each round they remain inside a <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a>. Victims must make a successful grapple check to 'swim' free of the living magma of the <a href="ch75.html#EpicMonsters(A-E)66">phaethon</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2378074"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)72"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch46.html#SpellsF-G16">fireball</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G14">fire storm</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E14">delayed blast fireball</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G19">flame strike</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z38">wall of fire</a></em></span>; 1/day-<span class="emphasis"><em><a href="ch50.html#SpellsS7">scrying</a></em></span>. Caster level 34th; save DC 24 + spell level.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2378167"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)73"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>summon elder fire elemental</em></span> (Sp):</strong></span> <a href="ch75.html#EpicMonsters(A-E)66">Phaethons</a> can summon up to ten elder <a href="ch65s02.html#MonstersE-F18">fire elementals</a> per day.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2378219"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)74"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2378253"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)75"/>
+              <p><span class="strong"><strong>Oozelike Immunities (Ex):</strong></span> Immune to poison, <span class="emphasis"><em><a href="ch50.html#SpellsS41">sleep</a></em></span>, <span class="emphasis"><em/></span> paralysis, stunning, polymorphing, and mind-influencing effects; not subject to critical hits or flanking; blind.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2378298"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)76"/>
+              <p><span class="strong"><strong>Regeneration (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)66">Phaethons</a> take normal damage from lawful weapons and cold-forged weapons, and double damage from cold or ice weapons.</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2378342"/>Phane</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2379525">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)77"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2378361">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Phane</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>36d8+324 (612 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+11 (+7 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>80 ft., fly 120 ft. (perfect)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>50 (-1 size, +7 Dex, +11 deflection, +23 insight), <a href="ch21s02.html#CombatI12">touch</a> 50, <a href="ch21s03.html#CombatI21">flat-footed</a> 43</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+36/-</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +43 (1d6 plus stasis <a href="ch21s02.html#CombatI12">touch</a>) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities38">Incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a> +43 (1d6 plus stasis <a href="ch21s02.html#CombatI12">touch</a>) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch21s05.html#CombatI64">Spell-like abilities,</a> stasis <a href="ch21s02.html#CombatI12">touch</a>, chronal blast, time leach, <span class="emphasis"><em>summon past <a href="ch52s02.html#EpicSpells66">time duplicate</a></em></span> </p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, null time field, time regression, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 15, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 15, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 37, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/epic, sonic immunity</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +31, Ref +29, Will +29</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str -, Dex 25, Con 28, Int 24, Wis 16, Cha 33</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +46, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +48, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +50, <a href="ch16s03.html#CombinedSkills179">Hide</a> +42, <a href="ch16s03.html#CombinedSkills192">Jump</a> +20, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana, religion, the planes) +46, <a href="ch16s03.html#CombinedSkills204">Listen</a> +44, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +46, <a href="ch16s03.html#CombinedSkills253">Search</a> +46, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +42, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +46, <a href="ch16s03.html#CombinedSkills294">Spot</a> +44, <a href="ch16s03.html#CombinedSkills311">Swim</a> +39, <a href="ch16s03.html#CombinedSkills318">Tumble</a> +46</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (<a href="ch04.html#TypesSubtypesAbilities38">incorporeal</a> <a href="ch21s02.html#CombatI12">touch</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a>, <a href="ch18s02.html#EpicFeats171">Epic Toughness</a> (x2), <a href="ch18s02.html#EpicFeats182">Epic Will</a>, <a href="ch18s02.html#EpicFeats504">Spell Stowaway</a> (<span class="emphasis"><em><a href="ch51.html#SpellsT-Z10">time stop</a></em></span>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any land and underground</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>25</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>37-50 HD (<a href="ch22.html#CombatII28">Large</a>); 51-65 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>A <a href="ch75.html#EpicMonsters(A-E)77">phanes'</a> natural weapons are treated as epic, evil, and chaotic-aligned for the purpose of overcoming damage reduction.</p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2379525"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)78"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2379544"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)79"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch45.html#SpellsD-E21">detect good</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span> (self only); 5/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z7">greater teleport</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z12">tongues</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z20">trap the soul</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z25">true strike</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span>; 2/day-<span class="emphasis"><em><a href="ch52s02.html#EpicSpells60">safe time</a></em></span>,  <span class="emphasis"><em><a href="ch52s02.html#EpicSpells66">time duplicate</a></em></span> (epic spell); 1/day-<span class="emphasis"><em><a href="ch51.html#SpellsT-Z10">time stop</a></em></span>. Caster level 21st; save DC 21 + spell level. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2379850"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)80"/>
+              <p><span class="strong"><strong>Stasis Touch (Su):</strong></span> As <span class="emphasis"><em><a href="ch51.html#SpellsT-Z9">temporal stasis</a></em></span>, <span class="emphasis"><em/></span> except as an at-will supernatural ability. Caster level 25th; save DC 21 + spell level. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2379894"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)81"/>
+              <p><span class="strong"><strong>Chronal Blast (Su):</strong></span> As a standard action, the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> can make a ranged touch attack against any creature within 100 feet. If it succeeds, the subject is targeted by a spasm of space-time flux, dealing 15d6 points of damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2379935"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)82"/>
+              <p><span class="strong"><strong>Time Leach (Su):</strong></span> For every round of apparent time experienced by the <a href="ch75.html#EpicMonsters(A-E)77">phane</a>, it automatically absorbs the 'future' from any creature it has successfully encapsulated in static time via its stasis touch (not its null time field), no matter the distance separating victim and <a href="ch75.html#EpicMonsters(A-E)77">phane</a>, and no matter the number of victims. Of course, to the victim no time passes at all, but each apparent round experienced by the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> ages the victim 1d4 years, at the same time healing the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> of 20 hit points of damage. A victim who is not somehow released from static time by a friend who can cast <span class="emphasis"><em><a href="ch45.html#SpellsD-E44">dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>, <span class="emphasis"><em/></span> or some other likely spell, eventually ages to death. Victims killed in this manner automatically fall out of static time as desiccated husks that disintegrate to a fine dust with even the lightest touch. Victims who are released prior to death immediately apply the physical effects of aging, but not the mental effects.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2380041"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)83"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>summon past time duplicate</em></span> (Sp):</strong></span> Once per day, a <a href="ch75.html#EpicMonsters(A-E)77">phane</a> can summon a duplicate of one its foes stolen from a parallel alternate past. The stolen <span class="emphasis"><em><a href="ch52s02.html#EpicSpells66">time duplicate</a></em></span> has the same stats and possessions as the original, but is treated as if having two negative levels (which simulates a less experienced version of the original). The <a href="ch75.html#EpicMonsters(A-E)77">phane</a> can never summon a past <span class="emphasis"><em><a href="ch52s02.html#EpicSpells66">time duplicate</a></em></span> of a creature with more than 25 HD (add sufficient negative levels to compensate for high foe HD, if necessary). The past <span class="emphasis"><em><a href="ch52s02.html#EpicSpells66">time duplicate</a></em></span>, despite having most of the knowledge of the original, serves the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> loyally like any summoned creature. If the past <span class="emphasis"><em><a href="ch52s02.html#EpicSpells66">time duplicate</a></em></span> is slain, the original is not harmed because the duplicate was pulled from a parallel past. However, the original does not necessarily realize this, and must make a Will save (DC 30) or be shaken for 1d4 rounds after witnessing the death of a duplicate for the first time.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2380158"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)84"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; fire resistance 20; cold resistance 20; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2380192"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)85"/>
+              <p><span class="strong"><strong>Null Time Field (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)77">Phanes</a> continually generate a 30-foot-radius spread null time field. All creatures and objects in the field, except the <a href="ch75.html#EpicMonsters(A-E)77">phane</a>, must make a Will saving throw (DC 30) each round to take any actions. On a failed save, subjects are stuck in a static time stream until their next round of actions, at which time they must make another saving throw. While a subject is stuck in a static time stream induced by a null time field, the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> can use its static touch on the subject, though in all other ways, the subject is invulnerable to attacks and damage as if in temporal stasis.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2380258"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)86"/>
+              <p><span class="strong"><strong>Time Regression (Su):</strong></span> If the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> spends an action per round for four rounds, at the end of the 4th round the <a href="ch75.html#EpicMonsters(A-E)77">phane</a> regresses back in time 4 rounds, to the very 1st round it originally began concentrating on time regression. On its second pass through the time stream, it can take completely different actions, based on its knowledge of the future (though if it takes different actions from its first pass through the time stream, the events of the original time stream are also changed).</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2380307"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)87"/>
+              <p><span class="strong"><strong>Regeneration (Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)77">Phanes</a> take normal damage from holy and good weapons, and from weapons forged in the future or an alternate reality's time stream (if any).</p>
+              <p/>
+            </div>
+          </div>
+        </div>
+        <div class="sect2" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a name="id2380352"/>Xixecal</h3>
+              </div>
+            </div>
+          </div>
+          <div class="toc">
+            <dl>
+              <dt>
+                <span class="sect4">
+                  <a href="ch75.html#id2381571">Combat</a>
+                </span>
+              </dt>
+            </dl>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monster</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)88"/>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2380370">
+            <tbody>
+              <tr><td/>
+<td><p><span class="strong"><strong>Xixecal</strong></span></p></td>
+
+</tr>
+              <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities16">Cold</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>72d8+1,080 (1,676 hp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+11 (+7 Dex. +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>140 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>58 (-8 size, +1 Dex, +55 natural), <a href="ch21s02.html#CombatI12">touch</a> 3, <a href="ch21s03.html#CombatI21">flat-footed</a> 57</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+72/+116</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +95 (2d8+28/19-20) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +95 (2d8+28/19-20) melee, bite +89 (4d6+14) melee, stamp +89 (4d6+14) melee</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>50 ft./50 ft.</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Rend 4d8+42, <a href="ch04.html#TypesSubtypesAbilities16">cold</a>, <a href="ch21s05.html#CombatI64">spell-like abilities,</a> <a href="ch04.html#TypesSubtypesAbilities13">breath weapon</a>, <span class="emphasis"><em>summon white dragon</em></span>, <span class="emphasis"><em/></span> Constitution drain</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch75.html#EpicMonsters(A-E)2">Abomination</a> traits, <a href="ch04.html#TypesSubtypesAbilities16">cold</a> immunity, <a href="ch04.html#TypesSubtypesAbilities29">fire</a> vulnerability, dire winter, <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 30, <a href="ch04.html#TypesSubtypesAbilities58">regeneration</a> 30, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 48, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 20/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and epic and <a href="ch24.html#SpecialMaterials3">adamantine</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +55, Ref +47, Will +39</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 66, Dex 13, Con 40, Int 12, Wis 8, Cha 34</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +103, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +90, <a href="ch16s03.html#CombinedSkills179">Hide</a> -9, <a href="ch16s03.html#CombinedSkills192">Jump</a> +28, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (arcana, religion, the planes) +76, <a href="ch16s03.html#CombinedSkills204">Listen</a> +70, <a href="ch16s03.html#CombinedSkills253">Search</a> +76, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +76, <a href="ch16s03.html#CombinedSkills294">Spot</a> +76</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats60">Cleave</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats141">Great Fortitude</a>, <a href="ch17s03.html#Feats170">Improved Critical</a> (claw), <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats209">Improved Sunder</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats390">Weapon Focus</a> (bite), <a href="ch17s03.html#Feats390">Weapon Focus</a> (claw), <a href="ch17s03.html#Feats390">Weapon Focus</a> (stomp)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats34">Blinding Speed</a> (x4), <a href="ch18s02.html#EpicFeats79">Devastating Critical</a> (claw), <a href="ch18s02.html#EpicFeats171">Epic Toughness</a>, <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (bite), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (claw), <a href="ch18s02.html#EpicFeats174">Epic Weapon Focus</a> (stomp), <a href="ch18s02.html#EpicFeats416">Overwhelming Critical</a> (claw), <a href="ch18s02.html#EpicFeats504">Spell Stowaway</a> (<span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>)</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or in the company of 1d4+1 old white <a href="ch04.html#TypesSubtypesAbilities20">dragons</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>36</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+              <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>73-150 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+
+</tr>
+            </tbody>
+          </table>
+          <p>A <a href="ch75.html#EpicMonsters(A-E)88">xixecal's</a> natural weapons are treated as epic, evil, and chaotic-aligned for the purpose of overcoming damage reduction.<a href="img/EpicMonsters(A-E).Xixecal.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(A-E).Xixecal.jpg" align="right"/></span></a></p>
+          <div class="sect4" lang="en">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h5 class="title"><a name="id2381571"/>Combat</h5>
+                </div>
+              </div>
+            </div>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">monsterinfo</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)89"/>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381589"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)90"/>
+              <p><span class="strong"><strong>Rend (Ex):</strong></span> If the <a href="ch75.html#EpicMonsters(A-E)88">xixecal</a> hits with both claw attacks, it latches onto the opponent's body and tears the flesh. This attack automatically deals an additional 4d8+42 points of damage.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381630"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)91"/>
+              <p><span class="strong"><strong>Cold (Su):</strong></span> A hit from a <a href="ch75.html#EpicMonsters(A-E)88">xixecal's</a> melee attack induces numbing cold. The opponent must succeed at a Fortitude save (DC 58) or be affected as though by a <span class="emphasis"><em><a href="ch50.html#SpellsS43">slow</a></em></span> spell for 10 rounds. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381681"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)92"/>
+              <p><span class="strong"><strong>Spell-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch43.html#SpellsA-B42">blasphemy</a></em></span>,  <span class="emphasis"><em><a href="ch44.html#SpellsC32">cone of cold</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E16">desecrate</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E45">greater dispel magic</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E53">dominate monster</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L21">hold person</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L53">greater invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z29">unholy aura</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z40">wall of ice</a></em></span>; 5/day-<span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O33">meteor swarm</a></em></span>. Caster level 36th; save DC 22 + spell level. The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381829"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)93"/>
+              <p><span class="strong"><strong>Breath Weapon (Su):</strong></span> Cone of cold, 300 feet, 3/day, damage 12d6, Fort half DC 61. The DC is Constitution-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381859"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)94"/>
+              <p><span class="strong"><strong><span class="emphasis"><em>Summon White Dragon</em></span> (Sp):</strong></span> Five times per day a <a href="ch75.html#EpicMonsters(A-E)88">xixecal</a> can summon an old <a href="ch64.html#MonstersDr-Dw93">white dragon</a>.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381910"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)95"/>
+              <p><span class="strong"><strong>Constitution Drain (Su):</strong></span> This effect permanently reduces a living opponent's Constitution score by 4 when the creature hits with a slam, bite, or rend, or twice that amount on a rend or critical hit. The creature heals 20 points of damage (or 40 on a rend or critical hit) whenever it drains Constitution, gaining any excess as temporary hit points. These temporary hit points last a maximum of 1 hour. The attack allows a Fortitude save (DC 58). The DC is Charisma-based.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381947"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)96"/>
+              <p><span class="strong"><strong>Abomination Traits:</strong></span> Immune to polymorphing, petrification, and other form-altering attacks; not subject to energy drain, ability drain, ability damage, or death from massive damage; immune to mind-affecting effects; nondetection; true seeing at will; blindsight 500 ft.; telepathy out to 1,000 ft.</p>
+              <p>The standard fire resistance 20 most <a href="ch75.html#EpicMonsters(A-E)2">abominations</a> have is not shared by xixecales</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2381994"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)97"/>
+              <p><span class="strong"><strong>Dire Winter (Su):</strong></span> A <a href="ch75.html#EpicMonsters(A-E)88">xixecal</a> always stands at the center of a permanent <span class="emphasis"><em><a href="ch52s02.html#EpicSpells31">dire winter</a></em></span> (epic spell) spell effect. If dispelled, the effect returns 1 minute later- the only way to permanently remove the effect is to slay the <a href="ch75.html#EpicMonsters(A-E)88">xixecal</a> that generates it.</p>
+            </div>
+            <div class="simplesect" lang="en">
+              <div class="titlepage"/>
+              <a name="id2382056"/>
+              <div class="keywordset" style="display:none">
+                <div class="keyword">other</div>
+              </div>
+              <a class="indexterm" name="EpicMonsters(A-E)98"/>
+              <p><span class="strong"><strong>Regeneration(Ex):</strong></span> <a href="ch75.html#EpicMonsters(A-E)88">Xixecals</a> take normal damage from Lawful weapons, and double damage from burning or fiery weapons.</p>
+              <p/>
+              <p/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch74s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="pt11.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch75s02.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Monstrous Spider </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Behemoth</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

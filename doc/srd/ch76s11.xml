@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Legendary Animal</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch76.html" title="Epic Monsters (G-W)"/>
+    <link rel="prev" href="ch76s10.html" title="Lavawight"/>
+    <link rel="next" href="ch76s12.html" title="Leshay"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Legendary Animal</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch76s10.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (G-W)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch76s12.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2360769"/>Legendary Animal</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch76s11.html#id2362300">Legendary Bear</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch76s11.html#id2362398">Legendary Tiger</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(G-W)75"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2360788">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Legendary Bear</strong></span> </p></td>
+<td><p><span class="strong"><strong>Legendary Tiger</strong></span> </p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities7">Animal</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>20d8+140 (230 hp)</p></td>
+<td><p>26d8+188 (305 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6 (+2 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+<td><p>+8 (+4 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>50 ft.</p></td>
+<td><p>50 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>21 (-1 size, +2 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+<td><p>23 (-1 size, +4 Dex, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 13, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Base <a href="ch60.html#MonstersIntro-A11">Attack</a>/</strong></span></p>
+<p><span class="strong"><strong>Grapple:</strong></span></p></td> <td><p>+15/+32</p></td>
+<td><p>+19/+34</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +27 (2d6+13) melee</p></td>
+<td><p>Claw +29 (2d6+11) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +27 (2d6+13) melee, bite +22 (4d6+6) melee</p></td>
+<td><p>2 claws +29 (2d6+11) melee, bite +24 (2d8+5) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities53">Pounce</a>, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities56">rake</a> 2d6+5</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities61">Scent</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities61">Scent</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +19, Ref +14, Will +11</p></td>
+<td><p>Fort +22, Ref +19, Will +12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 36, Dex 14, Con 24, Int 2, Wis 16, Cha 12</p></td>
+<td><p>Str 32, Dex 18, Con 24, Int 2, Wis 14, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +15, <a href="ch16s03.html#CombinedSkills192">Jump</a> +21, <a href="ch16s03.html#CombinedSkills204">Listen</a> +14, <a href="ch16s03.html#CombinedSkills294">Spot</a> +14, <a href="ch16s03.html#CombinedSkills311">Swim</a> +20</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +13, <a href="ch16s03.html#CombinedSkills179">Hide</a> +15, <a href="ch16s03.html#CombinedSkills192">Jump</a> +19, <a href="ch16s03.html#CombinedSkills204">Listen</a> +12, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +15, <a href="ch16s03.html#CombinedSkills294">Spot</a> +12, <a href="ch16s03.html#CombinedSkills311">Swim</a> +16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span> </p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats48">Athletic</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats369">Track</a></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats48">Athletic</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats306">Run</a>, <a href="ch17s03.html#Feats361">Toughness</a>(x2), <a href="ch17s03.html#Feats369">Track</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any forest, hill, mountains, plains, and underground</p></td>
+<td><p>Any forest, hill, mountains, plains, or underground</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+<td><p>Solitary or pair</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>9</p></td>
+<td><p>10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span> </p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>21-40 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+<td><p>27-48 HD (<a href="ch22.html#CombatII28">Large</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2362300"/>Legendary Bear</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch76s11.html#id2362319">Combat<span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Legendary_Bear.jpg" align="right"/></span></a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)76"/>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2362319"/>Combat<a href="img/EpicMonsters(G-W).Legendary_Bear.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Legendary_Bear.jpg" align="right"/></span></a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)77"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2362356"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)78"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch76s11.html#EpicMonsters(G-W)76">legendary bear</a> must hit with a claw attack.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2362398"/>Legendary Tiger</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch76s11.html#id2362416">Combat<span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Legendary_Tiger.jpg" align="right"/></span></a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(G-W)79"/>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2362416"/>Combat<a href="img/EpicMonsters(G-W).Legendary_Tiger.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/EpicMonsters(G-W).Legendary_Tiger.jpg" align="right"/></span></a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(G-W)80"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2362454"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)81"/>
+            <p><span class="strong"><strong>Pounce (Ex):</strong></span> If a <a href="ch76s11.html#EpicMonsters(G-W)79">legendary tiger</a> leaps upon a foe during the first round of combat, it can make a full attack even if it has already taken a move action.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2362491"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)82"/>
+            <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, the <a href="ch76s11.html#EpicMonsters(G-W)79">legendary tiger</a> must hit with a bite attack. If it gets a hold, it can rake.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2362530"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)83"/>
+            <p><span class="strong"><strong>Rake (Ex):</strong></span> A <a href="ch76s11.html#EpicMonsters(G-W)79">legendary tiger</a> can make two attacks (+30 melee) against a held creature with its hind legs for 2d6+5 points of Damage each. If the <a href="ch76s11.html#EpicMonsters(G-W)79">legendary tiger</a> pounces on an opponent, it can also rake.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2362578"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(G-W)84"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch76s11.html#EpicMonsters(G-W)79">Legendary tigers</a> receive a +8 racial bonus on <a href="ch16s03.html#CombinedSkills179">Hide</a> and <a href="ch16s03.html#CombinedSkills211">Move Silently</a> checks. *In areas of tall grasses or heavy undergrowth, the <a href="ch16s03.html#CombinedSkills179">Hide</a> bonus improves to +16.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch76s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch76.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch76s12.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Lavawight </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Leshay</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

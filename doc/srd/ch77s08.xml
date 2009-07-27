@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Couatl, Psionic</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch77.html" title="Psionic Monsters"/>
+    <link rel="prev" href="ch77s07.html" title="Cerebrilith"/>
+    <link rel="next" href="ch77s09.html" title="Crysmal"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Couatl, Psionic</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch77s07.html">Prev</a> </td>
+          <th width="60%" align="center">Psionic Monsters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch77s09.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2471835"/>Couatl, Psionic</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch77s08.html#id2472819">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="PsionicMonsters104"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2471853">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Couatl, Psionic</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities45">Native</a>, Psionic)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>9d8+18 (58 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), fly 60 ft. (<a href="ch04.html#TypesSubtypesAbilities35">good</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>21 (-1 size, +3 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+9/+17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +12 melee (1d3+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +12 melee (1d3+6 plus <a href="ch04.html#TypesSubtypesAbilities52">poison</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities17">Constrict</a> 2d8+6, <a href="ch04.html#TypesSubtypesAbilities37">improved grab</a>, <a href="ch04.html#TypesSubtypesAbilities52">poison</a>, psi-like abilities, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., ethereal jaunt, <a href="ch04.html#TypesSubtypesAbilities71">telepathy</a> 90 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +9, Will +10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 18, Dex 16, Con 14, Int 17, Wis 19, Cha 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills78">Concentration</a> +14, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +17, <a href="ch16s03.html#CombinedSkills192">Jump</a> +0, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (any two) +15, <a href="ch16s03.html#CombinedSkills204">Listen</a> +16, <a href="ch16s03.html#CombinedSkills253">Search</a> +15, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +16, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +15 (+17 scrolls), <a href="ch16s03.html#CombinedSkills294">Spot</a> +16, <a href="ch16s03.html#CombinedSkills303">Survival</a> +4 (+6 following tracks), <a href="ch16s03.html#CombinedSkills318">Tumble</a> +15, <a href="ch16s03.html#CombinedSkills329">Use Magic Device</a> +15 (+17 scrolls)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats108">Empower Spell</a>, <a href="ch17s03.html#Feats116">Eschew Materials</a> <sup>B</sup>, <a href="ch20.html#MonsterFeats20">Hover</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm forests</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or <a href="ch04.html#TypesSubtypesAbilities30">flight</a> (3-6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description6">lawful good</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>10-13 HD (<a href="ch22.html#CombatII28">Large</a>); 14-27 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A <a href="ch61s18.html#MonstersB-C96">couatl</a> is about 12 feet long, with a wingspan of about 15 feet. It weighs about 1,800 pounds.</p>
+      <p><a href="ch61s18.html#MonstersB-C96">Couatls</a> speak Celestial, Common, and Draconic, and also have the power of telepathy (see below).</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2472819"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="PsionicMonsters105"/>
+        <p>A <a href="ch61s18.html#MonstersB-C96">couatl</a> uses its <span class="emphasis"><em><a href="ch45.html#SpellsD-E28">detect thoughts</a></em></span> ability on any creature that arouses its suspicions. Since it is highly intelligent, a <a href="ch61s18.html#MonstersB-C96">couatl</a> usually casts spells from a distance before closing. If more than one <a href="ch61s18.html#MonstersB-C96">couatl</a> is involved, they discuss their strategy before a battle.</p>
+        <p>The <a href="ch77s08.html#PsionicMonsters104">psionic couatl</a> does not possess the psionic spell-like abilities of the standard <a href="ch61s18.html#MonstersB-C96">couatl</a>. Instead, it has psi-like abilities.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2472904"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters106"/>
+          <p><span class="strong"><strong>Constrict (Ex):</strong></span> A <a href="ch61s18.html#MonstersB-C96">couatl</a> deals 2d8+6 points of damage with a successful grapple check.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2472943"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters107"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, a <a href="ch61s18.html#MonstersB-C96">couatl</a> must hit a creature of up to two size categories larger with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2472985"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters108"/>
+          <p><span class="strong"><strong>Psi-Like Abilities:</strong></span> At will-<span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C20">aura sight</a></em></span>, <span class="emphasis"><em><a href="ch56.html#PsionicPowersA-C63">cloud mind</a></em></span> (DC 15), <span class="emphasis"><em><a href="ch57.html#PsionicPowersD-F18">detect psionics</a></em></span>, <span class="emphasis"><em><a href="ch59.html#PsionicPowersQ-W3">read thoughts</a></em></span> (DC 15); 3/day-<span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P39">mental barrier</a></em></span> (2 rounds*), <span class="emphasis"><em><a href="ch58.html#PsionicPowersG-P46">metamorphosis</a></em></span>, <span class="emphasis"><em>psionic <a href="ch49.html#SpellsP-R17">plane shift</a></em></span>, <span class="emphasis"><em>thought <a href="ch50.html#SpellsS28">shield</a></em></span> (power resistance 19*). Manifester level 9th. The save DCs are Charisma-based.</p>
+          <p>*Includes augmentation for the <a href="ch77s08.html#PsionicMonsters104">psionic couatl's</a> manifester level.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2473119"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters109"/>
+          <p><span class="strong"><strong>Poison (Ex)</strong></span>: Injury, Fortitude DC 16, initial damage 2d4 Str, secondary damage 4d4 Str.</p>
+          <p>The save DC is Constitution-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2473152"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters110"/>
+          <p><span class="strong"><strong>Spells:</strong></span> A <a href="ch61s18.html#MonstersB-C96">couatl</a> casts spells as a 9th-level sorcerer.</p>
+          <p>It can choose its spells known from the sorcerer list, the cleric list, and from the lists for the Air, Good, and Law domains. The cleric spells and domain spells are considered arcane spells for a <a href="ch61s18.html#MonstersB-C96">couatl</a>, meaning that the creature does not need a divine focus to cast them.</p>
+          <p><span class="emphasis"><em>Typical Spells Known</em></span> (6/7/7/7/4; save DC 13 + spell level): 0-<span class="emphasis"><em><a href="ch44.html#SpellsC58">cure minor wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E6">daze</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E47">disrupt undead</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O52">obscuring mist</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R51">ray of frost</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>; 1st-<span class="emphasis"><em><a href="ch45.html#SpellsD-E61">endure elements</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O2">mage armor</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R35">protection from chaos</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z25">true strike</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z54">wind wall</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch44.html#SpellsC59">cure moderate wounds</a></em></span>,  <span class="emphasis"><em><a href="ch45.html#SpellsD-E57">eagle's splendor</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS5">scorching ray</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS37">silence</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch46.html#SpellsF-G35">gaseous form</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O12">magic circle against evil</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS79">summon monster III</a></em></span>; 4th- <span class="emphasis"><em><a href="ch44.html#SpellsC13">charm monster</a></em></span>,  <span class="emphasis"><em><a href="ch46.html#SpellsF-G33">freedom of movement</a></em></span>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2473449"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters111"/>
+          <p><span class="strong"><strong>Ethereal Jaunt (Su):</strong></span> This ability works like the <span class="emphasis"><em><a href="ch45.html#SpellsD-E70">ethereal jaunt</a></em></span> spell (caster level 16th).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2473489"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="PsionicMonsters112"/>
+          <p><span class="strong"><strong>Telepathy (Su):</strong></span> A <a href="ch61s18.html#MonstersB-C96">couatl</a> can communicate telepathically with any creature within 90 feet that has an Intelligence score. The creature can respond to the <a href="ch61s18.html#MonstersB-C96">couatl</a> if it wishes-no common language is needed.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch77s07.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch77.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch77s09.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Cerebrilith </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Crysmal</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

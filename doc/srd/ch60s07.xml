@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Ankheg</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch60.html" title="Monsters (Intro-A)"/>
+    <link rel="prev" href="ch60s06.html" title="Animated Object"/>
+    <link rel="next" href="ch60s08.html" title="Aranea"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Ankheg</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch60s06.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (Intro-A)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch60s08.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1626858"/>Ankheg</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch60s07.html#id1628045">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersIntro-A73"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1626877">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Ankheg</strong></span></p></td> 
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities41">Magical Beast</a></p></td> 
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d10+12 (28 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares), burrow 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>18 (-1 size, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 18</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+3/+12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +7 melee (2d6+7 plus 1d4 acid)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +7 melee (2d6+7 plus 1d4 acid)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities37">Improved grab</a>, spit acid</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities40">low-light vision</a>, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +6, Ref +3, Will +2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 10, Con 17, Int 1, Wis 13, Cha 6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm plains</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or cluster (2-4)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4 HD (<a href="ch22.html#CombatII28">Large</a>); 5-9 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>The <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> is a burrowing monster with a taste for fresh meat. An <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> has six legs, and some specimens are yellow rather than brown. It is about 10 feet long and weighs about 800 pounds.<a href="img/MonstersIntro-A.Ankheg.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersIntro-A.Ankheg.jpg" align="right"/></span></a></p>
+      <p>An <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> burrows with legs and mandibles. A burrowing <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> usually does not make a usable tunnel, but can construct a tunnel; it burrows at half speed when it does so. It often digs a winding tunnel up to 40 feet below the surface in the rich soil of forests or farmlands. The tunnel is 5 feet tall and wide, and from 60 to 150 feet long ( [1d10 + 5] x10).</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1628045"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersIntro-A74"/>
+        <p>An <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> usually lies 5 to 10 feet below the surface until its antennae detect the approach of prey. It then burrows up to attack. (Treat this as a charge, even though the <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> does not need to move 10 feet before attacking.)</p>
+        <p>Clusters of <a href="ch60s07.html#MonstersIntro-A73">ankhegs</a> share the same territory but do not cooperate.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1628375"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A75"/>
+          <p><span class="strong"><strong>Improved Grab (Ex):</strong></span> To use this ability, an <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If the <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> is damaged after grabbing its prey, it retreats backward down its tunnel at its land speed (not its burrow speed), dragging the victim with it.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1628428"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersIntro-A76"/>
+          <p><span class="strong"><strong>Spit Acid (Ex):</strong></span> 30-ft. line, once every 6 hours; damage 4d4 acid, Reflex DC 14 half. One such attack depletes the <a href="ch60s07.html#MonstersIntro-A73">ankheg's</a> acid supply for 6 hours. It cannot spit acid or deal acid damage during this time. The save DC is Constitution-based.</p>
+          <p>An <a href="ch60s07.html#MonstersIntro-A73">ankheg</a> does not use this ability unless it is desperate or frustrated. It most often spits acid when reduced to fewer than half its full normal hit points or when it has not successfully grabbed an opponent.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch60s06.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch60.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch60s08.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Animated Object </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Aranea</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

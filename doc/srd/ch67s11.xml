@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Howler</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch67.html" title="Monsters (H-I)"/>
+    <link rel="prev" href="ch67s10.html" title="Homunculus"/>
+    <link rel="next" href="ch67s12.html" title="Hydra"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Howler</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch67s10.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (H-I)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch67s12.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id1962914"/>Howler</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch67s11.html#id1963875">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch67s11.html#id1964034">Training A Howler</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersH-I107"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id1962932">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Howler</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities15">Chaotic</a>, <a href="ch04.html#TypesSubtypesAbilities24">Evil</a>, <a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>6d8+12 (39 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>60 ft. (12 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>17 (-1 size, +3 Dex, +5 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 14</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+6/+15</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +10 melee (2d8+5)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +10 melee (2d8+5) and 1d4 quills +5 melee (1d6+2)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>10 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Quills, howl</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Darkvision 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +7, Ref +8, Will +7</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 21, Dex 17, Con 15, Int 6, Wis 14, Cha 8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills71">Climb</a> +14, <a href="ch16s03.html#CombinedSkills179">Hide</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +12, <a href="ch16s03.html#CombinedSkills253">Search</a> +7, <a href="ch16s03.html#CombinedSkills294">Spot</a> +13, <a href="ch16s03.html#CombinedSkills303">Survival</a> +2 (+4 following tracks)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>A chaotic-aligned plane</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, gang (2-4), or pack (6-10)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description14">chaotic evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>7-9 HD (<a href="ch22.html#CombatII28">Large</a>); 11-18 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+3 (cohort)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p><a href="ch67s11.html#MonstersH-I107">Howlers</a> live on planes where chaos and evil hold sway. A <a href="ch67s11.html#MonstersH-I107">howler</a> is about 8 feet long and weighs about 2,000 pounds. Although they are surprisingly intelligent, <a href="ch67s11.html#MonstersH-I107">howlers</a> do not speak-they only howl. If there is a language within the howls, as some have suggested, even spells cannot decipher it. <a href="ch67s11.html#MonstersH-I107">Howlers</a> understand Abyssal.<a href="img/MonstersH-I.Howler.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersH-I.Howler.jpg" align="right"/></span></a></p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id1963875"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I108"/>
+        <p><a href="ch67s11.html#MonstersH-I107">Howlers</a> attack in groups, for they are cowardly and cruel. They prefer to charge into combat, race out, and then charge in again. A <a href="ch67s11.html#MonstersH-I107">howler's</a> natural weapons, as well as any weapons it wields, are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1963918"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I109"/>
+          <p><span class="strong"><strong>Quills (Ex):</strong></span> A <a href="ch67s11.html#MonstersH-I107">howler's</a> neck bristles with long quills. While biting, the creature thrashes about, striking with 1d4 of them. An opponent hit by a <a href="ch67s11.html#MonstersH-I107">howler's</a> quill attack must succeed on a DC 16 Reflex save or have the quill break off in his or her flesh. Lodged quills impose a -1 penalty on attacks, saves, and checks per quill. The save DC is Dexterity-based.</p>
+          <p>A quill can be removed safely with a DC 20 <a href="ch16s03.html#CombinedSkills171">Heal</a> check; otherwise, removing a quill deals an extra 1d6 points of damage.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1963982"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I110"/>
+          <p><span class="strong"><strong>Howl (Ex):</strong></span> All beings other than outsiders that hear the creature's howling for an hour or longer are subject to its effect, though it does not help the <a href="ch67s11.html#MonstersH-I107">howler</a> in combat. Anyone within hearing range of a <a href="ch67s11.html#MonstersH-I107">howler</a> for a full hour must succeed on a DC 12 Will save or take 1 point of Wisdom damage. The save DC is Charisma-based. The save must be repeated for each hour of exposure. This is a sonic mind-affecting effect.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id1964034"/>Training A Howler</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersH-I111"/>
+        <p>Although intelligent, a <a href="ch67s11.html#MonstersH-I107">howler</a> requires training before it can bear a rider in combat. To be trained, a <a href="ch67s11.html#MonstersH-I107">howler</a> must have a friendly attitude toward the trainer (this can be achieved through a successful <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> check). Training a friendly <a href="ch67s11.html#MonstersH-I107">howler</a> requires six weeks of work and a DC 25 <a href="ch16s03.html#CombinedSkills162">Handle Animal</a> check. Riding a <a href="ch67s11.html#MonstersH-I107">howler</a> requires an exotic saddle. A <a href="ch67s11.html#MonstersH-I107">howler</a> can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a <a href="ch16s03.html#CombinedSkills243">Ride</a> check.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id1964135"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersH-I112"/>
+          <p><span class="strong"><strong>Carrying Capacity:</strong></span> A light load for a <a href="ch67s11.html#MonstersH-I107">howler</a> is up to 460 pounds; a medium load, 461-920 pounds; and a heavy load, 921-1,380 pounds. A <a href="ch67s11.html#MonstersH-I107">howler</a> can drag 6,900 pounds.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch67s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch67.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch67s12.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Homunculus </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Hydra</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

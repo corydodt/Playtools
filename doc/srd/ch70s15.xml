@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Rakshasa</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch70.html" title="Monsters (O-R)"/>
+    <link rel="prev" href="ch70s14.html" title="Purple Worm"/>
+    <link rel="next" href="ch70s16.html" title="Rast"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Rakshasa</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch70s14.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (O-R)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch70s16.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2138373"/>Rakshasa</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch70s15.html#id2139728">Combat</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch70s15.html#id2140416">Rakshasas as Characters</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersO-R114"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2138391">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Rakshasa</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities45">Native</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>7d8+21 (52 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+2</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>40 ft. (8 squares)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>21 (+2 Dex, +9 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+7/+8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +8 melee (1d4+1)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +8 melee (1d4+1) and bite +3 melee (1d6)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Detect thoughts, spells</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities14">Change shape</a>, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and piercing, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 27</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +8, Ref +7, Will +6</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 12, Dex 14, Con 16, Int 13, Wis 13, Cha 17</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +17*, <a href="ch16s03.html#CombinedSkills78">Concentration</a> +13, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +7, <a href="ch16s03.html#CombinedSkills130">Disguise</a> +17 (+19 acting)*, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +5, <a href="ch16s03.html#CombinedSkills204">Listen</a> +13, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +13, <a href="ch16s03.html#CombinedSkills222">Perform</a> (oratory) +13, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +11, <a href="ch16s03.html#CombinedSkills283">Spellcraft</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats64">Combat Casting</a>, <a href="ch17s03.html#Feats104">Dodge</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Warm marshes</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard coins; double <a href="ch04.html#TypesSubtypesAbilities35">goods</a>; standard items</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description12">lawful evil</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>By character class</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>+7</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>A closer look at a <a href="ch70s15.html#MonstersO-R114">rakshasa</a> reveals that the palms of its hands are where the backs of the hands would be on a human.<a href="img/MonstersO-R.Rakshasa.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersO-R.Rakshasa.jpg" align="right"/></span></a></p>
+      <p>A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> is about the same height and weight as a human.</p>
+      <p><a href="ch70s15.html#MonstersO-R114">Rakshasas</a> speak Common, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>, and Undercommon.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2139728"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R115"/>
+        <p>In close combat, which a <a href="ch70s15.html#MonstersO-R114">rakshasa</a> disdains as ignoble, it employs its sharp claws and powerful bite. Whenever possible, it uses its other abilities to make such encounters unnecessary.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2139761"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R116"/>
+          <p><span class="strong"><strong>Detect Thoughts (Su):</strong></span> A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> can continuously use detect thoughts as the spell (caster level 18th; Will DC 15 negates). It can suppress or resume this ability as a free action. The save DC is Charisma-based.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2139802"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R117"/>
+          <p><span class="strong"><strong>Spells:</strong></span> A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> casts spells as a 7th-level sorcerer.</p>
+          <p><span class="emphasis"><em>Typical Sorcerer Spells Known</em></span> (6/7/7/5; save DC 13 + spell level): 0-<span class="emphasis"><em><a href="ch45.html#SpellsD-E23">detect magic</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L67">light</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O3">mage hand</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O32">message</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R52">read magic</a></em></span>,  <span class="emphasis"><em><a href="ch49.html#SpellsP-R69">resistance</a></em></span>,  <span class="emphasis"><em><a href="ch51.html#SpellsT-Z13">touch of fatigue</a></em></span>; 1st-<span class="emphasis"><em><a href="ch44.html#SpellsC15">charm person</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O2">mage armor</a></em></span>,  <span class="emphasis"><em><a href="ch48.html#SpellsM-O18">magic missile</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS28">shield</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS38">silent image</a></em></span>; 2nd-<span class="emphasis"><em><a href="ch43.html#SpellsA-B36">bear's endurance</a></em></span>,  <span class="emphasis"><em><a href="ch47.html#SpellsH-L52">invisibility</a></em></span>,  <span class="emphasis"><em><a href="ch43.html#SpellsA-B2">acid arrow</a></em></span>; 3rd-<span class="emphasis"><em><a href="ch47.html#SpellsH-L6">haste</a></em></span>,  <span class="emphasis"><em><a href="ch50.html#SpellsS74">suggestion</a></em></span>.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2140097"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R118"/>
+          <p><span class="strong"><strong>Change Shape (Su):</strong></span> A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> can assume any humanoid form, or revert to its own form, as a standard action. In humanoid form, a <a href="ch70s15.html#MonstersO-R114">rakshasa</a> loses its claw and bite attacks (although it often equips itself with weapons and armor instead). A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, but the <a href="ch70s15.html#MonstersO-R114">rakshasa</a> reverts to its natural form when killed. A <span class="emphasis"><em><a href="ch51.html#SpellsT-Z24">true seeing</a></em></span> spell reveals its natural form.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2140316"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersO-R119"/>
+          <p><span class="strong"><strong>Skills:</strong></span> A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks. *When using change shape, a <a href="ch70s15.html#MonstersO-R114">rakshasa</a> gains an additional +10 circumstance bonus on <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks. If reading an opponent's mind, its circumstance bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks increases by a further +4.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2140416"/>Rakshasas as Characters</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersO-R120"/>
+        <p><a href="ch70s15.html#MonstersO-R114">Rakshasa</a> characters possess the following racial traits.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>+2 Strength, +4 Dexterity, +6 Constitution, +2 Intelligence, +2 Wisdom, +6 Charisma.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p><a href="ch22.html#CombatII28">Medium</a> size.</p>
+            </li>
+          </ul>
+        </div>
+        <p>-A <a href="ch70s15.html#MonstersO-R114">rakshasa's</a> base land speed is 40 feet.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Darkvision out to 60 feet.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial <a href="ch21s02.html#CombatI13">Hit Dice</a>: A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> begins with seven levels of <a href="ch04.html#TypesSubtypesAbilities49">outsider</a>, which provide 7d8 <a href="ch21s02.html#CombatI13">Hit Dice</a>, a base <a href="ch21s02.html#CombatI6">attack bonus</a> of +7, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Skills: A <a href="ch70s15.html#MonstersO-R114">rakshasa's</a> <a href="ch04.html#TypesSubtypesAbilities49">outsider</a> levels give it skill points equal to 10 x (8 + Int modifier). Its class skills are <a href="ch16s03.html#CombinedSkills61">Bluff</a>, <a href="ch16s03.html#CombinedSkills130">Disguise</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills222">Perform</a>, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a>. A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> has a +4 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks, and it can gain further bonuses by using <a href="ch04.html#TypesSubtypesAbilities14">change shape</a> (+10 on <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks) and detect thoughts (+4 on <a href="ch16s03.html#CombinedSkills61">Bluff</a> and <a href="ch16s03.html#CombinedSkills130">Disguise</a> checks).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Racial Feats: A <a href="ch70s15.html#MonstersO-R114">rakshasa's</a> <a href="ch04.html#TypesSubtypesAbilities49">outsider</a> levels give it three feats.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>+9 natural armor bonus.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Natural Weapons: Bite (1d6) and 2 claws (1d4).</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Detect Thoughts (Su): The save DC is 13 + the character's Cha modifier.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Spells: A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> character casts spells as a 7th-level sorcerer. If the character takes additional levels of sorcerer, these levels stack with the <a href="ch70s15.html#MonstersO-R114">rakshasa's</a> base spellcasting ability for spells known, spells per day, and other effects dependent on caster level. A <a href="ch70s15.html#MonstersO-R114">rakshasa</a> character likewise uses the sum of its</p>
+            </li>
+          </ul>
+        </div>
+        <p>racial spellcasting levels and class levels to determine the abilities of its familiar.</p>
+        <div class="itemizedlist">
+          <ul type="bullet">
+            <li style="list-style-type: disc">
+              <p>Special Qualities (see above): <a href="ch04.html#TypesSubtypesAbilities14">Change shape</a>, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 15/<a href="ch04.html#TypesSubtypesAbilities35">good</a> and piercing, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> equal to 27 + class levels.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Automatic Languages: Common, <a href="ch75.html#EpicMonsters(A-E)57">Infernal</a>. Bonus Languages: Sylvan, Undercommon.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Favored Class: Sorcerer.</p>
+            </li>
+            <li style="list-style-type: disc">
+              <p>Level adjustment +7.</p>
+            </li>
+          </ul>
+        </div>
+        <p/>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch70s14.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch70.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch70s16.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Purple Worm </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Rast</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

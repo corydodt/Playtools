@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Behemoth</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch75.html" title="Epic Monsters (A-E)"/>
+    <link rel="prev" href="ch75.html" title="Epic Monsters (A-E)"/>
+    <link rel="next" href="ch75s03.html" title="Brachyurus"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Behemoth</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch75.html">Prev</a> </td>
+          <th width="60%" align="center">Epic Monsters (A-E)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch75s03.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2382103"/>Behemoth</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s02.html#id2383478">Behemoth Eagle</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch75s02.html#id2383586">Behemoth Gorilla</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="EpicMonsters(A-E)99"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2382121">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Behemoth Eagle</strong></span> </p></td> <td><p><span class="strong"><strong>Behemoth Gorilla</strong></span> </p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Colossal</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Huge</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>21d8+126 (220 hp)</p></td>
+<td><p>21d8+252 (366 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+20 (+12 Dex, +8 <a href="ch18s02.html#EpicFeats522">Superior Initiative</a>)</p></td>
+<td><p>+12 (+8 Dex, +4 <a href="ch17s03.html#Feats191">Improved Initiative</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft., fly 160 ft. (poor)</p></td>
+<td><p>60 ft., climb 30 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>24 (+12 Dex, -8 size, +10 natural), <a href="ch21s02.html#CombatI12">touch</a> 14, <a href="ch21s03.html#CombatI21">flat-footed</a> 12</p></td>
+<td><p>38 (+8 Dex, -2 size, +22 natural), <a href="ch21s02.html#CombatI12">touch</a> 16, <a href="ch21s03.html#CombatI21">flat-footed</a> 30</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+21/+44</p></td>
+<td><p>+21/+39</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Claw +25 (5d10+7) melee</p></td>
+<td><p>Claw +29 (4d8+10) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>2 claws +25 (5d10+7) melee, bite +20 (4d12+3) melee</p></td>
+<td><p>2 claws +29 (4d8+10) melee, bite +24 (3d10+5) melee</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>30 ft./20 ft.</p></td>
+<td><p>20 ft./20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>Rend 8d8+20</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>Evasion, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 30</p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities61">Scent</a>, <a href="ch04.html#TypesSubtypesAbilities66">spell resistance</a> 30</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +18, Ref +24, Will +16</p></td>
+<td><p>Fort +24, Ref +20, Will +16</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 25, Dex 34, Con 23, Int 17, Wis 19, Cha 16</p></td>
+<td><p>Str 31, Dex 26, Con 35, Int 6, Wis 15, Cha 12</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +27, <a href="ch16s03.html#CombinedSkills192">Jump</a> +3, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (geography, history, nature, religion, the planes) +27, <a href="ch16s03.html#CombinedSkills204">Listen</a> +30, <a href="ch16s03.html#CombinedSkills253">Search</a> +27, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +28, <a href="ch16s03.html#CombinedSkills294">Spot</a> +41, <a href="ch16s03.html#CombinedSkills303">Survival</a> +28</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills55">Balance</a> +32, <a href="ch16s03.html#CombinedSkills71">Climb</a> +42, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +25, <a href="ch16s03.html#CombinedSkills192">Jump</a> +34, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +32, <a href="ch16s03.html#CombinedSkills294">Spot</a> +26</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch20.html#MonsterFeats16">Flyby Attack</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats329">Skill Focus</a> (spot), <a href="ch17s03.html#Feats386">Weapon Finesse</a></p></td>
+<td><p><a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats110">Endurance</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, <a href="ch17s03.html#Feats233">Iron Will</a>, <a href="ch17s03.html#Feats253">Mobility</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats349">Spring Attack</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong>Epic <a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch18s02.html#EpicFeats522">Superior Initiative</a></p></td>
+<td><p><a href="ch18s02.html#EpicFeats171">Epic Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any forest, hill, mountains, and plains</p></td>
+<td><p>Warm forest and warm mountains</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pair</p></td>
+<td><p>Solitary or company (5-8)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>18</p></td>
+<td><p>19</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Always <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>21-42 HD (<a href="ch22.html#CombatII28">Colossal</a>)</p></td>
+<td><p>22-42 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2383478"/>Behemoth Eagle</h3>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)100"/>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2383496"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)101"/>
+          <p><span class="strong"><strong>Skills:</strong></span> *A <a href="ch75s02.html#EpicMonsters(A-E)100">behemoth eagle</a> receives a +8 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2383544"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)102"/>
+          <p><span class="strong"><strong>Carrying Capacity:</strong></span> A light load for a <a href="ch75s02.html#EpicMonsters(A-E)100">behemoth eagle</a> is up to 2,400 pounds; a medium load, 2,401-4,800 pounds; and a heavy load, 4,801-7,200 pounds.</p>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2383586"/>Behemoth Gorilla</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch75s02.html#id2383605">Combat</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="EpicMonsters(A-E)103"/>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2383605"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="EpicMonsters(A-E)104"/>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2383624"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="EpicMonsters(A-E)105"/>
+            <p><span class="strong"><strong>Rend (Ex):</strong></span> A <a href="ch75s02.html#EpicMonsters(A-E)103">behemoth gorilla</a> that hits with both claw attacks latches onto the opponent's body and tears the flesh. This automatically deals an additional 8d8+20 points of damage.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch75.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch75.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch75s03.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Epic Monsters (A-E) </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Brachyurus</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

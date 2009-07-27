@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Xorn</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="monster"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s19.html" title="Xill"/>
+    <link rel="next" href="ch72s21.html" title="Yeth Hound"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Xorn</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s19.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s21.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2244882"/>Xorn</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect4">
+              <a href="ch72s20.html#id2246890">Combat</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">monster</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z149"/>
+      <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2244900">
+        <tbody>
+          <tr><td/>
+<td><p><span class="strong"><strong>Minor Xorn</strong></span></p></td> <td><p><span class="strong"><strong>Average Xorn</strong></span></p></td>
+<td><p><span class="strong"><strong>Elder Xorn</strong></span></p></td>
+
+</tr>
+          <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Small</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities21">Earth</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities21">Earth</a>)</p></td>
+<td><p><a href="ch22.html#CombatII28">Large</a> <a href="ch04.html#TypesSubtypesAbilities49">Outsider</a> (<a href="ch04.html#TypesSubtypesAbilities25">Extraplanar</a>, <a href="ch04.html#TypesSubtypesAbilities21">Earth</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>3d8+9 (22 hp)</p></td>
+<td><p>7d8+17 (48 hp)</p></td>
+<td><p>15d8+63 (130 hp)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+<td><p>+0</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>20 ft. (4 squares), burrow 20 ft.</p></td>
+<td><p>20 ft. (4 squares), burrow 20 ft.</p></td>
+<td><p>20 ft. (4 squares), burrow 20 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>23 (+1 size, +12 natural), <a href="ch21s02.html#CombatI12">touch</a> 11, <a href="ch21s03.html#CombatI21">flat-footed</a> 23</p></td>
+<td><p>24 (+14 natural), <a href="ch21s02.html#CombatI12">touch</a> 10, <a href="ch21s03.html#CombatI21">flat-footed</a> 24</p></td>
+<td><p>25 (-1 size, +16 natural), <a href="ch21s02.html#CombatI12">touch</a> 9, <a href="ch21s03.html#CombatI21">flat-footed</a> 25</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Bite +6 melee (2d8+2)</p></td>
+<td><p>Bite +10 melee (4d6+3)</p></td>
+<td><p>Bite +21 melee (4d8+7)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Bite +6 melee (2d8+2) and 3 claws +4 melee (1d3+1)</p></td>
+<td><p>Bite +10 melee (4d6+3) and 3 claws +8 melee (1d4+1)</p></td>
+<td><p>Bite +21 melee (4d8+7) and 3 claws +19 melee (1d6+3)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>5 ft./5 ft.</p></td>
+<td><p>10 ft./10 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>All-around vision, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/bludgeoning, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities16">cold</a> and <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+<td><p>All-around vision, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/bludgeoning, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities16">cold</a> and <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+<td><p>All-around vision, <a href="ch04.html#TypesSubtypesAbilities21">earth</a> glide, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/bludgeoning, darkvision 60 ft., immunity to <a href="ch04.html#TypesSubtypesAbilities16">cold</a> and <a href="ch04.html#TypesSubtypesAbilities29">fire</a>, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities73">tremorsense</a> 60 ft.</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +5, Ref +3, Will +3</p></td>
+<td><p>Fort +7, Ref +5, Will +5</p></td>
+<td><p>Fort +13, Ref +9, Will +9</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 10</p></td>
+<td><p>Str 17, Dex 10, Con 15, Int 10, Wis 11, Cha 10</p></td><td><p>Str 25, Dex 10, Con 19, Int 10, Wis 11, Cha 10</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +3, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (dungeoneering) +6, <a href="ch16s03.html#CombinedSkills204">Listen</a> +6, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +3, <a href="ch16s03.html#CombinedSkills253">Search</a> +6, <a href="ch16s03.html#CombinedSkills294">Spot</a> +8, <a href="ch16s03.html#CombinedSkills303">Survival</a> +6 (+8 following tracks or underground)</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +10, <a href="ch16s03.html#CombinedSkills197">Knowledge</a>(dungeoneering) +10, <a href="ch16s03.html#CombinedSkills204">Listen</a> +10, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +10, <a href="ch16s03.html#CombinedSkills253">Search</a> +10, <a href="ch16s03.html#CombinedSkills294">Spot</a> +10, Survival+10 (+12 following tracks or underground)</p></td>
+<td><p><a href="ch16s03.html#CombinedSkills179">Hide</a> +14, <a href="ch16s03.html#CombinedSkills185">Intimidate</a> +18, <a href="ch16s03.html#CombinedSkills197">Knowledge</a> (dungeoneering) +18, <a href="ch16s03.html#CombinedSkills204">Listen</a> +18, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +18, <a href="ch16s03.html#CombinedSkills253">Search</a> +22, <a href="ch16s03.html#CombinedSkills294">Spot</a> +22, Survival+18 (+20 following tracks or underground)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch17s03.html#Feats60">Cleave</a> <sup>B</sup>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+<td><p><a href="ch20.html#MonsterFeats6">Awesome Blow</a>, <a href="ch17s03.html#Feats60">Cleave</a> <sup>B</sup>, <a href="ch17s03.html#Feats137">Great Cleave</a>, <a href="ch17s03.html#Feats163">Improved Bull Rush</a>, <a href="ch20.html#MonsterFeats31">Multiattack</a>, <a href="ch17s03.html#Feats277">Power Attack</a>, <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+<td><p><a href="ch04.html#TypesSubtypesAbilities22">Elemental</a> Plane of <a href="ch04.html#TypesSubtypesAbilities21">Earth</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary, pair, or cluster (3-5)</p></td>
+<td><p>Solitary, pair, or cluster (3-5)</p></td>
+<td><p>Solitary, pair, or party (6-11)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>3</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+<td><p>None</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+<td><p>Usually <a href="ch02s02.html#Description10">neutral</a></p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>4-6 HD (<a href="ch22.html#CombatII28">Small</a>)</p></td>
+<td><p>8-14 HD (<a href="ch22.html#CombatII28">Medium</a>)</p></td>
+<td><p>16-21 HD (<a href="ch22.html#CombatII28">Large</a>); 22-45 HD (<a href="ch22.html#CombatII28">Huge</a>)</p></td>
+
+</tr>
+          <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+
+</tr>
+        </tbody>
+      </table>
+      <p>Minor <a href="ch72s20.html#MonstersT-Z149">xorns</a> are about 3 feet tall and wide and weigh about 120 pounds. Average <a href="ch72s20.html#MonstersT-Z149">xorns</a> are about 5 feet tall and wide, weighing about 600 pounds. Elder <a href="ch72s20.html#MonstersT-Z149">xorns</a> are about 8 feet tall and wide and weigh about 9,000 pounds.<a href="img/MonstersT-Z.Xorn.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Xorn.jpg" align="right"/></span></a></p>
+      <p><a href="ch72s20.html#MonstersT-Z149">Xorns</a> speak Common and Terran.</p>
+      <div class="sect4" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h5 class="title"><a name="id2246890"/>Combat</h5>
+            </div>
+          </div>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z150"/>
+        <p><a href="ch72s20.html#MonstersT-Z149">Xorns</a> do not attack fleshly beings except to defend themselves or their property, since they cannot digest meat. <a href="ch72s20.html#MonstersT-Z149">Xorns</a> are indifferent to creatures of the Material Plane-with the sole exception of anyone carrying a significant amount of precious metals or minerals, which <a href="ch72s20.html#MonstersT-Z149">xorns</a> eat. They can smell food up to 20 feet away. A <a href="ch72s20.html#MonstersT-Z149">xorn</a> can be quite aggressive when seeking food, especially on the Material Plane, where such sustenance is harder to find than it is on its native plane.</p>
+        <p>A <a href="ch72s20.html#MonstersT-Z149">xorn's</a> favorite mode of attack is to wait just beneath a stone surface until a foe comes within reach, then emerge suddenly. Groups of <a href="ch72s20.html#MonstersT-Z149">xorns</a> often send one of their number to the surface to negotiate for food while the remainder position themselves for a surprise attack.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2246980"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z151"/>
+          <p><span class="strong"><strong>All-Around Vision (Ex):</strong></span> A <a href="ch72s20.html#MonstersT-Z149">xorn's</a> symmetrically placed eyes allow it to look in any direction, providing a +4 racial bonus on <a href="ch16s03.html#CombinedSkills294">Spot</a> and <a href="ch16s03.html#CombinedSkills253">Search</a> checks. A <a href="ch72s20.html#MonstersT-Z149">xorn</a> can't be flanked.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2247049"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z152"/>
+          <p><span class="strong"><strong>Earth Glide (Ex):</strong></span> A <a href="ch72s20.html#MonstersT-Z149">xorn</a> can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A <span class="emphasis"><em><a href="ch48.html#SpellsM-O47">move earth</a></em></span> spell cast on an area containing a burrowing <a href="ch72s20.html#MonstersT-Z149">xorn</a> flings the <a href="ch72s20.html#MonstersT-Z149">xorn</a> back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s19.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s21.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Xill </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Yeth Hound</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

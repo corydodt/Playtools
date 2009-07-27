@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Vampire</title>
+    <link rel="stylesheet" href="global.css" type="text/css"/>
+    <meta name="generator" content="DocBook XSL Stylesheets V1.67.2"/>
+    <meta name="keywords" content="template"/>
+    <link rel="start" href="index.html" title="SRD 3.5"/>
+    <link rel="up" href="ch72.html" title="Monsters (T-Z)"/>
+    <link rel="prev" href="ch72s10.html" title="Unicorn"/>
+    <link rel="next" href="ch72s12.html" title="Vargouille"/>
+  </head>
+  <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">Vampire</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="ch72s10.html">Prev</a> </td>
+          <th width="60%" align="center">Monsters (T-Z)</th>
+          <td width="20%" align="right"> <a accesskey="n" href="ch72s12.html">Next</a></td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div class="sect1" lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a name="id2230458"/>Vampire</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <dl>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s11.html#id2230596">Creating A Vampire</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect2">
+              <a href="ch72s11.html#id2232206">Vampire Spawn</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect3">
+                  <a href="ch72s11.html#id2233664">Vampire Spawn Weaknesses</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="keywordset" style="display:none">
+        <div class="keyword">template</div>
+      </div>
+      <a class="indexterm" name="MonstersT-Z61"/>
+      <p>Vampires appear just as they did in life, although their features are often hardened and feral, with the predatory look of <a href="ch73s47.html#MonstersAnimals183">wolves</a>.<a href="img/MonstersT-Z.Vampire.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Vampire.jpg" align="right"/></span></a></p>
+      <p>Like liches, they often embrace finery and decadence and may assume the guise of nobility. Despite their human appearance, vampires can be easily recognized, for they cast no <a href="ch71s05.html#MonstersS31">shadows</a> and throw no reflections in mirrors.</p>
+      <p>Vampires speak any languages they knew in life.</p>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2230596"/>Creating A Vampire</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch72s11.html#id2231958">Vampire Weaknesses</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect4">
+                <a href="ch72s11.html#id2232073">Vampire Characters</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monsterinfo</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z62"/>
+        <p>'Vampire' is an acquired template that can be added to any humanoid or monstrous humanoid creature (referred to hereafter as the base creature).</p>
+        <p>A vampire uses all the base creature's statistics and special abilities except as noted here.</p>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230624"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z63"/>
+          <p><span class="strong"><strong>Size and Type:</strong></span> The creature's type changes to undead (augmented humanoid or monstrous humanoid). Do not recalculate base attack bonus, saves, or skill points. Size is unchanged.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230655"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z64"/>
+          <p><span class="strong"><strong>Hit Dice:</strong></span> Increase all current and future Hit Dice to d12s.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230684"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z65"/>
+          <p><span class="strong"><strong>Speed:</strong></span> Same as the base creature. If the base creature has a swim speed, the vampire retains the ability to swim and is not vulnerable to immersion in running water (see below).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230715"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z66"/>
+          <p><span class="strong"><strong>Armor Class:</strong></span> The base creature's natural armor bonus improves by +6.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230744"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z67"/>
+          <p><span class="strong"><strong>Attack:</strong></span> A vampire retains all the attacks of the base creature and also gains a slam attack if it didn't already have one. If the base creature can use weapons, the vampire retains this ability. A creature with natural weapons retains those natural weapons. A vampire fighting without weapons uses either its slam attack or its primary natural weapon (if it has any). A vampire armed with a weapon uses its slam or a weapon, as it desires.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230771"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z68"/>
+          <p><span class="strong"><strong>Full Attack:</strong></span> A vampire fighting without weapons uses either its slam attack (see above) or its natural weapons (if it has any). If armed with a weapon, it usually uses the weapon as its primary attack along with a slam or other natural weapon as a natural secondary attack.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2230803"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z69"/>
+          <p><span class="strong"><strong>Damage:</strong></span> Vampires have slam attacks. If the base creature does not have this attack form, use the appropriate damage value from the table below according to the vampire's size. Creatures that have other kinds of natural weapons retain their old damage values or use the appropriate value from the table below, whichever is better.</p>
+          <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2230835">
+            <tbody>
+              <tr><td><p><span class="strong"><strong>Size</strong></span></p></td> <td><p><span class="strong"><strong>Damage</strong></span></p></td>
+
+</tr>
+              <tr><td><p>Fine</p></td>
+<td><p>1</p></td>
+
+</tr>
+              <tr><td><p>Diminutive</p></td>
+<td><p>1d2</p></td>
+
+</tr>
+              <tr><td><p>Tiny</p></td>
+<td><p>1d3</p></td>
+
+</tr>
+              <tr><td><p>Small</p></td>
+<td><p>1d4</p></td>
+
+</tr>
+              <tr><td><p>Medium</p></td>
+<td><p>1d6</p></td>
+
+</tr>
+              <tr><td><p>Large</p></td>
+<td><p>1d8</p></td>
+
+</tr>
+              <tr><td><p>Huge</p></td>
+<td><p>2d6</p></td>
+
+</tr>
+              <tr><td><p>Gargantuan</p></td>
+<td><p>2d8</p></td>
+
+</tr>
+              <tr><td><p>Colossal</p></td>
+<td><p>4d6</p></td>
+
+</tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231019"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z70"/>
+          <p><span class="strong"><strong>Special Attacks:</strong></span> A vampire retains all the special attacks of the base creature and gains those described below. Saves have a DC of 10 + 1/2 vampire's HD + vampire's Cha modifier unless noted otherwise.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231051"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z71"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Blood Drain (Ex):</em></span></strong></span> A vampire can suck blood from a living victim with its fangs by making a successful grapple check. If it pins the foe, it drains blood, dealing 1d4 points of Constitution drain each round the pin is maintained. On each such successful attack, the vampire gains 5 temporary hit points.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231085"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z72"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Children of the Night (Su):</em></span></strong></span> Vampires command the lesser creatures of the world and once per day can call forth 1d6+1 <a href="ch71s17.html#MonstersS172">rat swarms</a>, 1d4+1 <a href="ch71s17.html#MonstersS151">bat swarms</a>, or a pack of 3d6 <a href="ch73s47.html#MonstersAnimals183">wolves</a> as a standard action. (If the base creature is not terrestrial, this power might summon other creatures of similar power.) These creatures arrive in 2d6 rounds and serve the vampire for up to 1 hour.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231148"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z73"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Dominate (Su):</em></span></strong></span> A vampire can crush an opponent's will just by looking onto his or her eyes. This is similar to a gaze attack, except that the vampire must use a standard action, and those merely looking at it are not affected. Anyone the vampire targets must succeed on a Will save or fall instantly under the vampire's influence as though by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E54">dominate person</a></em></span> spell (caster level 12th). The ability has a range of 30 feet.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231194"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z74"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Create Spawn (Su):</em></span></strong></span> A humanoid or monstrous humanoid slain by a vampire's energy drain rises as a <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> (see the <a href="ch72s11.html#MonstersT-Z93">Vampire Spawn</a> entry) 1d4 days after burial.</p>
+          <p>If the vampire instead drains the victim's Constitution to 0 or lower, the victim returns as a spawn if it had 4 or less HD and as a vampire if it had 5 or more HD. In either case, the new vampire or spawn is under the command of the vampire that created it and remains enslaved until its master's destruction. At any given time a vampire may have enslaved spawn totaling no more than twice its own Hit Dice; any spawn it creates that would exceed this limit are created as free-willed vampires or <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a>. A vampire that is enslaved may create and enslave spawn of its own, so a master vampire can control a number of lesser vampires in this fashion. A vampire may voluntarily free an enslaved spawn in order to enslave a new spawn, but once freed, a vampire or <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> cannot be enslaved again.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231268"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z75"/>
+          <p><span class="strong"><strong><span class="emphasis"><em>Energy Drain (Su):</em></span></strong></span> Living creatures hit by a vampire's slam attack (or any other natural weapon the vampire might possess) gain two negative levels. For each negative level bestowed, the vampire gains 5 temporary hit points. A vampire can use its energy drain ability once per round.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231302"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z76"/>
+          <p><span class="strong"><strong>Special Qualities:</strong></span> A vampire retains all the special qualities of the base creature and gains those described below.</p>
+          <p><span class="emphasis"><em>Alternate Form (Su):</em></span> A vampire can assume the shape of a <a href="ch73s04.html#MonstersAnimals13">bat</a>, <a href="ch63s03.html#MonstersDi-Do35">dire bat</a>, <a href="ch73s47.html#MonstersAnimals183">wolf</a>, or <a href="ch63s03.html#MonstersDi-Do71">dire wolf</a> as a standard action. This ability is similar to a <span class="emphasis"><em><a href="ch49.html#SpellsP-R21">polymorph</a></em></span> spell cast by a 12th-level character, except that the vampire does not regain hit points for changing form and must choose from among the forms mentioned here. While in its alternate form, the vampire loses its natural slam attack and dominate ability, but it gains the natural weapons and extraordinary special attacks of its new form. It can remain in that form until it assumes another or until the next sunrise. (If the base creature is not terrestrial, this power might allow other forms.)</p>
+          <p><span class="emphasis"><em>Damage Reduction (Su):</em></span> A vampire has damage reduction 10/silver and magic. A vampire's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.</p>
+          <p><span class="emphasis"><em>Fast Healing (Ex):</em></span> A vampire heals 5 points of damage each round so long as it has at least 1 hit point. If reduced to 0 hit points in combat, it automatically assumes gaseous form and attempts to escape. It must reach its coffin home within 2 hours or be utterly destroyed. (It can travel up to nine miles in 2 hours.) Any additional damage dealt to a vampire forced into gaseous form has no effect. Once at rest in its coffin, a vampire is helpless. It regains 1 hit point after 1 hour, then is no longer helpless and resumes healing at the rate of 5 hit points per round.</p>
+          <p><span class="emphasis"><em><a href="ch46.html#SpellsF-G35">Gaseous Form</a> (Su):</em></span> As a standard action, a vampire can assume gaseous form at will as the spell (caster level 5th), but it can remain gaseous indefinitely and has a fly speed of 20 feet with perfect maneuverability.</p>
+          <p><span class="emphasis"><em>Resistances (Ex):</em></span> A vampire has cold resistance 10, electricity resistance 10.</p>
+          <p><span class="emphasis"><em><a href="ch50.html#SpellsS59">Spider Climb</a> (Ex):</em></span> A vampire can climb sheer surfaces as though with a <span class="emphasis"><em><a href="ch50.html#SpellsS59">spider climb</a></em></span> spell.</p>
+          <p><span class="emphasis"><em>Turn <a href="ch49.html#SpellsP-R69">Resistance</a> (Ex):</em></span> A vampire has +4 turn resistance.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231543"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z77"/>
+          <p><span class="strong"><strong>Abilities:</strong></span> Increase from the base creature as follows: Str +6, Dex +4, Int +2, Wis +2, Cha +4. As an undead creature, a vampire has no Constitution score.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231573"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z78"/>
+          <p><span class="strong"><strong>Skills:</strong></span> Vampires have a +8 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills253">Search</a>, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks. Otherwise same as the base creature.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231670"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z79"/>
+          <p><span class="strong"><strong>Feats:</strong></span> Vampires gain <a href="ch17s03.html#Feats29">Alertness</a>, <a href="ch17s03.html#Feats71">Combat Reflexes</a>, <a href="ch17s03.html#Feats104">Dodge</a>, <a href="ch17s03.html#Feats191">Improved Initiative</a>, and <a href="ch17s03.html#Feats239">Lightning Reflexes</a>, assuming the base creature meets the prerequisites and doesn't already have these feats.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231748"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z80"/>
+          <p><span class="strong"><strong>Environment:</strong></span> Any, usually same as base creature.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231776"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z81"/>
+          <p><span class="strong"><strong>Organization:</strong></span> Solitary, pair, gang (3-5), or troupe (1-2 plus 2-5 <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a>)</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231814"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z82"/>
+          <p><span class="strong"><strong>Challenge Rating:</strong></span> Same as the base creature +2.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231843"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z83"/>
+          <p><span class="strong"><strong>Treasure:</strong></span> Double standard.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231872"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z84"/>
+          <p><span class="strong"><strong>Alignment:</strong></span> Always evil (any).</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231900"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z85"/>
+          <p><span class="strong"><strong>Advancement:</strong></span> By character class.</p>
+        </div>
+        <div class="simplesect" lang="en">
+          <div class="titlepage"/>
+          <a name="id2231928"/>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">other</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z86"/>
+          <p><span class="strong"><strong>Level Adjustment:</strong></span> Same as the base creature +8.</p>
+          <p/>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2231958"/>Vampire Weaknesses</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z87"/>
+          <p>For all their power, vampires have a number of weaknesses.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2231981"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z88"/>
+            <p><span class="strong"><strong>Repelling a Vampire:</strong></span> Vampires cannot tolerate the strong odor of garlic and will not enter an area laced with it. Similarly, they recoil from a mirror or a strongly presented holy symbol. These things don't harm the vampire-they merely keep it at bay. A recoiling vampire must stay at least 5 feet away from a creature holding the mirror or holy symbol and cannot touch or make melee attacks against the creature holding the item for the rest of the encounter. Holding a vampire at bay takes a standard action.</p>
+            <p>Vampires are also unable to cross running water, although they can be carried over it while resting in their coffins or aboard a ship.</p>
+            <p>They are utterly unable to enter a home or other building unless invited in by someone with the authority to do so. They may freely enter public places, since these are by definition open to all.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2232029"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z89"/>
+            <p><span class="strong"><strong>Slaying a Vampire:</strong></span> Reducing a vampire's hit points to 0 or lower incapacitates it but doesn't always destroy it (see the note on fast healing). However, certain attacks can slay vampires. Exposing any vampire to direct sunlight disorients it: It can take only a single move action or attack action and is destroyed utterly in the next round if it cannot escape. Similarly, immersing a vampire in running water robs it of one-third of its hit points each round until it is destroyed at the end of the third round of immersion. Driving a wooden stake through a vampire's heart instantly slays the monster. However, it returns to life if the stake is removed, unless the body is destroyed. A popular tactic is to cut off the creature's head and fill its mouth with holy wafers (or their equivalent).</p>
+            <p/>
+          </div>
+        </div>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2232073"/>Vampire Characters</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z90"/>
+          <p>Vampires are always evil, which causes characters of certain classes to lose some class abilities. In addition,  certain classes take additional penalties.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2232097"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z91"/>
+            <p><span class="strong"><strong>Clerics:</strong></span> Vampire clerics lose their ability to turn undead but gain the ability to rebuke undead. This ability does not affect the vampire's controller or any other vampires that a master controls. A vampire cleric has access to two of the following domains: Chaos, Destruction, Evil, or Trickery.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2232130"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z92"/>
+            <p><span class="strong"><strong>Sorcerers and Wizards:</strong></span> Vampire sorcerers and wizards retain their class abilities, but if a character has a familiar other than a <a href="ch73s36.html#MonstersAnimals133">rat</a> or <a href="ch73s04.html#MonstersAnimals13">bat</a>, the link between them is broken, and the familiar shuns its former companion. The character can summon another familiar, but it must be a <a href="ch73s36.html#MonstersAnimals133">rat</a> or <a href="ch73s04.html#MonstersAnimals13">bat</a>.</p>
+            <p/>
+          </div>
+        </div>
+      </div>
+      <div class="sect2" lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a name="id2232206"/>Vampire Spawn</h3>
+            </div>
+          </div>
+        </div>
+        <div class="toc">
+          <dl>
+            <dt>
+              <span class="sect4">
+                <a href="ch72s11.html#id2233230">Combat</a>
+              </span>
+            </dt>
+            <dt>
+              <span class="sect3">
+                <a href="ch72s11.html#id2233664">Vampire Spawn Weaknesses</a>
+              </span>
+            </dt>
+          </dl>
+        </div>
+        <div class="keywordset" style="display:none">
+          <div class="keyword">monster</div>
+        </div>
+        <a class="indexterm" name="MonstersT-Z93"/>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2" frame="void" rules="rows" id="id2232224">
+          <tbody>
+            <tr><td/>
+<td><p><span class="strong"><strong>Vampire Spawn</strong></span></p></td>
+
+</tr>
+            <tr><td/>
+<td><p><a href="ch22.html#CombatII28">Medium</a> <a href="ch04.html#TypesSubtypesAbilities76">Undead</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A6">Hit Dice</a>:</strong></span></p></td>
+<td><p>4d12+3 (29 hp)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A7">Initiative</a>:</strong></span></p></td>
+<td><p>+6</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A8">Speed</a>:</strong></span></p></td>
+<td><p>30 ft. (6 squares)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A9">Armor Class</a>:</strong></span></p></td>
+<td><p>15 (+2 Dex, +3 natural), <a href="ch21s02.html#CombatI12">touch</a> 12, <a href="ch21s03.html#CombatI21">flat-footed</a> 13</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A10">Base Attack/Grapple</a>:</strong></span></p></td>
+<td><p>+2/+5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A11">Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d6+4 plus <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A12">Full Attack</a>:</strong></span></p></td>
+<td><p>Slam +5 melee (1d6+4 plus <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a>)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A14">Space/Reach</a>:</strong></span></p></td>
+<td><p>5 ft./5 ft.</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Attacks</a>:</strong></span></p></td>
+<td><p>Blood drain, domination, <a href="ch04.html#TypesSubtypesAbilities23">energy drain</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A15">Special Qualities</a>:</strong></span></p></td>
+<td><p>+2 <a href="ch04.html#TypesSubtypesAbilities75">turn resistance</a>, <a href="ch04.html#TypesSubtypesAbilities19">damage reduction</a> 5/silver, darkvision 60 ft., <a href="ch04.html#TypesSubtypesAbilities26">fast healing</a> 2, gaseous form, <a href="ch04.html#TypesSubtypesAbilities60">cold resistance</a> 10, <a href="ch04.html#TypesSubtypesAbilities60">electricity resistance</a> 10, spider climb, <a href="ch04.html#TypesSubtypesAbilities76">undead</a> traits</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A16">Saves</a>:</strong></span></p></td>
+<td><p>Fort +1, Ref +5, Will +5</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A17">Abilities</a>:</strong></span></p></td>
+<td><p>Str 16, Dex 14, Con -, Int 13, Wis 13, Cha 14</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A21">Skills</a>:</strong></span></p></td>
+<td><p><a href="ch16s03.html#CombinedSkills61">Bluff</a> +6, <a href="ch16s03.html#CombinedSkills71">Climb</a> +8, <a href="ch16s03.html#CombinedSkills91">Craft</a> or <a href="ch16s03.html#CombinedSkills230">Profession</a> (any one) +4, <a href="ch16s03.html#CombinedSkills109">Diplomacy</a> +4, <a href="ch16s03.html#CombinedSkills179">Hide</a> +10, <a href="ch16s03.html#CombinedSkills192">Jump</a> +8, <a href="ch16s03.html#CombinedSkills204">Listen</a> +11, <a href="ch16s03.html#CombinedSkills211">Move Silently</a> +10, <a href="ch16s03.html#CombinedSkills253">Search</a> +8, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a> +11, <a href="ch16s03.html#CombinedSkills294">Spot</a> +11</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A23">Feats</a>:</strong></span></p></td>
+<td><p><a href="ch17s03.html#Feats29">Alertness</a> <sup>B</sup>, <a href="ch17s03.html#Feats191">Improved Initiative</a> <sup>B</sup>, <a href="ch17s03.html#Feats239">Lightning Reflexes</a> <sup>B</sup>, <a href="ch17s03.html#Feats329">Skill Focus</a> (selected <a href="ch16s03.html#CombinedSkills91">Craft</a> or <a href="ch16s03.html#CombinedSkills230">Profession</a> skill), <a href="ch17s03.html#Feats361">Toughness</a></p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A24">Environment</a>:</strong></span></p></td>
+<td><p>Any</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A25">Organization</a>:</strong></span></p></td>
+<td><p>Solitary or pack (2-5)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A26">Challenge Rating</a>:</strong></span></p></td>
+<td><p>4</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A27">Treasure</a>:</strong></span></p></td>
+<td><p>Standard</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A28">Alignment</a>:</strong></span></p></td>
+<td><p>Always <a href="ch04.html#TypesSubtypesAbilities24">evil</a> (any)</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A29">Advancement</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+            <tr><td><p><span class="strong"><strong><a href="ch60.html#MonstersIntro-A30">Level Adjustment</a>:</strong></span></p></td>
+<td><p>-</p></td>
+
+</tr>
+          </tbody>
+        </table>
+        <p><a href="ch72s11.html#MonstersT-Z93">Vampire spawn</a> are undead creatures that come into being when vampires slay mortals. Like their creators, spawn remain bound to their coffins and to the soil of their graves. <a href="ch72s11.html#MonstersT-Z93">Vampire spawn</a> appear much as they did in life, although their features are often hardened, with a predatory look.<a href="img/MonstersT-Z.Vampire_Spawn.jpg" target="_blank"><span class="inlinemediaobject"><img src="thumb/MonstersT-Z.Vampire_Spawn.jpg" align="right"/></span></a></p>
+        <p><a href="ch72s11.html#MonstersT-Z93">Vampire spawn</a> speak Common.</p>
+        <div class="sect4" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a name="id2233230"/>Combat</h5>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z94"/>
+          <p><a href="ch72s11.html#MonstersT-Z93">Vampire spawn</a> use their inhuman strength when engaging mortals, hammering their foes with powerful blows and dashing them against rocks or walls. They also use their gaseous form and flight abilities to strike where opponents are most vulnerable.</p>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233262"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z95"/>
+            <p><span class="strong"><strong>Blood Drain (Ex):</strong></span> A <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> can suck blood from a living victim with its fangs by making a successful grapple check. If it pins the foe, it drains blood, dealing 1d4 points of Constitution drain each round. On each such successful drain attack, the <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> gains 5 temporary hit pints.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233313"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z96"/>
+            <p><span class="strong"><strong>Domination (Su):</strong></span> A <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> can crush an opponent's will just by looking onto his or her eyes. This is similar to a gaze attack, except that the vampire must take a standard action, and those merely looking at it are not affected. Anyone the vampire targets must succeed on a DC 14 Will save or fall instantly under the vampire's influence as though by a <span class="emphasis"><em><a href="ch45.html#SpellsD-E54">dominate person</a></em></span> spell from a 5thlevel caster. The ability has a range of 30 feet. The save DC is Charisma-based.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233369"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z97"/>
+            <p><span class="strong"><strong>Energy Drain (Su):</strong></span> Living creatures hit by a <a href="ch72s11.html#MonstersT-Z93">vampire spawn's</a> slam attack gain one negative level. The DC is 14 for the Fortitude save to remove a negative level. The save DC is Charisma-based. For each such negative level bestowed, the <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> gains 5 temporary hit points.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233419"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z98"/>
+            <p><span class="strong"><strong>Fast Healing (Ex):</strong></span> A <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> heals 2 points of damage each round so long as it has at least 1 hit point. If reduced to 0 hit points in combat, it automatically assumes gaseous form and attempts to escape. It must reach its coffin home within 2 hours or be utterly destroyed. (It can travel up to nine miles in 2 hours.) Once at rest in its coffin, it is helpless. It regains 1 hit point after 1 hour, then is no longer helpless and resumes healing at the rate of 2 hit points per round.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233457"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z99"/>
+            <p><span class="strong"><strong>Gaseous Form (Su):</strong></span> As a standard action, a <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> can assume <span class="emphasis"><em><a href="ch46.html#SpellsF-G35">gaseous form</a></em></span> at will as the spell (caster level 6th), but it can remain gaseous indefinitely and has a fly speed of 20 feet with perfect maneuverability.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233507"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z100"/>
+            <p><span class="strong"><strong>Spider Climb (Ex):</strong></span> A <a href="ch72s11.html#MonstersT-Z93">vampire spawn</a> can climb sheer surfaces as though with a <span class="emphasis"><em><a href="ch50.html#SpellsS59">spider climb</a></em></span> spell.</p>
+          </div>
+          <div class="simplesect" lang="en">
+            <div class="titlepage"/>
+            <a name="id2233556"/>
+            <div class="keywordset" style="display:none">
+              <div class="keyword">other</div>
+            </div>
+            <a class="indexterm" name="MonstersT-Z101"/>
+            <p><span class="strong"><strong>Skills:</strong></span> <a href="ch72s11.html#MonstersT-Z93">Vampire spawn</a> have a +4 racial bonus on <a href="ch16s03.html#CombinedSkills61">Bluff</a>, <a href="ch16s03.html#CombinedSkills179">Hide</a>, <a href="ch16s03.html#CombinedSkills204">Listen</a>, <a href="ch16s03.html#CombinedSkills211">Move Silently</a>, <a href="ch16s03.html#CombinedSkills253">Search</a>, <a href="ch16s03.html#CombinedSkills261">Sense Motive</a>, and <a href="ch16s03.html#CombinedSkills294">Spot</a> checks.</p>
+          </div>
+        </div>
+        <div class="sect3" lang="en">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a name="id2233664"/>Vampire Spawn Weaknesses</h4>
+              </div>
+            </div>
+          </div>
+          <div class="keywordset" style="display:none">
+            <div class="keyword">monsterinfo</div>
+          </div>
+          <a class="indexterm" name="MonstersT-Z102"/>
+          <p><a href="ch72s11.html#MonstersT-Z93">Vampire spawn</a> are vulnerable to all attacks and effects that repel or slay vampires. For details, see the Vampire entry.</p>
+          <p/>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr/>
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="ch72s10.html">Prev</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="ch72.html">Up</a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="ch72s12.html">Next</a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top">Unicorn </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">Home</a>
+          </td>
+          <td width="40%" align="right" valign="top"> Vargouille</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
