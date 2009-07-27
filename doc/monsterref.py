@@ -4,58 +4,64 @@ Build a table of references
 import glob
 import sys
 from xml.dom import minidom
-
-from playtools.util import rdfName, gatherText, findNodes
-
 from urllib2 import urlopen, URLError
 
-def verify():
-    from playtools.fact import systems
-    M = systems['D20 SRD'].facts['monster2']
+from playtools.util import rdfName, gatherText
 
-    pool = Pool(processes=10)
+class Checker(object):
+    def __init__(self):
+        self.cache = {}
 
-    loaded = open('referencemap.txt')
+    def doChecks(self):
+        from playtools.fact import systems
+        M = systems['D20 SRD'].facts['monster2']
 
-    def checkPage(line):
+        loaded = open('referencemap.txt')
+        # dump errors to a log
+        fout = open('referencemap.txt.log', 'w')
+
+        # test 1: verify that every url we wrote is not 404
+        for line in loaded:
+            url, res = self.checkPage(line)
+            if res != 'ok':
+                fout.write("%s %s\n" % (url, res[1]))
+
+        # test 2: verify that every monster has a corresponding line in the file
+        for m in sorted(M.dump(), key=lambda x:x.label):
+            frag = m.resUri.partition('#')[-1]
+            if frag not in self.cache:
+                self.cache[frag] = (None, "not in referencemap.txt")
+
+    def checkPage(self, line):
         name, url = map(str.strip, line.split('\t'))
         kw = {'name':name, 'url':url}
-        try:
-            urlopen(url)
-            print "OK: {name} {url}".format(kw)
-            return (name,'ok')
-        except URLError, e:
-            kw['e'] = str(e)
-            print "** ERROR: {name} {url} ({e:40})".format(kw)
-            return (name,(url,e))
+
+        if url not in self.cache:
+            try:
+                urlopen(url)
+                print "OK: {0[name]} {0[url]}".format(kw)
+                self.cache[url] = 'ok'
+            except URLError, e:
+                kw['e'] = str(e)
+                print "** ERROR: {0[name]} {0[url]} ({0[e]:40})".format(kw)
+                self.cache[url] = (url, str(e))
+        return url, self.cache[url]
 
 
-    # test 1: verify that every url we wrote is not 404
-    checklist = pool.imap(checkPage, loaded, chunksize=3)
-    checkdict = dict(checklist)
+def verify():
+    checker = Checker()
+    checker.doChecks()
 
-    # test 2: verify that every monster has a corresponding line in the file
-    for m in sorted(M.dump(), key=lambda x:x.label):
-        frag = m.resUri.partition('#')[-1]
-        if frag not in checkdict:
-            checkdict[frag] = (None, "not in referencemap.txt")
-
-    # dump errors to stderr
-    for k,v in sorted(checkdict.items()):
-        if v != 'ok':
-            print >>sys.stderr, k, v[1]
 
 def run():
     fout = open('referencemap.txt', 'w')
     for f in glob.glob('srd/*.xml'):
         doc = minidom.parse(f)
-        epic = False
-        psionic = False
 
         alltext = gatherText(doc)
-        if 'epic monsters' in alltext:
+        if 'epic monsters' in alltext.lower():
             epicPsionicOrNormal = 'epic/'
-        elif 'psionic monsters' in alltext:
+        elif 'psionic monsters' in alltext.lower():
             epicPsionicOrNormal = 'psionic/'
         else:
             epicPsionicOrNormal = ''
@@ -90,4 +96,5 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    ## run()
+    verify()
