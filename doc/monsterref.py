@@ -23,7 +23,9 @@ class Checker(object):
         # test 1: verify that every url we wrote is not 404
         for line in loaded:
             url, res = self.checkPage(line)
-            if res != 'ok':
+            if res == 'ok':
+                fout.write("%s %s\n" % (url, res))
+            else:
                 fout.write("%s %s\n" % (url, res[1]))
 
         # test 2: verify that every monster has a corresponding line in the file
