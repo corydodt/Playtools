@@ -48,10 +48,9 @@ def parseAbilities(s):
     return children
 
 
-class AbilityStat(object):
-    """The set of abilities owned by a monster
-    
-    FIXME - this is identical to saveparser.SaveStat
+class NumericStatWithQualifier(object):
+    """A stat with a numeric value and a potential qualifier string, "splat"
+    (a star next to it), or other accessories
     """
     def __init__(self, name):
         self.name = name
@@ -62,8 +61,8 @@ class AbilityStat(object):
 
     def __repr__(self):
         if self.other is not None:
-            return "<AbilityStat %s>" % (self.other,)
-        return "<AbilityStat %s=%s>" % (self.name, self.bonus)
+            return "<NumericStatWithQualifier %s>" % (self.other,)
+        return "<NumericStatWithQualifier %s=%s>" % (self.name, self.bonus)
 
     def __str__(self):
         if self.other:
@@ -91,32 +90,32 @@ class Processor(disp.DispatchProcessor):
         return self.abilities
 
     def strn(self, (t,s1,s2,sub), buffer):
-        self.currentAbility = AbilityStat('str')
+        self.currentAbility = NumericStatWithQualifier('str')
         self.abilities['str'] = self.currentAbility
         return disp.dispatchList(self, sub, buffer)
 
     def dext(self, (t,s1,s2,sub), buffer):
-        self.currentAbility = AbilityStat('dex')
+        self.currentAbility = NumericStatWithQualifier('dex')
         self.abilities['dex'] = self.currentAbility
         return disp.dispatchList(self, sub, buffer)
 
     def cons(self, (t,s1,s2,sub), buffer):
-        self.currentAbility = AbilityStat('con')
+        self.currentAbility = NumericStatWithQualifier('con')
         self.abilities['con'] = self.currentAbility
         return disp.dispatchList(self, sub, buffer)
 
     def intl(self, (t,s1,s2,sub), buffer):
-        self.currentAbility = AbilityStat('int')
+        self.currentAbility = NumericStatWithQualifier('int')
         self.abilities['int'] = self.currentAbility
         return disp.dispatchList(self, sub, buffer)
 
     def wisd(self, (t,s1,s2,sub), buffer):
-        self.currentAbility = AbilityStat('wis')
+        self.currentAbility = NumericStatWithQualifier('wis')
         self.abilities['wis'] = self.currentAbility
         return disp.dispatchList(self, sub, buffer)
 
     def chas(self, (t,s1,s2,sub), buffer):
-        self.currentAbility = AbilityStat('cha')
+        self.currentAbility = NumericStatWithQualifier('cha')
         self.abilities['cha'] = self.currentAbility
         return disp.dispatchList(self, sub, buffer)
 

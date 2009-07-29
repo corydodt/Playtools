@@ -11,6 +11,8 @@ from simpleparse.common import numbers, chartypes
 ## appease pyflakes
 numbers, chartypes
 
+from abilityparser import NumericStatWithQualifier
+
 grammar = ( # {{{
 r'''# saving throw stats
 <ws> := [ \t]*
@@ -47,49 +49,14 @@ def parseSaves(s):
         raise RuntimeError('%s is not a valid save expression' % (s,))
     return children
 
-class SaveStat(object):
-    """The set of saves owned by a monster
-    
-    FIXME - this is identical to abilityparser.AbilityStat
-    """
-    def __init__(self, name):
-        self.name = name
-        self.bonus = 0
-        self.qualifier = ''
-        self.splat = ''
-        self.other = None
-
-    def __repr__(self):
-        if self.other is not None:
-            return "<SaveStat %s>" % (self.other,)
-        return "<SaveStat %s=%s>" % (self.name, self.bonus)
-
-    def __str__(self):
-        if self.other:
-            return '(%s)' % (self.other,)
-        else:
-            splat = ''
-            qual = ''
-
-            if self.splat:
-                splat = '*'
-
-            if self.qualifier:
-                qual = ' %s' % (self.qualifier,)
-
-            if self.bonus:
-                return '%+d%s%s' % (self.bonus, splat, qual)
-            else:
-                return '-%s%s' % (splat, qual)
-
 
 class Processor(disp.DispatchProcessor):
     def other(self, (t,s1,s2,sub), buffer):
-        fort = SaveStat('fort')
+        fort = NumericStatWithQualifier('fort')
         fort.other = buffer
-        ref = SaveStat('ref')
+        ref = NumericStatWithQualifier('ref')
         ref.other = buffer
-        will = SaveStat('will')
+        will = NumericStatWithQualifier('will')
         will.other = buffer
         return dict(fort=fort, ref=ref, will=will)
 
@@ -102,17 +69,17 @@ class Processor(disp.DispatchProcessor):
         self.currentSave.other = disp.getString((t,s1,s2,sub), buffer)
 
     def fort(self, (t,s1,s2,sub), buffer):
-        self.currentSave = SaveStat('fort')
+        self.currentSave = NumericStatWithQualifier('fort')
         self.saves['fort'] = self.currentSave
         return disp.dispatchList(self, sub, buffer)
 
     def ref(self, (t,s1,s2,sub), buffer):
-        self.currentSave = SaveStat('ref')
+        self.currentSave = NumericStatWithQualifier('ref')
         self.saves['ref'] = self.currentSave
         return disp.dispatchList(self, sub, buffer)
 
     def will(self, (t,s1,s2,sub), buffer):
-        self.currentSave = SaveStat('will')
+        self.currentSave = NumericStatWithQualifier('will')
         self.saves['will'] = self.currentSave
         return disp.dispatchList(self, sub, buffer)
 
