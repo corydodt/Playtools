@@ -1,6 +1,7 @@
 """
 Install the d20srd database
 """
+import shutil
 import sys, os
 
 from twisted.python import usage
@@ -14,7 +15,17 @@ from playtools import search, plugins
 class Options(usage.Options):
     synopsis = "pt-system-install"
 
+    optFlags = [
+            ['clear', 'c', 'Clear rdf and sql database files before installing'],
+            ]
+
     def postOptions(self):
+        if self['clear']:
+            try:
+                os.unlink(SQLPATH)
+            except EnvironmentError:
+                pass
+
         self.install_rdf(RDFPATH)
 
         self.install_sql(SQLPATH)
@@ -38,7 +49,11 @@ class Options(usage.Options):
         """
         Create the RDF database by running ptstore pull
         """
-        args1 = ['create', path]
+        if self['clear']:
+            args1 = ['create', '--force', path]
+        else:
+            args1 = ['create', path]
+
         args2 = ['pull', '--verbose', path]
         uris = map(str.strip, RDFURIS)
         for uri in reversed(uris):
