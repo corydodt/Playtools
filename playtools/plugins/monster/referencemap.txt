@@ -64,8 +64,8 @@ bearBrown	http://www.d20srd.org/srd/monsters/bearBrown.htm	monstertext/bearBrown
 bearPolar	http://www.d20srd.org/srd/monsters/bearPolar.htm	monstertext/bearPolar.htm
 beardedDevil	http://www.d20srd.org/srd/monsters/devil.htm	monstertext/beardedDevil.htm
 bebilith	http://www.d20srd.org/srd/monsters/demon.htm	monstertext/bebilith.htm
-behemothEagle	http://www.d20srd.org/srd/epic/monsters/behemoth.htm	monstertext/behemoth.htm
-behemothGorilla	http://www.d20srd.org/srd/epic/monsters/behemoth.htm	monstertext/behemoth.htm
+behemothEagle	http://www.d20srd.org/srd/epic/monsters/behemoth.htm	monstertext/behemothEagle.htm
+behemothGorilla	http://www.d20srd.org/srd/epic/monsters/behemoth.htm	monstertext/behemothGorilla.htm
 behir	http://www.d20srd.org/srd/monsters/behir.htm	monstertext/behir.htm
 belker	http://www.d20srd.org/srd/monsters/belker.htm	monstertext/belker.htm
 bison	http://www.d20srd.org/srd/monsters/bison.htm	monstertext/bison.htm
@@ -127,7 +127,7 @@ bronzeDragonWyrmling	http://www.d20srd.org/srd/monsters/dragonTrue.htm	monsterte
 bronzeDragonYoung	http://www.d20srd.org/srd/monsters/dragonTrue.htm	monstertext/bronzeDragon.htm
 bronzeDragonYoungAdult	http://www.d20srd.org/srd/monsters/dragonTrue.htm	monstertext/bronzeDragon.htm
 bugbear	http://www.d20srd.org/srd/monsters/bugbear.htm	monstertext/bugbear.htm
-bugbearZombie	http://www.d20srd.org/srd/monsters/zombie.htm	monstertext/.htm
+bugbearZombie	http://www.d20srd.org/srd/monsters/zombie.htm	monstertext/zombie.htm
 bulette	http://www.d20srd.org/srd/monsters/bulette.htm	monstertext/bulette.htm
 cachalotWhale	http://www.d20srd.org/srd/monsters/whale.htm	monstertext/whale.htm
 callerInDarkness	http://www.d20srd.org/srd/psionic/monsters/callerInDarkness.htm	monstertext/callerInDarkness.htm
