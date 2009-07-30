@@ -586,6 +586,21 @@ class CoreFeatFilter(CachingDescriptor):
         return [f for f in instance.feats if self.matcher(f.value)]
 
 
+class SkillGetter(CachingDescriptor):
+    """
+    Descriptor to return a single skill by name.
+
+    Pass in a matcher function, and only skills for which matcher returns true
+    will be returned.
+    """
+    def __init__(self, name):
+        self.name = name
+        CachingDescriptor.__init__(self, name)
+
+    def get(self, instance, owner):
+        return [sk for sk in instance.skills if sk.resUri == self.name]
+
+
 class Feat(S.rdfsPTClass):
     """A feat usable by monsters, such as Weapon Focus"""
     rdf_type = CHAR.Feat
@@ -719,14 +734,10 @@ class Monster2(S.rdfsPTClass):
     epicFeats              = CoreFeatFilter("epicFeats", 
                                             lambda x: x.epic)
 
-    _skills                 = rdfMultiple(PROP.skill)
+    skills                 = rdfMultiple(PROP.skill)
 
-    TODO("listen and spot", 
-    """listen and spot will be property()'s of Monster2.  Values will be
-    computed by examining self.skills
-    """)
-#"     listen
-#"     spot
+    listen                 = SkillGetter("listen")
+    spot                   = SkillGetter("spot")
 
 #"     armorClass             = rdfSingle(...)  # write a parser
 
@@ -774,7 +785,8 @@ class Monster2(S.rdfsPTClass):
 
     TODO("better collectText", "add the detail after the return stmt to collectText")
     def collectText(self):  
-        t = gatherText(minidom.parse(open(self.textLocation)))
+        loc = RESOURCE("plugins/monster/%s" % (self.textLocation,))
+        t = gatherText(minidom.parse(open(loc)))
         t = t.decode('utf-8')
         return t # TODO
 
