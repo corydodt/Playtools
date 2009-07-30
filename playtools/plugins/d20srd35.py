@@ -16,7 +16,7 @@ from playtools.util import RESOURCE, gatherText
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import FAM, P as PROP, C as CHAR, skillNs as SKILL, featNs as FEAT
-from playtools.test.pttestutil import TODO
+from playtools.test.pttestutil import TODO, FIXME
 
 from rdflib.Namespace import Namespace as NS
 from rdflib import RDF
@@ -719,7 +719,7 @@ class Monster2(S.rdfsPTClass):
     epicFeats              = CoreFeatFilter("epicFeats", 
                                             lambda x: x.epic)
 
-#"     skills                 = rdfMultiple(PROP.skill, ...)  # dict from sb.parseSkills
+    _skills                 = rdfMultiple(PROP.skill)
 
     TODO("listen and spot", 
     """listen and spot will be property()'s of Monster2.  Values will be
@@ -767,6 +767,10 @@ class Monster2(S.rdfsPTClass):
 
     reference              = rdfSingle(PROP.reference)
     textLocation           = rdfSingle(PROP.textLocation)
+
+    FIXME("remove fullText", 
+    """fullText left in for debugging monstertext script""")
+    fullText               = rdfSingle(PROP.additional)
 
     TODO("better collectText", "add the detail after the return stmt to collectText")
     def collectText(self):  
