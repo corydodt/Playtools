@@ -12,7 +12,7 @@ from storm import locals as SL
 
 from playtools.interfaces import (IRuleSystem, IRuleCollection,
     IIndexable, IRuleFact)
-from playtools.util import RESOURCE, gatherText
+from playtools.util import RESOURCE, gatherText, flushLeft as FL
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import FAM, P as PROP, C as CHAR, skillNs as SKILL, featNs as FEAT
@@ -693,15 +693,15 @@ class Monster2(S.rdfsPTClass):
     implements(IRDFFact)
     rdf_type = CHAR.Monster
 
-    family                 = rdfSingle(PROP.family)             # DONE!
+    family                 = rdfSingle(PROP.family, range_type=
+            Family.rdf_type)
     altname                = rdfSingle(PROP.altname)            # DONE!
     size                   = rdfSingle(PROP.size)               # DONE!
-    type                   = rdfSingle(PROP.type)               # DONE!
-    _descriptors           = rdfMultiple(PROP.descriptor)       # DONE!
+    type                   = rdfSingle(PROP.type, range_type=
+            Family.rdf_type)
+    _descriptors           = rdfMultiple(PROP.descriptor, range_type=
+            Family.rdf_type)
     hitDice                = rdfSingle(PROP.hitDice)            # DONE!
-    # hitPoints will always be computed by outside app.
-    # count will always be outside app
-    # label will always be outside app
 
     environment            = rdfSingle(PROP.environment)        # DONE!
     organization           = rdfSingle(PROP.organization)       # DONE!
@@ -755,21 +755,21 @@ class Monster2(S.rdfsPTClass):
     listen                 = SkillGetter("listen")
     spot                   = SkillGetter("spot")
 
-#"     armorClass             = rdfSingle(...)  # write a parser
+    #" armorClass             = rdfSingle(...)  # write a parser
 
-#"     attackGroups           = rdfSingle(...)  # from sb.get - list
+    #" attackGroups           = rdfSingle(...)  # from sb.get - list
 
     TODO("monster.attack", 
     """attack will be a property() of Monster2. value will be computed by
     returning attackGroups[0]
     """)
-#"     attack
+    #" attack
 
-#"     languages              = rdfSingle(PROP.)                   # from sb.get? - list
+    #" languages              = rdfSingle(PROP.)                   # from sb.get? - list
 
-#"     specialAttacks         = rdfList(...)  # from sb.get
-#"     fullAbility            = rdfMultiple(...)  # from sb.get - maybe rename
-#"     specialAbility         = rdfMultiple(PROP.specialAbility)           # list parsed from sb.get
+    #" specialAttacks         = rdfList(...)  # from sb.get
+    #" fullAbility            = rdfMultiple(...)  # from sb.get - maybe rename
+    #" specialAbility         = rdfMultiple(PROP.specialAbility)           # list parsed from sb.get
     TODO("specialability-based monster props which are singles", """specialAC, 
     spellLikeAbilities, 
     casterLevel, 
@@ -795,30 +795,39 @@ class Monster2(S.rdfsPTClass):
     reference              = rdfSingle(PROP.reference)
     textLocation           = rdfSingle(PROP.textLocation)
 
-    FIXME("remove fullText", 
-    """fullText left in for debugging monstertext script""")
-    fullText               = rdfSingle(PROP.additional)
+    TODO("ujoin(self.specialAbilities), ujoin(self.attackGroups)", 
+            "put special abilities and attacks into collected text")
 
-    TODO("better collectText", "add the detail after the return stmt to collectText")
     def collectText(self):  
         loc = RESOURCE("plugins/monster/%s" % (self.textLocation,))
         t = gatherText(minidom.parse(open(loc)))
         assert type(t) is unicode
-        return t # TODO
 
-        ujoin = lambda o: u' '.join([x.label for x in o])
-        ret = u'''{text}
-{self.name} {self.family} {self.altname} {descriptors} 
-{self.environment} 
-{feats} 
-{attackGroups}
-{specialAbilities}
-'''.format(text=t,
-        self=self,
-    descriptors=ujoin(self.descriptors),
-    feats=ujoin(self.feats),
-    attackGroups=ujoin(self.attackGroups),
-    specialAbilities=ujoin(self.specialAbilities),
+        def ujoin(objects):
+            """
+            Join objects with unicode spaces.  If objects is a Literal, just
+            return it.
+            """
+            ret = []
+            for o in objects:
+                if hasattr(o, 'label'):
+                    ret.append(o.label)
+                else:
+                    ret.append(o)
+            return u' '.join(ret)
+
+        ret = FL(u'''        {text}
+        {self.label} {self.family} {self.altname} {descriptors} 
+        {self.environment} 
+        {feats} 
+        {attackGroups}
+        {specialAbilities}''').format(
+            text=t,
+            self=self,
+            descriptors=ujoin(self._descriptors),
+            feats=ujoin(self.feats),
+            attackGroups=u'',
+            specialAbilities=u'',
             )
         return ret
 
