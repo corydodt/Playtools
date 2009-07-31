@@ -628,7 +628,7 @@ class Feat(S.rdfsPTClass):
 
     def collectText(self):
         """
-        The indexable text of this skill
+        The indexable text of this feat
         """
         cm = self.comment or u''
         ben = self.benefit or u''
@@ -716,7 +716,7 @@ class Monster2(S.rdfsPTClass):
     _treasures             = rdfMultiple(PROP.treasure)         # DONE!
     treasureNotes          = rdfSingle(PROP.treasureNotes)      # DONE!
 
-    TODO("_saves and _treasures and _abilities",
+    TODO("_saves and _treasures and _abilities and skills",
     """they are lists, so we must
     reconstruct the whole list to set any of them, and we must iterate the
     whole list to get any of them.  Implement an associative type""")
@@ -787,7 +787,7 @@ class Monster2(S.rdfsPTClass):
     def collectText(self):  
         loc = RESOURCE("plugins/monster/%s" % (self.textLocation,))
         t = gatherText(minidom.parse(open(loc)))
-        t = t.decode('utf-8')
+        assert type(t) is unicode
         return t # TODO
 
         ujoin = lambda o: u' '.join([x.label for x in o])
