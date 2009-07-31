@@ -408,7 +408,7 @@ class Resistance(S.rdfsPTClass):
     """A resistance possessed by monsters"""
     rdf_type = CHAR.Resistance
 
-    attackEffect = rdfSingle(PROP.attackEffect, range_type=CHAR.AttackEffect)
+    attackEffect = rdfSingle(PROP.attackEffect, range_type=AttackEffect.rdf_type)
     value = rdfSingle(RDF.value)
 
     ## def __repr__(self):
@@ -464,18 +464,18 @@ class Family(S.rdfsPTClass):
     collection = None
 
     comment = rdfSingle(RDFSNS.comment)
-    senses = rdfMultiple(PROP.sense, range_type=CHAR.Sense)
-    languages = rdfMultiple(PROP.language, range_type=CHAR.Language)
-    immunities = rdfMultiple(PROP.immunity, range_type=CHAR.Immunity)
-    resistances = rdfMultiple(PROP.resistance, range_type=CHAR.Resistance)
+    senses = rdfMultiple(PROP.sense, range_type=Sense.rdf_type)
+    languages = rdfMultiple(PROP.language, range_type=Language.rdf_type)
+    immunities = rdfMultiple(PROP.immunity, range_type=Immunity.rdf_type)
+    resistances = rdfMultiple(PROP.resistance, range_type=Resistance.rdf_type)
     vulnerabilities = rdfMultiple(PROP.vulnerability,
-            range_type=CHAR.Vulnerability)
+            range_type=Vulnerability.rdf_type)
     specialAbilities = rdfMultiple(PROP.specialAbility,
-            range_type=CHAR.SpecialAbility)
+            range_type=SpecialAbility.rdf_type)
     specialQualities = rdfMultiple(PROP.specialQuality,
-            range_type=CHAR.SpecialQuality)
+            range_type=SpecialQuality.rdf_type)
     combatMechanics = rdfMultiple(PROP.combatMechanic,
-            range_type=CHAR.CombatMechanic)
+            range_type=CombatMechanic.rdf_type)
 
     def collectText(self):
         """
@@ -508,8 +508,8 @@ class Skill(S.rdfsPTClass):
 
     collection = None
 
-    keyAbility = rdfSingle(PROP.keyAbility, range_type=CHAR.AbilityScore)
-    synergy = rdfMultiple(PROP.synergy, range_type=CHAR.SkillSynergy)
+    keyAbility = rdfSingle(PROP.keyAbility, range_type=Ability.rdf_type)
+    synergy = rdfMultiple(PROP.synergy, range_type=SkillSynergy.rdf_type)
     additional = rdfSingle(PROP.additional)
     epicUse = rdfSingle(PROP.epicUse)
     skillAction = rdfSingle(PROP.skillAction)
@@ -694,7 +694,7 @@ class Monster2(S.rdfsPTClass):
     cr                     = rdfMultiple(PROP.cr)               # DONE!
 
     _alignments            = rdfMultiple(PROP.alignment,
-                                range_type=CHAR.AlignmentTrue)  # DONE!
+                                range_type=Alignment.rdf_type)  # DONE!
 
     advancement            = rdfSingle(PROP.advancement)        # DONE!
     levelAdjustment        = rdfSingle(PROP.levelAdjustment)    # DONE!
@@ -721,7 +721,8 @@ class Monster2(S.rdfsPTClass):
     reconstruct the whole list to set any of them, and we must iterate the
     whole list to get any of them.  Implement an associative type""")
 
-    feats                  = rdfMultiple(PROP.feat, range_type=CHAR.MonsterHasFeat)
+    feats                  = rdfMultiple(PROP.feat, 
+                                         range_type=MonsterFeat.rdf_type)
     bonusFeats             = BonusFeatFilter("bonusFeats")
     acFeats                = CoreFeatFilter("acFeats", 
                                             lambda x: x.isArmorClassFeat)
