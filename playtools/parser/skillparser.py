@@ -23,7 +23,10 @@ empty := '-'
 splat := '*'
 
 subSkillName := name
->subSkillGroup< := '(', !, subSkillName, (',', subSkillName)*, ')'
+subSkillAll  := 'all'
+subSkillCount := 'any one'/'any two'/'any three'/'any four'/'any five'/'any 1'/'any 2'/'any 3'/'any 4'/'any 5'/'any 6'/'any 7'/'any 8'/'any 9'
+>subSkillPiece< := subSkillCount/subSkillAll/subSkillName
+>subSkillGroup< := '(', !, subSkillPiece, (',', subSkillPiece)*, ')'
 
 <qualifierChar> := [-+0-9a-zA-Z'" \t,]
 qualifier := '(', !, qualifierChar+, ')'
@@ -68,9 +71,20 @@ class Processor(disp.DispatchProcessor):
     def baseSkillName(self, (t,s1,s2,sub), buffer):
         self.addSkill(disp.getString((t,s1,s2,sub), buffer).strip())
 
+    def subSkillAll(self, (t,s1,s2,sub), buffer):
+        self.currentSkill.subSkills.append('all subskills')
+
+    def subSkillCount(self, (t,s1,s2,sub), buffer):
+        s = disp.getString((t,s1,s2,sub), buffer).strip()
+        count = s.split()[-1].lower()
+        n = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5,
+                '1':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8, '9':9,
+                }[count]
+        self.currentSkill.subSkills.append('any %s subskills' % (n,))
+
     def subSkillName(self, (t,s1,s2,sub), buffer):
-        self.currentSkill.subSkills.append(disp.getString((t,s1,s2,sub),
-            buffer).strip())
+        s = disp.getString((t,s1,s2,sub), buffer).strip()
+        self.currentSkill.subSkills.append(s)
 
     def splat(self, (t,s1,s2,sub), buffer):
         self.currentSkill.splat = '*'

@@ -105,7 +105,7 @@ class SkillParserTest(unittest.TestCase):
         t2 = "Speak Language (any five), Jump +16"
         parsed = skillparser.parseSkills(t2)[0]
         actual = dict([(i.skillName, i.subSkills) for i in parsed])
-        expected = {'Speak Language': ['any five'], 'Jump': []}
+        expected = {'Speak Language': ['any 5 subskills'], 'Jump': []}
         self.assertEqual(actual, expected)
 
     def test_subSkills(self):
@@ -137,6 +137,18 @@ class SkillParserTest(unittest.TestCase):
                 ('Knowledge',('arcana',)):[12, '+14 while smoking crack'],
                 }
         self.assertEqual(actual, expected)
+
+    def test_subSkillsCount(self):
+        """
+        Subskills specified as a count get expressed as multiple subskills
+        """
+        t1 = "Knowledge (any 4) +12"
+        parsed = skillparser.parseSkills(t1)[0]
+        self.assertEqual(parsed[0].subSkills, ["any 4 subskills"])
+
+        t2 = "Knowledge (all) +12"
+        parsed = skillparser.parseSkills(t2)[0]
+        self.assertEqual(parsed[0].subSkills, ["all subskills"])
 
 
 class HUGESkillParserTest(unittest.TestCase):
