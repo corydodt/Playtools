@@ -75,6 +75,7 @@ class MonsterConverter(object):
         # We want the default to remain the sqlite-backed one used by SRD
         d20srd35.Monster2.db = self.graph
         d20srd35.MonsterFeat.db = self.graph
+        d20srd35.MonsterSkill.db = self.graph
         d20srd35.AnnotatedValue.db = self.graph
         d20srd35.Alignment.db = self.graph
  
@@ -212,7 +213,7 @@ class MonsterConverter(object):
             ff = d20srd35.MonsterFeat()
             if getattr(f, 'isBonusFeat', False):
                 ff.isBonusFeat = True
-            ff.value = f.dbFeat.resUri
+            ff.feat = f.dbFeat.resUri
             if f.qualifier is not None:
                 ff.comment = f.qualifier
             if f.timesTaken:
@@ -236,16 +237,25 @@ class MonsterConverter(object):
         for sk in _sk:
             if not sk:
                 continue
+            sksk = d20srd35.MonsterSkill()
             res = rdfName(sk.skillName)
             # There are two nearly-identical concentrations. both are
             # denoted with "concentration" in the skill lists of monsters.
             # Apply :concentration2 if "psionic" monster
             if 'psionic' in m.reference and res == 'concentration':
                 res = 'concentration2'
-            _mySkills.append((sk, getattr(skillNs, res)))
-        getValueSk = lambda x: x.value
-        skillList = _makeValues(_mySkills, getValue=getValueSk)
-        set('_skills',             skillList)
+            sksk.skill = getattr(skillNs, res)
+            sksk.value = sk.value
+            if sk.qualifier is not None:
+                sksk.comment = sk.qualifier
+            subs = []
+            for sub in sk.subSkills:
+                subs.append(getattr(skillNs, rdfName(sub)))
+            if subs:
+                sksk.subSkills = subs
+            self.graph.remove((sksk.resUri, a, C.MonsterHasSkill))
+            _mySkills.append(sksk)
+        set('skills',             _mySkills)
 
     def label(self):
         return u"monsters"

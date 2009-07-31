@@ -573,7 +573,7 @@ class BonusFeatFilter(CachingDescriptor):
 class CoreFeatFilter(CachingDescriptor):
     """
     Descriptor to get feats filtered along various axes.  These all work by
-    inspecting the value of a monster's feat.
+    inspecting the feat.feat attribute
 
     Pass in a matcher function, and only feats for which matcher returns true
     on value will be returned.
@@ -583,7 +583,7 @@ class CoreFeatFilter(CachingDescriptor):
         CachingDescriptor.__init__(self, name)
 
     def get(self, instance, owner):
-        return [f for f in instance.feats if self.matcher(f.value)]
+        return [f for f in instance.feats if self.matcher(f.feat)]
 
 
 class SkillGetter(CachingDescriptor):
@@ -598,7 +598,11 @@ class SkillGetter(CachingDescriptor):
         CachingDescriptor.__init__(self, name)
 
     def get(self, instance, owner):
-        return [sk for sk in instance.skills if sk.resUri == self.name]
+        matched = [sk for sk in instance.skills if sk.skill.resUri == getattr(SKILL, self.name)]
+        if matched:
+            assert len(matched) == 1
+            return matched[0]
+        return None
 
 
 class Feat(S.rdfsPTClass):
@@ -661,9 +665,19 @@ class MonsterFeat(S.rdfsPTClass):
     A feat possessed by a particular monster, which may be a bonus feat
     """
     rdf_type = CHAR.MonsterHasFeat
-    value                  = rdfSingle(RDF.value, range_type=Feat.rdf_type)
+    feat                   = rdfSingle(PROP.featDefinition, range_type=Feat.rdf_type)
     isBonusFeat            = S.rdfIsInstance(CHAR.MonsterBonusFeat)
     timesTaken             = rdfSingle(PROP.featTimesTaken)
+
+
+class MonsterSkill(S.rdfsPTClass):
+    """
+    A skill possessed by a particular monster
+    """
+    rdf_type = CHAR.MonsterHasSkill
+    skill                  = rdfSingle(PROP.skillDefinition, range_type=Skill.rdf_type)
+    value                  = rdfSingle(RDF.value)  
+    subSkills              = rdfMultiple(PROP.subSkill, range_type=Skill.rdf_type)
 
 
 class Monster2(S.rdfsPTClass):
@@ -735,7 +749,8 @@ class Monster2(S.rdfsPTClass):
     epicFeats              = CoreFeatFilter("epicFeats", 
                                             lambda x: x.epic)
 
-    skills                 = rdfMultiple(PROP.skill)
+    skills                 = rdfMultiple(PROP.skill,
+                                         range_type=MonsterSkill.rdf_type)
 
     listen                 = SkillGetter("listen")
     spot                   = SkillGetter("spot")
