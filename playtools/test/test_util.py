@@ -1,5 +1,6 @@
 import os
 import re
+from xml.dom import minidom
 
 from twisted.trial import unittest
 from twisted.python.util import sibpath
@@ -51,3 +52,57 @@ class UtilTestCase(unittest.TestCase):
         rx2 = r'{_:[a-zA-Z0-9]+}'
         x2 = util.prefixen(prefixes, l[-1][0], )
         self.assertTrue(re.match(rx2, x2) is not None, '%s != %s' % (rx2, x2))
+
+    def test_doNodes(self):
+        """
+        We can arbitrarily manipulate nodes by criteria
+        """
+        t1 = minidom.parseString("<div>x<div>y<EX>z </EX></div>abc</div>")
+        def findText(n):
+            return (n.nodeName == '#text')
+
+        def makeItRock(n):
+            n.data = "ROCK"
+
+        list(util.doNodes(t1, findText, makeItRock))
+        expected = u"<div>ROCK<div>ROCK<EX>ROCK</EX></div>ROCK</div>"
+
+        self.assertEqual(t1.firstChild.toxml(), expected)
+
+    def test_findNodes(self):
+        """
+        We can search for nodes by particular criteria
+        """
+        t1 = minidom.parseString("<div>x<div>y<EX>z </EX></div>abc</div>")
+        expected = t1.getElementsByTagName('EX')[0]
+        def findZ(n):
+            return (n.childNodes and
+                    hasattr(n.childNodes[0], "data") and 
+                    n.childNodes[0].data == "z ")
+        self.assertEqual(list(util.findNodes(t1, findZ)), [expected])
+
+        t2 = minidom.parseString("<div>x<EX name='hi'>y<div>z </div></EX>abc</div>")
+        expected = t2.getElementsByTagName('EX')[0]
+        def findHi(n):
+            return hasattr(n, 'getAttribute') and n.getAttribute('name') == 'hi'
+        self.assertEqual(list(util.findNodes(t2, findHi)), [expected])
+
+    def test_gatherText(self):
+        """
+        We can collect the text from a dom tree
+        """
+        t1 = minidom.parseString("<div>x<div>y<div>z </div></div>abc</div>")
+        self.assertEqual(util.gatherText(t1), u"x y z  abc")
+        t2 = minidom.parseString("<x>ab c</x>")
+        self.assertEqual(util.gatherText(t2), u"ab c")
+
+    def test_flushLeft(self):
+        """
+        Triple-quoted strings are annoying to work with - this function makes
+        sure they get properly aligned.
+        """
+        input = """        this
+        function
+        sucks
+        """
+        self.assertEqual(util.flushLeft(input), "this\nfunction\nsucks\n")
