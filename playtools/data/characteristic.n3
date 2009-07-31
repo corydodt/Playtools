@@ -406,6 +406,9 @@
 .
 :SubSkill rdfs:subClassOf :Characteristic .
 :Skill rdfs:subClassOf :Characteristic .
+:MonsterHasSkill a rdfs:Class;
+    rdfs:comment "The skill of a particular monster.".
+
 
 :SkillSynergy rdfs:subClassOf :Characteristic .
 

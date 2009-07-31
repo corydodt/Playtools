@@ -7,6 +7,56 @@
 
  <> rdfs:title "All d20 SRD Skills". 
 
+ :any1Subskills a c:Skill;
+    rdfs:label "Any one subskill";
+    rdfs:comment "Any 1 subskill of this particular skill may be substituted.";
+.  
+
+ :any2Subskills a c:Skill;
+    rdfs:label "Any two subskills";
+    rdfs:comment "Any 2 subskills of this particular skill may be substituted.";
+.  
+
+ :any3Subskills a c:Skill;
+    rdfs:label "Any three subskills";
+    rdfs:comment "Any 3 subskills of this particular skill may be substituted.";
+.  
+
+ :any4Subskills a c:Skill;
+    rdfs:label "Any four subskills";
+    rdfs:comment "Any 4 subskills of this particular skill may be substituted.";
+.  
+
+ :any5Subskills a c:Skill;
+    rdfs:label "Any five subskills";
+    rdfs:comment "Any 5 subskills of this particular skill may be substituted.";
+.  
+
+ :any6Subskills a c:Skill;
+    rdfs:label "Any six subskills";
+    rdfs:comment "Any 6 subskills of this particular skill may be substituted.";
+.  
+
+ :any7Subskills a c:Skill;
+    rdfs:label "Any seven subskills";
+    rdfs:comment "Any 7 subskills of this particular skill may be substituted.";
+.  
+
+ :any8Subskills a c:Skill;
+    rdfs:label "Any eight subskills";
+    rdfs:comment "Any 8 subskills of this particular skill may be substituted.";
+.  
+
+ :any9Subskills a c:Skill;
+    rdfs:label "Any nine subskills";
+    rdfs:comment "Any 9 subskills of this particular skill may be substituted.";
+.  
+
+ :allSubskills a c:Skill;
+    rdfs:label "All subskills";
+    rdfs:comment "This monster possesses all the subskills of this particular skill, with the same bonus value.";
+.  
+
  :appraise a c:Skill;
      rdfs:label "Appraise";
      p:additional "A dwarf gets a +2 racial bonus on Appraise checks that are related to stone or metal items because dwarves are familiar with valuable items of all kinds (especially those made of stone or metal).The master of a raven familiar gains a +3 bonus on Appraise checks.A character with the Diligent feat gets a +2 bonus on Appraise checks.";

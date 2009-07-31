@@ -221,7 +221,6 @@
 
 :image a rdfs:Property;
     rdfs:comment "An image";
-    owl:allValuesFrom dctype:Image;
 .
 
 :reference a rdfs:Property;
@@ -230,4 +229,16 @@
 
 :textLocation a rdfs:Property;
     rdfs:comment "The location of text which can be indexed when building a search entry for this monster.";
+.
+
+:skillDefinition a rdfs:Property;
+    rdfs:comment "The location of the core skill of which this monster's skill is an instance."
+.
+
+:featDefinition a rdfs:Property;
+    rdfs:comment "The location of the core feat of which this monster's feat is an instance."
+.
+
+:subSkill a rdfs:Property;
+    rdfs:comment "For a given monster's skills, this skill has this subskill."
 .
