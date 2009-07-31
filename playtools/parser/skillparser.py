@@ -22,8 +22,8 @@ r'''# skill stat
 empty := '-'
 splat := '*'
 
-<subSkillName> := name
-subSkillGroup := '(', !, subSkillName, (',', subSkillName)*, ')'
+subSkillName := name
+>subSkillGroup< := '(', !, subSkillName, (',', subSkillName)*, ')'
 
 <qualifierChar> := [-+0-9a-zA-Z'" \t,]
 qualifier := '(', !, qualifierChar+, ')'
@@ -68,9 +68,9 @@ class Processor(disp.DispatchProcessor):
     def baseSkillName(self, (t,s1,s2,sub), buffer):
         self.addSkill(disp.getString((t,s1,s2,sub), buffer).strip())
 
-    def subSkillGroup(self, (t,s1,s2,sub), buffer):
-        self.currentSkill.subSkills = disp.getString((t,s1+1,s2-1,sub),
-                buffer).strip()
+    def subSkillName(self, (t,s1,s2,sub), buffer):
+        self.currentSkill.subSkills.append(disp.getString((t,s1,s2,sub),
+            buffer).strip())
 
     def splat(self, (t,s1,s2,sub), buffer):
         self.currentSkill.splat = '*'
@@ -93,15 +93,15 @@ def parseSkills(s):
 class SkillItem(object):
     def __init__(self):
         self.skillName = self.splat = self.qualifier = self.value = None
-        self.subSkills = None
+        self.subSkills = []
 
     def __repr__(self):
         return '<%s>' % (str(self),)
 
     def __str__(self):
         sub = ''
-        if self.subSkills is not None:
-            sub = ' (%s)' % (self.subSkills,)
+        if self.subSkills:
+            sub = ' (%s)' % (', '.join(self.subSkills),)
 
         qual = ''
         if self.qualifier is not None:

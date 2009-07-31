@@ -99,35 +99,42 @@ class SkillParserTest(unittest.TestCase):
         t1 = "Speak Language (elven, common)"
         parsed = skillparser.parseSkills(t1)[0]
         actual = dict([(i.skillName, i.subSkills) for i in parsed])
-        expected = {'Speak Language': 'elven, common'}
+        expected = {'Speak Language': ['elven', 'common']}
         self.assertEqual(actual, expected)
 
         t2 = "Speak Language (any five), Jump +16"
         parsed = skillparser.parseSkills(t2)[0]
         actual = dict([(i.skillName, i.subSkills) for i in parsed])
-        expected = {'Speak Language': 'any five', 'Jump': None}
+        expected = {'Speak Language': ['any five'], 'Jump': []}
         self.assertEqual(actual, expected)
 
     def test_subSkills(self):
         """
         Subskills are gathered
         """
-        t1 = "Concentration +17, Knowledge (arcana) +12, Knowledge (psionics) +12, Knowledge (the planes) +12, Listen +22"
+        t1 = "Concentration +17, Knowledge (arcana, the planes) +12, Knowledge (psionics) +12, Listen +22"
         parsed = skillparser.parseSkills(t1)[0]
-        actual = dict([((i.skillName, i.subSkills), i.value) for i in parsed])
-        expected = {('Concentration',None):17,
-                ('Knowledge','arcana'):12,
-                ('Knowledge','psionics'):12,
-                ('Knowledge','the planes'):12,
-                ('Listen',None):22,
+        actual = {}
+        for i in parsed:
+            actual[(i.skillName, tuple(i.subSkills))] = [i.value, i.qualifier]
+        expected = {('Concentration',()): [17, None],
+                ('Knowledge',('arcana', 'the planes')): [12, None],
+                ('Knowledge',('psionics',)): [12, None],
+                ('Listen',()): [22, None],
                 }
         self.assertEqual(actual, expected)
 
         t2 = "Concentration +17, Knowledge (arcana) +12 (+14 while smoking crack)"
         parsed = skillparser.parseSkills(t2)[0]
-        actual = dict([((i.skillName, i.subSkills), [i.value, i.qualifier]) for i in parsed])
+        actual = {}
+        for i in parsed:
+            if i.subSkills:
+                subs = tuple(i.subSkills)
+            else:
+                subs = None
+            actual[(i.skillName, subs)] = [i.value, i.qualifier]
         expected = {('Concentration',None):[17, None],
-                ('Knowledge','arcana'):[12, '+14 while smoking crack'],
+                ('Knowledge',('arcana',)):[12, '+14 while smoking crack'],
                 }
         self.assertEqual(actual, expected)
 
