@@ -384,6 +384,8 @@
 
 :RangedAttack rdfs:subClassOf :PhysicalAttack .
 
+:TouchAttack rdfs:subClassOf :Characteristic.
+
 :AttackOption rdfs:subClassOf :Characteristic;
     rdfs:comment "A special attack possessed by a creature, or a modifier to a regular attack";
 .
@@ -591,3 +593,6 @@
 :Goods rdfs:subClassOf :TreasureType .
 :Items rdfs:subClassOf :TreasureType .
 
+:AttackForm a rdfs:Class;
+    rdfs:comment "One weapon a monster can use, possibly multiple times in a round, to attack.";  
+.
