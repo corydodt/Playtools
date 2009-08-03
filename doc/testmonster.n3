@@ -1,3 +1,13 @@
+
+@prefix p: <http://goonmill.org/2007/property.n3#>.
+@prefix skill: <http://goonmill.org/2007/skill.n3#>.
+@prefix c: <http://goonmill.org/2007/characteristic.n3#>.
+@prefix feat: <http://goonmill.org/2007/feat.n3#>.
+@prefix : <http://goonmill.org/2007/monster.n3#>.
+@prefix fam: <http://goonmill.org/2007/family.n3#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
  :winterwight a c:Monster;
      rdfs:label "Winterwight";
      p:abilityScore [ a c:Cha;
@@ -66,20 +76,24 @@
              rdf:value c:standardTreasure],
          [ a c:Items;
              rdf:value c:standardTreasure];
-     p:type fam:undead
-     p:attackGroup ( p:attackForm 
-        [ a c:MeleeAttack;
-            p:attackFormCount 2; p:label "claws"; 
-            p:attackFormDamage "3d8+21";
-            p:attackFormCritical "19-20";
-            p:attackFormExtraDamage "plus blight-fire, +1d6 on critical hit";
-            p:attackBonus (+40); ],
-        [ a c:MeleeAttack;
-            p:attackFormCount 1; p:label "skull butt";
-            p:attackBonus (+32); ],
-            p:attackFormDamage "2d6+10";
-            p:attackFormExtraDamage "plus blightfire";
-            ];
+     p:type fam:undead;
+     p:attackGroups (
+        [ a c:AttackGroup;
+          p:attackForms (
+            [ a c:MeleeAttack;
+                rdfs:label "claws";
+                p:attackBonus ( 40 );
+                p:attackFormCount 2;
+                p:attackFormCritical "19-20";
+                p:attackFormDamage "3d8+21";
+                p:attackFormExtraDamage "plus blight-fire, +1d6 on critical hit" ] 
+            [ a c:MeleeAttack;
+                rdfs:label "skull butt";
+                p:attackBonus ( 32 );
+                p:attackFormDamage "2d6+10";
+                p:attackFormExtraDamage "plus blightfire"  ]
+            )
+          ]
         );
-. 
+.
 
