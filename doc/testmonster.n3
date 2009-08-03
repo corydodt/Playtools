@@ -1,27 +1,85 @@
-[ a c:Monster;
-         rdfs:label "Winterwight";
-         _3:ability [ a c:Str; rdf:value 52; ],  
-            [ a c:Dex; rdf:value 27; ],
-            [ a c:Cha; rdf:value 28; ],
-            [ a c:Int; rdf:value 10; rdfs:comment "Or same as master" ],
-            [ a c:Wis; rdf:value 22; ];
-         _3:advancement "33-42 HD (Medium-size); 43-55 HD (Huge)";
-         _3:bab +16;
-         _3:cr 23;
-         _3:descriptor fam:cold;
-         _3:environment "Any";
-         _3:family "Winterwight";
-         _3:grapple +37;
-         _3:hitDice "32d12"^^c:diceExpression;
-         _3:initiative +12; 
-         _3:organization "Solitary or pair";
-         _3:reach "5 ft."^^xxx:distance;
-         _3:save [ a c:Fort; rdf:value 14 ],
-             [ a c:Ref; rdf:value 18 ],
-             [ a c:Will; rdf:value 24 ];  
-         _3:size c:medium;
-         _3:space "5 ft."^^xxx:distance;
-         _3:speed "60 ft."^^xxx:distance;
-         _3:treasure c:standardTreasure;
-         _3:type fam:undead].
+ :winterwight a c:Monster;
+     rdfs:label "Winterwight";
+     p:abilityScore [ a c:Cha;
+             rdf:value 28],
+         [ a c:Con;
+             rdf:value 0],
+         [ a c:Dex;
+             rdf:value 27],
+         [ a c:Int;
+             rdf:value 10],
+         [ a c:Str;
+             rdf:value 52],
+         [ a c:Wis;
+             rdf:value 22];
+     p:advancement "33-42 HD (Medium-size); 43-55 HD (Huge)";
+     p:alignment [ rdf:value c:chaoticEvil];
+     p:bab 16;
+     p:cr [ a c:ChallengeRating;
+             rdf:value 23];
+     p:descriptor fam:cold;
+     p:environment "Any";
+     p:family "Winterwight";
+     p:feat [ p:featDefinition feat:cleave],
+         [ p:featDefinition feat:improvedCritical;
+             rdfs:comment "claw"],
+         [ p:featDefinition feat:improvedInitiative],
+         [ p:featDefinition feat:powerAttack],
+         [ p:featDefinition feat:weaponFocus;
+             rdfs:comment "claw"],
+         [ p:featDefinition feat:overwhelmingCritical;
+             rdfs:comment "claw"],
+         [ p:featDefinition feat:blindingSpeed],
+         [ p:featDefinition feat:epicFortitude],
+         [ p:featDefinition feat:epicWeaponFocus;
+             rdfs:comment "claw"];
+     p:grapple 37;
+     p:hitDice "32d12";
+     p:initiative 12;
+     p:organization "Solitary or pair";
+     p:reach "5 ft.";
+     p:reference <http://www.d20srd.org/srd/epic/monsters/winterwight.htm>;
+     p:save [ a c:Fort;
+             rdf:value 14],
+         [ a c:Ref;
+             rdf:value 18],
+         [ a c:Will;
+             rdf:value 24];
+     p:size c:medium;
+     p:skill [ p:skillDefinition skill:jump;
+             rdf:value 21],
+         [ p:skillDefinition skill:intimidate;
+             rdf:value 44],
+         [ p:skillDefinition skill:knowledge;
+             p:subSkill skill:religion;
+             rdf:value 35],
+         [ p:skillDefinition skill:listen;
+             rdf:value 43],
+         [ p:skillDefinition skill:spot;
+             rdf:value 43];
+     p:space "5 ft.";
+     p:speed "60 ft.";
+     p:textLocation "monstertext/winterwight.htm";
+     p:treasure [ a c:Coins;
+             rdf:value c:standardTreasure],
+         [ a c:Goods;
+             rdf:value c:standardTreasure],
+         [ a c:Items;
+             rdf:value c:standardTreasure];
+     p:type fam:undead
+     p:attackGroup ( p:attackForm 
+        [ a c:MeleeAttack;
+            p:attackFormCount 2; p:label "claws"; 
+            p:attackFormDamage "3d8+21";
+            p:attackFormCritical "19-20";
+            p:attackFormExtraDamage "plus blight-fire, +1d6 on critical hit";
+            p:attackBonus (+40); ],
+        [ a c:MeleeAttack;
+            p:attackFormCount 1; p:label "skull butt";
+            p:attackBonus (+32); ],
+            p:attackFormDamage "2d6+10";
+            p:attackFormExtraDamage "plus blightfire";
+            ];
+        );
+. 
 
