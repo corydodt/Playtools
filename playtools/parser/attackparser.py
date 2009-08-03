@@ -8,59 +8,72 @@ numbers, chartypes
 
 grammar = ( # {{{
 r'''# Attacks!
-<wsc> := [ \t]
-<ws> := wsc*
-<n> := int
-<l> := letter
-<d> := digit
-<paren> := [()]
-splat := '*'
+<wsc>                     :=  [ \t]
+<ws>                      :=  wsc*
+<n>                       :=  int
+<l>                       :=  letter
+<d>                       :=  digit
+<paren>                   :=  [()]
+<splat>                   :=  '*'
 
-count := n
+count                     :=  n
 
-<weaponChar> := l/d/wsc/paren
-<nonTerminalDash> := ('-', l)
-weapon := (weaponChar/nonTerminalDash)+
+<weaponChar>              :=  l/d/wsc/paren
+<nonTerminalDash>         :=  ('-', l)
+weapon                    :=  (weaponChar/nonTerminalDash)+
 
-bonus := [-+], n
-bonusSequence := bonus, ('/', bonus)*
+bonus                     :=  [-+], n
+bonusSequence             :=  bonus, ('/', bonus)*
 
-cwb := count?, ws, weapon, ws, bonusSequence
+>cwb<                     :=  count?, ws, weapon, ws, bonusSequence
 
-attackTypeSlot := ('melee'/'ranged'), splat?
-attackTouchSlot := 'touch'
-attackTypeAndTouch := attackTypeSlot, ws, attackTouchSlot?
+attackTypeSlot            :=  ('melee'/'ranged'), splat?
+attackTouchSlot           :=  'touch'
+>attackTypeAndTouch<      :=  attackTypeSlot, ws, attackTouchSlot?
 
-critRange := n, '-', n
-critThreat := 'x', n
-crit := (critRange, '/', critThreat)/critRange/critThreat
+<critRange>               :=  n, '-', n
+<critThreat>              :=  'x', !, n
+crit                      :=  (critRange, '/', critThreat)/critRange/critThreat
+>critPhrase<              :=  '/', !, crit  
 
-extraDamage := (l/d/wsc/[,+-])+
-<damageType> := (l/d/wsc/'+')+
-damage := diceExpression?, ws, damageType?, splat?
-parenDamage := '(', extraDamage, ')'
-extraClause := (parenDamage/extraDamage)*, ws
-damageSet := damage, ('/', crit)?
-damagePhrase := '(', damageSet, (',', damageSet)*, ws, extraClause?, ws, ')'
+extraDamage1              :=  'plus'/'+', !, ws, (l/d/[,+-])+, (ws, (l/d/[,+-])+)*
+>extraDamage2<            :=  '(', !, extraDamage1, ')'
+>extraClause<             :=  (extraDamage2/extraDamage1)+
 
-<rangeInformation> := (l/d/wsc/[.+-])+
-rangeSlot := '(', rangeInformation, ')'
+damageType                :=  (l/d)+, (ws, (l/d/'+')+)*
+<_diceExpression>         :=  diceExpression
+
+damageWithType            :=  _diceExpression, (ws, splat)?, ws, damageType
+damageWithoutType         :=  _diceExpression, (ws, splat)?
+
+>diceOnly<                :=  damageWithoutType, critPhrase?
+>nonDiceDamage<           :=  damageType, critPhrase?
+>diceAndTypeDamage<       :=  damageWithType, critPhrase?
+>diceAndExtraDamage<      :=  damageWithoutType, critPhrase?, ws, extraClause
+>diceTypeAndExtraDamage<  :=  damageWithType, critPhrase?, ws, extraClause
+
+>damage<                  :=  diceTypeAndExtraDamage/diceAndExtraDamage/diceAndTypeDamage/diceOnly/nonDiceDamage
+
+>damagePhrase<            :=  '(', !, damage, ws, ')'
+
+<rangeInformation>        :=  (l/d/[.+-])+, (ws, (l/d/[.+-])+)*
+rangeSlot                 :=  '(', !, rangeInformation, ')'
 
 # two choices
-subAttackForm1 := damagePhrase, ws, attackTypeAndTouch
-subAttackForm2 := attackTypeAndTouch, ws, damagePhrase
+>subAttackForm1<          :=  damagePhrase, ws, attackTypeAndTouch
+>subAttackForm2<          :=  attackTypeAndTouch, ws, damagePhrase
 
-anyAttackForm := cwb, ws, !, subAttackForm1/subAttackForm2, ws, rangeSlot?
+anyAttackForm             :=  cwb, ws, !, subAttackForm1/subAttackForm2, ws, rangeSlot?
 
-<attackFormSep> := ','/'and'
+<attackFormSep>           :=  ','/'and'
 
-attackGroup := anyAttackForm, (attackFormSep, ws, anyAttackForm)*
+attackGroup               :=  anyAttackForm, (attackFormSep, ws, anyAttackForm)*
 
-empty := '-'
+empty                     :=  '-'
 
-attackStat := empty/(attackGroup, (';'?, ws, 'or', ws, attackGroup)*)
+attackStat                :=  empty/(attackGroup, (';'?, ws, 'or', ws, attackGroup)*)
 
-attackStatRoot := attackStat
+attackStatRoot            :=  attackStat
 ''') # }}}
 
 attackParser = parser.Parser(grammar, root='attackStatRoot')
@@ -85,6 +98,8 @@ class AttackForm(object):
         self.type = None
         self.damage = None
         self.rangeInformation = ''
+        self.bonus = ()
+        self.weapon = ''
 
     def __repr__(self):
         return '<AttackForm %s|%s|%s|%s|%s|%s|%s|%s|%s>' % (self.count, 
@@ -130,8 +145,16 @@ class AttackForm(object):
 
 
 class Processor(disp.DispatchProcessor):
+    def __init__(self, attackGroups=None, *a, **kw):
+        if attackGroups is not None:
+            self.attackGroups = attackGroups
+            self.option = self.attackGroups[-1]
+            self.attackForm = self.option.attackForms[-1]
+        else:
+            self.attackGroups = []
+        ## no such thing: disp.DispatchProcessor.__init__(self, *a, **kw)
+
     def attackStat(self, (t,s1,s2,sub), buffer):
-        self.attackGroups = []
         disp.dispatchList(self, sub, buffer)
         return self.attackGroups
 
@@ -151,31 +174,19 @@ class Processor(disp.DispatchProcessor):
     def weapon(self, (t,s1,s2,sub), buffer):
         self.attackForm.weapon = disp.getString((t,s1,s2,sub), buffer).strip()
 
-    def damageSet(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
-    def parenDamage(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
-    def damagePhrase(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
     def rangeSlot(self, (t,s1,s2,sub), buffer):
         self.attackForm.rangeInformation = disp.getString((t,s1+1,s2-1,sub), buffer)
 
-    def subAttackForm1(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
-    def subAttackForm2(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
-    def damage(self, (t,s1,s2,sub), buffer):
+    def damageWithType(self, (t,s1,s2,sub), buffer):
         self.attackForm.damage = disp.getString((t,s1,s2,sub), buffer)
 
-    def extraClause(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
+    def damageWithoutType(self, (t,s1,s2,sub), buffer):
+        self.attackForm.damage = disp.getString((t,s1,s2,sub), buffer).strip()
 
-    def extraDamage(self, (t,s1,s2,sub), buffer):
+    def damageType(self, (t,s1,s2,sub), buffer):
+        self.attackForm.damage = disp.getString((t,s1,s2,sub), buffer)
+
+    def extraDamage1(self, (t,s1,s2,sub), buffer):
         ed = disp.getString((t,s1,s2,sub), buffer).strip()
         self.attackForm.extraDamage.append(ed)
 
@@ -185,19 +196,10 @@ class Processor(disp.DispatchProcessor):
     def attackTypeSlot(self, (t,s1,s2,sub), buffer):
         self.attackForm.type = disp.getString((t,s1,s2,sub), buffer)
 
-    def cwb(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
     def anyAttackForm(self, (t,s1,s2,sub), buffer):
         form = AttackForm()
         self.option.attackForms.append(form)
         self.attackForm = form
-        return disp.dispatchList(self, sub, buffer)
-
-    def attackForm1(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
-    def attackForm2(self, (t,s1,s2,sub), buffer):
         return disp.dispatchList(self, sub, buffer)
 
     def attackGroup(self, (t,s1,s2,sub), buffer):
@@ -205,18 +207,20 @@ class Processor(disp.DispatchProcessor):
         self.attackGroups.append(self.option)
         return disp.dispatchList(self, sub, buffer)
 
-    def attackTypeAndTouch(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
-
     def attackTouchSlot(self, (t,s1,s2,sub), buffer):
-        return disp.dispatchList(self, sub, buffer)
+        self.attackForm.touch = 'touch'
 
     def staticNumber(self, (t,s1,s2,sub), buffer):
         self.expr.staticNumber = int(buffer[s1:s2])
 
 
-def parseAttacks(s):
-    succ, children, end = attackParser.parse(s, processor=Processor())
+def parseAttacks(s, production=None, probe=None):
+    if production is None:
+        extraArgs = {}
+    else:
+        extraArgs = {'production':production}
+    proc = Processor(probe)
+    succ, children, end = attackParser.parse(s, processor=proc, **extraArgs)
     if not succ or not end == len(s):
         raise RuntimeError('%s is not a valid attack expression' % (s,))
     return children
