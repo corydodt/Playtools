@@ -248,16 +248,19 @@
 .
 
 :attackForm a rdfs:Property;
-    rdfs:comment 
+    rdfs:comment "A single weapon a monster can use to attack in a round.";
 .
 
 :attackFormCount a rdfs:Property;
+    rdfs:comment "Number of attacks the monster gets with this attack form in a round";
 .
 
 :attackBonus a rdfs:Property;
+    rdfs:comment "List of to-hit bonuses a monster adds to attacks with this attack form";
 .
 
 :attackFormDamage a rdfs:Property;
+    rdfs:comment "Damage inflicted by this attack form, consisting of a dice expression and possible damage type";
 .
 
 :attackFormCritical a rdfs:Property;
