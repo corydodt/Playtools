@@ -243,12 +243,12 @@
     rdfs:comment "For a given monster's skills, this skill has this subskill."
 .
 
-:attackGroup a rdfs:Property;  
-    rdfs:comment "A series of attacks a monster can use all at once in a round as a full attack."
+:attackGroups a rdfs:Property;  
+    rdfs:comment "A list of series of attacks a monster can use all at once in a round as a full attack."
 .
 
-:attackForm a rdfs:Property;
-    rdfs:comment "A single weapon a monster can use to attack in a round.";
+:attackForms a rdfs:Property;
+    rdfs:comment "A list of single weapons a monster can use to attack in a round.";
 .
 
 :attackFormCount a rdfs:Property;
