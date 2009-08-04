@@ -222,6 +222,7 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual(pluck(gorilla.epicFeats, 'feat', 'resUri'),
                 [FEAT.epicToughness])
 
+        # listen is a descriptor that gets the value of that skill
         aboleth = m.lookup(MONSTER.aboleth)
         self.assertEqual(aboleth.listen.value, 16)
 
@@ -256,7 +257,9 @@ class CachingDescriptorTest(unittest.TestCase):
         I can reach an attribute through the descriptor
         """
         class TestDescriptor(d20srd35.CachingDescriptor):
-            def get(self, instance, owner): return 1
+
+            def get(self, instance, owner):
+                return 1
 
         class C(object):
             x = TestDescriptor('x')

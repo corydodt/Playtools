@@ -16,7 +16,9 @@ from playtools.util import RESOURCE, gatherText, flushLeft as FL
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import FAM, P as PROP, C as CHAR, skillNs as SKILL, featNs as FEAT
-from playtools.test.pttestutil import TODO, FIXME
+from playtools.test.pttestutil import TODO
+
+FAM, FEAT # for pyflakes - goonmill imports these (FIXME)
 
 from rdflib.Namespace import Namespace as NS
 from rdflib import RDF
@@ -593,10 +595,6 @@ class SkillGetter(CachingDescriptor):
     Pass in a matcher function, and only skills for which matcher returns true
     will be returned.
     """
-    def __init__(self, name):
-        self.name = name
-        CachingDescriptor.__init__(self, name)
-
     def get(self, instance, owner):
         matched = [sk for sk in instance.skills if sk.skill.resUri == getattr(SKILL, self.name)]
         if matched:
@@ -694,13 +692,13 @@ class Monster2(S.rdfsPTClass):
     rdf_type = CHAR.Monster
 
     family                 = rdfSingle(PROP.family, range_type=
-            Family.rdf_type)
+                                Family.rdf_type)
     altname                = rdfSingle(PROP.altname)            # DONE!
     size                   = rdfSingle(PROP.size)               # DONE!
     type                   = rdfSingle(PROP.type, range_type=
-            Family.rdf_type)
+                                Family.rdf_type)
     _descriptors           = rdfMultiple(PROP.descriptor, range_type=
-            Family.rdf_type)
+                                Family.rdf_type)
     hitDice                = rdfSingle(PROP.hitDice)            # DONE!
 
     environment            = rdfSingle(PROP.environment)        # DONE!
