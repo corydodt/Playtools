@@ -1,0 +1,41 @@
+"""
+Test the spell format plugin
+"""
+
+from twisted.trial import unittest
+
+from playtools import fact, formatting
+
+class TestSpellFormat(unittest.TestCase):
+    def setUp(self):
+        srd = fact.systems['D20 SRD']
+        self.spells = srd.facts['spell']
+
+    def test_oneLine(self):
+        cswm = self.spells.lookup(205)
+        fmtr = formatting.getBestFormatter(self.spell, 'oneLine')
+        actual = fmtr.format(cswm)
+        exp = u'<<Cure Serious Wounds, Mass>> Conjuration (Healing) || Level: Cleric 7, Druid 8 || Casting Time: 1 standard action || VS || Range: Close (25 ft. + 5 ft./2 levels) || Target: One creature/level, no two of which can be more than 30 ft. apart || Duration: Instantaneous || Save: Will half (harmless) or Will half; see text || Cures 3d8 damage +1/level for many creatures. || http://www.d20srd.org/srd/spells/cureSeriousWoundsMass.htm'
+        self.assertEqual(actual, exp)
+
+    def test_html(self):
+        cswm = self.spells.lookup(205)
+        fmtr = formatting.getBestFormatter(self.spell, 'html')
+        actual = fmtr.format(cswm)
+        exp = u'<strong>Cure Serious Wounds, Mass</strong><br />Conjuration (Healing) || Level: Cleric 7, Druid 8 || Casting Time: 1 standard action || VS || Range: Close (25 ft. + 5 ft./2 levels) || Target: One creature/level, no two of which can be more than 30 ft. apart || Duration: Instantaneous || Save: Will half (harmless) or Will half; see text || Cures 3d8 damage +1/level for many creatures. || http://www.d20srd.org/srd/spells/cureSeriousWoundsMass.htm'
+        self.assertEqual(actual, exp)
+
+    def test_rst(self):
+        cswm = self.spells.lookup(205)
+        fmtr = formatting.getBestFormatter(self.spell, 'rst')
+        actual = fmtr.format(cswm)
+        exp = u'**Cure Serious Wounds, Mass** Conjuration (Healing) || Level: Cleric 7, Druid 8 || Casting Time: 1 standard action || VS || Range: Close (25 ft. + 5 ft./2 levels) || Target: One creature/level, no two of which can be more than 30 ft. apart || Duration: Instantaneous || Save: Will half (harmless) or Will half; see text || **Cures 3d8 damage +1/level for many creatures.** || http://www.d20srd.org/srd/spells/cureSeriousWoundsMass.htm'
+        self.assertEqual(actual, exp)
+
+    def test_richIRC(self):
+        cswm = self.spells.lookup(205)
+        fmtr = formatting.getBestFormatter(self.spell, 'richIRC')
+        actual = fmtr.format(cswm)
+        exp = '\037Cure Serious Wounds, Mass\017 Conjuration (Healing) || Level: Cleric 7, Druid 8 || Casting Time: 1 standard action || VS || Range: Close (25 ft. + 5 ft./2 levels) || Target: One creature/level, no two of which can be more than 30 ft. apart || Duration: Instantaneous || Save: Will half (harmless) or Will half; see text || \002Cures 3d8 damage +1/level for many creatures.\017 || http://www.d20srd.org/srd/spells/cureSeriousWoundsMass.htm'
+        self.assertEqual(actual, exp)
+

@@ -1,0 +1,58 @@
+@prefix :     <http://goonmill.org/2009/mutamill.n3#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<> rdfs:comment """Mutamill standard components (chargens are built from these
+parts)""".
+
+:Question a rdfs:Class.
+    rdfs:comment """The interface of a chargen is
+specified by structured triples which provide a series of questions.  The
+questions are specified by:
+
+    - question text
+
+    - the schema of the answer
+
+    - the data type of the responses
+
+    - the source data for the responses
+""";
+.
+
+:questionText a rdfs:Property.
+
+:questions a rdfs:Property.
+
+:dataFilter a rdfs:Property;
+    owl:allValuesFrom :DataFilter;
+.
+
+:answerType a rdfs:Property.
+
+:AnswerType a rdfs:Class.
+
+:choiceAnswer a :AnswerType.
+:radioAnswer a :AnswerType.
+:textAnswer a :AnswerType.
+:randomType a :AnswerType.
+:number a :AnswerType.
+
+:answerExpression a rdfs:Property.
+
+
+
+:Section a rdfs:Class.
+    rdfs:comment """Questions can be grouped into sections.  Everything in one
+section must be solved before moving on to the next section is possible.
+"""
+.
+
+#:DataFilter a rdfs:Class.
+#    rdfs:comment """A data filter is used as the data type and argument to the
+#answers of questions.  When a choice must be presented to the user, a
+#DataFilter property of the Question instance is used to get the choices.
+#"""
+#.
+

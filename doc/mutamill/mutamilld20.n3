@@ -1,0 +1,116 @@
+@prefix  :      <http://goonmill.org/2009/mutamilld20.n3#> .
+@prefix  mut:   <http://goonmill.org/2009/mutamill.n3#> .
+@prefix  rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix  d:     <http://goonmill.org/2007/dice.n3#> .
+@prefix  c:     <http://goonmill.org/2007/characteristic.n3#> .
+
+<> rdfs:comment "The D20 chargen, defined for Mutamill.".
+
+:rollMethod a mut:Question;
+    rdfs:label "How do you wish to roll stats?";
+    owl:allValuesFrom d:RollMethod;
+    mut:answerType mut:choiceType;
+.
+
+:str a mut:Question;
+    rdfs:label "Strength:";
+    mut:answerType mut:randomType;
+    mut:answerExpression :rollMethod;
+    rdfs:comment "FIXME Should use mut:numberType when a d:PointBuyRollMethod is chosen";
+.
+
+:dex a mut:Question;
+    rdfs:label "Dexterity:";
+    mut:answerType mut:randomType;
+    mut:answerExpression :rollMethod;
+.
+
+:con a mut:Question;
+    rdfs:label "Constitution:";
+    mut:answerType mut:randomType;
+    mut:answerExpression :rollMethod;
+.
+
+:int a mut:Question;
+    rdfs:label "Intelligence:";
+    mut:answerType mut:randomType;
+    mut:answerExpression :rollMethod;
+.
+
+:wis a mut:Question;
+    rdfs:label "Wisdom:";
+    mut:answerType mut:randomType;
+    mut:answerExpression :rollMethod;
+.
+
+:cha a mut:Question;
+    rdfs:label "Charisma:";
+    mut:answerType mut:randomType;
+    mut:answerExpression :rollMethod;
+.
+
+:race a mut:Question;
+    rdfs:label "Choose your race";
+    mut:answerType mut:radioType;
+    owl:allValuesFrom c:Race;
+.
+
+:alignment a mut:Question;
+    rdfs:label "Choose your alignment";
+    mut:answerType mut:radioType;
+    owl:allValuesFrom c:AlignmentTrue;
+.
+
+#
+#
+#
+# sections
+#
+#
+#
+
+:stats a mut:Section;
+    :questions (:rollMethod :str :dex :con :int :wis :cha);
+    rdfs:label "Roll Stats";
+.
+
+:race a mut:Section;
+    :questions (:race);
+    rdfs:label "Choose Race";
+.
+
+:alignment a mut:Section;
+    :questions (:alignment);
+    rdfs:label "Choose Alignment";
+.
+
+:appearance a mut:Section.
+
+:classLevels a mut:Section.
+
+:levelChoices a mut:Section.
+
+:classChoices a mut:Section.
+
+:skills a mut:Section.
+
+:feats a mut:Section.
+
+:equipment a mut:Section.
+
+:story a mut:Section.
+
+
+# d:strict3d6
+# d:roll4d6h3
+# d:roll5d6h3
+# d:roll4d6h3vs
+# d:roll5d6h3vs
+# d:roll4d6h3order
+# d:roll5d6h3order
+# d:pointBuy25
+# d:pointBuy28
+# d:pointBuy32
+
