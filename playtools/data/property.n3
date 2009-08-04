@@ -152,6 +152,16 @@
     rdfs:label "AC";
     rdfs:comment "Armor Class";
 .
+:naturalArmor a rdfs:Property;
+    rdfs:comment "Armor from physical, innate protection such as scales or hide";
+.
+:deflectionArmor a rdfs:Property;
+    rdfs:comment "Armor that comes from a deflection ability, such as force dragon's force";
+.
+:otherInnateArmor a rdfs:Property;
+    rdfs:comment "Armor benefit that is innate, but not physical such as Phane's insight";
+.
+
 :spellResistance a rdfs:Property;
     rdfs:label "Spell Resistance";
 .
