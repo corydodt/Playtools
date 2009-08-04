@@ -161,6 +161,12 @@
 :otherInnateArmor a rdfs:Property;
     rdfs:comment "Armor benefit that is innate, but not physical such as Phane's insight";
 .
+:stockBodyArmor a rdfs:Property;
+    rdfs:comment "Body armor typically warn by the creature (described in its base description)";
+.
+:stockShieldArmor a rdfs:Property;
+    rdfs:comment "Shield typically carried by the creature (described in its base description)";
+.
 
 :spellResistance a rdfs:Property;
     rdfs:label "Spell Resistance";
