@@ -588,6 +588,20 @@ class CoreFeatFilter(CachingDescriptor):
         return [f for f in instance.feats if self.matcher(f.feat)]
 
 
+class AttackGetter(CachingDescriptor):
+    """
+    Specialized descriptor to return the single attack form that a monster
+    will use when it cannot perform a full attack.
+    """
+    def get(self, instance, owner):
+        groups = instance.attackGroups
+        firstGroup = groups[0]
+        firstAttack = firstGroup.forms[0]
+        newform = firstAttack.copy()
+        newform.count = 1
+        return newform
+
+
 class SkillGetter(CachingDescriptor):
     """
     Descriptor to return a single skill by name.
@@ -643,6 +657,49 @@ class Feat(S.rdfsPTClass):
 feat = RDFFactCollection(Feat, 'feat')
 
 
+class AttackForm(S.rdfsPTClass):
+    """
+    One weapon a monster can use to attack in a round, possibly multiple times
+    """
+    rdf_type               = CHAR.AttackForm
+    count                  = rdfSingle(PROP.attackFormCount)
+    bonus                  = rdfList(PROP.attackBonus)
+    damage                 = rdfSingle(PROP.attackFormDamage)
+    critical               = rdfSingle(PROP.attackFormCritical)
+    extraDamage            = rdfSingle(PROP.attackFormExtraDamage)
+    isMelee                = S.rdfIsInstance(CHAR.MeleeAttack)
+    isRanged               = S.rdfIsInstance(CHAR.RangedAttack)
+    isTouch                = S.rdfIsInstance(CHAR.TouchAttack)
+
+    def copy(self):
+        """
+        Return a copy of this attack form.  The copy will not automatically
+        added to the same graph that contains self.
+        """
+        ret = AttackForm()
+        ret.label = self.label
+        ret.comment = self.comment
+        ret.count = self.count
+        ret.bonus = self.bonus
+        ret.damage = self.damage
+        ret.critical = self.critical
+        ret.extraDamage = self.extraDamage
+        ret.isMelee = self.isMelee
+        ret.isRanged = self.isRanged
+        ret.isTouch = self.isTouch
+        return ret
+    
+
+class AttackGroup(S.rdfsPTClass):
+    """
+    A set of related attacks a monster may use to inflict damage all at once
+    in a single round
+    """
+    rdf_type               = CHAR.AttackGroup
+    forms                  = rdfList(PROP.attackForm,
+                                range_type=AttackForm.rdf_type)
+
+
 class Alignment(S.rdfsPTClass):
     """
     One of the 10 alignments (including none)
@@ -660,7 +717,9 @@ class AnnotatedValue(S.rdfsPTClass):
 
 class MonsterFeat(S.rdfsPTClass):
     """
-    A feat possessed by a particular monster, which may be a bonus feat
+    A feat possessed by a particular monster, which may be a bonus feat.
+    Subfeats (i.e. the particular weapon attribute of a Weapon Focus feat) are
+    represented as rdfs:comment
     """
     rdf_type = CHAR.MonsterHasFeat
     feat                   = rdfSingle(PROP.featDefinition, range_type=Feat.rdf_type)
@@ -755,13 +814,10 @@ class Monster2(S.rdfsPTClass):
 
     #" armorClass             = rdfSingle(...)  # write a parser
 
-    #" attackGroups           = rdfSingle(...)  # from sb.get - list
+    attackGroups           = rdfList(PROP.attackGroups,
+                                         range_type=AttackGroup.rdf_type)
 
-    TODO("monster.attack", 
-    """attack will be a property() of Monster2. value will be computed by
-    returning attackGroups[0]
-    """)
-    #" attack
+    attack                 = AttackGetter("attack")
 
     #" languages              = rdfSingle(PROP.)                   # from sb.get? - list
 

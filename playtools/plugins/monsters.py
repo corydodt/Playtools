@@ -16,7 +16,7 @@ from playtools import sparqly
 from playtools.common import monsterNs, P, C, a, RDFSNS, skillNs
 from playtools.util import RESOURCE, rdfName
 from playtools.parser import (abilityparser, saveparser, treasureparser, 
-        alignmentparser, skillparser)
+        alignmentparser, skillparser, attackparser)
 from playtools.parser.misc import (parseInitiative, parseSize,
             parseChallengeRating, parseFamily, parseGrapple)
 
@@ -78,6 +78,8 @@ class MonsterConverter(object):
         d20srd35.MonsterSkill.db = self.graph
         d20srd35.AnnotatedValue.db = self.graph
         d20srd35.Alignment.db = self.graph
+        d20srd35.AttackGroup.db = self.graph
+        d20srd35.AttackForm.db = self.graph
  
         orig = sb.monster
 
@@ -256,6 +258,48 @@ class MonsterConverter(object):
             self.graph.remove((sksk.resUri, a, C.MonsterHasSkill))
             _mySkills.append(sksk)
         set('skills',             _mySkills)
+
+        # attack groups
+        _myAttackGroups = []
+        groups = attackparser.parseAttacks(orig.full_attack)[0]
+        for group in groups:
+            _forms = []
+            for form in group.attackForms:
+                ff = d20srd35.AttackForm()
+                ff.label = form.weapon
+
+                if form.count != 1:
+                    ff.count = form.count
+
+                if form.touch:
+                    ff.touch = form.touch
+
+                if form.type == 'melee':
+                    ff.isMelee = True
+                else:
+                    ff.isRanged = True
+
+                if form.rangeInformation:
+                    ff.comment = form.rangeInformation
+
+                ff.damage = form.damage
+
+                if form.extraDamage:
+                    assert len(form.extraDamage) == 1
+                    ff.extraDamage = form.extraDamage[0]
+
+                if form.crit != "20":
+                    ff.critical = form.crit
+
+                ff.bonus = form.bonus[:]
+
+                _forms.append(ff)
+
+            gg = d20srd35.AttackGroup()
+            gg.forms = _forms
+            _myAttackGroups.append(gg)
+
+        set('attackGroups',       _myAttackGroups)
 
     def label(self):
         return u"monsters"

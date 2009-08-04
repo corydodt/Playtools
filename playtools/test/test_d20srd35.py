@@ -226,6 +226,22 @@ class SRD35TestCase(unittest.TestCase):
         aboleth = m.lookup(MONSTER.aboleth)
         self.assertEqual(aboleth.listen.value, 16)
 
+        # attack is a descriptor that gets the first attack from fullAttack
+        winterwight = m.lookup(MONSTER.winterwight)
+        singleAttack = winterwight.attack
+        def fmt(attack):
+            melee = "melee" if attack.isMelee else "ranged"
+            bonus = '/'.join(["%+d" % (n,) for n in attack.bonus])
+            return ("{melee}|{x.label}|{x.count}|{bonus}|"
+                    "{x.damage}|{x.critical}|{x.extraDamage}".format(
+                        x=attack, melee=melee, bonus=bonus)
+                    )
+
+        self.assertEqual(
+                fmt(winterwight.attack),
+                "melee|claws|1|+40|3d8+21|19-20|plus blight-fire, +1d6 on critical hit"
+                )
+
     test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
         and then check that it's in monster.specialAC"""
 
