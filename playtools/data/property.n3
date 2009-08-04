@@ -150,7 +150,7 @@
 
 :armorClass a rdfs:Property;
     rdfs:label "AC";
-    rdfs:comment "Armor Class";
+    rdfs:comment "Armor Class; the sum of 10+natural+deflection+other innate+dex+size+shield+body armor";
 .
 :naturalArmor a rdfs:Property;
     rdfs:comment "Armor from physical, innate protection such as scales or hide";
@@ -160,6 +160,12 @@
 .
 :otherInnateArmor a rdfs:Property;
     rdfs:comment "Armor benefit that is innate, but not physical such as Phane's insight";
+.
+:stockBodyArmor a rdfs:Property;
+    rdfs:comment "Body armor typically warn by the creature (described in its base description)";
+.
+:stockShieldArmor a rdfs:Property;
+    rdfs:comment "Shield typically carried by the creature (described in its base description)";
 .
 
 :spellResistance a rdfs:Property;
