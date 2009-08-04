@@ -227,8 +227,6 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual(aboleth.listen.value, 16)
 
         # attack is a descriptor that gets the first attack from fullAttack
-        winterwight = m.lookup(MONSTER.winterwight)
-        singleAttack = winterwight.attack
         def fmt(attack):
             melee = "melee" if attack.isMelee else "ranged"
             bonus = '/'.join(["%+d" % (n,) for n in attack.bonus])
@@ -237,6 +235,15 @@ class SRD35TestCase(unittest.TestCase):
                         x=attack, melee=melee, bonus=bonus)
                     )
 
+        cloudGiant = m.lookup(MONSTER.cloudGiant)
+        singleAttack = cloudGiant.attack
+        self.assertEqual(
+                fmt(cloudGiant.attack),
+                "melee|Gargantuan morningstar|1|+22|4d6+18|None|None"
+                )
+
+        winterwight = m.lookup(MONSTER.winterwight)
+        singleAttack = winterwight.attack
         self.assertEqual(
                 fmt(winterwight.attack),
                 "melee|claws|1|+40|3d8+21|19-20|plus blight-fire, +1d6 on critical hit"
