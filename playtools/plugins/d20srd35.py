@@ -599,6 +599,7 @@ class AttackGetter(CachingDescriptor):
         firstAttack = firstGroup.forms[0]
         newform = firstAttack.copy()
         newform.count = 1
+        newform.bonus[1:] = []
         return newform
 
 
