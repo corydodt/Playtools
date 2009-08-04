@@ -150,7 +150,7 @@
 
 :armorClass a rdfs:Property;
     rdfs:label "AC";
-    rdfs:comment "Armor Class";
+    rdfs:comment "Armor Class; the sum of 10+natural+deflection+other innate+dex+size+shield+body armor";
 .
 :naturalArmor a rdfs:Property;
     rdfs:comment "Armor from physical, innate protection such as scales or hide";
