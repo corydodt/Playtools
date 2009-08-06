@@ -158,8 +158,8 @@
 :deflectionArmor a rdfs:Property;
     rdfs:comment "Armor that comes from a deflection ability, such as force dragon's force";
 .
-:otherInnateArmor a rdfs:Property;
-    rdfs:comment "Armor benefit that is innate, but not physical such as Phane's insight";
+:otherArmor a rdfs:Property;
+    rdfs:comment "Armor benefit other than regular armor, shield, dexterity, and so on.";
 .
 :stockBodyArmor a rdfs:Property;
     rdfs:comment "Body armor typically warn by the creature (described in its base description)";
