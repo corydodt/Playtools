@@ -2,9 +2,6 @@ from playtools.test.pttestutil import TODO
 from playtools.common import C
 from playtools import fact
 
-SRD = fact.systems['D20 SRD']
-knownFamilies = dict((unicode(x.label), x) for x in SRD.facts['family'].dump())
-
 def parseInitiative(s):
     """
     Some initiatives include explanations (show the math).  We consider these
@@ -40,11 +37,17 @@ def parseSize(s):
         return C.colossalPlus
     return getattr(C, s.lower())
 
+knownFamilies = None
 
 def parseFamily(s):
     """
     Parse family, type and subtype (convert into a node)
     """
+    global knownFamilies
+    if knownFamilies is None:
+        SRD = fact.systems['D20 SRD']
+        knownFamilies = dict((unicode(x.label), x) for x in SRD.facts['family'].dump())
+
     return knownFamilies.get(s, s)
 
 
