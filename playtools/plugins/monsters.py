@@ -138,11 +138,6 @@ class MonsterConverter(object):
 
         set('image',             orig.image)
 
-        TODO("check that uses of sb.get are never using return as a bool",
-        """the problem with sb.get is that it always returns a string.
-        We don't even want to set properties unless there is some data there.
-        Check for strings like "None" or "False" returned.""")
-
         set('hitDice',            sb.get('hitDice'))
 
         defaultGetValue = lambda x: x.bonus
@@ -309,6 +304,12 @@ class MonsterConverter(object):
         sparqly.extendGraphFromFile(self.graph, openFile)
 
     def writeAll(self, playtoolsIO):
+        self.graph.bind('', 'http://goonmill.org/2007/monster.n3#')
+        self.graph.bind('c', 'http://goonmill.org/2007/characteristic.n3#')
+        self.graph.bind('p', 'http://goonmill.org/2007/property.n3#')
+        self.graph.bind('skill', 'http://goonmill.org/2007/skill.n3#')
+        self.graph.bind('feat', 'http://goonmill.org/2007/feat.n3#')
+        self.graph.bind('fam', 'http://goonmill.org/2007/family.n3#')
         self.graph.serialize(destination=playtoolsIO, format='n3')
 
 
