@@ -813,7 +813,15 @@ class Monster2(S.rdfsPTClass):
     listen                 = SkillGetter("listen")
     spot                   = SkillGetter("spot")
 
-    #" armorClass             = rdfSingle(...)  # write a parser
+    armorClass             = rdfSingle(PROP.armorClass)
+    naturalArmor           = rdfSingle(PROP.naturalArmor)
+    deflectionArmor        = rdfSingle(PROP.deflectionArmor)
+    otherInnateArmor       = rdfSingle(PROP.otherInnateArmor)
+    TODO("touchAC, flatFootedAC", """touch and flat-footed are computed with
+    this formula:
+        touch:       armorClass-naturalArmor-body armor-shield
+        flatFooted:  armorClass-dex
+    """)
 
     attackGroups           = rdfList(PROP.attackGroups,
                                          range_type=AttackGroup.rdf_type)

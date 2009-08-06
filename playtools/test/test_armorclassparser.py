@@ -21,7 +21,7 @@ class ArmorClassParserTest(unittest.TestCase):
         other = '/'.join(others)
         shield = "{0}({1})".format(*parsed.shield) if parsed.shield[0] else ""
         body = "{0}({1})".format(*parsed.body) if parsed.body[0] else ""
-        q = "" if parsed.qualifier is None else parsed.qualifier
+        q = "" if parsed.qualifier is None else '(%s)' % (parsed.qualifier,)
         rep = ("v={x.value} dex={x.dexBonus} s={x.size} nat={x.natural} "
                "def={x.deflection} oth={other} b={body} sh={shield} "
                "to={x.touch} ff={x.flatFooted} q={q}"
@@ -48,15 +48,16 @@ class ArmorClassParserTest(unittest.TestCase):
         ArmorClasses with more than one possibility
         """
         # Ghaele
-        t = "25 (+1 Dex, +14 natural), touch 11, flat-footed 24, or 14 (+1 Dex, +3 deflection), touch 14, flat-footed 13"
-        self.check(t, "v=25 dex=1 s=0 nat=14 def=3 oth= b= sh= to=14 ff=13 q=/v=14...")
+        t = "25 (+1 Dex, +14 natural), touch 11, flat-footed 24, or (incorporeal globe 14 [+1 Dex, +3 deflection])"
+        self.check(t, "v=25 dex=1 s=0 nat=14 def=0 oth= b= sh= to=11 ff=24 q=(incorporeal globe 14 [+1 Dex, +3 deflection])"
+                )
 
     def test_splat(self):
         """
         Splats that appear get noted
         """
         t1 = "16 (+4 size, +2 Dex*), touch 16, flat-footed 14"
-        self.check(t1, "v=16 dex=2 s=4 nat=0 def=0 oth= b= sh= to=16 ff=14 q=*")
+        self.check(t1, "v=16 dex=2 s=4 nat=0 def=0 oth= b= sh= to=16 ff=14 q=(*)")
 
     def test_otherArmor(self):
         """

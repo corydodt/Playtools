@@ -14,7 +14,7 @@ grammar = ( # {{{
 r'''# armorclass stats
 <ws>               :=  [ \t]*
 
-<nonParen>         :=  letter/digit/whitespacechar/['"{}!@#*&^$%;:.,<>/?+-]
+<nonParen>         :=  letter/digit/whitespacechar/['"{}!@#*&^$%;:.,<>/?+-]/'['/']'
 <otherArmorName>   :=  letter/digit/whitespacechar/['.+-]/'['/']'
 
 splat              :=  '*'  
@@ -38,7 +38,7 @@ size               :=  amount, ws, c'size', splat?
 total              :=  digit+
 
 >armorclassStat1<  :=  total, ws, math, ',', ws, touch, ',', ws, flatFooted
-armorclassStat     :=  armorclassStat1, (', or', ws, armorclassStat1)?
+armorclassStat     :=  armorclassStat1, (',', ws, 'or', ws, qualifier)?
 _armorclassStat    :=  armorclassStat
 ''') # }}}
 
@@ -83,7 +83,15 @@ class Processor(disp.DispatchProcessor):
         return self.armorclass
 
     def splat(self, *a, **kw):
-        self.armorclass.qualifier = '*'
+        if self.armorclass.qualifier is None:
+            self.armorclass.qualifier = ''
+        self.armorclass.qualifier += '*'
+
+    def qualifier(self, (t,s1,s2,sub), buffer):
+        if self.armorclass.qualifier is None:
+            self.armorclass.qualifier = ''
+        self.armorclass.qualifier += disp.getString((t,s1+1, s2-1, sub),
+                buffer)
 
     def total(self, *a, **kw):
         self.armorclass.value = int(disp.getString(*a, **kw))
