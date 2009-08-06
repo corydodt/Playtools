@@ -816,7 +816,9 @@ class Monster2(S.rdfsPTClass):
     armorClass             = rdfSingle(PROP.armorClass)
     naturalArmor           = rdfSingle(PROP.naturalArmor)
     deflectionArmor        = rdfSingle(PROP.deflectionArmor)
-    otherInnateArmor       = rdfSingle(PROP.otherInnateArmor)
+    otherArmor             = rdfMultiple(PROP.otherArmor)
+    stockBodyArmor         = rdfMultiple(PROP.stockBodyArmor)
+    stockShieldArmor       = rdfMultiple(PROP.stockShieldArmor)
     TODO("touchAC, flatFootedAC", """touch and flat-footed are computed with
     this formula:
         touch:       armorClass-naturalArmor-body armor-shield
