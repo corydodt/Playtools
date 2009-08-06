@@ -19,6 +19,8 @@ def getConverterSubcommands():
 
 class Options(usage.Options):
     synopsis = """ptconvert [options] <converter> [<converter args>]""" 
+    optFlags = [["quick", "q", "Just convert 10 items and stop"],
+            ]
     subCommands = getConverterSubcommands()
 
     def postOptions(self):
@@ -26,8 +28,10 @@ class Options(usage.Options):
             raise usage.UsageError("** You must specify the name of a converter!")
         c = convert.getConverter(self.subCommand)
         c.preamble()
-        for item in c:
+        for n, item in enumerate(c):
             c.makePlaytoolsItem(item)
+            if n>=25:
+                break
 
         io = sys.stdout
         c.writeAll(io)
