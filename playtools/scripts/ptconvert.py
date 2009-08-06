@@ -30,7 +30,7 @@ class Options(usage.Options):
         c.preamble()
         for n, item in enumerate(c):
             c.makePlaytoolsItem(item)
-            if n>=25:
+            if self['quick'] and n>=25:
                 break
 
         io = sys.stdout
