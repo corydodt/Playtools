@@ -70,8 +70,8 @@ class ArmorClass(object):
         self.deflection = 0
         self.otherArmor = ()
         self.size = 0
-        self.body = (None, None)
-        self.shield = (None, None)
+        self.body = ()
+        self.shield = ()
         self.touch = None
         self.flatFooted = None
 
@@ -124,8 +124,9 @@ class Processor(disp.DispatchProcessor):
         num, rest = s.split(None, 1)
         num = int(num)
         if 'shield' in s or 'buckler' in s:
-            assert self.armorclass.shield == (None, None)
-            self.armorclass.shield = (num, rest)
+            if self.armorclass.shield == ():
+                self.armorclass.shield = []
+            self.armorclass.shield.append((num, rest))
             return
             """
             +1 buckler
@@ -138,8 +139,9 @@ class Processor(disp.DispatchProcessor):
         if ('armor' in s or 'hide' in s or 'leather' in s or
                 'plate' in s or 'chain' in s or 'mail' in s or
                 'bracers' in s):
-            assert self.armorclass.body == (None, None)
-            self.armorclass.body = (num, rest)
+            if self.armorclass.body == ():
+                self.armorclass.body = []
+            self.armorclass.body.append((num, rest))
             return
             """
             +10 +2 full plate armor

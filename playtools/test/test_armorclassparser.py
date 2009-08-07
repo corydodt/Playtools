@@ -14,13 +14,26 @@ DEFAULT = object()
 
 class ArmorClassParserTest(unittest.TestCase):
     def check(self, ac, expected):
+        """
+        Compare the expected string to a formatted representation of the armor
+        """
         parsed = armorclassparser.parseArmor(ac)[0]
+
         others = []
         for o in parsed.otherArmor:
             others.append("{0}({1})".format(*o))
         other = '/'.join(others)
-        shield = "{0}({1})".format(*parsed.shield) if parsed.shield[0] else ""
-        body = "{0}({1})".format(*parsed.body) if parsed.body[0] else ""
+
+        shields = []
+        for s in parsed.shield:
+            shields.append("{0}({1})".format(*s))
+        shield = '/'.join(shields)
+
+        bodies = []
+        for b in parsed.body:
+            bodies.append("{0}({1})".format(*b))
+        body = '/'.join(bodies)
+
         q = "" if parsed.qualifier is None else '(%s)' % (parsed.qualifier,)
         rep = ("v={x.value} dex={x.dexBonus} s={x.size} nat={x.natural} "
                "def={x.deflection} oth={other} b={body} sh={shield} "
