@@ -163,21 +163,3 @@ class Processor(disp.DispatchProcessor):
             self.armorclass.otherArmor = []
         self.armorclass.otherArmor.append((num, rest))
 
-
-"""
-deflection bonus: (counts toward touch ac and ff ac)
-+2 ring of protection
-+3 ring
-+1 ring of protection +1
-
-natural armor bonus: (counts toward ff ac, does not count towards touch ac)
-+2 amulet
-+20 profane
-
-dodge: (counts toward touch ac, does not count towards ff ac)
-+4 haste
-+4 dodge
-
-insight: (counts toward touch ac and ff ac)
-+10 insight
-"""
