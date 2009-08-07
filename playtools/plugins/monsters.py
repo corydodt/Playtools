@@ -269,6 +269,38 @@ class MonsterConverter(object):
             _myAttackGroups.append(gg)
         return _myAttackGroups
 
+    def makeArmors(self, outMonster, statblock):  
+        orig = statblock.monster
+
+        armor = armorclassparser.parseArmor(orig.armor_class)[0]
+        val = armor.value
+        nat = armor.natural or None
+        defl = armor.deflection or None
+
+        getValue = lambda x: x[0]
+        getComment = lambda x: x[1]
+
+        bodies = []
+        for b in armor.body:
+            bodies.append(
+                    self._makeValue(b, C.ArmorValue, getValue, getComment)
+                )
+
+        shields = []
+        for sh in armor.shield:
+            shields.append(
+                    self._makeValue(sh, C.ArmorValue, getValue, getComment)
+                )
+
+        others = []
+        for o in armor.otherArmor:
+            others.append(
+                    self._makeValue(o, C.ArmorValue, getValue, getComment)
+                )
+
+        return val, nat, defl, bodies or None, shields or None, others or None
+
+
     def makePlaytoolsItem(self, sb):
         orig = sb.monster
 
@@ -278,7 +310,7 @@ class MonsterConverter(object):
             """
             Set the new monster's what only if toWhat is a real thing
             """
-            if toWhat:
+            if toWhat is not None and toWhat != "":
                 setattr(m, what, toWhat)
 
         set('label',             orig.name)
@@ -335,31 +367,18 @@ class MonsterConverter(object):
         set('reference',         URIRef(ref))
         set('textLocation',      textloc)
 
-        set('skills',             self.makeSkills(m, sb))
-
-        set('attackGroups',       self.makeAttackGroups(m, sb))
+        set('skills',            self.makeSkills(m, sb))
+        
+        set('attackGroups',      self.makeAttackGroups(m, sb))
 
         # armor
-        armor = armorclassparser.parseArmor(orig.armor_class)[0]
-        set('armorClass',         armor.value)
-        set('naturalArmor',       armor.natural)
-        set('deflectionArmor',    armor.deflection)  
-        if armor.body and list(armor.body) != [None, None]:
-            set('stockBodyArmor',     [armor.body])
-        if armor.shield and list(armor.shield) != [None, None]:
-            set('stockShieldArmor',   [armor.shield])
-
-        '''
-        for o in parsed.otherArmor:
-            others.append("{0}({1})".format(*o))
-        other = '/'.join(others)
-        shield = "{0}({1})".format(*parsed.shield) if parsed.shield[0] else ""
-        body = "{0}({1})".format(*parsed.body) if parsed.body[0] else ""
-        q = "" if parsed.qualifier is None else '(%s)' % (parsed.qualifier,)
-        rep = ("v={x.value} dex={x.dexBonus} s={x.size} nat={x.natural} "
-               "def={x.deflection} oth={other} b={body} sh={shield} "
-               "to={x.touch} ff={x.flatFooted} q={q}")
-        '''
+        val, nat, defl, bodies, shields, others = self.makeArmors(m, sb)
+        set('armorClass',        val)
+        set('armorNatural',      nat)
+        set('armorDeflection',   defl)
+        set('armorBody',         bodies)
+        set('armorShield',       shields)
+        set('armorOther',        others)
 
     def label(self):
         return u"monsters"
