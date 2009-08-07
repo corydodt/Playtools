@@ -248,6 +248,12 @@ class SRD35TestCase(unittest.TestCase):
                 fmt(winterwight.attack),
                 "melee|claws|1|+40|3d8+21|19-20|plus blight-fire, +1d6 on critical hit"
                 )
+        
+        # flatFootedAC and touchAC: descriptors that compute armor value for
+        # special circumstances
+        fleshColossus = m.lookup(MONSTER.fleshColossus)
+        self.assertEqual(fleshColossus.flatFootedAC, 45)
+        self.assertEqual(fleshColossus.touchAC, 20)
 
     test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
         and then check that it's in monster.specialAC"""
