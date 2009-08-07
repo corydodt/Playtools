@@ -95,5 +95,11 @@
             )
           ]
         );
-.
+    :armorClass 66;
+    :armorNatural 28;
+    # :armorDeflection 0;
+    :armorOther [ rdf:value 10; rdf:comment "ninja skillz"; ];
+    :armorBody [ rdf:value 10; rdf:comment "+3 half plate"; ];
+    # :armorShield [..];
+.       
 

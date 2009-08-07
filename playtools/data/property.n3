@@ -152,19 +152,19 @@
     rdfs:label "AC";
     rdfs:comment "Armor Class; the sum of 10+natural+deflection+other innate+dex+size+shield+body armor";
 .
-:naturalArmor a rdfs:Property;
+:armorNatural a rdfs:Property;
     rdfs:comment "Armor from physical, innate protection such as scales or hide";
 .
-:deflectionArmor a rdfs:Property;
+:armorDeflection a rdfs:Property;
     rdfs:comment "Armor that comes from a deflection ability, such as force dragon's force";
 .
-:otherArmor a rdfs:Property;
+:armorOther a rdfs:Property;
     rdfs:comment "Armor benefit other than regular armor, shield, dexterity, and so on.";
 .
-:stockBodyArmor a rdfs:Property;
+:armorBody a rdfs:Property;
     rdfs:comment "Body armor typically warn by the creature (described in its base description)";
 .
-:stockShieldArmor a rdfs:Property;
+:armorShield a rdfs:Property;
     rdfs:comment "Shield typically carried by the creature (described in its base description)";
 .
 

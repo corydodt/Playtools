@@ -814,11 +814,11 @@ class Monster2(S.rdfsPTClass):
     spot                   = SkillGetter("spot")
 
     armorClass             = rdfSingle(PROP.armorClass)
-    naturalArmor           = rdfSingle(PROP.naturalArmor)
-    deflectionArmor        = rdfSingle(PROP.deflectionArmor)
-    otherArmor             = rdfMultiple(PROP.otherArmor)
-    stockBodyArmor         = rdfMultiple(PROP.stockBodyArmor)
-    stockShieldArmor       = rdfMultiple(PROP.stockShieldArmor)
+    armorNatural           = rdfSingle(PROP.armorNatural)
+    armorDeflection        = rdfSingle(PROP.armorDeflection)
+    armorOther             = rdfMultiple(PROP.armorOther)
+    armorBody              = rdfMultiple(PROP.armorBody)
+    armorShield            = rdfMultiple(PROP.armorShield)
     TODO("touchAC, flatFootedAC", """touch and flat-footed are computed with
     this formula:
         touch:       armorClass-naturalArmor-body armor-shield

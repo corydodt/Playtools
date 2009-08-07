@@ -596,3 +596,7 @@
 :AttackForm a rdfs:Class;
     rdfs:comment "One weapon a monster can use, possibly multiple times in a round, to attack.";  
 .
+
+:ArmorValue rdfs:subClassOf :Characteristic;
+        rdfs:comment "A value that goes into a monster's total armor, such as a shield or insight";
+.
