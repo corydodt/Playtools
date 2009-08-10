@@ -10,7 +10,7 @@ from twisted.trial import unittest
 from .. import fact
 from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
-from playtools.common import featNs as FEAT, monsterNs as MONSTER
+from playtools.common import featNs as FEAT, monsterNs as MONSTER, C
 from playtools.test.pttestutil import pluck
 
 import warnings
@@ -248,12 +248,18 @@ class SRD35TestCase(unittest.TestCase):
                 fmt(winterwight.attack),
                 "melee|claws|1|+40|3d8+21|19-20|plus blight-fire, +1d6 on critical hit"
                 )
+
+        # abilities, saves, treasures: associative types
+        self.assertEqual(winterwight.abilities['strength'], 52)
+        self.assertEqual(winterwight.treasures['goods'],
+            C.standardTreasure)
+        self.assertEqual(winterwight.saves['reflex'], 18)
         
         # flatFootedAC and touchAC: descriptors that compute armor value for
         # special circumstances
         fleshColossus = m.lookup(MONSTER.fleshColossus)
-        self.assertEqual(fleshColossus.flatFootedAC, 45)
         self.assertEqual(fleshColossus.touchAC, 20)
+        self.assertEqual(fleshColossus.flatFootedAC, 45)
 
     test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
         and then check that it's in monster.specialAC"""
