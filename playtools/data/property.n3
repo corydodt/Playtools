@@ -167,6 +167,9 @@
 :armorShield a rdfs:Property;
     rdfs:comment "Shield typically carried by the creature (described in its base description)";
 .
+:armorMaxDex a rdfs:Property;
+    rdfs:comment "For the monster's typical body armor, the maximum AC bonus allowed from dexterity.";
+.
 
 :spellResistance a rdfs:Property;
     rdfs:label "Spell Resistance";
