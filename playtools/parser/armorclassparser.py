@@ -60,7 +60,7 @@ class ArmorClass(object):
     """
     __slots__ = ['value', 'qualifier', 'dexBonus', 'natural', 'deflection',
                  'otherArmor', 'size', 'body', 'shield', 'touch',
-                 'flatFooted'
+                 'flatFooted', 'maxDex',
                  ]
     def __init__(self):
         self.value = 0
@@ -74,6 +74,7 @@ class ArmorClass(object):
         self.shield = ()
         self.touch = None
         self.flatFooted = None
+        self.maxDex = None
 
 
 class Processor(disp.DispatchProcessor):
@@ -142,6 +143,8 @@ class Processor(disp.DispatchProcessor):
             if self.armorclass.body == ():
                 self.armorclass.body = []
             self.armorclass.body.append((num, rest))
+            if 'plate' in s:
+                self.armorclass.maxDex = 0
             return
             """
             +10 +2 full plate armor
