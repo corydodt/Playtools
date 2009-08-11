@@ -757,7 +757,7 @@ class Monster2(S.rdfsPTClass):
     size                   = rdfSingle(PROP.size)               # DONE!
     type                   = rdfSingle(PROP.type, range_type=
                                 Family.rdf_type)
-    _descriptors           = rdfMultiple(PROP.descriptor, range_type=
+    descriptors            = rdfMultiple(PROP.descriptor, range_type=
                                 Family.rdf_type)
     hitDice                = rdfSingle(PROP.hitDice)            # DONE!
 
@@ -889,7 +889,7 @@ class Monster2(S.rdfsPTClass):
         {specialAbilities}''').format(
             text=t,
             self=self,
-            descriptors=ujoin(self._descriptors),
+            descriptors=ujoin(self.descriptors),
             feats=ujoin(self.feats),
             attackGroups=u'',
             specialAbilities=u'',
