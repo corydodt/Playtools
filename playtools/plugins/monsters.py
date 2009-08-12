@@ -323,7 +323,7 @@ class MonsterConverter(object):
             if item:
                 _desc.append(parseFamily(item))
         if _desc:
-            set('_descriptors',  _desc)
+            set('descriptors',   _desc)
 
         set('size',              parseSize(orig.size))
         set('initiative',        parseInitiative(orig.initiative))
