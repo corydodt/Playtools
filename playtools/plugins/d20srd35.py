@@ -618,56 +618,58 @@ class SkillGetter(CachingDescriptor):
         return None
 
 
-class TouchAC(CachingDescriptor):
+class SpecializedArmorDescriptor(CachingDescriptor):
+    """
+    Descriptor that examines the armor properties and computes a value for a
+    specialized kind of AC
+    """
+    def getArmorValues(self, instance):
+        """
+        Return components of armor class
+        """
+        val = instance.armorClass
+        defl = instance.armorDeflection or 0
+        nat = instance.armorNatural or 0
+        shields = sum([x.value for x in instance.armorShield]) or 0
+        bodies = sum([x.value for x in instance.armorBody]) or 0
+        others = sum([x.value for x in instance.armorOther]) or 0
+
+        dexArmor = (int(instance.abilities['dexterity']) - 10) // 2
+        # adjust for max dex restriction of armor
+        if instance.armorMaxDex is not None and dexArmor > instance.armorMaxDex:
+            dexArmor = instance.armorMaxDex
+
+        sizes = {CHAR.fine: +8, CHAR.diminutive: +4, CHAR.tiny: +2, CHAR.small: +1,
+                CHAR.medium: 0, CHAR.large: -1, CHAR.huge: -2, CHAR.gargantuan: -4,
+                CHAR.colossal: -8, CHAR.colossalPlus: -8}
+        sizeArmor = sizes[instance.size.resUri]
+
+        return val, defl, nat, shields, bodies, others, dexArmor, sizeArmor
+
+
+class TouchAC(SpecializedArmorDescriptor):
     """
     Specialized descriptor to return the monster's touch armor class
     """
     def get(self, instance, owner):
-        val = instance.armorClass
-        defl = instance.armorDeflection or 0
-        nat = instance.armorNatural or 0
-        shields = sum([x.value for x in instance.armorShield]) or 0
-        bodies = sum([x.value for x in instance.armorBody]) or 0
-        others = sum([x.value for x in instance.armorOther]) or 0
-
-        dexArmor = (int(instance.abilities['dexterity']) - 10) // 2
-        # adjust for max dex restriction of armor
-        if instance.armorMaxDex is not None and dexArmor > instance.armorMaxDex:
-            dexArmor = instance.armorMaxDex
-
-        sizes = {CHAR.fine: +8, CHAR.diminutive: +4, CHAR.tiny: +2, CHAR.small: +1,
-                CHAR.medium: 0, CHAR.large: -1, CHAR.huge: -2, CHAR.gargantuan: -4,
-                CHAR.colossal: -8, CHAR.colossalPlus: -8}
-        sizeArmor = sizes[instance.size.resUri]
+        (val, defl, nat, shields, bodies, others, 
+                dexArmor, sizeArmor) = self.getArmorValues()
         return 10 + defl + others + dexArmor + sizeArmor
 
 
-class FlatFootedAC(CachingDescriptor):
+class FlatFootedAC(SpecializedArmorDescriptor):
     """
     Specialized descriptor to return the monster's flat-footed armor class
     """
-    TODO("FlatFooted and Touch are almost identical")
     def get(self, instance, owner):
-        val = instance.armorClass
-        defl = instance.armorDeflection or 0
-        nat = instance.armorNatural or 0
-        shields = sum([x.value for x in instance.armorShield]) or 0
-        bodies = sum([x.value for x in instance.armorBody]) or 0
-        others = sum([x.value for x in instance.armorOther]) or 0
-
-        dexArmor = (int(instance.abilities['dexterity']) - 10) // 2
+        (val, defl, nat, shields, bodies, others, 
+                dexArmor, sizeArmor) = self.getArmorValues()
+        
         # flat-footed can never be better than regular AC even when dex is a
         # penalty
         if dexArmor < 0:
             dexArmor = 0
-        # adjust for max dex restriction of armor
-        if instance.armorMaxDex is not None and dexArmor > instance.armorMaxDex:
-            dexArmor = instance.armorMaxDex
 
-        sizes = {CHAR.fine: +8, CHAR.diminutive: +4, CHAR.tiny: +2, CHAR.small: +1,
-                CHAR.medium: 0, CHAR.large: -1, CHAR.huge: -2, CHAR.gargantuan: -4,
-                CHAR.colossal: -8, CHAR.colossalPlus: -8}
-        sizeArmor = sizes[instance.size.resUri]
         return val - dexArmor
 
 
