@@ -381,6 +381,51 @@ class MonsterConverter(object):
         set('armorShield',       shields)
         set('armorOther',        others)
 
+        def reprAC(m):
+            dexArmor = (int(m.abilities['dexterity']) - 10) // 2
+
+            sizes = {C.fine: +8, C.diminutive: +4, C.tiny: +2, C.small: +1,
+                    C.medium: 0, C.large: -1, C.huge: -2, C.gargantuan: -4,
+                    C.colossal: -8, C.colossalPlus: -8}
+            sizeArmor = sizes[m.size.resUri]
+
+            others = []
+            for o in m.armorOther:
+                others.append("{o.value}".format(o=o))
+            other = '/'.join(others)
+
+            shields = []
+            for s in m.armorShield:
+                shields.append("{s.value}".format(s=s))
+            shield = '/'.join(shields)
+
+            bodies = []
+            for b in m.armorBody:
+                bodies.append("{b.value}".format(b=b))
+            body = '/'.join(bodies)
+
+            rep = ("dex={dexArmor} maxDex={m.armorMaxDex} s={sizeArmor} nat={m.armorNatural} "
+                   "def={m.armorDeflection} oth={other} b={body} sh={shield}\n"
+                ).format(m=m, dexArmor=dexArmor, sizeArmor=sizeArmor, other=other, body=body, shield=shield, )
+            return rep
+
+        # verify the touch math - have to trash weakrefs here so we can
+        # rebuild the monster from scratch
+        from rdfalchemy.rdfsSubject import rdfsSubject
+        del rdfsSubject._weakrefs[m.md5_term_hash()]
+        _tempM = m.__class__.get_by(label=m.label)
+        stored_touch = armorclassparser.parseArmor(orig.armor_class)[0].touch
+        stored_flat = armorclassparser.parseArmor(orig.armor_class)[0].flatFooted
+        if not stored_touch == _tempM.touchAC:
+            sys.stderr.write("\n%s  touch  stored=%s  computed=%s\n" % (m.label,
+                stored_touch, _tempM.touchAC))
+            sys.stderr.write("\n  " + reprAC(_tempM))
+        if not stored_flat == _tempM.flatFootedAC:
+            sys.stderr.write("\n%s  ff  stored=%s  computed=%s\n" % (m.label,
+                stored_flat, _tempM.flatFootedAC))
+            sys.stderr.write("\n  " + reprAC(_tempM))
+
+
     def label(self):
         return u"monsters"
 
