@@ -15,7 +15,8 @@ from playtools.interfaces import (IRuleSystem, IRuleCollection,
 from playtools.util import RESOURCE, gatherText, flushLeft as FL
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
-from playtools.common import FAM, P as PROP, C as CHAR, skillNs as SKILL, featNs as FEAT
+from playtools.common import (FAM, P as PROP, C as CHAR, skillNs as SKILL,
+        featNs as FEAT, a, RDFNS)
 from playtools.test.pttestutil import TODO
 
 FAM, FEAT # for pyflakes - goonmill imports these (FIXME)
@@ -607,6 +608,73 @@ class SkillGetter(CachingDescriptor):
     """
     Descriptor to return a single skill by name.
 
+    The skill whose name was passed to the constructor will be returned.
+    """
+    def get(self, instance, owner):
+        matched = [sk for sk in instance.skills if sk.skill.resUri == getattr(SKILL, self.name)]
+        if matched:
+            assert len(matched) == 1
+            return matched[0]
+        return None
+
+
+class TouchAC(CachingDescriptor):
+    """
+    Specialized descriptor to return the monster's touch armor class
+    """
+    def get(self, instance, owner):
+        val = instance.armorClass
+        defl = instance.armorDeflection or 0
+        nat = instance.armorNatural or 0
+        shields = sum([x.value for x in instance.armorShield]) or 0
+        bodies = sum([x.value for x in instance.armorBody]) or 0
+        others = sum([x.value for x in instance.armorOther]) or 0
+
+        dexArmor = (int(instance.abilities['dexterity']) - 10) // 2
+        # adjust for max dex restriction of armor
+        if instance.armorMaxDex is not None and dexArmor > instance.armorMaxDex:
+            dexArmor = instance.armorMaxDex
+
+        sizes = {CHAR.fine: +8, CHAR.diminutive: +4, CHAR.tiny: +2, CHAR.small: +1,
+                CHAR.medium: 0, CHAR.large: -1, CHAR.huge: -2, CHAR.gargantuan: -4,
+                CHAR.colossal: -8, CHAR.colossalPlus: -8}
+        sizeArmor = sizes[instance.size.resUri]
+        return 10 + defl + others + dexArmor + sizeArmor
+
+
+class FlatFootedAC(CachingDescriptor):
+    """
+    Specialized descriptor to return the monster's flat-footed armor class
+    """
+    TODO("FlatFooted and Touch are almost identical")
+    def get(self, instance, owner):
+        val = instance.armorClass
+        defl = instance.armorDeflection or 0
+        nat = instance.armorNatural or 0
+        shields = sum([x.value for x in instance.armorShield]) or 0
+        bodies = sum([x.value for x in instance.armorBody]) or 0
+        others = sum([x.value for x in instance.armorOther]) or 0
+
+        dexArmor = (int(instance.abilities['dexterity']) - 10) // 2
+        # flat-footed can never be better than regular AC even when dex is a
+        # penalty
+        if dexArmor < 0:
+            dexArmor = 0
+        # adjust for max dex restriction of armor
+        if instance.armorMaxDex is not None and dexArmor > instance.armorMaxDex:
+            dexArmor = instance.armorMaxDex
+
+        sizes = {CHAR.fine: +8, CHAR.diminutive: +4, CHAR.tiny: +2, CHAR.small: +1,
+                CHAR.medium: 0, CHAR.large: -1, CHAR.huge: -2, CHAR.gargantuan: -4,
+                CHAR.colossal: -8, CHAR.colossalPlus: -8}
+        sizeArmor = sizes[instance.size.resUri]
+        return val - dexArmor
+
+
+class SkillGetter(CachingDescriptor):
+    """
+    Descriptor to return a single skill by name.
+
     Pass in a matcher function, and only skills for which matcher returns true
     will be returned.
     """
@@ -616,6 +684,14 @@ class SkillGetter(CachingDescriptor):
             assert len(matched) == 1
             return matched[0]
         return None
+
+
+class ArmorValue(S.rdfsPTClass):
+    """
+    A particular component of a monster's armor
+    """
+    rdf_type                = CHAR.ArmorValue
+    value                   = rdfSingle(RDF.value)
 
 
 class Feat(S.rdfsPTClass):
@@ -716,6 +792,38 @@ class AnnotatedValue(S.rdfsPTClass):
     value                  = rdfSingle(RDF.value)
 
 
+class AnnotatedValueMap(CachingDescriptor):
+    """
+    An associative map of several related annotated values, such as
+    abilities, saves or treasures.
+
+    Provide it with the name of another attribute in the descriptor's owner
+    object which can be used to get all of the annotated values.
+
+    Also pass in a mapping which maps key names to node URIs.
+    """
+    def __init__(self, name, multiAttribute, mapping):
+        self.name = name
+        self.multiAttribute = multiAttribute
+        self.mapping = mapping
+
+    def get(self, instance, owner):
+        ll = list(getattr(instance, self.multiAttribute))
+        ret = {}
+
+        tempMap = self.mapping.copy()
+
+        for value in ll:
+            cls = instance.db.value(value.resUri, a, None)
+            keyname = tempMap[cls]
+            ret[keyname] = instance.db.value(value.resUri, RDFNS.value, None)
+            del tempMap[cls]
+
+        assert len(tempMap) == 0
+
+        return ret
+
+
 class MonsterFeat(S.rdfsPTClass):
     """
     A feat possessed by a particular monster, which may be a bonus feat.
@@ -782,16 +890,30 @@ class Monster2(S.rdfsPTClass):
     reach                  = rdfSingle(PROP.reach)              # DONE!
 
     _saves                 = rdfMultiple(PROP.save)             # DONE!  
+    saves                  = AnnotatedValueMap("saves", "_saves",
+                                {CHAR.Fort: 'fortitude',
+                                 CHAR.Ref: 'reflex',
+                                 CHAR.Will: 'will',
+                                 })
 
-    _abilities             = rdfMultiple(PROP.abilityScore)     # DONE!  
+    _abilities             = rdfMultiple(PROP.abilityScore,
+            range_type=AnnotatedValue.rdf_type)     # DONE!  
+    abilities              = AnnotatedValueMap("abilities", "_abilities",
+                                {CHAR.Str: 'strength',
+                                 CHAR.Dex: 'dexterity',
+                                 CHAR.Con: 'constitution',
+                                 CHAR.Int: 'intelligence',
+                                 CHAR.Wis: 'wisdom',
+                                 CHAR.Cha: 'charisma',
+                                 })
 
     _treasures             = rdfMultiple(PROP.treasure)         # DONE!
+    treasures              = AnnotatedValueMap("treasures", "_treasures",
+                                {CHAR.Coins: 'coins',
+                                 CHAR.Goods: 'goods',
+                                 CHAR.Items: 'items',
+                                 })
     treasureNotes          = rdfSingle(PROP.treasureNotes)      # DONE!
-
-    TODO("_saves and _treasures and _abilities and skills",
-    """they are lists, so we must
-    reconstruct the whole list to set any of them, and we must iterate the
-    whole list to get any of them.  Implement an associative type""")
 
     feats                  = rdfMultiple(PROP.feat, 
                                          range_type=MonsterFeat.rdf_type)
@@ -807,6 +929,10 @@ class Monster2(S.rdfsPTClass):
     epicFeats              = CoreFeatFilter("epicFeats", 
                                             lambda x: x.epic)
 
+    TODO("ValueMap for skills taking into account subskills", """
+    This should also implement e.g. __contains__; should I implement a skill
+    lookup that fills in the blanks for skills not specified? i.e. untrained
+    skills that the monster can nevertheless use.""")
     skills                 = rdfMultiple(PROP.skill,
                                          range_type=MonsterSkill.rdf_type)
 
@@ -816,9 +942,16 @@ class Monster2(S.rdfsPTClass):
     armorClass             = rdfSingle(PROP.armorClass)
     armorNatural           = rdfSingle(PROP.armorNatural)
     armorDeflection        = rdfSingle(PROP.armorDeflection)
-    armorOther             = rdfMultiple(PROP.armorOther)
-    armorBody              = rdfMultiple(PROP.armorBody)
-    armorShield            = rdfMultiple(PROP.armorShield)
+    armorOther             = rdfMultiple(PROP.armorOther,
+            range_type=ArmorValue.rdf_type)
+    armorBody              = rdfMultiple(PROP.armorBody,
+            range_type=ArmorValue.rdf_type)
+    armorMaxDex            = rdfSingle(PROP.armorMaxDex)
+    armorShield            = rdfMultiple(PROP.armorShield,
+            range_type=ArmorValue.rdf_type)
+
+    touchAC                = TouchAC("touchAC")
+    flatFootedAC           = FlatFootedAC("flatFootedAC")
     TODO("touchAC, flatFootedAC", """touch and flat-footed are computed with
     this formula:
         touch:       armorClass-naturalArmor-body armor-shield
