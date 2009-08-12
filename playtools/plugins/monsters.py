@@ -276,6 +276,7 @@ class MonsterConverter(object):
         val = armor.value
         nat = armor.natural or None
         defl = armor.deflection or None
+        maxDex = armor.maxDex
 
         getValue = lambda x: x[0]
         getComment = lambda x: x[1]
@@ -298,8 +299,7 @@ class MonsterConverter(object):
                     self._makeValue(o, C.ArmorValue, getValue, getComment)
                 )
 
-        return val, nat, defl, bodies or None, shields or None, others or None
-
+        return val, nat, defl, bodies or None, maxDex, shields or None, others or None
 
     def makePlaytoolsItem(self, sb):
         orig = sb.monster
@@ -372,11 +372,12 @@ class MonsterConverter(object):
         set('attackGroups',      self.makeAttackGroups(m, sb))
 
         # armor
-        val, nat, defl, bodies, shields, others = self.makeArmors(m, sb)
+        val, nat, defl, bodies, maxDex, shields, others = self.makeArmors(m, sb)
         set('armorClass',        val)
         set('armorNatural',      nat)
         set('armorDeflection',   defl)
         set('armorBody',         bodies)
+        set('armorMaxDex',       maxDex)
         set('armorShield',       shields)
         set('armorOther',        others)
 
