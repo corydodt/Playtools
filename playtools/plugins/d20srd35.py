@@ -954,11 +954,6 @@ class Monster2(S.rdfsPTClass):
 
     touchAC                = TouchAC("touchAC")
     flatFootedAC           = FlatFootedAC("flatFootedAC")
-    TODO("touchAC, flatFootedAC", """touch and flat-footed are computed with
-    this formula:
-        touch:       armorClass-naturalArmor-body armor-shield
-        flatFooted:  armorClass-dex
-    """)
 
     attackGroups           = rdfList(PROP.attackGroups,
                                          range_type=AttackGroup.rdf_type)
