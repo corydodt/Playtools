@@ -11,7 +11,7 @@ r'''# RPG-STYLE DICE EXPRESSIONS
 <n> := int
 <ds> := digits
 <sign> := [-+]
-<comma_number> := (digit/',')+
+<comma_number> := digit, (','?, digit)*
 
 dieSize := 'd',ws,n
 count := n
