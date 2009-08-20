@@ -30,7 +30,8 @@ class SpecialParserTest(unittest.TestCase):
         """
         ret = []
         for quality in qs:
-            kw = '/'.join(["%s:%s" % (k,v) for (k,v) in quality.kw.items()])
+            kw = '/'.join(["%s:%s" % (k,v) for (k,v) in
+                sorted(quality.kw.items())])
             ret.append("kw={kw} type={q.type} name={q.name}".format(
                 kw=kw, q=quality))
         return '\n'.join(ret)
@@ -43,9 +44,20 @@ class SpecialParserTest(unittest.TestCase):
         Plain jane Specials can parse
         """
         self.compare("alternate form", "kw= type=noArgumentQuality name=alternate form")
-        self.compare("Rend 4d6+18", "kw=damage:4d6+18 type=damaging name=Rend")
-        self.compare("Rend 4d6+18, sonic blast", "kw=damage:4d6+18 type=damaging name=Rend\nkw= type=unknown name=sonic blast")
+        self.compare("All-around vision, sonic blast", "kw= type=sense name=All-around vision\nkw= type=unknown name=sonic blast")
     test_regular.todo = "many more expressions to check still"
+
+    def test_damaging(self):
+        """
+        Specials that cause damage can parse
+        """
+        self.compare("Rend 4d6+18", "kw=damage:4d6+18 type=damaging name=Rend")
+        self.compare("Crush 2d8+13 (dc 26)", "kw=damage:2d8+13/dc:26 type=damaging name=Crush")
+        self.compare("Crush 2d8+13 plus 1d6 ninjas (dc 26)",
+                "kw=damage:2d8+13/dc:26/extraDamage:plus 1d6 ninjas type=damaging name=Crush")
+        self.compare("Constrict 1d1+1 (arm), Constrict 2d2+2 (leg)",
+                """kw=damage:1d1+1/qualifier:arm type=damaging name=Constrict
+kw=damage:2d2+2/qualifier:leg type=damaging name=Constrict""")
 
 
 class HUGESpecialParserTest(unittest.TestCase):

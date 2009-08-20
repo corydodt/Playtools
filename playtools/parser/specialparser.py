@@ -6,6 +6,11 @@ shit that can happen in here, so basically split on commas and look for things
 I understand, and whack anything else into an Unknown object.
 
 """
+from playtools.parser import diceparser
+diceparser
+from playtools.parser import attackparser
+attackparser
+
 from simpleparse import parser, dispatchprocessor as disp
 from simpleparse.common import chartypes, numbers
 ## appease pyflakes
@@ -14,78 +19,91 @@ chartypes, numbers
 
 grammar = ( # {{{
 r'''# special quality stat
-<wsc> := [ \t]
-<ws> := wsc*
-<n> := int
-<l> := letter
-<d> := digit
-<paren> := [()]
+<wsc>                 :=  [ \t]
+<ws>                  :=  wsc*
+<n>                   :=  int
+<l>                   :=  letter
+<d>                   :=  digit
+<paren>               :=  [()]
+<plus>                :=  '+'
 
-<qualityChar> := l/d/wsc/[-/+.']
+<qualityChar>         :=  l/d/wsc/[-/+.']
 
-<qWord> := (l/d/[-/+.'])+
-<qWords> := (qWord, ws?)+
+<qWord>               :=  (l/d/[-/+.'])+
+<qWords>              :=  (qWord, ws?)+
 
-<sep> := [,;]
+<sep>                 :=  [,;]
 
-<parenExpression> := '(', !, (qualityChar/',')*, ')'
+<parenExpression>     :=  '(', !, (qualityChar/',')*, ')'
 
-range := ws, n, ws, 'ft.'
+range                 :=  ws, n, ws, 'ft.'
+
+<qualifierChar> := [-+0-9a-zA-Z'" \t,]
+qualifier := '(', !, qualifierChar+, ')'
 
 
 # here we go with a whole buttload of specific elements
-damageReductionArg := n, '/', (qWord, ws?)+
->damageReduction< := c'damage reduction', !, ws, damageReductionArg
+damageReductionArg    :=  n, '/', (qWord, ws?)+
+>damageReduction<     :=  c'damage reduction', !, ws, damageReductionArg
 
-regenerationArg := n
->regeneration< := c'regeneration', !, ws, regenerationArg
+regenerationArg       :=  n
+>regeneration<        :=  c'regeneration', !, ws, regenerationArg
 
-fastHealingArg := n
->fastHealing< := c'fast healing', !, ws, fastHealingArg
+fastHealingArg        :=  n
+>fastHealing<         :=  c'fast healing', !, ws, fastHealingArg
 
-familyArg := qWord
->family< := familyArg, ws, c'traits'/c'subtype'
+familyArg             :=  qWord
+>family<              :=  familyArg, ws, c'traits'/c'subtype'
 
-immunityArg := (?-c'immunity', qWord, ws)+
->immunity< := ((c'immune to'/c'immunity to'),  ws, immunityArg)/(immunityArg, c'immunity')
+immunityArg           :=  (?-c'immunity', qWord, ws)+
+>immunity<            :=  ((c'immune to'/c'immunity to'),  ws, immunityArg)/(immunityArg, c'immunity')
 
-vulnerabilityArg := (?-c'vulnerability', qWord, ws)+
->vulnerability< := (c'vulnerability to', !, ws, vulnerabilityArg)/(vulnerabilityArg, c'vulnerability')
+vulnerabilityArg      :=  (?-c'vulnerability', qWord, ws)+
+>vulnerability<       :=  (c'vulnerability to', !, ws, vulnerabilityArg)/(vulnerabilityArg, c'vulnerability')
 
-resistanceAmount := n
-resistanceName := (?-'resistance', qWord, ws)+
->resistance< := resistanceName, c'resistance', ws, resistanceAmount
+resistanceAmount      :=  n
+resistanceName        :=  (?-'resistance', qWord, ws)+
+>resistance<          :=  resistanceName, c'resistance', ws, resistanceAmount
 
-rangedSenseName := c'darkvision'/c'blindsense'/c'blindsight'/c'telepathy'/c'tremorsense' 
->rangedSense< := rangedSenseName, !, range
+rangedSenseName       :=  c'darkvision'/c'blindsense'/c'blindsight'/c'telepathy'/c'tremorsense'
+>rangedSense<         :=  rangedSenseName, !, range
 
-noArgumentSense := c'low-light vision'/c'all-around vision'/c'see in darkness'/c'scent'/c'keen senses'
+noArgumentSense       :=  c'low-light vision'/c'all-around vision'/c'see in darkness'/c'scent'/c'keen senses'
 
->sense< := rangedSense/noArgumentSense
+>sense<               :=  rangedSense/noArgumentSense
 
-noArgumentQuality := c'alternate form'/c'water breathing'/c'icewalking'/c'cloudwalking'
+noArgumentQuality     :=  c'alternate form'/c'water breathing'/c'icewalking'/c'cloudwalking'
 
-spellsLevel := n, l*
->spells< := c'spells (caster level ', !, spellsLevel, ')'
+spellsLevel           :=  n, l*
+>spells<              :=  c'spells (caster level ', !, spellsLevel, ')'
 
-auraArg := (?-c'aura', qWord, ws)+
->aura< := (c'aura of', !, ws, auraArg)/(auraArg, 'aura')
+auraArg               :=  (?-c'aura', qWord, ws)+
+>aura<                :=  (c'aura of', !, ws, auraArg)/(auraArg, 'aura')
 
-empathyArg := (?-'empathy', qWord, ws)+
->empathy< := empathyArg, 'empathy'
+empathyArg            :=  (?-'empathy', qWord, ws)+
+>empathy<             :=  empathyArg, 'empathy'
 
 # catcher for stuff like "immune to foo, bar, and zam"
-illegalAnd := 'and', ws, !, 'DIE'
+illegalAnd            :=  'and', ws, !, 'DIE'
 
-unknownQuality := (qualityChar/parenExpression)*
+unknownQuality        :=  (qualityChar/parenExpression)*
 
->quality< := illegalAnd/noArgumentQuality/sense/empathy/aura/damageReduction/regeneration/fastHealing/spells/family/immunity/vulnerability/resistance/unknownQuality
+damagingQualityName   :=  c'constrict'/c'crush'/c'impale'/c'powerful charge'/c'rake'/c'rend'/c'savage'/c'sneak attack'/c'tail sweep'/c'trample'
 
-empty := '-'
+difficultyClass       :=  n
 
-specialQualityStat := empty/(quality, !, (sep, ws, quality)*)
+>dqExtra<             :=  ws, extraDamage1  
+>dqDC<                :=  ws, c'(dc', ws, difficultyClass, ')'  
+>dqQualifier<         :=  ws, qualifier
+damagingQuality       :=  damagingQualityName, ws, plus?, diceExpression, dqExtra?, dqDC?, dqQualifier?
 
-specialQualityRoot := specialQualityStat
+>quality<             :=  illegalAnd/noArgumentQuality/sense/empathy/aura/damageReduction/regeneration/fastHealing/spells/family/immunity/vulnerability/resistance/damagingQuality/unknownQuality
+
+empty                 :=  '-'
+
+specialQualityStat    :=  empty/(quality, !, (sep, ws, quality)*)
+
+specialQualityRoot    :=  specialQualityStat
 ''') # }}}
 
 
@@ -201,6 +219,31 @@ class Processor(disp.DispatchProcessor):
         self.specialQualities = []
         disp.dispatchList(self, sub, buffer)
         return self.specialQualities
+
+    def difficultyClass(self, *a, **kw):
+        return {'dc':int(disp.getString(*a, **kw))}
+
+    def damagingQualityName(self, *a, **kw):
+        return disp.getString(*a, **kw)
+
+    def diceExpression(self, *a, **kw):
+        return disp.getString(*a, **kw)
+
+    def damagingQuality(self, (t,s1,s2,sub), buffer):
+        parts = disp.dispatchList(self, sub, buffer)
+        q = Quality('damaging', parts[0])
+        q.setArgs(damage=parts[1].strip())
+        if len(parts) > 2:
+            for part in parts[2:]:
+                q.setArgs(**part)
+        self.specialQualities.append(q)
+
+    def qualifier(self, *a, **kw):
+        ql = disp.getString(*a, **kw)[1:-1]
+        return {'qualifier':ql}
+
+    def extraDamage1(self, *a, **kw):
+        return {'extraDamage': disp.getString(*a, **kw).strip()}
 
     def rangedSenseName(self, (t,s1,s2,sub), buffer):
         name = buffer[s1:s2]
