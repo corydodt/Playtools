@@ -1,6 +1,7 @@
 """
 Test for the parsing of attack groups into attack forms and on down
 """
+from simpleparse import parser
 
 from twisted.trial import unittest
 
@@ -159,6 +160,18 @@ class AttackParserTest(unittest.TestCase):
         t = "-"
         parsed = attackparser.parseAttacks(t)[0]
         self.assertEqual(parsed, [])
+
+    def test_exportProductions(self):
+        """
+        Importing the attackparser module enables some parsing productions.
+        Verify that these are exported correctly.
+        """
+        grammar = """<ws> := [ \t]*
+            xyz := extraDamage1, '|', extraDamage1
+            xyzRoot := xyz
+            """
+        p = parser.Parser(grammar, root='xyzRoot')
+        p.parse('plus 3d8+2 ninjas|+2d6 sneak attack')
 
 
 class HUGEAttackParserTest(unittest.TestCase):

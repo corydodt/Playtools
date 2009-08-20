@@ -1,7 +1,8 @@
 from . import diceparser
 diceparser
 
-from simpleparse import parser, dispatchprocessor as disp
+from simpleparse import parser, dispatchprocessor as disp, objectgenerator
+from simpleparse import common
 from simpleparse.common import numbers, chartypes
 ## appease pyflakes
 numbers, chartypes
@@ -225,3 +226,12 @@ def parseAttacks(s, production=None, probe=None):
         raise RuntimeError('%s is not a valid attack expression' % (s,))
     return children
 
+# make productions exportable
+c = {}
+for name in ['extraDamage1']:
+	c[ name ] = objectgenerator.LibraryElement(
+		generator = attackParser._generator,
+		production = name,
+	)
+
+common.share( c )
