@@ -8,7 +8,7 @@ def unescape(s):
     return s.replace(r'\n', '\n').replace(r'\"', '"')
 
 
-def prepFullText(s):
+def prepFT(s):
     return '<html>%s</html>' % (unescape(s),)
 
 
@@ -45,11 +45,11 @@ def findSpecialAbilities(combat):
     return ret
 
 
-def parseFullAbilities(s):
+def parseFTAbilities(s):
     """
     Return a 2-tuple of (special abilities, spell-like abilities)
     """
-    prepped = prepFullText(s)
+    prepped = prepFT(s)
     combat = findCombatTag(ElementTree.fromstring(prepped))
     if combat is None:
         return (None, None)
