@@ -133,5 +133,6 @@ class HUGESpecialParserTest(unittest.TestCase):
                 f = traceback.format_exc(sys.exc_info()[2])
                 self.assertTrue(False,
                         "{x}\n{0}\n{1}\n".format(monster.name, stat2, x=f))
-        specialparser.printFrequenciesOfUnknowns()
+
+        ## specialparser.printFrequenciesOfUnknowns()
 
