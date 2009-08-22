@@ -77,7 +77,7 @@ summon                :=  c'summon', !, ws, summonTarget
 
 noArgumentQuality     :=  c'alternate form'/c'water breathing'/c'icewalking'/
                           c'cloudwalking'/c'spell-like abilities'/
-                          c'psi-like abilities'
+                          c'psi-like abilities'/c'curse of lycanthropy'
 
 # spells {{{
 spellsLevel           :=  n, l*
