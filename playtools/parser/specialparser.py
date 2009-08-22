@@ -6,10 +6,15 @@ shit that can happen in here, so basically split on commas and look for things
 I understand, and whack anything else into an Unknown object.
 
 """
+import operator
+import re
+
 from playtools.parser import diceparser
 diceparser
 from playtools.parser import attackparser
 attackparser
+
+from playtools.util import RESOURCE
 
 from simpleparse import parser, dispatchprocessor as disp
 from simpleparse.common import chartypes, numbers
@@ -17,95 +22,7 @@ from simpleparse.common import chartypes, numbers
 chartypes, numbers
 
 
-grammar = ( # {{{
-r'''# special quality stat
-<wsc>                 :=  [ \t]
-<ws>                  :=  wsc*
-<n>                   :=  int
-<l>                   :=  letter
-<d>                   :=  digit
-<paren>               :=  [()]
-<plus>                :=  '+'
-
-<qualityChar>         :=  l/d/wsc/[-/+.']
-
-<qWord>               :=  (l/d/[-/+.'])+
-<qWords>              :=  (qWord, ws?)+
-
-<sep>                 :=  [,;]
-
-<parenExpression>     :=  '(', !, (qualityChar/',')*, ')'
-
-range                 :=  ws, n, ws, 'ft.'
-
-<qualifierChar> := [-+0-9a-zA-Z'" \t,]
-qualifier := '(', !, qualifierChar+, ')'
-
-
-# here we go with a whole buttload of specific elements
-damageReductionArg    :=  n, '/', (qWord, ws?)+
->damageReduction<     :=  c'damage reduction', !, ws, damageReductionArg
-
-regenerationArg       :=  n
->regeneration<        :=  c'regeneration', !, ws, regenerationArg
-
-fastHealingArg        :=  n
->fastHealing<         :=  c'fast healing', !, ws, fastHealingArg
-
-familyArg             :=  qWord
->family<              :=  familyArg, ws, c'traits'/c'subtype'
-
-immunityArg           :=  (?-c'immunity', qWord, ws)+
->immunity<            :=  ((c'immune to'/c'immunity to'),  ws, immunityArg)/(immunityArg, c'immunity')
-
-vulnerabilityArg      :=  (?-c'vulnerability', qWord, ws)+
->vulnerability<       :=  (c'vulnerability to', !, ws, vulnerabilityArg)/(vulnerabilityArg, c'vulnerability')
-
-resistanceAmount      :=  n
-resistanceName        :=  (?-'resistance', qWord, ws)+
->resistance<          :=  resistanceName, c'resistance', ws, resistanceAmount
-
-rangedSenseName       :=  c'darkvision'/c'blindsense'/c'blindsight'/c'telepathy'/c'tremorsense'
->rangedSense<         :=  rangedSenseName, !, range
-
-noArgumentSense       :=  c'low-light vision'/c'all-around vision'/c'see in darkness'/c'scent'/c'keen senses'
-
->sense<               :=  rangedSense/noArgumentSense
-
-noArgumentQuality     :=  c'alternate form'/c'water breathing'/c'icewalking'/c'cloudwalking'
-
-spellsLevel           :=  n, l*
->spells<              :=  c'spells (caster level ', !, spellsLevel, ')'
-
-auraArg               :=  (?-c'aura', qWord, ws)+
->aura<                :=  (c'aura of', !, ws, auraArg)/(auraArg, 'aura')
-
-empathyArg            :=  (?-'empathy', qWord, ws)+
->empathy<             :=  empathyArg, 'empathy'
-
-# catcher for stuff like "immune to foo, bar, and zam"
-illegalAnd            :=  'and', ws, !, 'DIE'
-
-unknownQuality        :=  (qualityChar/parenExpression)*
-
-damagingQualityName   :=  c'constrict'/c'crush'/c'impale'/c'powerful charge'/c'rake'/c'rend'/c'savage'/c'sneak attack'/c'tail sweep'/c'trample'
-
-difficultyClass       :=  n
-
->dqExtra<             :=  ws, extraDamage1  
->dqDC<                :=  ws, c'(dc', ws, difficultyClass, ')'  
->dqQualifier<         :=  ws, qualifier
-damagingQuality       :=  damagingQualityName, ws, plus?, diceExpression, dqExtra?, dqDC?, dqQualifier?
-
->quality<             :=  illegalAnd/noArgumentQuality/sense/empathy/aura/damageReduction/regeneration/fastHealing/spells/family/immunity/vulnerability/resistance/damagingQuality/unknownQuality
-
-empty                 :=  '-'
-
-specialQualityStat    :=  empty/(quality, !, (sep, ws, quality)*)
-
-specialQualityRoot    :=  specialQualityStat
-''') # }}}
-
+grammar = open(RESOURCE('parser/specialparser.txt')).read()
 
 specialQualityParser = parser.Parser(grammar, root='specialQualityRoot')
 
@@ -227,14 +144,13 @@ class Processor(disp.DispatchProcessor):
         return disp.getString(*a, **kw)
 
     def diceExpression(self, *a, **kw):
-        return disp.getString(*a, **kw)
+        return {'damage': disp.getString(*a, **kw).strip()}
 
-    def damagingQuality(self, (t,s1,s2,sub), buffer):
+    def exAttack(self, (t,s1,s2,sub), buffer):
         parts = disp.dispatchList(self, sub, buffer)
-        q = Quality('damaging', parts[0])
-        q.setArgs(damage=parts[1].strip())
-        if len(parts) > 2:
-            for part in parts[2:]:
+        if len(parts) > 0:
+            q = Quality('damaging', parts.pop(0))
+            for part in parts:
                 q.setArgs(**part)
         self.specialQualities.append(q)
 
@@ -249,7 +165,13 @@ class Processor(disp.DispatchProcessor):
         name = buffer[s1:s2]
         q = Quality('sense', name)
         self.specialQualities.append(q)
-        disp.dispatchList(self, sub, buffer)
+        ll = disp.dispatchList(self, sub, buffer)
+        for part in ll:
+            q.setArgs(**part)
+
+    def exMeleeAttack(self, (t,s1,s2,sub), buffer):
+        q = Quality('exMeleeAttack', buffer[s1:s2])
+        self.specialQualities.append(q)
 
     def noArgumentSense(self, (t,s1,s2,sub), buffer):
         q = Quality('sense', buffer[s1:s2])
@@ -260,17 +182,25 @@ class Processor(disp.DispatchProcessor):
         self.specialQualities.append(q)
 
     def auraArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('aura')
+        q = Quality('aura', 'Aura')
         q.setArgs(what=buffer[s1:s2].strip())
         self.specialQualities.append(q)
 
-    def spellsLevel(self, (t,s1,s2,sub), buffer):
-        q = Quality('spells')
-        q.setArgs(level=buffer[s1:s2])
+    def spells(self, (t,s1,s2,sub), buffer):
+        q = Quality('spells', 'spells')
         self.specialQualities.append(q)
 
+        ll = disp.dispatchList(self, sub, buffer)
+        for part in ll:
+            q.setArgs(**part)
+
+    def spellsLevel(self, (t,s1,s2,sub), buffer):
+        l = buffer[s1:s2]
+        l = re.search(r'(\d+)', l).group(1)
+        return {'level': int(l)}
+
     def vulnerabilityArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('vulnerability')
+        q = Quality('vulnerability', 'Vulnerability')
         q.setArgs(what=buffer[s1:s2])
         self.specialQualities.append(q)
 
@@ -280,17 +210,17 @@ class Processor(disp.DispatchProcessor):
         if ' and ' in buf:
             imms = buf.split(' and ')
             for imm in imms:
-                q = Quality('immunity')
-                q.setArgs(what=imm)
+                q = Quality('immunity', 'Immunity')
+                q.setArgs(what=imm.strip())
                 newQualities.append(q)
         else:
-            q = Quality('immunity')
-            q.setArgs(what=buffer[s1:s2])
+            q = Quality('immunity', 'Immunity')
+            q.setArgs(what=buffer[s1:s2].strip())
             newQualities = [q]
         self.specialQualities.extend(newQualities)
 
     def resistanceName(self, (t,s1,s2,sub), buffer):
-        q = Quality('resistance')
+        q = Quality('resistance', 'Resistance')
         q.setArgs(what=buffer[s1:s2].strip())
         self.specialQualities.append(q)
 
@@ -298,22 +228,22 @@ class Processor(disp.DispatchProcessor):
         self.specialQualities[-1].setArgs(amount=buffer[s1:s2])
 
     def regenerationArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('regeneration')
+        q = Quality('regeneration', 'Regeneration')
         q.setArgs(amount=buffer[s1:s2])
         self.specialQualities.append(q)
 
     def damageReductionArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('damageReduction')
+        q = Quality('damageReduction', 'Damage Reduction')
         q.setArgs(amount=buffer[s1:s2])
         self.specialQualities.append(q)
 
     def fastHealingArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('fastHealing')
+        q = Quality('fastHealing', 'Fast Healing')
         q.setArgs(amount=buffer[s1:s2])
         self.specialQualities.append(q)
 
     def empathyArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('empathy')
+        q = Quality('empathy', 'Empathy')
         q.setArgs(what=buffer[s1:s2])
         self.specialQualities.append(q)
 
@@ -334,10 +264,45 @@ class Processor(disp.DispatchProcessor):
         else:
             q = Quality('unknown', buffer[s1:s2])
             self.specialQualities.append(q)
+            # ll = disp.dispatchList(self, sub, buffer)
 
     def range(self, (t,s1,s2,sub), buffer):
-        q = self.specialQualities[-1]
-        q.setArgs(range=buffer[s1:s2].strip())
+        return {'range': buffer[s1:s2].strip()}
+
+    def frightfulPresence(self, (t,s1,s2,sub), buffer):  
+        q = Quality("aura", "Frightful presence")
+        self.specialQualities.append(q)
+
+        ll = disp.dispatchList(self, sub, buffer)
+        for part in ll:
+            q.setArgs(**part)
+
+    def breathWeapon(self, (t,s1,s2,sub), buffer):
+        q = Quality("damaging", "Breath weapon")
+        self.specialQualities.append(q)
+
+        ll = disp.dispatchList(self, sub, buffer)
+
+        for part in ll:
+            if part:
+                q.setArgs(**part)
+
+    def breathEffect(self, *a, **kw):
+        return {'effect': disp.getString(*a, **kw).strip()}
+
+    def breathPrismatic(self, *a, **kw):
+        return {'effect': disp.getString(*a, **kw).strip()}
+
+    def summon(self, (t,s1,s2,sub), buffer):
+        q = Quality('summon', 'Summon')
+        self.specialQualities.append(q)
+
+        ll = disp.dispatchList(self, sub, buffer)
+        for part in ll:
+            q.setArgs(**part)
+
+    def summonTarget(self, *a, **kw):
+        return {'what': disp.getString(*a, **kw).strip()}
 
 
 def parseSpecialQualities(s):
@@ -355,8 +320,10 @@ def printFrequenciesOfUnknowns():
     items = Quality.unknowns.items()
     for n, (k, freq) in enumerate(items):
         items[n] = freq, k
-    import pprint
-    pprint.pprint(sorted(items))
+
+    for q in sorted(items, key=operator.itemgetter(1)):
+        print '{0}  {1}'.format(*q)
+
     print sum(zip(*items)[0]), "total unknowns"
     print Quality.count, "total qualities parsed"
 

@@ -1,0 +1,144 @@
+# special quality stat
+# character types and separators {{{ 
+<wsc>                 :=  [ \t]
+<ws>                  :=  wsc*
+<n>                   :=  int
+<l>                   :=  letter
+<d>                   :=  digit
+<paren>               :=  [()]
+<plus>                :=  '+'
+<sep>                 :=  [,;]
+# }}}
+
+<qualityChar>         :=  l/d/wsc/[-/+.']
+
+<qWord>               :=  (l/d/[-/+.'])+
+<qWords>              :=  (qWord, ws?)+
+
+
+<parenExpression>     :=  '(', !, (qualityChar/',')*, ')'
+
+range                 :=  ws, n, ws, 'ft.'
+
+<qualifierChar> := [-+0-9a-zA-Z'" \t,]
+qualifier := '(', !, qualifierChar+, ')'
+
+
+# here we go with a whole buttload of specific elements
+# damageReduction {{{
+damageReductionArg    :=  n, '/', (qWord, ws?)+
+>damageReduction<     :=  c'damage reduction', !, ws, damageReductionArg
+# }}}
+
+# regeneration {{{
+regenerationArg       :=  n
+>regeneration<        :=  c'regeneration', !, ws, regenerationArg
+# }}}
+
+# fastHealing {{{
+fastHealingArg        :=  n
+>fastHealing<         :=  c'fast healing', !, ws, fastHealingArg
+# }}}
+
+# family {{{
+familyArg             :=  qWord
+>family<              :=  familyArg, ws, c'traits'/c'subtype'
+# }}}
+
+# immunity {{{
+immunityArg           :=  (?-c'immunity', qWord, ws)+
+>immunity<            :=  ((c'immune to'/c'immunity to'),  ws, immunityArg)/(immunityArg, c'immunity')
+# }}}
+
+# vulnerability {{{
+vulnerabilityArg      :=  (?-c'vulnerability', qWord, ws)+
+>vulnerability<       :=  (c'vulnerability to', !, ws, vulnerabilityArg)/(vulnerabilityArg, c'vulnerability')
+# }}}
+
+# resistance {{{
+resistanceAmount      :=  n
+resistanceName        :=  (?-'resistance', qWord, ws)+
+>resistance<          :=  resistanceName, c'resistance', ws, resistanceAmount
+# }}}
+
+# sense {{{
+rangedSenseName       :=  c'darkvision'/c'blindsense'/c'blindsight'/c'telepathy'/c'tremorsense'/c'lifesense'
+>rangedSense<         :=  rangedSenseName, !, range
+
+noArgumentSense       :=  c'low-light vision'/c'all-around vision'/c'see in darkness'/c'scent'/c'keen senses'
+
+>sense<               :=  rangedSense/noArgumentSense
+# }}}
+
+# summon {{{
+summonTarget          :=  (l/wsc)+
+summon                :=  c'summon', !, ws, summonTarget
+# }}}
+
+noArgumentQuality     :=  c'alternate form'/c'water breathing'/c'icewalking'/
+                          c'cloudwalking'/c'spell-like abilities'/
+                          c'psi-like abilities'
+
+# spells {{{
+spellsLevel           :=  n, l*
+spells                :=  c'spells', !, (ws, '(caster level ', !, spellsLevel, ')')?
+# }}}
+
+# aura {{{
+auraArg               :=  (?-c'aura', qWord, ws)+
+>aura<                :=  (c'aura of', !, ws, auraArg)/(auraArg, 'aura')
+# }}}
+
+# empathy {{{
+empathyArg            :=  (?-'empathy', qWord, ws)+
+>empathy<             :=  empathyArg, 'empathy'
+# }}}
+
+# catcher for stuff like "immune to foo, bar, and zam"
+illegalAnd            :=  'and', ws, !, 'DIE'
+
+unknownQuality        :=  (qualityChar)+, (ws, dc/parenExpression)*
+
+# damaging {{{
+damagingQualityName   :=  c'constrict'/(c'crush', ?-(ws, 'item'))/c'impale'/c'powerful charge'/
+                          c'rake'/c'rend armor'/c'rend'/c'savage'/c'sneak attack'/
+                          c'tail sweep'/c'trample'/
+                          c'attach'/c'improved grab'/
+                          c'pounce'/c'swallow whole'/(c'trip', ?-(l))/c'drag'/
+                          c'engulf'/c'push'/c'squeeze'/c'stomp'
+
+
+difficultyClass       :=  n
+
+>dqExtra<             :=  ws, extraDamage1  
+>dcInner<             :=  c'dc', ws, difficultyClass
+>dc<                  :=  ws, '(', dcInner, ')'
+>dqQualifier<         :=  ws, qualifier
+exAttack              :=  damagingQualityName, (ws, plus?, diceExpression, dqExtra?, dc?, dqQualifier?)?
+# }}}
+
+frightfulPresence     :=  c'frightful presence', !, dc?
+
+# breathWeapon {{{
+breathEffect          :=  (l/wsc)+  
+>breathNonPrismatic<  :=  breathEffect, ws, diceExpression
+breathPrismatic       :=  c'prismatic spray effect'
+>breathDescriptor<    :=  '(', range, !, ws, breathPrismatic/breathNonPrismatic, ',', ws, dcInner, ')'
+breathWeapon          :=  c'breath weapon', !, (ws, breathDescriptor)?
+# }}}
+
+>quality<             := illegalAnd/noArgumentQuality/sense/empathy/aura/
+                         damageReduction/regeneration/fastHealing/spells/
+                         family/immunity/vulnerability/resistance/
+                         frightfulPresence/breathWeapon/
+                         exAttack/summon/
+                         unknownQuality
+
+empty                 :=  '-'
+
+specialQualityStat    :=  empty/(quality, !, (sep, ws, quality)*)
+
+specialQualityRoot    :=  specialQualityStat
+
+
+# vim:set ft=ebnf foldmethod=marker:
