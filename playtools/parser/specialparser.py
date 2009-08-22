@@ -29,20 +29,20 @@ specialQualityParser = parser.Parser(grammar, root='specialQualityRoot')
 
 class Quality(object):
     count = 0
-    unknowns = {}
+    miscs = {}
 
     def __init__(self, type, name=None):
         Quality.count = Quality.count + 1
         self.kw = {}
         self.type = type
         self.name = name
-        if type == 'unknown':
+        if type == 'misc':
             name = name.lower()
-            uq = Quality.unknowns.get(name)
+            uq = Quality.miscs.get(name)
             if uq is None:
-                self.unknowns[name] = 1
+                self.miscs[name] = 1
             else:
-                self.unknowns[name] = uq + 1
+                self.miscs[name] = uq + 1
 
     def setArgs(self, **kw):
         self.kw.update(kw)
@@ -255,16 +255,21 @@ class Processor(disp.DispatchProcessor):
     def empty(self, (t,s1,s2,sub), buffer):
         pass
 
-    def unknownQuality(self, (t,s1,s2,sub), buffer):
-        s = buffer[s1:s2]
-        if s.lower() in spellLikes:
+    def miscName(self, *a,**kw):
+        return disp.getString(*a, **kw).strip()
+
+    def miscQuality(self, (t,s1,s2,sub), buffer):
+        ll = disp.dispatchList(self, sub, buffer)
+        name = ll.pop(0)
+        if name.lower() in spellLikes:
             q = Quality('spellLike')
-            q.setArgs(spell=s)
+            q.setArgs(spell=name)
             self.specialQualities.append(q)
         else:
-            q = Quality('unknown', buffer[s1:s2])
+            q = Quality('misc', name)
             self.specialQualities.append(q)
-            # ll = disp.dispatchList(self, sub, buffer)
+            for part in ll:
+                q.setArgs(**part)
 
     def range(self, (t,s1,s2,sub), buffer):
         return {'range': buffer[s1:s2].strip()}
@@ -317,14 +322,16 @@ def parseSpecialQualities(s):
 
 
 def printFrequenciesOfUnknowns():
-    items = Quality.unknowns.items()
+    items = Quality.miscs.items()
     for n, (k, freq) in enumerate(items):
         items[n] = freq, k
 
+    print
     for q in sorted(items, key=operator.itemgetter(1)):
-        print '{0}  {1}'.format(*q)
+        print '{0: <5}{1}'.format(*q)
+    print
 
-    print sum(zip(*items)[0]), "total unknowns"
+    print sum(zip(*items)[0]), "total miscs"
     print Quality.count, "total qualities parsed"
 
 

@@ -97,7 +97,8 @@ empathyArg            :=  (?-'empathy', qWord, ws)+
 # catcher for stuff like "immune to foo, bar, and zam"
 illegalAnd            :=  'and', ws, !, 'DIE'
 
-unknownQuality        :=  (qualityChar)+, (ws, dc/parenExpression)*
+miscName           :=  (qualityChar)+
+miscQuality        :=  miscName, (ws, dc/qualifier)*
 
 # damaging {{{
 damagingQualityName   :=  c'constrict'/(c'crush', ?-(ws, 'item'))/c'impale'/c'powerful charge'/
@@ -132,7 +133,7 @@ breathWeapon          :=  c'breath weapon', !, (ws, breathDescriptor)?
                          family/immunity/vulnerability/resistance/
                          frightfulPresence/breathWeapon/
                          exAttack/summon/
-                         unknownQuality
+                         miscQuality
 
 empty                 :=  '-'
 

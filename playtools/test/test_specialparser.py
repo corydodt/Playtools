@@ -48,12 +48,13 @@ class SpecialParserTest(unittest.TestCase):
                 "kw=what:paralysis type=immunity name=Immunity\n"
                 "kw=what:electricity type=immunity name=Immunity")
 
-    def test_unknown(self):
+    def test_misc(self):
         """
-        Unknowns can be captured, and their arguments are also captured
+        Miscs can be captured, and their arguments are also captured
         """
-        self.compare("Distraction", "kw= type=unknown name=Distraction")
-        self.compare("Distraction (dc 45)", "kw=dc:45 type=unknown name=Distraction")
+        self.compare("Distraction", "kw= type=misc name=Distraction")
+        self.compare("Distraction (dc 45)", "kw=dc:45 type=misc name=Distraction")
+        self.compare("Distraction (butt-monkeys)", "kw=qualifier:butt-monkeys type=misc name=Distraction")
 
     def test_misc(self):
         """
@@ -62,7 +63,7 @@ class SpecialParserTest(unittest.TestCase):
         self.compare("alternate form", "kw= type=noArgumentQuality name=alternate form")
         self.compare("All-around vision, sonic blast", 
                 "kw= type=sense name=All-around vision\n"
-                "kw= type=unknown name=sonic blast")
+                "kw= type=misc name=sonic blast")
         self.compare("Frightful presence", "kw= type=aura name=Frightful presence")
         self.compare("Frightful presence (dc 20)", "kw=dc:20 type=aura name=Frightful presence")
         self.compare("Spells", "kw= type=spells name=spells")
@@ -88,7 +89,7 @@ class SpecialParserTest(unittest.TestCase):
         self.compare("trample", "kw= type=damaging name=trample")
         self.compare("trample, triple damage",
             "kw= type=damaging name=trample\n"
-            "kw= type=unknown name=triple damage")
+            "kw= type=misc name=triple damage")
         self.compare("Rend 4d6+18", "kw=damage:4d6+18 type=damaging name=Rend")
         self.compare("Crush 2d8+13 (dc 26)", "kw=damage:2d8+13/dc:26 type=damaging name=Crush")
         self.compare("Crush 2d8+13 plus 1d6 ninjas (dc 26)",
