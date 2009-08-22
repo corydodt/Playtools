@@ -15,6 +15,7 @@ from playtools.parser import attackparser
 attackparser
 
 from playtools.util import RESOURCE
+from playtools.test.pttestutil import TODO
 
 from simpleparse import parser, dispatchprocessor as disp
 from simpleparse.common import chartypes, numbers
@@ -56,11 +57,14 @@ class Quality(object):
 
 spellLikes = { # {{{
 'air walk': 1,
+'animate objects': 1,
 'antimagic field': 1,
 'astral project': 1,
+'astral projection': 1,
 'bless': 1,
 'blink': 1,
 'blur': 1,
+'charm person': 1,
 'command plants': 1,
 'command undead': 1,
 'control water': 1,
@@ -70,6 +74,7 @@ spellLikes = { # {{{
 'create food and water': 1,
 'cure serious wounds': 1,
 'darkness': 1,
+'daylight': 1,
 'detect good': 1,
 'detect magic': 1,
 'detect thoughts': 1,
@@ -78,9 +83,14 @@ spellLikes = { # {{{
 'discern location': 1,
 'displacement': 1,
 'dominate person': 1,
+'dominate monster': 1,
 'endure elements': 1,
+'energy drain': 1,
+'entangle': 1,
+'enthrall': 1,
 'ethereal jaunt': 1,
 'etherealness': 1,
+'fear': 1,
 'feather fall': 1,
 'find the path': 1,
 'fog cloud': 1,
@@ -94,6 +104,7 @@ spellLikes = { # {{{
 'hallucinatory terrain': 1,
 'haste': 1,
 'hypnotic pattern': 1,
+'imprisonment': 1,
 'insect plague': 1,
 'invisibility': 1,
 'locate object': 1,
@@ -105,12 +116,19 @@ spellLikes = { # {{{
 'move earth': 1,
 'plane shift': 1,
 'plant growth': 1,
+'poison': 1,
 'prismatic sphere': 1,
 'prismatic wall': 1,
 'rainbow pattern': 1,
+'rage': 1,
 'resilient sphere': 1,
+'resistance': 1,
 'reverse gravity': 1,
+'scare': 1,
+'sending': 1,
+'shatter': 1,
 'shield other': 1,
+'slow': 1,
 'speak with animals': 1,
 'spider climb': 1,
 'stone shape': 1,
@@ -120,6 +138,7 @@ spellLikes = { # {{{
 'telekinetic sphere': 1,
 'teleport': 1,
 'tongues': 1,
+'trap the soul': 1,
 'transmute rock to mud/mud to rock': 1,
 'true seeing': 1,
 'veil': 1,
@@ -128,6 +147,8 @@ spellLikes = { # {{{
 'wall of ice': 1,
 'wall of stone': 1,
 'water breathing': 1,
+'web': 1,
+'whirlwind': 1,
 } # }}}
 
 
@@ -258,6 +279,10 @@ class Processor(disp.DispatchProcessor):
     def miscName(self, *a,**kw):
         return disp.getString(*a, **kw).strip()
 
+    TODO("spellLike abilities filtered for Su",
+            """Spell-like abilities are spell-like UNLESS they are also
+            encountered in the special_abilities block, and are tagged "Su" or
+            "Ex" in that block.""")
     def miscQuality(self, (t,s1,s2,sub), buffer):
         ll = disp.dispatchList(self, sub, buffer)
         name = ll.pop(0)
