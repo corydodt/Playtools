@@ -27,6 +27,9 @@ grammar = open(RESOURCE('parser/specialparser.txt')).read()
 
 specialQualityParser = parser.Parser(grammar, root='specialQualityRoot')
 
+simpleSpecialQualityParser = parser.Parser(grammar, 
+        root='simpleSpecialRoot')
+
 
 class Quality(object):
     count = 0
@@ -334,6 +337,19 @@ class Processor(disp.DispatchProcessor):
     def summonTarget(self, *a, **kw):
         return {'what': disp.getString(*a, **kw).strip()}
 
+    def simpleSpecialStat(self, (t,s1,s2,sub), buffer):
+        self.simples = []
+        disp.dispatchList(self, sub, buffer)
+        return self.simples
+
+    def simpleName(self, *a, **kw):
+        simp = SimpleQuality()
+        self.simples.append(simp)
+        simp.name = disp.getString(*a, **kw).strip()
+
+    def useCategory(self, *a, **kw):
+        s = disp.getString(*a, **kw).lower()
+        self.simples[-1].useCategory = s
 
 def parseSpecialQualities(s):
     """
@@ -344,6 +360,28 @@ def parseSpecialQualities(s):
         raise RuntimeError('%s is not a valid special quality stat' % (s,))
     qualities = children[0]
     return qualities
+
+
+class SimpleQuality(object):
+    """
+    A simpler representation as taken from orig_monster.special_abilities.
+    Only name and useCategory are available
+    """
+    __slots__ = ['name', 'useCategory']
+
+
+def parseSimpleSpecial(s):
+    """
+    Return list of qualities
+    """
+    if not s:
+        return []
+
+    succ, children, end = simpleSpecialQualityParser.parse(s, processor=Processor())
+    if not succ or not end == len(s):
+        raise RuntimeError('%s is not a valid simple special quality stat' % (s,))
+    simples = children[0]
+    return simples
 
 
 def printFrequenciesOfUnknowns():

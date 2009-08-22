@@ -97,8 +97,8 @@ empathyArg            :=  (?-'empathy', qWord, ws)+
 # catcher for stuff like "immune to foo, bar, and zam"
 illegalAnd            :=  'and', ws, !, 'DIE'
 
-miscName           :=  (qualityChar)+
-miscQuality        :=  miscName, (ws, dc/qualifier)*
+miscName              :=  (qualityChar)+
+miscQuality           :=  miscName, (ws, dc/qualifier)*
 
 # damaging {{{
 damagingQualityName   :=  c'constrict'/(c'crush', ?-(ws, 'item'))/c'impale'/c'powerful charge'/
@@ -141,5 +141,20 @@ specialQualityStat    :=  empty/(quality, !, (sep, ws, quality)*)
 
 specialQualityRoot    :=  specialQualityStat
 
+
+
+# simple specials {{{
+<useCategorySp>       :=  c'Sp'
+<useCategoryEx>       :=  c'Ex'
+<useCategorySu>       :=  c'Su'
+useCategory           :=  useCategorySp/useCategorySu/useCategoryEx
+simpleName            :=  (qualityChar)+
+
+>simpleQuality<       :=  simpleName, ws, '(', useCategory, ')'
+
+simpleSpecialStat     :=  simpleQuality, !, (sep, ws, simpleQuality)*
+
+simpleSpecialRoot     :=  simpleSpecialStat
+# }}}
 
 # vim:set ft=ebnf foldmethod=marker:

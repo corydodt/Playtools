@@ -12,6 +12,29 @@ from playtools import fact
 SRD = fact.systems['D20 SRD']
 MONSTERS = SRD.facts['monster']
 
+class SimpleSpecialParserTest(unittest.TestCase):
+    """
+    Test nuances of parsing simple specials
+    """
+    def fmt(self, parsed):
+        return "{0.name}:{0.useCategory}".format(parsed)
+
+    def test_regular(self):
+        t = 'Antimagic Field (Ex), Frightful Presence (Ex), Horrific Appearance (su), Magic Immunity (Ex), Negative Energy Affinity (Su), Stench (EX)'
+        self.assertEqual(map(self.fmt, specialparser.parseSimpleSpecial(t)),
+                ["Antimagic Field:ex",
+                 "Frightful Presence:ex",
+                 "Horrific Appearance:su",
+                 "Magic Immunity:ex",
+                 "Negative Energy Affinity:su",
+                 "Stench:ex",
+                 ])
+
+    def test_null(self):
+        t = ''
+        self.assertEqual(specialparser.parseSimpleSpecial(t), [])
+
+
 class SpecialParserTest(unittest.TestCase):
     """
     Test nuances of parsing
@@ -109,30 +132,50 @@ class HUGESpecialParserTest(unittest.TestCase):
     """
     Test every known Special stat against the parser
     """
-    def test_huge(self):
+    _cachedSQ = None
+    _cachedSAT = None
+    _cachedSAB = None
+
+    def setUp(self):
+        monsters = MONSTERS.dump()
+        if self._cachedSQ is None:
+            self._cachedSQ = []
+            self._cachedSAT = []
+            self._cachedSAB = []
+            for monster in monsters:
+                self._cachedSQ.append ((monster, monster.special_qualities))
+                self._cachedSAT.append((monster, monster.special_attacks))
+                self._cachedSAB.append((monster, monster.special_abilities))
+
+    def doTest(self, monster, stat, parser):
+        try:
+            if stat:
+                act = [monster.name, parser(stat) and None]
+        except:
+            f = traceback.format_exc(sys.exc_info()[2])
+            self.assertTrue(False,
+                    "{x}\n{0}\n{1}\n".format(monster.name, stat, x=f))
+
+    def test_hugeSpecialQualities(self):
         """
         Everything.
         """
-        monsters = MONSTERS.dump()
-        for monster in monsters:
-            stat1 = monster.special_attacks
-            stat2 = monster.special_qualities
+        for monster, stat in self._cachedSQ:
+            self.doTest(monster, stat, specialparser.parseSpecialQualities)
 
-            try:
-                if stat1:
-                    act = [monster.name, specialparser.parseSpecialQualities(stat1) and None]
-            except:
-                f = traceback.format_exc(sys.exc_info()[2])
-                self.assertTrue(False,
-                        "{x}\n{0}\n{1}\n".format(monster.name, stat1, x=f))
+    def test_hugeSpecialAbilities(self):
+        """
+        Everything.
+        """
+        for monster, stat in self._cachedSAB:
+            self.doTest(monster, stat, specialparser.parseSimpleSpecial)
 
-            try:
-                if stat2:
-                    act = [monster.name, specialparser.parseSpecialQualities(stat2) and None]
-            except:
-                f = traceback.format_exc(sys.exc_info()[2])
-                self.assertTrue(False,
-                        "{x}\n{0}\n{1}\n".format(monster.name, stat2, x=f))
+    def test_hugeSpecialAttacks(self):
+        """
+        Everything.
+        """
+        for monster, stat in self._cachedSAT:
+            self.doTest(monster, stat, specialparser.parseSpecialQualities)
 
         ## specialparser.printFrequenciesOfUnknowns()
 
