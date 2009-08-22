@@ -673,21 +673,6 @@ class FlatFootedAC(SpecializedArmorDescriptor):
         return val - dexArmor
 
 
-class SkillGetter(CachingDescriptor):
-    """
-    Descriptor to return a single skill by name.
-
-    Pass in a matcher function, and only skills for which matcher returns true
-    will be returned.
-    """
-    def get(self, instance, owner):
-        matched = [sk for sk in instance.skills if sk.skill.resUri == getattr(SKILL, self.name)]
-        if matched:
-            assert len(matched) == 1
-            return matched[0]
-        return None
-
-
 class ArmorValue(S.rdfsPTClass):
     """
     A particular component of a monster's armor
