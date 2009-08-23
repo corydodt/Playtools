@@ -25,13 +25,13 @@ class IMPORTTestCase(unittest.TestCase):
         import playtools.convert
         playtools.convert
 
-    def test_importSparqly(self):
-        import playtools.sparqly
-        playtools.sparqly
+    def test_importPublish(self):
+        import playtools.publish
+        playtools.publish
 
-    def test_importUtil(self):
-        import playtools.util
-        playtools.util
+    def test_importPublisherplugin(self):
+        import playtools.publisherplugin
+        playtools.publisherplugin
 
     def test_importFact(self):
         import playtools.fact
@@ -41,21 +41,25 @@ class IMPORTTestCase(unittest.TestCase):
         import playtools.search
         playtools.search
 
+    def test_importSparqly(self):
+        import playtools.sparqly
+        playtools.sparqly
+
+    def test_importUtil(self):
+        import playtools.util
+        playtools.util
+
     def test_importPluginsCharsheet(self):
         import playtools.plugins.charsheet
         playtools.plugins.charsheet
 
-    def test_importPluginsFeats(self):
-        import playtools.plugins.feats
-        playtools.plugins.feats
+    def test_importPluginsMonstertext(self):
+        import playtools.plugins.monstertext
+        playtools.plugins.monstertext
 
     def test_importPluginsMonsters(self):
         import playtools.plugins.monsters
         playtools.plugins.monsters
-
-    def test_importPluginsSkills(self):
-        import playtools.plugins.skills
-        playtools.plugins.skills
 
     def test_importPluginsD20SRD35Config(self):
         import playtools.plugins.d20srd35config
@@ -73,25 +77,37 @@ class IMPORTTestCase(unittest.TestCase):
         import playtools.plugins.util
         playtools.plugins.util
 
-    def test_importParserDiceparser(self):
-        import playtools.parser.diceparser
-        playtools.parser.diceparser
-
     def test_importParserAbilityparser(self):
         import playtools.parser.abilityparser
         playtools.parser.abilityparser
+
+    def test_importParserAlignmentparser(self):
+        import playtools.parser.alignmentparser
+        playtools.parser.alignmentparser
+
+    def test_importParserArmorclassparser(self):
+        import playtools.parser.armorclassparser
+        playtools.parser.armorclassparser
 
     def test_importParserAttackparser(self):
         import playtools.parser.attackparser
         playtools.parser.attackparser
 
+    def test_importParserDiceparser(self):
+        import playtools.parser.diceparser
+        playtools.parser.diceparser
+
     def test_importParserFeatparser(self):
         import playtools.parser.featparser
         playtools.parser.featparser
 
-    def test_importParserFullabilityparser(self):
-        import playtools.parser.fullabilityparser
-        playtools.parser.fullabilityparser
+    def test_importParserFtabilityparser(self):
+        import playtools.parser.ftabilityparser
+        playtools.parser.ftabilityparser
+
+    def test_importParserMisc(self):
+        import playtools.parser.misc
+        playtools.parser.misc
 
     def test_importParserSaveparser(self):
         import playtools.parser.saveparser
@@ -104,3 +120,24 @@ class IMPORTTestCase(unittest.TestCase):
     def test_importParserSpecialparser(self):
         import playtools.parser.specialparser
         playtools.parser.specialparser
+
+    def test_importParserTreasureparser(self):
+        import playtools.parser.treasureparser
+        playtools.parser.treasureparser
+
+    def test_importScriptsPtconvert(self):
+        import playtools.scripts.ptconvert
+        playtools.scripts.ptconvert
+
+    def test_importScriptsPtstore(self):
+        import playtools.scripts.ptconvert
+        playtools.scripts.ptconvert
+
+    def test_importScriptsPtsysteminstall(self):
+        import playtools.scripts.ptconvert
+        playtools.scripts.ptconvert
+
+    def test_importScriptsRdftool(self):
+        import playtools.scripts.ptconvert
+        playtools.scripts.ptconvert
+
