@@ -8,23 +8,23 @@ from twisted.trial import unittest
 from twisted.plugin import IPlugin
 
 from playtools import convert, sparqly
-from playtools.plugins.skills import skillConverter
+from playtools.plugins.monsters import monsterConverter
 from playtools.test import pttestutil
 from playtools.common import this, RDFSNS
 
 from StringIO import StringIO
 
-def skillSource(count):
+def monsterSource(count):
     """
-    Simulate the real skillSource argument to SkillConverter
+    Simulate the real monsterSource argument to MonsterConverter
     """
     for n in range(count):
-        yield MockSkill()
+        yield MockMonster()
 
 
-class MockSkill(object):
+class MockMonster(object):
     """
-    Simulate a real skill with class attributes
+    Simulate a real monster with class attributes
     """
     id = 1
     name = u'Sneakiness'
@@ -34,7 +34,6 @@ class MockSkill(object):
     trained = u'No'
     armor_check = u'-'
     description = u'<em>Stuff</em>'
-    skill_check = u'<em>More stuff</em>'
     action = u'Thingie'
     try_again = u'Yes'
     special = u'Hi'
@@ -43,7 +42,7 @@ class MockSkill(object):
     epic_use = '<p>If you are epic, you rock</p>'
     untrained = None
     full_text = '.........................................<em>stuff</em>'
-    reference = 'SRD 3.5 CombinedSkills'
+    reference = 'SRD 3.5 CombinedMonsters'
 
 
 SAMPLE = NS('http://sample.com/2007/mock.n3#')
@@ -104,15 +103,15 @@ class ConvertTestCase(unittest.TestCase):
         """
         Check that our plugins can be found.
         """
-        self.assert_(skillConverter in convert.getConverters())
-        self.assert_(skillConverter is convert.getConverter('skills'))
+        self.assert_(monsterConverter in convert.getConverters())
+        self.assert_(monsterConverter is convert.getConverter('monsters'))
         self.assertRaises(KeyError, lambda: convert.getConverter("  ** does not exist  ** "))
 
     def test_conversion(self):
         """
         Test running a mock converter, ensuring that IConverter is stable
         """
-        source = skillSource(1)
+        source = monsterSource(1)
         c = MockConverter(source)
 
         # test preamble
@@ -126,7 +125,7 @@ class ConvertTestCase(unittest.TestCase):
         # test next, __iter__
         for item in c:
             pass
-        self.failUnless(isinstance(item, MockSkill))
+        self.failUnless(isinstance(item, MockMonster))
 
         # test makePlaytoolsItem
         c.makePlaytoolsItem(item)
@@ -168,7 +167,7 @@ class ConvertTestCase(unittest.TestCase):
         """
         Assert that there is a standard way to get the doc from a Converter
         """
-        source = skillSource(1)
+        source = monsterSource(1)
         actual = convert.converterDoc(MockConverter(source))
         self.assertEqual(actual, "This docstring exists only for testing.")
 
