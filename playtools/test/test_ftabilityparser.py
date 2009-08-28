@@ -39,13 +39,30 @@ class FullTextAbilityParserTest(unittest.TestCase):
         Plain jane fulls can parse
         """
         aranea = open(RESOURCE('plugins/monster/monstertext/aranea.htm')).read()
-        parsed = ftabilityparser.parseFTAbilities(aranea, prep=0)
-        poison = parsed[0]
+        specAbs = ftabilityparser.parseFTAbilities(aranea, prep=0)
+        poison = specAbs[0]
         self.assertEqual(poison.name, "Poison")
         self.assertEqual(poison.useCategory, "Ex")
         self.assertEqual(poison.text, 
-                "Injury, Fortitude DC 13, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC is Constitution-based."
+                u'<div level="8" topic="Poison">\n<p> Injury, Fortitude DC 13, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC is Constitution-based.</p>\n</div>'
                 )
+
+    def test_spellLike(self):
+        """
+        Monsters with spell-like abilities can parse
+        """
+        pixie = open(RESOURCE('plugins/monster/monstertext/pixie.htm')).read()
+        specAbs = ftabilityparser.parseFTAbilities(pixie, prep=0)
+        for ab in specAbs:
+            if ab.useCategory == 'Sp':
+                self.assertEqual(ab.text, u"""<div level="8" topic="Spell-Like Abilities">
+<p> 1/day-<i>lesser confusion</i> (DC 14), <i>dancing lights</i>,  <i>detect chaos</i>,  <i>detect good</i>,  <i>detect evil</i>,  <i>detect law</i>,  <i>detect thoughts</i> (DC 15), <i>dispel magic</i>,  <i>entangle</i> (DC 14), <i>permanent image</i> (DC 19; visual and auditory elements only), <i>polymorph</i> (self only). Caster level 8th. The save DCs are Charisma-based.</p>
+<p>One pixie in ten can use <i>irresistible dance</i> (caster level 8th) once per day.</p>
+</div>""")
+                break
+        else:
+            assert 0, "Did not find spell-like ability"
+
 
     def test_null(self):
         """
@@ -53,7 +70,7 @@ class FullTextAbilityParserTest(unittest.TestCase):
         """
         t = ""
         parsed = ftabilityparser.parseFTAbilities(t)
-        expected = (None, None)
+        expected = []
         self.assertEqual(parsed, expected)
 
 
