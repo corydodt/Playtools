@@ -3,29 +3,29 @@ from pymeta.runtime import ParseError
 
 forward = ( # {{{ RPG-STYLE DICE EXPRESSIONS
 r'''
-sign ::= ('+' | '-')
-digits ::= (<digit>+):n                        => int(''.join(n))
-signed ::=  <sign>:s <spaces> <digits>:c       => int('%s%s' % (s, c))
+sign             ::= ('+' | '-')
+digits           ::= (<digit>+):n                  => int(''.join(n))
+signed           ::= <sign>:s <spaces> <digits>:c  => int('%s%s' % (s, c))
                                                
-dieSize ::= 'd' <spaces> <digits>:d            => sa('dieSize', d)
-count ::= <digits>:c                           => sa('count', c)
-dieSet ::= <count>? <spaces> <dieSize>          
+dieSize          ::= 'd' <spaces> <digits>:d       => sa('dieSize', d)
+count            ::= <digits>:c                    => sa('count', c)
+dieSet           ::= <count>? <spaces> <dieSize>
                                                
-filter ::= (('h' | 'H' | 'l' | 'L'):fd         => sa('filterDirection', fd.lower())
-            <digits>:fc                        => sa('filterCount', fc)
-            )                                  
+filter           ::= (('h' | 'H' | 'l' | 'L'):fd   => sa('filterDirection', fd.lower())
+                      <digits>:fc                  => sa('filterCount', fc)
+                      )
                                                
-dieModifier ::= <signed>:s                     => sa('dieModifier', s)
+dieModifier      ::= <signed>:s                    => sa('dieModifier', s)
                                                
-repeat ::= <digits>:r                          => sa('repeat', r)
-sorted ::= <token 'sort'>                      => sa('sort', 'sort')
-rollRepeat ::= 'x' <spaces> <repeat> <spaces> <sorted>?
+repeat           ::= <digits>:r                    => sa('repeat', r)
+sorted           ::= <token 'sort'>                => sa('sort', 'sort')
+rollRepeat       ::= 'x' <spaces> <repeat> <spaces> <sorted>?
 
-randomNumber ::= <dieSet> <spaces> <filter>?
-staticNumber ::= <digits>:n <spaces> ~'d'      => sa('staticNumber', int(n))
-generatedNumber ::= (<staticNumber> | <randomNumber>)
+randomNumber     ::= <dieSet> <spaces> <filter>?
+staticNumber     ::= <digits>:n <spaces> ~'d'      => sa('staticNumber', int(n))
+generatedNumber  ::= (<staticNumber> | <randomNumber>)
 
-diceExpression ::= <spaces> <generatedNumber> <dieModifier>? <spaces> <rollRepeat>? <spaces>
+diceExpression  ::= <spaces> <generatedNumber> <dieModifier>? <spaces> <rollRepeat>? <spaces>
 ''') # }}}
 
 
