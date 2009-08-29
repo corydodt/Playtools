@@ -63,7 +63,6 @@ class FullTextAbilityParserTest(unittest.TestCase):
         else:
             assert 0, "Did not find spell-like ability"
 
-
     def test_null(self):
         """
         Null fulls parse ok
