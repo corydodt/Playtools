@@ -185,11 +185,14 @@ class Processor(disp.DispatchProcessor):
     def extraDamage1(self, *a, **kw):
         return {'extraDamage': disp.getString(*a, **kw).strip()}
 
-    def rangedSenseName(self, (t,s1,s2,sub), buffer):
-        name = buffer[s1:s2]
+    def rangedSenseName(self, *a, **kw):
+        return disp.getString(*a, **kw)
+
+    def rangedSense(self, (t,s1,s2,sub), buffer):
+        ll = disp.dispatchList(self, sub, buffer)
+        name = ll.pop(0)
         q = Quality('sense', name)
         self.specialQualities.append(q)
-        ll = disp.dispatchList(self, sub, buffer)
         for part in ll:
             q.setArgs(**part)
 

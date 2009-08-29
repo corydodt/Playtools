@@ -63,7 +63,7 @@ resistanceName        :=  (?-'resistance', qWord, ws)+
 
 # sense {{{
 rangedSenseName       :=  c'darkvision'/c'blindsense'/c'blindsight'/c'telepathy'/c'tremorsense'/c'lifesense'
->rangedSense<         :=  rangedSenseName, !, range
+rangedSense           :=  rangedSenseName, !, range
 
 noArgumentSense       :=  c'low-light vision'/c'all-around vision'/c'see in darkness'/c'scent'/c'keen senses'
 
