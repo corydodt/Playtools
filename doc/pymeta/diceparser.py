@@ -3,13 +3,14 @@ from pymeta.runtime import ParseError
 
 forward = ( # {{{ RPG-STYLE DICE EXPRESSIONS
 r'''
+ws               ::= <spaces>  
 sign             ::= ('+' | '-')
 digits           ::= (<digit>+):n                  => int(''.join(n))
-signed           ::= <sign>:s <spaces> <digits>:c  => int('%s%s' % (s, c))
+signed           ::= <sign>:s <ws> <digits>:c      => int('%s%s' % (s, c))
                                                
-dieSize          ::= 'd' <spaces> <digits>:d       => sa('dieSize', d)
+dieSize          ::= 'd' <ws> <digits>:d           => sa('dieSize', d)
 count            ::= <digits>:c                    => sa('count', c)
-dieSet           ::= <count>? <spaces> <dieSize>
+dieSet           ::= <count>? <ws> <dieSize>
                                                
 filter           ::= (('h' | 'H' | 'l' | 'L'):fd   => sa('filterDirection', fd.lower())
                       <digits>:fc                  => sa('filterCount', fc)
@@ -19,13 +20,13 @@ dieModifier      ::= <signed>:s                    => sa('dieModifier', s)
                                                
 repeat           ::= <digits>:r                    => sa('repeat', r)
 sorted           ::= <token 'sort'>                => sa('sort', 'sort')
-rollRepeat       ::= 'x' <spaces> <repeat> <spaces> <sorted>?
+rollRepeat       ::= 'x' <ws> <repeat> <ws> <sorted>?
 
-randomNumber     ::= <dieSet> <spaces> <filter>?
-staticNumber     ::= <digits>:n <spaces> ~'d'      => sa('staticNumber', int(n))
+randomNumber     ::= <dieSet> <ws> <filter>?
+staticNumber     ::= <digits>:n <ws> ~'d'          => sa('staticNumber', int(n))
 generatedNumber  ::= (<staticNumber> | <randomNumber>)
 
-diceExpression  ::= <spaces> <generatedNumber> <dieModifier>? <spaces> <rollRepeat>? <spaces>
+diceExpression   ::= <ws> <generatedNumber> <dieModifier>? <ws> <rollRepeat>? ~~(<anything>?):ws ?(nothing(ws))
 ''') # }}}
 
 
@@ -40,6 +41,12 @@ class DiceExpression(object):
         self.filterCount = None
         self.staticNumber = None
 
+    def nothing(self, data):
+        """
+        True if data is None or contains only whitespace
+        """
+        return data is None or data.strip() == ''
+
     @classmethod
     def fromString(cls, s):
         """
@@ -47,7 +54,8 @@ class DiceExpression(object):
         """
         dexp = cls()
         sa = lambda k, v: setattr(dexp, k, v)
-        g = OMeta.makeGrammar(forward, {'sa': sa}, name="DiceExpression")
+        embedded = {'sa':sa, 'nothing': dexp.nothing}
+        g = OMeta.makeGrammar(forward, embedded, name="DiceExpression")
         g(s).apply('diceExpression')
         return dexp
 
@@ -71,31 +79,34 @@ class DiceExpression(object):
         return 'sn=%s c=%s ds=%s fd=%s fc=%s dm=%s r=%s sort=%s' % tuple(map(fn, ll))
 
     def __str__(self):
+        return self.format()
+
+    def format(self):
         if self.staticNumber is None:
             # minimize by dropping clauses that are defaults
 
             # no filter if self.filterCount is None
-            filter = ''
+            filter = u''
             if self.filterCount is not None:
-                filter = '%s%d' % (self.filterDirection, self.filterCount)
+                filter = u'%s%d' % (self.filterDirection, self.filterCount)
 
             # no modifier if +0
-            modifier = ''
+            modifier = u''
             if self.dieModifier != 0:
-                modifier = '%+d' % (self.dieModifier,)
+                modifier = u'%+d' % (self.dieModifier,)
 
             # no repeat if x1
-            repeat = ''
+            repeat = u''
             if self.repeat > 1:
-                repeat = 'x%d' % (self.repeat,)
+                repeat = u'x%d' % (self.repeat,)
 
             # no count if == 1
-            count = ''
+            count = u''
             if self.count != 1:
                 count = self.count
-            return '%sd%d%s%s%s%s' % (count, self.dieSize, filter, modifier, repeat, self.sort)
+            return u'%sd%d%s%s%s%s' % (count, self.dieSize, filter, modifier, repeat, self.sort)
         else:
-            return str(self.staticNumber)
+            return u'%s' % (self.staticNumber,)
 
 
 def parseDice(s):
