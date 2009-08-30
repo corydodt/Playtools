@@ -20,6 +20,12 @@ class Power(object):
     A special ability power
     """
     nonPowers = []
+    useCategory = None
+    frequency = None
+    basis = None
+    dc = None
+    casterLevel = None
+    qualifier = None
 
     def __init__(self, name, useCategory, text):
         self.name = name

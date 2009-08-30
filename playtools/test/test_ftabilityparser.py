@@ -47,21 +47,50 @@ class FullTextAbilityParserTest(unittest.TestCase):
                 u'<div level="8" topic="Poison">\n<p> Injury, Fortitude DC 13, initial damage 1d6 Str, secondary damage 2d6 Str. The save DC is Constitution-based.</p>\n</div>'
                 )
 
+    def formatSpellLike(self, sla):
+        return "{0.name}:{0.frequency}:{0.basis}:{0.dc}:{0.casterLevel}:{0.qualifier}".format(sla)
+
     def test_spellLike(self):
         """
         Monsters with spell-like abilities can parse
         """
-        pixie = open(RESOURCE('plugins/monster/monstertext/pixie.htm')).read()
-        specAbs = ftabilityparser.parseFTAbilities(pixie, prep=0)
-        for ab in specAbs:
-            if ab.useCategory == 'Sp':
-                self.assertEqual(ab.text, u"""<div level="8" topic="Spell-Like Abilities">
-<p> 1/day-<i>lesser confusion</i> (DC 14), <i>dancing lights</i>,  <i>detect chaos</i>,  <i>detect good</i>,  <i>detect evil</i>,  <i>detect law</i>,  <i>detect thoughts</i> (DC 15), <i>dispel magic</i>,  <i>entangle</i> (DC 14), <i>permanent image</i> (DC 19; visual and auditory elements only), <i>polymorph</i> (self only). Caster level 8th. The save DCs are Charisma-based.</p>
-<p>One pixie in ten can use <i>irresistible dance</i> (caster level 8th) once per day.</p>
-</div>""")
-                break
-        else:
-            assert 0, "Did not find spell-like ability"
+        def getSpellLikes(filename):
+            """
+            Get a list of spell-like abilities by parsing the filename
+            """
+            monster = open(filename).read()
+            specAbs = ftabilityparser.parseFTAbilities(monster, prep=0)
+            ret = []
+            for ab in specAbs:
+                if ab.useCategory == 'Sp':
+                    ret.append(self.formatSpellLike(ab))
+            return ret
+
+        asserted = getSpellLikes(RESOURCE('plugins/monster/monstertext/pixie.htm'))
+        stringy = '\n'.join(map(self.formatSpellLike, asserted))
+        self.assertEqual(stringy, """\
+lesser confusion:1/day:Charisma:14:8:
+dancing lights:1/day:Charisma::8:
+detect chaos:1/day:Charisma::8:
+detect good:1/day:Charisma::8:
+detect evil:1/day:Charisma::8:
+detect law:1/day:Charisma::8:
+detect thoughts:1/day:Charisma:15:8:
+dispel magic:1/day:Charisma::8:
+entangle:1/day:Charisma:14:8:
+permanent image:1/day:Charisma:19:8:visual and auditory elements only
+polymorph:1/day:Charisma::8:self only
+:::::<p>One pixie in ten can use <i>irresistible dance</i> (caster level 8th) once per day.</p>""")
+
+        asserted = getSpellLikes(RESOURCE('plugins/monster/monstertext/dreamLarva.htm')).read()
+        stringy = '\n'.join(map(self.formatSpellLike, asserted))
+        self.assertEqual(stringy, """\
+fly:At will:Charisma:23 + spell level:31:
+haste:At will:Charisma:23 + spell level:31:
+nightmare:At will:Charisma:23 + spell level:31:
+prismatic spray:At will:Charisma:23 + spell level:31:
+dreamscape:2/day:Charisma:23 + spell level:31:""")
+
 
     def test_null(self):
         """
