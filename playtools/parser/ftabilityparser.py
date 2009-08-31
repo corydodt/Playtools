@@ -15,6 +15,23 @@ def prepFT(s):
     return '<html>%s</html>' % (unescape(s),)
 
 
+def flatten(doc):
+    def _flatten(node):
+        if node.attributes:
+            attr = dict(node.attributes.items())
+        else:
+            attr = {}
+        name = node.nodeName
+        if name == '#text':
+            n = node.data
+        else:
+            n = node
+        if node.childNodes:
+            return name, attr, n, map(_flatten, node.childNodes)
+        return name, attr, n, []
+    return [_flatten(doc.documentElement)]
+
+
 class Power(object):
     """
     A special ability power

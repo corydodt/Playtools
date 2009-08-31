@@ -4,6 +4,7 @@ descriptions of a monster's special abilities.
 """
 import sys
 import traceback
+from xml.dom import minidom
 
 from twisted.trial import unittest
 
@@ -14,10 +15,63 @@ from playtools.util import RESOURCE
 SRD = fact.systems['D20 SRD']
 MONSTERS = SRD.facts['monster']
 
+class FakeElement(object):
+    """
+    Fudge doesn't allow you to .provide an __eq__ because of the unusual
+    circumstances involved in calling __eq__ (apparently it's called via the
+    class rather than the instance).
+    """
+    def __eq__(self, other):
+        return True
+
 class FullTextAbilityParserTest(unittest.TestCase):
     """
     Test nuances of parsing
     """
+    def test_flatten(self):
+        fakeEl = FakeElement()
+
+        s = u"""<html foo='bar'/>"""
+        doc = minidom.parseString(s)
+        actual = ftabilityparser.flatten(doc)
+        expected = [(u'html', {u'foo':u'bar'}, fakeEl, [])]
+        self.assertEqual(actual, expected)
+
+        s = u"""<html><head /> stuff </html>"""
+        doc = minidom.parseString(s)
+        actual = ftabilityparser.flatten(doc)
+        expected = [(u'html', {}, fakeEl, 
+            [(u'head', {}, fakeEl, []),
+             (u'#text', {}, u' stuff ', [])])
+            ]
+        self.assertEqual(actual, expected)
+
+        s = u"""<html><head><title>hello</title><meta /></head><body><div
+        la="1">text <p topic="xyz"><b>title</b> other</p>
+        stuff</div><div la="2">other</div></body></html>"""
+        doc = minidom.parseString(s)
+        actual = ftabilityparser.flatten(doc)
+        expected = [
+                (u'html', {}, fakeEl, [
+                    (u'head', {}, fakeEl, [
+                        (u'title', {}, fakeEl, [
+                            ("#text", {}, u'hello', [])]),
+                        (u'meta', {}, fakeEl, [])]),
+                    (u'body', {}, fakeEl, [
+                        (u'div', {u'la':u'1'}, fakeEl, [
+                            ('#text', {}, u'text ', []),
+                            (u'p', {u'topic':u'xyz'}, fakeEl, [
+                                (u'b', {}, fakeEl, [
+                                    ('#text', {}, u'title', [])]),
+                                ('#text', {}, u' other', [])]),
+                            ('#text', {}, u'\n        stuff', [])]),
+                        (u'div', {u'la':u'2'}, fakeEl, [
+                            ('#text', {}, u'other', []) 
+                            ])])
+                        ])
+                    ]
+        self.assertEqual(actual, expected)
+
     def test_unescape(self):
         """
         Check utility fn to remove slashes removes them.
