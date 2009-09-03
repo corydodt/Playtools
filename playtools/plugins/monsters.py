@@ -20,7 +20,7 @@ from playtools.parser import (abilityparser, saveparser, treasureparser,
 from playtools.parser.misc import (parseInitiative, parseSize,
             parseChallengeRating, parseFamily, parseGrapple)
 
-from playtools.plugins import d20srd35, monstertext
+from playtools.plugins import d20srd35
 from playtools.test.pttestutil import TODO
 
 

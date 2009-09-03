@@ -6,7 +6,6 @@ from playtools.util import rdfName, doNodes, findNodes, gatherText
 from xml.dom import minidom
 
 uniqueMonster = set()
-monsterMash = []
 
 
 def getFirstTextNode(dom):
