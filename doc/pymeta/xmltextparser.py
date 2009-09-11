@@ -5,6 +5,8 @@ from fudge import Fake
 
 from pymeta.grammar import OMeta
 
+from playtools.test.pttestutil import TODO
+
 RAW = Fake("RAW")
 FSTART = Fake("FSTART")
 FEND = Fake("FEND")
@@ -42,6 +44,42 @@ def reparseText(parsed):
         out.append((RAW, b))
     return out
 
+def substituteNodes(node, replacements):
+    """
+    Replace the node with a list of nodes that replace it
+    """
+    p = node.parentNode
+    for r in replacements:
+        p.insertBefore(r, node)
+    p.removeChild(node)
+
+def substituteSLAText(orig, parsed):
+    """
+    Use parsed to construct a new sequence of nodes to put into parent
+    """
+    p = orig.parentNode
+    doc = orig.ownerDocument
+    substitutions = []
+    for type, data in parsed:
+        if type is RAW:
+            substitutions.append(doc.createTextNode(data))
+        elif type is QUAL:
+            div = doc.createElement('div')
+            div.setAttribute('p:property', 'qualifier')
+            tn = doc.createTextNode('(' + data + ')')
+            div.appendChild(tn)
+            substitutions.append(div)
+        elif type is FEND:
+            div = doc.createElement('div')
+            div.setAttribute('p:property', 'frequencyEnd')
+            substitutions.extend([div, doc.createTextNode(data)])
+        elif type is FSTART:
+            div = doc.createElement('div')
+            div.setAttribute('p:property', 'frequencyStart')
+            div.setAttribute('content', data)
+            substitutions.extend([div, doc.createTextNode(data + '-')])
+    substituteNodes(orig, substitutions)
+
 def test1():
     test = """<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
     <p><b p:property="powerName">Spell-Like Abilities:</b> At will-<i p:property="spellName">detect evil</i> (as a free action);
@@ -60,7 +98,22 @@ def test1():
             continue
         if cn.nodeName == '#text':
             parsed = Frequelizer(cn.data).apply('slaText')
-            parsed = reparseText(parsed)
-            print parsed
+            nodes = reparseText(parsed)
+            substituteSLAText(cn, nodes)
+
+    print doc.toxml()
+
+TODO("refine Frequelizer",
+        """to also extract per-spell DC, overall caster level, and overall save DC basis""")
+
+
+TODO("recursive descent SLA token finder",
+        """use findnodes to return a flat list of all nodes which are frequencyStart,
+        frequencyEnd, saveDC, qualifier, saveBasis, casterLevel, or spellName.
+        """)
+
+TODO("OMeta parser",
+    """create a OMeta parser that takes the node tokens and produces a parsed SLA object
+    """)
 
 test1()
