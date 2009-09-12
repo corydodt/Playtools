@@ -113,6 +113,31 @@ class UtilTestCase(unittest.TestCase):
         notFound = util.findNodeByAttribute(n2, 'x', '_no_')
         self.assertEqual(notFound, None)
 
+    def test_substituteNodes(self):
+        """
+        You can replace a node with some other content
+        """
+        t1 = minidom.parseString("<top><left />text<right /></top>").documentElement
+        CE = t1.ownerDocument.createElement
+        CT = t1.ownerDocument.createTextNode
+        CC = t1.ownerDocument.createComment
+
+        # save out the actual children, since childNodes is mutable and will be modified by our
+        # test
+        c0 = t1.childNodes[0]
+        c1 = t1.childNodes[1]
+        c2 = t1.childNodes[2]
+
+        rep0 = [CT("left"), CT("etc.")]
+        rep1 = [CE("element"), CC("comment")]
+        rep2 = [CT("etc."), CE("element")]
+        util.substituteNodes(c0, rep0)
+        util.substituteNodes(c1, rep1)
+        util.substituteNodes(c2, rep2)
+        
+        self.assertEqual(t1.toxml(), 
+                u"<top>leftetc.<element/><!--comment-->etc.<element/></top>")
+
     def test_flushLeft(self):
         """
         Triple-quoted strings are annoying to work with - this function makes

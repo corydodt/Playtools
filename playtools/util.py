@@ -7,8 +7,6 @@ import re
 
 from twisted.python.util import sibpath
 
-from playtools.test.pttestutil import TODO
-
 RESOURCE = lambda f: sibpath(__file__, f)
 
 def rdfName(s):
@@ -65,6 +63,15 @@ def columnizeResult(res, prefixes=None):
             ret.append(px(col)[:26].ljust(28))
         ret.append('\n')
     return ''.join(ret)
+
+def substituteNodes(node, replacements):
+    """
+    Replace the node with a list of nodes that replace it
+    """
+    p = node.parentNode
+    for r in replacements:
+        p.insertBefore(r, node)
+    p.removeChild(node)
 
 def doNodes(dom, matcher, cb=None):
     """
