@@ -96,6 +96,23 @@ class UtilTestCase(unittest.TestCase):
         t2 = minidom.parseString("<x>ab c</x>")
         self.assertEqual(util.gatherText(t2), u"ab c")
 
+    def test_findNodeByAttribute(self):
+        """
+        We can get a single node that has the given attribute value
+        """
+        t1 = '<a id="1" b="c"><b c="d" /><b b="no"/><b>content</b></a>'
+        n1 = minidom.parseString(t1).documentElement
+        found = util.findNodeByAttribute(n1, 'b', 'c')
+        self.assertEqual(found.getAttribute('id'), '1')
+
+        t2 = '<a><b/><b id="1" x="y"><b id="2" x="y" /></b></a>'
+        n2 = minidom.parseString(t2).documentElement
+        found = util.findNodeByAttribute(n2, 'x', 'y')
+        self.assertEqual(found.getAttribute('id'), '1')
+
+        notFound = util.findNodeByAttribute(n2, 'x', '_no_')
+        self.assertEqual(notFound, None)
+
     def test_flushLeft(self):
         """
         Triple-quoted strings are annoying to work with - this function makes

@@ -104,3 +104,13 @@ def flushLeft(text):
     ret = [l[stripCount:] for l in text.splitlines()]
     return '\n'.join(ret)
 
+def findNodeByAttribute(root, attr, value):
+    """
+    Return the first node under root that has attr="value"
+    """
+    def matcher(n):
+        if n.attributes:
+            return n.getAttribute(attr) == value
+    for n in findNodes(root, matcher):
+        return n
+
