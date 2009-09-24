@@ -8,27 +8,26 @@ from twisted.trial import unittest
 from playtools.parser import slaxmlparser as sxp
 from playtools.test.pttestutil import DiffTestCaseMixin
 
-class QualizerTest(unittest.TestCase, DiffTestCaseMixin):
+class QualTest(unittest.TestCase, DiffTestCaseMixin):
     """
-    Test the Qualizer and support functions
+    Test the parsing of quals
     """
     def setUp(self):
         globs = {'QUAL': sxp.QUAL, 'DC': sxp.DC, 'CL': sxp.CL}
         self.parsed = []
         globs['A'] = lambda *x: self.parsed.extend(x)
-        Preprocessor = sxp.OMeta.makeGrammar(sxp.preprocGrammar, globs, "Preprocessor")
-        self.qualizer = Preprocessor.makeGrammar(sxp.qualGrammar, globs, "Qualizer")
+        self.parser = sxp.OMeta.makeGrammar(sxp.preprocGrammar, globs, "Preprocessor")
 
     def test_DC(self):
         """
         Quals containing DC get parsed
         """
-        self.qualizer("DC 21").apply("qualInner")
+        self.parser("DC 21").apply("qualInner")
         expected = [[sxp.DC, 21]]
         self.assertEqual(self.parsed, expected)
 
         self.parsed = []
-        self.qualizer("DC x21").apply("qualInner")
+        self.parser("DC x21").apply("qualInner")
         expected = [[sxp.QUAL, 'DC x21']]
         self.assertEqual(self.parsed, expected)
 
@@ -36,12 +35,12 @@ class QualizerTest(unittest.TestCase, DiffTestCaseMixin):
         """
         Quals containing caster level get parsed
         """
-        self.qualizer("caster level 8th").apply("qualInner")
+        self.parser("caster level 8th").apply("qualInner")
         expected = [[sxp.CL, 8]]
         self.assertEqual(self.parsed, expected)
 
         self.parsed = []
-        self.qualizer("caster level sux").apply("qualInner")
+        self.parser("caster level sux").apply("qualInner")
         expected = [[sxp.QUAL, 'caster level sux']]
         self.assertEqual(self.parsed, expected)
 
@@ -49,12 +48,12 @@ class QualizerTest(unittest.TestCase, DiffTestCaseMixin):
         """
         Various combinations of vanilla, DC and caster level get parsed
         """
-        self.qualizer("caster level 8th, peanut butter").apply("qualInner")
+        self.parser("caster level 8th, peanut butter").apply("qualInner")
         expected = [[sxp.CL, 8], [sxp.QUAL, "peanut butter"]]
         self.assertEqual(self.parsed, expected)
 
         self.parsed = []
-        actual = self.qualizer("DC 8, peanut butter, caster level 8th").apply("qualInner")
+        actual = self.parser("DC 8, peanut butter, caster level 8th").apply("qualInner")
         expected = [[sxp.DC, 8], [sxp.QUAL, "peanut butter"], [sxp.CL, 8]]
         self.assertEqual(self.parsed, expected)
 
@@ -63,13 +62,13 @@ class QualizerTest(unittest.TestCase, DiffTestCaseMixin):
         Vanilla non-interesting quals just get a QUAL marker
         """
         t = "whatever 123 aasdf"
-        self.qualizer(t).apply("qualInner")
+        self.parser(t).apply("qualInner")
         expected = [[sxp.QUAL, "whatever 123 aasdf"]]
         self.assertEqual(self.parsed, expected)
 
         self.parsed = []
         t = "whatever 123, aasdf"
-        self.qualizer(t).apply("qualInner")
+        self.parser(t).apply("qualInner")
         expected = [[sxp.QUAL, "whatever 123"], [sxp.QUAL, "aasdf"]]
         self.assertEqual(self.parsed, expected)
 

@@ -21,25 +21,25 @@ QUAL = Fake("QUAL")
 DC = Fake("DC")
 CL = Fake("CL")
 
+# {{{ preprocGrammar
 preprocGrammar = """
 t :x      ::=   <token x>
 fStartTime ::=  (<digit>+:d '/' (<t 'day'>|<t 'week'>):t)        => ''.join(d+['/',t])
 fStart    ::=   (<t 'At will'>|<fStartTime>):f '-'               => A([FSTART, f])
 fEnd      ::=   ('.'|';'|','):f                                  => A([SEP, f])
-qual      ::=   '(' (~')' <anything>)*:x ')'                     => A([QUAL, ''.join(x)])
+qual      ::=   '(' <qualInner> ')'
 raw       ::=   <anything>:x                                     => A([RAW, x,])
 slaText   ::=   (<qual>|<fStart>|<fEnd>|<raw>)*
-"""
 
-qualGrammar = """
+commaPar  ::=   ','|')'  
 number    ::=   <digit>+:d                                       => int(''.join(d))  
 casterLevel ::=  <t "caster level"> <spaces> <number>:d <letter>+ => [CL, d]
 dc        ::=   <t "DC"> <spaces> <number>:d                     => [DC, d]
-nonComma  ::=   (~',' <anything>)*:x                             => ''.join(x).strip()
-vanilla   ::=   <nonComma>:x                                     => [QUAL, x]  
+qualMisc  ::=   (~<commaPar> <anything>)*:x                             => ''.join(x).strip()
+vanilla   ::=   <qualMisc>:x                                     => [QUAL, x]  
 qualAny   ::=   (<dc>|<casterLevel>|<vanilla>):x                 => A(x)  
 qualInner ::=   <qualAny> (',' <qualAny>)*
-"""
+""" # }}}
 
 def reparseText(parsed):
     """
@@ -118,7 +118,6 @@ def preprocessSLAXML(node):
 
     globs = globals().copy()
     Preprocessor = OMeta.makeGrammar(preprocGrammar, globs, "Preprocessor")
-    Qualizer = Preprocessor.makeGrammar(qualGrammar, globs, "Qualizer")
 
     todo = node.childNodes[:]
     for n, cn in enumerate(todo):
@@ -140,16 +139,17 @@ def preprocessSLAXML(node):
     return node
 
 
-TODO("refine Frequelizer",
-        """to also extract per-spell DC, overall caster level, and overall save DC basis""")
+if True: # {{{ TODOs
+    TODO("refine Frequelizer",
+            """to also extract per-spell DC, overall caster level, and overall save DC basis""")
 
 
-TODO("recursive descent SLA token finder",
-        """use findnodes to return a flat list of all nodes which are frequencyStart,
-        frequencyEnd, saveDC, qualifier, saveBasis, casterLevel, or spellName.
+    TODO("recursive descent SLA token finder",
+            """use findnodes to return a flat list of all nodes which are frequencyStart,
+            frequencyEnd, saveDC, qualifier, saveBasis, casterLevel, or spellName.
+            """)
+
+    TODO("OMeta parser",
+        """create a OMeta parser that takes the node tokens and produces a parsed SLA object
         """)
-
-TODO("OMeta parser",
-    """create a OMeta parser that takes the node tokens and produces a parsed SLA object
-    """)
-
+    # }}}
