@@ -32,7 +32,13 @@ slaText   ::=   (<qual>|<fStart>|<fEnd>|<raw>)*
 """
 
 qualGrammar = """
-qual      ::=   <anything>:x                                     => A([QUAL, x])
+number    ::=   <digit>+:d                                       => int(''.join(d))  
+casterLevel ::=  <t "caster level"> <spaces> <number>:d <letter>+ => [CL, d]
+dc        ::=   <t "DC"> <spaces> <number>:d                     => [DC, d]
+nonComma  ::=   (~',' <anything>)*:x                             => ''.join(x).strip()
+vanilla   ::=   <nonComma>:x                                     => [QUAL, x]  
+qualAny   ::=   (<dc>|<casterLevel>|<vanilla>):x                 => A(x)  
+qualInner ::=   <qualAny> (',' <qualAny>)*
 """
 
 def reparseText(parsed):

@@ -14,6 +14,8 @@ class QualizerTest(unittest.TestCase, DiffTestCaseMixin):
     """
     def setUp(self):
         globs = {'QUAL': sxp.QUAL, 'DC': sxp.DC, 'CL': sxp.CL}
+        self.parsed = []
+        globs['A'] = lambda *x: self.parsed.extend(x)
         Preprocessor = sxp.OMeta.makeGrammar(sxp.preprocGrammar, globs, "Preprocessor")
         self.qualizer = Preprocessor.makeGrammar(sxp.qualGrammar, globs, "Qualizer")
 
@@ -21,49 +23,55 @@ class QualizerTest(unittest.TestCase, DiffTestCaseMixin):
         """
         Quals containing DC get parsed
         """
-        actual = self.qualizer("DC 21").apply("qual")
-        expected = [(sxp.DC, 21)]
-        self.assertEqual(actual, expected)
+        self.qualizer("DC 21").apply("qualInner")
+        expected = [[sxp.DC, 21]]
+        self.assertEqual(self.parsed, expected)
 
-        q = self.qualizer("DC x21")
-        self.assertRaises(SyntaxError, q.apply, "qual")
+        self.parsed = []
+        self.qualizer("DC x21").apply("qualInner")
+        expected = [[sxp.QUAL, 'DC x21']]
+        self.assertEqual(self.parsed, expected)
 
     def test_casterLevel(self):
         """
         Quals containing caster level get parsed
         """
-        actual = self.qualizer("caster level 8th").apply("qual")
-        expected = [(sxp.CL, 8)]
-        self.assertEqual(actual, expected)
+        self.qualizer("caster level 8th").apply("qualInner")
+        expected = [[sxp.CL, 8]]
+        self.assertEqual(self.parsed, expected)
 
-        q = self.qualizer("caster level sux")
-        self.assertRaises(SyntaxError, q.apply, "qual")
+        self.parsed = []
+        self.qualizer("caster level sux").apply("qualInner")
+        expected = [[sxp.QUAL, 'caster level sux']]
+        self.assertEqual(self.parsed, expected)
 
     def test_combo(self):
         """
         Various combinations of vanilla, DC and caster level get parsed
         """
-        actual = self.qualizer("caster level 8th, peanut butter").apply("qual")
-        expected = [(sxp.CL, 8), (sxp.QUAL, "peanut butter")]
-        self.assertEqual(actual, expected)
+        self.qualizer("caster level 8th, peanut butter").apply("qualInner")
+        expected = [[sxp.CL, 8], [sxp.QUAL, "peanut butter"]]
+        self.assertEqual(self.parsed, expected)
 
-        actual = self.qualizer("DC 8, peanut butter, caster level 8th").apply("qual")
-        expected = [(sxp.DC, 8), (sxp.QUAL, "peanut butter"), (sxp.CL, 8)]
-        self.assertEqual(actual, expected)
+        self.parsed = []
+        actual = self.qualizer("DC 8, peanut butter, caster level 8th").apply("qualInner")
+        expected = [[sxp.DC, 8], [sxp.QUAL, "peanut butter"], [sxp.CL, 8]]
+        self.assertEqual(self.parsed, expected)
 
     def test_vanilla(self):
         """
         Vanilla non-interesting quals just get a QUAL marker
         """
         t = "whatever 123 aasdf"
-        actual = self.qualizer(t).apply("qual")
-        expected = "whatever 123 aasdf"
-        self.assertEqual(actual, expected)
+        self.qualizer(t).apply("qualInner")
+        expected = [[sxp.QUAL, "whatever 123 aasdf"]]
+        self.assertEqual(self.parsed, expected)
 
+        self.parsed = []
         t = "whatever 123, aasdf"
-        actual = self.qualizer(t).apply("qual")
-        expected = "whatever 123, aasdf"
-        self.assertEqual(actual, expected)
+        self.qualizer(t).apply("qualInner")
+        expected = [[sxp.QUAL, "whatever 123"], [sxp.QUAL, "aasdf"]]
+        self.assertEqual(self.parsed, expected)
 
 
 class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
