@@ -26,7 +26,7 @@ t :x      ::=   <token x>
 fStartTime ::=  (<digit>+:d '/' (<t 'day'>|<t 'week'>):t)        => ''.join(d+['/',t])
 fStart    ::=   (<t 'At will'>|<fStartTime>):f '-'               => A([FSTART, f])
 fEnd      ::=   ('.'|';'|','):f                                  => A([SEP, f])
-qual      ::=   <exactly '('> (~(')') <anything>)*:x  <exactly ')'> => A([QUAL, ''.join(x)])
+qual      ::=   '(' (~')' <anything>)*:x ')'                     => A([QUAL, ''.join(x)])
 raw       ::=   <anything>:x                                     => A([RAW, x,])
 slaText   ::=   (<qual>|<fStart>|<fEnd>|<raw>)*
 """
