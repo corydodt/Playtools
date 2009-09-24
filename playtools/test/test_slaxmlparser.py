@@ -77,6 +77,18 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
     """
     Test the preprocessor and support functions
     """
+    def test_joinRaw(self):
+        """
+        Consecutive sequences of RAW get joined together; other stuff left
+        alone
+        """
+        t = [(sxp.RAW, "1"), (sxp.QUAL, "2"), (sxp.RAW, "3"),
+                (sxp.RAW, "4"), (sxp.RAW, "56"), (sxp.FSTART, "whatever")]
+        expected = [(sxp.RAW, "1"), (sxp.QUAL, "2"), (sxp.RAW, "3456"),
+                (sxp.FSTART, "whatever")]
+        self.assertEqual(sxp.joinRaw(t), expected)
+
+
     def test_preprocess(self):
         """
         Convert unprocessed XML nodes into preprocessed SLA nodes

@@ -23,27 +23,28 @@ CL = Fake("CL")
 
 # {{{ preprocGrammar
 preprocGrammar = """
-t :x      ::=   <token x>
-fStartTime ::=  (<digit>+:d '/' (<t 'day'>|<t 'week'>):t)        => ''.join(d+['/',t])
-fStart    ::=   (<t 'At will'>|<fStartTime>):f '-'               => A([FSTART, f])
-fEnd      ::=   ('.'|';'|','):f                                  => A([SEP, f])
-qual      ::=   '(' <qualInner> ')'
-raw       ::=   <anything>:x                                     => A([RAW, x,])
-slaText   ::=   (<qual>|<fStart>|<fEnd>|<raw>)*
+t :x         ::=  <token x>
+fStartTime   ::=  (<digit>+:d '/' (<t 'day'>|<t 'week'>):t)         => ''.join(d+['/',t])
+fStart       ::=  (<t 'At will'>|<fStartTime>):f '-'                => A([FSTART, f])
+fEnd         ::=  ('.'|';'|','):f                                   => A([SEP, f])
+qual         ::=  '(' <qualInner> ')'
+raw          ::=  <anything>:x                                      => A([RAW, x,])
+slaText      ::=  (<qual>|<fStart>|<fEnd>|<raw>)*
 
-commaPar  ::=   ','|')'  
-number    ::=   <digit>+:d                                       => int(''.join(d))  
-casterLevel ::=  <t "caster level"> <spaces> <number>:d <letter>+ => [CL, d]
-dc        ::=   <t "DC"> <spaces> <number>:d                     => [DC, d]
-qualMisc  ::=   (~<commaPar> <anything>)*:x                             => ''.join(x).strip()
-vanilla   ::=   <qualMisc>:x                                     => [QUAL, x]  
-qualAny   ::=   (<dc>|<casterLevel>|<vanilla>):x                 => A(x)  
-qualInner ::=   <qualAny> (',' <qualAny>)*
+commaPar     ::=  ','|')'
+number       ::=  <digit>+:d                                        => int(''.join(d))
+casterLevel  ::=  <t "caster level"> <spaces> <number>:d <letter>+  => [CL, d]
+dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
+qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
+vanilla      ::=  <qualMisc>:x                                      => [QUAL, x]
+qualAny      ::=  (<dc>|<casterLevel>|<vanilla>):x                  => A(x)
+qualInner    ::=  <qualAny> (',' <qualAny>)*
 """ # }}}
 
-def reparseText(parsed):
+def joinRaw(parsed):
     """
-    Scan parsed for sequences of RAW characters, and put them back together as strings.
+    Scan parsed for sequences of RAW characters, and put them back together as
+    strings.  Leave alone other types of nodes.
     """
     out = []
     buffer = ''
@@ -131,9 +132,8 @@ def preprocessSLAXML(node):
                     import pdb; pdb.set_trace()
                 parsed.extend(x)
             globs['A'] = ex # lambda *x: parsed.extend(x)
-            globs['Q'] = lambda data: Qualizer(data).apply('qual')
             Preprocessor(cn.data).apply('slaText')
-            nodes = reparseText(parsed)
+            nodes = joinRaw(parsed)
             substituteSLAText(cn, nodes)
 
     return node
