@@ -24,7 +24,8 @@ CL = Fake("CL")
 # {{{ preprocGrammar
 preprocGrammar = """
 t :x         ::=  <token x>
-fStartTime   ::=  (<digit>+:d '/' (<t 'day'>|<t 'week'>):t)         => ''.join(d+['/',t])
+timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>
+fStartTime   ::=  <digit>+:d '/' <timeUnit>:t                       => ''.join(d+['/',t])
 fStart       ::=  (<t 'At will'>|<fStartTime>):f '-'                => A([FSTART, f])
 fEnd         ::=  ('.'|';'|','):f                                   => A([SEP, f])
 qual         ::=  '(' <qualInner> ')'
@@ -112,7 +113,6 @@ def processDocument(doc):
     if slaNode:
         preprocessSLAXML(slaNode)
 
-    assert len(frequencies) > 0
     return doc
 
 def preprocessSLAXML(node):
