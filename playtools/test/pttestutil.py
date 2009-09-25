@@ -70,7 +70,6 @@ class DiffTestCaseMixin(object):
 
         return first, second
 
-
     def failIfDiff(self, first, second, fromfile='First', tofile='Second',
             eq=operator.eq, formatter=None):
         """
