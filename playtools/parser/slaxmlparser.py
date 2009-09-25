@@ -73,20 +73,34 @@ def substituteSLAText(orig, parsed):
         if type is RAW:
             substitutions.append(doc.createTextNode(data))
         elif type is QUAL:
-            div = doc.createElement('div')
-            div.setAttribute('p:property', 'qualifier')
+            span = doc.createElement('span')
+            span.setAttribute('p:property', 'qualifier')
             tn = doc.createTextNode('(' + data + ')')
-            div.appendChild(tn)
-            substitutions.append(div)
+            span.appendChild(tn)
+            substitutions.append(span)
+        elif type is CL:
+            span = doc.createElement('span')
+            span.setAttribute('p:property', 'casterLevel')
+            span.setAttribute('content', unicode(data))
+            tn = doc.createTextNode('(caster level %s)' % (data,))
+            span.appendChild(tn)
+            substitutions.append(span)
+        elif type is DC:
+            span = doc.createElement('span')
+            span.setAttribute('p:property', 'dc')
+            span.setAttribute('content', unicode(data))
+            tn = doc.createTextNode('(DC %s)' % (data,))
+            span.appendChild(tn)
+            substitutions.append(span)
         elif type is SEP:
-            div = doc.createElement('div')
-            div.setAttribute('p:property', 'sep')
-            substitutions.extend([div, doc.createTextNode(data)])
+            span = doc.createElement('span')
+            span.setAttribute('p:property', 'sep')
+            substitutions.extend([span, doc.createTextNode(data)])
         elif type is FSTART:
-            div = doc.createElement('div')
-            div.setAttribute('p:property', 'frequencyStart')
-            div.setAttribute('content', data)
-            substitutions.extend([div, doc.createTextNode(data + '-')])
+            span = doc.createElement('span')
+            span.setAttribute('p:property', 'frequencyStart')
+            span.setAttribute('content', data)
+            substitutions.extend([span, doc.createTextNode(data + '-')])
     util.substituteNodes(orig, substitutions)
 
 def processDocument(doc):

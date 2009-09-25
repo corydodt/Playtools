@@ -88,7 +88,6 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
                 (sxp.FSTART, "whatever")]
         self.assertEqual(sxp.joinRaw(t), expected)
 
-
     def test_preprocess(self):
         """
         Convert unprocessed XML nodes into preprocessed SLA nodes
@@ -107,73 +106,76 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
             import sys, pdb
             print sys.exc_info()
             pdb.post_mortem(sys.exc_info()[2])
-        self.failIfDiff(*map(unicode.splitlines, [n.toprettyxml(),
-            u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
+        actual = unicode.splitlines(n.toprettyxml())
+        expected = unicode.splitlines(u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
 	 
 	<p>
 		<b p:property="powerName">
 			Spell-Like Abilities:
 		</b>
-		<div content="At will" p:property="frequencyStart"/>
+		<span content="At will" p:property="frequencyStart"/>
 		At will-
 		<i p:property="spellName">
 			detect evil
 		</i>
 		 
-		<div p:property="qualifier">
+		<span p:property="qualifier">
 			(as a free action)
-		</div>
-		<div p:property="sep"/>
+		</span>
+		<span p:property="sep"/>
 		;
 		 
-		<div content="1/day" p:property="frequencyStart"/>
+		<span content="1/day" p:property="frequencyStart"/>
 		1/day-
 		<i p:property="spellName">
 			cure moderate wounds
 		</i>
 		 
-		<div p:property="qualifier">
+		<span p:property="qualifier">
 			(Caster level 5th)
-		</div>
-		<div p:property="sep"/>
+		</span>
+		<span p:property="sep"/>
 		,
 		 
 		<i p:property="spellName">
 			neutralize poison
 		</i>
 		 
-		<div p:property="qualifier">
-			(
-            <div p:property="dc">DC 21</div>
-            , caster level 8th)
-		</div>
+		<span content="21" p:property="dc">
+			(DC 21)
+		</span>
+		<span content="8" p:property="casterLevel">
+			(caster level 8)
+		</span>
 		 
-		<div p:property="qualifier">
+		<span p:property="qualifier">
 			(with a touch of its horn)
-		</div>
-		<div p:property="sep"/>
+		</span>
+		<span p:property="sep"/>
 		,
 		 
 		<i p:property="spellName">
 			greater teleport
 		</i>
 		 
-		<div p:property="qualifier">
+		<span p:property="qualifier">
 			(anywhere within its home; it cannot teleport beyond the forest boundaries nor back from outside)
-		</div>
-		<div p:property="sep"/>
+		</span>
+		<span p:property="sep"/>
 		.
 		 The save DC is Charisma-based
-		<div p:property="sep"/>
+		<span p:property="sep"/>
 		.
 	</p>
 	 
 </div>
-''']))
-    t2 = '''<div level="8" topic="Spell-Like Abilities">
-            <p><b>Spell-Like Abilities:</b> At will-<i>greater dispel
-            magic</i>,  <i>displacement</i> (DC 18),  <i>greater
-            invisibility</i> (DC 19),  <i>ethereal jaunt</i>. Caster level
-            22nd. The save DCs are Charisma-based.</p>
-            </div>'''
+''')
+        self.failIfDiff(actual, expected, fromfile="actual", tofile="expected")
+
+    # t2 = '''<div level="8" topic="Spell-Like Abilities">
+    #         <p><b>Spell-Like Abilities:</b> At will-<i>greater dispel
+    #         magic</i>,  <i>displacement</i> (DC 18),  <i>greater
+    #         invisibility</i> (DC 19),  <i>ethereal jaunt</i>. Caster level
+    #         22nd. The save DCs are Charisma-based.</p>
+    #         </div>'''
 
