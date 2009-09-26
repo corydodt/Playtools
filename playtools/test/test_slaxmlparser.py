@@ -2,7 +2,9 @@
 test_slaxmlparser verifies the processes that convert XML nodes containing spell-like abilities
 into formed XML structures.
 """
+import inspect
 from xml.dom import minidom
+
 from twisted.trial import unittest
 
 from playtools.parser import slaxmlparser as sxp
@@ -106,70 +108,71 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
             import sys, pdb
             print sys.exc_info()
             pdb.post_mortem(sys.exc_info()[2])
-        actual = unicode.splitlines(n.toprettyxml())
-        expected = unicode.splitlines(u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
-	 
-	<p>
-		<b p:property="powerName">
-			Spell-Like Abilities:
-		</b>
-		<span content="At will" p:property="frequencyStart"/>
-		At will-
-		<i p:property="spellName">
-			detect evil
-		</i>
-		 
-		<span p:property="qualifier">
-			(as a free action)
-		</span>
-		<span p:property="sep"/>
-		;
-		 
-		<span content="1/day" p:property="frequencyStart"/>
-		1/day-
-		<i p:property="spellName">
-			cure moderate wounds
-		</i>
-		 
-		<span p:property="qualifier">
-			(Caster level 5th)
-		</span>
-		<span p:property="sep"/>
-		,
-		 
-		<i p:property="spellName">
-			neutralize poison
-		</i>
-		 
-		<span content="21" p:property="dc">
-			(DC 21)
-		</span>
-		<span content="8" p:property="casterLevel">
-			(caster level 8)
-		</span>
-		 
-		<span p:property="qualifier">
-			(with a touch of its horn)
-		</span>
-		<span p:property="sep"/>
-		,
-		 
-		<i p:property="spellName">
-			greater teleport
-		</i>
-		 
-		<span p:property="qualifier">
-			(anywhere within its home; it cannot teleport beyond the forest boundaries nor back from outside)
-		</span>
-		<span p:property="sep"/>
-		.
-		 The save DC is Charisma-based
-		<span p:property="sep"/>
-		.
-	</p>
-	 
-</div>
-''')
+        actual = unicode.splitlines(n.toprettyxml(indent=""))
+        expected = unicode.splitlines(inspect.cleandoc(
+        u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
+         
+        <p>
+        <b p:property="powerName">
+        Spell-Like Abilities:
+        </b>
+        <span content="At will" p:property="frequencyStart"/>
+        At will-
+        <i p:property="spellName">
+        detect evil
+        </i>
+         
+        <span p:property="qualifier">
+        (as a free action)
+        </span>
+        <span p:property="sep"/>
+        ;
+         
+        <span content="1/day" p:property="frequencyStart"/>
+        1/day-
+        <i p:property="spellName">
+        cure moderate wounds
+        </i>
+         
+        <span p:property="qualifier">
+        (Caster level 5th)
+        </span>
+        <span p:property="sep"/>
+        ,
+         
+        <i p:property="spellName">
+        neutralize poison
+        </i>
+         
+        <span content="21" p:property="dc">
+        (DC 21)
+        </span>
+        <span content="8" p:property="casterLevel">
+        (caster level 8)
+        </span>
+         
+        <span p:property="qualifier">
+        (with a touch of its horn)
+        </span>
+        <span p:property="sep"/>
+        ,
+         
+        <i p:property="spellName">
+        greater teleport
+        </i>
+         
+        <span p:property="qualifier">
+        (anywhere within its home; it cannot teleport beyond the forest boundaries nor back from outside)
+        </span>
+        <span p:property="sep"/>
+        .
+         The save DC is Charisma-based
+        <span p:property="sep"/>
+        .
+        </p>
+         
+        </div>
+        '''))
         self.failIfDiff(actual, expected, fromfile="actual", tofile="expected")
 
     # t2 = '''<div level="8" topic="Spell-Like Abilities">
