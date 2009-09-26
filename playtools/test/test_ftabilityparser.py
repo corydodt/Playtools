@@ -24,6 +24,7 @@ class FakeElement(object):
     def __eq__(self, other):
         return True
 
+
 class FullTextAbilityParserTest(unittest.TestCase):
     """
     Test nuances of parsing
@@ -144,7 +145,7 @@ haste:At will:Charisma:23 + spell level:31:
 nightmare:At will:Charisma:23 + spell level:31:
 prismatic spray:At will:Charisma:23 + spell level:31:
 dreamscape:2/day:Charisma:23 + spell level:31:""")
-
+        #
 
     def test_null(self):
         """
@@ -175,4 +176,5 @@ class HUGEFullTextAbilityParserTest(unittest.TestCase):
                 f = traceback.format_exc(sys.exc_info()[2])
                 self.assertTrue(False,
                         "{x}\n{0}\n{1}\n".format(monster.name, stat1, x=f))
+    test_huge.skip = "this test takes forever to run until i fix this stuff"
 
