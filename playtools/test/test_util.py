@@ -137,14 +137,3 @@ class UtilTestCase(unittest.TestCase):
         
         self.assertEqual(t1.toxml(), 
                 u"<top>leftetc.<element/><!--comment-->etc.<element/></top>")
-
-    def test_flushLeft(self):
-        """
-        Triple-quoted strings are annoying to work with - this function makes
-        sure they get properly aligned.
-        """
-        input = """        this
-        function
-        sucks
-        """
-        self.assertEqual(util.flushLeft(input), "this\nfunction\nsucks\n")

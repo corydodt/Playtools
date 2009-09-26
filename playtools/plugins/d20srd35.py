@@ -3,6 +3,7 @@ The game system based on the D20 SRD (version 3.5)
 """
 import re
 from xml.dom import minidom
+import inspect
 
 from zope.interface import implements, Attribute
 
@@ -12,7 +13,7 @@ from storm import locals as SL
 
 from playtools.interfaces import (IRuleSystem, IRuleCollection,
     IIndexable, IRuleFact)
-from playtools.util import RESOURCE, gatherText, flushLeft as FL
+from playtools.util import RESOURCE, gatherText
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import (FAM, P as PROP, C as CHAR, skillNs as SKILL,
@@ -996,7 +997,7 @@ class Monster2(S.rdfsPTClass):
                     ret.append(o)
             return u' '.join(ret)
 
-        ret = FL(u'''        {text}
+        ret = inspect.getdoc(u'''{text}
         {self.label} {self.family} {self.altname} {descriptors} 
         {self.environment} 
         {feats} 

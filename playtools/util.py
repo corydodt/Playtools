@@ -102,15 +102,6 @@ def gatherText(dom, accumulator=None):
     tn = findNodes(dom, lambda x: x.nodeName == '#text')
     return ' '.join([t.toxml() for t in tn])
 
-def flushLeft(text):
-    """
-    Reformat text without the leading whitespace.
-    """
-    m = re.search("(^\s*)", text)
-    stripCount = len(m.group(1))
-    ret = [l[stripCount:] for l in text.splitlines()]
-    return '\n'.join(ret)
-
 def findNodeByAttribute(root, attr, value):
     """
     Return the first node under root that has attr="value"
