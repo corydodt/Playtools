@@ -19,6 +19,7 @@ FSTART = Fake("FSTART")
 SEP  = Fake("SEP")
 QUAL = Fake("QUAL")
 DC = Fake("DC")
+DCBASIS = Fake("DCBASIS")
 CL = Fake("CL")
 
 
@@ -28,10 +29,10 @@ t :x         ::=  <token x>
 timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>
 fStartTime   ::=  <digit>+:d '/' <timeUnit>:t                       => ''.join(d+['/',t])
 fStart       ::=  (<t 'At will'>|<fStartTime>):f '-'                => A([FSTART, f])
-fEnd         ::=  ('.'|';'|','):f                                   => A([SEP, f])
+sep          ::=  ('.'|';'|','):f                                   => A([SEP, f])
 qual         ::=  '(' <qualInner> ')'
 raw          ::=  <anything>:x                                      => A([RAW, x,])
-slaText      ::=  (<qual>|<fStart>|<fEnd>|<raw>)*
+slaText      ::=  (<qual>|<fStart>|<sep>|<raw>)* '.' <remainder>
 
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
@@ -39,9 +40,18 @@ casterLevel  ::=  <t "caster level"> <spaces> <number>:d <letter>+  => [CL, d]
 casterLevel  ::=  <t "Caster level"> <spaces> <number>:d <letter>+  => [CL, d]
 dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
 qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
-vanilla      ::=  <qualMisc>:x                                      => [QUAL, x]
-qualAny      ::=  (<dc>|<casterLevel>|<vanilla>):x                  => A(x)
+qualVanilla  ::=  <qualMisc>:x                                      => [QUAL, x]
+qualAny      ::=  (<dc>|<casterLevel>|<qualVanilla>):x              => A(x)
 qualInner    ::=  <qualAny> (',' <qualAny>)*
+
+remMisc      ::=  (~<sep> <anything>)*:x                            => ''.join(x).strip()  
+remVanilla   ::=  <remMisc>:x                                       => [RAW, x]  
+statName     ::=  <t "Charisma">|<t "Dexterity">|<t "Constitution">|<t "Strength">|<t "Wisdom">|<t "Intelligence">
+dcBasis      ::=  <t "The save DCs are"> <statName>:s <t "based">   => [DCBASIS, s.lower()]
+dc2          ::=  <t "save DC"> <spaces> <number>:d
+                               <t "+ spell level">                  => [DC, unicode(d) + " + spell level"]
+remAny       ::=  (<dc2>|<casterLevel>|<dcBasis>|<remVanilla>):x    => A(x)
+remainder    ::=  <remAny> (<sep> <remAny>)*
 """ # }}}
 
 def joinRaw(parsed):

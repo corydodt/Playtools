@@ -10,69 +10,110 @@ from twisted.trial import unittest
 from playtools.parser import slaxmlparser as sxp
 from playtools.test.pttestutil import DiffTestCaseMixin
 
-class QualTest(unittest.TestCase, DiffTestCaseMixin):
+class PreprocessorTest(unittest.TestCase, DiffTestCaseMixin):
+    def setUp(self):
+        globs = {'QUAL': sxp.QUAL, 'DC': sxp.DC, 'CL': sxp.CL, 'RAW': sxp.RAW,
+                'SEP': sxp.SEP, 'DCBASIS': sxp.DCBASIS}
+        self._parsed = []
+        globs['A'] = lambda *x: self._parsed.extend(x)
+        self.parser = sxp.OMeta.makeGrammar(sxp.preprocGrammar, globs, "Preprocessor")
+
+    def applyRule(self, test, rule):  
+        """
+        Apply a testing rule, then return the 
+        """
+        self.parser(test).apply(rule)
+        p = self._parsed
+        self._parsed = []
+        return p
+
+
+class Remainder(PreprocessorTest):
+    """
+    Test how the remainder (part after the end of all spell frequency blocks)
+    parses - need caster level, dc, dc basis.
+    """
+    def test_dcBasis(self):
+        actual = self.applyRule("The save DCs are Charisma based", "remainder")
+        expected = [[sxp.DCBASIS, u"charisma"]]
+        self.assertEqual(actual, expected)
+
+    def test_casterLevel(self):
+        actual = self.applyRule("Caster level 30th", "remainder")
+        expected = [[sxp.CL, 30]]
+        self.assertEqual(actual, expected)
+
+    def test_dc(self):
+        actual = self.applyRule("save DC 26 + spell level", "remainder")
+        expected = [[sxp.DC, u"26 + spell level"]]
+        self.assertEqual(actual, expected)
+
+    def test_vanilla(self):
+        actual = self.applyRule("Some bullshit", "remainder")
+        expected = [[sxp.RAW, u"Some bullshit"]]
+        self.assertEqual(actual, expected)
+
+    def test_remainderAll(self):
+        t = inspect.cleandoc("""Some bullshit. Caster level 30th; save DC 26 + spell level.
+        The save DCs are Charisma-based.""")
+        actual = self.applyRule(t, "remainder")
+        expected = [[sxp.RAW, "Some bullshit"], [sxp.CL, 30], 
+            [sxp.DC, u"26 + spell level"], [sxp.DCBASIS, "charisma"]]
+
+
+class QualTest(PreprocessorTest):
     """
     Test the parsing of quals
     """
-    def setUp(self):
-        globs = {'QUAL': sxp.QUAL, 'DC': sxp.DC, 'CL': sxp.CL}
-        self.parsed = []
-        globs['A'] = lambda *x: self.parsed.extend(x)
-        self.parser = sxp.OMeta.makeGrammar(sxp.preprocGrammar, globs, "Preprocessor")
-
     def test_DC(self):
         """
         Quals containing DC get parsed
         """
-        self.parser("DC 21").apply("qualInner")
+        actual = self.applyRule("DC 21", "qualInner")
         expected = [[sxp.DC, 21]]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
-        self.parsed = []
-        self.parser("DC x21").apply("qualInner")
+        actual = self.applyRule("DC x21", "qualInner")
         expected = [[sxp.QUAL, 'DC x21']]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
     def test_casterLevel(self):
         """
         Quals containing caster level get parsed
         """
-        self.parser("caster level 8th").apply("qualInner")
+        actual = self.applyRule("caster level 8th", "qualInner")
         expected = [[sxp.CL, 8]]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
-        self.parsed = []
-        self.parser("caster level sux").apply("qualInner")
+        actual = self.applyRule("caster level sux", "qualInner")
         expected = [[sxp.QUAL, 'caster level sux']]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
     def test_combo(self):
         """
         Various combinations of vanilla, DC and caster level get parsed
         """
-        self.parser("caster level 8th, peanut butter").apply("qualInner")
+        actual = self.applyRule("caster level 8th, peanut butter", "qualInner")
         expected = [[sxp.CL, 8], [sxp.QUAL, "peanut butter"]]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
-        self.parsed = []
-        actual = self.parser("DC 8, peanut butter, caster level 8th").apply("qualInner")
+        actual = self.applyRule("DC 8, peanut butter, caster level 8th", "qualInner")
         expected = [[sxp.DC, 8], [sxp.QUAL, "peanut butter"], [sxp.CL, 8]]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
     def test_vanilla(self):
         """
         Vanilla non-interesting quals just get a QUAL marker
         """
         t = "whatever 123 aasdf"
-        self.parser(t).apply("qualInner")
+        actual = self.applyRule(t, "qualInner")
         expected = [[sxp.QUAL, "whatever 123 aasdf"]]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
-        self.parsed = []
         t = "whatever 123, aasdf"
-        self.parser(t).apply("qualInner")
+        actual = self.applyRule(t, "qualInner")
         expected = [[sxp.QUAL, "whatever 123"], [sxp.QUAL, "aasdf"]]
-        self.assertEqual(self.parsed, expected)
+        self.assertEqual(actual, expected)
 
 
 class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
@@ -99,8 +140,9 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         1/day-<i>cure moderate wounds</i> (Caster level 5th),
         <i>neutralize poison</i> (DC 21, caster level 8th) (with a touch of its horn),
         <i>greater teleport</i> (anywhere within its home; it cannot teleport
-        beyond the forest boundaries nor back from outside). The save DC is
-        Charisma-based.</p>
+        beyond the forest boundaries nor back from outside). Caster level
+        30th; save DC 26 + spell level.
+        The save DC is Charisma-based.</p>
         </div>""")
 
         n = minidom.parseString(test).documentElement
@@ -164,7 +206,19 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         </span>
         <span p:property="sep"/>
         .
+        <span content="30" p:property="casterLevel">
+         Caster level 30th
+        </span>
+        <span p:property="sep"/>
+        ;
+        <span content="26 + spell level" p:property="dc">
+         save DC 26 + spell level
+        </span>
+        <span p:property="sep"/>
+        .
+        <span content="charisma" p:property="saveDCBasis">
          The save DC is Charisma-based
+        </span>
         <span p:property="sep"/>
         .
         </p>
