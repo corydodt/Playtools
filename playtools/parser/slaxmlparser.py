@@ -2,12 +2,12 @@
 Spell-Like Ability XML parser
 """
 import re
+from xml.dom import minidom
 
 from fudge import Fake
 
 from pymeta.grammar import OMeta
 
-from playtools.test.pttestutil import TODO, FIXME
 from playtools import util
 
 PROP = u'http://goonmill.org/2007/property.n3#'
@@ -58,6 +58,30 @@ dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d
 dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d           => A([DCTOP, d])
 remAny       ::=  (<dcTopLevel>|<clTopLevel>|<dcBasis>|<remVanilla>)
 remainder    ::=  <remAny> (<sep> <remAny>)*
+""" # }}}
+
+# {{{ rdfaGrammar
+## rdfaGrammar = """
+## node         ::=  :x  
+## sep          ::=  :x  ?(isProp(u"sep"))
+## fStart       ::=  :x  ?(isProp(u"frequencyStart"))
+## spellName    ::=  :x  ?(isProp(u"spellName"))
+## casterLevel  ::=  :x  ?(isProp(u"casterLevel"))
+## dcBasis      ::=  :x  ?(isProp(u"dcBasis"))
+## dcTopLevel   ::=  :x  ?(isProp(u"dcTopLevel"))
+## spell        ::=  <spellName> <qual>*
+## fGroup       ::=  <fStart>:start <spell> (<sep> <spell>)* <sep>:end
+## otherText    ::=  (~<sep> <node>)+ <sep>
+## remainderItem ::=  <casterLevel>|<dcBasis>|<dcTopLevel>|<otherText>  
+## sla          ::=  <otherText>+ <fGroup>+ <remainderItem> (<sep> <remainderItem>)*
+## """
+rdfaGrammar = """
+node         ::=  :x  
+sep          ::=  :x  ?(isProp(x, u"sep"))                                  => x  
+fStart       ::=  :x  ?(isProp(x, u"frequencyStart"))                       => x  
+fGroup       ::=  <fStart>:start (~<sep> <anything>)*:any <sep>:end         => t.fGroup(start, any, end)
+otherText    ::=  (~<sep> <node>)+ <sep>
+sla          ::=  <otherText>+ <fGroup>+ <otherText>+
 """ # }}}
 
 def joinRaw(parsed):
@@ -205,25 +229,73 @@ def preprocessSLAXML(node):
             continue
         if cn.nodeName == '#text':
             parsed = []
-            def ex(*x):
-                if None in x:
-                    import pdb; pdb.set_trace()
-                parsed.extend(x)
-            globs['A'] = ex # lambda *x: parsed.extend(x)
+            globs['A'] = lambda *x: parsed.extend(x)
             Preprocessor(cn.data).apply('slaText')
             nodes = joinRaw(parsed)
             substituteSLAText(cn, nodes)
 
     return node
 
+def flattenSLATree(node):
+    """
+    Return the child nodes under node as a sequence instead of a tree to make
+    them easier to parse with a pattern matcher
+    """
+    todo = node.childNodes[:]
+    for n, cn in enumerate(todo):
+        todo[n+1:n+1] = cn.childNodes[:]
+    return todo
 
-if True: # {{{ TODOs
-    TODO("recursive descent SLA token finder",
-            """use findnodes to return a flat list of all nodes which are frequencyStart,
-            frequencyEnd, saveDC, qualifier, saveBasis, casterLevel, or spellName.
-            """)
 
-    TODO("OMeta parser",
-        """create a OMeta parser that takes the node tokens and produces a parsed SLA object
-        """)
-    # }}}
+class NodeTree(object):
+    """
+    A representation of the node tree that makes it easy to manipulate via the
+    grammar
+    """
+    node = None
+    def useXML(self, xml):
+        """
+        Parse the xml and use it as the document for this tree
+        """  
+        self.node = minidom.parseString(xml)
+
+    def unparentNodes(self, *nodes):
+        """
+        For each node in nodes, remove it from its parent.
+        """
+        for n in nodes:
+            n.parentNode.removeChild(n)
+
+    def fGroup(self, start, rest, end):
+        subs = []
+        assert isProp(start, u'frequencyStart')
+        assert isProp(end, u'sep')
+        freq = start.getAttribute('content')
+        self.unparentNodes(*rest)
+        span = self.node.createElement('span')
+        span.setAttribute('p:property', 'frequencyGroup')
+        span.setAttribute('content', freq)
+        for n in rest:
+            span.appendChild(n)
+        util.substituteNodes(start, [span])
+        self.unparentNodes(end)
+
+def isProp(node, value):
+    """
+    Node has p:property set to value 
+    """
+    return hasattr(node, 'getAttribute') and node.getAttribute('p:property') == value
+
+def rdfaProcessSLAXML(xml):
+    """
+    Given an SLA node that has been preprocessed, remove sep tags and freqStart
+    tags, put in frequencies and spell wrappers.
+    """
+    globs = globals().copy()
+    tree = NodeTree()
+    tree.useXML(xml)
+    globs = {'t':tree}
+    seq = flattenSLATree(tree.node)
+    RDFaParser = OMeta.makeGrammar(rdfaGrammar, globs, 'RDFaParser')
+    RDFaParser(seq).apply('sla')
+    return tree.node

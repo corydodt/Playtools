@@ -21,7 +21,7 @@ class PreprocessorTest(unittest.TestCase, DiffTestCaseMixin):
 
     def applyRule(self, test, rule):  
         """
-        Apply a testing rule, then return the 
+        Apply a testing rule, then return the result which was stored on self
         """
         self.parser(test).apply(rule)
         p = self._parsed
@@ -29,7 +29,7 @@ class PreprocessorTest(unittest.TestCase, DiffTestCaseMixin):
         return p
 
 
-class Remainder(PreprocessorTest):
+class RemainderTest(PreprocessorTest):
     """
     Test how the remainder (part after the end of all spell frequency blocks)
     parses - need caster level, dc, dc basis.
@@ -257,7 +257,39 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         #         </div>''')
 
 
-class RDFaProcess(unittest.TestCase, ):
+class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
+    def setUp(self):
+        self._parsed = sxp.NodeTree()
+        globs = {'t': self._parsed, 'isProp': sxp.isProp}
+        self.parser = sxp.OMeta.makeGrammar(sxp.rdfaGrammar, globs,
+                "RDFaParser")
+
+    def applyRule(self, test, rule):  
+        """
+        Apply a testing rule, then return the result which was stored on self
+        """
+        self._parsed.useXML('''<div xmlns:p=
+                "http://goonmill.org/2007/property.n3#">{0}</div>'''.format(test))
+        seq = sxp.flattenSLATree(self._parsed.node.documentElement)
+        self.parser(seq).apply(rule)
+        return self._parsed.node
+
+    def test_frequency(self):
+        """
+        Frequency wrappers get replaced correctly
+        """
+        test = inspect.cleandoc(u"""<span content="At will" p:property="frequencyStart" />
+        At will-detect evil (as a free <br /> action) <span p:property="sep"/>""")
+        ret = self.applyRule(test, 'fGroup')
+        actual = ret.documentElement.childNodes[0].toprettyxml(indent=u"").splitlines()
+        expected = inspect.cleandoc(u"""<span content="At will" p:property="frequencyGroup">
+             
+             At will-detect evil (as a free 
+             <br/>
+              action) 
+             </span>""").splitlines()
+        self.failIfDiff(actual, expected, 'actual', 'expected')
+
     def test_rdfaProcess(self):
         """
         Original XML gets fixed up correctly with RDFa nodes
