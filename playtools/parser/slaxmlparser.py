@@ -21,6 +21,7 @@ QUAL = Fake("QUAL")
 DC = Fake("DC")
 CL = Fake("CL")
 
+
 # {{{ preprocGrammar
 preprocGrammar = """
 t :x         ::=  <token x>
@@ -74,7 +75,8 @@ def skippableLeft(node, check):
     """
     True, if node's previous sibling is not already preprocessed
     """
-    return node.previousSibling.getAttribute('p:property') == check
+    if node.previousSibling:
+        return node.previousSibling.getAttribute('p:property') == check
 
 FIXME("remove debug prints in subSLAText")
 
