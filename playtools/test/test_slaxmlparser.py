@@ -131,8 +131,8 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         cure moderate wounds
         </i>
          
-        <span p:property="casterLevel" content="5">
-        (Caster level 5th)
+        <span content="5" p:property="casterLevel">
+        (caster level 5)
         </span>
         <span p:property="sep"/>
         ,
@@ -144,7 +144,7 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         <span content="21" p:property="dc">
         (DC 21)
         </span>
-        <span content="8" p:property="casterLevel" content="8">
+        <span content="8" p:property="casterLevel">
         (caster level 8)
         </span>
          
@@ -233,8 +233,8 @@ class RDFaProcess(unittest.TestCase, ):
         cure moderate wounds
         </i>
          
-        <span p:property="casterLevel" content="5">
-        (Caster level 5th)
+        <span content="5" p:property="casterLevel">
+        (caster level 5)
         </span>
         </span>
         ,
