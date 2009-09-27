@@ -28,9 +28,9 @@ CLTOP = Fake("CLTOP")
 # {{{ preprocGrammar
 preprocGrammar = """
 t :x         ::=  <token x>
-timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>|<t 'month'>
+timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>|<t 'month'>|<t 'year'>
 fStartTime   ::=  <digit>+:d '/' <timeUnit>:t                       => ''.join(d+['/',t])
-fStart       ::=  (<t 'At will'>|<fStartTime>):f '-'                => A([FSTART, f])
+fStart       ::=  (<t 'Permanent'>|<t 'At will'>|<fStartTime>):f '-'  => A([FSTART, f])
 sep          ::=  ('.'|';'|','):f                                   => A([SEP, f])
 qual         ::=  '(' <qualInner> ')'
 raw          ::=  <anything>:x                                      => A([RAW, x,])
@@ -38,8 +38,9 @@ slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<ra
 
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
-casterLevel  ::=  <t "caster level"> <spaces> <number>:d <letter>+  => [CL, d]
-casterLevel  ::=  <t "Caster level"> <spaces> <number>:d <letter>+  => [CL, d]
+caster       ::=  <t "caster">|<t "Caster">  
+casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>+         => [CL, d]
+casterLevel  ::=  <caster> <t "level"> <t "equals"> (~<sep> <anything>)*:any  => [CL, "equals%s" % (''.join(any),)]
 clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
 dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
 qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
@@ -50,12 +51,10 @@ qualInner    ::=  <qualAny> (',' <qualAny>)*
 remMisc      ::=  (~<sep> <anything>)*:x                            => ''.join(x).strip()  
 remVanilla   ::=  <remMisc>:x                                       => A([RAW, x])
 statName     ::=  <t "Charisma">|<t "Dexterity">|<t "Constitution">|<t "Strength">|<t "Wisdom">|<t "Intelligence">
-dcBasis      ::=  <t "The DC is"> <statName>:s <t "-based">         => A([DCBASIS, s.lower()])
-dcBasis      ::=  <t "The DCs are"> <statName>:s <t "-based">       => A([DCBASIS, s.lower()])
-dcBasis      ::=  <t "The save DC is"> <statName>:s <t "-based">    => A([DCBASIS, s.lower()])
-dcBasis      ::=  <t "The save DCs are"> <statName>:s <t "-based">  => A([DCBASIS, s.lower()])
-dcTopLevel   ::=  <t "save DC"> <spaces> <number>:d
-                               <t "+ spell level">                  => A([DCTOP, unicode(d) + " + spell level"])
+dcWords      ::=  <t "save">? (<t "DCs">|<t "DC">) (<t "is">|<t "are">)  
+dcBasis      ::=  <t "The"> <dcWords> <statName>:s <t "-based">     => A([DCBASIS, s.lower()])
+dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d
+                               <t "+"> <t "spell"> <t "level">      => A([DCTOP, unicode(d) + " + spell level"])
 remAny       ::=  (<dcTopLevel>|<clTopLevel>|<dcBasis>|<remVanilla>)
 remainder    ::=  <remAny> (<sep> <remAny>)*
 """ # }}}
