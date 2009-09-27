@@ -63,6 +63,20 @@ def joinRaw(parsed):
         out.append((RAW, b))
     return out
 
+def skippableUp(node, check):
+    """
+    True, if node's parent is not already preprocessed
+    """
+    return node.parentNode.getAttribute('p:property') == check
+
+def skippableLeft(node, check):
+    """
+    True, if node's previous sibling is not already preprocessed
+    """
+    return node.previousSibling.getAttribute('p:property') == check
+
+FIXME("remove debug prints in subSLAText")
+
 def substituteSLAText(orig, parsed):
     """
     Use parsed to construct a new sequence of nodes to put into parent
@@ -74,34 +88,44 @@ def substituteSLAText(orig, parsed):
         if type is RAW:
             substitutions.append(doc.createTextNode(data))
         elif type is QUAL:
-            span = doc.createElement('span')
-            span.setAttribute('p:property', 'qualifier')
-            tn = doc.createTextNode('(' + data + ')')
-            span.appendChild(tn)
-            substitutions.append(span)
+            if not skippableUp(orig, 'qualifier'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'qualifier')
+                tn = doc.createTextNode('(' + data + ')')
+                span.appendChild(tn)
+                substitutions.append(span)
+                print '  QUAL: %s' % (data,)
         elif type is CL:
-            span = doc.createElement('span')
-            span.setAttribute('p:property', 'casterLevel')
-            span.setAttribute('content', unicode(data))
-            tn = doc.createTextNode('(caster level %s)' % (data,))
-            span.appendChild(tn)
-            substitutions.append(span)
+            if not skippableUp(orig, 'casterLevel'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'casterLevel')
+                span.setAttribute('content', unicode(data))
+                tn = doc.createTextNode('(caster level %s)' % (data,))
+                span.appendChild(tn)
+                substitutions.append(span)
         elif type is DC:
-            span = doc.createElement('span')
-            span.setAttribute('p:property', 'dc')
-            span.setAttribute('content', unicode(data))
-            tn = doc.createTextNode('(DC %s)' % (data,))
-            span.appendChild(tn)
-            substitutions.append(span)
+            if not skippableUp(orig, 'dc'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'dc')
+                span.setAttribute('content', unicode(data))
+                tn = doc.createTextNode('(DC %s)' % (data,))
+                span.appendChild(tn)
+                substitutions.append(span)
         elif type is SEP:
-            span = doc.createElement('span')
-            span.setAttribute('p:property', 'sep')
-            substitutions.extend([span, doc.createTextNode(data)])
+            if not skippableLeft(orig, 'sep'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'sep')
+                substitutions.extend([span, doc.createTextNode(data)])
+            else:
+                substitutions.extend([doc.createTextNode(data)])
         elif type is FSTART:
-            span = doc.createElement('span')
-            span.setAttribute('p:property', 'frequencyStart')
-            span.setAttribute('content', data)
-            substitutions.extend([span, doc.createTextNode(data + '-')])
+            if not skippableLeft(orig, 'frequencyStart'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'frequencyStart')
+                span.setAttribute('content', data)
+                substitutions.extend([span, doc.createTextNode(data + '-')])
+            else:
+                substitutions.extend([doc.createTextNode(data + '-')])
     util.substituteNodes(orig, substitutions)
 
 def processDocument(doc):
