@@ -57,6 +57,10 @@ class Remainder(PreprocessorTest):
         expected = [[sxp.DCTOP, u"26 + spell level"]]
         self.assertEqual(actual, expected)
 
+        actual = self.applyRule("save DC 26", "remainder")
+        expected = [[sxp.DCTOP, 26]]
+        self.assertEqual(actual, expected)
+
     def test_vanilla(self):
         actual = self.applyRule("Some bullshit", "remainder")
         expected = [[sxp.RAW, u"Some bullshit"]]

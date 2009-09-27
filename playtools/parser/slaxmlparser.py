@@ -39,7 +39,7 @@ slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<ra
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
 caster       ::=  <t "caster">|<t "Caster">  
-casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>+         => [CL, d]
+casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>+  => [CL, d]
 casterLevel  ::=  <caster> <t "level"> <t "equals"> (~<sep> <anything>)*:any  => [CL, "equals%s" % (''.join(any),)]
 clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
 dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
@@ -55,6 +55,7 @@ dcWords      ::=  <t "save">? (<t "DCs">|<t "DC">) (<t "is">|<t "are">)
 dcBasis      ::=  <t "The"> <dcWords> <statName>:s <t "-based">     => A([DCBASIS, s.lower()])
 dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d
                                <t "+"> <t "spell"> <t "level">      => A([DCTOP, unicode(d) + " + spell level"])
+dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d           => A([DCTOP, d])
 remAny       ::=  (<dcTopLevel>|<clTopLevel>|<dcBasis>|<remVanilla>)
 remainder    ::=  <remAny> (<sep> <remAny>)*
 """ # }}}
@@ -144,7 +145,7 @@ def substituteSLAText(orig, parsed):
                 span = doc.createElement('span')
                 span.setAttribute('p:property', 'dc')
                 span.setAttribute('content', unicode(data))
-                tn = doc.createTextNode('save DC %s' % (data.capitalize(),))
+                tn = doc.createTextNode('save DC %s' % (data,))
                 span.appendChild(tn)
                 substitutions.append(span)
         elif type is DC:
@@ -222,10 +223,6 @@ def preprocessSLAXML(node):
 
 
 if True: # {{{ TODOs
-    TODO("refine Frequelizer",
-            """to also extract per-spell DC, overall caster level, and overall save DC basis""")
-
-
     TODO("recursive descent SLA token finder",
             """use findnodes to return a flat list of all nodes which are frequencyStart,
             frequencyEnd, saveDC, qualifier, saveBasis, casterLevel, or spellName.
