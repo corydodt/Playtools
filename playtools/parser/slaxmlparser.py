@@ -94,8 +94,6 @@ def skippableLeft(node, check):
     if node.previousSibling:
         return node.previousSibling.getAttribute('p:property') == check
 
-FIXME("remove debug prints in subSLAText")
-
 def substituteSLAText(orig, parsed):
     """
     Use parsed to construct a new sequence of nodes to put into parent
@@ -106,8 +104,6 @@ def substituteSLAText(orig, parsed):
     for type, data in parsed:
         if type is RAW:
             substitutions.append(doc.createTextNode(data))
-            if data.strip():
-                print '  RAW: %s' % (data,)
         elif type is DCBASIS:
             if not skippableUp(orig, 'dcBasis'):
                 span = doc.createElement('span')
@@ -123,7 +119,6 @@ def substituteSLAText(orig, parsed):
                 tn = doc.createTextNode('(' + data + ')')
                 span.appendChild(tn)
                 substitutions.append(span)
-                print '  QUAL: %s' % (data,)
         elif type is CLTOP:
             if not skippableUp(orig, 'casterLevel'):
                 span = doc.createElement('span')
