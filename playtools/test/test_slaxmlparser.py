@@ -48,8 +48,12 @@ class Remainder(PreprocessorTest):
         expected = [[sxp.CLTOP, 30]]
         self.assertEqual(actual, expected)
 
+        actual = self.applyRule("Caster level equals the barghest's HD", "remainder")
+        expected = [[sxp.CLTOP, "equals the barghest's HD"]]
+        self.assertEqual(actual, expected)
+
     def test_dcTop(self):
-        actual = self.applyRule("save DC 26 + spell level", "remainder")
+        actual = self.applyRule("save DC\n26 + spell level", "remainder")
         expected = [[sxp.DCTOP, u"26 + spell level"]]
         self.assertEqual(actual, expected)
 
@@ -86,7 +90,7 @@ class QualTest(PreprocessorTest):
         """
         Quals containing caster level get parsed
         """
-        actual = self.applyRule("caster level 8th", "qualInner")
+        actual = self.applyRule("caster level\n8th", "qualInner")
         expected = [[sxp.CL, 8]]
         self.assertEqual(actual, expected)
 
