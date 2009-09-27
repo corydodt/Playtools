@@ -94,20 +94,17 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         """
         Convert unprocessed XML nodes into preprocessed SLA nodes
         """
-        test = """<div level="8" topic="Spell-Like Abilities">
+        test = inspect.cleandoc("""<div level="8" topic="Spell-Like Abilities">
         <p><b>Spell-Like Abilities:</b> At will-<i>detect evil</i> (as a free action);
         1/day-<i>cure moderate wounds</i> (Caster level 5th),
         <i>neutralize poison</i> (DC 21, caster level 8th) (with a touch of its horn),
-        <i>greater teleport</i> (anywhere within its home; it cannot teleport beyond the forest boundaries nor back from outside). The save DC is Charisma-based.</p>
-        </div>"""
+        <i>greater teleport</i> (anywhere within its home; it cannot teleport
+        beyond the forest boundaries nor back from outside). The save DC is
+        Charisma-based.</p>
+        </div>""")
 
         n = minidom.parseString(test).documentElement
-        try:
-            sxp.preprocessSLAXML(n)
-        except Exception, e:
-            import sys, pdb
-            print sys.exc_info()
-            pdb.post_mortem(sys.exc_info()[2])
+        sxp.preprocessSLAXML(n)
         actual = unicode.splitlines(n.toprettyxml(indent=""))
         expected = unicode.splitlines(inspect.cleandoc(
         u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
@@ -162,7 +159,8 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         </i>
          
         <span p:property="qualifier">
-        (anywhere within its home; it cannot teleport beyond the forest boundaries nor back from outside)
+        (anywhere within its home; it cannot teleport
+        beyond the forest boundaries nor back from outside)
         </span>
         <span p:property="sep"/>
         .
@@ -173,12 +171,21 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
          
         </div>
         '''))
+
         self.failIfDiff(actual, expected, fromfile="actual", tofile="expected")
 
-    # t2 = '''<div level="8" topic="Spell-Like Abilities">
-    #         <p><b>Spell-Like Abilities:</b> At will-<i>greater dispel
-    #         magic</i>,  <i>displacement</i> (DC 18),  <i>greater
-    #         invisibility</i> (DC 19),  <i>ethereal jaunt</i>. Caster level
-    #         22nd. The save DCs are Charisma-based.</p>
-    #         </div>'''
+        # test that preprocessing is idempotent
+        sxp.preprocessSLAXML(n)
+        sxp.preprocessSLAXML(n)
+        actual = unicode.splitlines(n.toprettyxml(indent=""))
+
+        self.failIfDiff(actual, expected, fromfile="actual", tofile="expected")
+
+
+        # t2 = inspect.cleandoc('''<div level="8" topic="Spell-Like Abilities">
+        #         <p><b>Spell-Like Abilities:</b> At will-<i>greater dispel
+        #         magic</i>,  <i>displacement</i> (DC 18),  <i>greater
+        #         invisibility</i> (DC 19),  <i>ethereal jaunt</i>. Caster level
+        #         22nd. The save DCs are Charisma-based.</p>
+        #         </div>''')
 
