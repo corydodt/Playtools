@@ -62,25 +62,30 @@ remainder    ::=  <remAny> (<sep> <remAny>)*
 
 # {{{ rdfaGrammar
 ## rdfaGrammar = """
-## node         ::=  :x  
-## sep          ::=  :x  ?(isProp(u"sep"))
-## fStart       ::=  :x  ?(isProp(u"frequencyStart"))
-## spellName    ::=  :x  ?(isProp(u"spellName"))
-## casterLevel  ::=  :x  ?(isProp(u"casterLevel"))
-## dcBasis      ::=  :x  ?(isProp(u"dcBasis"))
-## dcTopLevel   ::=  :x  ?(isProp(u"dcTopLevel"))
-## spell        ::=  <spellName> <qual>*
+## casterLevel  ::=  :x  ?(isProp(x, u"casterLevel"))
+## dcBasis      ::=  :x  ?(isProp(x, u"dcBasis"))
+## dcTopLevel   ::=  :x  ?(isProp(x, u"dcTopLevel"))
 ## fGroup       ::=  <fStart>:start <spell> (<sep> <spell>)* <sep>:end
-## otherText    ::=  (~<sep> <node>)+ <sep>
-## remainderItem ::=  <casterLevel>|<dcBasis>|<dcTopLevel>|<otherText>  
-## sla          ::=  <otherText>+ <fGroup>+ <remainderItem> (<sep> <remainderItem>)*
+## remainderItem ::=  <casterLevel>|<dcBasis>|<dcTopLevel>|<otherText>
+## sla          ::=  <otherText>+ <ws>? <fGroup>+ <ws>? <remainderItem> (<ws>? <sep> <remainderItem>)*
 ## """
 rdfaGrammar = """
 node         ::=  :x  
-sep          ::=  :x  ?(isProp(x, u"sep"))                                  => x  
-fStart       ::=  :x  ?(isProp(x, u"frequencyStart"))                       => x  
+ws           ::=  :x  ?(isWS(x))                                            => x  
+
+spellName    ::=  :x  ?(isProp(x, u"spellName")) :content                   => x, content
+plainQual    ::=  :x  ?(isProp(x, u"qualifier")) :content                   => x, content
+casterLevel  ::=  :x  ?(isProp(x, u"casterLevel")) :content                 => x, content
+dc           ::=  :x  ?(isProp(x, u"dc")) :content                          => x, content
+qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q                => w, q  
+spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end               => t.spell(s, quals, end)
+
+sep          ::=  :x  ?(isProp(x, u"sep"))                                  => x
+fStart       ::=  :x  ?(isProp(x, u"frequencyStart"))                       => x
 fGroup       ::=  <fStart>:start (~<sep> <anything>)*:any <sep>:end         => t.fGroup(start, any, end)
+
 otherText    ::=  (~<sep> <node>)+ <sep>
+
 sla          ::=  <otherText>+ <fGroup>+ <otherText>+
 """ # }}}
 
@@ -271,14 +276,41 @@ class NodeTree(object):
         assert isProp(start, u'frequencyStart')
         assert isProp(end, u'sep')
         freq = start.getAttribute('content')
-        self.unparentNodes(*rest)
+        self.unparentNodes(end, *rest)
         span = self.node.createElement('span')
         span.setAttribute('p:property', 'frequencyGroup')
         span.setAttribute('content', freq)
         for n in rest:
             span.appendChild(n)
         util.substituteNodes(start, [span])
+
+    def spell(self, start, quals, end):
+        subs = []
+        spellName, _content = start
+        assert isProp(spellName, u'spellName')
+        assert isProp(end, u'sep')
+        name = spellName.childNodes[0].data
         self.unparentNodes(end)
+        span = self.node.createElement('span')
+        span.setAttribute('p:property', 'spell')
+        span.setAttribute('content', name)
+        pn = spellName.parentNode
+        next = end.nextSibling
+        span.appendChild(spellName)
+        for ws, (q, _content) in quals:
+            span.appendChild(ws)
+            span.appendChild(q)
+        if next:
+            pn.insertBefore(next, span)
+        else:
+            pn.appendChild(span)
+
+
+def isWS(node, ):
+    """
+    Node is a textnode containing only whitespace
+    """
+    return node.nodeName == '#text' and node.data.strip() == ''
 
 def isProp(node, value):
     """

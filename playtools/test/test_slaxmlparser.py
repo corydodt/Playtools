@@ -260,7 +260,7 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
 class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
     def setUp(self):
         self._parsed = sxp.NodeTree()
-        globs = {'t': self._parsed, 'isProp': sxp.isProp}
+        globs = {'t': self._parsed, 'isProp': sxp.isProp, 'isWS': sxp.isWS}
         self.parser = sxp.OMeta.makeGrammar(sxp.rdfaGrammar, globs,
                 "RDFaParser")
 
@@ -273,6 +273,16 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         seq = sxp.flattenSLATree(self._parsed.node.documentElement)
         self.parser(seq).apply(rule)
         return self._parsed.node
+
+    def test_ws(self):
+        """
+        Whitespace is correctly seen
+        """
+        test = inspect.cleandoc(u"""  	  
+        """)
+        ret = self.applyRule(test, 'ws')
+        actual = ret.documentElement.childNodes[0]
+        self.assertEqual(actual.data.strip(), u'')
 
     def test_frequency(self):
         """
@@ -290,6 +300,43 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
              </span>""").splitlines()
         self.failIfDiff(actual, expected, 'actual', 'expected')
 
+    def test_spell(self):
+        """
+        Spells get wrapped correctly, containing all quals
+        """
+        test = inspect.cleandoc(u"""<i p:property="spellName">neutralize poison</i>
+        <span content="21" p:property="dc">(DC 21)</span>
+        <span content="8" p:property="casterLevel">(caster level 8)</span>
+        <span p:property="qualifier">(with a touch of its horn)</span>
+        <span p:property="sep"/>""")
+        ret = self.applyRule(test, 'spell')
+        actual = ret.documentElement.toprettyxml(indent=u"").splitlines()
+        expected = inspect.cleandoc(u"""<div xmlns:p="http://goonmill.org/2007/property.n3#">
+        
+        
+        <span content="neutralize poison" p:property="spell">
+        <i p:property="spellName">
+        neutralize poison
+        </i>
+        
+        
+        <span content="21" p:property="dc">
+        (DC 21)
+        </span>
+        
+        
+        <span content="8" p:property="casterLevel">
+        (caster level 8)
+        </span>
+        
+        
+        <span p:property="qualifier">
+        (with a touch of its horn)
+        </span>
+        </span>
+        </div>""").splitlines()
+        self.failIfDiff(actual, expected, 'actual', 'expected')
+
     def test_rdfaProcess(self):
         """
         Original XML gets fixed up correctly with RDFa nodes
@@ -303,8 +350,7 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         Charisma-based.</p>
         </div>""")
 
-        n = minidom.parseString(test).documentElement
-        sxp.rdfaProcessSLAXML(n)
+        sxp.rdfaProcessSLAXML(test)
         actual = unicode.splitlines(n.toprettyxml(indent=""))
         expected = unicode.splitlines(inspect.cleandoc(
         u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
