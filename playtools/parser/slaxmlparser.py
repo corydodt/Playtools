@@ -7,7 +7,7 @@ from fudge import Fake
 
 from pymeta.grammar import OMeta
 
-from playtools.test.pttestutil import TODO
+from playtools.test.pttestutil import TODO, FIXME
 from playtools import util
 
 PROP = u'http://goonmill.org/2007/property.n3#'
@@ -35,6 +35,7 @@ slaText      ::=  (<qual>|<fStart>|<fEnd>|<raw>)*
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
 casterLevel  ::=  <t "caster level"> <spaces> <number>:d <letter>+  => [CL, d]
+casterLevel  ::=  <t "Caster level"> <spaces> <number>:d <letter>+  => [CL, d]
 dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
 qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
 vanilla      ::=  <qualMisc>:x                                      => [QUAL, x]
