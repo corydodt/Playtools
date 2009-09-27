@@ -283,12 +283,14 @@ class RDFaProcess(unittest.TestCase, ):
         </b>
         <span content="At will" p:property="frequency">
         At will-
+        <span p:property="spell">
         <i p:property="spellName">
         detect evil
         </i>
          
         <span p:property="qualifier">
         (as a free action)
+        </span>
         </span>
         ;
         </span>
