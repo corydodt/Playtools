@@ -19,25 +19,28 @@ FSTART = Fake("FSTART")
 SEP  = Fake("SEP")
 QUAL = Fake("QUAL")
 DC = Fake("DC")
+DCTOP = Fake("DCTOP")
 DCBASIS = Fake("DCBASIS")
 CL = Fake("CL")
+CLTOP = Fake("CLTOP")
 
 
 # {{{ preprocGrammar
 preprocGrammar = """
 t :x         ::=  <token x>
-timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>
+timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>|<t 'month'>
 fStartTime   ::=  <digit>+:d '/' <timeUnit>:t                       => ''.join(d+['/',t])
 fStart       ::=  (<t 'At will'>|<fStartTime>):f '-'                => A([FSTART, f])
 sep          ::=  ('.'|';'|','):f                                   => A([SEP, f])
 qual         ::=  '(' <qualInner> ')'
 raw          ::=  <anything>:x                                      => A([RAW, x,])
-slaText      ::=  (<qual>|<fStart>|<sep>|<raw>)* '.' <remainder>
+slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<raw>)*
 
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
 casterLevel  ::=  <t "caster level"> <spaces> <number>:d <letter>+  => [CL, d]
 casterLevel  ::=  <t "Caster level"> <spaces> <number>:d <letter>+  => [CL, d]
+clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
 dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
 qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
 qualVanilla  ::=  <qualMisc>:x                                      => [QUAL, x]
@@ -45,12 +48,15 @@ qualAny      ::=  (<dc>|<casterLevel>|<qualVanilla>):x              => A(x)
 qualInner    ::=  <qualAny> (',' <qualAny>)*
 
 remMisc      ::=  (~<sep> <anything>)*:x                            => ''.join(x).strip()  
-remVanilla   ::=  <remMisc>:x                                       => [RAW, x]  
+remVanilla   ::=  <remMisc>:x                                       => A([RAW, x])
 statName     ::=  <t "Charisma">|<t "Dexterity">|<t "Constitution">|<t "Strength">|<t "Wisdom">|<t "Intelligence">
-dcBasis      ::=  <t "The save DCs are"> <statName>:s <t "based">   => [DCBASIS, s.lower()]
-dc2          ::=  <t "save DC"> <spaces> <number>:d
-                               <t "+ spell level">                  => [DC, unicode(d) + " + spell level"]
-remAny       ::=  (<dc2>|<casterLevel>|<dcBasis>|<remVanilla>):x    => A(x)
+dcBasis      ::=  <t "The DC is"> <statName>:s <t "-based">         => A([DCBASIS, s.lower()])
+dcBasis      ::=  <t "The DCs are"> <statName>:s <t "-based">       => A([DCBASIS, s.lower()])
+dcBasis      ::=  <t "The save DC is"> <statName>:s <t "-based">    => A([DCBASIS, s.lower()])
+dcBasis      ::=  <t "The save DCs are"> <statName>:s <t "-based">  => A([DCBASIS, s.lower()])
+dcTopLevel   ::=  <t "save DC"> <spaces> <number>:d
+                               <t "+ spell level">                  => A([DCTOP, unicode(d) + " + spell level"])
+remAny       ::=  (<dcTopLevel>|<clTopLevel>|<dcBasis>|<remVanilla>)
 remainder    ::=  <remAny> (<sep> <remAny>)*
 """ # }}}
 
@@ -100,6 +106,16 @@ def substituteSLAText(orig, parsed):
     for type, data in parsed:
         if type is RAW:
             substitutions.append(doc.createTextNode(data))
+            if data.strip():
+                print '  RAW: %s' % (data,)
+        elif type is DCBASIS:
+            if not skippableUp(orig, 'dcBasis'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'saveDCBasis')
+                span.setAttribute('content', data)
+                tn = doc.createTextNode('The save DCs are ' + data.capitalize() + '-based')
+                span.appendChild(tn)
+                substitutions.append(span)
         elif type is QUAL:
             if not skippableUp(orig, 'qualifier'):
                 span = doc.createElement('span')
@@ -108,12 +124,28 @@ def substituteSLAText(orig, parsed):
                 span.appendChild(tn)
                 substitutions.append(span)
                 print '  QUAL: %s' % (data,)
+        elif type is CLTOP:
+            if not skippableUp(orig, 'casterLevel'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'casterLevel')
+                span.setAttribute('content', unicode(data))
+                tn = doc.createTextNode('Caster level %s' % (data,))
+                span.appendChild(tn)
+                substitutions.append(span)
         elif type is CL:
             if not skippableUp(orig, 'casterLevel'):
                 span = doc.createElement('span')
                 span.setAttribute('p:property', 'casterLevel')
                 span.setAttribute('content', unicode(data))
                 tn = doc.createTextNode('(caster level %s)' % (data,))
+                span.appendChild(tn)
+                substitutions.append(span)
+        elif type is DCTOP:
+            if not skippableUp(orig, 'dc'):
+                span = doc.createElement('span')
+                span.setAttribute('p:property', 'dc')
+                span.setAttribute('content', unicode(data))
+                tn = doc.createTextNode('save DC %s' % (data.capitalize(),))
                 span.appendChild(tn)
                 substitutions.append(span)
         elif type is DC:

@@ -13,7 +13,8 @@ from playtools.test.pttestutil import DiffTestCaseMixin
 class PreprocessorTest(unittest.TestCase, DiffTestCaseMixin):
     def setUp(self):
         globs = {'QUAL': sxp.QUAL, 'DC': sxp.DC, 'CL': sxp.CL, 'RAW': sxp.RAW,
-                'SEP': sxp.SEP, 'DCBASIS': sxp.DCBASIS}
+                'SEP': sxp.SEP, 'DCBASIS': sxp.DCBASIS, 'DCTOP': sxp.DCTOP,
+                'CLTOP': sxp.CLTOP}
         self._parsed = []
         globs['A'] = lambda *x: self._parsed.extend(x)
         self.parser = sxp.OMeta.makeGrammar(sxp.preprocGrammar, globs, "Preprocessor")
@@ -34,18 +35,22 @@ class Remainder(PreprocessorTest):
     parses - need caster level, dc, dc basis.
     """
     def test_dcBasis(self):
-        actual = self.applyRule("The save DCs are Charisma based", "remainder")
+        actual = self.applyRule("The save DCs are Charisma-based", "remainder")
         expected = [[sxp.DCBASIS, u"charisma"]]
+        self.assertEqual(actual, expected)
+
+        actual = self.applyRule("The save DC is Strength-based", "remainder")
+        expected = [[sxp.DCBASIS, u"strength"]]
         self.assertEqual(actual, expected)
 
     def test_casterLevel(self):
         actual = self.applyRule("Caster level 30th", "remainder")
-        expected = [[sxp.CL, 30]]
+        expected = [[sxp.CLTOP, 30]]
         self.assertEqual(actual, expected)
 
-    def test_dc(self):
+    def test_dcTop(self):
         actual = self.applyRule("save DC 26 + spell level", "remainder")
-        expected = [[sxp.DC, u"26 + spell level"]]
+        expected = [[sxp.DCTOP, u"26 + spell level"]]
         self.assertEqual(actual, expected)
 
     def test_vanilla(self):
@@ -207,17 +212,17 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
         <span p:property="sep"/>
         .
         <span content="30" p:property="casterLevel">
-         Caster level 30th
+        Caster level 30
         </span>
         <span p:property="sep"/>
         ;
         <span content="26 + spell level" p:property="dc">
-         save DC 26 + spell level
+        save DC 26 + spell level
         </span>
         <span p:property="sep"/>
         .
         <span content="charisma" p:property="saveDCBasis">
-         The save DC is Charisma-based
+        The save DCs are Charisma-based
         </span>
         <span p:property="sep"/>
         .
