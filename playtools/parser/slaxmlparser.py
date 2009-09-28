@@ -69,17 +69,19 @@ rdfaGrammar = """
 node         ::=  :x  
 ws           ::=  :x  ?(isWS(x))                                            => x  
 
-spellName    ::=  :x  ?(isProp(x, u"spellName")) :content                   => x, content
-plainQual    ::=  :x  ?(isProp(x, u"qualifier")) :content                   => x, content
-casterLevel  ::=  :x  ?(isProp(x, u"casterLevel")) :content                 => x, content
-dc           ::=  :x  ?(isProp(x, u"dc")) :content                          => x, content
+rdfaNode :name  ::=  :x ?(isProp(x, name))                                  => x  
+
+spellName    ::=  <rdfaNode u"spellName">:x :content                        => x, content
+plainQual    ::=  <rdfaNode u"qualifier">:x :content                        => x, content
+casterLevel  ::=  <rdfaNode u"casterLevel">:x :content                      => x, content
+dc           ::=  <rdfaNode u"dc">:x :content                               => x, content
 qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q                => w, q  
 spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end               => t.spell(s, quals, end)
 
-sep          ::=  :x  ?(isProp(x, u"sep"))                                  => x
-fStart       ::=  :x  ?(isProp(x, u"frequencyStart"))                       => x
-fGroup       ::=  <fStart>:start :frequency <spell>:s1 <spell>*:spells !(spells.insert(0, s1))
-                                                                            => t.fGroup(start, frequency, spells)
+sep          ::=  <rdfaNode u"sep">:x                                       => x
+fStart       ::=  <rdfaNode u"frequencyStart">:x                            => x
+fGroup       ::=  <fStart>:start :frequency <spell>:s1 <spell>*:spells
+                                                !(spells.insert(0, s1))     => t.fGroup(start, frequency, spells)
 
 otherText    ::=  (~<sep> <node>)+ <sep>
 
