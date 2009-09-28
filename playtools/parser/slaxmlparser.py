@@ -69,13 +69,13 @@ rdfaGrammar = """
 node         ::=  :x  
 ws           ::=  :x  ?(isWS(x))                                         => x  
 
-rdfaNode :name  ::=  :x ?(isProp(x, name))                               => x  
+rdfaNode :name  ::=  :x ?(isProp(x, name))                               => x
 
 spellName    ::=  <rdfaNode u"spellName">:x :content                     => x, content
 plainQual    ::=  <rdfaNode u"qualifier">:x :content                     => x, content
 casterLevel  ::=  <rdfaNode u"casterLevel">:x :content                   => x, content
 dc           ::=  <rdfaNode u"dc">:x :content                            => x, content
-qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q             => w, q  
+qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q             => w, q
 spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end            => t.spell(s, quals, end)
 
 sep          ::=  <rdfaNode u"sep">:x                                    => x
