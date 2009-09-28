@@ -61,14 +61,10 @@ remainder    ::=  <remAny> (<sep> <remAny>)*
 """ # }}}
 
 # {{{ rdfaGrammar
-## rdfaGrammar = """
-## casterLevel  ::=  :x  ?(isProp(x, u"casterLevel"))
 ## dcBasis      ::=  :x  ?(isProp(x, u"dcBasis"))
 ## dcTopLevel   ::=  :x  ?(isProp(x, u"dcTopLevel"))
-## fGroup       ::=  <fStart>:start <spell> (<sep> <spell>)* <sep>:end
 ## remainderItem ::=  <casterLevel>|<dcBasis>|<dcTopLevel>|<otherText>
 ## sla          ::=  <otherText>+ <ws>? <fGroup>+ <ws>? <remainderItem> (<ws>? <sep> <remainderItem>)*
-## """
 rdfaGrammar = """
 node         ::=  :x  
 ws           ::=  :x  ?(isWS(x))                                            => x  
@@ -82,7 +78,8 @@ spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end               => t
 
 sep          ::=  :x  ?(isProp(x, u"sep"))                                  => x
 fStart       ::=  :x  ?(isProp(x, u"frequencyStart"))                       => x
-fGroup       ::=  <fStart>:start (~<sep> <anything>)*:any <sep>:end         => t.fGroup(start, any, end)
+fGroup       ::=  <fStart>:start :frequency <spell>:s1 <spell>*:spells !(spells.insert(0, s1))
+                                                                            => t.fGroup(start, frequency, spells)
 
 otherText    ::=  (~<sep> <node>)+ <sep>
 
@@ -271,21 +268,20 @@ class NodeTree(object):
         for n in nodes:
             n.parentNode.removeChild(n)
 
-    def fGroup(self, start, rest, end):
-        subs = []
+    def fGroup(self, start, frequency, spells, ):
         assert isProp(start, u'frequencyStart')
-        assert isProp(end, u'sep')
         freq = start.getAttribute('content')
-        self.unparentNodes(end, *rest)
+        self.unparentNodes(*spells)
         span = self.node.createElement('span')
         span.setAttribute('p:property', 'frequencyGroup')
         span.setAttribute('content', freq)
-        for n in rest:
+        span.appendChild(frequency)
+        for n in spells:
             span.appendChild(n)
         util.substituteNodes(start, [span])
+        return span
 
     def spell(self, start, quals, end):
-        subs = []
         spellName, _content = start
         assert isProp(spellName, u'spellName')
         assert isProp(end, u'sep')
@@ -304,6 +300,7 @@ class NodeTree(object):
             pn.insertBefore(next, span)
         else:
             pn.appendChild(span)
+        return span
 
 
 def isWS(node, ):
@@ -326,8 +323,10 @@ def rdfaProcessSLAXML(xml):
     globs = globals().copy()
     tree = NodeTree()
     tree.useXML(xml)
-    globs = {'t':tree}
-    seq = flattenSLATree(tree.node)
+    globs.update({'t':tree})
+
     RDFaParser = OMeta.makeGrammar(rdfaGrammar, globs, 'RDFaParser')
+
+    seq = flattenSLATree(tree.node)
     RDFaParser(seq).apply('sla')
     return tree.node

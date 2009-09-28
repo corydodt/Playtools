@@ -289,14 +289,33 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         Frequency wrappers get replaced correctly
         """
         test = inspect.cleandoc(u"""<span content="At will" p:property="frequencyStart" />
-        At will-detect evil (as a free <br /> action) <span p:property="sep"/>""")
+            At will-<i p:property="spellName">detect evil</i> <span
+            p:property="qualifier">(as a free\naction)</span> <span
+            p:property="casterLevel">(caster level 9th)</span> <span
+            p:property="dc">(DC 19)</span> <span p:property="sep"/>""")
         ret = self.applyRule(test, 'fGroup')
         actual = ret.documentElement.childNodes[0].toprettyxml(indent=u"").splitlines()
         expected = inspect.cleandoc(u"""<span content="At will" p:property="frequencyGroup">
              
-             At will-detect evil (as a free 
-             <br/>
-              action) 
+                         At will-
+             <span content="detect evil" p:property="spell">
+             <i p:property="spellName">
+             detect evil
+             </i>
+              
+             <span p:property="qualifier">
+             (as a free
+             action)
+             </span>
+              
+             <span p:property="casterLevel">
+             (caster level 9th)
+             </span>
+              
+             <span p:property="dc">
+             (DC 19)
+             </span>
+             </span>
              </span>""").splitlines()
         self.failIfDiff(actual, expected, 'actual', 'expected')
 
