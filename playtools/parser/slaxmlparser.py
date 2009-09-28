@@ -67,21 +67,21 @@ remainder    ::=  <remAny> (<sep> <remAny>)*
 ## sla          ::=  <otherText>+ <ws>? <fGroup>+ <ws>? <remainderItem> (<ws>? <sep> <remainderItem>)*
 rdfaGrammar = """
 node         ::=  :x  
-ws           ::=  :x  ?(isWS(x))                                            => x  
+ws           ::=  :x  ?(isWS(x))                                         => x  
 
-rdfaNode :name  ::=  :x ?(isProp(x, name))                                  => x  
+rdfaNode :name  ::=  :x ?(isProp(x, name))                               => x  
 
-spellName    ::=  <rdfaNode u"spellName">:x :content                        => x, content
-plainQual    ::=  <rdfaNode u"qualifier">:x :content                        => x, content
-casterLevel  ::=  <rdfaNode u"casterLevel">:x :content                      => x, content
-dc           ::=  <rdfaNode u"dc">:x :content                               => x, content
-qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q                => w, q  
-spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end               => t.spell(s, quals, end)
+spellName    ::=  <rdfaNode u"spellName">:x :content                     => x, content
+plainQual    ::=  <rdfaNode u"qualifier">:x :content                     => x, content
+casterLevel  ::=  <rdfaNode u"casterLevel">:x :content                   => x, content
+dc           ::=  <rdfaNode u"dc">:x :content                            => x, content
+qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q             => w, q  
+spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end            => t.spell(s, quals, end)
 
-sep          ::=  <rdfaNode u"sep">:x                                       => x
-fStart       ::=  <rdfaNode u"frequencyStart">:x                            => x
+sep          ::=  <rdfaNode u"sep">:x                                    => x
+fStart       ::=  <rdfaNode u"frequencyStart">:x                         => x
 fGroup       ::=  <fStart>:start :frequency <spell>:s1 <spell>*:spells
-                                                !(spells.insert(0, s1))     => t.fGroup(start, frequency, spells)
+                                                !(spells.insert(0, s1))  => t.fGroup(start, frequency, spells)
 
 otherText    ::=  (~<sep> <node>)+ <sep>
 
