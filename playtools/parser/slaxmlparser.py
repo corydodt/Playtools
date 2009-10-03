@@ -1,8 +1,8 @@
 """
 Spell-Like Ability XML parser
 """
+import sys
 import re
-from xml.dom import minidom
 
 from fudge import Fake
 
@@ -64,28 +64,29 @@ remainder    ::=  <remAny> (<sep> <remAny>)*
 ## dcBasis      ::=  :x  ?(isProp(x, u"dcBasis"))
 ## dcTopLevel   ::=  :x  ?(isProp(x, u"dcTopLevel"))
 ## remainderItem ::=  <casterLevel>|<dcBasis>|<dcTopLevel>|<otherText>
+## otherText    ::=  (~<sep> <node>)+ <sep> 
 ## sla          ::=  <otherText>+ <ws>? <fGroup>+ <ws>? <remainderItem> (<ws>? <sep> <remainderItem>)*
 rdfaGrammar = """
-node         ::=  :x  
-ws           ::=  :x  ?(isWS(x))                                         => x  
+node         ::=  :x  !(ww('        NODE', x))
+ws           ::=  :x  ?(isWS(x))           !(ww('        WS', x))                              => x  
+sepText      ::=  :x  ?(isSepText(x))           !(ww('        SEPTEXT', x))                       => x
 
-rdfaNode :name  ::=  :x ?(isProp(x, name))                               => x
+rdfaNode :name  ::=  :x ?(isProp(x, name))               !(ww('     RDFANODE', name, x))                => x
 
-spellName    ::=  <rdfaNode u"spellName">:x :content                     => x, content
-plainQual    ::=  <rdfaNode u"qualifier">:x :content                     => x, content
-casterLevel  ::=  <rdfaNode u"casterLevel">:x :content                   => x, content
-dc           ::=  <rdfaNode u"dc">:x :content                            => x, content
-qual         ::=  <ws>?:w (<plainQual>|<casterLevel>|<dc>):q             => w, q
-spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end            => t.spell(s, quals, end)
+spellName    ::=  <rdfaNode u"spellName">:x :content !(ww('    SPELLNAME', x))         => x, content
+plainQual    ::=  <rdfaNode u"qualifier">:x :content     !(ww('    PLAINQUAL', x))                => x, content
+casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('    CASTERLEVEL', x))         => x, content
+dc           ::=  <rdfaNode u"dc">:x :content !(ww('DC', x))  => x, content
+qual         ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q   !(ww('   QUAL', q)) => ws, q
+spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end <sepText>*:crap !(ww('  SPELL', s))   => t.spell(s, quals, end, crap)
 
-sep          ::=  <rdfaNode u"sep">:x                                    => x
-fStart       ::=  <rdfaNode u"frequencyStart">:x                         => x
-fGroup       ::=  <fStart>:start :frequency <spell>:s1 <spell>*:spells
-                                                !(spells.insert(0, s1))  => t.fGroup(start, frequency, spells)
+sep          ::=  <rdfaNode u"sep">:x                        !(ww('        SEP', x))            => x
+fStart       ::=  <rdfaNode u"frequencyStart">:x !(ww(' FSTART', x))     => x
+fGroup       ::=  <fStart>:start :frequency <spell>+:spells
+                                                !(ww('FGROUP', [start, frequency, spells])) => t.fGroup(start, frequency, spells)
 
-otherText    ::=  (~<sep> <node>)+ <sep>
-
-sla          ::=  <otherText>+ <fGroup>+ <otherText>+
+sla          ::=  (~<fStart> <node>)*:a (<fGroup>:b1 <sepText>*:b2   => (b1,b2)
+                    )+:b (~<fStart> <node>)*:c !(ww('SLA:A', a, 'SLA:B', b, 'SLA:C', c))
 """ # }}}
 
 def joinRaw(parsed):
@@ -257,11 +258,15 @@ class NodeTree(object):
     grammar
     """
     node = None
-    def useXML(self, xml):
+    def useNode(self, node):
         """
         Parse the xml and use it as the document for this tree
         """  
-        self.node = minidom.parseString(xml)
+        self.node = node
+        if hasattr(node, 'documentElement'):
+            self.doc = node.documentElement.parentNode
+        else:
+            self.doc = node.ownerDocument
 
     def unparentNodes(self, *nodes):
         """
@@ -274,7 +279,7 @@ class NodeTree(object):
         assert isProp(start, u'frequencyStart')
         freq = start.getAttribute('content')
         self.unparentNodes(*spells)
-        span = self.node.createElement('span')
+        span = self.doc.createElement('span')
         span.setAttribute('p:property', 'frequencyGroup')
         span.setAttribute('content', freq)
         span.appendChild(frequency)
@@ -283,25 +288,30 @@ class NodeTree(object):
         util.substituteNodes(start, [span])
         return span
 
-    def spell(self, start, quals, end):
+    def spell(self, start, quals, end, crap):
         spellName, _content = start
         assert isProp(spellName, u'spellName')
         assert isProp(end, u'sep')
         name = spellName.childNodes[0].data
         self.unparentNodes(end)
-        span = self.node.createElement('span')
+        span = self.doc.createElement('span')
         span.setAttribute('p:property', 'spell')
         span.setAttribute('content', name)
         pn = spellName.parentNode
         next = end.nextSibling
         span.appendChild(spellName)
         for ws, (q, _content) in quals:
-            span.appendChild(ws)
+            if ws:
+                span.appendChild(ws)
             span.appendChild(q)
+        # r = [c.data for c in crap]
+        # span.appendChild(self.doc.createTextNode(''.join(r)))
+
         if next:
             pn.insertBefore(next, span)
         else:
             pn.appendChild(span)
+
         return span
 
 
@@ -311,24 +321,31 @@ def isWS(node, ):
     """
     return node.nodeName == '#text' and node.data.strip() == ''
 
+def isSepText(node, ):
+    """
+    Node is a textnode containing only whitespace or a separator
+    """
+    return node.nodeName == '#text' and node.data.strip() in ';,.'
+
 def isProp(node, value):
     """
     Node has p:property set to value 
     """
     return hasattr(node, 'getAttribute') and node.getAttribute('p:property') == value
 
-def rdfaProcessSLAXML(xml):
+def rdfaProcessSLAXML(node):
     """
     Given an SLA node that has been preprocessed, remove sep tags and freqStart
     tags, put in frequencies and spell wrappers.
     """
     globs = globals().copy()
     tree = NodeTree()
-    tree.useXML(xml)
-    globs.update({'t':tree})
+    tree.useNode(node)
+    globs.update({'t':tree,'ww': lambda *x:None # lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n')
+        })
 
     RDFaParser = OMeta.makeGrammar(rdfaGrammar, globs, 'RDFaParser')
 
-    seq = flattenSLATree(tree.node)
+    seq = flattenSLATree(tree.node)[1:]
     RDFaParser(seq).apply('sla')
     return tree.node
