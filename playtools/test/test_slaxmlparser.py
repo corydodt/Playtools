@@ -261,8 +261,10 @@ class PreprocTest(unittest.TestCase, DiffTestCaseMixin):
 class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
     def setUp(self):
         self._parsed = sxp.NodeTree()
-        globs = {'t': self._parsed, 'isProp': sxp.isProp, 'isWS': sxp.isWS,
-                 'ww':lambda *x: None # lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n')
+        globs = {'t': self._parsed, 'isProp': sxp.isProp, 'isWS': sxp.isWS, 
+                'isSepText': sxp.isSepText,
+                 # 'ww':lambda *x: None ,
+                 'ww': lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n') ,
                 }
         self.parser = sxp.OMeta.makeGrammar(sxp.rdfaGrammar, globs,
                 "RDFaParser")
@@ -301,6 +303,7 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         expected = inspect.cleandoc(u"""<span content="At will" p:property="frequencyGroup">
              
                          At will-
+             
              <span content="detect evil" p:property="spell">
              <i p:property="spellName">
              detect evil
@@ -363,21 +366,37 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         """
         Original XML gets fixed up correctly with RDFa nodes
         """
-        test = inspect.cleandoc("""<div level="8" topic="Spell-Like Abilities">
-        <p><b>Spell-Like Abilities:</b> At will-<i>detect evil</i> (as a free action);
-        1/day-<i>cure moderate wounds</i> (Caster level 5th),
-        <i>neutralize poison</i> (DC 21, caster level 8th) (with a touch of its horn),
-        <i>greater teleport</i> (anywhere within its home; it cannot teleport
-        beyond the forest boundaries nor back from outside). Caster level
-        30th; save DC 26 + spell level.
-        The save DC is Charisma-based.</p>
-        </div>""")
-
-        n = minidom.parseString(test).documentElement
-        preproc = sxp.preprocessSLAXML(n)
+        test = inspect.cleandoc(u'''<div level="8" topic=
+        "Spell-Like Abilities" xmlns:p=
+        "http://goonmill.org/2007/property.n3#"> <p><b p:property=
+        "powerName">Spell-Like Abilities:</b><span content="At will" p:property=
+        "frequencyStart"/>At will-<i p:property=
+        "spellName">detect evil</i> <span p:property=
+        "qualifier">(as a free action)</span><span p:property=
+        "sep"/>; <span content="1/day" p:property=
+        "frequencyStart"/>1/day-<i p:property=
+        "spellName">cure moderate wounds</i> <span content="5" p:property=
+        "casterLevel">(caster level 5)</span><span p:property=
+        "sep"/>, <i p:property=
+        "spellName">neutralize poison</i> <span content="21" p:property=
+        "dc">(DC 21)</span><span content="8" p:property=
+        "casterLevel">(caster level 8)</span> <span p:property=
+        "qualifier">(with a touch of its horn)</span><span p:property=
+        "sep"/>, <i p:property=
+        "spellName">greater teleport</i> <span p:property=
+        "qualifier">(anywhere within its home; it cannot teleport
+        beyond the forest boundaries nor back from outside)</span><span p:property=
+        "sep"/>.<span content="30" p:property=
+        "casterLevel">Caster level 30</span><span p:property=
+        "sep"/>;<span content="26 + spell level" p:property=
+        "dc">save DC 26 + spell level</span><span p:property=
+        "sep"/>.<span content="charisma" p:property=
+        "saveDCBasis">The save DCs are Charisma-based</span><span p:property=
+        "sep"/>.</p> </div>''')
+        preproc = minidom.parseString(test)
         
         n2 = sxp.rdfaProcessSLAXML(preproc)
-        actual = unicode.splitlines(n2.toprettyxml(indent=""))
+        actual = unicode.splitlines(n2.documentElement.toprettyxml(indent=""))
         expected = unicode.splitlines(inspect.cleandoc(
         u'''<div level="8" topic="Spell-Like Abilities" xmlns:p="http://goonmill.org/2007/property.n3#">
          
@@ -387,6 +406,7 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         </b>
         <span content="At will" p:property="frequencyGroup">
         At will-
+        
         <span content="detect evil" p:property="spell">
         <i p:property="spellName">
         detect evil
@@ -397,10 +417,10 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         </span>
         </span>
         </span>
-        ;
-         
+        ; 
         <span content="1/day" p:property="frequencyGroup">
         1/day-
+        
         <span content="cure moderate wounds" p:property="spell">
         <i p:property="spellName">
         cure moderate wounds
@@ -410,8 +430,7 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         (caster level 5)
         </span>
         </span>
-        ,
-         
+        , 
         <span content="neutralize poison" p:property="spell">
         <i p:property="spellName">
         neutralize poison
@@ -428,8 +447,7 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         (with a touch of its horn)
         </span>
         </span>
-        ,
-         
+        , 
         <span content="greater teleport" p:property="spell">
         <i p:property="spellName">
         greater teleport
@@ -440,8 +458,8 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         beyond the forest boundaries nor back from outside)
         </span>
         </span>
-        .
         </span>
+        .
         <span content="charisma" p:property="saveDCBasis">
         The save DCs are Charisma-based
         </span>

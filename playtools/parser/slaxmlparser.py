@@ -78,7 +78,7 @@ plainQual    ::=  <rdfaNode u"qualifier">:x :content     !(ww('    PLAINQUAL', x
 casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('    CASTERLEVEL', x))         => x, content
 dc           ::=  <rdfaNode u"dc">:x :content !(ww('DC', x))  => x, content
 qual         ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q   !(ww('   QUAL', q)) => ws, q
-spell        ::=  <spellName>:s <qual>*:quals <ws>? <sep>:end <sepText>*:crap !(ww('  SPELL', s))   => t.spell(s, quals, end, crap)
+spell        ::=  <sepText>*:crap <spellName>:s <qual>*:quals <ws>? <sep>:end  !(ww('  SPELL', s))   => t.spell(crap, s, quals, end)
 
 sep          ::=  <rdfaNode u"sep">:x                        !(ww('        SEP', x))            => x
 fStart       ::=  <rdfaNode u"frequencyStart">:x !(ww(' FSTART', x))     => x
@@ -278,25 +278,27 @@ class NodeTree(object):
     def fGroup(self, start, frequency, spells, ):
         assert isProp(start, u'frequencyStart')
         freq = start.getAttribute('content')
-        self.unparentNodes(*spells)
+        for crap, spell in spells:
+            self.unparentNodes(spell)
         span = self.doc.createElement('span')
         span.setAttribute('p:property', 'frequencyGroup')
         span.setAttribute('content', freq)
         span.appendChild(frequency)
-        for n in spells:
-            span.appendChild(n)
+        for crap, spell in spells:
+            span.appendChild(crap)
+            span.appendChild(spell)
         util.substituteNodes(start, [span])
         return span
 
-    def spell(self, start, quals, end, crap):
+    def spell(self, crap, start, quals, end):
         spellName, _content = start
         assert isProp(spellName, u'spellName')
         assert isProp(end, u'sep')
         name = spellName.childNodes[0].data
         self.unparentNodes(end)
-        span = self.doc.createElement('span')
-        span.setAttribute('p:property', 'spell')
-        span.setAttribute('content', name)
+        span = self.doc.createElement(u'span')
+        span.setAttribute(u'p:property', u'spell')
+        span.setAttribute(u'content', name)
         pn = spellName.parentNode
         next = end.nextSibling
         span.appendChild(spellName)
@@ -304,15 +306,20 @@ class NodeTree(object):
             if ws:
                 span.appendChild(ws)
             span.appendChild(q)
-        # r = [c.data for c in crap]
-        # span.appendChild(self.doc.createTextNode(''.join(r)))
-
         if next:
             pn.insertBefore(next, span)
         else:
             pn.appendChild(span)
 
-        return span
+        if crap:
+            r = ''
+            for c in crap:
+                r = r + c.data
+                self.unparentNodes(c)
+            crap = self.doc.createTextNode(u''.join(r))
+        else:
+            crap = self.doc.createTextNode(u'')
+        return crap, span
 
 
 def isWS(node, ):
@@ -341,7 +348,8 @@ def rdfaProcessSLAXML(node):
     globs = globals().copy()
     tree = NodeTree()
     tree.useNode(node)
-    globs.update({'t':tree,'ww': lambda *x:None # lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n')
+    globs.update({'t':tree,  # 'ww': lambda *x:None,
+        'ww': lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n'),
         })
 
     RDFaParser = OMeta.makeGrammar(rdfaGrammar, globs, 'RDFaParser')
