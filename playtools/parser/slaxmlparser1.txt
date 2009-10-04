@@ -1,0 +1,34 @@
+COMMENT      ::=  <token """
+vim:set ft=ebnf:""">
+
+t :x         ::=  <token x>
+timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>|<t 'month'>|<t 'year'>
+fStartTime   ::=  <digit>+:d '/' <timeUnit>:t                       => ''.join(d+['/',t])
+fStart       ::=  (<t 'Permanent'>|<t 'At will'>|<fStartTime>):f '-'  => A([FSTART, f])
+sep          ::=  ('.'|';'|','):f                                   => A([SEP, f])
+qual         ::=  '(' <qualInner> ')'
+raw          ::=  <anything>:x                                      => A([RAW, x,])
+slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<raw>)*
+
+commaPar     ::=  ','|')'
+number       ::=  <digit>+:d                                        => int(''.join(d))
+caster       ::=  <t "caster">|<t "Caster">  
+casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>*  => [CL, d]
+casterLevel  ::=  <caster> <t "level"> <t "equals"> (~<sep> <anything>)*:any  => [CL, "equals%s" % (''.join(any),)]
+clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
+dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
+qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
+qualVanilla  ::=  <qualMisc>:x                                      => [QUAL, x]
+qualAny      ::=  (<dc>|<casterLevel>|<qualVanilla>):x              => A(x)
+qualInner    ::=  <qualAny> (',' <qualAny>)*
+
+remMisc      ::=  (~<sep> <anything>)*:x                            => ''.join(x).strip()  
+remVanilla   ::=  <remMisc>:x                                       => A([RAW, x])
+statName     ::=  <t "Charisma">|<t "Dexterity">|<t "Constitution">|<t "Strength">|<t "Wisdom">|<t "Intelligence">
+dcWords      ::=  <t "save">? (<t "DCs">|<t "DC">) (<t "is">|<t "are">)  
+dcBasis      ::=  <t "The"> <dcWords> <statName>:s <t "-based">     => A([DCBASIS, s.lower()])
+dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d
+                               <t "+"> <t "spell"> <t "level">      => A([DCTOP, unicode(d) + " + spell level"])
+dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d           => A([DCTOP, d])
+remAny       ::=  (<dcTopLevel>|<clTopLevel>|<dcBasis>|<remVanilla>)
+remainder    ::=  <remAny> (<sep> <remAny>)*

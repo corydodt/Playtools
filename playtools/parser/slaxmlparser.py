@@ -25,72 +25,9 @@ CL = Fake("CL")
 CLTOP = Fake("CLTOP")
 
 
-# {{{ preprocGrammar
-preprocGrammar = """
-t :x         ::=  <token x>
-timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>|<t 'month'>|<t 'year'>
-fStartTime   ::=  <digit>+:d '/' <timeUnit>:t                       => ''.join(d+['/',t])
-fStart       ::=  (<t 'Permanent'>|<t 'At will'>|<fStartTime>):f '-'  => A([FSTART, f])
-sep          ::=  ('.'|';'|','):f                                   => A([SEP, f])
-qual         ::=  '(' <qualInner> ')'
-raw          ::=  <anything>:x                                      => A([RAW, x,])
-slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<raw>)*
-
-commaPar     ::=  ','|')'
-number       ::=  <digit>+:d                                        => int(''.join(d))
-caster       ::=  <t "caster">|<t "Caster">  
-casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>*  => [CL, d]
-casterLevel  ::=  <caster> <t "level"> <t "equals"> (~<sep> <anything>)*:any  => [CL, "equals%s" % (''.join(any),)]
-clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
-dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
-qualMisc     ::=  (~<commaPar> <anything>)*:x                       => ''.join(x).strip()
-qualVanilla  ::=  <qualMisc>:x                                      => [QUAL, x]
-qualAny      ::=  (<dc>|<casterLevel>|<qualVanilla>):x              => A(x)
-qualInner    ::=  <qualAny> (',' <qualAny>)*
-
-remMisc      ::=  (~<sep> <anything>)*:x                            => ''.join(x).strip()  
-remVanilla   ::=  <remMisc>:x                                       => A([RAW, x])
-statName     ::=  <t "Charisma">|<t "Dexterity">|<t "Constitution">|<t "Strength">|<t "Wisdom">|<t "Intelligence">
-dcWords      ::=  <t "save">? (<t "DCs">|<t "DC">) (<t "is">|<t "are">)  
-dcBasis      ::=  <t "The"> <dcWords> <statName>:s <t "-based">     => A([DCBASIS, s.lower()])
-dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d
-                               <t "+"> <t "spell"> <t "level">      => A([DCTOP, unicode(d) + " + spell level"])
-dcTopLevel   ::=  <t "save"> <t "DC"> <spaces> <number>:d           => A([DCTOP, d])
-remAny       ::=  (<dcTopLevel>|<clTopLevel>|<dcBasis>|<remVanilla>)
-remainder    ::=  <remAny> (<sep> <remAny>)*
-""" # }}}
-
-# {{{ rdfaGrammar
-rdfaGrammar = """
-node         ::=  :x  !(ww('NODE', x))
-ws           ::=  :x  ?(isWS(x))           !(ww('WS', x))                              => x  
-sepText      ::=  :x  ?(isSepText(x))           !(ww('SEPTEXT', x))                       => x
-
-rdfaNode :name  ::=  :x ?(isProp(x, name))               !(ww('RDFANODE', name, x))                => x
-
-spellName    ::=  <rdfaNode u"spellName">:x :content !(ww('SPELLNAME', x))         => x, content
-plainQual    ::=  <rdfaNode u"qualifier">:x :content     !(ww('PLAINQUAL', x))                => x, content
-casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('CASTERLEVEL', x))         => x, content
-dc           ::=  <rdfaNode u"dc">:x :content !(ww('DC', x))  => x, content
-qual         ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q   !(ww('QUAL', q)) => ws, q
-spell        ::=  <sepText>*:crap <spellName>:s <qual>*:quals <ws>? <sep>:end  !(ww('SPELL', s))   => t.spell(crap, s, quals, end)
-
-sep          ::=  <rdfaNode u"sep">:x                        !(ww('SEP', x))            => x
-fStart       ::=  <rdfaNode u"frequencyStart">:x !(ww('FSTART', x))     => x
-fGroup       ::=  <fStart>:start :frequency <spell>+:spells
-                                                !(ww('FGROUP', [start, frequency, spells])) => t.fGroup(start, frequency, spells)
-
-dcBasis      ::=  <rdfaNode u"saveDCBasis">:basis :content  => t.dcBasis(basis, content)
-dcTopLevel   ::=  <rdfaNode u"dc">:dcTop :content  => t.dcTopLevel(dcTop, content)
-clTopLevel   ::=  <casterLevel>:clTop => t.clTopLevel(*clTop)
-remainderPfx ::=  <rdfaNode u"casterLevel">|<rdfaNode u"dcBasis">|<rdfaNode u"dcTopLevel">
-unknownRemainder ::= (~<remainderPfx> <node>)*:x  !(ww('UR', x))  => x
-remainderItem ::=  (<clTopLevel>|<dcBasis>|<dcTopLevel>):x  !(ww('REMI', x))  => x
-beforeGroups ::=  (~<fStart> <node>)*:x !(ww('BEF', x))
-groups       ::=   (<fGroup>:b1 <sepText>*:b2   => (b1,b2))+:b  !(ww('GROUPS', b)) => b
-remainders   ::=  <remainderItem>:c1 (<sep>:s !(t.unparentNodes(s)) <sepText>* <remainderItem>)*:c !(c.insert(0, c1))  => c
-sla          ::=  <beforeGroups> <groups> <remainders>:c  !(ww('SLA:C', c, ))
-""" # }}}
+# define the actual grammar
+preprocGrammar = open(util.RESOURCE('parser/slaxmlparser1.txt')).read()
+rdfaGrammar = open(util.RESOURCE('parser/slaxmlparser2.txt')).read()
 
 def joinRaw(parsed):
     """

@@ -1,0 +1,31 @@
+COMMENT      ::=  <token """
+vim:set ft=ebnf:""">
+
+node         ::=  :x  !(ww('NODE', x))
+ws           ::=  :x  ?(isWS(x))           !(ww('WS', x))                              => x  
+sepText      ::=  :x  ?(isSepText(x))           !(ww('SEPTEXT', x))                       => x
+
+rdfaNode :name  ::=  :x ?(isProp(x, name))               !(ww('RDFANODE', name, x))                => x
+
+spellName    ::=  <rdfaNode u"spellName">:x :content !(ww('SPELLNAME', x))         => x, content
+plainQual    ::=  <rdfaNode u"qualifier">:x :content     !(ww('PLAINQUAL', x))                => x, content
+casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('CASTERLEVEL', x))         => x, content
+dc           ::=  <rdfaNode u"dc">:x :content !(ww('DC', x))  => x, content
+qual         ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q   !(ww('QUAL', q)) => ws, q
+spell        ::=  <sepText>*:crap <spellName>:s <qual>*:quals <ws>? <sep>:end  !(ww('SPELL', s))   => t.spell(crap, s, quals, end)
+
+sep          ::=  <rdfaNode u"sep">:x                        !(ww('SEP', x))            => x
+fStart       ::=  <rdfaNode u"frequencyStart">:x !(ww('FSTART', x))     => x
+fGroup       ::=  <fStart>:start :frequency <spell>+:spells
+                                                !(ww('FGROUP', [start, frequency, spells])) => t.fGroup(start, frequency, spells)
+
+dcBasis      ::=  <rdfaNode u"saveDCBasis">:basis :content  => t.dcBasis(basis, content)
+dcTopLevel   ::=  <rdfaNode u"dc">:dcTop :content  => t.dcTopLevel(dcTop, content)
+clTopLevel   ::=  <casterLevel>:clTop => t.clTopLevel(*clTop)
+remainderPfx ::=  <rdfaNode u"casterLevel">|<rdfaNode u"dcBasis">|<rdfaNode u"dcTopLevel">
+unknownRemainder ::= (~<remainderPfx> <node>)*:x  !(ww('UR', x))  => x
+remainderItem ::=  (<clTopLevel>|<dcBasis>|<dcTopLevel>):x  !(ww('REMI', x))  => x
+beforeGroups ::=  (~<fStart> <node>)*:x !(ww('BEF', x))
+groups       ::=   (<fGroup>:b1 <sepText>*:b2   => (b1,b2))+:b  !(ww('GROUPS', b)) => b
+remainders   ::=  <remainderItem>:c1 (<sep>:s !(t.unparentNodes(s)) <sepText>* <remainderItem>)*:c !(c.insert(0, c1))  => c
+sla          ::=  <beforeGroups> <groups> <remainders>:c  !(ww('SLA:C', c, ))
