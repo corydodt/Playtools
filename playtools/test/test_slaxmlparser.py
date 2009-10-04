@@ -45,7 +45,11 @@ class RemainderTest(PreprocessorTest):
         self.assertEqual(actual, expected)
 
     def test_casterLevel(self):
-        actual = self.applyRule("Caster level 30th", "remainder")
+        actual = self.applyRule(" Caster level 30", "remainder")
+        expected = [[sxp.CLTOP, 30]]
+        self.assertEqual(actual, expected)
+
+        actual = self.applyRule(" Caster level 30th", "remainder")
         expected = [[sxp.CLTOP, 30]]
         self.assertEqual(actual, expected)
 
@@ -478,3 +482,111 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         '''))
 
         self.failIfDiff(actual, expected, fromfile="actual", tofile="expected")
+
+
+class DocumentTest(unittest.TestCase, DiffTestCaseMixin):
+    """
+    Test that the tested operations work when applied in sequence to an entire
+    document
+    """
+    def test_processDocument(self):
+        """
+        A document can be parsed to produce an rdfa-enhanced document.
+        """
+        test = inspect.cleandoc("""<html xmlns:p=
+        "http://goonmill.org/2007/property.n3#"><div level="8" topic="Spell-Like Abilities">
+        <p><b>Spell-Like Abilities:</b> At will-<i>detect evil</i> (as a free action);
+        1/day-<i>cure moderate wounds</i> (Caster level 5th),
+        <i>neutralize poison</i> (DC 21, caster level 8th) (with a touch of its horn),
+        <i>greater teleport</i> (anywhere within its home; it cannot teleport
+        beyond the forest boundaries nor back from outside).  Caster level 30;
+        save DC 26 + spell level.  The save DCs are Charisma-based.</p>
+        </div></html>""")
+        doc = minidom.parseString(test)
+        doc = sxp.processDocument(doc)
+
+        actual = unicode.splitlines(doc.toprettyxml(indent=""))
+        expected = unicode.splitlines(inspect.cleandoc(
+        u'''<?xml version="1.0" ?>
+        <html xmlns:p="http://goonmill.org/2007/property.n3#">
+        <div level="8" topic="Spell-Like Abilities">
+         
+        <p>
+        <b p:property="powerName">
+        Spell-Like Abilities:
+        </b>
+        <span content="At will" p:property="frequencyGroup">
+        At will-
+        
+        <span content="detect evil" p:property="spell">
+        <i p:property="spellName">
+        detect evil
+        </i>
+         
+        <span p:property="qualifier">
+        (as a free action)
+        </span>
+        </span>
+        </span>
+        ;
+         
+        <span content="1/day" p:property="frequencyGroup">
+        1/day-
+        
+        <span content="cure moderate wounds" p:property="spell">
+        <i p:property="spellName">
+        cure moderate wounds
+        </i>
+         
+        <span content="5" p:property="casterLevel">
+        (caster level 5)
+        </span>
+        </span>
+        , 
+        <span content="neutralize poison" p:property="spell">
+        <i p:property="spellName">
+        neutralize poison
+        </i>
+         
+        <span content="21" p:property="dc">
+        (DC 21)
+        </span>
+        <span content="8" p:property="casterLevel">
+        (caster level 8)
+        </span>
+         
+        <span p:property="qualifier">
+        (with a touch of its horn)
+        </span>
+        </span>
+        , 
+        <span content="greater teleport" p:property="spell">
+        <i p:property="spellName">
+        greater teleport
+        </i>
+         
+        <span p:property="qualifier">
+        (anywhere within its home; it cannot teleport
+        beyond the forest boundaries nor back from outside)
+        </span>
+        </span>
+        </span>
+        .
+        <span content="30" p:property="casterLevel">
+        Caster level 30
+        </span>
+        ;
+        <span content="26 + spell level" p:property="dc">
+        save DC 26 + spell level
+        </span>
+        .
+        <span content="charisma" p:property="saveDCBasis">
+        The save DCs are Charisma-based
+        </span>
+        .
+        </p>
+         
+        </div>
+        </html>
+        '''))
+        self.failIfDiff(actual, expected, 'actual', 'expected')

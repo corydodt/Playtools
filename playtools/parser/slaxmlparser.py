@@ -40,7 +40,7 @@ slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<ra
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
 caster       ::=  <t "caster">|<t "Caster">  
-casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>+  => [CL, d]
+casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>*  => [CL, d]
 casterLevel  ::=  <caster> <t "level"> <t "equals"> (~<sep> <anything>)*:any  => [CL, "equals%s" % (''.join(any),)]
 clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
 dc           ::=  <t "DC"> <spaces> <number>:d                      => [DC, d]
@@ -200,17 +200,6 @@ def substituteSLAText(orig, parsed):
             else:
                 substitutions.extend([doc.createTextNode(data + '-')])
     util.substituteNodes(orig, substitutions)
-
-def processDocument(doc):
-    """
-    Fold, spindle and mutilate doc to get the necessary SLA structure.  Return the modified
-    document.
-    """
-    slaNode = util.findNodeByAttribute(doc, u'topic', u'Spell-Like Abilities')
-    if slaNode:
-        preprocessSLAXML(slaNode)
-
-    return doc
 
 def preprocessSLAXML(node):
     """
@@ -395,3 +384,16 @@ def rdfaProcessSLAXML(node):
         print map(propify, parser.input.data[parser.input.position:])
         raise
     return tree.node
+
+def processDocument(doc):
+    """
+    Fold, spindle and mutilate doc to get the necessary SLA structure.  Return the modified
+    document.
+    """
+    slaNode = util.findNodeByAttribute(doc, u'topic', u'Spell-Like Abilities')
+    if slaNode:
+        pre = preprocessSLAXML(slaNode)
+        outNode = rdfaProcessSLAXML(pre)
+
+    return doc
+
