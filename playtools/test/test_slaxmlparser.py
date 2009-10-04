@@ -263,8 +263,8 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         self._parsed = sxp.NodeTree()
         globs = {'t': self._parsed, 'isProp': sxp.isProp, 'isWS': sxp.isWS, 
                 'isSepText': sxp.isSepText,
-                 # 'ww':lambda *x: None ,
-                 'ww': lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n') ,
+                 'ww':lambda *x: None ,
+                 # 'ww': sxp.debugWrite
                 }
         self.parser = sxp.OMeta.makeGrammar(sxp.rdfaGrammar, globs,
                 "RDFaParser")
@@ -458,6 +458,14 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
         beyond the forest boundaries nor back from outside)
         </span>
         </span>
+        </span>
+        .
+        <span content="30" p:property="casterLevel">
+        Caster level 30
+        </span>
+        ;
+        <span content="26 + spell level" p:property="dc">
+        save DC 26 + spell level
         </span>
         .
         <span content="charisma" p:property="saveDCBasis">

@@ -7,6 +7,7 @@ import re
 from fudge import Fake
 
 from pymeta.grammar import OMeta
+from pymeta.runtime import ParseError
 
 from playtools import util
 
@@ -61,32 +62,35 @@ remainder    ::=  <remAny> (<sep> <remAny>)*
 """ # }}}
 
 # {{{ rdfaGrammar
-## dcBasis      ::=  :x  ?(isProp(x, u"dcBasis"))
-## dcTopLevel   ::=  :x  ?(isProp(x, u"dcTopLevel"))
-## remainderItem ::=  <casterLevel>|<dcBasis>|<dcTopLevel>|<otherText>
-## otherText    ::=  (~<sep> <node>)+ <sep> 
-## sla          ::=  <otherText>+ <ws>? <fGroup>+ <ws>? <remainderItem> (<ws>? <sep> <remainderItem>)*
 rdfaGrammar = """
-node         ::=  :x  !(ww('        NODE', x))
-ws           ::=  :x  ?(isWS(x))           !(ww('        WS', x))                              => x  
-sepText      ::=  :x  ?(isSepText(x))           !(ww('        SEPTEXT', x))                       => x
+node         ::=  :x  !(ww('NODE', x))
+ws           ::=  :x  ?(isWS(x))           !(ww('WS', x))                              => x  
+sepText      ::=  :x  ?(isSepText(x))           !(ww('SEPTEXT', x))                       => x
 
-rdfaNode :name  ::=  :x ?(isProp(x, name))               !(ww('     RDFANODE', name, x))                => x
+rdfaNode :name  ::=  :x ?(isProp(x, name))               !(ww('RDFANODE', name, x))                => x
 
-spellName    ::=  <rdfaNode u"spellName">:x :content !(ww('    SPELLNAME', x))         => x, content
-plainQual    ::=  <rdfaNode u"qualifier">:x :content     !(ww('    PLAINQUAL', x))                => x, content
-casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('    CASTERLEVEL', x))         => x, content
+spellName    ::=  <rdfaNode u"spellName">:x :content !(ww('SPELLNAME', x))         => x, content
+plainQual    ::=  <rdfaNode u"qualifier">:x :content     !(ww('PLAINQUAL', x))                => x, content
+casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('CASTERLEVEL', x))         => x, content
 dc           ::=  <rdfaNode u"dc">:x :content !(ww('DC', x))  => x, content
-qual         ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q   !(ww('   QUAL', q)) => ws, q
-spell        ::=  <sepText>*:crap <spellName>:s <qual>*:quals <ws>? <sep>:end  !(ww('  SPELL', s))   => t.spell(crap, s, quals, end)
+qual         ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q   !(ww('QUAL', q)) => ws, q
+spell        ::=  <sepText>*:crap <spellName>:s <qual>*:quals <ws>? <sep>:end  !(ww('SPELL', s))   => t.spell(crap, s, quals, end)
 
-sep          ::=  <rdfaNode u"sep">:x                        !(ww('        SEP', x))            => x
-fStart       ::=  <rdfaNode u"frequencyStart">:x !(ww(' FSTART', x))     => x
+sep          ::=  <rdfaNode u"sep">:x                        !(ww('SEP', x))            => x
+fStart       ::=  <rdfaNode u"frequencyStart">:x !(ww('FSTART', x))     => x
 fGroup       ::=  <fStart>:start :frequency <spell>+:spells
                                                 !(ww('FGROUP', [start, frequency, spells])) => t.fGroup(start, frequency, spells)
 
-sla          ::=  (~<fStart> <node>)*:a (<fGroup>:b1 <sepText>*:b2   => (b1,b2)
-                    )+:b (~<fStart> <node>)*:c !(ww('SLA:A', a, 'SLA:B', b, 'SLA:C', c))
+dcBasis      ::=  <rdfaNode u"saveDCBasis">:basis :content  => t.dcBasis(basis, content)
+dcTopLevel   ::=  <rdfaNode u"dc">:dcTop :content  => t.dcTopLevel(dcTop, content)
+clTopLevel   ::=  <casterLevel>:clTop => t.clTopLevel(*clTop)
+remainderPfx ::=  <rdfaNode u"casterLevel">|<rdfaNode u"dcBasis">|<rdfaNode u"dcTopLevel">
+unknownRemainder ::= (~<remainderPfx> <node>)*:x  !(ww('UR', x))  => x
+remainderItem ::=  (<clTopLevel>|<dcBasis>|<dcTopLevel>):x  !(ww('REMI', x))  => x
+beforeGroups ::=  (~<fStart> <node>)*:x !(ww('BEF', x))
+groups       ::=   (<fGroup>:b1 <sepText>*:b2   => (b1,b2))+:b  !(ww('GROUPS', b)) => b
+remainders   ::=  <remainderItem>:c1 (<sep>:s !(t.unparentNodes(s)) <sepText>* <remainderItem>)*:c !(c.insert(0, c1))  => c
+sla          ::=  <beforeGroups> <groups> <remainders>:c  !(ww('SLA:C', c, ))
 """ # }}}
 
 def joinRaw(parsed):
@@ -321,6 +325,14 @@ class NodeTree(object):
             crap = self.doc.createTextNode(u'')
         return crap, span
 
+    def clTopLevel(self, casterLevel, content):
+        return casterLevel
+
+    def dcTopLevel(self, dcTopLevel, content):
+        return dcTopLevel
+
+    def dcBasis(self, dcBasis, content):
+        return dcBasis
 
 def isWS(node, ):
     """
@@ -340,6 +352,20 @@ def isProp(node, value):
     """
     return hasattr(node, 'getAttribute') and node.getAttribute('p:property') == value
 
+
+def debugWrite(*items):
+    import inspect
+    indent = ' ' * (len(inspect.stack()) - 34)
+    print indent,
+    r = []
+    for a in items:
+        if hasattr(a, 'nodeName') and a.nodeName == 'span':
+            r.append('<%s>' % (a.getAttribute('p:property'),))
+        else:
+            r.append(str(a))
+    print ' '.join(r)
+    return 
+
 def rdfaProcessSLAXML(node):
     """
     Given an SLA node that has been preprocessed, remove sep tags and freqStart
@@ -348,12 +374,24 @@ def rdfaProcessSLAXML(node):
     globs = globals().copy()
     tree = NodeTree()
     tree.useNode(node)
-    globs.update({'t':tree,  # 'ww': lambda *x:None,
-        'ww': lambda *x: sys.stdout.write(''.join([str(a) for a in x]) + '\n'),
+    globs.update({'t':tree,
+        'ww': lambda *x:None,
+        # 'ww': debugWrite,
         })
 
     RDFaParser = OMeta.makeGrammar(rdfaGrammar, globs, 'RDFaParser')
 
     seq = flattenSLATree(tree.node)[1:]
-    RDFaParser(seq).apply('sla')
+    try:
+        parser = RDFaParser(seq)
+        parser.apply('sla')
+    except ParseError:
+        def propify(x):
+            if hasattr(x, 'nodeName') and x.nodeName == 'span':
+                if x.hasAttribute('p:property'):
+                    return '<PROP {0}>'.format(x.getAttribute('p:property'))
+            return x
+        print map(propify, parser.input.data[:parser.input.position])
+        print map(propify, parser.input.data[parser.input.position:])
+        raise
     return tree.node
