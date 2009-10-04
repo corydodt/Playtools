@@ -1,5 +1,5 @@
-COMMENT      ::=  <token """
-vim:set ft=ebnf:""">
+COMMENT::=!("""
+vim:set ft=pymeta:""")
 
 t :x         ::=  <token x>
 timeUnit     ::=  <t 'hour'>|<t 'round'>|<t 'day'>|<t 'week'>|<t 'month'>|<t 'year'>

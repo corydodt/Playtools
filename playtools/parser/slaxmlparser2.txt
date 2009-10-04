@@ -1,5 +1,5 @@
-COMMENT      ::=  <token """
-vim:set ft=ebnf:""">
+COMMENT::=!("""
+vim:set ft=pymeta:""")
 
 node         ::=  :x  !(ww('NODE', x))
 ws           ::=  :x  ?(isWS(x))           !(ww('WS', x))                              => x  
