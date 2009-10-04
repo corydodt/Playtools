@@ -1,7 +1,6 @@
 """
 Spell-Like Ability XML parser
 """
-import sys
 import re
 
 from fudge import Fake

@@ -2,7 +2,6 @@
 test_slaxmlparser verifies the processes that convert XML nodes containing spell-like abilities
 into formed XML structures.
 """
-import sys
 import inspect
 from xml.dom import minidom
 
