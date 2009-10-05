@@ -311,6 +311,9 @@ def rdfaProcessSLAXML(node):
         parser = RDFaParser(seq)
         parser.apply('sla')
     except ParseError:
+        if 'frequencyGroup' in tree.node.toxml():
+            raise AlreadyParsed()
+
         def propify(x):
             if hasattr(x, 'nodeName') and x.nodeName == 'span':
                 if x.hasAttribute('p:property'):
@@ -321,6 +324,13 @@ def rdfaProcessSLAXML(node):
         raise
     return tree.node
 
+
+class AlreadyParsed(Exception):
+    """
+    This document has already been fully parsed (both preprocessed and rdfa
+    processed)
+    """
+
 def processDocument(doc):
     """
     Fold, spindle and mutilate doc to get the necessary SLA structure.  Return the modified
@@ -329,7 +339,10 @@ def processDocument(doc):
     slaNode = util.findNodeByAttribute(doc, u'topic', u'Spell-Like Abilities')
     if slaNode:
         pre = preprocessSLAXML(slaNode)
-        outNode = rdfaProcessSLAXML(pre)
+        try:
+            outNode = rdfaProcessSLAXML(pre)
+        except AlreadyParsed:
+            return doc
 
     return doc
 
