@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+"""
+fixupspell: add rdfa data tags to all the spell-like abilities and spells
+inside playtools/plugins/monstertext/
+"""
+import sys
+
+from playtools.scripts.fixupspell import run
+
+if __name__ == '__main__': sys.exit(run())
