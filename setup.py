@@ -2,7 +2,7 @@ try:
     import setuptools
     setuptools
 except ImportError:
-    from ez_setup import use_setuptools
+    from distribute_setup import use_setuptools
     use_setuptools()
 
 from setuptools import setup, find_packages
@@ -22,6 +22,7 @@ setup(name='Playtools',
       scripts=['bin/ptconvert', 'bin/ptstore', 'bin/pt-system-install'],
 
       install_requires=[
+          'Distribute>=0.6.3',
           'zc.buildout>=1.2.1',
           'pysqlite>=2',
           'storm>=0.13',
