@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html>
+<html xmlns:p="http://goonmill.org/2007/property.n3#">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
     <title>ooze mephit</title>
   </head>
   <body>
@@ -17,12 +15,10 @@
 <div level="8" topic="Breath Weapon">
 <p><b>Breath Weapon (Su):</b> 10-foot cone of caustic liquid, damage 1d4 acid, Reflex DC 13 half. Living creatures that fail their saves are tormented by itching skin and burning eyes unless they have immunity to acid or are otherwise protected. This effect imposes a -4 penalty to AC and a -2 penalty on attack rolls for 3 rounds. The save DC is Constitution-based and includes a +1 racial bonus.</p>
 </div>
-<div level="8" topic="Spell-Like Abilities">
-  <p><b>Spell-Like Abilities:</b> 1/hour-<i>acid arrow</i> (can hurl an acidic
-  blob that functions like the spell) (caster level 3rd); 1/day-<i>stinking
-    cloud</i> (a mass of smelly fog that duplicates the effect of the spell)
-  (DC 15, caster level 6th). The save DC is Charisma-based.</p>
-</div>
+<div level="8" topic="Spell-Like Abilities"> <p><b p:property="powerName">Spell-Like Abilities:</b> <span content="1/hour" p:property="frequencyGroup">1/hour-<span content="acid arrow" p:property="spell"><i p:property="spellName">acid arrow</i> <span p:property="qualifier">(can hurl an acidic
+  blob that functions like the spell)</span> <span content="3" p:property="casterLevel">(caster level 3)</span></span></span>; <span content="1/day" p:property="frequencyGroup">1/day-<span content="stinking
+    cloud" p:property="spell"><i p:property="spellName">stinking
+    cloud</i> <span p:property="qualifier">(a mass of smelly fog that duplicates the effect of the spell)</span> <span content="15" p:property="dc">(DC 15)</span><span content="6" p:property="casterLevel">(caster level 6)</span></span></span>.<span content="charisma" p:property="saveDCBasis">The save DCs are Charisma-based</span>.</p> </div>
 <div level="8" topic="Fast Healing">
 <p><b>Fast Healing (Ex):</b> An ooze mephit heals only if in a wet or muddy environment.</p>
 </div>
