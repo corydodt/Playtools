@@ -33,6 +33,12 @@ class Options(usage.Options):
         except ExpatError, e:
             raise usage.UsageError("** Could not parse {0}: {1}".format(htm, e)) 
 
+        if not util.findNodeByAttribute(doc, 'topic', 'Spell-Like Abilities'):
+            return None
+
+        # FIXME
+        print htm
+
         slaxmlparser.processDocument(doc)
 
         return doc
@@ -40,21 +46,16 @@ class Options(usage.Options):
     def postOptions(self):
         TODO("print out all the raw text and qual text")
         for htm in sorted(glob.glob('{0}/*.htm'.format(self['dir']))):
-            # FIXME
-            print htm
-
             doc = self.fixupFile(htm)
-
-            # FIXME
-            if util.findNodeByAttribute(doc, 'topic', 'Spell-Like Abilities'):
+            if doc is not None:
                 assert util.findNodeByAttribute(doc, 'p:property',
                         'frequencyGroup')
 
-            if self['backup']:
-                bak = '{0}{1}'.format(htm, self['backup'])
-                shutil.copy(htm, bak)
-            markup = doc.documentElement.toxml(encoding='utf-8')
-            open('{0}'.format(htm), 'w').write(markup)
+                if self['backup']:
+                    bak = '{0}{1}'.format(htm, self['backup'])
+                    shutil.copy(htm, bak)
+                markup = doc.documentElement.toxml(encoding='utf-8')
+                open('{0}'.format(htm), 'w').write(markup)
 
 
 def run(argv=None):
