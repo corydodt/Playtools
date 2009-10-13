@@ -13,17 +13,12 @@ setup(name='Playtools',
       url='http://goonmill.org/playtools/',
       download_url='http://playtools-source.goonmill.org/archive/tip.tar.gz',
 
-      entry_points = {'zc.buildout': ['d20srd35 = playtools.recipe.d20srd35:D20SRD35',
-                                      'trial = playtools.recipe.trial:RunTrial',
-                                      ]},
-
       packages=find_packages(),
 
       scripts=['bin/ptconvert', 'bin/ptstore', 'bin/pt-system-install'],
 
       install_requires=[
           'Distribute>=0.6.3',
-          'zc.buildout>=1.2.1',
           'pysqlite>=2',
           'storm>=0.13',
           'rdflib==2.4.2_cdd1',
