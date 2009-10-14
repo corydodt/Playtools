@@ -102,13 +102,34 @@ def gatherText(dom, accumulator=None):
     tn = findNodes(dom, lambda x: x.nodeName == '#text')
     return ' '.join([t.toxml() for t in tn])
 
-def findNodeByAttribute(root, attr, value):
+def findNodeByAttribute(root, attribute, value=None):
     """
     Return the first node under root that has attr="value"
     """
+    try:
+        return findNodesByAttribute(root, attribute, value).next()
+    except StopIteration:
+        return None
+
+def findNodesByAttribute(root, attribute, value=None):
+    """
+    Iterate all nodes under root that have attribute="value".  Specify value=None to
+    find any node that has attribute set at all.
+    """
     def matcher(n):
-        if n.attributes:
-            return n.getAttribute(attr) == value
-    for n in findNodes(root, matcher):
-        return n
+        return attr(n, attribute, value)
+    return findNodes(root, matcher)
+
+def attr(node, name, value=None):
+    """
+    If value is None: true if node has an attribute 'name'
+    If value is specified: true if node's attribute 'name' is equal to value
+    """
+    if not hasattr(node, 'getAttribute'):
+        return False
+    if not node.hasAttribute(name):
+        return False
+    if value is None:
+        return True
+    return node.getAttribute(name) == value
 

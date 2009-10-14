@@ -137,3 +137,33 @@ class UtilTestCase(unittest.TestCase):
         
         self.assertEqual(t1.toxml(), 
                 u"<top>leftetc.<element/><!--comment-->etc.<element/></top>")
+
+    def test_attr(self):
+        """
+        attr tests whether a dom node has a particular attribute value, or has
+        a particular attribute
+        """
+        s = '<a><b x="1"/> <b x="2" /> <b y="" /> </a>'
+        cn = minidom.parseString(s).documentElement.getElementsByTagName('b')
+        self.assertTrue(util.attr(cn[0], 'x'))
+        self.assertTrue(util.attr(cn[0], 'x', '1'))
+
+        self.assertTrue(util.attr(cn[1], 'x', '2'))
+        self.assertFalse(util.attr(cn[1], 'x', '1'))
+ 
+        self.assertFalse(util.attr(cn[2], 'x', '2'))
+        self.assertFalse(util.attr(cn[2], 'x'))
+        self.assertTrue(util.attr(cn[2], 'y', ""))
+        self.assertTrue(util.attr(cn[2], 'y', None))
+
+    def test_findNodesByAttribute(self):
+        """
+        attr tests whether a dom node has a particular attribute value, or has
+        a particular attribute
+        """
+        s = '<a><b id="1" x="1"/> <b id="2" x="2" /> <b id="3" x="2" /> </a>'
+        cn = minidom.parseString(s)
+        act1 = util.findNodesByAttribute(cn, 'x')
+        self.assertEqual([n.getAttribute('id') for n in act1], ['1','2','3'])
+        act2 = util.findNodesByAttribute(cn, 'x', '2')
+        self.assertEqual([n.getAttribute('id') for n in act2], ['2','3'])
