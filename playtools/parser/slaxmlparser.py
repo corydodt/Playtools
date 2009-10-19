@@ -2,6 +2,7 @@
 Spell-Like Ability XML parser
 """
 import re
+import itertools
 
 from fudge import Fake
 
@@ -331,18 +332,36 @@ class AlreadyParsed(Exception):
     processed)
     """
 
+def findEligibleSLAs(doc):
+    """
+    Search for nodes that contain spell-like abilities and are eligible for
+    processing by this module.  This means:
+
+    - Is marked with the topic 'Spell-Like Abilities', possibly preceded by
+      'Other'
+    - Is a generic SLA container with multiple SLAs (not, for example, a
+      special ability that is a single power)
+    - Has not already been processed, determined by the presence of a
+      p:property="frequencyGroup" node.
+    - If it meets all of the above, but does not contain any
+      <i> nodes, assert.
+    """
+    slaNodes = util.findNodesByAttribute(doc, u'topic', u'Spell-Like Abilities')
+    slaNodes = itertools.chain(slaNodes, util.findNodesByAttribute(doc, u'topic', u'Other Spell-Like Abilities'))
+    for node in slaNodes:
+        if not list(util.findNodesByAttribute(node, u'p:property', 'frequencyGroup')):
+            assert len(node.getElementsByTagName('i')) > 0
+            yield node
+
 def processDocument(doc):
     """
     Fold, spindle and mutilate doc to get the necessary SLA structure.  Return the modified
     document.
     """
-    slaNode = util.findNodeByAttribute(doc, u'topic', u'Spell-Like Abilities')
-    if slaNode:
-        pre = preprocessSLAXML(slaNode)
-        try:
-            outNode = rdfaProcessSLAXML(pre)
-        except AlreadyParsed:
-            return doc
+    slaNodes = findEligibleSLAs(doc)
+    for n in slaNodes:
+        pre = preprocessSLAXML(n)
+        outNode = rdfaProcessSLAXML(pre)
 
     return doc
 

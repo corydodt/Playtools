@@ -491,6 +491,30 @@ class DocumentTest(unittest.TestCase, DiffTestCaseMixin):
     Test that the tested operations work when applied in sequence to an entire
     document
     """
+    def test_findEligibleSLAs(self):
+        """
+        The correct list of SLAs is returned
+        """
+        t1 = inspect.cleandoc(u"""<html xmlns:p="http://goonmill.org/2007/property.n3">
+            <div level="8" id="a" topic="Stuff"></div>
+            <div level="8" id="b" topic="Spell-Like Abilities">At will-<i>charm monster</i></div>
+            <div level="8" id="c" topic="Other Spell-Like Abilities">At will-<i>charm monster</i></div>
+            <div level="8" id="d" topic="Other Spell-Like Abilities"><span p:property="frequencyGroup">At will-<i>charm monster</i></span></div>
+            </html>""")
+        doc = minidom.parseString(t1)
+        act = []
+        for n in sxp.findEligibleSLAs(doc):
+            act.append(n.toxml())
+        ex = [u'<div id="b" level="8" topic="Spell-Like Abilities">At will-<i>charm monster</i></div>',
+              u'<div id="c" level="8" topic="Other Spell-Like Abilities">At will-<i>charm monster</i></div>',
+              ]
+        self.assertNoDiff(act, ex, 'actual', 'expected')
+
+        t2 = inspect.cleandoc("""<div level="8" id="d" topic="Spell-Like Abilities">this one doesn't count</div>""")
+        doc = minidom.parseString(t2)
+        finder = sxp.findEligibleSLAs(doc)
+        self.assertRaises(AssertionError, finder.next)
+
     def test_processDocument(self):
         """
         A document can be parsed to produce an rdfa-enhanced document.
