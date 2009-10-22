@@ -13,6 +13,7 @@ slaText      ::=  (<fStart>|<qual>|<dcTopLevel>|<dcBasis>|<clTopLevel>|<sep>|<ra
 commaPar     ::=  ','|')'
 number       ::=  <digit>+:d                                        => int(''.join(d))
 caster       ::=  <t "caster">|<t "Caster">  
+casterLevel  ::=  <caster> <t "level"> <spaces> <t "varies">:s      => [CL, s]
 casterLevel  ::=  <caster> <t "level"> <spaces> <number>:d <letter>*  => [CL, d]
 casterLevel  ::=  <caster> <t "level"> <t "equals"> (~<sep> <anything>)*:any  => [CL, "equals%s" % (''.join(any),)]
 clTopLevel   ::=  <casterLevel>:cl                                  => A([CLTOP, cl[1]])
