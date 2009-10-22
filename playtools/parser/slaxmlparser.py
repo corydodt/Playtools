@@ -312,9 +312,6 @@ def rdfaProcessSLAXML(node):
         parser = RDFaParser(seq)
         parser.apply('sla')
     except ParseError:
-        if 'frequencyGroup' in tree.node.toxml():
-            raise AlreadyParsed()
-
         def propify(x):
             if hasattr(x, 'nodeName') and x.nodeName == 'span':
                 if x.hasAttribute('p:property'):
@@ -349,7 +346,9 @@ def findEligibleSLAs(doc):
     slaNodes = util.findNodesByAttribute(doc, u'topic', u'Spell-Like Abilities')
     slaNodes = itertools.chain(slaNodes, util.findNodesByAttribute(doc, u'topic', u'Other Spell-Like Abilities'))
     for node in slaNodes:
-        if not list(util.findNodesByAttribute(node, u'p:property', 'frequencyGroup')):
+        # skip over nodes that already have frequencyGroup (e.g. are done)
+        fGroups = list(util.findNodesByAttribute(node, u'p:property', 'frequencyGroup'))
+        if len(fGroups) == 0:
             assert len(node.getElementsByTagName('i')) > 0
             yield node
 

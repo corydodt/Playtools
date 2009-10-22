@@ -482,9 +482,6 @@ class RDFaProcessTest(unittest.TestCase, DiffTestCaseMixin):
 
         self.failIfDiff(actual, expected, fromfile="actual", tofile="expected")
 
-        # verify you can't process it twice
-        self.assertRaises(sxp.AlreadyParsed, sxp.rdfaProcessSLAXML, n2)
-
 
 class DocumentTest(unittest.TestCase, DiffTestCaseMixin):
     """
