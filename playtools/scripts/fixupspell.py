@@ -44,7 +44,6 @@ class Options(usage.Options):
         return doc
 
     def postOptions(self):
-        TODO("print out all the raw text and qual text")
         for htm in sorted(glob.glob('{0}/*.htm'.format(self['dir']))):
             doc = self.fixupFile(htm)
             if doc is not None:
