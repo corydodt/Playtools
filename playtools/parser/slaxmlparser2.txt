@@ -11,7 +11,7 @@ spellName         ::=  <rdfaNode u"spellName">:x :content !(ww('SPELLNAME', x)) 
 plainQual         ::=  <rdfaNode u"qualifier">:x :content !(ww('PLAINQUAL', x))    => x, content
 casterLevel  ::=  <rdfaNode u"casterLevel">:x :content !(ww('CASTERLEVEL', x))     => x, content
 dc                ::=  <rdfaNode u"dc">:x :content !(ww('DC', x))                  => x, content
-qual              ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q                 !(ww('QUAL', q)) => ws, q
+qual              ::=  <ws>?:ws (<plainQual>|<casterLevel>|<dc>):q !(ww('QUAL', q)) => ws, q
 spell        ::=  <sepText>*:crap <spellName>:s <qual>*:quals <ws>? <sep>:end !(ww('SPELL', s))   => t.spell(crap, s, quals, end)
 
 sep               ::=  <rdfaNode u"sep">:x !(ww('SEP', x))                         => x
@@ -27,4 +27,4 @@ remainderItem     ::=  (<clTopLevel>|<dcBasis>|<dcTopLevel>):x !(ww('REMI', x)) 
 beforeGroups      ::=  (~<fStart> <node>)*:x !(ww('BEF', x))
 groups            ::=  (<fGroup>:b1 <sepText>*:b2                                  => (b1,b2))+:b !(ww('GROUPS', b)) => b
 remainders   ::=  <remainderItem>:c1 (<sep>:s !(t.unparentNodes(s)) <sepText>* <remainderItem>)*:c !(c.insert(0, c1))  => c
-sla               ::=  <beforeGroups> <groups> <remainders>:c                      !(ww('SLA:C', c, ))
+sla               ::=  <beforeGroups> <groups> <remainders>:c !(ww('SLA:C', c, ))
