@@ -52,6 +52,10 @@ class RemainderTest(PreprocessorTest):
         expected = [[sxp.CLTOP, 30]]
         self.assertEqual(actual, expected)
 
+        actual = self.applyRule("Caster level varies", "remainder")
+        expected = [[sxp.CLTOP, "varies"]]
+        self.assertEqual(actual, expected)
+
         actual = self.applyRule("Caster level equals the barghest's HD", "remainder")
         expected = [[sxp.CLTOP, "equals the barghest's HD"]]
         self.assertEqual(actual, expected)
