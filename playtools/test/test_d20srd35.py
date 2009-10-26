@@ -3,6 +3,7 @@ We shall be able to pull facts about the srd35 system out using the API
 """
 
 import re
+import os
 from itertools import count
 
 from twisted.trial import unittest
@@ -22,6 +23,18 @@ class SRD35TestCase(unittest.TestCase):
     """
     Pull out the facts
     """
+    def test_loadReferenceURLs(self):
+        """
+        The reference URLs refer to the correct file, relative to the plugins
+        directory
+        """
+        refs = d20srd35.loadReferenceURLs()
+        dir = os.path.dirname(d20srd35.__file__)
+        self.assertTrue(os.path.isfile(dir + '/monster/' + refs['drow1stLevelWarrior'][1]))
+        self.assertEqual(refs['drow1stLevelWarrior'], 
+            ['http://www.d20srd.org/srd/monsters/elf.htm',
+                'monstertext/elf.htm'])
+
     def test_lookupSQL(self):
         """
         Spells and Monsters are available for lookup (the SQL aka Storm facts)

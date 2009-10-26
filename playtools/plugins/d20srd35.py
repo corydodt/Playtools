@@ -1020,3 +1020,12 @@ friggin' RDF.""")
 
 mapper()
 
+def loadReferenceURLs():
+    """
+    Read in the URLs of the local files that replace full_text
+    """
+    refs = {}
+    for line in open(RESOURCE("plugins/monster/referencemap.txt")):
+        name, ref, textloc = map(str.strip, line.split('\t'))
+        refs[name] = [ref, textloc]
+    return refs

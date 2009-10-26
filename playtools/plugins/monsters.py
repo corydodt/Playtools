@@ -72,10 +72,7 @@ class MonsterConverter(object):
         d20srd35.AttackGroup.db = self.graph
         d20srd35.AttackForm.db = self.graph
  
-        refs = self.referenceURLs = {}
-        for line in open(RESOURCE("plugins/monster/referencemap.txt")):
-            name, ref, textloc = map(str.strip, line.split('\t'))
-            refs[name] = [ref, textloc]
+        self.referenceURLs = d20srd35.loadReferenceURLs()
 
     def __iter__(self):
         return self
