@@ -1,11 +1,10 @@
 """
 Parse the HTML of the full_text, extracting the description of the full abilities
 """
-
+import re
 from xml.dom import minidom
 
-from playtools.test.pttestutil import FIXME
-from playtools.util import findNodes, doNodes, gatherText
+from playtools import util
 
 def unescape(s):
     return s.replace(r'\n', '\n').replace(r'\"', '"')
@@ -15,27 +14,11 @@ def prepFT(s):
     return '<html>%s</html>' % (unescape(s),)
 
 
-def flatten(doc):
-    def _flatten(node):
-        if node.attributes:
-            attr = dict(node.attributes.items())
-        else:
-            attr = {}
-        name = node.nodeName
-        if name == '#text':
-            n = node.data
-        else:
-            n = node
-        if node.childNodes:
-            return name, attr, n, map(_flatten, node.childNodes)
-        return name, attr, n, []
-    return [_flatten(doc.documentElement)]
-
-
 class Power(object):
     """
     A special ability power
     """
+    powerCount = 0
     nonPowers = []
     useCategory = None
     frequency = None
@@ -43,6 +26,10 @@ class Power(object):
     dc = None
     casterLevel = None
     qualifier = None
+
+    def __repr__(self):
+        return ("Power:{0.name}|{0.useCategory}|{0.frequency}|{0.basis}|"
+                "{0.dc}|{0.casterLevel}|{0.qualifier}".format(self))
 
     def __init__(self, name, useCategory, text):
         self.name = name
@@ -57,80 +44,123 @@ class Power(object):
         nameN = node.getElementsByTagName('b')[0]
         nameN.parentNode.removeChild(nameN)
         try:
-            name, catStuff = gatherText(nameN).rsplit(None, 1)
+            name, catStuff = util.gatherText(nameN).rsplit(None, 1)
             cat = catStuff.rstrip(':')
             assert cat in '(Ex) (Su) (Sp)'.split()
 
             self = cls(name, cat[1:-1], node.toxml())
+            cls.powerCount = cls.powerCount + 1
             return self
         except:
-            cls.nonPowers.append(gatherText(nameN))
+            cls.nonPowers.append(util.gatherText(nameN))
 
     @classmethod
     def fromSpellLike(cls, node):
         """
         Create a Power from a spell-like abilities node
         """
-        nameN = node.getElementsByTagName('b')[0]
-        nameN.parentNode.removeChild(nameN)
-        self = cls('Spell-Like Abilities', 'Sp', node.toxml())
-        return self
+        fgroups = util.findNodesByAttribute(node, 'p:property', 'frequencyGroup')
+        powers = []
+        for group in fgroups:
+            spells = util.findNodesByAttribute(group, 'p:property', 'spell')
+            for spell in spells:
+                name = spell.getAttribute('content')
+                props = thisLevelProperties(spell)
+                pow = cls(re.sub(r'\s+', ' ', name), u'Sp', u'')
+                pow.frequency = props['frequency']
+                pow.basis = props['basis']
+                pow.dc = props['dc']
+                pow.casterLevel = props['casterLevel']
+                pow.qualifier = re.sub(r'\s+', ' ', ' '.join(props['qualifier']))
+                powers.append(pow)
+
+        return powers
 
 
-FIXME("findSpecialAbilities hardcodes level=8 which is probably wrong")
-def findSpecialAbilities(combat):
+def thisLevelProperties(node):
     """
-    Create Powers for each special ability found in the combat tag,
-    excluding spell-like abilities.
+    Pull out dc, basis, casterLevel, other props for any powers in the same
+    level as the current node
     """
-    def isAbility(node):
-        """
-        True if node is a special ability or set of spell-like abilities
-        """
-        if not hasattr(node, 'getAttribute'):
-            return False
+    # find the nearest container, upwards
+    while node:
+        top = node
+        if util.attr(top, 'p:property', 'frequencyGroup'
+                ) or util.attr(node, 'p:property', 'spell'
+                ) or (util.attr(node, 'topic') and
+                        node.getAttribute('topic') in 
+                            ['Spell-Like Abilities', 'Other Spell-Like Abilities']):
+            break
+        node = node.parentNode
 
-        topic = node.getAttribute('topic', )
-        level = node.getAttribute('level', )
-        return topic is not None and level=='8'
+    skip = list(util.findNodesByAttribute(top, 'p:property', 'frequencyGroup'))
+    skip = skip + list(util.findNodesByAttribute(top, 'p:property', 'spell'))
 
-    def makePower(node):
-        """
-        Create a Power instance
-        """
-        topic = node.getAttribute('topic')
-        if topic.lower() == 'spell-like abilities':
-            power = Power.fromSpellLike(node)
-            return power
-        else:
-            power = Power.fromNode(node)
-            return power
+    if top in skip:
+        skip.remove(top)
 
-    return list(doNodes(combat, isAbility, makePower))
+    # find all properties, downwards from the container
+    props = {'frequency': None,
+            'basis': None,
+            'dc': None,
+            'casterLevel': None,
+            'qualifier': []
+            }
+    todo = [top]
+    for n, node in enumerate(todo):
+        if node in skip:
+            continue
+        if util.attr(node, 'p:property'):
+            if node.getAttribute('p:property') == 'frequencyGroup':
+                props['frequency'] = node.getAttribute('content')
+            elif node.getAttribute('p:property') == 'saveDCBasis':
+                props['basis'] = node.getAttribute('content')
+            elif node.getAttribute('p:property') == 'casterLevel':
+                props['casterLevel'] = node.getAttribute('content')
+            elif node.getAttribute('p:property') == 'dc':
+                props['dc'] = node.getAttribute('content')
+            elif node.getAttribute('p:property') == 'qualifier':
+                props['qualifier'].append(util.gatherText(node))
+        todo[n+1:n+1] = node.childNodes[:]
 
+    # find missing properties, upwards from the container
+    unfilled = dict([x for x in props.items() if x[1] is None])
+    if unfilled and top.parentNode:
+        rest = thisLevelProperties(top.parentNode)
+        for k,v in rest.items():
+            if props[k] is None:
+                props[k] = v
 
-def isCombatTag(node):
-    """
-    True if the node is the combat tag for the monster
-    """
-    return (hasattr(node, 'getAttribute') and 
-            node.getAttribute('topic', ) == 'Combat')
-
+    return props
 
 def parseFTAbilities(s, prep=True):
     """
-    Return a 2-tuple of (special abilities, spell-like abilities)
+    Return a list of special abilities
     """
     if prep:
         prepped = prepFT(s)
     else:
         prepped = s
+
+    if not s:
+        return []
+
     doc = minidom.parseString(prepped)
 
-    combats = list(findNodes(doc, isCombatTag))
-    if not combats:
+    combat = util.findNodeByAttribute(doc, 'topic', 'Combat')
+    if combat is None:
         return []
-    combat = combats[0]
 
-    return findSpecialAbilities(combat)
+    levelNodes = util.findNodesByAttribute(combat, 'level')
+    levelNodes.next() # skip over the combat node itself
+    powers = []
+    for node in levelNodes:
+        if node.getAttribute('topic').lower() == 'spell-like abilities':
+            powers.extend(Power.fromSpellLike(node))
+        elif node.getAttribute('topic').lower() == 'skills':
+            continue
+        else:
+            powers.append(Power.fromNode(node))
+
+    return powers
 

@@ -161,10 +161,10 @@ class FullTextAbilityParserTest(unittest.TestCase):
             </div>""")
         actual = ft.parseFTAbilities(t)
         self.assertEqual(map(repr, actual),
-                ["Power:acid arrow|Sp|1/hour|Charisma|None|3|"
+                ["Power:acid arrow|Sp|1/hour|charisma|None|3|"
                  "(can hurl an acidic blob that functions like the spell)",
 
-                 "Power:stinking cloud|Sp|1/day|Charisma|15|6|"
+                 "Power:stinking cloud|Sp|1/day|charisma|15|6|"
                  "(a mass of smelly fog that duplicates the effect of the spell)",
                  ])
 
