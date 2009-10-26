@@ -179,14 +179,13 @@ class HUGEFullTextAbilityParserTest(unittest.TestCase):
         """
         monsters = MONSTERS.dump()
         for monster in monsters:
-            stat1 = monster.full_text
+            stat1 = monster.full_text2
 
             try:
                 if stat1:
-                    act = [monster.name, ft.parseFTAbilities(stat1) and None]
+                    act = [monster.name, ft.parseFTAbilities(stat1) and 'OK']
             except:
                 f = traceback.format_exc(sys.exc_info()[2])
                 self.assertTrue(False,
                         "{x}\n{0}\n{1}\n".format(monster.name, stat1, x=f))
-    test_huge.skip = "this test takes forever to run until i fix this stuff"
 

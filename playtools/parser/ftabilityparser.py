@@ -19,6 +19,7 @@ class Power(object):
     A special ability power
     """
     powerCount = 0
+    nonPowerCount = 0
     nonPowers = []
     useCategory = None
     frequency = None
@@ -52,7 +53,16 @@ class Power(object):
             cls.powerCount = cls.powerCount + 1
             return self
         except:
-            cls.nonPowers.append(util.gatherText(nameN))
+            t = util.gatherText(nameN)
+            if t not in ['Carrying Capacity:',
+                    'Abomination Traits:', 'Construct Traits:', 
+                    'Undead Traits:', 'Ooze Traits:', 'Swarm Traits:', 
+                    'Vermin Traits:', 'Plant Traits:', 'Cold Subtype:', 
+                    'Incorporeal Traits:', 'Possessions:', 
+                    'Elf Traits:', 'Challenge Rating:', 'Feats:', 
+                    'Fire Subtype:', 'Immunities:', 'Outsider Traits:',
+                    ]:
+                cls.nonPowers.append(t)
 
     @classmethod
     def fromSpellLike(cls, node):
@@ -155,7 +165,8 @@ def parseFTAbilities(s, prep=True):
     levelNodes.next() # skip over the combat node itself
     powers = []
     for node in levelNodes:
-        if node.getAttribute('topic').lower() == 'spell-like abilities':
+        topic = node.getAttribute('topic').lower() 
+        if topic in ['spell-like abilities', 'other spell-like abilities']:
             powers.extend(Power.fromSpellLike(node))
         elif node.getAttribute('topic').lower() == 'skills':
             continue
