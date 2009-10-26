@@ -13,7 +13,7 @@ from storm import locals as SL
 
 from playtools.interfaces import (IRuleSystem, IRuleCollection,
     IIndexable, IRuleFact)
-from playtools.util import RESOURCE, gatherText
+from playtools.util import RESOURCE, gatherText, rdfName
 from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import (FAM, P as PROP, C as CHAR, skillNs as SKILL,
@@ -35,6 +35,17 @@ RDFSNS = S.RDFSNS
 
 DICE = NS('http://goonmill.org/2007/dice.n3#')
 PCCLASS = NS('http://goonmill.org/2007/pcclass.n3#')
+
+
+def loadReferenceURLs():
+    """
+    Read in the URLs of the local files that replace full_text
+    """
+    refs = {}
+    for line in open(RESOURCE("plugins/monster/referencemap.txt")):
+        name, ref, textloc = map(str.strip, line.split('\t'))
+        refs[name] = [ref, textloc]
+    return refs
 
 
 class D20SRD35System(object):
@@ -150,6 +161,19 @@ class StormFactCollection(object):
         return STORE.find(self.klass, self.klass.name==idOrName).one()
 
 
+class FullText2HACK(object):
+    """
+    A descriptor to replace full_text on the StormFact Monster
+    """
+    def __init__(self):
+        self.refs = loadReferenceURLs()
+
+    def __get__(self, instance, owner):
+        id = rdfName(instance.name)
+        fn = RESOURCE('plugins/monster/{0}'.format(self.refs[id][1]))
+        return open(fn).read()
+
+
 class Monster(object):
     """A Monster mapped from the db"""
     implements(IStormFact)
@@ -195,6 +219,7 @@ class Monster(object):
     full_text = SL.Unicode()
     reference = SL.Unicode()
     image = SL.Unicode()
+    full_text2 = FullText2HACK()
 
     def __repr__(self):
         return '<%s name=%s>' % (self.__class__.__name__, self.name)
@@ -1019,13 +1044,3 @@ metadata to everything here, so publishers can describe their work using
 friggin' RDF.""")
 
 mapper()
-
-def loadReferenceURLs():
-    """
-    Read in the URLs of the local files that replace full_text
-    """
-    refs = {}
-    for line in open(RESOURCE("plugins/monster/referencemap.txt")):
-        name, ref, textloc = map(str.strip, line.split('\t'))
-        refs[name] = [ref, textloc]
-    return refs
