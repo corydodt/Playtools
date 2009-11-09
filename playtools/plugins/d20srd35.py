@@ -973,30 +973,27 @@ class Monster2(S.rdfsPTClass):
 
     #" languages              = rdfSingle(PROP.)                   # from sb.get? - list
 
-    #" specialAttacks         = rdfList(...)  # from sb.get
-    #" fullAbility            = rdfMultiple(...)  # from sb.get - maybe rename
-    #" specialAbility         = rdfMultiple(PROP.specialAbility)           # list parsed from sb.get
-    TODO("specialability-based monster props which are singles", """specialAC, 
-    spellLikeAbilities, 
-    casterLevel, 
-    spellResistance, 
-    aura,
-    fastHealing, 
-    regeneration, 
-    damageReduction, 
-    immunities, 
-    senses,
-    resistances, 
-    vulnerabilities 
-    ... will be computed by looking at self.fullAbilities and
-    self.specialAttacks and self.specialAbility""")
+    specialAbilities       = rdfMultiple(PROP.specialAbility)
 
-    TODO("specialability-based monster props which are dicts", """damageReduction, 
-    senses, 
-    immunities, 
-    resistances,
-    vulnerabilities 
-    are dictionaries, though.""")
+    TODO("specialAC - {'name':value}")
+    TODO("casterLevel - value")
+    TODO("spellResistane - value")
+    TODO("fastHealing - value")
+    TODO("regeneration - value")
+
+    TODO("auras - rdfMultiple of auras")
+
+    TODO("damageReduction - {'name':value}")
+    TODO("senses - {'name':distance}")
+    TODO("resistances - {'name':value}")
+    TODO("immunities - rdfMultiple of immunities")
+    TODO("vulnerabilities - rdfMultiple of vulnerabilities")
+
+    TODO("spellLikeAbilities - rdfMultiple of (Sp) abilities")
+    TODO("extraordinaryAbilities - rdfMultiple of (Ex) abilities")
+    TODO("supernaturalAbilities - rdfMultiple of (Su) abilities")
+
+    TODO("specialAttacks - rdfMultiple of any ability which was specifically listed in specialAttacks in SQL")
 
     reference              = rdfSingle(PROP.reference)
     textLocation           = rdfSingle(PROP.textLocation)

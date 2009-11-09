@@ -274,8 +274,43 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual(fleshColossus.touchAC, 20)
         self.assertEqual(fleshColossus.flatFootedAC, 45)
 
-    test_monster.todo = """Check e.g. force dragon's force AC is in monster.fullAbilities
-        and then check that it's in monster.specialAC"""
+        forceDragon = m.lookup(MONSTER.forceDragonAdult)
+        fdAbilities = [x.name for x in forceDragon.specialAbilities]
+
+        # low-light vision is only found in the dragon type, and not found in
+        # the force dragon's particular ability list. use this to test that
+        # inheriting abilities is working right
+        self.assertTrue('Low-Light Vision' in fdAbilities)
+
+        self.assertTrue('Deflecting Force' in fdAbilities)
+        self.assertEqual(forceDragon.specialAC, u"Deflecting Force")
+        self.assertTrue('Damage Reduction' in fdAbilities)
+        self.assertEqual(forceDragon.damageReduction, {'xx':xx})
+        self.assertTrue('Spell Resistance' in fdAbilities)
+        self.assertEqual(forceDragon.spellResistance, 39)
+        self.assertTrue('Caster Level' in fdAbilities)
+        self.assertEqual(forceDragon.casterLevel, 18)
+        self.assertTrue('Fast Healing' in fdAbilities)
+        self.assertEqual(forceDragon.fastHealing, xx)
+        self.assertTrue('Regeneration' in fdAbilities)
+        self.assertEqual(forceDragon.regeneration, xx)
+        self.assertTrue('Aura of Good' in fdAbilities)
+        self.assertTrue('Aura of Courage' in fdAbilities)
+        self.assertEqual(forceDragon.auras, [u'good', u'courage'])
+        self.assertTrue('Immunity to xx' in fdAbilities)
+        self.assertTrue('Immunity to yy' in fdAbilities)
+        self.assertEqual(forceDragon.immunities, [xx, yy])
+        self.assertTrue('Vulnerability to xx' in fdAbilities)
+        self.assertTrue('Vulnerability to yy' in fdAbilities)
+        self.assertEqual(forceDragon.vulnerabilities, [xx, yy])
+        self.assertTrue('XX resistance xx' in fdAbilities)
+        self.assertEqual(forceDragon.resistances, {'xx':xx})
+        self.assertTrue('xx' in fdAbilities)
+        self.assertEqual(forceDragon.senses, {'xx':xx})
+        self.assertEqual([x.name for x in forceDragon.spellLikeAbilities], ['xx','xx'])
+        self.assertEqual([x.name for x in forceDragon.extraordinaryAbilities], ['xx','xx'])
+        self.assertEqual([x.name for x in forceDragon.supernaturalAbilities], ['xx','xx'])
+        self.assertEqual([x.name for x in forceDragon.specialAttacks], ['xx','xx'])
 
     def test_bonusFeat(self):
         """
