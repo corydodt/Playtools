@@ -679,7 +679,7 @@ class TouchAC(SpecializedArmorDescriptor):
     """
     def get(self, instance, owner):
         (val, defl, nat, shields, bodies, others, 
-                dexArmor, sizeArmor) = self.getArmorValues()
+                dexArmor, sizeArmor) = self.getArmorValues(instance)
         return 10 + defl + others + dexArmor + sizeArmor
 
 
@@ -689,7 +689,7 @@ class FlatFootedAC(SpecializedArmorDescriptor):
     """
     def get(self, instance, owner):
         (val, defl, nat, shields, bodies, others, 
-                dexArmor, sizeArmor) = self.getArmorValues()
+                dexArmor, sizeArmor) = self.getArmorValues(instance)
         
         # flat-footed can never be better than regular AC even when dex is a
         # penalty
