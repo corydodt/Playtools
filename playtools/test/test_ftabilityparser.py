@@ -182,8 +182,8 @@ class HUGEFullTextAbilityParserTest(unittest.TestCase):
             stat1 = monster.full_text2
 
             try:
-                if stat1:
-                    act = [monster.name, ft.parseFTAbilities(stat1) and 'OK']
+                parsed = ft.parseFTAbilities(stat1)
+                assert None not in parsed
             except:
                 f = traceback.format_exc(sys.exc_info()[2])
                 self.assertTrue(False,

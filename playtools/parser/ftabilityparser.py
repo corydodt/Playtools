@@ -19,6 +19,7 @@ class Power(object):
     A special ability power
     """
     powerCount = 0
+    parsedBySLAXML = False # set to true if this came out of the slaxmlparser
     nonPowerCount = 0
     nonPowers = []
     useCategory = None
@@ -61,6 +62,7 @@ class Power(object):
                     'Incorporeal Traits:', 'Possessions:', 
                     'Elf Traits:', 'Challenge Rating:', 'Feats:', 
                     'Fire Subtype:', 'Immunities:', 'Outsider Traits:',
+                    'Resistances:',
                     ]:
                 cls.nonPowers.append(t)
 
@@ -77,6 +79,7 @@ class Power(object):
                 name = spell.getAttribute('content')
                 props = thisLevelProperties(spell)
                 pow = cls(re.sub(r'\s+', ' ', name), u'Sp', u'')
+                pow.parsedBySLAXML = True
                 pow.frequency = props['frequency']
                 pow.basis = props['basis']
                 pow.dc = props['dc']
@@ -171,7 +174,9 @@ def parseFTAbilities(s, prep=True):
         elif node.getAttribute('topic').lower() == 'skills':
             continue
         else:
-            powers.append(Power.fromNode(node))
+            p = Power.fromNode(node)
+            if p is not None:
+                powers.append(p)
 
     return powers
 
