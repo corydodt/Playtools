@@ -333,6 +333,23 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual(pluck(list(t.bonusFeats), 'coreFeat'),
                 [FEAT.zoneOfAnimation, FEAT.focusedSunder])
 
+    def test_union(self):
+        """
+        The Union descriptor unions sequence-type descriptors on an instance
+        """
+        class Bar(object):
+            def __get__(self, instance, owner):
+                return ["bar"]
+
+        class C(object):
+            foo = ["foo"]
+            bar = Bar()
+            zam = d20srd35.Union("zam", "foo", "bar")
+
+        c = C()
+
+        self.assertEqual(c.zam, set(["foo", "bar"]))
+
 
 class CachingDescriptorTest(unittest.TestCase):
     def test_basicAccess(self):

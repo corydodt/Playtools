@@ -837,6 +837,21 @@ class AnnotatedValueMap(CachingDescriptor):
         return ret
 
 
+class Union(object):
+    """
+    Descriptor that fetches from other attributes and returns their set union
+    """
+    def __init__(self, name, *attributes):
+        self.name = name
+        self.attributes = attributes
+
+    def __get__(self, instance, owner):
+        all = set()
+        for att in self.attributes:
+            all = all.union(getattr(instance, att))
+        return all
+
+
 class MonsterFeat(S.rdfsPTClass):
     """
     A feat possessed by a particular monster, which may be a bonus feat.
