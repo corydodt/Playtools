@@ -1,4 +1,4 @@
-@prefix : <http://goonmill.org/2007/perk.n3#> .
+@prefix : <http://goonmill.org/2009/perk.n3#> .
 @prefix c:     <http://goonmill.org/2007/characteristic.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -7,6 +7,7 @@
 
 :deflectingForce
     a c:SpecialArmorClass;
+    a c:Perk;
     rdfs:label "Deflecting Force";
     rdfs:comment "This creature is protected by a shield of force that provides a deflection bonus to its AC. The deflection bonus is equal to the creature’s Charisma bonus.";
 .
@@ -14,40 +15,47 @@
 
 :mucusCloud 
     a c:SpecialAction;
+    a c:Perk;
     rdfs:label "Mucus Cloud";
     rdfs:comment "The creature underwater surrounds itself with a viscous cloud of mucus roughly 1 foot thick. Any creature coming into contact with and inhaling this substance must succeed on a DC 19 Fortitude save or lose the ability to breathe air for the next 3 hours. An affected creature suffocates in 2d6 minutes if removed from the water. Renewed contact with the mucus cloud and failing another Fortitude save continues the effect for another 3 hours. The save DC is Constitution-based.";
 .
 
 :inkCloud
     a c:SpecialAction;
+    a c:Perk;
     rdfs:label "Ink Cloud";
     rdfs:comment "The creature can emit a cloud of jet-black ink 10 feet high by 10 feet wide by 10 feet long once per minute as a free action. The cloud provides total concealment, which the creature normally uses to escape a losing fight. All vision within the cloud is obscured.";
 .
 
 :alacrity
     a c:SpecialAction;
+    a c:Perk;
     rdfs:comment "Once per round, the creature may take an extra standard action (either before or after its other actions in the round).";
 .
 
 
 :discorporate
     a c:SpecialAction;
+    a c:Perk;
     rdfs:comment "If gravely threatened, the creature can discorporate as a free action, simply falling into a pile of individual vermin that slither quickly away. So long as any of the component vermin survive, they can breed and create a new body to house the wizard’s intelligence and personality.  Discorporating is a dangerous tactic, because once separated, the vermin are treated no differently than other vermin. Also, the creature stands a good chance of losing all its equipment.  However, discorporation almost assures that at least one maggot (if not dozens) will manage to crawl away, and so provide for the creature’s continued existence.";
 .
 
 :manifestMaw
     a c:SpecialAction;
+    a c:Perk;
     rdfs:label "Manifest Maw";
     rdfs:comment "This creature can manifest its mouth in corporeal form as a standard action. While so manifested, the mouth can deliver bite attacks against corporeal creatures or pick up objects. The mouth bites as if it had Str 35.";
 .
 
 :jet
     a c:SpecialAction;
+    a c:Perk;
     rdfs:comment "The creature can jet backward once per round as a full-round action, at a speed of 280 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting.";
 .
 
 :shadowShift
     a c:SpecialAction;
+    a c:Perk;
     rdfs:label "Shadow Shift";
     rdfs:comment "This creature can manipulate shadows. This ability is effective only in shadowy areas and has three possible effects.\n\nObscure Vision\n\n The creature gains concealment (20% miss chance) for 1d4 rounds.\n\nDancing Images\n\nThis effect duplicates a mirror image spell (caster level 6th).\n\nSilent Image\n\nThis effect duplicates a silent image spell (DC 15, caster level 6th). The save DC is Charisma-based.";
 .
@@ -57,12 +65,14 @@
 
 :freezingFog
     a c:SpellLikeAbility;
+    a c:Perk;
     rdfs:label "Freezing Fog";
     rdfs:comment "This creature can use this ability three times per day. It is similar to a solid fog spell but also causes a rime of slippery ice to form on any surface the fog touches, creating the effect of a grease spell. The creature is immune to the grease effect if it has the icewalking ability. This ability is the equivalent of a 5th-level spell.";
 .
 
 :safekeeping
     a c:SpellLikeAbility;
+    a c:Perk;
     rdfs:comment "At will, this creature can use a power that combines the effects of sequester and plane shift to render the creature invisible to any form of sight or divination, and at the same time transfer it to a random portion of the Astral Plane. When in safekeeping mode, the creature responds to a sending by its master, returning to the location from which it left and becoming tangible once again. Creatures and objects that are stored within the creature are treated as if under the effects of sequester, whether the creature itself is or not. Often, creatures are brought into the creature via imprisonment, but sometimes unconscious or otherwise subdued creatures are stored as an object, in which case they receive no saving throw to resist the effect.";
 .
 
@@ -71,6 +81,7 @@
 
 :nullTimeField
     a c:Aura;
+    a c:Perk;
     rdfs:label "Null Time Field";
     rdfs:comment "This creature continually generates a 30-foot-radius spread null time field. All creatures and objects in the field, except the creature, must make a Will saving throw (DC 30) each round to take any actions. On a failed save, subjects are stuck in a static time stream until their next round of actions, at which time they must make another saving throw. While a subject is stuck in a static time stream induced by a null time field, the creature can use its static touch on the subject, though in all other ways, the subject is invulnerable to attacks and damage as if in temporal stasis.";
 .

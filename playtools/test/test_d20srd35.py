@@ -12,7 +12,17 @@ from .. import fact
 from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
 from playtools.common import featNs as FEAT, monsterNs as MONSTER, C
-from playtools.test.pttestutil import pluck
+from playtools.test.pttestutil import pluck, TODO
+
+TODO("""n3lint script""", """write a n3lint script that opens the triples database, and looks for anything
+created in property.n3 or characteristic.n3, and only appears once in the
+graph. (orphan Subjects)
+
+ALSO! the script should look for any Predicate or Object that is referenced in
+the graph but is NOT a Subject in property.n3, or characteristic.n3,
+respsectively. (undefined Predicates/Objects)
+""")
+
 
 import warnings
 warnings.filterwarnings('ignore', category=SyntaxWarning)
@@ -64,11 +74,11 @@ class SRD35TestCase(unittest.TestCase):
             self.assertEqual(unicode(thing.label), s)
 
         test(u'http://goonmill.org/2007/family.n3#devil', families, u'Devil')
-        test(u'http://goonmill.org/2007/perk.n3#nullTimeField', auras, u'Null Time Field')
+        test(u'http://goonmill.org/2009/perk.n3#nullTimeField', auras, u'Null Time Field')
         test(u'http://goonmill.org/2007/skill.n3#appraise', skills, u'Appraise')
         test(u'http://goonmill.org/2007/feat.n3#abilityFocus', feats, u'Ability Focus')
-        test(u'http://goonmill.org/2007/perk.n3#deflectingForce', specialACs, u'Deflecting Force')
-        test(u'http://goonmill.org/2007/perk.n3#mucusCloud', specialActions, u'Mucus Cloud')
+        test(u'http://goonmill.org/2009/perk.n3#deflectingForce', specialACs, u'Deflecting Force')
+        test(u'http://goonmill.org/2009/perk.n3#mucusCloud', specialActions, u'Mucus Cloud')
 
     def test_thingLists(self):
         """

@@ -3,7 +3,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <> rdfs:title "Character Characteristics" .
-<> rdfs:comment "Characteristics of creatures both PC and NPC" .
+<> rdfs:comment """Characteristics of creatures both PC and NPC
+TODO - add much of this to perk.n3 as tags?
+""" .
 
 
 :Characteristic a rdfs:Class .
@@ -120,39 +122,41 @@
     rdfs:comment "Damage from magical attacks";
 .
 
+:Resistance rdfs:subClassOf :MiscTrait.
 
-:SpecialAbility rdfs:subClassOf :MiscTrait .
-:telepathy a :SpecialAbility .
-:protectiveAura a :SpecialAbility;
+
+:Perk rdfs:subClassOf :MiscTrait .
+:telepathy a :Perk.
+:protectiveAura a :Perk;
     rdfs:label "Protective Aura";
     rdfs:comment "Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the creature. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals creature’s HD). (The defensive benefits from the circle are not included in an creature’s statistics block.)";
 .
-:tongues a :SpecialAbility;
+:tongues a :Perk;
     rdfs:comment "Creature can speak with any creature that has a language, as though using a tongues spell (caster level equal to creature’s Hit Dice). This ability is always active.";
 .
-:summon a :SpecialAbility;
+:summon a :Perk;
     rdfs:comment "Creature has the ability to summon others of its kind (the success chance and type of creature summoned are noted in each monster description). Creature will often be reluctant to use this power until in obvious peril or extreme circumstances.";
 .
-:breatheUnderwater a :SpecialAbility;
+:breatheUnderwater a :Perk;
     rdfs:label "Breathe Underwater";
 .
-:auraOfMenace a :SpecialAbility;
+:auraOfMenace a :Perk;
     rdfs:label "Aura of Menace";
     rdfs:comment "A righteous aura surrounds a creature of this type that fights or gets angry.  Any hostile creature within a 20-foot radius of a the creature must succeed on a Will save to resist its effects. The save DC varies with the type of creature, is Charisma-based, and includes a +2 racial bonus. Those who fail take a -2 penalty on attacks, AC, and saves for 24 hours or until they successfully hit the creature that generated the aura. A creature that has resisted or broken the effect cannot be affected again by the same archon’s aura for 24 hours.";
 .
-:magicCircleAgainstEvil a :SpecialAbility;
+:magicCircleAgainstEvil a :Perk;
     rdfs:label "Magic Circle against Evil";
     rdfs:comment "A magic circle against evil effect always surrounds a creature of this type (caster level equals the creature’s Hit Dice). (The defensive benefits from the circle are not included in creature’s statistics block.)";
 .
-:teleport a :SpecialAbility .
-:completelySilent a :SpecialAbility;
+:teleport a :Perk.
+:completelySilent a :Perk;
     rdfs:label "Completely Silent";
     rdfs:comment "Moves silently and cannot be heard with Listen checks if it doesn't wish to be";
 .
-:distraction a :SpecialAbility;
+:distraction a :Perk;
     rdfs:comment "Any living creature vulnerable to this creature’s damage that begins its turn with the creature in its square is nauseated for 1 round; a Fortitude save (DC 10 + ½ swarm’s HD + creature’s Con modifier; the exact DC is given in the creature’s description) negates the effect. Spellcasting or concentrating on spells within the area of the creature requires a Concentration check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Concentration check.";
 .
-:fortitudeImmunity a :SpecialAbility;
+:fortitudeImmunity a :Perk;
     rdfs:label "Immune to effects that allow a Fort save";
     rdfs:comment "Immunity to any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless).";
 .
@@ -359,9 +363,19 @@
 
 :SpecialArmorClass rdfs:subClassOf :Characteristic .
 
+:SupernaturalAbility
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "Supernatural ability; its use draws no attack of opportunity, it cannot be dispelled, but it can be blocked with an antimagic field."
+.
+
+:ExtraordinaryAbility
+    rdfs:subClassOf :Characteristic;
+    rdfs:comment "Extraordinary (non-magical) ability; its use draws no attack of opportunity, and it cannot be dispelled or otherwise interfered with by any anti-magic means."
+.
+
 :SpellLikeAbility 
     rdfs:subClassOf :Characteristic;
-    rdfs:comment "Spell-like ability; mostly used to denote creature abilities labeled \"(Sp)\" which are not, in fact, real spells; such as Safekeeping and Freezing Fog."
+    rdfs:comment "Spell-like ability; its use can be interfered with using dispel, spell resistance, and antimagic; its use incurs attacks of opportunity."
 .
 
 :Aura

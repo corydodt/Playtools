@@ -137,8 +137,6 @@
 .
 :immunity a rdfs:Property;
 .
-:resistance a rdfs:Property;
-.
 
 :cr a rdfs:Property;
     rdfs:label "CR";
@@ -214,7 +212,7 @@
 
 :skill a rdfs:Property .
 
-:specialAbility a rdfs:Property ;
+:perk a rdfs:Property ;
     rdfs:comment "An ability this creature can choose to use that has in-game effects";
 .
 
