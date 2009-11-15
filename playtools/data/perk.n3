@@ -1,4 +1,4 @@
-@prefix : <http://goonmill.org/2007/specialAbility.n3#> .
+@prefix : <http://goonmill.org/2007/perk.n3#> .
 @prefix c:     <http://goonmill.org/2007/characteristic.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 

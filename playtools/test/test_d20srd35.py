@@ -64,11 +64,11 @@ class SRD35TestCase(unittest.TestCase):
             self.assertEqual(unicode(thing.label), s)
 
         test(u'http://goonmill.org/2007/family.n3#devil', families, u'Devil')
-        test(u'http://goonmill.org/2007/specialAbility.n3#nullTimeField', auras, u'Null Time Field')
+        test(u'http://goonmill.org/2007/perk.n3#nullTimeField', auras, u'Null Time Field')
         test(u'http://goonmill.org/2007/skill.n3#appraise', skills, u'Appraise')
         test(u'http://goonmill.org/2007/feat.n3#abilityFocus', feats, u'Ability Focus')
-        test(u'http://goonmill.org/2007/specialAbility.n3#deflectingForce', specialACs, u'Deflecting Force')
-        test(u'http://goonmill.org/2007/specialAbility.n3#mucusCloud', specialActions, u'Mucus Cloud')
+        test(u'http://goonmill.org/2007/perk.n3#deflectingForce', specialACs, u'Deflecting Force')
+        test(u'http://goonmill.org/2007/perk.n3#mucusCloud', specialActions, u'Mucus Cloud')
 
     def test_thingLists(self):
         """
@@ -275,7 +275,7 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual(fleshColossus.flatFootedAC, 45)
 
         forceDragon = m.lookup(MONSTER.forceDragonAdult)
-        fdAbilities = [x.name for x in forceDragon.specialAbilities]
+        fdAbilities = [x.name for x in forceDragon.perks]
 
         # low-light vision is only found in the dragon type, and not found in
         # the force dragon's particular ability list. use this to test that

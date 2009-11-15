@@ -465,9 +465,9 @@ class Language(S.rdfsPTClass):
     rdf_type = CHAR.Language
 
 
-class SpecialAbility(S.rdfsPTClass):
+class Perk(S.rdfsPTClass):
     """A notable ability of any kind that isn't a standard combat mechanic"""
-    rdf_type = CHAR.SpecialAbility
+    rdf_type = CHAR.Perk
 
 
 class SpecialQuality(S.rdfsPTClass):
@@ -499,8 +499,8 @@ class Family(S.rdfsPTClass):
     resistances = rdfMultiple(PROP.resistance, range_type=Resistance.rdf_type)
     vulnerabilities = rdfMultiple(PROP.vulnerability,
             range_type=Vulnerability.rdf_type)
-    specialAbilities = rdfMultiple(PROP.specialAbility,
-            range_type=SpecialAbility.rdf_type)
+    specialAbilities = rdfMultiple(PROP.perk,
+            range_type=Perk.rdf_type)
     specialQualities = rdfMultiple(PROP.specialQuality,
             range_type=SpecialQuality.rdf_type)
     combatMechanics = rdfMultiple(PROP.combatMechanic,
@@ -865,7 +865,7 @@ class Monster2(S.rdfsPTClass):
 
     Explicitly excluded: armor_class (is armorClass), full_attack (is
     attackGroups list), special_qualities (is fullAbilities or something else
-    if we rename that), special_abilities (is multiple of specialAbility),
+    if we rename that), special_abilities (is multiple of perk),
     stat_block (dropped, redundant), full_text (dropped, see textLocation)
 
     """
@@ -973,7 +973,7 @@ class Monster2(S.rdfsPTClass):
 
     #" languages              = rdfSingle(PROP.)                   # from sb.get? - list
 
-    specialAbilities       = rdfMultiple(PROP.specialAbility)
+    perks                  = rdfMultiple(PROP.perk)
 
     TODO("specialAC - {'name':value}")
     TODO("casterLevel - value")
