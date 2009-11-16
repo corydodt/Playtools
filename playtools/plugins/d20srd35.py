@@ -1046,7 +1046,8 @@ class Monster2(S.rdfsPTClass):
             feats=ujoin(self.feats),
             attackGroups=u'',
             specialAbilities=u'',
-            )
+            ).decode('utf-8')
+        assert type(ret) is unicode
         return ret
 
 monster2 = RDFFactCollection(Monster2, 'monster2')
