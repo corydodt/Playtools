@@ -36,12 +36,12 @@
     a c:Family;
     p:language s:abyssal, s:celestial, s:infernal;
 
-    p:perk [ a c:Immunity; rdf:value ( c:polymorph ) ];
-    p:perk [ a c:Immunity; rdf:value ( c:mindAffecting ) ];
+    p:perk [ a c:Immunity; p:damageType c:polymorph ];
+    p:perk [ a c:Immunity; p:damageType c:mindAffecting ];
     p:perk c:blindsight;
     p:perk c:noAbilityDamage, c:noAbilityDrain, c:noDeathFromMassiveDamage;
-    p:perk [ a c:Resistance; rdf:value ( c:cold 20 ) ];
-    p:perk [ a c:Resistance; rdf:value ( c:fire 20 ) ];
+    p:perk [ a c:Resistance; p:damageType c:cold; rdf:value 20 ];
+    p:perk [ a c:Resistance; p:damageType c:fire; rdf:value 20 ];
     p:perk c:summon;
     p:perk c:telepathy;
 .
@@ -79,14 +79,14 @@
     p:perk c:soulless;
     p:perk c:noEat, c:noSleep, c:noBreathe;
     p:perk c:fortitudeImmunity;
-    p:perk [ a c:Immunity; rdf:value ( c:mindAffecting ) ],
-           [ a c:Immunity; rdf:value ( c:poison ) ],
-           [ a c:Immunity; rdf:value ( c:sleep ) ],
-           [ a c:Immunity; rdf:value ( c:paralysis ) ],
-           [ a c:Immunity; rdf:value ( c:stunning ) ],
-           [ a c:Immunity; rdf:value ( c:disease ) ],
-           [ a c:Immunity; rdf:value ( c:deathEffects ) ],
-           [ a c:Immunity; rdf:value ( c:necromancy ) ];
+    p:perk [ a c:Immunity; p:damageType c:mindAffecting ],
+           [ a c:Immunity; p:damageType c:poison ],
+           [ a c:Immunity; p:damageType c:sleep ],
+           [ a c:Immunity; p:damageType c:paralysis ],
+           [ a c:Immunity; p:damageType c:stunning ],
+           [ a c:Immunity; p:damageType c:disease ],
+           [ a c:Immunity; p:damageType c:deathEffects ],
+           [ a c:Immunity; p:damageType c:necromancy ];
     p:additional 
         "Cannot heal damage on their own, but often can be repaired by exposing them to a certain kind of effect (see the creature’s description for details) or through the use of the Craft Construct feat. A construct with the fast healing special quality still benefits from that quality.", 
         "Because its body is a mass of unliving matter, a construct is hard to destroy. It gains bonus hit points based on size, as shown on the table. [table]"
@@ -103,8 +103,8 @@
     p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:armorNone;
 
     p:perk :standardDarkvision, c:lowLightVision;
-    p:perk [ a c:Immunity; rdf:value ( c:sleep ) ],
-           [ a c:Immunity; rdf:value ( c:paralysis ) ];
+    p:perk [ a c:Immunity; p:damageType c:sleep ],
+           [ a c:Immunity; p:damageType c:paralysis ];
 .
 # TODO - requires reasoning
 { { ?m p:family :dragon . ?m p:shapeChangeStatus c:asHumanoid } 
@@ -121,10 +121,10 @@
     p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
 
     p:perk :standardDarkvision;
-    p:perk [ a c:Immunity; rdf:value ( c:poison ) ],
-           [ a c:Immunity; rdf:value ( c:sleep ) ],
-           [ a c:Immunity; rdf:value ( c:stunning ) ],
-           [ a c:Immunity; rdf:value ( c:paralysis ) ];
+    p:perk [ a c:Immunity; p:damageType c:poison ],
+           [ a c:Immunity; p:damageType c:sleep ],
+           [ a c:Immunity; p:damageType c:stunning ],
+           [ a c:Immunity; p:damageType c:paralysis ];
     p:perk c:noCriticalHits, c:noFlanking;
     p:perk c:quasiSoulless;
     p:perk c:noEat, c:noSleep, c:noBreathe;
@@ -217,12 +217,12 @@
     p:proficiency c:naturalWeapons, c:armorNone;
 
     p:perk c:blind, c:blindsight;
-    p:perk [ a c:Immunity; rdf:value ( c:poison ) ],
-           [ a c:Immunity; rdf:value ( c:sleep ) ],
-           [ a c:Immunity; rdf:value ( c:paralysis ) ],
-           [ a c:Immunity; rdf:value ( c:polymorph ) ],
-           [ a c:Immunity; rdf:value ( c:stunning ) ],
-           [ a c:Immunity; rdf:value ( c:mindAffecting ) ];
+    p:perk [ a c:Immunity; p:damageType c:poison ],
+           [ a c:Immunity; p:damageType c:sleep ],
+           [ a c:Immunity; p:damageType c:paralysis ],
+           [ a c:Immunity; p:damageType c:polymorph ],
+           [ a c:Immunity; p:damageType c:stunning ],
+           [ a c:Immunity; p:damageType c:mindAffecting ];
     p:perk c:noCriticalHits, c:noFlanking;
     p:perk c:noSleep;
     p:additional 
@@ -265,12 +265,12 @@
     p:proficiency c:naturalWeapons, c:armorNone;
 
     p:perk c:lowLightVision;
-    p:perk [ a c:Immunity; rdf:value ( c:mindAffecting ) ], 
-           [ a c:Immunity; rdf:value ( c:poison ) ], 
-           [ a c:Immunity; rdf:value ( c:sleep ) ], 
-           [ a c:Immunity; rdf:value ( c:paralysis ) ], 
-           [ a c:Immunity; rdf:value ( c:polymorph ) ], 
-           [ a c:Immunity; rdf:value ( c:stunning ) ];
+    p:perk [ a c:Immunity; p:damageType c:mindAffecting ], 
+           [ a c:Immunity; p:damageType c:poison ], 
+           [ a c:Immunity; p:damageType c:sleep ], 
+           [ a c:Immunity; p:damageType c:paralysis ], 
+           [ a c:Immunity; p:damageType c:polymorph ], 
+           [ a c:Immunity; p:damageType c:stunning ];
     p:perk c:noCriticalHits;
     p:perk c:noSleep;
 .
@@ -287,13 +287,13 @@
             c:armorAsDescribed;
 
     p:perk :standardDarkvision;
-    p:perk [ a c:Immunity; rdf:value ( c:mindAffecting ) ], 
-           [ a c:Immunity; rdf:value ( c:poison ) ], 
-           [ a c:Immunity; rdf:value ( c:sleep ) ], 
-           [ a c:Immunity; rdf:value ( c:paralysis ) ], 
-           [ a c:Immunity; rdf:value ( c:stunning ) ], 
-           [ a c:Immunity; rdf:value ( c:disease ) ], 
-           [ a c:Immunity; rdf:value ( c:deathEffects ) ];
+    p:perk [ a c:Immunity; p:damageType c:mindAffecting ], 
+           [ a c:Immunity; p:damageType c:poison ], 
+           [ a c:Immunity; p:damageType c:sleep ], 
+           [ a c:Immunity; p:damageType c:paralysis ], 
+           [ a c:Immunity; p:damageType c:stunning ], 
+           [ a c:Immunity; p:damageType c:disease ], 
+           [ a c:Immunity; p:damageType c:deathEffects ];
     p:perk c:noCriticalHits, c:noNonLethalDamage, c:noAbilityDrain, 
             c:noAbilityDamage, c:noEnergyDrain, c:noTiring, 
             c:noDeathFromMassiveDamage, c:destroyedAtZero,
@@ -321,7 +321,7 @@
     p:proficiency c:naturalWeapons, c:armorNone;
 
     p:perk :standardDarkvision;
-    p:immunity [ a c:Immunity; rdf:value ( c:mindAffecting ) ];
+    p:immunity [ a c:Immunity; p:damageType c:mindAffecting ];
 .
 
 :air
@@ -336,11 +336,11 @@
     p:saveBonuses [ c:poison +4 ];
 
     p:perk :standardDarkvision;
-    p:perk [ a c:Immunity; rdf:value ( c:acid ) ], 
-           [ a c:Immunity; rdf:value ( c:cold ) ], 
-           [ a c:Immunity; rdf:value ( c:petrification ) ];
-    p:perk [ a c:Resistance; rdf:value ( c:electricity 10 ) ],
-           [ a c:Resistance; rdf:value ( c:fire 10 ) ];
+    p:perk [ a c:Immunity; p:damageType c:acid ], 
+           [ a c:Immunity; p:damageType c:cold ], 
+           [ a c:Immunity; p:damageType c:petrification ];
+    p:perk [ a c:Resistance; p:damageType c:electricity; rdf:value 10 ],
+           [ a c:Resistance; p:damageType c:fire; rdf:value 10 ];
     p:perk c:protectiveAura, c:tongues;
 .
 
@@ -376,8 +376,8 @@
     p:saveBonuses [ c:poison +4 ];
 
     p:perk :standardDarkvision;
-    p:perk [ a c:Immunity; rdf:value ( c:electricity ) ], 
-               [ a c:Immunity; rdf:value ( c:petrification ) ];
+    p:perk [ a c:Immunity; p:damageType c:electricity ], 
+               [ a c:Immunity; p:damageType c:petrification ];
     p:perk c:auraOfMenace, c:magicCircleAgainstEvil, c:teleport, c:tongues;
 .
 
@@ -396,8 +396,8 @@
 :cold
     p:textLocation "familytext/cold.htm";
     a c:Family;
-    p:perk [ a c:Immunity; rdf:value ( c:cold ) ];
-    p:perk [ a c:Vulnerability; rdf:value ( c:fire ) ];
+    p:perk [ a c:Immunity; p:damageType c:cold ];
+    p:perk [ a c:Vulnerability; p:damageType c:fire ];
 .
 
 :demon
@@ -405,11 +405,11 @@
     a c:Family;
     p:language s:abyssal, s:celestial, s:draconic;
 
-    p:perk [ a c:Immunity; rdf:value ( c:electricity ); ], 
-           [ a c:Immunity; rdf:value ( c:poison ) ];
-    p:perk [ a c:Resistance; rdf:value ( c:acid 10 ); ],
-           [ a c:Resistance; rdf:value ( c:cold 10 ); ],
-           [ a c:Resistance; rdf:value ( c:fire 10 ); ];
+    p:perk [ a c:Immunity; p:damageType c:electricity  ], 
+           [ a c:Immunity; p:damageType c:poison ];
+    p:perk [ a c:Resistance; p:damageType c:acid; rdf:value 10  ],
+           [ a c:Resistance; p:damageType c:cold; rdf:value 10  ],
+           [ a c:Resistance; p:damageType c:fire; rdf:value 10  ];
     p:perk c:summon, c:telepathy;
 .
 
@@ -418,10 +418,10 @@
     a c:Family;
     p:language s:infernal, s:celestial, s:draconic;
 
-    p:perk [ a c:Immunity; rdf:value ( c:fire ); ], 
-           [ a c:Immunity; rdf:value ( c:poison ); ];
-    p:perk [ a c:Resistance; rdf:value ( c:acid 10 ); ],
-           [ a c:Resistance; rdf:value ( c:cold 10 ); ];
+    p:perk [ a c:Immunity; p:damageType c:fire  ], 
+           [ a c:Immunity; p:damageType c:poison  ];
+    p:perk [ a c:Resistance; p:damageType c:acid; rdf:value 10  ],
+           [ a c:Resistance; p:damageType c:cold; rdf:value 10  ];
     p:perk c:seeInDarkness;
     p:perk c:summon, c:telepathy;
 .
@@ -446,8 +446,8 @@
 :fire
     p:textLocation "familytext/fire.htm";
     a c:Family;
-    p:perk [ a c:Immunity; rdf:value ( c:fire ) ];
-    p:perk [ a c:Vulnerability; rdf:value ( c:cold ) ];
+    p:perk [ a c:Immunity; p:damageType c:fire ];
+    p:perk [ a c:Vulnerability; p:damageType c:cold ];
 .
 
 :goblinoid
@@ -467,7 +467,7 @@
     p:abilityConstraint [ p:ability c:str; p:maximum 0 ];
     p:movement c:incorporealMovement;
 
-    p:perk [ a c:Immunity; rdf:value ( c:nonMagical ) ];
+    p:perk [ a c:Immunity; p:damageType c:nonMagical ];
     p:perk c:incorporealSenses;
     p:perk c:weaponFinesseAlways, c:incorporealDefense, c:charismaDeflection;
     p:additional 
@@ -502,7 +502,7 @@
     p:textLocation "familytext/swarm.htm";
     a c:Family;
 
-    p:perk [ a c:Vulnerability; rdf:value ( c:areaEffect ) ];
+    p:perk [ a c:Vulnerability; p:damageType c:areaEffect ];
     p:perk c:noCriticalHits, c:noFlanking, c:destroyedAtZero, c:noTrip, 
             c:noGrapple, c:noBullRush, c:diffuseTarget, c:cannotGrapple,
             c:cannotMakeAttackOfOpportunity, c:distraction;

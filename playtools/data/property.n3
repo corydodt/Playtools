@@ -286,4 +286,8 @@
 :attackFormExtraDamage a rdfs:Property;
 .
 
+:damageType a rdfs:Property;
+    rdfs:comment "A type of damage, or a type of negative effect, such as fire or polymorph";
+.
+
 ## attackFormRangeInformation?
