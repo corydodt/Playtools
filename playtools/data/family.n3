@@ -405,11 +405,11 @@
     a c:Family;
     p:language s:abyssal, s:celestial, s:draconic;
 
-    p:perk [ a c:Immunity; rdf:value ( c:electricity ) ], 
+    p:perk [ a c:Immunity; rdf:value ( c:electricity ); ], 
            [ a c:Immunity; rdf:value ( c:poison ) ];
-    p:perk [ a c:Resistance; rdf:value ( c:acid 10 ) ],
-           [ a c:Resistance; rdf:value ( c:cold 10 ) ],
-           [ a c:Resistance; rdf:value ( c:fire 10 ) ];
+    p:perk [ a c:Resistance; rdf:value ( c:acid 10 ); ],
+           [ a c:Resistance; rdf:value ( c:cold 10 ); ],
+           [ a c:Resistance; rdf:value ( c:fire 10 ); ];
     p:perk c:summon, c:telepathy;
 .
 
@@ -418,10 +418,10 @@
     a c:Family;
     p:language s:infernal, s:celestial, s:draconic;
 
-    p:perk [ a c:Immunity; rdf:value ( c:fire ) ], 
-           [ a c:Immunity; rdf:value ( c:poison ) ];
-    p:perk [ a c:Resistance; rdf:value ( c:acid 10 ) ];
-           [ a c:Resistance; rdf:value ( c:cold 10 ) ];
+    p:perk [ a c:Immunity; rdf:value ( c:fire ); ], 
+           [ a c:Immunity; rdf:value ( c:poison ); ];
+    p:perk [ a c:Resistance; rdf:value ( c:acid 10 ); ],
+           [ a c:Resistance; rdf:value ( c:cold 10 ); ];
     p:perk c:seeInDarkness;
     p:perk c:summon, c:telepathy;
 .
