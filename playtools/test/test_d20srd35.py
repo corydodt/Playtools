@@ -63,22 +63,16 @@ class SRD35TestCase(unittest.TestCase):
         The RDF facts are available for lookup
         """
         families = SRD.facts['family']
-        auras = SRD.facts['aura']
         skills = SRD.facts['skill']
         feats = SRD.facts['feat']
-        specialACs = SRD.facts['specialAC']
-        specialActions = SRD.facts['specialAction']
 
         def test(n,k,s):
             thing = k.lookup(n)
             self.assertEqual(unicode(thing.label), s)
 
         test(u'http://goonmill.org/2007/family.n3#devil', families, u'Devil')
-        test(u'http://goonmill.org/2009/perk.n3#nullTimeField', auras, u'Null Time Field')
         test(u'http://goonmill.org/2007/skill.n3#appraise', skills, u'Appraise')
         test(u'http://goonmill.org/2007/feat.n3#abilityFocus', feats, u'Ability Focus')
-        test(u'http://goonmill.org/2009/perk.n3#deflectingForce', specialACs, u'Deflecting Force')
-        test(u'http://goonmill.org/2009/perk.n3#mucusCloud', specialActions, u'Mucus Cloud')
 
     def test_thingLists(self):
         """
@@ -121,7 +115,8 @@ class SRD35TestCase(unittest.TestCase):
         """
         I can access the schema at all
         """
-        fireResistance = d20srd35.Immunity(d20srd35.CHAR.fire)
+        blindsight = d20srd35.Perk(d20srd35.CHAR.blindsight)
+        self.assertTrue(blindsight.isSense)
 
     def test_feat(self):
         """
@@ -211,13 +206,12 @@ class SRD35TestCase(unittest.TestCase):
         # test accessing via fact module
         angel = SRD.facts['family'][d20srd35.FAM.angel]
 
-        resl = sorted(pluck(angel.resistances, 'attackEffect', 'label'))
+        resl = sorted(pluck(angel.resistances, 'damageType', 'label'))
         resv = sorted(pluck(angel.resistances, 'value'))
-        self.assertEqual(resl, ['Electricity', 'Fire'])
-        self.assertEqual(resv, [10, 10])
+        self.assertEqual(zip(map(str, resl), resv), [('Electricity', 10), ('Fire', 10)])
 
-        imml = sorted(pluck(angel.immunities, 'label'))
-        self.assertEqual(imml, ['Acid', 'Cold', 'Petrification'])
+        imml = sorted(pluck(angel.immunities, 'damageType', 'label'))
+        self.assertEqual(map(str, imml), ['Acid', 'Cold', 'Petrification'])
 
     def test_indexable(self):
         """
@@ -228,9 +222,9 @@ class SRD35TestCase(unittest.TestCase):
             self.assertTrue(IIndexable(item), "Collection %s (%s)"
                     % (coll, coll.factName))
 
-    def test_monster(self):
+    def test_monsterFeats(self):
         """
-        Verify that attributes of the monster triples are accessible
+        Verify that feats of the monster triples are accessible
         (Monster2)
         """
         m = SRD.facts['monster2']
@@ -245,10 +239,22 @@ class SRD35TestCase(unittest.TestCase):
         self.assertEqual(pluck(gorilla.epicFeats, 'feat', 'resUri'),
                 [FEAT.epicToughness])
 
+    def test_monsterSkills(self):
+        """
+        Verify that skills of the monster triples are accessible
+        (Monster2)
+        """
+        m = SRD.facts['monster2']
         # listen is a descriptor that gets the value of that skill
         aboleth = m.lookup(MONSTER.aboleth)
         self.assertEqual(aboleth.listen.value, 16)
 
+    def test_monsterAttacks(self):
+        """
+        Verify that attacks of the monster triples are accessible
+        (Monster2)
+        """
+        m = SRD.facts['monster2']
         # attack is a descriptor that gets the first attack from fullAttack
         def fmt(attack):
             melee = "melee" if attack.isMelee else "ranged"
@@ -272,26 +278,51 @@ class SRD35TestCase(unittest.TestCase):
                 "melee|claws|1|+40|3d8+21|19-20|plus blight-fire, +1d6 on critical hit"
                 )
 
+    def test_monsterAssociatives(self):
+        """
+        Verify that associative triples of the monster triples are accessible
+        (Monster2) - these are the triples that map a single value to a grid
+        of related attributes, such as abilities, treasures, and saves.
+        """
+        m = SRD.facts['monster2']
+        winterwight = m.lookup(MONSTER.winterwight)
         # abilities, saves, treasures: associative types
         self.assertEqual(winterwight.abilities['strength'], 52)
         self.assertEqual(winterwight.treasures['goods'],
             C.standardTreasure)
         self.assertEqual(winterwight.saves['reflex'], 18)
         
+    def test_monsterAC(self):
+        """
+        Verify that armor classes of the monster triples are accessible
+        (Monster2)
+        """
+        m = SRD.facts['monster2']
         # flatFootedAC and touchAC: descriptors that compute armor value for
         # special circumstances
         fleshColossus = m.lookup(MONSTER.fleshColossus)
         self.assertEqual(fleshColossus.touchAC, 20)
         self.assertEqual(fleshColossus.flatFootedAC, 45)
 
+    def test_monsterPerks(self):
+        """
+        Verify that perks (formerly: special abilities) of the monster triples
+        are accessible (Monster2)
+        """
+        m = SRD.facts['monster2']
         forceDragon = m.lookup(MONSTER.forceDragonAdult)
-        fdAbilities = [x.name for x in forceDragon.perks]
+        fdAbilities = map(str, forceDragon.perks)
 
         # low-light vision is only found in the dragon type, and not found in
         # the force dragon's particular ability list. use this to test that
         # inheriting abilities is working right
         self.assertTrue('Low-Light Vision' in fdAbilities)
 
+        self.assertTrue('Immunity to Paralysis' in fdAbilities)
+        self.assertTrue('Immunity to Sleep' in fdAbilities)
+        self.assertEqual(sorted(map(str, forceDragon.immunities)), 
+                ['Immunity to Paralysis', 'Immunity to Sleep'])
+        import pudb; pudb.set_trace()
         self.assertTrue('Deflecting Force' in fdAbilities)
         self.assertEqual(forceDragon.specialAC, u"Deflecting Force")
         self.assertTrue('Damage Reduction' in fdAbilities)
@@ -307,9 +338,6 @@ class SRD35TestCase(unittest.TestCase):
         self.assertTrue('Aura of Good' in fdAbilities)
         self.assertTrue('Aura of Courage' in fdAbilities)
         self.assertEqual(forceDragon.auras, [u'good', u'courage'])
-        self.assertTrue('Immunity to xx' in fdAbilities)
-        self.assertTrue('Immunity to yy' in fdAbilities)
-        self.assertEqual(forceDragon.immunities, [xx, yy])
         self.assertTrue('Vulnerability to xx' in fdAbilities)
         self.assertTrue('Vulnerability to yy' in fdAbilities)
         self.assertEqual(forceDragon.vulnerabilities, [xx, yy])
@@ -336,7 +364,8 @@ class SRD35TestCase(unittest.TestCase):
         _feats = (acro, agile, zone, sunder)
 
         class Tester(object):
-            bonusFeats = d20srd35.BonusFeatFilter("bonusFeats")
+            bonusFeats             = d20srd35.CoreFilter("bonusFeats", "feats",
+                                                lambda x: x.isBonusFeat)
             feats = _feats
 
         t = Tester()
