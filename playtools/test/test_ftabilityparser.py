@@ -148,7 +148,7 @@ class FullTextAbilityParserTest(unittest.TestCase):
             </html>""")
         actual = ft.parseFTAbilities(t1)
         self.assertEqual(map(repr, actual), 
-                ["Power:Breath Weapon|Su|None|None|None|None|None"])
+                ["Perk:Breath Weapon|Su|None|None|None|None|None"])
 
     def test_spellLike(self):
         t = inspect.cleandoc("""<div level="5" topic="Combat" xmlns:p="http://test">
@@ -161,10 +161,10 @@ class FullTextAbilityParserTest(unittest.TestCase):
             </div>""")
         actual = ft.parseFTAbilities(t)
         self.assertEqual(map(repr, actual),
-                ["Power:acid arrow|Sp|1/hour|charisma|None|3|"
+                ["Perk:acid arrow|Sp|1/hour|charisma|None|3|"
                  "(can hurl an acidic blob that functions like the spell)",
 
-                 "Power:stinking cloud|Sp|1/day|charisma|15|6|"
+                 "Perk:stinking cloud|Sp|1/day|charisma|15|6|"
                  "(a mass of smelly fog that duplicates the effect of the spell)",
                  ])
 

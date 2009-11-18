@@ -14,14 +14,14 @@ def prepFT(s):
     return '<html>%s</html>' % (unescape(s),)
 
 
-class Power(object):
+class Perk(object):
     """
     A special ability power
     """
     powerCount = 0
     parsedBySLAXML = False # set to true if this came out of the slaxmlparser
-    nonPowerCount = 0
-    nonPowers = []
+    nonPerkCount = 0
+    nonPerks = []
     useCategory = None
     frequency = None
     basis = None
@@ -30,7 +30,7 @@ class Power(object):
     qualifier = None
 
     def __repr__(self):
-        return ("Power:{0.name}|{0.useCategory}|{0.frequency}|{0.basis}|"
+        return ("Perk:{0.name}|{0.useCategory}|{0.frequency}|{0.basis}|"
                 "{0.dc}|{0.casterLevel}|{0.qualifier}".format(self))
 
     def __init__(self, name, useCategory, text):
@@ -41,7 +41,7 @@ class Power(object):
     @classmethod
     def fromNode(cls, node):
         """
-        Create a Power from an ability node
+        Create a Perk from an ability node
         """
         nameN = node.getElementsByTagName('b')[0]
         nameN.parentNode.removeChild(nameN)
@@ -64,12 +64,12 @@ class Power(object):
                     'Fire Subtype:', 'Immunities:', 'Outsider Traits:',
                     'Resistances:',
                     ]:
-                cls.nonPowers.append(t)
+                cls.nonPerks.append(t)
 
     @classmethod
     def fromSpellLike(cls, node):
         """
-        Create a Power from a spell-like abilities node
+        Create a Perk from a spell-like abilities node
         """
         fgroups = util.findNodesByAttribute(node, 'p:property', 'frequencyGroup')
         powers = []
@@ -170,11 +170,11 @@ def parseFTAbilities(s, prep=True):
     for node in levelNodes:
         topic = node.getAttribute('topic').lower() 
         if topic in ['spell-like abilities', 'other spell-like abilities']:
-            powers.extend(Power.fromSpellLike(node))
+            powers.extend(Perk.fromSpellLike(node))
         elif node.getAttribute('topic').lower() == 'skills':
             continue
         else:
-            p = Power.fromNode(node)
+            p = Perk.fromNode(node)
             if p is not None:
                 powers.append(p)
 
