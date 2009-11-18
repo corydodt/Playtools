@@ -1,5 +1,6 @@
 """
-Parse special qualities, special attacks, all that shit.
+Parse special_qualities, special_attacks, and special_abilities.  Ignores
+perks from families; ignores perks from full_text.
 
 There's an Australian fuck-ton (10% bigger than the English fuck-ton) of weird
 shit that can happen in here, so basically split on commas and look for things
@@ -353,6 +354,7 @@ class Processor(disp.DispatchProcessor):
     def useCategory(self, *a, **kw):
         s = disp.getString(*a, **kw).lower()
         self.simples[-1].useCategory = s
+
 
 def parseSpecialQualities(s):
     """
