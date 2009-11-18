@@ -67,9 +67,9 @@ class SpecialParserTest(unittest.TestCase):
         Immunity Specials can parse
         """
         self.compare("Immunity to sleep and paralysis, electricity immunity",
-                "kw=what:sleep type=immunity name=Immunity\n"
-                "kw=what:paralysis type=immunity name=Immunity\n"
-                "kw=what:electricity type=immunity name=Immunity")
+                "kw=damageType:sleep type=immunity name=Immunity\n"
+                "kw=damageType:paralysis type=immunity name=Immunity\n"
+                "kw=damageType:electricity type=immunity name=Immunity")
 
     def test_misc(self):
         """
@@ -121,11 +121,28 @@ class SpecialParserTest(unittest.TestCase):
                 "kw=damage:1d1+1/qualifier:arm type=damaging name=Constrict\n"
                 "kw=damage:2d2+2/qualifier:leg type=damaging name=Constrict")
 
+    def test_spellLike(self):
+        """
+        Special abilities that are spell-like abilities are turned into spells
+        """
+        self.compare("entangle, sunbeam", 
+                "kw=spell:entangle type=spellLike name=Spell-like ability: entangle\n" 
+                "kw=spell:sunbeam type=spellLike name=Spell-like ability: sunbeam", 
+            )
+
+    def test_resistance(self):
+        """
+        Special resistances with amounts can be parsed
+        """
+        self.compare("fire resistance 20", 
+                "kw=amount:20/damageType:fire type=resistance name=Resistance")
+
     def test_summon(self):
         """
         Summon monsters
         """
-        self.compare("Summon lesser demon of truth", "kw=what:lesser demon of truth type=summon name=Summon")
+        self.compare("Summon lesser demon of truth", 
+                "kw=summonType:lesser demon of truth type=summon name=Summon")
 
 
 class HUGESpecialParserTest(unittest.TestCase):

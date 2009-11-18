@@ -32,13 +32,25 @@ simpleSpecialQualityParser = parser.Parser(grammar,
         root='simpleSpecialRoot')
 
 
+class QualityKW(object):
+    __slots__ = ['dc', 'qualifier', 'level', 'damage', 'effect',
+            'range', 'extraDamage', 'damageType', 'empathyType', 'familyName',
+            'summonType', 'amount', 'spell']
+
+    def items(self):
+        r = []
+        for x in self.__slots__:
+            if hasattr(self, x):
+                r.append((x, getattr(self, x)))
+        return r
+
 class Quality(object):
     count = 0
     miscs = {}
 
     def __init__(self, type, name=None):
         Quality.count = Quality.count + 1
-        self.kw = {}
+        self.kw = QualityKW()
         self.type = type
         self.name = name
         if type == 'misc':
@@ -50,7 +62,8 @@ class Quality(object):
                 self.miscs[name] = uq + 1
 
     def setArgs(self, **kw):
-        self.kw.update(kw)
+        for k,v in kw.items():
+            setattr(self.kw, k, v)
 
     def __repr__(self):
         return "<Quality %s %s kw=%s>" % (self.type, self.name, self.kw.keys())
@@ -211,7 +224,7 @@ class Processor(disp.DispatchProcessor):
 
     def auraArg(self, (t,s1,s2,sub), buffer):
         q = Quality('aura', 'Aura')
-        q.setArgs(what=buffer[s1:s2].strip())
+        q.setArgs(damageType=buffer[s1:s2].strip())
         self.specialQualities.append(q)
 
     def spells(self, (t,s1,s2,sub), buffer):
@@ -229,7 +242,7 @@ class Processor(disp.DispatchProcessor):
 
     def vulnerabilityArg(self, (t,s1,s2,sub), buffer):
         q = Quality('vulnerability', 'Vulnerability')
-        q.setArgs(what=buffer[s1:s2])
+        q.setArgs(damageType=buffer[s1:s2])
         self.specialQualities.append(q)
 
     def immunityArg(self, (t,s1,s2,sub), buffer):
@@ -239,17 +252,17 @@ class Processor(disp.DispatchProcessor):
             imms = buf.split(' and ')
             for imm in imms:
                 q = Quality('immunity', 'Immunity')
-                q.setArgs(what=imm.strip())
+                q.setArgs(damageType=imm.strip())
                 newQualities.append(q)
         else:
             q = Quality('immunity', 'Immunity')
-            q.setArgs(what=buffer[s1:s2].strip())
+            q.setArgs(damageType=buffer[s1:s2].strip())
             newQualities = [q]
         self.specialQualities.extend(newQualities)
 
     def resistanceName(self, (t,s1,s2,sub), buffer):
         q = Quality('resistance', 'Resistance')
-        q.setArgs(what=buffer[s1:s2].strip())
+        q.setArgs(damageType=buffer[s1:s2].strip())
         self.specialQualities.append(q)
 
     def resistanceAmount(self, (t, s1, s2, sub), buffer):
@@ -272,12 +285,12 @@ class Processor(disp.DispatchProcessor):
 
     def empathyArg(self, (t,s1,s2,sub), buffer):
         q = Quality('empathy', 'Empathy')
-        q.setArgs(what=buffer[s1:s2])
+        q.setArgs(empathyType=buffer[s1:s2])
         self.specialQualities.append(q)
 
     def familyArg(self, (t,s1,s2,sub), buffer):
         q = Quality('family')
-        q.setArgs(what=buffer[s1:s2])
+        q.setArgs(familyName=buffer[s1:s2])
         self.specialQualities.append(q)
 
     def empty(self, (t,s1,s2,sub), buffer):
@@ -294,7 +307,7 @@ class Processor(disp.DispatchProcessor):
         ll = disp.dispatchList(self, sub, buffer)
         name = ll.pop(0)
         if name.lower() in spellLikes:
-            q = Quality('spellLike')
+            q = Quality('spellLike', 'Spell-like ability: %s' % (name,))
             q.setArgs(spell=name)
             self.specialQualities.append(q)
         else:
@@ -339,7 +352,7 @@ class Processor(disp.DispatchProcessor):
             q.setArgs(**part)
 
     def summonTarget(self, *a, **kw):
-        return {'what': disp.getString(*a, **kw).strip()}
+        return {'summonType': disp.getString(*a, **kw).strip()}
 
     def simpleSpecialStat(self, (t,s1,s2,sub), buffer):
         self.simples = []
