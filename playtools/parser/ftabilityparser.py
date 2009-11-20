@@ -14,20 +14,19 @@ def prepFT(s):
     return '<html>%s</html>' % (unescape(s),)
 
 
+nonPerks = []
+
+powerCount = 0
+
 class Perk(object):
     """
     A special ability power
     """
-    powerCount = 0
-    parsedBySLAXML = False # set to true if this came out of the slaxmlparser
-    nonPerkCount = 0
-    nonPerks = []
-    useCategory = None
-    frequency = None
-    basis = None
-    dc = None
-    casterLevel = None
-    qualifier = None
+    __slots__ = ['parsedBySLAXML', 'parsedBySpecialParser',
+    'useCategory', 'frequency', 'basis', 'dc',
+    'casterLevel', 'qualifier', 'breathEffect', 'damage', 'extraDamage',
+    'damageType', 'empathyType', 'familyName', 'range', 'level', 'summonType',
+    'amount', 'spell', 'name', 'useCategory', 'text', 'type']
 
     def __repr__(self):
         return ("Perk:{0.name}|{0.useCategory}|{0.frequency}|{0.basis}|"
@@ -37,6 +36,25 @@ class Perk(object):
         self.name = name
         self.useCategory = useCategory
         self.text = text
+
+        self.parsedBySLAXML = False # set to true if this came out of the slaxmlparser
+        self.parsedBySpecialParser = False # set to true if this came out of the specialparser
+        self.frequency = None
+        self.basis = None
+        self.dc = None
+        self.casterLevel = None
+        self.qualifier = None
+        self.breathEffect = None
+        self.damage = None
+        self.extraDamage = None
+        self.damageType = None
+        self.empathyType = None
+        self.familyName = None
+        self.range = None
+        self.level = None
+        self.summonType = None
+        self.amount = None
+        self.spell = None
 
     @classmethod
     def fromNode(cls, node):
@@ -51,7 +69,8 @@ class Perk(object):
             assert cat in '(Ex) (Su) (Sp)'.split()
 
             self = cls(name, cat[1:-1], node.toxml())
-            cls.powerCount = cls.powerCount + 1
+            global powerCount
+            powerCount = powerCount + 1
             return self
         except:
             t = util.gatherText(nameN)
@@ -64,7 +83,7 @@ class Perk(object):
                     'Fire Subtype:', 'Immunities:', 'Outsider Traits:',
                     'Resistances:',
                     ]:
-                cls.nonPerks.append(t)
+                nonPerks.append(t)
 
     @classmethod
     def fromSpellLike(cls, node):
