@@ -51,10 +51,18 @@ class SpecialParserTest(unittest.TestCase):
         """
         Format a quality for comparison
         """
+        excludedSlots = ['name', 'type']
         ret = []
         for quality in qs:
-            kw = '/'.join(["%s:%s" % (k,v) for (k,v) in
-                sorted(quality.kw.items())])
+            keywords = []
+            for slot in sorted(quality.__slots__):
+                if slot in excludedSlots:
+                    continue
+
+                v = getattr(quality, slot)
+                if v:
+                    keywords.append('%s:%s' % (slot, v))
+            kw = '/'.join(keywords)
             ret.append("kw={kw} type={q.type} name={q.name}".format(
                 kw=kw, q=quality))
         return '\n'.join(ret)
@@ -92,7 +100,7 @@ class SpecialParserTest(unittest.TestCase):
         self.compare("Spells", "kw= type=spells name=spells")
         self.compare("Spell-like abilities, spells (caster level 10)", 
                 "kw= type=noArgumentQuality name=Spell-like abilities\n"
-                "kw=level:10 type=spells name=spells")
+                "kw=casterLevel:10 type=spells name=spells")
 
     def test_breathWeapon(self):
         """
@@ -100,10 +108,10 @@ class SpecialParserTest(unittest.TestCase):
         """
         self.compare("Breath weapon", "kw= type=damaging name=Breath weapon")
         self.compare("Breath weapon (70 ft. cone of fire 24d10, DC 41), breath weapon (70 ft. cone of force 35d12, dc 50)", 
-                "kw=damage:24d10/dc:41/effect:cone of fire/range:70 ft. type=damaging name=Breath weapon\n"
-                "kw=damage:35d12/dc:50/effect:cone of force/range:70 ft. type=damaging name=Breath weapon")
+                "kw=breathEffect:cone of fire/damage:24d10/dc:41/range:70 ft. type=damaging name=Breath weapon\n"
+                "kw=breathEffect:cone of force/damage:35d12/dc:50/range:70 ft. type=damaging name=Breath weapon")
         self.compare("Breath weapon (70 ft. prismatic spray effect, Dc 41)",
-                "kw=dc:41/effect:prismatic spray effect/range:70 ft. type=damaging name=Breath weapon")
+                "kw=breathEffect:prismatic spray effect/dc:41/range:70 ft. type=damaging name=Breath weapon")
 
     def test_damaging(self):
         """

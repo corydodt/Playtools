@@ -14,6 +14,7 @@ from playtools.parser import diceparser
 diceparser
 from playtools.parser import attackparser
 attackparser
+from playtools.parser.ftabilityparser import Perk
 
 from playtools.util import RESOURCE
 from playtools.test.pttestutil import TODO
@@ -30,46 +31,6 @@ specialQualityParser = parser.Parser(grammar, root='specialQualityRoot')
 
 simpleSpecialQualityParser = parser.Parser(grammar, 
         root='simpleSpecialRoot')
-
-
-class QualityKW(object):
-    __slots__ = ['dc', 'qualifier', 'level', 'damage', 'effect',
-            'range', 'extraDamage', 'damageType', 'empathyType', 'familyName',
-            'summonType', 'amount', 'spell']
-
-    def items(self):
-        r = []
-        for x in self.__slots__:
-            if hasattr(self, x):
-                r.append((x, getattr(self, x)))
-        return r
-
-class Quality(object):
-    count = 0
-    miscs = {}
-
-    def __init__(self, type, name=None):
-        Quality.count = Quality.count + 1
-        self.kw = QualityKW()
-        self.type = type
-        self.name = name
-        if type == 'misc':
-            name = name.lower()
-            uq = Quality.miscs.get(name)
-            if uq is None:
-                self.miscs[name] = 1
-            else:
-                self.miscs[name] = uq + 1
-
-    def setArgs(self, **kw):
-        for k,v in kw.items():
-            setattr(self.kw, k, v)
-
-    def __repr__(self):
-        return "<Quality %s %s kw=%s>" % (self.type, self.name, self.kw.keys())
-
-    def __getattr__(self, k):
-        return self.kw.get(k)
 
 
 spellLikes = { # {{{
@@ -187,9 +148,11 @@ class Processor(disp.DispatchProcessor):
     def exAttack(self, (t,s1,s2,sub), buffer):
         parts = disp.dispatchList(self, sub, buffer)
         if len(parts) > 0:
-            q = Quality('damaging', parts.pop(0))
+            q = Perk(parts.pop(0), 'Ex', None)
+            q.type = 'damaging' 
             for part in parts:
-                q.setArgs(**part)
+                for k,v in part.items():
+                    setattr(q, k, v)
         self.specialQualities.append(q)
 
     def qualifier(self, *a, **kw):
@@ -205,44 +168,53 @@ class Processor(disp.DispatchProcessor):
     def rangedSense(self, (t,s1,s2,sub), buffer):
         ll = disp.dispatchList(self, sub, buffer)
         name = ll.pop(0)
-        q = Quality('sense', name)
+        q = Perk(name, None, None)
+        q.type = 'sense'
         self.specialQualities.append(q)
         for part in ll:
-            q.setArgs(**part)
+            for k,v in part.items():
+                setattr(q, k, v)
 
     def exMeleeAttack(self, (t,s1,s2,sub), buffer):
-        q = Quality('exMeleeAttack', buffer[s1:s2])
+        q = Perk(buffer[s1:s2], 'Ex', None)
+        q.type = 'exMeleeAttack'
         self.specialQualities.append(q)
 
     def noArgumentSense(self, (t,s1,s2,sub), buffer):
-        q = Quality('sense', buffer[s1:s2])
+        q = Perk(buffer[s1:s2], None, None)
+        q.type = 'sense'
         self.specialQualities.append(q)
 
     def noArgumentQuality(self, (t,s1,s2,sub), buffer):
-        q = Quality(t, buffer[s1:s2])
+        q = Perk(buffer[s1:s2], None, None)
+        q.type = t
         self.specialQualities.append(q)
 
     def auraArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('aura', 'Aura')
-        q.setArgs(damageType=buffer[s1:s2].strip())
+        q = Perk('Aura', None, None)
+        q.type = 'aura'
+        q.damageType = buffer[s1:s2].strip()
         self.specialQualities.append(q)
 
     def spells(self, (t,s1,s2,sub), buffer):
-        q = Quality('spells', 'spells')
+        q = Perk('spells', 'Sp', None)
+        q.type = 'spells'
         self.specialQualities.append(q)
 
         ll = disp.dispatchList(self, sub, buffer)
         for part in ll:
-            q.setArgs(**part)
+            for k,v in part.items():
+                setattr(q, k, v)
 
     def spellsLevel(self, (t,s1,s2,sub), buffer):
         l = buffer[s1:s2]
         l = re.search(r'(\d+)', l).group(1)
-        return {'level': int(l)}
+        return {'casterLevel': int(l)}
 
     def vulnerabilityArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('vulnerability', 'Vulnerability')
-        q.setArgs(damageType=buffer[s1:s2])
+        q = Perk('Vulnerability', 'Ex', None)
+        q.type = 'vulnerability'
+        q.damageType = buffer[s1:s2]
         self.specialQualities.append(q)
 
     def immunityArg(self, (t,s1,s2,sub), buffer):
@@ -251,46 +223,55 @@ class Processor(disp.DispatchProcessor):
         if ' and ' in buf:
             imms = buf.split(' and ')
             for imm in imms:
-                q = Quality('immunity', 'Immunity')
-                q.setArgs(damageType=imm.strip())
+                q = Perk('Immunity', 'Ex', None)
+                q.type = 'immunity'
+                q.damageType = imm.strip()
                 newQualities.append(q)
         else:
-            q = Quality('immunity', 'Immunity')
-            q.setArgs(damageType=buffer[s1:s2].strip())
+            q = Perk('Immunity', 'Ex', None)
+            q.type = 'immunity'
+            q.damageType = buffer[s1:s2].strip()
             newQualities = [q]
         self.specialQualities.extend(newQualities)
 
     def resistanceName(self, (t,s1,s2,sub), buffer):
-        q = Quality('resistance', 'Resistance')
-        q.setArgs(damageType=buffer[s1:s2].strip())
+        q = Perk('Resistance', 'Ex', None)
+        q.type = 'resistance'
+        q.damageType = buffer[s1:s2].strip()
         self.specialQualities.append(q)
 
     def resistanceAmount(self, (t, s1, s2, sub), buffer):
-        self.specialQualities[-1].setArgs(amount=buffer[s1:s2])
+        perk = self.specialQualities[-1]
+        perk.amount = buffer[s1:s2]
 
     def regenerationArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('regeneration', 'Regeneration')
-        q.setArgs(amount=buffer[s1:s2])
+        q = Perk('Regeneration', 'Ex', None)
+        q.type = 'regeneration'
+        q.amount = buffer[s1:s2]
         self.specialQualities.append(q)
 
     def damageReductionArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('damageReduction', 'Damage Reduction')
-        q.setArgs(amount=buffer[s1:s2])
+        q = Perk('Damage Reduction', 'Extraordinary', None)
+        q.type = 'damageReduction'
+        q.amount = buffer[s1:s2]
         self.specialQualities.append(q)
 
     def fastHealingArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('fastHealing', 'Fast Healing')
-        q.setArgs(amount=buffer[s1:s2])
+        q = Perk('Fast Healing', 'Ex', None)
+        q.type = 'fastHealing'
+        q.amount = buffer[s1:s2]
         self.specialQualities.append(q)
 
     def empathyArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('empathy', 'Empathy')
-        q.setArgs(empathyType=buffer[s1:s2])
+        q = Perk('Empathy', 'Ex', None)
+        q.type = 'empathy'
+        q.empathyType = buffer[s1:s2]
         self.specialQualities.append(q)
 
     def familyArg(self, (t,s1,s2,sub), buffer):
-        q = Quality('family')
-        q.setArgs(familyName=buffer[s1:s2])
+        q = Perk('Family Traits', None, None)
+        q.type = 'family'
+        q.familyName = buffer[s1:s2]
         self.specialQualities.append(q)
 
     def empty(self, (t,s1,s2,sub), buffer):
@@ -307,49 +288,59 @@ class Processor(disp.DispatchProcessor):
         ll = disp.dispatchList(self, sub, buffer)
         name = ll.pop(0)
         if name.lower() in spellLikes:
-            q = Quality('spellLike', 'Spell-like ability: %s' % (name,))
-            q.setArgs(spell=name)
+            q = Perk('Spell-like ability: %s' % (name,),
+                    'Sp', None)
+            q.type = 'spellLike'
+            q.spell = name
             self.specialQualities.append(q)
         else:
-            q = Quality('misc', name)
+            q = Perk(name, None, None)
+            q.type = 'misc'
             self.specialQualities.append(q)
             for part in ll:
-                q.setArgs(**part)
+                for k,v in part.items():
+                    setattr(q, k, v)
 
     def range(self, (t,s1,s2,sub), buffer):
         return {'range': buffer[s1:s2].strip()}
 
     def frightfulPresence(self, (t,s1,s2,sub), buffer):  
-        q = Quality("aura", "Frightful presence")
+        q = Perk("Frightful presence", 'Ex', None)
+        q.type = 'aura'
         self.specialQualities.append(q)
 
         ll = disp.dispatchList(self, sub, buffer)
         for part in ll:
-            q.setArgs(**part)
+            for k,v in part.items():
+                setattr(q, k, v)
 
     def breathWeapon(self, (t,s1,s2,sub), buffer):
-        q = Quality("damaging", "Breath weapon")
+        q = Perk("Breath weapon", "Supernatural", None)
+        q.type = 'damaging'
         self.specialQualities.append(q)
 
         ll = disp.dispatchList(self, sub, buffer)
 
         for part in ll:
             if part:
-                q.setArgs(**part)
+                for k,v in part.items():
+                    setattr(q, k, v)
 
     def breathEffect(self, *a, **kw):
-        return {'effect': disp.getString(*a, **kw).strip()}
+        return {'breathEffect': disp.getString(*a, **kw).strip()}
 
     def breathPrismatic(self, *a, **kw):
-        return {'effect': disp.getString(*a, **kw).strip()}
+        return {'breathEffect': disp.getString(*a, **kw).strip()}
 
     def summon(self, (t,s1,s2,sub), buffer):
-        q = Quality('summon', 'Summon')
+        q = Perk('Summon', 'Sp', None)
+        q.type = 'summon'
         self.specialQualities.append(q)
 
         ll = disp.dispatchList(self, sub, buffer)
         for part in ll:
-            q.setArgs(**part)
+            for k,v in part.items():
+                setattr(q, k, v)
 
     def summonTarget(self, *a, **kw):
         return {'summonType': disp.getString(*a, **kw).strip()}
@@ -400,19 +391,5 @@ def parseSimpleSpecial(s):
         raise RuntimeError('%s is not a valid simple special quality stat' % (s,))
     simples = children[0]
     return simples
-
-
-def printFrequenciesOfUnknowns():
-    items = Quality.miscs.items()
-    for n, (k, freq) in enumerate(items):
-        items[n] = freq, k
-
-    print
-    for q in sorted(items, key=operator.itemgetter(1)):
-        print '{0: <5}{1}'.format(*q)
-    print
-
-    print sum(zip(*items)[0]), "total miscs"
-    print Quality.count, "total qualities parsed"
 
 
