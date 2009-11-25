@@ -11,7 +11,6 @@ from rdflib.Namespace import Namespace
 from rdflib import Literal, URIRef, BNode, ConjunctiveGraph
 
 from rdfalchemy import rdfSingle, rdfList 
-from rdfalchemy.orm import mapper
 
 from playtools import sparqly
 from playtools.test.pttestutil import IsomorphicTestableGraph
