@@ -26,7 +26,6 @@ from rdflib.Namespace import Namespace as NS
 from rdflib import RDF
 
 from rdfalchemy import rdfSingle, rdfMultiple, rdfList
-from rdfalchemy.orm import mapper
 
 
 from d20srd35config import SQLPATH, RDFPATH
@@ -68,8 +67,6 @@ d20srd35 = D20SRD35System()
 STORE = SL.Store(SL.create_database('sqlite:' + SQLPATH))
 RDFDB = S.TriplesDatabase()
 RDFDB.open(RDFPATH)
-# initialize rdfalchemy mapper
-S.rdfsPTClass.db = RDFDB.graph
 
 
 
@@ -820,6 +817,9 @@ class AnnotatedValueMap(CachingDescriptor):
         self.multiAttribute = multiAttribute
         self.mapping = mapping
 
+    def __repr__(self):
+        return '<AnnotatedValueMap %s>' % (self.name,)
+
     def get(self, instance, owner):
         ll = list(getattr(instance, self.multiAttribute))
         ret = {}
@@ -832,7 +832,8 @@ class AnnotatedValueMap(CachingDescriptor):
             ret[keyname] = instance.db.value(value.resUri, RDFNS.value, None)
             del tempMap[cls]
 
-        assert len(tempMap) == 0
+        assert len(tempMap) == 0, "%r.%s did not exist so nothing was looked up" % (
+                owner, self.multiAttribute)
 
         return ret
 
@@ -992,7 +993,7 @@ class Monster2(S.rdfsPTClass):
 
     TODO("specialAC - {'name':value}")
     TODO("casterLevel - value")
-    TODO("spellResistane - value")
+    TODO("spellResistance - value")
     TODO("fastHealing - value")
     TODO("regeneration - value")
 
@@ -1056,4 +1057,3 @@ TODO("""Author metadata!!""", """add author/license/creation date/etc.
 metadata to everything here, so publishers can describe their work using
 friggin' RDF.""")
 
-mapper()

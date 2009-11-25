@@ -38,7 +38,6 @@ class Employee(sparqly.rdfsPTClass):
     peoplePerson = sparqly.rdfIsInstance( STAFF.PeoplePerson)
     supervisor = rdfList(STAFF.supervisor, range_type=STAFF.Employee)
 
-mapper()
 
 class TestableDatabase(sparqly.TriplesDatabase):
     """
@@ -121,9 +120,19 @@ class RDFIsInstanceTestCase(unittest.TestCase):
     Tests of the rdfIsInstance descriptor
     """
     def setUp(self):
+        """
+        Substitute a testable database in place of the usual sqlite-backed
+        one before running each test.
+        """
         db = TestableDatabase()
         db.extendFromFilename(sibpath(__file__, 'corp.n3'))
-        sparqly.rdfsPTClass.db = db.graph
+        self.oldGraph = sparqly.initRDFDatabase(db.graph)
+
+    def tearDown(self):
+        """
+        Un-substitute 
+        """
+        sparqly.initRDFDatabase(self.oldGraph)
 
     def test_basicSchemaCreate(self):
         """

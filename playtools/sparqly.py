@@ -9,6 +9,7 @@ Utilities for using rdfalchemy with playtools
 import os.path
 import hashlib
 import random
+import contextlib
 
 try:
     from cStringIO import StringIO
@@ -23,6 +24,8 @@ from rdflib.Literal import Literal as RDFLiteral
 
 from rdfalchemy.descriptors import rdfAbstract, rdfSingle
 from rdfalchemy.rdfsSubject import rdfsClass
+from rdfalchemy.rdfSubject import rdfSubject
+from rdfalchemy.orm import mapper
 
 from playtools.common import RDFSNS, a as RDF_a
 
@@ -307,3 +310,31 @@ def extendGraphFromFile(inGraph, graphFile, format='n3'):
             inGraph.add((URIRef(''), v, o))
         else:
             inGraph.add((s,v,o))
+
+
+def initRDFDatabase(graph=None):
+    """
+    Initialize the database of every mapped RDF class.  Returns the prior
+    value of rdfSubject.db
+    """
+    old = getattr(rdfSubject, 'db', None)
+    rdfSubject.db = graph
+    mapper()
+    return old
+
+
+@contextlib.contextmanager
+def usingRDFDatabase(graph=None):
+    """
+    Create a context wherein the global RDF database is 'graph'
+    """
+    old = initRDFDatabase(graph)
+    e = None
+    try:
+        yield
+    except Exception, e:
+        pass
+    initRDFDatabase(old)
+    if e is not None:
+        raise e
+

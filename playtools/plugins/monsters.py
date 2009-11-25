@@ -1,6 +1,8 @@
 """
 Converter from srd35.db to monster.n3
 """
+from __future__ import with_statement
+
 import re
 import sys
 
@@ -62,23 +64,14 @@ class MonsterConverter(object):
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': monsterNs }
         self.graph = Graph()
 
-        # some rdf-based classes need to be told where their data store is.
-        # We want the default to remain the sqlite-backed one used by SRD
-        d20srd35.Monster2.db = self.graph
-        d20srd35.MonsterFeat.db = self.graph
-        d20srd35.MonsterSkill.db = self.graph
-        d20srd35.AnnotatedValue.db = self.graph
-        d20srd35.Alignment.db = self.graph
-        d20srd35.AttackGroup.db = self.graph
-        d20srd35.AttackForm.db = self.graph
- 
         self.referenceURLs = d20srd35.loadReferenceURLs()
 
     def __iter__(self):
         return self
 
     def next(self):
-        n = self.statblockSource.next()
+        with sparqly.usingRDFDatabase(self.graph):
+            n = self.statblockSource.next()
         sys.stderr.write(n.get('name')[0])
         return n
 

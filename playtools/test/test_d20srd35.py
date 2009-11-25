@@ -13,6 +13,7 @@ from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
 from playtools.common import featNs as FEAT, monsterNs as MONSTER, C
 from playtools.test.pttestutil import pluck, TODO
+from playtools import sparqly
 
 TODO("""n3lint script""", """write a n3lint script that opens the triples database, and looks for anything
 created in property.n3 or characteristic.n3, and only appears once in the
@@ -33,6 +34,12 @@ class SRD35TestCase(unittest.TestCase):
     """
     Pull out the facts
     """
+    def setUp(self):
+        self.oldGraph = sparqly.initRDFDatabase(d20srd35.RDFDB.graph)
+
+    def tearDown(self):
+        sparqly.initRDFDatabase(self.oldGraph)
+
     def test_loadReferenceURLs(self):
         """
         The reference URLs refer to the correct file, relative to the plugins
