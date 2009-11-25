@@ -5,6 +5,8 @@ import re
 from xml.dom import minidom
 import inspect
 
+from rdflib import Literal
+
 from zope.interface import implements, Attribute
 
 from twisted.plugin import IPlugin
@@ -18,7 +20,7 @@ from playtools import globalRegistry, sparqly as S
 from playtools.search import textFromHtml
 from playtools.common import (FAM, P as PROP, C as CHAR, skillNs as SKILL,
         featNs as FEAT, a, RDFNS)
-from playtools.test.pttestutil import TODO
+from playtools.test.pttestutil import TODO, FIXME
 
 FAM, FEAT # for pyflakes - goonmill imports these (FIXME)
 
@@ -371,43 +373,6 @@ class RDFFactCollection(object):
         return r
 
 
-class SpecialArmorClass(S.rdfsPTClass):
-    """Permanent, racial modifier to armor class"""
-    rdf_type = CHAR.SpecialArmorClass
-    implements(IRDFFact)
-
-    collection = None
-
-    def collectText(self):
-        """
-        The indexable text of this special AC
-        """
-        t = unicode(self.comment)
-        return t or unicode(self.label)
-
-specialAC = RDFFactCollection(SpecialArmorClass, 'specialAC')
-
-
-class Aura(S.rdfsPTClass):
-    """
-    Permanent effect that extends some distance around the body of the
-    creature.
-    """
-    rdf_type = CHAR.Aura
-    implements(IRDFFact)
-
-    collection = None
-
-    def collectText(self):
-        """
-        The indexable text of this aura
-        """
-        t = unicode(self.comment)
-        return t or unicode(self.label)
-
-aura = RDFFactCollection(Aura, 'aura')
-
-
 class SpecialAction(S.rdfsPTClass):
     """Something a creature can do besides attack"""
     rdf_type = CHAR.SpecialAction
@@ -430,33 +395,6 @@ class AttackEffect(S.rdfsPTClass):
     rdf_type = CHAR.AttackEffect
 
 
-class Resistance(S.rdfsPTClass):
-    """A resistance possessed by monsters"""
-    rdf_type = CHAR.Resistance
-
-    attackEffect = rdfSingle(PROP.attackEffect, range_type=AttackEffect.rdf_type)
-    value = rdfSingle(RDF.value)
-
-    ## def __repr__(self):
-    ##     return '<%s to %s>' % (self.__class__.__name__, self.attackEffect.label)
-
-
-class Vulnerability(S.rdfsPTClass):
-    """A vulnerability possessed by monsters"""
-    rdf_type = CHAR.Vulnerability
-
-
-class Immunity(S.rdfsPTClass):
-    """An immunity possessed by monsters"""
-    rdf_type = CHAR.Immunity
-
-
-class Sense(S.rdfsPTClass):
-    """A notable sense possessed by monsters, such as darkvision"""
-    rdf_type = CHAR.Sense
-    range = rdfSingle(PROP.range)
-
-
 class Language(S.rdfsPTClass):
     """A language understood by monsters"""
     rdf_type = CHAR.Language
@@ -465,6 +403,33 @@ class Language(S.rdfsPTClass):
 class Perk(S.rdfsPTClass):
     """A notable ability of any kind that isn't a standard combat mechanic"""
     rdf_type = CHAR.Perk
+    value = S.rdfSingle(RDF.value)
+    damageType = S.rdfSingle(PROP.damageType,
+            range_type=AttackEffect.rdf_type)
+    isSense = S.rdfIsInstance(CHAR.Sense)
+    isImmunity = S.rdfIsInstance(CHAR.Immunity)
+    isResistance = S.rdfIsInstance(CHAR.Resistance)
+    isVulnerability = S.rdfIsInstance(CHAR.Vulnerability)
+    isCombatMechanic = S.rdfIsInstance(CHAR.CombatMechanic)
+    isSpecialQuality = S.rdfIsInstance(CHAR.SpecialQuality)
+    isSpecialAC = S.rdfIsInstance(CHAR.SpecialArmorClass)
+    isAura = S.rdfIsInstance(CHAR.Aura)
+    isSpellLike = S.rdfIsInstance(CHAR.SpellLike)
+    isSuperNatural = S.rdfIsInstance(CHAR.Supernatural)
+    isExtraordinary = S.rdfIsInstance(CHAR.Extraordinary)
+    isSpecialAttack = S.rdfIsInstance(CHAR.SpecialAttack)
+    FIXME("special attacks are those which are specifically listed as such in the sql")
+    FIXME("special qualities are those which are specifically listed as such in the sql")
+
+    def __str__(self):
+        if self.label:
+            return self.label
+        if self.isImmunity:
+            return 'Immunity to {0.label}'.format(self.damageType)
+        elif self.isResistance:
+            return 'Resistance to {0.label}'.format(self.damageType)
+        else:
+            return 'No defined string representation for %r' % (self,)
 
 
 class SpecialQuality(S.rdfsPTClass):
@@ -482,6 +447,47 @@ class MoveMechanic(S.rdfsPTClass):
     rdf_type = CHAR.MoveMechanic
 
 
+NO_CACHE = object()
+
+
+class CachingDescriptor(object):
+    """
+    Read-only descriptor which can compute its return value and caches it on
+    the instance, once computed
+    """
+    def __init__(self, name):
+        self.name = name
+
+    def __get__(self, instance, owner):
+        attrName = "_CachingDescriptor_" + str(self.name)
+        if instance is None:
+            raise NotImplemented("this is an instance attribute, not meant to be used on the class")
+        cached = getattr(instance, attrName, NO_CACHE)
+        if cached is not NO_CACHE:
+            return cached
+        r = self.get(instance, owner)
+        setattr(instance, attrName, r)
+        return r
+
+
+class CoreFilter(CachingDescriptor):
+    """
+    Descriptor to get items filtered along various axes.  These all work by
+    inspecting the attribute passed into __init__ as a string.
+
+    Pass in a matcher function, and only items for which matcher returns true
+    on value will be returned.
+    """
+    def __init__(self, name, attr, matcher):
+        self.matcher = matcher
+        self.attr = attr
+        CachingDescriptor.__init__(self, name)
+
+    def get(self, instance, owner):
+        items = getattr(instance, self.attr)
+        return [f for f in items if self.matcher(f)]
+
+
 class Family(S.rdfsPTClass):
     """A family of monster with shared characteristics"""
     rdf_type = CHAR.Family
@@ -490,18 +496,21 @@ class Family(S.rdfsPTClass):
     collection = None
 
     comment = rdfSingle(RDFSNS.comment)
-    senses = rdfMultiple(PROP.sense, range_type=Sense.rdf_type)
     languages = rdfMultiple(PROP.language, range_type=Language.rdf_type)
-    immunities = rdfMultiple(PROP.immunity, range_type=Immunity.rdf_type)
-    resistances = rdfMultiple(PROP.resistance, range_type=Resistance.rdf_type)
-    vulnerabilities = rdfMultiple(PROP.vulnerability,
-            range_type=Vulnerability.rdf_type)
-    specialAbilities = rdfMultiple(PROP.perk,
-            range_type=Perk.rdf_type)
-    specialQualities = rdfMultiple(PROP.specialQuality,
-            range_type=SpecialQuality.rdf_type)
-    combatMechanics = rdfMultiple(PROP.combatMechanic,
-            range_type=CombatMechanic.rdf_type)
+    perks = rdfMultiple(PROP.perk, range_type=Perk.rdf_type)
+
+    senses = CoreFilter("senses", "perks", 
+            lambda x: x.isSense)
+    immunities = CoreFilter("immunities", "perks", 
+            lambda x: x.isImmunity)
+    resistances = CoreFilter("resistances", "perks", 
+            lambda x: x.isResistance)
+    vulnerabilities = CoreFilter("vulnerabilities", "perks",
+            lambda x: x.isVulnerability)
+    specialQualities = CoreFilter("specialQualities", "perks",
+            lambda x: x.isSpecialQuality)
+    combatMechanics = CoreFilter("combatMechanics", "perks",
+            lambda x: x.isCombatMechanic)
 
     def collectText(self):
         """
@@ -559,57 +568,6 @@ class Skill(S.rdfsPTClass):
         return u' '.join([cm, act, chk, un, again, epic, addl])
 
 skill = RDFFactCollection(Skill, 'skill')
-
-
-NO_CACHE = object()
-
-
-class CachingDescriptor(object):
-    """
-    Read-only descriptor which can compute its return value and caches it on
-    the instance, once computed
-    """
-    def __init__(self, name):
-        self.name = name
-
-    def __get__(self, instance, owner):
-        attrName = "_CachingDescriptor_" + str(self.name)
-        if instance is None:
-            raise NotImplemented("this is an instance attribute, not meant to be used on the class")
-        cached = getattr(instance, attrName, NO_CACHE)
-        if cached is not NO_CACHE:
-            return cached
-        r = self.get(instance, owner)
-        setattr(instance, attrName, r)
-        return r
-
-
-class BonusFeatFilter(CachingDescriptor):
-    """
-    Descriptor to get those feats which are bonus feats.
-    """
-    def get(self, instance, owner):
-        ret = []
-        for feat in instance.feats:
-            if feat.isBonusFeat:
-                ret.append(feat)
-        return ret
-
-
-class CoreFeatFilter(CachingDescriptor):
-    """
-    Descriptor to get feats filtered along various axes.  These all work by
-    inspecting the feat.feat attribute
-
-    Pass in a matcher function, and only feats for which matcher returns true
-    on value will be returned.
-    """
-    def __init__(self, name, matcher):
-        self.matcher = matcher
-        CachingDescriptor.__init__(self, name)
-
-    def get(self, instance, owner):
-        return [f for f in instance.feats if self.matcher(f.feat)]
 
 
 class AttackGetter(CachingDescriptor):
@@ -875,6 +833,49 @@ class MonsterSkill(S.rdfsPTClass):
     subSkills              = rdfMultiple(PROP.subSkill, range_type=Skill.rdf_type)
 
 
+class FamilyGetter(CachingDescriptor):
+    """
+    Gets a property from each family named in instance.families.  Pass it a
+    factory for a gatherer.
+
+    .gatherFactory is a factory which when called with no arguments creates an
+    object that supports .add().  This descriptor will call .add repeatedly,
+    then return the object created by the factory.  The most common use case
+    is to use the set type as the gatherFactory.
+    """
+    class _SpecialSet(set):
+        """
+        A set which expands lists and tuples to set members
+        """
+        def add(self, item):
+            if isinstance(item, list) or isinstance(item, tuple):
+                [set.add(self, x) for x in item]
+            else:
+                set.add(self, item)
+
+    def __init__(self, name, property, gatherFactory=None):
+        if gatherFactory is None:
+            self.gatherFactory = self._SpecialSet
+        else:
+            self.gatherFactory = gatherFactory
+
+        self.name = name
+        self.property = property
+
+    def get(self, instance, owner):
+        gatherer = self.gatherFactory()
+        for fam in instance.families:
+
+            # skip Literal objects, which are strings where there should have
+            # been a typed Family object (for unrecognized families, e.g.
+            # "Force")
+            if isinstance(fam, Literal):
+                continue
+
+            gatherer.add(getattr(fam, self.property))
+        return gatherer
+
+
 class Monster2(S.rdfsPTClass):
     """
     A creature statted from the SRD monster list
@@ -888,15 +889,18 @@ class Monster2(S.rdfsPTClass):
     implements(IRDFFact)
     rdf_type = CHAR.Monster
 
-    family                 = rdfSingle(PROP.family, range_type=
-                                Family.rdf_type)
     altname                = rdfSingle(PROP.altname)            # DONE!
     size                   = rdfSingle(PROP.size)               # DONE!
-    type                   = rdfSingle(PROP.type, range_type=
+    hitDice                = rdfSingle(PROP.hitDice)            # DONE!
+
+    family                 = rdfMultiple(PROP.family, range_type=
+                                Family.rdf_type)
+    type                   = rdfMultiple(PROP.type, range_type=
                                 Family.rdf_type)
     descriptors            = rdfMultiple(PROP.descriptor, range_type=
                                 Family.rdf_type)
-    hitDice                = rdfSingle(PROP.hitDice)            # DONE!
+
+    families               = Union("families", "family", "descriptors", "type")
 
     environment            = rdfSingle(PROP.environment)        # DONE!
     organization           = rdfSingle(PROP.organization)       # DONE!
@@ -946,17 +950,18 @@ class Monster2(S.rdfsPTClass):
 
     feats                  = rdfMultiple(PROP.feat, 
                                          range_type=MonsterFeat.rdf_type)
-    bonusFeats             = BonusFeatFilter("bonusFeats")
-    acFeats                = CoreFeatFilter("acFeats", 
-                                            lambda x: x.isArmorClassFeat)
-    speedFeats             = CoreFeatFilter("speedFeats", 
-                                            lambda x: x.isSpeedFeat)
-    attackOptionFeats      = CoreFeatFilter("attackOptionFeats", 
-                                            lambda x: x.isAttackOptionFeat)
-    rangedAttackFeats      = CoreFeatFilter("rangedAttackFeats", 
-                                            lambda x: x.isRangedAttackFeat)
-    epicFeats              = CoreFeatFilter("epicFeats", 
-                                            lambda x: x.epic)
+    bonusFeats             = CoreFilter("bonusFeats", "feats",
+                                        lambda x: x.isBonusFeat)
+    acFeats                = CoreFilter("acFeats",  "feats",
+                                        lambda x: x.feat.isArmorClassFeat)
+    speedFeats             = CoreFilter("speedFeats",  "feats",
+                                        lambda x: x.feat.isSpeedFeat)
+    attackOptionFeats      = CoreFilter("attackOptionFeats",  "feats",
+                                        lambda x: x.feat.isAttackOptionFeat)
+    rangedAttackFeats      = CoreFilter("rangedAttackFeats",  "feats",
+                                        lambda x: x.feat.isRangedAttackFeat)
+    epicFeats              = CoreFilter("epicFeats",  "feats",
+                                            lambda x: x.feat.epic)
 
     TODO("ValueMap for skills taking into account subskills", """
     This should also implement e.g. __contains__; should I implement a skill
@@ -987,29 +992,39 @@ class Monster2(S.rdfsPTClass):
 
     attack                 = AttackGetter("attack")
 
-    #" languages              = rdfSingle(PROP.)                   # from sb.get? - list
+    #" ownLanguages              = rdfSingle(PROP.)                   # from sb.get? - list
+    familyLanguages        = FamilyGetter("familyLanguages", "languages", None)
 
-    perks                  = rdfMultiple(PROP.perk)
+    ownPerks               = rdfMultiple(PROP.perk, range_type=Perk.rdf_type)
+    familyPerks            = FamilyGetter("familyPerks", "perks", None)
+    perks                  = Union("perks", "ownPerks", "familyPerks")
 
-    TODO("specialAC - {'name':value}")
     TODO("casterLevel - value")
     TODO("spellResistance - value")
     TODO("fastHealing - value")
     TODO("regeneration - value")
-
-    TODO("auras - rdfMultiple of auras")
-
     TODO("damageReduction - {'name':value}")
-    TODO("senses - {'name':distance}")
-    TODO("resistances - {'name':value}")
-    TODO("immunities - rdfMultiple of immunities")
-    TODO("vulnerabilities - rdfMultiple of vulnerabilities")
 
-    TODO("spellLikeAbilities - rdfMultiple of (Sp) abilities")
-    TODO("extraordinaryAbilities - rdfMultiple of (Ex) abilities")
-    TODO("supernaturalAbilities - rdfMultiple of (Su) abilities")
-
-    TODO("specialAttacks - rdfMultiple of any ability which was specifically listed in specialAttacks in SQL")
+    auras                  = CoreFilter("auras", "perks", 
+            lambda x: x.isAura)
+    resistances            = CoreFilter("resistances", "perks", 
+            lambda x: x.isResistance)
+    vulnerabilities        = CoreFilter("vulnerabilities", "perks", 
+            lambda x: x.isVulnerability)
+    immunities             = CoreFilter("immunities", "perks", 
+            lambda x: x.isImmunity)
+    senses                 = CoreFilter("senses", "perks", 
+            lambda x: x.isSense)
+    supernaturalAbilities  = CoreFilter("supernaturalAbilities", "perks",
+            lambda x: x.isSupernatural)
+    extraordinaryAbilities = CoreFilter("extraordinaryAbilities", "perks",
+            lambda x: x.isExtraordinary)
+    spellLikeAbilities     = CoreFilter("spellLikeAbilities", "perks",
+            lambda x: x.isSpellLike)
+    specialAttacks         = CoreFilter("specialAttacks", "perks",
+            lambda x: x.isSpecialAttack)
+    specialArmorClasses    = CoreFilter("specialArmorClasses", "perks",
+            lambda x: x.isSpecialAC)
 
     reference              = rdfSingle(PROP.reference)
     textLocation           = rdfSingle(PROP.textLocation)
@@ -1036,14 +1051,14 @@ class Monster2(S.rdfsPTClass):
             return u' '.join(ret)
 
         ret = inspect.getdoc(u'''{text}
-        {self.label} {self.family} {self.altname} {descriptors} 
+        {self.label} {self.family} {self.altname} {families}
         {self.environment} 
         {feats} 
         {attackGroups}
         {specialAbilities}''').format(
             text=t,
             self=self,
-            descriptors=ujoin(self.descriptors),
+            families=ujoin(self.families),
             feats=ujoin(self.feats),
             attackGroups=u'',
             specialAbilities=u'',
