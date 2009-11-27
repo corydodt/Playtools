@@ -2,6 +2,7 @@
 @prefix : <http://goonmill.org/2007/family.n3#>.
 @prefix p: <http://goonmill.org/2007/property.n3#> .
 @prefix c: <http://goonmill.org/2007/characteristic.n3#>.
+@prefix pk: <http://goonmill.org/2007/perk.n3#>.
 @prefix s: <http://goonmill.org/2007/skill.n3#>.
 
 @prefix die: <http://goonmill.org/2007/dice.n3#>.
@@ -38,12 +39,12 @@
 
     p:perk [ a c:Immunity; p:damageType c:polymorph ];
     p:perk [ a c:Immunity; p:damageType c:mindAffecting ];
-    p:perk c:blindsight;
-    p:perk c:noAbilityDamage, c:noAbilityDrain, c:noDeathFromMassiveDamage;
+    p:perk pk:blindsight;
+    p:perk pk:noAbilityDamage, pk:noAbilityDrain, pk:noDeathFromMassiveDamage;
     p:perk [ a c:Resistance; p:damageType c:cold; rdf:value 20 ];
     p:perk [ a c:Resistance; p:damageType c:fire; rdf:value 20 ];
-    p:perk c:summon;
-    p:perk c:telepathy;
+    p:perk pk:summon;
+    p:perk pk:telepathy;
 .
 
 :animal
@@ -58,7 +59,7 @@
     p:treasure rdf:nil;
     p:proficiency c:naturalWeapons, c:armorNone;
 
-    p:perk c:lowLightVision;
+    p:perk pk:lowLightVision;
     p:additional "noncombative animals -5 to attack, 1/2 str bonus to dam";
 .
 
@@ -72,13 +73,13 @@
     p:abilityConstraint [ p:ability c:con; p:maximum 0 ];
     p:proficiency c:naturalWeapons, c:armorNone, c:weaponsAsDescribed;
 
-    p:perk c:lowLightVision, :standardDarkvision;
-    p:perk c:noAbilityDamage, c:noAbilityDrain, c:noEnergyDrain, 
-            c:noNonLethalDamage, c:noCriticalHits, c:noTiring, 
-            c:noDeathFromMassiveDamage, c:destroyedAtZero;
-    p:perk c:soulless;
-    p:perk c:noEat, c:noSleep, c:noBreathe;
-    p:perk c:fortitudeImmunity;
+    p:perk pk:lowLightVision, pk:standardDarkvision;
+    p:perk pk:noAbilityDamage, pk:noAbilityDrain, pk:noEnergyDrain, 
+            pk:noNonLethalDamage, pk:noCriticalHits, pk:noTiring, 
+            pk:noDeathFromMassiveDamage, pk:destroyedAtZero;
+    p:perk pk:soulless;
+    p:perk pk:noEat, pk:noSleep, pk:noBreathe;
+    p:perk pk:fortitudeImmunity;
     p:perk [ a c:Immunity; p:damageType c:mindAffecting ],
            [ a c:Immunity; p:damageType c:poison ],
            [ a c:Immunity; p:damageType c:sleep ],
@@ -102,7 +103,7 @@
     p:skillPoints "(int+6)*hitDiceType";
     p:proficiency c:naturalWeapons, c:weaponsAsDescribed, c:armorNone;
 
-    p:perk :standardDarkvision, c:lowLightVision;
+    p:perk :standardDarkvision, pk:lowLightVision;
     p:perk [ a c:Immunity; p:damageType c:sleep ],
            [ a c:Immunity; p:damageType c:paralysis ];
 .
@@ -125,9 +126,9 @@
            [ a c:Immunity; p:damageType c:sleep ],
            [ a c:Immunity; p:damageType c:stunning ],
            [ a c:Immunity; p:damageType c:paralysis ];
-    p:perk c:noCriticalHits, c:noFlanking;
-    p:perk c:quasiSoulless;
-    p:perk c:noEat, c:noSleep, c:noBreathe;
+    p:perk pk:noCriticalHits, pk:noFlanking;
+    p:perk pk:quasiSoulless;
+    p:perk pk:noEat, pk:noSleep, pk:noBreathe;
 .
 # the goodSaves of an elemental depend on the subType, as given below.
 # TODO - requires reasoning
@@ -153,7 +154,7 @@
     p:skillPoints "(int+6)*hitDiceType";
     p:proficiency c:simpleWeapons, c:weaponsAsDescribed, c:armorAsDescribed;
 
-    p:perk c:lowLightVision;
+    p:perk pk:lowLightVision;
 .
 
 :giant
@@ -166,7 +167,7 @@
     p:proficiency c:simpleWeapons, c:martialWeapons, c:naturalWeapons, 
             c:armorAsDescribed;
 
-    p:perk c:lowLightVision;
+    p:perk pk:lowLightVision;
 .
 
 :humanoid
@@ -190,7 +191,7 @@
     p:skillPoints "(int+2)*hitDiceType";
     p:proficiency c:naturalWeapons, c:armorNone;
 
-    p:perk c:lowLightVision, :standardDarkvision;
+    p:perk pk:lowLightVision, :standardDarkvision;
 .
 
 :monstrousHumanoid
@@ -216,15 +217,15 @@
     p:abilityConstraint [ p:ability c:int; p:maximum 0 ];
     p:proficiency c:naturalWeapons, c:armorNone;
 
-    p:perk c:blind, c:blindsight;
+    p:perk pk:blind, pk:blindsight;
     p:perk [ a c:Immunity; p:damageType c:poison ],
            [ a c:Immunity; p:damageType c:sleep ],
            [ a c:Immunity; p:damageType c:paralysis ],
            [ a c:Immunity; p:damageType c:polymorph ],
            [ a c:Immunity; p:damageType c:stunning ],
            [ a c:Immunity; p:damageType c:mindAffecting ];
-    p:perk c:noCriticalHits, c:noFlanking;
-    p:perk c:noSleep;
+    p:perk pk:noCriticalHits, pk:noFlanking;
+    p:perk pk:noSleep;
     p:additional 
         "Some oozes have the ability to deal acid damage to objects. In such a case, the amount of damage is equal to 10 + ½ ooze’s HD + ooze’s Con modifier per full round of contact."
     ;
@@ -241,15 +242,15 @@
             c:armorAsDescribed;
 
     p:perk :standardDarkvision;
-    p:perk c:quasiSoulless;
-    p:perk c:noEat, c:noSleep;
+    p:perk pk:quasiSoulless;
+    p:perk pk:noEat, pk:noSleep;
 .
 # TODO - requires reasoning.
 { { ?m p:family :outsider; p:existentialStatus c:native. } =>
     { 
-      { ?m p:vitality c:noEat } a log:Falsehood .
-      { ?m p:vitality c:noSleep } a log:Falsehood .
-      { ?m p:specialQuality c:quasiSoulless } a log:Falsehood .
+      { ?m p:vitality pk:noEat } a log:Falsehood .
+      { ?m p:vitality pk:noSleep } a log:Falsehood .
+      { ?m p:specialQuality pk:quasiSoulless } a log:Falsehood .
     }; 
 }   rdfs:label "outsiders on their native planes are different.";
 .
@@ -264,15 +265,15 @@
     p:skillPoints "(int+2)*hitDiceType";
     p:proficiency c:naturalWeapons, c:armorNone;
 
-    p:perk c:lowLightVision;
+    p:perk pk:lowLightVision;
     p:perk [ a c:Immunity; p:damageType c:mindAffecting ], 
            [ a c:Immunity; p:damageType c:poison ], 
            [ a c:Immunity; p:damageType c:sleep ], 
            [ a c:Immunity; p:damageType c:paralysis ], 
            [ a c:Immunity; p:damageType c:polymorph ], 
            [ a c:Immunity; p:damageType c:stunning ];
-    p:perk c:noCriticalHits;
-    p:perk c:noSleep;
+    p:perk pk:noCriticalHits;
+    p:perk pk:noSleep;
 .
 
 :undead
@@ -294,17 +295,17 @@
            [ a c:Immunity; p:damageType c:stunning ], 
            [ a c:Immunity; p:damageType c:disease ], 
            [ a c:Immunity; p:damageType c:deathEffects ];
-    p:perk c:noCriticalHits, c:noNonLethalDamage, c:noAbilityDrain, 
-            c:noAbilityDamage, c:noEnergyDrain, c:noTiring, 
-            c:noDeathFromMassiveDamage, c:destroyedAtZero,
-            c:negativeEnergyHealing;
-    p:perk c:fortitudeImmunity;
-    p:perk c:soulless;
-    p:perk c:noBreathe, c:noEat, c:noSleep;
+    p:perk pk:noCriticalHits, pk:noNonLethalDamage, pk:noAbilityDrain, 
+            pk:noAbilityDamage, pk:noEnergyDrain, pk:noTiring, 
+            pk:noDeathFromMassiveDamage, pk:destroyedAtZero,
+            pk:negativeEnergyHealing;
+    p:perk pk:fortitudeImmunity;
+    p:perk pk:soulless;
+    p:perk pk:noBreathe, pk:noEat, pk:noSleep;
 .
 # TODO - requires reasoning
 { { ?m p:family :undead . ?m c:int 0 } 
-    => { ?m p:combatMechanic c:cannotHealNaturally };
+    => { ?m p:combatMechanic pk:cannotHealNaturally };
 }   rdfs:label "Undead with no intelligence score cannot heal on their own.";
 .
   
@@ -341,7 +342,7 @@
            [ a c:Immunity; p:damageType c:petrification ];
     p:perk [ a c:Resistance; p:damageType c:electricity; rdf:value 10 ],
            [ a c:Resistance; p:damageType c:fire; rdf:value 10 ];
-    p:perk c:protectiveAura, c:tongues;
+    p:perk pk:protectiveAura, pk:tongues;
 .
 
 :aquatic
@@ -353,8 +354,8 @@
     a c:Family;
     p:movement c:swim;
 
-    p:perk c:breatheUnderwater;
-    p:perk c:mustBreatheWater;
+    p:perk pk:breatheUnderwater;
+    p:perk pk:mustBreatheWater;
 .
 
 :amphibious
@@ -364,7 +365,7 @@
 . # NOT a SRD-standard type!  but required to define aquatic.
 # TODO - requires reasoning
 { { ?m p:family :aquatic, :amphibious } 
-    => { { ?m p:vitality c:mustBreatheWater } a log:Falsehood. };
+    => { { ?m p:vitality pk:mustBreatheWater } a log:Falsehood. };
 }   rdfs:label "Aquatic creates which are amphibious may breathe air.";
 .
 
@@ -378,7 +379,7 @@
     p:perk :standardDarkvision;
     p:perk [ a c:Immunity; p:damageType c:electricity ], 
                [ a c:Immunity; p:damageType c:petrification ];
-    p:perk c:auraOfMenace, c:magicCircleAgainstEvil, c:teleport, c:tongues;
+    p:perk pk:auraOfMenace, pk:magicCircleAgainstEvil, pk:teleport, pk:tongues;
 .
 
 :augmented
@@ -410,7 +411,7 @@
     p:perk [ a c:Resistance; p:damageType c:acid; rdf:value 10  ],
            [ a c:Resistance; p:damageType c:cold; rdf:value 10  ],
            [ a c:Resistance; p:damageType c:fire; rdf:value 10  ];
-    p:perk c:summon, c:telepathy;
+    p:perk pk:summon, pk:telepathy;
 .
 
 :devil
@@ -422,8 +423,8 @@
            [ a c:Immunity; p:damageType c:poison  ];
     p:perk [ a c:Resistance; p:damageType c:acid; rdf:value 10  ],
            [ a c:Resistance; p:damageType c:cold; rdf:value 10  ];
-    p:perk c:seeInDarkness;
-    p:perk c:summon, c:telepathy;
+    p:perk pk:seeInDarkness;
+    p:perk pk:summon, pk:telepathy;
 .
 
 :earth
@@ -468,8 +469,8 @@
     p:movement c:incorporealMovement;
 
     p:perk [ a c:Immunity; p:damageType c:nonMagical ];
-    p:perk c:incorporealSenses;
-    p:perk c:weaponFinesseAlways, c:incorporealDefense, c:charismaDeflection;
+    p:perk pk:incorporealSenses;
+    p:perk pk:weaponFinesseAlways, pk:incorporealDefense, pk:charismaDeflection;
     p:additional 
         "Although it is not a magical attack, holy water can affect incorporeal undead, but a hit with holy water has a 50% chance of not affecting an incorporeal creature.",
         "It cannot take any physical action that would move or manipulate an opponent or its equipment, nor is it subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight."
@@ -503,9 +504,9 @@
     a c:Family;
 
     p:perk [ a c:Vulnerability; p:damageType c:areaEffect ];
-    p:perk c:noCriticalHits, c:noFlanking, c:destroyedAtZero, c:noTrip, 
-            c:noGrapple, c:noBullRush, c:diffuseTarget, c:cannotGrapple,
-            c:cannotMakeAttackOfOpportunity, c:distraction;
+    p:perk pk:noCriticalHits, pk:noFlanking, pk:destroyedAtZero, pk:noTrip, 
+            pk:noGrapple, pk:noBullRush, pk:diffuseTarget, pk:cannotGrapple,
+            pk:cannotMakeAttackOfOpportunity, pk:distraction;
     p:additional "Swarms made up of Diminutive or Fine creatures are susceptible to high winds such as that created by a gust of wind spell. For purposes of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.";
 .
 # TODO - requires reasoning.
@@ -514,10 +515,10 @@
                          [ p:attackEffect c:slashing; rdf:value "50%" ] };
 }   rdfs:label "A swarm of tiny creatures takes half damage from piercing and slashing.";
 .
-{ { ?m p:family :swarm; p:size c:diminutive } => { ?m p:combatMechanic c:noWeaponDamage };
+{ { ?m p:family :swarm; p:size c:diminutive } => { ?m p:combatMechanic pk:noWeaponDamage };
 }   rdfs:label "A swarm composed of Diminutive creatures is immune to all weapon damage.";
 .
-{ { ?m p:family :swarm; p:size c:fine } =>  { ?m p:combatMechanic c:noWeaponDamage };
+{ { ?m p:family :swarm; p:size c:fine } =>  { ?m p:combatMechanic pk:noWeaponDamage };
 }   rdfs:label "A swarm composed of Fine creatures is immune to all weapon damage.";
 .
 
@@ -525,7 +526,7 @@
     p:textLocation "familytext/water.htm";
     a c:Family;
     p:movement c:swim;
-    p:perk c:breatheUnderwater;
+    p:perk pk:breatheUnderwater;
 .
 
 # vim:si

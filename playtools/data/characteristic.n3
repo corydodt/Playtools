@@ -32,37 +32,6 @@ TODO - add much of this to perk.n3 as tags?
 
 
 :Sense rdfs:subClassOf :Characteristic .
-:lowLightVision a :Sense; a :Perk; rdfs:label "Low-Light Vision" .
-:seeInDarkness
-    a :Sense;
-    a :Perk;
-    rdfs:label "See in Darkness";
-    rdfs:comment "Can see perfectly in darkness of any kind, even that created by a deeper darkness spell.";
-.
-:incorporealSenses
-    a :Sense;
-    a :Perk;
-    rdfs:label "Senses like an incorporeal being";
-    rdfs:comment "Nonvisual senses, such as scent and blindsight, are either ineffective or only partly effective with regard to this creature.  This creature has an innate sense of direction and can move at full speed even when it cannot see.";
-.
-:blind
-    a :Sense;
-    a :Perk;
-    rdfs:comment "Cannot see, but has immunity to gaze attacks, visual effects, illusions, and other attack forms that rely on sight.";
-.
-:blindsight a :Sense;
-    a :Perk;
-.
-:keenSenses 
-    a :Sense;
-    a :Perk;
-    rdfs:label "Keen Senses";
-    rdfs:comment "Sees four times as well as a human in shadowy illumination and twice as well in normal light. It also has darkvision out to 120 feet.";
-.
-{ { ?m :sense :keenSenses } 
-    => { ?m :sense [ a :Darkvision; p:range "120 ft."; ] }; 
-} rdfs:label "Creatures with keen senses have Darkvision to 120 ft.";
-.
 
 :Darkvision rdfs:subClassOf :Sense .
 
@@ -132,41 +101,6 @@ TODO - add much of this to perk.n3 as tags?
 
 
 :Perk rdfs:subClassOf :MiscTrait .
-:telepathy a :Perk.
-:protectiveAura a :Perk;
-    rdfs:label "Protective Aura";
-    rdfs:comment "Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the creature. Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level equals creature’s HD). (The defensive benefits from the circle are not included in an creature’s statistics block.)";
-.
-:tongues a :Perk;
-    rdfs:comment "Creature can speak with any creature that has a language, as though using a tongues spell (caster level equal to creature’s Hit Dice). This ability is always active.";
-.
-:summon a :Perk;
-    rdfs:comment "Creature has the ability to summon others of its kind (the success chance and type of creature summoned are noted in each monster description). Creature will often be reluctant to use this power until in obvious peril or extreme circumstances.";
-.
-:breatheUnderwater a :Perk;
-    rdfs:label "Breathe Underwater";
-.
-:auraOfMenace a :Perk;
-    a :Aura;
-    rdfs:label "Aura of Menace";
-    rdfs:comment "A righteous aura surrounds a creature of this type that fights or gets angry.  Any hostile creature within a 20-foot radius of a the creature must succeed on a Will save to resist its effects. The save DC varies with the type of creature, is Charisma-based, and includes a +2 racial bonus. Those who fail take a -2 penalty on attacks, AC, and saves for 24 hours or until they successfully hit the creature that generated the aura. A creature that has resisted or broken the effect cannot be affected again by the same archon’s aura for 24 hours.";
-.
-:magicCircleAgainstEvil a :Perk;
-    rdfs:label "Magic Circle against Evil";
-    rdfs:comment "A magic circle against evil effect always surrounds a creature of this type (caster level equals the creature’s Hit Dice). (The defensive benefits from the circle are not included in creature’s statistics block.)";
-.
-:teleport a :Perk.
-:completelySilent a :Perk;
-    rdfs:label "Completely Silent";
-    rdfs:comment "Moves silently and cannot be heard with Listen checks if it doesn't wish to be";
-.
-:distraction a :Perk;
-    rdfs:comment "Any living creature vulnerable to this creature’s damage that begins its turn with the creature in its square is nauseated for 1 round; a Fortitude save (DC 10 + ½ swarm’s HD + creature’s Con modifier; the exact DC is given in the creature’s description) negates the effect. Spellcasting or concentrating on spells within the area of the creature requires a Concentration check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Concentration check.";
-.
-:fortitudeImmunity a :Perk;
-    rdfs:label "Immune to effects that allow a Fort save";
-    rdfs:comment "Immunity to any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless).";
-.
 
 :Immunity rdfs:subClassOf :Characteristic .
 
@@ -178,14 +112,6 @@ TODO - add much of this to perk.n3 as tags?
 
 
 :SpecialQuality rdfs:subClassOf :MiscTrait .
-:quasiSoulless a :SpecialQuality;
-    a :Perk;
-    rdfs:comment "Does not have a dual nature—either it has no soul or its soul and body form one unit.  When this creature is slain, no soul is set loose. Spells that restore souls to their bodies, such as raise dead, reincarnate, and resurrection, don’t work on this creature. It takes a different magical effect, such as limited wish, wish, miracle, or true resurrection, to restore it to life.";
-.
-:soulless a :SpecialQuality; 
-    a :Perk;
-    rdfs:comment "Cannot be raised or resurrected.";
-.
 
 
 
@@ -206,128 +132,10 @@ TODO - add much of this to perk.n3 as tags?
 
 
 :Vitality rdfs:subClassOf :Characteristic .
-:noEat a :Vitality;
-    a :Perk;
-    rdfs:label "Does not need food"
-.
-:noBreathe a :Vitality;
-    a :Perk;
-    rdfs:label "Does not need to breathe"
-.
-:noSleep a :Vitality;
-    a :Perk;
-    rdfs:label "Does not need to sleep"
-.
-:mustBreatheWater a :Vitality;
-    a :Perk;
-    rdfs:label "Needs water to breathe"
-.
 
 
 
 :CombatMechanic rdfs:subClassOf :MiscTrait .
-:noCriticalHits a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to critical hits"
-.
-:noFlanking a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to flanking";
-.
-:noTiring a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to exhaustion or fatigue";
-.
-:noNonLethalDamage a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to non-lethal damage";
-.
-:noAbilityDamage a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to ability damage";
-.
-:noAbilityDrain a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to ability drain";
-.
-:noEnergyDrain a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Not subject to energy drain";
-.
-:noDeathFromMassiveDamage a :CombatMechanic;
-    a :Perk;
-    rdfs:label "No Death from Massive Damage";
-    rdfs:comment "Not subject to death from massive damage";
-.
-:destroyedAtZero a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Destroyed at 0 hit points";
-    rdfs:comment "When reduced to 0 hit points or less, it is immediately destroyed.";
-.
-:weaponFinesseAlways a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Weapon Finesse for All Attacks";
-    rdfs:comment "Can only use Dex modifier for attack rolls, never Str.";
-.
-:incorporealDefense a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Incorporeal Defense";
-    rdfs:comment "This creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, and spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it has a 50% chance to ignore any damage from a corporeal source (except for positive energy, negative energy, force effects such as magic missile, or attacks made with ghost touch weapons).";
-.
-:charismaDeflection a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Deflection Bonus from Charisma";
-    rdfs:comment "This creature has no natural armor bonus but has a deflection bonus equal to its Charisma bonus (always at least +1, even if the creature’s Charisma score does not normally provide a bonus).";
-.
-:incorporealAttacks a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Incorporeal Attacks";
-    rdfs:comment "This creature’s attacks pass through (ignore) natural armor, armor, and shields, although deflection bonuses and force effects (such as mage armor) work normally against it.  This creature can pass through and operate in water as easily as it does in air. Incorporeal creatures cannot fall or take falling damage. Incorporeal creatures cannot make trip or grapple attacks, nor can they be tripped or grappled.";
-.
-:noTrip a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Cannot be tripped";
-.
-:noGrapple a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Cannot be grappled";
-.
-:noBullRush a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Cannot be bull rushed";
-.
-:cannotGrapple a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Cannot grapple an opponent";
-.
-:diffuseTarget a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Composed of parts that cannot be targetted individually.";
-    rdfs:comment "This creature is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as disintegrate), with the exception of mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects) if these would otherwise affect it.";
-.
-:swarmDamage a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Automatic damage as a swarm";
-    rdfs:comment "Creatures with the swarm subtype don’t make standard melee attacks. Instead, they deal automatic damage to any creature whose space they occupy at the end of their move, with no attack roll needed. Swarm attacks are not subject to a miss chance for concealment or cover. A swarm’s statistics block has “swarm” in the Attack and Full Attack entries, with no attack bonus given. The amount of damage a swarm deals is based on its Hit Dice, as shown in the table. [table]";
-.
-:cannotMakeAttackOfOpportunity a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Cannot make any attacks of opportunity";
-.
-:noWeaponDamage a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Immune to all damage from weapons.";
-.
-:negativeEnergyHealing a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Can be healed by negative energy.";
-    rdfs:comment "Negative energy magic, e.g. inflict spells, can heal this creature.";
-.
-:cannotHealNaturally a :CombatMechanic;
-    a :Perk;
-    rdfs:label "Cannot heal damage on its own.";
-    rdfs:comment "Does not heal normally by resting, although fast healing still applies and other forms of healing may apply.";
-.
 
 
 :MoveMechanic rdfs:subClassOf :Characteristic .
@@ -420,8 +228,6 @@ TODO - add much of this to perk.n3 as tags?
     rdfs:subClassOf :Characteristic;
     rdfs:comment "Permanent effect that extends some distance around the body of the creature.";
 .
-:auraOfMenace a :Aura; a :Perk .
-:protectiveAura a :Aura; a :Perk .
 
 :AttackGroup
     rdfs:subClassOf :Characteristic;
