@@ -58,8 +58,8 @@ class MonsterConverter(object):
     implements(IConverter, IPlugin)
     commandLine = Options
 
-    def __init__(self, statblockSource):
-        self.statblockSource = statblockSource
+    def __init__(self, source):
+        self.statblockSource = source 
         self._seenNames = {}
         pfx = { 'p': P, 'rdfs': RDFSNS, 'c': C, '': monsterNs }
         self.graph = Graph()
