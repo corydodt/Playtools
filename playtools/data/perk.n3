@@ -1,5 +1,6 @@
 @prefix : <http://goonmill.org/2009/perk.n3#> .
 @prefix c:     <http://goonmill.org/2007/characteristic.n3#> .
+@prefix p:     <http://goonmill.org/2007/property.n3#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <> rdfs:title "Special Abilities/Perks" .
