@@ -75,9 +75,9 @@ class SpecialParserTest(unittest.TestCase):
         Immunity Specials can parse
         """
         self.compare("Immunity to sleep and paralysis, electricity immunity",
-                "kw=damageType:sleep type=immunity name=Immunity\n"
-                "kw=damageType:paralysis type=immunity name=Immunity\n"
-                "kw=damageType:electricity type=immunity name=Immunity")
+                "kw=damageType:sleep/useCategory:Ex type=immunity name=Immunity\n"
+                "kw=damageType:paralysis/useCategory:Ex type=immunity name=Immunity\n"
+                "kw=damageType:electricity/useCategory:Ex type=immunity name=Immunity")
 
     def test_misc(self):
         """
@@ -95,47 +95,47 @@ class SpecialParserTest(unittest.TestCase):
         self.compare("All-around vision, sonic blast", 
                 "kw= type=sense name=All-around vision\n"
                 "kw= type=misc name=sonic blast")
-        self.compare("Frightful presence", "kw= type=aura name=Frightful presence")
-        self.compare("Frightful presence (dc 20)", "kw=dc:20 type=aura name=Frightful presence")
-        self.compare("Spells", "kw= type=spells name=spells")
+        self.compare("Frightful presence", "kw=useCategory:Ex type=aura name=Frightful presence")
+        self.compare("Frightful presence (dc 20)", "kw=dc:20/useCategory:Ex type=aura name=Frightful presence")
+        self.compare("Spells", "kw=useCategory:Sp type=spells name=spells")
         self.compare("Spell-like abilities, spells (caster level 10)", 
                 "kw= type=noArgumentQuality name=Spell-like abilities\n"
-                "kw=casterLevel:10 type=spells name=spells")
+                "kw=casterLevel:10/useCategory:Sp type=spells name=spells")
 
     def test_breathWeapon(self):
         """
         Breath weapons get parsed
         """
-        self.compare("Breath weapon", "kw= type=damaging name=Breath weapon")
+        self.compare("Breath weapon", "kw=useCategory:Su type=damaging name=Breath weapon")
         self.compare("Breath weapon (70 ft. cone of fire 24d10, DC 41), breath weapon (70 ft. cone of force 35d12, dc 50)", 
-                "kw=breathEffect:cone of fire/damage:24d10/dc:41/range:70 ft. type=damaging name=Breath weapon\n"
-                "kw=breathEffect:cone of force/damage:35d12/dc:50/range:70 ft. type=damaging name=Breath weapon")
+                "kw=breathEffect:cone of fire/damage:24d10/dc:41/range:70 ft./useCategory:Su type=damaging name=Breath weapon\n"
+                "kw=breathEffect:cone of force/damage:35d12/dc:50/range:70 ft./useCategory:Su type=damaging name=Breath weapon")
         self.compare("Breath weapon (70 ft. prismatic spray effect, Dc 41)",
-                "kw=breathEffect:prismatic spray effect/dc:41/range:70 ft. type=damaging name=Breath weapon")
+                "kw=breathEffect:prismatic spray effect/dc:41/range:70 ft./useCategory:Su type=damaging name=Breath weapon")
 
     def test_damaging(self):
         """
         Specials that cause damage can parse
         """
-        self.compare("trample", "kw= type=damaging name=trample")
+        self.compare("trample", "kw=useCategory:Ex type=damaging name=trample")
         self.compare("trample, triple damage",
-            "kw= type=damaging name=trample\n"
-            "kw= type=misc name=triple damage")
-        self.compare("Rend 4d6+18", "kw=damage:4d6+18 type=damaging name=Rend")
-        self.compare("Crush 2d8+13 (dc 26)", "kw=damage:2d8+13/dc:26 type=damaging name=Crush")
+                "kw=useCategory:Ex type=damaging name=trample\n"
+                "kw= type=misc name=triple damage")
+        self.compare("Rend 4d6+18", "kw=damage:4d6+18/useCategory:Ex type=damaging name=Rend")
+        self.compare("Crush 2d8+13 (dc 26)", "kw=damage:2d8+13/dc:26/useCategory:Ex type=damaging name=Crush")
         self.compare("Crush 2d8+13 plus 1d6 ninjas (dc 26)",
-                "kw=damage:2d8+13/dc:26/extraDamage:plus 1d6 ninjas type=damaging name=Crush")
+                "kw=damage:2d8+13/dc:26/extraDamage:plus 1d6 ninjas/useCategory:Ex type=damaging name=Crush")
         self.compare("Constrict 1d1+1 (arm), Constrict 2d2+2 (leg)",
-                "kw=damage:1d1+1/qualifier:arm type=damaging name=Constrict\n"
-                "kw=damage:2d2+2/qualifier:leg type=damaging name=Constrict")
+                "kw=damage:1d1+1/qualifier:arm/useCategory:Ex type=damaging name=Constrict\n"
+                "kw=damage:2d2+2/qualifier:leg/useCategory:Ex type=damaging name=Constrict")
 
     def test_spellLike(self):
         """
         Special abilities that are spell-like abilities are turned into spells
         """
         self.compare("entangle, sunbeam", 
-                "kw=spell:entangle type=spellLike name=Spell-like ability: entangle\n" 
-                "kw=spell:sunbeam type=spellLike name=Spell-like ability: sunbeam", 
+                "kw=spell:entangle/useCategory:Sp type=spellLike name=Spell-like ability: entangle\n" 
+                "kw=spell:sunbeam/useCategory:Sp type=spellLike name=Spell-like ability: sunbeam", 
             )
 
     def test_resistance(self):
@@ -143,14 +143,14 @@ class SpecialParserTest(unittest.TestCase):
         Special resistances with amounts can be parsed
         """
         self.compare("fire resistance 20", 
-                "kw=amount:20/damageType:fire type=resistance name=Resistance")
+                "kw=amount:20/damageType:fire/useCategory:Ex type=resistance name=Resistance")
 
     def test_summon(self):
         """
         Summon monsters
         """
         self.compare("Summon lesser demon of truth", 
-                "kw=summonType:lesser demon of truth type=summon name=Summon")
+                "kw=summonType:lesser demon of truth/useCategory:Sp type=summon name=Summon")
 
 
 class HUGESpecialParserTest(unittest.TestCase):

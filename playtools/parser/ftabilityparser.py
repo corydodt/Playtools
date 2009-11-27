@@ -23,10 +23,10 @@ class Perk(object):
     A special ability power
     """
     __slots__ = ['parsedBySLAXML', 'parsedBySpecialParser',
-    'useCategory', 'frequency', 'basis', 'dc',
-    'casterLevel', 'qualifier', 'breathEffect', 'damage', 'extraDamage',
-    'damageType', 'empathyType', 'familyName', 'range', 'level', 'summonType',
-    'amount', 'spell', 'name', 'useCategory', 'text', 'type']
+    'frequency', 'basis', 'dc', 'casterLevel', 'qualifier', 'breathEffect',
+    'damage', 'extraDamage', 'damageType', 'empathyType', 'familyName',
+    'range', 'level', 'summonType', 'amount', 'spell', 'name', 'useCategory',
+    'text', 'type']
 
     def __repr__(self):
         return ("Perk:{0.name}|{0.useCategory}|{0.frequency}|{0.basis}|"

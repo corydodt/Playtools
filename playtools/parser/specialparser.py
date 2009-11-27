@@ -315,7 +315,7 @@ class Processor(disp.DispatchProcessor):
                 setattr(q, k, v)
 
     def breathWeapon(self, (t,s1,s2,sub), buffer):
-        q = Perk("Breath weapon", "Supernatural", None)
+        q = Perk("Breath weapon", "Su", None)
         q.type = 'damaging'
         self.specialQualities.append(q)
 
