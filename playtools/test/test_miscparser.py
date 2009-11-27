@@ -1,12 +1,13 @@
 """
-Test for the parsing of saves
+Test for the parsing of some parsers of odds and ends
 """
 
 from twisted.trial import unittest
 
 from playtools.parser import misc
-from playtools import fact
+from playtools import fact, sparqly
 from playtools.common import C, FAM
+from playtools.plugins.d20srd35 import RDFDB
 
 SRD = fact.systems['D20 SRD']
 MONSTERS = SRD.facts['monster']
@@ -46,6 +47,7 @@ class MiscParserTest(unittest.TestCase):
         """
         Very simple family parser works
         """
+        sparqly.initRDFDatabase(RDFDB.graph)
         self.assertEqual(misc.parseFamily("Abomination"), FAM.abomination)
         self.assertEqual(misc.parseFamily("Abnegation"), "Abnegation")
 
