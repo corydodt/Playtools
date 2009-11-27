@@ -3,6 +3,7 @@ Test the database and object mapping abilities of playtools.sparqly
 """
 import os
 import xml
+from inspect import cleandoc 
 
 from twisted.trial import unittest
 from twisted.python.util import sibpath
@@ -321,22 +322,22 @@ class TriplesDbTestCase(unittest.TestCase, pttestutil.DiffTestCaseMixin):
         self.db.addTriple(STAFF.e1231, STAFF.supervisor, STAFF.e1001)
 
         actual = self.db.dump().split('\n')
-        expected = r"""
-@prefix _\d: <http://corp\.com/staff#>\.
-@prefix a: <http://a#>\.
-@prefix b: <http://b#>\.
+        expected = cleandoc(r"""
+            @prefix _\d: <http://corp\.com/staff#>\.
+            @prefix a: <http://a#>\.
+            @prefix b: <http://b#>\.
 
- <> <> \d\.
+             <> <> \d\.
 
- a:x a:y \d;
-     b:y \d\.
+             a:x a:y \d;
+                 b:y \d\.
 
- b:xb b:yb \d\.
+             b:xb b:yb \d\.
 
- _.:e1231 _\d:firstname "Michael";
-     _\d:lastname "Bolton";
-     _\d:supervisor _5:e1001\. 
-""".split('\n')
+             _.:e1231 _\d:firstname "Michael";
+                 _\d:lastname "Bolton";
+                 _\d:supervisor _5:e1001\. 
+            """.split('\n'))
         self.failIfRxDiff(expected, actual, "expected", "actual")
 
     def test_extendGraphFromFile(self):
