@@ -4,6 +4,7 @@ Test the generalized domain formatter architecture
 from __future__ import with_statement
 
 import string
+from inspect import cleandoc as cd
 
 from zope.interface import implements
 
@@ -36,12 +37,12 @@ class PublishTest(unittest.TestCase):
         class LatexGenericPublisher(object):
             name = 'latex'
             def format(self, building, title=None):
-                t = string.Template(r"""\documentclass[a4paper,12pt]{article}
-\begin{document}
-\section{$title}
-$body
-\end{document}
-""")
+                t = string.Template(cd(r"""\documentclass[a4paper,12pt]{article}
+                    \begin{document}
+                    \section{$title}
+                    $body
+                    \end{document}
+                    """))
                 if title is None:
                     title = building.name
                 r = t.substitute(title=title, body=building.full_text)
@@ -65,12 +66,12 @@ $body
 
             # 
             ret1 = publish.publish(bldg.lookup(u'2'), 'latex', title="badger house!")
-            self.assertEqual(ret1, r"""\documentclass[a4paper,12pt]{article}
-\begin{document}
-\section{badger house!}
-A castle (where badgers live)
-\end{document}
-""")
+            self.assertEqual(ret1, cd(r"""\documentclass[a4paper,12pt]{article}
+                \begin{document}
+                \section{badger house!}
+                A castle (where badgers live)
+                \end{document}
+                """))
 
             # when the publisher is NOT registered for a particular fact, we raise
             # an exception
@@ -80,12 +81,12 @@ A castle (where badgers live)
             # now register it and see it work
             publish.publishers[('Buildings & Badgers', 'badger', 'latex')] = latexBadgerPublisher
             ret2 = publish.publish(badg.lookup(u'73'), 'latex')
-            self.assertEqual(ret2, r"""\documentclass[a4paper,12pt]{article}
-\begin{document}
-\section{Giant Man-Eating Badger}
-Giant, hideous, bad-tempered space badger.
-\end{document}
-""")
+            self.assertEqual(ret2, cd(r"""\documentclass[a4paper,12pt]{article}
+                \begin{document}
+                \section{Giant Man-Eating Badger}
+                Giant, hideous, bad-tempered space badger.
+                \end{document}
+                """))
         finally:
             publish.publishers = orig_registry
         #
@@ -96,15 +97,15 @@ Giant, hideous, bad-tempered space badger.
         """
         bldg = self.bnb.facts['building']
         ret = publish.publish(bldg.lookup(u'2'), 'html', title="hello kitty")
-        self.assertEqual(ret, """<html><head>
-<title>hello kitty</title>
-</head>
-<body>
-<h1>hello kitty</h1>
-A castle (where badgers live)
-</body>
-</html>
-""")
+        self.assertEqual(ret, cd("""<html><head>
+            <title>hello kitty</title>
+            </head>
+            <body>
+            <h1>hello kitty</h1>
+            A castle (where badgers live)
+            </body>
+            </html>
+            """))
     #
 
     def test_override(self):
@@ -115,16 +116,16 @@ A castle (where badgers live)
             implements(IPublisher)
             name = 'html'
             def format(self, building, title=None, app=None):
-                t = string.Template(r"""<html><head>
-<title>$title - Goonmill</title>
-</head>
-<body>
-<h1>$title</h1>
-$body
-$app
-</body>
-</html>
-""")
+                t = string.Template(cd(r"""<html><head>
+                    <title>$title - Goonmill</title>
+                    </head>
+                    <body>
+                    <h1>$title</h1>
+                    $body
+                    $app
+                    </body>
+                    </html>
+                    """))
                 if title is None:
                     title = building.name
                 if app is None:
@@ -141,15 +142,15 @@ $app
         publish.override(bldg, htmlBuildingPublisher2)
 
         ret = publish.publish(bldg.lookup(u'2'), 'html', app="Goonmill")
-        self.assertEqual(ret, """<html><head>
-<title>Castle - Goonmill</title>
-</head>
-<body>
-<h1>Castle</h1>
-A castle (where badgers live)
-Goonmill
-</body>
-</html>
-""")
+        self.assertEqual(ret, cd("""<html><head>
+            <title>Castle - Goonmill</title>
+            </head>
+            <body>
+            <h1>Castle</h1>
+            A castle (where badgers live)
+            Goonmill
+            </body>
+            </html>
+            """))
         #
 

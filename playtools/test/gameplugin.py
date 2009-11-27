@@ -2,6 +2,7 @@
 A fake game system for testing game system plugins.
 """
 import string
+from inspect import cleandoc as cd
 
 from zope.interface import implements
 
@@ -102,15 +103,15 @@ class HTMLBuildingPublisher(publisherplugin.PublisherPlugin):
     implements(IPublisher)
     name = 'html'
     def format(self, building, title=None):
-        t = string.Template(r"""<html><head>
-<title>$title</title>
-</head>
-<body>
-<h1>$title</h1>
-$body
-</body>
-</html>
-""")
+        t = string.Template(cd(r"""<html><head>
+            <title>$title</title>
+            </head>
+            <body>
+            <h1>$title</h1>
+            $body
+            </body>
+            </html>
+            """))
         if title is None:
             title = building.name
         r = t.substitute(title=title, body=building.full_text)

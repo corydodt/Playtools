@@ -16,13 +16,13 @@ from playtools.test.pttestutil import pluck, TODO
 from playtools import sparqly
 
 TODO("""n3lint script""", """write a n3lint script that opens the triples database, and looks for anything
-created in property.n3 or characteristic.n3, and only appears once in the
-graph. (orphan Subjects)
+    created in property.n3 or characteristic.n3, and only appears once in the
+    graph. (orphan Subjects)
 
-ALSO! the script should look for any Predicate or Object that is referenced in
-the graph but is NOT a Subject in property.n3, or characteristic.n3,
-respsectively. (undefined Predicates/Objects)
-""")
+    ALSO! the script should look for any Predicate or Object that is referenced in
+    the graph but is NOT a Subject in property.n3, or characteristic.n3,
+    respsectively. (undefined Predicates/Objects)
+    """)
 
 
 import warnings
