@@ -341,9 +341,6 @@ def usingRDFDatabase(graph=None):
     e = None
     try:
         yield
-    except Exception, e:
-        pass
-    initRDFDatabase(old)
-    if e is not None:
-        raise e
+    finally:
+        initRDFDatabase(old)
 
