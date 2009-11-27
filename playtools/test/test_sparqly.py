@@ -200,13 +200,15 @@ class RDFAlchemyClassTestCase(unittest.TestCase):
         """
         db = TestableDatabase()
         db.extendFromFilename(sibpath(__file__, 'corp.n3'))
-        sparqly.rdfsPTClass.db = db.graph
+        oldGraph = sparqly.initRDFDatabase(db.graph)
         # peter has a label
         peter = Employee(STAFF.e1230)
         self.assertEqual(peter.label, u"Protagonist of Office Space, Peter Gibbons")
         # bill has no label
         bill = Employee(STAFF.e1001)
         self.assertEqual(bill.label, u"E1001")
+        # clean up
+        sparqly.initRDFDatabase(oldGraph)
 
 
 class TriplesDbTestCase(unittest.TestCase, pttestutil.DiffTestCaseMixin):

@@ -25,7 +25,7 @@ from rdflib.Literal import Literal as RDFLiteral
 from rdfalchemy.descriptors import rdfAbstract, rdfSingle
 from rdfalchemy.rdfsSubject import rdfsClass
 from rdfalchemy.rdfSubject import rdfSubject
-from rdfalchemy.orm import mapper
+from rdfalchemy.orm import mapper, allsub
 
 from playtools.common import RDFSNS, a as RDF_a
 
@@ -317,9 +317,18 @@ def initRDFDatabase(graph=None):
     Initialize the database of every mapped RDF class.  Returns the prior
     value of rdfSubject.db
     """
-    old = getattr(rdfSubject, 'db', None)
-    rdfSubject.db = graph
     mapper()
+    old = getattr(rdfSubject, 'db', None)
+
+    # recursively purge class-bound 'db' attributes, which might be
+    # polluted by other rdfalchemy code.  Instance-bound attributes should not
+    # be a problem since we'll be fetching new instances.
+    for sub in allsub(rdfSubject):
+        if 'db' in sub.__dict__: # hasattr returns true for superclasses, must
+                                 # check the subclass's own __dict__
+            del sub.db
+
+    rdfSubject.db = graph
     return old
 
 
