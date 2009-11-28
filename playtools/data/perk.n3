@@ -6,7 +6,12 @@
 <> rdfs:title "Special Abilities/Perks" .
 <> rdfs:comment "In old statblock format, these may be special qualities" .
 
-:lowLightVision a c:Sense; a c:Perk; rdfs:label "Low-Light Vision" .
+:lowLightVision
+    a c:Sense;
+    a c:Perk;
+    rdfs:label "Low-Light Vision";
+.
+
 :seeInDarkness
     a c:Sense;
     a c:Perk;
