@@ -48,7 +48,6 @@ class Explorer(cmd.Cmd):
 
     def do_SELECT(self, arg):
         """Begin a SPARQL query"""
-        base = self.store.base
         try:
             res = self.store.query('SELECT ' + arg)
         except SyntaxError, e:
