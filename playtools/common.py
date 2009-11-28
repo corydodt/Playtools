@@ -13,6 +13,7 @@ monsterNs = NS("http://goonmill.org/2007/monster.n3#")
 P = NS('http://goonmill.org/2007/property.n3#')
 C = NS('http://goonmill.org/2007/characteristic.n3#')
 FAM = NS('http://goonmill.org/2007/family.n3#')
+PERK = NS('http://goonmill.org/2009/perk.n3#')
 
 a = RDFNS.type
 

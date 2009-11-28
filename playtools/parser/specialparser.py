@@ -198,6 +198,11 @@ class Processor(disp.DispatchProcessor):
 
     otherAura = auraArg
 
+    def specialAC(self, (t,s1,s2,sub), buffer):
+        q = Perk(buffer[s1:s2].strip(), 'Ex', None)
+        q.type = 'specialAC'
+        self.specialQualities.append(q)
+
     def spells(self, (t,s1,s2,sub), buffer):
         q = Perk('spells', 'Sp', None)
         q.type = 'spells'
@@ -286,6 +291,7 @@ class Processor(disp.DispatchProcessor):
             """Spell-like abilities are spell-like UNLESS they are also
             encountered in the special_abilities block, and are tagged "Su" or
             "Ex" in that block.""")
+
     def miscQuality(self, (t,s1,s2,sub), buffer):
         ll = disp.dispatchList(self, sub, buffer)
         name = ll.pop(0)

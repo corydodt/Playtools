@@ -11,7 +11,7 @@ from twisted.trial import unittest
 from .. import fact
 from ..interfaces import IIndexable
 from playtools.plugins import d20srd35
-from playtools.common import featNs as FEAT, monsterNs as MONSTER, C
+from playtools.common import featNs as FEAT, monsterNs as MONSTER, C, PERK
 from playtools.test.pttestutil import pluck, TODO
 from playtools import sparqly
 
@@ -122,7 +122,7 @@ class SRD35TestCase(unittest.TestCase):
         """
         I can access the schema at all
         """
-        blindsight = d20srd35.Perk(d20srd35.CHAR.blindsight)
+        blindsight = d20srd35.Perk(PERK.blindsight)
         self.assertTrue(blindsight.isSense)
 
     def test_feat(self):

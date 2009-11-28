@@ -75,6 +75,10 @@ summonTarget          :=  (l/wsc)+
 summon                :=  c'summon', !, ws, summonTarget
 # }}}
 
+# special armor class {{{
+specialAC             :=  c'deflecting force'
+# }}}
+
 noArgumentQuality     :=  c'alternate form'/c'water breathing'/c'icewalking'/
                           c'cloudwalking'/c'spell-like abilities'/
                           c'psi-like abilities'/c'curse of lycanthropy'
@@ -134,7 +138,7 @@ breathWeapon          :=  c'breath weapon', !, (ws, breathDescriptor)?
                          damageReduction/regeneration/fastHealing/spells/
                          family/immunity/vulnerability/resistance/
                          frightfulPresence/breathWeapon/
-                         exAttack/summon/
+                         exAttack/summon/specialAC/
                          miscQuality
 
 empty                 :=  '-'

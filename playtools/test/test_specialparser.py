@@ -81,16 +81,12 @@ class SpecialParserTest(unittest.TestCase):
 
     def test_misc(self):
         """
-        Miscs can be captured, and their arguments are also captured
+        Misc Specials can parse
         """
         self.compare("Distraction", "kw= type=misc name=Distraction")
         self.compare("Distraction (dc 45)", "kw=dc:45 type=misc name=Distraction")
         self.compare("Distraction (butt-monkeys)", "kw=qualifier:butt-monkeys type=misc name=Distraction")
 
-    def test_misc(self):
-        """
-        Misc Specials can parse
-        """
         self.compare("alternate form", "kw= type=noArgumentQuality name=alternate form")
         self.compare("All-around vision, sonic blast", 
                 "kw= type=sense name=All-around vision\n"
@@ -101,6 +97,10 @@ class SpecialParserTest(unittest.TestCase):
         self.compare("Spell-like abilities, spells (caster level 10)", 
                 "kw= type=noArgumentQuality name=Spell-like abilities\n"
                 "kw=casterLevel:10/useCategory:Sp type=spells name=spells")
+
+    def test_specialAC(self):
+        self.compare('deflecting force', 
+            "kw=useCategory:Ex type=specialAC name=deflecting force")
 
     def test_breathWeapon(self):
         """
