@@ -86,7 +86,9 @@ spells                :=  c'spells', !, (ws, '(caster level ', !, spellsLevel, '
 
 # aura {{{
 auraArg               :=  (?-c'aura', qWord, ws)+
->aura<                :=  (c'aura of', !, ws, auraArg)/(auraArg, 'aura')
+>aura<                :=  (c'aura of', !, ws, auraArg)/
+                          (auraArg, 'aura')/otherAura
+otherAura             :=  c'null time field'
 # }}}
 
 # empathy {{{

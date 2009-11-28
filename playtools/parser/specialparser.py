@@ -196,6 +196,8 @@ class Processor(disp.DispatchProcessor):
         q.damageType = buffer[s1:s2].strip()
         self.specialQualities.append(q)
 
+    otherAura = auraArg
+
     def spells(self, (t,s1,s2,sub), buffer):
         q = Perk('spells', 'Sp', None)
         q.type = 'spells'
