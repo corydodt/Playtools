@@ -2,7 +2,7 @@
 @prefix : <http://goonmill.org/2007/family.n3#>.
 @prefix p: <http://goonmill.org/2007/property.n3#> .
 @prefix c: <http://goonmill.org/2007/characteristic.n3#>.
-@prefix pk: <http://goonmill.org/2007/perk.n3#>.
+@prefix pk: <http://goonmill.org/2009/perk.n3#>.
 @prefix s: <http://goonmill.org/2007/skill.n3#>.
 
 @prefix die: <http://goonmill.org/2007/dice.n3#>.
